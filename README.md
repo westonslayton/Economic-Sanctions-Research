@@ -1,1 +1,1 @@
-# Econ_Sanctions
+# Econ Sanctions
