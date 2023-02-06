@@ -1,0 +1,174 @@
+---
+title: "Sanctions"
+format: html
+editor: visual
+---
+
+UNSD EMAIL\>\>\>CALL IF DON'T ANSWER
+
+```{r}
+#|: loading-necessary-pkgs
+
+library(tidyverse)
+library(tidymodels)
+library(httr)
+library(jsonlite)
+library(rjson)
+```
+
+```{r}
+#|: getting-codes-and-assoc-countries-for-queries
+
+string <- "http://comtrade.un.org/data/cache/partnerAreas.json"
+reporters <- fromJSON(file=string)
+reporters <- as.data.frame(t(sapply(reporters$results,rbind)))
+country_codes <- reporters$V1
+```
+
+```{r}
+#|: function-to-access-API-for-data-queries
+
+get.Comtrade <- function(url="http://comtrade.un.org/api/get?"
+                         ,maxrec=50000
+                         ,type="C"
+                         ,freq="A"
+                         ,px="HS"
+                         ,ps="now"
+                         ,r
+                         ,p
+                         ,rg="all"
+                         ,cc="TOTAL"
+                         ,fmt="json"
+)
+{
+  string<- paste(url
+                 ,"max=",maxrec,"&" #maximum no. of records returned
+                 ,"type=",type,"&" #type of trade (c = commodities)
+                 ,"freq=",freq,"&" #frequency
+                 ,"px=",px,"&" #classification
+                 ,"ps=",ps,"&" #time period
+                 ,"r=",r,"&" #reporting area (the exporter)
+                 ,"p=",p,"&" #partner country
+                 ,"rg=",rg,"&" #trade flow (2 for exports)
+                 ,"cc=",cc,"&" #classification code
+                 ,"fmt=",fmt #Format
+                 ,sep = ""
+  )
+  #print(string)
+  if(fmt == "csv") {
+    raw.data <- read.csv(string,header=TRUE)
+    #return(list(validation=NULL, data=raw.data))
+    return(raw.data)
+  } else {
+    if(fmt == "json" ) {
+      raw.data<- fromJSON(file=string)
+      data<- raw.data$dataset
+      validation<- unlist(raw.data$validation, recursive=TRUE)
+      ndata<- NULL
+      if(length(data)> 0) {
+        var.names<- names(data[[1]])
+        data<- as.data.frame(t( sapply(data,rbind)))
+        ndata<- NULL
+        for(i in 1:ncol(data)){
+          data[sapply(data[,i],is.null),i]<- NA
+          ndata<- cbind(ndata, unlist(data[,i]))
+        }
+        ndata<- as.data.frame(ndata)
+        colnames(ndata)<- var.names
+      }
+      #return(list(validation=validation,data =ndata))
+      return(ndata)
+    }
+  }
+}
+```
+
+```{r}
+#|: getting-2016-usa-data
+#trade value is in US dollars
+
+#usa <- fromJSON(file = "https://comtradeapi.un.org/bulk/v1/get/S/M/HS?300&2022&subscription-key=54c241004d63420fa044022af39d9866")
+
+usa1 <- get.Comtrade(r = "842", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
+usa2 <- get.Comtrade(r = "842", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
+usa3 <- get.Comtrade(r = "842", p = "0", ps = "201607,201608,201609", freq = "M",rg = 2)
+usa4 <- get.Comtrade(r = "842", p = "0", ps = "201610,201611,201612", freq = "M",rg = 2)
+usa <- rbind(usa1, usa2, usa3, usa4)
+usa <- usa |>
+  mutate(
+    TradeValue = as.numeric(TradeValue)
+  )
+usa |> view()
+sum(usa$TradeValue)
+```
+
+```{r}
+#|: getting-2016-russia-data
+#trade value is in US dollars
+
+rus1 <- get.Comtrade(r="643", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
+rus2 <- get.Comtrade(r="643", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
+rus3 <- get.Comtrade(r="643", p = "0", ps = "201607,201608,201609", freq = "M",rg = 2)
+rus4 <- get.Comtrade(r="643", p = "0", ps = "201610,201611,201612", freq = "M",rg = 2)
+rus <- rbind(rus1, rus2, rus3, rus4)
+rus <- rus |>
+  mutate(
+    TradeValue = as.numeric(TradeValue)
+  )
+sum(rus$TradeValue)
+view(rus)
+```
+
+```{r}
+#|: getting-2016-france-data
+#trade value is in US dollars
+
+fr1 <- get.Comtrade(r="250", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
+fr2 <- get.Comtrade(r="250", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
+fr3 <- get.Comtrade(r="250", p = "0", ps = "201607,201608,201609", freq = "M",rg = 2)
+fr4 <- get.Comtrade(r="250", p = "0", ps = "201610,201611,201612", freq = "M",rg = 2)
+fr <- rbind(fr1, fr2, fr3, fr4)
+fr <- fr |>
+  mutate(
+    TradeValue = as.numeric(TradeValue)
+  )
+sum(fr$TradeValue)
+view(fr)
+```
+
+```{r}
+#|: testing-limited-API-call-loop
+
+df <- data.frame()
+counter <- 1
+while (counter < 11) {
+    df <- rbind(df, data.frame(get.Comtrade(r = "842", p = country_codes[[counter]], ps = "201601,201602,201603", freq = "M",rg = 2)))
+    counter <- counter + 1
+}
+df |> view()
+country_codes[[1]]
+country_codes |> view()
+```
+
+```{r}
+#|: loop-for-every-country-pair
+
+big_df <- data.frame()
+for (country in country_list) {
+  for (partner in country_list) {
+    if (partner != country) {
+      bigdf <- rbind(
+        big_df, data.frame(
+          get.Comtrade(
+            r = country, 
+            p = partner, 
+            ps = "202201,202202,202203", 
+            freq = "M",
+            rg = 2
+          )
+        )
+      )
+    }
+  }
+}
+```
