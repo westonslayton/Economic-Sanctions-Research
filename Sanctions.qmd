@@ -204,7 +204,7 @@ wb_indicators <- wb_cachelist$indicators |> view()
 #in USD + years
 
 gdp <- c("GDP" = "NY.GDP.MKTP.CD")
-gdp_per_country <- wb_data(gdp, country = "all", start_date = 2017, end_date = 2022) |> 
+gdp_per_country <- wb_data(gdp, country = "all", start_date = 2016, end_date = 2022) |> 
   select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(GDP))
 gdp_per_country |> view()
 write_xlsx(gdp_per_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/gdp.xlsx")
@@ -215,7 +215,7 @@ total_exports_by_country <-
   wb_data(
     exports, 
     country = "all", 
-    start_date = 2017, 
+    start_date = 2016, 
     end_date = 2022
   ) |> 
   select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(total_exports))
