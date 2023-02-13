@@ -4,12 +4,13 @@ format: html
 editor: visual
 ---
 
-UNSD EMAIL\>\>\>CALL IF DON'T ANSWER
-
 ```{r}
 #|: loading-necessary-pkgs
 
-library(tidyverse)
+library(tempdisagg)
+library(tsbox)
+library(wbstats) #pkg for country GDPs from World Bank
+library(tidyverse) 
 library(tidymodels)
 library(httr)
 library(jsonlite)
@@ -17,7 +18,7 @@ library(rjson)
 ```
 
 ```{r}
-#|: getting-codes-and-assoc-countries-for-queries
+#|: getting-codes-and-assoc-countries-for-Comtrade-API
 
 string <- "http://comtrade.un.org/data/cache/partnerAreas.json"
 reporters <- fromJSON(file=string)
@@ -26,7 +27,7 @@ country_codes <- reporters$V1
 ```
 
 ```{r}
-#|: function-to-access-API-for-data-queries
+#|: function-to-access-Comtrade-API-for-per-country-exports
 
 get.Comtrade <- function(url="http://comtrade.un.org/api/get?"
                          ,maxrec=50000
@@ -84,8 +85,8 @@ get.Comtrade <- function(url="http://comtrade.un.org/api/get?"
 ```
 
 ```{r}
-#|: getting-2016-usa-data
-#trade value is in US dollars
+#|: getting-2016-usa-to-world-exports
+#in US dollars + monthly
 
 #usa <- fromJSON(file = "https://comtradeapi.un.org/bulk/v1/get/S/M/HS?300&2022&subscription-key=54c241004d63420fa044022af39d9866")
 
@@ -103,8 +104,8 @@ sum(usa$TradeValue)
 ```
 
 ```{r}
-#|: getting-2016-russia-data
-#trade value is in US dollars
+#|: getting-2016-russia-to-world-exports
+#in US dollars + monthly
 
 rus1 <- get.Comtrade(r="643", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
 rus2 <- get.Comtrade(r="643", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
@@ -120,44 +121,50 @@ view(rus)
 ```
 
 ```{r}
-#|: getting-2016-france-data
-#trade value is in US dollars
+#|: getting-2016-france-to-world-exports
+#trade value is in US dollars + monthly
+#nonexistent...?
 
 fr1 <- get.Comtrade(r="250", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
 fr2 <- get.Comtrade(r="250", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
 fr3 <- get.Comtrade(r="250", p = "0", ps = "201607,201608,201609", freq = "M",rg = 2)
 fr4 <- get.Comtrade(r="250", p = "0", ps = "201610,201611,201612", freq = "M",rg = 2)
 fr <- rbind(fr1, fr2, fr3, fr4)
-fr <- fr |>
+if (!is.null(fr)) {
+  fr <- fr |>
   mutate(
     TradeValue = as.numeric(TradeValue)
   )
-sum(fr$TradeValue)
-view(fr)
+  sum(fr$TradeValue)
+  view(fr)
+} else { 
+  print("null")
+}
 ```
 
 ```{r}
 #|: testing-limited-API-call-loop
+#to avoid timing out due to limited # of API calls
 
 df <- data.frame()
 counter <- 1
 while (counter < 11) {
-    df <- rbind(df, data.frame(get.Comtrade(r = "842", p = country_codes[[counter]], ps = "201601,201602,201603", freq = "M",rg = 2)))
+    df <- rbind(df, data.frame(get.Comtrade(r = "842", p = country_codes[[counter]], ps = "202001,202002,202003", freq = "M",rg = 2)))
     counter <- counter + 1
 }
+df <- df |> distinct(yr, period, rtCode, rtTitle, ptCode, ptTitle, TradeValue)
 df |> view()
-country_codes[[1]]
-country_codes |> view()
 ```
 
 ```{r}
 #|: loop-for-every-country-pair
+#in theory...
 
 big_df <- data.frame()
 for (country in country_list) {
   for (partner in country_list) {
     if (partner != country) {
-      bigdf <- rbind(
+      big_df <- rbind(
         big_df, data.frame(
           get.Comtrade(
             r = country, 
@@ -171,4 +178,37 @@ for (country in country_list) {
     }
   }
 }
+big_df <- big_df |> distinct(yr, period, rtCode, rtTitle, ptCode, ptTitle, TradeValue) big_df |> view()
+```
+
+```{r}
+#|: for-finding-stuff-in-wbstats
+
+wbsearch("Total Export") |> view()
+str(wb_cachelist, max.level = 1)
+wb_indicators <- wb_cachelist$indicators |> view()
+```
+
+```{r}
+#|: using-wbstats-pkg-to-get-GDPs
+#in US dollars + years
+
+gdp <- c("GDP" = "NY.GDP.MKTP.CD")
+gdp_per_country <- wb_data(gdp, country = "all", mrv = 1) |> 
+  select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(GDP))
+gdp_per_country |> view()
+```
+
+```{r}
+#|: freq-conversion
+#tsbox attempt
+
+ts_frequency(gdp_per_country, to = "month", aggregate = "mean", na.rm = FALSE) |> view()
+
+#tempdisagg attempt
+data(swisspharma)
+plot(sales.a)
+sales.a |> view()
+m1 <- td(sales.a ~ 1, to = "quarterly", method = "denton-cholette")
+predict(m1) |> view()
 ```
