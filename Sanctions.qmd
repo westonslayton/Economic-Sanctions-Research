@@ -7,8 +7,9 @@ editor: visual
 ```{r}
 #|: loading-necessary-pkgs
 
-library(tempdisagg)
-library(tsbox)
+library(writexl) #for writing Excel files
+library(tempdisagg) #trying to use for freq conv
+library(tsbox) #also trying to use for freq conv
 library(wbstats) #pkg for country GDPs from World Bank
 library(tidyverse) 
 library(tidymodels)
@@ -149,8 +150,17 @@ if (!is.null(fr)) {
 df <- data.frame()
 counter <- 1
 while (counter < 11) {
-    df <- rbind(df, data.frame(get.Comtrade(r = "842", p = country_codes[[counter]], ps = "202001,202002,202003", freq = "M",rg = 2)))
-    counter <- counter + 1
+  df <- rbind(
+    df, 
+    data.frame(get.Comtrade(
+      r = "842", 
+      p = country_codes[[counter]], 
+      ps = "202001,202002,202003", 
+      freq = "M",
+      rg = 2)
+    )
+  )
+  counter <- counter + 1
 }
 df <- df |> distinct(yr, period, rtCode, rtTitle, ptCode, ptTitle, TradeValue)
 df |> view()
@@ -184,19 +194,32 @@ big_df <- big_df |> distinct(yr, period, rtCode, rtTitle, ptCode, ptTitle, Trade
 ```{r}
 #|: for-finding-stuff-in-wbstats
 
-wbsearch("Total Export") |> view()
+wb_search("Export") |> view()
 str(wb_cachelist, max.level = 1)
 wb_indicators <- wb_cachelist$indicators |> view()
 ```
 
 ```{r}
-#|: using-wbstats-pkg-to-get-GDPs
+#|: using-wbstats-pkg-to-get-GDPs-and-total-exports
 #in US dollars + years
 
 gdp <- c("GDP" = "NY.GDP.MKTP.CD")
-gdp_per_country <- wb_data(gdp, country = "all", mrv = 1) |> 
+gdp_per_country <- wb_data(gdp, country = "all", start_date = 2017, end_date = 2022) |> 
   select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(GDP))
 gdp_per_country |> view()
+write_xlsx(gdp_per_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/gdp.xlsx")
+
+exports <- c("total_exports" ="BX.GSR.GNFS.CD")
+total_exports_by_country <- 
+  wb_data(
+    exports, 
+    country = "all", 
+    start_date = 2017, 
+    end_date = 2022
+  ) |> 
+  select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(total_exports))
+total_exports_by_country |> view()
+write_xlsx(total_exports_by_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/exports.xlsx")
 ```
 
 ```{r}
