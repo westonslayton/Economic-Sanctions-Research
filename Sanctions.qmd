@@ -6,7 +6,7 @@ editor: visual
 
 ```{r}
 #|: loading-necessary-pkgs
-
+print(hello)
 library(tempdisagg)
 library(tsbox)
 library(wbstats) #pkg for country GDPs from World Bank
