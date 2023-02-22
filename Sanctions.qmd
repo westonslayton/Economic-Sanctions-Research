@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-```{r}
+```{r message = FALSE}
 #|: loading-necessary-pkgs
 
 library(writexl) #for writing Excel files
@@ -207,7 +207,7 @@ gdp <- c("GDP" = "NY.GDP.MKTP.CD")
 gdp_per_country <- wb_data(gdp, country = "all", start_date = 2016, end_date = 2022) |> 
   select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(GDP))
 gdp_per_country |> view()
-write_xlsx(gdp_per_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/gdp.xlsx")
+#write_xlsx(gdp_per_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/gdp.xlsx")
 
 #also in USD + years
 exports <- c("total_exports" ="BX.GSR.GNFS.CD")
@@ -220,7 +220,7 @@ total_exports_by_country <-
   ) |> 
   select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(total_exports))
 total_exports_by_country |> view()
-write_xlsx(total_exports_by_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/exports.xlsx")
+#write_xlsx(total_exports_by_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/exports.xlsx")
 ```
 
 ```{r}
@@ -235,4 +235,24 @@ plot(sales.a)
 sales.a |> view()
 m1 <- td(sales.a ~ 1, to = "quarterly", method = "denton-cholette")
 predict(m1) |> view()
+```
+
+```{r}
+#|: load-imf.py-test
+
+test <- read_csv("data/test.csv")
+view(test)
+test <- test |>
+  mutate(
+    col
+  )
+typeof(test$W00)
+typeof(test$B0)
+test <- pivot_longer(
+  test, 
+  !...1,
+  names_to = "country",
+  values_to = "value"
+)
+view(test)
 ```
