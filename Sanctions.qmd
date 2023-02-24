@@ -264,3 +264,15 @@ test2 <- read_csv("data/export_ex.csv")
 test2 <- test2 |> select(-c(...1))
 view(test2)
 ```
+
+```{r}
+#|: cleaning-up-check-csv-for-Morad-to-double-check-numbers
+
+check <- read_csv("data/check.csv")
+colnames(check)[1] <- "country"
+colnames(check)[5] <- "partner"
+check <- check |> select(-c(...11))
+check <- check[with(check, order(country, partner)), ]
+view(check)
+write_csv(check, "data/imfcheck.csv")
+```
