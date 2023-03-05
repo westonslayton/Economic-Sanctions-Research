@@ -5,6 +5,7 @@ from imfpy import searches
 #from imfpy.retrievals import dots
 import time
 import ret
+import json
 
 #for handling API timeouts
 #time.sleep(5)
@@ -26,64 +27,72 @@ param = [('dataset', 'DOT'),
          ('start', '?startPeriod=2022')]
 series = '.'.join([i[1] for i in param[1:5]])
 
-#form rest of url after root
+#f orm rest of url after root
 key = f'CompactData/{param[0][1]}/{series}{param[-1][1]}'
-#key = f'CompactData/DOT/M..TXG_FOB_USD..?startPeriod=2022'
-#key = f'CompactData/DOT/A.FR.TXG_FOB_USD.IT.?startPeriod=2022'
-#combine API url with key specific to data request
+key = f'CompactData/DOT/M.IT.TXG_FOB_USD.FR.?startPeriod=2022'
+# key = f'CompactData/DOT/A.FR.TXG_FOB_USD.IT.?startPeriod=2022'
+
+# combine API url with key specific to data request
 r = requests.get(f'{url}{key}').json()
+# print(r)
+# data portion of results
+json_obj = json.dumps(r, indent=1)
+with open(os.getcwd() + "/small_file.json", "w") as outfile:
+    outfile.write(json_obj)
+# compact data, dataset, series
+data = r['CompactData']['DataSet']
 
-#data portion of results
-data = r['CompactData']['DataSet']['Series']
-#print(data)
+for o in s['Obs'] for s in data['Series'] !!!
 
-#create pandas data frame from the observations
-data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-    for obs in data['Obs']]
-df = pd.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
+# print(data)
 
-#adding country + partner columns to data frame
-df["Country"] = param[2][1]
-df["Partner"] = param[4][1]
+# #create pandas data frame from the observations
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#     for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
 
-#save cleaned dataframe as a csv file and save to data folder
-df.to_csv('export_ex.csv', header = True)
-cwd = os.getcwd() + "/data"
-df.to_csv(os.path.join(cwd, "tryme.csv"), header = True)
+# #adding country + partner columns to data frame
+# df["Country"] = param[2][1]
+# df["Partner"] = param[4][1]
 
-
-#second data set
-param = [('dataset', 'DOT'),
-        ('freq', 'M'),
-        ('country', 'IT'),
-        ('series', 'TXG_FOB_USD'),
-        ('partner', 'FR+BR+CL+CO'),
-        ('start', '?startPeriod=2022')]
-series = '.'.join([i[1] for i in param[1:5]])
+# #save cleaned dataframe as a csv file and save to data folder
+# df.to_csv('export_ex.csv', header = True)
+# cwd = os.getcwd() + "/data"
+# df.to_csv(os.path.join(cwd, "tryme.csv"), header = True)
 
 
-key = f'CompactData/{param[0][1]}/{series}{param[-1][1]}'
+# #second data set
+# param = [('dataset', 'DOT'),
+#         ('freq', 'M'),
+#         ('country', 'IT'),
+#         ('series', 'TXG_FOB_USD'),
+#         ('partner', 'CO'),
+#         ('start', '?startPeriod=2022')]
+# series = '.'.join([i[1] for i in param[1:5]])
 
 
-r = requests.get(f'{url}{key}').json()
-data = r['CompactData']['DataSet']['Series']
+# key = f'CompactData/{param[0][1]}/{series}{param[-1][1]}'
 
 
-data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-   for obs in data['Obs']]
-df2 = pd.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
+# r = requests.get(f'{url}{key}').json()
+# data = r['CompactData']['DataSet']['Series']
 
 
-df2["Country"] = param[2][1]
-df2["Partner"] = param[4][1]
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#    for obs in data['Obs']]
+# df2 = pd.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
 
 
-#combining both data sets
-df = pd.concat([df, df2])
+# df2["Country"] = param[2][1]
+# df2["Partner"] = param[4][1]
 
 
-cwd = os.getcwd() + "/data"
-df.to_csv(os.path.join(cwd, "checkmate.csv"), header = True)
+# #combining both data sets
+# df = pd.concat([df, df2])
+
+
+# cwd = os.getcwd() + "/data"
+# df.to_csv(os.path.join(cwd, "checkmate.csv"), header = True)
 
 
 

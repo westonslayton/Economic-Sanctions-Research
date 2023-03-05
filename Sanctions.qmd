@@ -201,26 +201,22 @@ wb_indicators <- wb_cachelist$indicators |> view()
 
 ```{r}
 #|: using-wbstats-pkg-to-get-GDPs-and-total-exports
-#in USD + years
+#in USD + years 
 
 gdp <- c("GDP" = "NY.GDP.MKTP.CD")
-gdp_per_country <- wb_data(gdp, country = "all", start_date = 2016, end_date = 2022) |> 
-  select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(GDP))
-gdp_per_country |> view()
-#write_xlsx(gdp_per_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/gdp.xlsx")
-
-#also in USD + years
 exports <- c("total_exports" ="BX.GSR.GNFS.CD")
-total_exports_by_country <- 
-  wb_data(
-    exports, 
-    country = "all", 
-    start_date = 2016, 
-    end_date = 2022
-  ) |> 
-  select(-c(iso2c, iso3c, unit, obs_status, footnote)) |> filter(!is.na(total_exports))
-total_exports_by_country |> view()
-#write_xlsx(total_exports_by_country, "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/exports.xlsx")
+indicators <- c(gdp, exports)
+
+total <- wb_data(
+  indicators, 
+  country = "all",
+  mrv = 5
+)
+view(total)
+#write_xlsx(
+# total, 
+# "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/wb_both.xlsx")
+#write_csv(total, "data/wb_both.csv")
 ```
 
 ```{r}
@@ -258,7 +254,7 @@ view(test)
 ```
 
 ```{r}
-#|: another-test-with-actual-export-data
+#|: another-IMF-test-with-actual-export-data
 
 test2 <- read_csv("data/export_ex.csv")
 test2 <- test2 |> select(-c(...1))
