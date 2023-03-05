@@ -1,10 +1,6 @@
 import requests
 import os
 import pandas as pd
-from imfpy import searches
-#from imfpy.retrievals import dots
-import time
-import ret
 import json
 
 #for handling API timeouts
@@ -42,7 +38,7 @@ with open(os.getcwd() + "/small_file.json", "w") as outfile:
 # compact data, dataset, series
 data = r['CompactData']['DataSet']
 
-for o in s['Obs'] for s in data['Series'] !!!
+# for o in s['Obs'] for s in data['Series'] !!!
 
 # print(data)
 

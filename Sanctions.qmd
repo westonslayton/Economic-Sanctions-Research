@@ -212,6 +212,7 @@ total <- wb_data(
   country = "all",
   mrv = 5
 )
+
 view(total)
 #write_xlsx(
 # total, 
