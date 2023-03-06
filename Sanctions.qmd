@@ -195,6 +195,7 @@ big_df <- big_df |> distinct(yr, period, rtCode, rtTitle, ptCode, ptTitle, Trade
 #|: for-finding-stuff-in-wbstats
 
 wb_search("Export") |> view()
+wb_search("GDP") |> view()
 str(wb_cachelist, max.level = 1)
 wb_indicators <- wb_cachelist$indicators |> view()
 ```
@@ -252,24 +253,4 @@ test <- pivot_longer(
   values_to = "value"
 )
 view(test)
-```
-
-```{r}
-#|: another-IMF-test-with-actual-export-data
-
-test2 <- read_csv("data/export_ex.csv")
-test2 <- test2 |> select(-c(...1))
-view(test2)
-```
-
-```{r}
-#|: cleaning-up-check-csv-for-Morad-to-double-check-numbers
-
-check <- read_csv("data/check.csv")
-colnames(check)[1] <- "country"
-colnames(check)[5] <- "partner"
-check <- check |> select(-c(...11))
-check <- check[with(check, order(country, partner)), ]
-view(check)
-write_csv(check, "data/imfcheck.csv")
 ```
