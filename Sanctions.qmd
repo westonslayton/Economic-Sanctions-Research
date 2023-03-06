@@ -10,12 +10,33 @@ editor: visual
 library(writexl) #for writing Excel files
 library(tempdisagg) #trying to use for freq conv
 library(tsbox) #also trying to use for freq conv
-library(wbstats) #pkg for country GDPs from World Bank
+library(wbstats) #for country GDPs from World Bank
 library(tidyverse) 
 library(tidymodels)
+library(reticulate) #for running python stuff
 # library(httr)
 # library(jsonlite)
 # library(rjson)
+```
+
+```{r}
+#|: importing-python-pkgs
+
+os <- import("os")
+requests <- import("requests")
+json <- import("json")
+pandas <- import("pandas")
+comtrade <- import("comtradeapicall")
+py_install("pandas")
+py_install("requests")
+# py_install("comtradeapicall")
+```
+
+```{r}
+#|: bringing-in-python-scripts
+
+source_python("comtrade.py")
+source_python("imf.py")
 ```
 
 ```{r}

@@ -1,15 +1,7 @@
 import requests
 import os
-import pandas as pd
+import pandas
 import json
-
-#for handling API timeouts
-#time.sleep(5)
-
-#getting country codes and writing to csv
-#df = searches.country_codes()
-#cwd = os.getcwd() + "/data"
-#df.to_csv(os.path.join(cwd, "country_codes.csv"), header = True)
 
 #root url
 url = 'http://dataservices.imf.org/REST/SDMX_JSON.svc/'
@@ -45,7 +37,7 @@ data = r['CompactData']['DataSet']
 # #create pandas data frame from the observations
 # data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
 #     for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
+# df = pandas.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
 
 # #adding country + partner columns to data frame
 # df["Country"] = param[2][1]
@@ -76,7 +68,7 @@ data = r['CompactData']['DataSet']
 
 # data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
 #    for obs in data['Obs']]
-# df2 = pd.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
+# df2 = pandas.DataFrame(data_list, columns = ["Date", "Value (Millions USD)"])
 
 
 # df2["Country"] = param[2][1]
@@ -84,7 +76,7 @@ data = r['CompactData']['DataSet']
 
 
 # #combining both data sets
-# df = pd.concat([df, df2])
+# df = pandas.concat([df, df2])
 
 
 # cwd = os.getcwd() + "/data"
