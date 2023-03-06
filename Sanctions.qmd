@@ -21,7 +21,7 @@ library(reticulate) #for running python stuff
 
 ```{r}
 #|: importing-python-pkgs
-
+reticulate::use_virtualenv("venv")
 os <- import("os")
 requests <- import("requests")
 json <- import("json")

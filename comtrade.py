@@ -1,4 +1,4 @@
-import comtradeapicall
+import pacman
 import pandas
 import os
 
@@ -10,7 +10,7 @@ def get_all_exports(freq : str, year : list):
     date = year
     if freq == 'M':
         date = f'{year}01,{year}02,{year}03,{year}04,{year}05,{year}06,{year}07,{year}08,{year}09,{year}10,{year}11,{year}12'
-    mydf = comtradeapicall.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
+    mydf = pacman.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
                                     reporterCode=None, cmdCode='TOTAL', flowCode='X', partnerCode=None,
                                     partner2Code=None,
                                     customsCode=None, motCode=None, maxRecords=None, format_output='JSON',
@@ -24,7 +24,7 @@ def get_total_exports(freq : str, year : list):
     date = year
     if freq == 'M':
         date = f'{year}01,{year}02,{year}03,{year}04,{year}05,{year}06,{year}07,{year}08,{year}09,{year}10,{year}11,{year}12'
-    mydf = comtradeapicall.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
+    mydf = pacman.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
                                     reporterCode=None, cmdCode='TOTAL', flowCode='X', partnerCode=0,
                                     partner2Code=None,
                                     customsCode=None, motCode=None, maxRecords=None, format_output='JSON',
@@ -34,11 +34,11 @@ def get_total_exports(freq : str, year : list):
     df.to_csv(os.path.join(directory, file_name), header = True)
 
 # function to get all available reporters and partners
-def get_countries():
-    df = comtradeapicall.getReference('reporter')
-    df.to_csv(os.path.join(directory, 'comtrade_reporters.csv'), header = True)
-    df = comtradeapicall.getReference('partner')
-    df.to_csv(os.path.join(directory, 'comtrade_partners.csv'), header = True)
+# def get_countries():
+#     df = pacman.getReference('reporter')
+#     df.to_csv(os.path.join(directory, 'comtrade_reporters.csv'), header = True)
+#     df = pacman.getReference('partner')
+#     df.to_csv(os.path.join(directory, 'comtrade_partners.csv'), header = True)
 
 # putting it all together
 def main():
@@ -47,8 +47,8 @@ def main():
     print("")
     freq = input("What frequency do you want for this data? Type M for monthly, A for annual, or B for both.\n")
     print("")
-    countries = input("Do you want a list of all reporting and partner countries? Type Y for yes and N for no.\n")
-    print("")
+    # countries = input("Do you want a list of all reporting and partner countries? Type Y for yes and N for no.\n")
+    # print("")
     print("Processing.... It will take a few minutes.")
     print("")
     if (freq == 'B'):
@@ -59,8 +59,8 @@ def main():
     else:
         get_all_exports(freq, year)
         get_total_exports(freq, year)
-    if (countries == "Y"): 
-        get_countries()
+    # if (countries == "Y"): 
+        # get_countries()
     print("All done! Check the data folder to see your new files.\n")
 
 if __name__ == "__main__":
