@@ -13,182 +13,9 @@ library(tsbox) #also trying to use for freq conv
 library(wbstats) #pkg for country GDPs from World Bank
 library(tidyverse) 
 library(tidymodels)
-library(httr)
-library(jsonlite)
-library(rjson)
-```
-
-```{r}
-#|: getting-codes-and-assoc-countries-for-Comtrade-API
-
-string <- "http://comtrade.un.org/data/cache/partnerAreas.json"
-reporters <- fromJSON(file=string)
-reporters <- as.data.frame(t(sapply(reporters$results,rbind)))
-country_codes <- reporters$V1
-```
-
-```{r}
-#|: function-to-access-Comtrade-API-for-per-country-exports
-
-get.Comtrade <- function(url="http://comtrade.un.org/api/get?"
-                         ,maxrec=50000
-                         ,type="C"
-                         ,freq="A"
-                         ,px="HS"
-                         ,ps="now"
-                         ,r
-                         ,p
-                         ,rg="all"
-                         ,cc="TOTAL"
-                         ,fmt="json"
-)
-{
-  string<- paste(url
-                 ,"max=",maxrec,"&" #maximum no. of records returned
-                 ,"type=",type,"&" #type of trade (c = commodities)
-                 ,"freq=",freq,"&" #frequency
-                 ,"px=",px,"&" #classification
-                 ,"ps=",ps,"&" #time period
-                 ,"r=",r,"&" #reporting area (the exporter)
-                 ,"p=",p,"&" #partner country
-                 ,"rg=",rg,"&" #trade flow (2 for exports)
-                 ,"cc=",cc,"&" #classification code
-                 ,"fmt=",fmt #Format
-                 ,sep = ""
-  )
-  #print(string)
-  if(fmt == "csv") {
-    raw.data <- read.csv(string,header=TRUE)
-    #return(list(validation=NULL, data=raw.data))
-    return(raw.data)
-  } else {
-    if(fmt == "json" ) {
-      raw.data<- fromJSON(file=string)
-      data<- raw.data$dataset
-      validation<- unlist(raw.data$validation, recursive=TRUE)
-      ndata<- NULL
-      if(length(data)> 0) {
-        var.names<- names(data[[1]])
-        data<- as.data.frame(t( sapply(data,rbind)))
-        ndata<- NULL
-        for(i in 1:ncol(data)){
-          data[sapply(data[,i],is.null),i]<- NA
-          ndata<- cbind(ndata, unlist(data[,i]))
-        }
-        ndata<- as.data.frame(ndata)
-        colnames(ndata)<- var.names
-      }
-      #return(list(validation=validation,data =ndata))
-      return(ndata)
-    }
-  }
-}
-```
-
-```{r}
-#|: getting-2016-usa-to-world-exports
-#in US dollars + monthly
-
-#usa <- fromJSON(file = "https://comtradeapi.un.org/bulk/v1/get/S/M/HS?300&2022&subscription-key=54c241004d63420fa044022af39d9866")
-
-usa1 <- get.Comtrade(r = "842", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
-usa2 <- get.Comtrade(r = "842", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
-usa3 <- get.Comtrade(r = "842", p = "0", ps = "201607,201608,201609", freq = "M",rg = 2)
-usa4 <- get.Comtrade(r = "842", p = "0", ps = "201610,201611,201612", freq = "M",rg = 2)
-usa <- rbind(usa1, usa2, usa3, usa4)
-usa <- usa |>
-  mutate(
-    TradeValue = as.numeric(TradeValue)
-  )
-usa |> view()
-sum(usa$TradeValue)
-```
-
-```{r}
-#|: getting-2016-russia-to-world-exports
-#in US dollars + monthly
-
-rus1 <- get.Comtrade(r="643", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
-rus2 <- get.Comtrade(r="643", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
-rus3 <- get.Comtrade(r="643", p = "0", ps = "201607,201608,201609", freq = "M",rg = 2)
-rus4 <- get.Comtrade(r="643", p = "0", ps = "201610,201611,201612", freq = "M",rg = 2)
-rus <- rbind(rus1, rus2, rus3, rus4)
-rus <- rus |>
-  mutate(
-    TradeValue = as.numeric(TradeValue)
-  )
-sum(rus$TradeValue)
-view(rus)
-```
-
-```{r}
-#|: getting-2016-france-to-world-exports
-#trade value is in US dollars + monthly
-#nonexistent...?
-
-fr1 <- get.Comtrade(r="250", p = "0", ps = "201601,201602,201603", freq = "M",rg = 2)
-fr2 <- get.Comtrade(r="250", p = "0", ps = "201604,201605,201606", freq = "M",rg = 2)
-fr3 <- get.Comtrade(r="250", p = "0", ps = "201607,201608,201609", freq = "M",rg = 2)
-fr4 <- get.Comtrade(r="250", p = "0", ps = "201610,201611,201612", freq = "M",rg = 2)
-fr <- rbind(fr1, fr2, fr3, fr4)
-if (!is.null(fr)) {
-  fr <- fr |>
-  mutate(
-    TradeValue = as.numeric(TradeValue)
-  )
-  sum(fr$TradeValue)
-  view(fr)
-} else { 
-  print("null")
-}
-```
-
-```{r}
-#|: testing-limited-API-call-loop
-#to avoid timing out due to limited # of API calls
-
-df <- data.frame()
-counter <- 1
-while (counter < 11) {
-  df <- rbind(
-    df, 
-    data.frame(get.Comtrade(
-      r = "842", 
-      p = country_codes[[counter]], 
-      ps = "202001,202002,202003", 
-      freq = "M",
-      rg = 2)
-    )
-  )
-  counter <- counter + 1
-}
-df <- df |> distinct(yr, period, rtCode, rtTitle, ptCode, ptTitle, TradeValue)
-df |> view()
-```
-
-```{r}
-#|: loop-for-every-country-pair
-#in theory...
-
-big_df <- data.frame()
-for (country in country_list) {
-  for (partner in country_list) {
-    if (partner != country) {
-      big_df <- rbind(
-        big_df, data.frame(
-          get.Comtrade(
-            r = country, 
-            p = partner, 
-            ps = "202201,202202,202203", 
-            freq = "M",
-            rg = 2
-          )
-        )
-      )
-    }
-  }
-}
-big_df <- big_df |> distinct(yr, period, rtCode, rtTitle, ptCode, ptTitle, TradeValue) big_df |> view()
+# library(httr)
+# library(jsonlite)
+# library(rjson)
 ```
 
 ```{r}
@@ -202,7 +29,7 @@ wb_indicators <- wb_cachelist$indicators |> view()
 
 ```{r}
 #|: using-wbstats-pkg-to-get-GDPs-and-total-exports
-#in USD + years 
+# in USD + years 
 
 gdp <- c("GDP" = "NY.GDP.MKTP.CD")
 exports <- c("total_exports" ="BX.GSR.GNFS.CD")
@@ -219,20 +46,6 @@ view(total)
 # total, 
 # "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/wb_both.xlsx")
 #write_csv(total, "data/wb_both.csv")
-```
-
-```{r}
-#|: freq-conversion
-#tsbox attempt
-
-ts_frequency(gdp_per_country, to = "month", aggregate = "mean", na.rm = FALSE) |> view()
-
-#tempdisagg attempt
-data(swisspharma)
-plot(sales.a)
-sales.a |> view()
-m1 <- td(sales.a ~ 1, to = "quarterly", method = "denton-cholette")
-predict(m1) |> view()
 ```
 
 ```{r}
@@ -253,4 +66,18 @@ test <- pivot_longer(
   values_to = "value"
 )
 view(test)
+```
+
+```{r}
+#|: freq-conversion
+
+# tsbox attempt
+ts_frequency(gdp_per_country, to = "month", aggregate = "mean", na.rm = FALSE) |> view()
+
+# tempdisagg attempt
+data(swisspharma)
+plot(sales.a)
+sales.a |> view()
+m1 <- td(sales.a ~ 1, to = "quarterly", method = "denton-cholette")
+predict(m1) |> view()
 ```
