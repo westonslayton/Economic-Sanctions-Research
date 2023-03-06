@@ -14,28 +14,26 @@ library(wbstats) #for country GDPs from World Bank
 library(tidyverse) 
 library(tidymodels)
 library(reticulate) #for running python stuff
-# library(httr)
-# library(jsonlite)
-# library(rjson)
 ```
 
 ```{r}
-#|: importing-python-pkgs
-reticulate::use_virtualenv("venv")
+#|: importing-python-pkgs-to-run-scripts
+
 os <- import("os")
-requests <- import("requests")
 json <- import("json")
-pandas <- import("pandas")
-comtrade <- import("comtradeapicall")
 py_install("pandas")
 py_install("requests")
-# py_install("comtradeapicall")
 ```
 
 ```{r}
-#|: bringing-in-python-scripts
+#|: running-comtrade.py-to-get-total-and-per-country-export-data
 
 source_python("comtrade.py")
+```
+
+```{r}
+#|: running-imf.py-to-get-total-export-and-GDP-data
+
 source_python("imf.py")
 ```
 
