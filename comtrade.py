@@ -36,9 +36,9 @@ def get_total_exports(freq : str, year : list):
 # putting it all together
 def main():
     print("")
-    year = input("What year do you want data for? Format: YYYY.\n\n")
+    year = input("What year do you want data for? Format: YYYY.\n")
     print("")
-    freq = input("What frequency do you want for this data? Type M for monthly, A for annual, or B for both.\n\n")
+    freq = input("What frequency do you want for this data? Type M for monthly, A for annual, or B for both.\n")
     print("")
     print("Processing.... It will take a few minutes.")
     print("")
