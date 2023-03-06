@@ -1,4 +1,4 @@
-import pacman
+import fromcomtradepkg
 import pandas
 import os
 
@@ -10,7 +10,7 @@ def get_all_exports(freq : str, year : list):
     date = year
     if freq == 'M':
         date = f'{year}01,{year}02,{year}03,{year}04,{year}05,{year}06,{year}07,{year}08,{year}09,{year}10,{year}11,{year}12'
-    mydf = pacman.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
+    mydf = fromcomtradepkg.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
                                     reporterCode=None, cmdCode='TOTAL', flowCode='X', partnerCode=None,
                                     partner2Code=None,
                                     customsCode=None, motCode=None, maxRecords=None, format_output='JSON',
@@ -24,7 +24,7 @@ def get_total_exports(freq : str, year : list):
     date = year
     if freq == 'M':
         date = f'{year}01,{year}02,{year}03,{year}04,{year}05,{year}06,{year}07,{year}08,{year}09,{year}10,{year}11,{year}12'
-    mydf = pacman.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
+    mydf = fromcomtradepkg.getFinalData(subscription_key, typeCode='C', freqCode=freq, clCode='HS', period=date,
                                     reporterCode=None, cmdCode='TOTAL', flowCode='X', partnerCode=0,
                                     partner2Code=None,
                                     customsCode=None, motCode=None, maxRecords=None, format_output='JSON',
