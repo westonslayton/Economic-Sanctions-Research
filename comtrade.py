@@ -33,22 +33,13 @@ def get_total_exports(freq : str, year : list):
     file_name = f'comtrade_total_{year}{freq}.csv'
     df.to_csv(os.path.join(directory, file_name), header = True)
 
-# function to get all available reporters and partners
-# def get_countries():
-#     df = pacman.getReference('reporter')
-#     df.to_csv(os.path.join(directory, 'comtrade_reporters.csv'), header = True)
-#     df = pacman.getReference('partner')
-#     df.to_csv(os.path.join(directory, 'comtrade_partners.csv'), header = True)
-
 # putting it all together
 def main():
     print("")
-    year = input("What year do you want data for? Format: YYYY.\n")
+    year = input("What year do you want data for? Format: YYYY.\n\n")
     print("")
-    freq = input("What frequency do you want for this data? Type M for monthly, A for annual, or B for both.\n")
+    freq = input("What frequency do you want for this data? Type M for monthly, A for annual, or B for both.\n\n")
     print("")
-    # countries = input("Do you want a list of all reporting and partner countries? Type Y for yes and N for no.\n")
-    # print("")
     print("Processing.... It will take a few minutes.")
     print("")
     if (freq == 'B'):
@@ -59,8 +50,6 @@ def main():
     else:
         get_all_exports(freq, year)
         get_total_exports(freq, year)
-    # if (countries == "Y"): 
-        # get_countries()
     print("All done! Check the data folder to see your new files.\n")
 
 if __name__ == "__main__":
