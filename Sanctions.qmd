@@ -7,28 +7,67 @@ editor: visual
 ```{r message = FALSE}
 #|: loading-necessary-pkgs
 
-library(writexl) #for writing Excel files
-library(tempdisagg) #trying to use for freq conv
-library(tsbox) #also trying to use for freq conv
-library(wbstats) #for country GDPs from World Bank
+library(writexl) # for writing Excel files
+library(tempdisagg) # trying to use for freq conv
+library(tsbox) # also trying to use for freq conv
+library(wbstats) # for country GDPs from World Bank
 library(tidyverse) 
 library(tidymodels)
-library(reticulate) #for running python stuff
+library(reticulate) # for running python stuff
 ```
 
 ```{r}
 #|: importing-python-pkgs-to-run-scripts
 
-os <- import("os")
-json <- import("json")
-py_install("pandas")
-py_install("requests")
+# os <- import("os")
+# json <- import("json")
+# py_install("pandas")
+# py_install("requests")
+# py_install("flatten_json")
+```
+
+```{python}
+#|: importing-python-pkgs-to-run-scripts
+
+import os
+import json
+import requests
+import pandas
+from flatten_json import flatten
 ```
 
 ```{r}
 #|: running-comtrade.py-to-get-total-and-per-country-export-data
+# per-country exports file format: comtrade_{year}{freq} 
+# total-exports file format: comtrade_total_{year}{freq}
 
 source_python("comtrade.py")
+```
+
+```{r message = FALSE}
+#|: cleaning-and-writing-over-comtrade-files
+# file names must be changed depending on queries
+# primaryValue numbers in scientific notation ok for calculations
+
+file_name <- "data/comtrade_2021A.csv"
+comtrade_pairs_annual <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+# view(comtrade_pairs_annual)
+write_csv(comtrade_pairs_annual, file_name)
+
+file_name <- "data/comtrade_2021M.csv"
+comtrade_pairs_monthly <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+# view(comtrade_pairs_monthly)
+write_csv(comtrade_pairs_monthly, file_name)
+
+file_name <- "data/comtrade_total_2021A.csv"
+comtrade_total_annual <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+# view(comtrade_total_annual)
+write_csv(comtrade_total_annual, file_name)
+
+file_name <- "data/comtrade_total_2021M.csv"
+comtrade_total_monthly <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+# view(comtrade_total_monthly)
+write_csv(comtrade_total_monthly, file_name)
 ```
 
 ```{r}
@@ -37,8 +76,16 @@ source_python("comtrade.py")
 source_python("imf.py")
 ```
 
+```{r message = FALSE}
+#|: checking-out-total-exports-csv-files-from-imf.py
+
+final <- read_csv("final.csv")
+view(final)
+```
+
 ```{r}
 #|: for-finding-stuff-in-wbstats
+# in USD + years
 
 wb_search("Export") |> view()
 wb_search("GDP") |> view()
@@ -54,49 +101,15 @@ gdp <- c("GDP" = "NY.GDP.MKTP.CD")
 exports <- c("total_exports" ="BX.GSR.GNFS.CD")
 indicators <- c(gdp, exports)
 
-total <- wb_data(
+wb_all <- wb_data(
   indicators, 
   country = "all",
   mrv = 5
 )
+# view(wb_all)
 
-view(total)
 #write_xlsx(
-# total, 
+# wb_all, 
 # "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/wb_both.xlsx")
-#write_csv(total, "data/wb_both.csv")
-```
-
-```{r}
-#|: load-imf.py-test
-
-test <- read_csv("data/test.csv")
-view(test)
-test <- test |>
-  mutate(
-    col
-  )
-typeof(test$W00)
-typeof(test$B0)
-test <- pivot_longer(
-  test, 
-  !...1,
-  names_to = "country",
-  values_to = "value"
-)
-view(test)
-```
-
-```{r}
-#|: freq-conversion
-
-# tsbox attempt
-ts_frequency(gdp_per_country, to = "month", aggregate = "mean", na.rm = FALSE) |> view()
-
-# tempdisagg attempt
-data(swisspharma)
-plot(sales.a)
-sales.a |> view()
-m1 <- td(sales.a ~ 1, to = "quarterly", method = "denton-cholette")
-predict(m1) |> view()
+#write_csv(total, "data/wb_gdp_total_exports.csv")
 ```
