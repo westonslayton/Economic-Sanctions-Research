@@ -1,1 +1,248 @@
-""
+,0
+Afghanistan,AF
+Africa not allocated,F19
+Albania,AL
+Algeria,DZ
+American Samoa,AS
+Angola,AO
+Anguilla,AI
+Antigua and Barbuda,AG
+Argentina,AR
+Armenia,AM
+Aruba,AW
+Asia not allocated,S19
+Australia,AU
+Austria,AT
+Azerbaijan,AZ
+Bahamas,BS
+Bahrain,BH
+Bangladesh,BD
+Barbados,BB
+Belarus,BY
+Belgium,BE
+Belgo-Luxembourg Economic Union,R1
+Belize,BZ
+Benin,BJ
+Bermuda,BM
+Bhutan,BT
+Bolivia,BO
+Bosnia and Herzegovina,BA
+Botswana,BW
+Brazil,BR
+Brunei Darussalam,BN
+Bulgaria,BG
+Burkina Faso,BF
+Burundi,BI
+Cabo Verde,CV
+Cambodia,KH
+Cameroon,CM
+Canada,CA
+Central African Republic,CF
+Chad,TD
+Chile,CL
+"Hong Kong, China",HK
+Macao,MO
+China,CN
+Colombia,CO
+Comoros,KM
+"Congo, the Democratic Republic of the",CD
+Congo,CG
+Costa Rica,CR
+Cote d`Ivoire,CI
+Not allocated/unspecified,_X
+Croatia,HR
+Cuba,CU
+Curacao,CW
+Cyprus,CY
+Czech Republic,CZ
+Former Czechoslovakia,CSH
+Denmark,DK
+Djibouti,DJ
+Dominica,DM
+Dominican Republic,DO
+East Germany,DE2
+Ecuador,EC
+Egypt,EG
+El Salvador,SV
+Equatorial Guinea,GQ
+Eritrea,ER
+Estonia,EE
+Eswatini,SZ
+Ethiopia,ET
+Europe not allocated,E19
+Falkland Islands (Malvinas),FK
+Faroe Islands,FO
+Fiji,FJ
+Finland,FI
+France,FR
+French Polynesia,PF
+Gabon,GA
+Gambia,GM
+Georgia,GE
+Germany,DE
+Ghana,GH
+Gibraltar,GI
+Greece,GR
+Greenland,GL
+Grenada,GD
+Guam,GU
+Guatemala,GT
+Guinea,GN
+Guinea-Bissau,GW
+Guyana,GY
+Haiti,HT
+Holy See (Vatican City State),VA
+Honduras,HN
+Hungary,HU
+Iceland,IS
+India,IN
+Indonesia,ID
+"Iran, Islamic Republic of",IR
+Iraq,IQ
+Ireland,IE
+Israel,IL
+Italy,IT
+Jamaica,JM
+Japan,JP
+Jordan,JO
+Kazakhstan,KZ
+Kenya,KE
+Kiribati,KI
+"Korea, Democratic People`s Republic of",KP
+"Korea, Republic of",KR
+"Kosovo, Republic of",XK
+Kuwait,KW
+Kyrgyzstan,KG
+Lao People`s Democratic Republic,LA
+Latvia,LV
+Lebanon,LB
+Lesotho,LS
+Liberia,LR
+Libya,LY
+Lithuania,LT
+Luxembourg,LU
+Madagascar,MG
+Malawi,MW
+Malaysia,MY
+"Malaysia, West",1C_554
+Maldives,MV
+Mali,ML
+Malta,MT
+Marshall islands,MH
+Mauritania,MR
+Mauritius,MU
+Mexico,MX
+"Micronesia, Federated States of",FM
+Middle East and Central Asia not specified,F979
+"Moldova, Republic of",MD
+Mongolia,MN
+Montenegro,ME
+Montserrat,MS
+Morocco,MA
+Mozambique,MZ
+Myanmar,MM
+Namibia,NA
+Nauru,NR
+Nepal,NP
+Netherlands Antilles,AN
+Netherlands,NL
+New Caledonia,NC
+New Zealand,NZ
+Nicaragua,NI
+Niger,NE
+Nigeria,NG
+"North Macedonia, Republic of ",MK
+North Vietnam,1C_958
+Norway,NO
+Oman,OM
+Pakistan,PK
+Palau,PW
+Panama,PA
+Papua New Guinea,PG
+Paraguay,PY
+Peru,PE
+Philippines,PH
+Poland,PL
+Portugal,PT
+Qatar,QA
+Romania,RO
+Russian Federation,RU
+Rwanda,RW
+Samoa,WS
+San Marino,SM
+Sao Tome and Principe,ST
+Saudi Arabia,SA
+Senegal,SN
+Serbia and Montenegro,CS
+Serbia,RS
+Seychelles,SC
+Sierra Leone,SL
+Singapore,SG
+Sint Maarten (Dutch part),SX
+Slovakia,SK
+Slovenia,SI
+Solomon Islands,SB
+Somalia,SO
+South Africa,ZA
+South African Common Customs Area (SACCA),1C_198
+South Sudan,SS
+Spain,ES
+Special Categories and Economic Zones,XR99
+Sri Lanka,LK
+Saint Kitts and Nevis,KN
+Saint Lucia,LC
+Saint Vincent and the Grenadines,VC
+Sudan,SD
+Suriname,SR
+Sweden,SE
+Switzerland,CH
+Syrian Arab Republic,SY
+"Taiwan, Province of China",TW
+Tajikistan,TJ
+"Tanzania, United Republic of",TZ
+Thailand,TH
+Timor-Leste,TL
+Togo,TG
+Tonga,TO
+Trinidad and Tobago,TT
+Tunisia,TN
+Türkiye,TR
+Turkmenistan,TM
+Tuvalu,TV
+Uganda,UG
+Ukraine,UA
+United Arab Emirates,AE
+United Kingdom,GB
+United States,US
+Uruguay,UY
+Former U.S.S.R.,SUH
+Uzbekistan,UZ
+Vanuatu,VU
+"Venezuela, Bolivarian Republic",VE
+Viet Nam,VN
+"Palestine, State of",PS
+Western Hemisphere not allocated,A109
+Yemen Arab Rep.,1C_473
+"Yemen, P.D. Rep.",1C_459
+Yemen,YE
+Former Yugoslavia,YUC
+Zambia,ZM
+Zimbabwe,ZW
+Advanced Economies (IMF),XR29
+Africa,F1
+Community of Independent States (CIS),R14
+Developing Asia (IMF),XS25
+Emerging and Developing Countries,XR43
+Emerging and Developing Europe,1C_903
+Export earnings: fuel,1C_080
+Export earnings: nonfuel,1C_092
+Euro Area (Member States and Institutions of the Euro Area) changing composition,U2
+Europe,E1
+EU (Member States and Institutions of the European Union) changing composition,B0
+Middle East,F97
+Middle East and Central Asia,XS5
+"Middle East, North Africa, Afghanistan, and Pakistan",1C_440
+Other Countries n.i.e. (IMF),X88
+Sub-Saharan Africa,F6
+Western Hemisphere,A10
+"All Countries, excluding the IO",W00

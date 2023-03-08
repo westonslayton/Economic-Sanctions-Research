@@ -1,9 +1,10 @@
+# module used by comtrade.py & imf.py to ensure valid input
 # function to get valid input for reporter, partner, and start year
 def get_input(input_list: list, input_dict: dict):
     def get_year():
         while True:
             try:
-                year = int(input("Enter a year between 1970 and the current year, inclusive, at which to start gathering data.\n"))
+                year = int(input("Enter a year between 1970 and the current year, inclusive, for which you'd like to gather data.\n"))
             except ValueError:
                 print("Invalid input.")
             else: 
