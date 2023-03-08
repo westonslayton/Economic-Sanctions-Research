@@ -29,9 +29,9 @@ def make_country_dict():
 
 # function to write countries and their corresponding codes to a csv file
 def get_countries():
-    file_path = os.path.join(directory, "imf_country_codes.csv")
-    df = pandas.DataFrame.from_dict(country_dict, orient = "index")
-    df.to_csv(file_path)
+   df = pandas.DataFrame.from_dict(country_dict, orient = "index")
+   file_path = os.path.join(directory, "imf_country_codes.csv")
+   df.to_csv(file_path)
 
 # function to write export data to a csv file for a country pair, starting at year designated by start
 def get_pair_exports(rep, part, start, freq):
@@ -78,21 +78,19 @@ def get_total_exports(freq, year):
         df.to_csv(csv_path)
         os.remove(json_path)
 
-# putting it all together
 def main():
    specs = ["freq", "year"]
    input_list = my_input.get_input(specs, None)
    print(f'Getting total exports for every country....')
    get_total_exports(input_list[0], input_list[1])
    print("All done! Check the data folder to see your new files.\n")
-   check = input("Would you also like export data for a specific country pair? Type Y if so and N if not.\n")
-   if check == "Y":
-      make_country_dict()
-      specs = ["country", "country", "year", "freq"]
-      input_list = my_input.get_input(specs, country_dict)
-      print(f'Getting exports from {input_list[0]} to {input_list[1]}....')
-      get_pair_exports(input_list[0], input_list[1], input_list[2], input_list[3])
-      print("All done! Check the data folder to see your new files.\n")
+   make_country_dict()
+   get_countries()
+   specs = ["country", "country", "year", "freq"]
+   input_list = my_input.get_input(specs, country_dict)
+   print(f'Getting exports from {input_list[0]} to {input_list[1]}....')
+   get_pair_exports(input_list[0], input_list[1], input_list[2], input_list[3])
+   print("All done! Check the data folder to see your new files.\n")
 
 if __name__ == "__main__":
     main()

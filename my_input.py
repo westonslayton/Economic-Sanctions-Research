@@ -3,7 +3,7 @@ def get_input(input_list: list, input_dict: dict):
     def get_year():
         while True:
             try:
-                year = int(input("Enter a year between 1970 and the current year, inclusive, at which to start gathering data.\nNote: data will be collected from the given year to the current year.\n"))
+                year = int(input("Enter a year between 1970 and the current year, inclusive, at which to start gathering data.\n"))
             except ValueError:
                 print("Invalid input.")
             else: 
