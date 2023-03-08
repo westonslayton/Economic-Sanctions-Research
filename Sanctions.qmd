@@ -43,8 +43,6 @@ import my_input
 import comtrade
 import requests
 from flatten_json import flatten
-
-# syntax: comtrade.main()
 ```
 
 ```{python}
@@ -98,8 +96,9 @@ comtrade_total_monthly <- read_csv(csv) |> select(freqCode, refPeriodId, refYear
 ```{python}
 #|: running-imf.py-to-get-total-export-and-GDP-data
 
-imf.get_countries()
-imf.
+imf.get_total_exports()
+imf.get_pair_exports()
+# imf.main() add questions...
 ```
 
 ```{r}
