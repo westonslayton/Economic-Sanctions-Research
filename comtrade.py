@@ -3,8 +3,8 @@ import pandas
 import my_input
 import os
 
-directory = os.getcwd() + '/data'
-subscription_key = '9be8b0a6438a4940bd592c691bb2c4ca'
+directory = os.path.join(os.getcwd(), "data")
+subscription_key = "9be8b0a6438a4940bd592c691bb2c4ca"
 
 # function to get all available country-pair export data
 def get_all_exports():
