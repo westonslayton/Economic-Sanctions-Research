@@ -1,6 +1,6 @@
 import fromcomtradepkg
 import pandas
-import input
+import my_input
 import os
 
 directory = os.getcwd() + '/data'
@@ -45,7 +45,7 @@ def get_total_exports(freq, year):
 # putting it all together
 def main():
     specs = ["freq", "year"]
-    input_list = input.get_input(specs, None)
+    input_list = my_input.get_input(specs, None)
     get_all_exports(input_list[0], input_list[1])
     get_total_exports(input_list[0], input_list[1])
     print("All done! Check the data folder to see your new files.\n")

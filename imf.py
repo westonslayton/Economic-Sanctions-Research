@@ -1,6 +1,6 @@
 import os
 import json
-import input
+import my_input
 import pandas
 import requests
 from flatten_json import flatten
@@ -41,7 +41,7 @@ def get_pair_exports(rep, part, start, freq):
     else:
         reporter = country_dict[rep]
         partner = country_dict[part]
-        file_name = f'{reporter}_to_{partner}_{start}{freq}.csv'
+        file_name = f'imf_{reporter}_to_{partner}_exports_{start}{freq}.csv'
         file_path = os.path.join(directory, file_name)
         param = [('dataset', 'DOT'),
             ('freq', freq),
@@ -80,20 +80,19 @@ def get_total_exports(freq, year):
 
 # putting it all together
 def main():
-    make_country_dict()
-    get_countries()
-    specs = ["country", "country", "year", "freq"]
-    input_list = input.get_input(specs, country_dict)
-    print(f'Getting exports from {input_list[0]} to {input_list[1]}.')
-    get_pair_exports(input_list[0], input_list[1], input_list[2], input_list[3])
-    print("All done! Check the data folder to see your new files.\n")
-    check = input("Would you also like export data for a specific country pair? Type Y if so and N if not.")
-    if check == "Y":
-        specs = ["freq", "year"]
-        input_list = input.get_input(specs, None)
-        print(f'Getting total exports for every country.')
-        get_total_exports(input_list[0], input_list[1])
-        print("All done! Check the data folder to see your new files.\n")
+   specs = ["freq", "year"]
+   input_list = my_input.get_input(specs, None)
+   print(f'Getting total exports for every country....')
+   get_total_exports(input_list[0], input_list[1])
+   print("All done! Check the data folder to see your new files.\n")
+   check = input("Would you also like export data for a specific country pair? Type Y if so and N if not.\n")
+   if check == "Y":
+      make_country_dict()
+      specs = ["country", "country", "year", "freq"]
+      input_list = my_input.get_input(specs, country_dict)
+      print(f'Getting exports from {input_list[0]} to {input_list[1]}....')
+      get_pair_exports(input_list[0], input_list[1], input_list[2], input_list[3])
+      print("All done! Check the data folder to see your new files.\n")
 
 if __name__ == "__main__":
     main()
