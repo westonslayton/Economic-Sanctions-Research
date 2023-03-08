@@ -31,8 +31,9 @@ library(reticulate) # for running python stuff
 
 import os
 import json
-import requests
+import input
 import pandas
+import requests
 from flatten_json import flatten
 ```
 
@@ -74,13 +75,6 @@ write_csv(comtrade_total_monthly, file_name)
 #|: running-imf.py-to-get-total-export-and-GDP-data
 
 source_python("imf.py")
-```
-
-```{r message = FALSE}
-#|: checking-out-total-exports-csv-files-from-imf.py
-
-final <- read_csv("final.csv")
-view(final)
 ```
 
 ```{r}
