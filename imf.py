@@ -6,7 +6,7 @@ import pandas
 import requests
 from flatten_json import flatten
 
-root = 'http://dataservices.imf.org/REST/SDMX_JSON.svc/'
+root = "http://dataservices.imf.org/REST/SDMX_JSON.svc/"
 directory = os.path.join(os.getcwd(), "data")
 json_path = os.path.join(directory, "my.json")
 
