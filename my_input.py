@@ -1,4 +1,6 @@
 # module used by comtrade.py & imf.py to ensure valid input
+import datetime
+
 # function to get valid input for reporter, partner, and start year
 def get_input(input_list: list, input_dict: dict):
     def get_year():
@@ -8,7 +10,12 @@ def get_input(input_list: list, input_dict: dict):
             except ValueError:
                 print("Invalid input.")
             else: 
-                break
+                curr_year = int(datetime.date.today().year)
+                if year < 1970 or year > curr_year:
+                    print("Invalid input.")
+                    continue
+                else:
+                    break
         print()
         return year
     def get_country(input_dict):
@@ -17,7 +24,7 @@ def get_input(input_list: list, input_dict: dict):
             if count in input_dict:
                 break
             else:
-                print("Invalid input. See imf_country_codes.csv for valid country name.")
+                print("Invalid input. See imf_country_codes.csv for valid country names.")
         print()
         return count
     def get_freq():

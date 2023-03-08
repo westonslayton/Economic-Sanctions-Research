@@ -16,17 +16,17 @@ library(tidymodels)
 library(reticulate) # for running python stuff
 ```
 
-```{r}
+```{r message = FALSE}
 #|: importing-python-pkgs-to-run-modules-using-R
 
-# os <- import("os")
-# imf <- import("imf")
-# json <- import("json")
-# comtrade <- import("comtrade")
-# my_input <- import("my_input")
-# py_install("pandas")
-# py_install("requests")
-# py_install("flatten_json")
+os <- import("os")
+imf <- import("imf")
+json <- import("json")
+comtrade <- import("comtrade")
+my_input <- import("my_input")
+py_install("pandas")
+py_install("requests")
+py_install("flatten_json")
 
 # syntax: comtrade$main()
 ```
@@ -52,7 +52,9 @@ from flatten_json import flatten
 # per-country exports file format: comtrade_{year}{freq} 
 # total-exports file format: comtrade_total_{year}{freq}
 
-comtrade.main()
+comtrade.get_all_exports() # writes csv file containing all country-pair export data
+comtrade.get_total_exports() # writes csv file containing total-export values for each country
+# to run everything: comtrade.main()
 ```
 
 ```{r message = FALSE}
@@ -60,31 +62,50 @@ comtrade.main()
 # file names must be changed depending on queries (year, freq)
 # primaryValue numbers in scientific notation ok for calculations
 
-file_name <- "data/comtrade_2021A.csv"
-comtrade_pairs_annual <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+file <- "data/comtrade_2021A"
+csv <- paste(file,"csv", sep = ".")
+excel <- paste(file,"xlsx", sep = ".")
+comtrade_pairs_annual <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
 # view(comtrade_pairs_annual)
-# write_csv(comtrade_pairs_annual, file_name)
+# write_csv(comtrade_pairs_annual, csv)
+# write_xlsx(comtrade_pairs_annual, excel)
 
-file_name <- "data/comtrade_2021M.csv"
-comtrade_pairs_monthly <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+file <- "data/comtrade_2021M"
+csv <- paste(file,"csv", sep = ".")
+excel <- paste(file,"xlsx", sep = ".")
+comtrade_pairs_monthly <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
 # view(comtrade_pairs_monthly)
-# write_csv(comtrade_pairs_monthly, file_name)
+# write_csv(comtrade_pairs_monthly, csv)
+# write_xlsx(comtrade_pairs_monthly, excel)
 
-file_name <- "data/comtrade_total_2021A.csv"
-comtrade_total_annual <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+file <- "data/comtrade_total_2021A"
+csv <- paste(file,"csv", sep = ".")
+excel <- paste(file,"xlsx", sep = ".")
+comtrade_total_annual <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
 # view(comtrade_total_annual)
-# write_csv(comtrade_total_annual, file_name)
+# write_csv(comtrade_total_annual, csv)
+# write_xlsx(comtrade_total_annual, excel)
 
-file_name <- "data/comtrade_total_2021M.csv"
-comtrade_total_monthly <- read_csv(file_name) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+file <- "data/comtrade_total_2021M"
+csv <- paste(file,"csv", sep = ".")
+excel <- paste(file,"xlsx", sep = ".")
+comtrade_total_monthly <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
 # view(comtrade_total_monthly)
-# write_csv(comtrade_total_monthly, file_name)
+# write_csv(comtrade_total_monthly, csv)
+# write_xlsx(comtrade_total_monthly, excel)
 ```
 
 ```{python}
 #|: running-imf.py-to-get-total-export-and-GDP-data
 
-imf.main()
+imf.get_countries()
+imf.
+```
+
+```{r}
+#|: cleaning-and-writing-over-imf-files
+
+
 ```
 
 ```{r}
@@ -108,12 +129,13 @@ indicators <- c(gdp, exports)
 wb_both <- wb_data(
   indicators, 
   country = "all",
-  mrv = 5
+  mrv = 3
 )
-# view(wb_both)
 
-#write_xlsx(
-# wb_both, 
-# "/Users/pauldilly/Documents/Internships/Econ Research/Econ-Sanctions/data/wb_both.xlsx")
-#write_csv(total, "data/wb_gdp_total_exports.csv")
+file_name = "data/wb_gdp_total_exports.xlsx"
+csv_name = paste(file_name, ".csv")
+excel_name = paste(file_name, ".xlsx")
+# write_xlsx(wb_both, "data/wb_gdp_total_exports.xlsx")
+# write_csv(wb_both, "data/wb_gdp_total_exports.csv")
+# view(wb_both)
 ```

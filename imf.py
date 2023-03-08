@@ -13,23 +13,24 @@ json_path = os.path.join(directory, "my.json")
 # dictionary to store country names as keys and corresponding country codes as values
 country_dict = {} 
 
-# function to add key-value pairs to country_dict, where keys = country names & values = country codes
-def make_country_dict():
-    country_key = 'DataStructure/DOT'
-    dl = requests.get(f'{root}{country_key}').json()\
-        ['Structure']['KeyFamilies']['KeyFamily']['Components']['Dimension']
-    country_key = f"CodeList/{dl[1]['@codelist']}"
-    cl = requests.get(f'{root}{country_key}').json()['Structure']['CodeLists']['CodeList']['Code']
-    for c in cl:
-        key = c['Description']['#text']
-        value = c['@value']
-        country_dict[key] = value
-
 # function to write countries and their corresponding codes to a csv file
 def get_countries():
    df = pandas.DataFrame.from_dict(country_dict, orient = "index")
    file_path = os.path.join(directory, "imf_country_codes.csv")
    df.to_csv(file_path)
+
+# function to add key-value pairs to country_dict, where keys = country names & values = country codes
+def make_country_dict():
+   country_key = 'DataStructure/DOT'
+   dimensions = requests.get(f'{root}{country_key}').json()\
+      ['Structure']['KeyFamilies']['KeyFamily']['Components']['Dimension']
+   country_key = f"CodeList/{dimensions[1]['@codelist']}"
+   country_list = requests.get(f'{root}{country_key}').json()['Structure']['CodeLists']['CodeList']['Code']
+   for country in country_list:
+      key = country['Description']['#text']
+      value = country['@value']
+      country_dict[key] = value
+   get_countries()
 
 # function to write export data to a csv file for a country pair, starting at year designated by start
 def get_pair_exports():
@@ -42,9 +43,8 @@ def get_pair_exports():
          partner = country_dict[part]
          file_name = f'imf_{reporter}_to_{partner}_exports_{start}{freq}.csv'
          year = int(datetime.date.today().year) - 3
-         if int(start) > year:
-            if freq == 'A':
-               start = str(year)
+         if int(start) > year and freq == "A":
+            start = str(year)
          file_path = os.path.join(directory, file_name)
          param = [('dataset', 'DOT'),
             ('freq', freq),
@@ -95,12 +95,6 @@ def get_total_exports():
 def main():
    get_total_exports()
    get_pair_exports()
-   get_countries()
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
