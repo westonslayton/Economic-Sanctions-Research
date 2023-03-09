@@ -10,6 +10,7 @@ class IMF:
    
     root = "http://dataservices.imf.org/REST/SDMX_JSON.svc/"
     cwd = os.getcwd()
+    # cwd = os.path.dirname(cwd) # gets parent of cwd, only use if not running in RStudio
     directory = os.path.join(cwd, "data")
     json_path = os.path.join(directory, "my.json")
 
@@ -68,6 +69,7 @@ class IMF:
             csv_path = os.path.join(IMF.directory, csv_name)
             key = f'CompactData/DOT/{freq}.{reporter}.TXG_FOB_USD..?startPeriod={year}'
             data = requests.get(f'{IMF.root}{key}').json()['CompactData']['DataSet']['Series']
+            print(f'Writing {csv_path}....')
             IMF.flatten_and_write(data, csv_path)
 
     # function to write export data to a csv file for a country to all its partners, starting at year designated by start
@@ -88,6 +90,7 @@ class IMF:
             csv_path = os.path.join(IMF.directory, f'imf_total_exports_{year}{freq}.csv')
             key = f'CompactData/DOT/{freq}..TXG_FOB_USD.W00.?startPeriod={year}'
             data = requests.get(f'{IMF.root}{key}').json()['CompactData']['DataSet']['Series']
+            print(f'Writing {csv_path}....')
             IMF.flatten_and_write(data, csv_path)
 
     # function to get each country's total exports for a given year (returns data for specified year only)
@@ -97,11 +100,11 @@ class IMF:
         IMF.total(input_list[0], input_list[1])
         print("All done! Check the data folder to see your new files.\n")
 
-# # putting it all together
+# putting it all together
 # def main():
-#     country = IMF()
-#     country.get_total_exports()
-#     country.get_reporter_exports()
+#     imf_obj = IMF()
+#     imf_obj.get_total_exports()
+#     imf_obj.get_reporter_exports()
 
 # if __name__ == "__main__":
 #     main()
