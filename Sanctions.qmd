@@ -20,18 +20,15 @@ library(reticulate) # for running python stuff
 #|: importing-python-pkgs-to-run-modules-using-R
 # can also run via the command line: python3 imf.py or python3 comtrade.py
 
-# os <- import("os")
-# imf <- import("imf")
-# json <- import("json")
-# comtrade <- import("comtrade")
-# my_input <- import("my_input")
-# oop <- import("oop")
-# py_install("pandas")
-# py_install("requests")
-# py_install("flatten_json")
+os <- import("os")
+json <- import("json")
+datetime <- import("datetime")
+py_install("pandas")
+py_install("requests")
+py_install("flatten_json")
 ```
 
-```{python}
+```{r}
 #|: running-comtrade.py
 # per-country exports file format: comtrade_{year}{freq} 
 # total-exports file format: comtrade_total_{year}{freq}
@@ -42,7 +39,7 @@ comtrade$get_all_exports() # writes csv file containing all country-pair export 
 comtrade$get_total_exports() # writes csv file containing total-export values for each country
 ```
 
-```{python}
+```{r}
 #|: running-imf.py
 # exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
 # total-exports file format: imf_total_exports_{year}{freq}
