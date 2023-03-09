@@ -9,6 +9,7 @@ editor: visual
 
 library(tidyverse) 
 library(tidymodels)
+library(lubridate) # for date manipulation
 library(wbstats) # for country GDPs from World Bank
 library(reticulate) # for running python stuff
 library(writexl) # for writing Excel files
@@ -70,6 +71,7 @@ comtrade_pairs_annual = data.frame()
 comtrade_pairs_annual <- clean_comtrade(file)
 # view(comtrade_pairs_annual)
 
+file <- "data/comtrade_all_exports_2021M"
 comtrade_pairs_monthly = data.frame()
 comtrade_pairs_monthly <- clean_comtrade(file)
 # view(comtrade_pairs_monthly)
@@ -89,6 +91,7 @@ comtrade_total_monthly <- clean_comtrade(file)
 #|: running-imf.py
 # exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
 # total-exports file format: imf_total_exports_{year}{freq}
+# quirk w/ get_reporter_exports: if freq is annual and year is within 3 years of current year, function will return data starting from 3 years prior (e.g., if requesting annual data for France starting in 2021, it'll return data from 2020 to current day)
 
 source_python("src/imf.py")
 imf_obj = IMF()
@@ -142,6 +145,13 @@ clean_imf <- function(file) {
   clean <- left_join(time, obs, by = c(all_of(common), "category"))
   clean <- clean |> drop_na(date, value)
   clean$value <- clean$value * 1000000
+  if (str_sub(file, -1) == "M") {
+    clean$month <- month(ym(clean$date))
+    clean$year <- year(ym(clean$date))
+  } else {
+    clean$year = clean$date
+  }
+  clean <- subset(clean, select = -c(date, category))
   write_csv(clean, csv)
   write_xlsx(clean, excel)
   return(clean)
@@ -154,24 +164,24 @@ clean_imf <- function(file) {
 # in USD + months/years (depends on query)
 
 file <- "data/imf_total_exports_2021M"
-imf_total_monthly2 = data.frame()
-imf_total_monthly2 <- clean_imf(file)
-view(imf_total_monthly2)
+imf_total_monthly = data.frame()
+imf_total_monthly <- clean_imf(file)
+# view(imf_total_monthly)
 
 file <- "data/imf_total_exports_2021A"
-imf_total_annual2 <- data.frame()
-imf_total_annual2 <- clean_imf(file)
-view(imf_total_annual2)
+imf_total_annual <- data.frame()
+imf_total_annual <- clean_imf(file)
+# view(imf_total_annual)
 
-file <- "data/imf_US_all_exports_2021M"
-imf_us_all_monthly2 <- data.frame()
-imf_us_all_monthly2 <- clean_imf(file)
-view(imf_us_all_monthly2)
+file <- "data/imf_FR_all_exports_2021M"
+imf_fr_all_monthly <- data.frame()
+imf_fr_all_monthly <- clean_imf(file)
+# view(imf_fr_all_monthly)
 
-file <- "data/imf_US_all_exports_2021A"
-imf_us_all_annual2 <- data.frame()
-imf_us_all_annual2 <- clean_imf(file)
-view(imf_us_all_annual2)
+file <- "data/imf_FR_all_exports_2021A"
+imf_fr_all_annual <- data.frame()
+imf_fr_all_annual <- clean_imf(file)
+# view(imf_fr_all_annual)
 ```
 
 ```{r}
