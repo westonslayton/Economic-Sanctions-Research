@@ -128,7 +128,7 @@ clean_imf <- function(file) {
   time <- df |> select(all_of(common), ends_with("TIME_PERIOD")) 
   time <- time |>
     pivot_longer(
-      cols = -common,
+      cols = -all_of(common),
       names_sep = "@",
       names_to = c("category", "time"),
       values_to = "date"
@@ -138,7 +138,7 @@ clean_imf <- function(file) {
   obs <- df |> select(all_of(common), ends_with("OBS_VALUE"))
   obs <- obs |>
     pivot_longer(
-      cols = -common,
+      cols = -all_of(common),
       names_sep = "@",
       names_to = c("category", "obs"),
       values_to = "value"
@@ -214,14 +214,14 @@ get_wb <- function(years, df_to_return) {
   both <- both |> filter(!is.na(iso2c))
   gdp <- both[, -5] |> drop_na(GDP)
   total_exports <- both[, -6] |> drop_na(total_exports)
-  gdp_name <- file.path(dirname(getwd()), "data", "wb_gdp", as.character(years))
-  gdp_csv = paste(gdp_name, "csv", sep = ".")
-  gdp_excel = paste(gdp_name, "xlsx", sep = ".")
+  gdp_name <- file.path(dirname(getwd()), "data", "wb_gdp")
+  gdp_csv = paste(gdp_name, as.character(years), ".csv", sep = "")
+  gdp_excel = paste(gdp_name, as.character(years), ".xlsx", sep = "")
   write_csv(gdp, gdp_csv)
   write_xlsx(gdp, gdp_excel)
-  exports_name <- file.path(dirname(getwd()), "data", "wb_total_exports", as.character(years))
-  exports_csv = paste(exports_name, "csv", sep = ".")
-  exports_excel = paste(exports_name, "xlsx", sep = ".")
+  exports_name <- file.path(dirname(getwd()), "data", "wb_total_exports")
+  exports_csv = paste(exports_name,  as.character(years), ".csv", sep = "")
+  exports_excel = paste(exports_name,  as.character(years), ".xlsx", sep = "")
   write_csv(total_exports, exports_csv)
   write_xlsx(total_exports, exports_excel)
   if (df_to_return == "gdp") {

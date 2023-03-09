@@ -6,7 +6,7 @@ def get_input(input_list: list, input_dict: dict):
     def get_year():
         while True:
             try:
-                year = int(input("Enter a year between 1970 and the current year, inclusive, for which you'd like to gather data.\n"))
+                year = int(input("Enter a year between 1970 and the current year, inclusive, for which you'd like to gather data.   \n"))
             except ValueError:
                 print("Invalid input.")
             else: 
@@ -20,7 +20,7 @@ def get_input(input_list: list, input_dict: dict):
         return year
     def get_country(input_dict):
         while True:
-            count = input("Enter the name of the country.\n")
+            count = input("Enter the name of the country.   \n")
             if count in input_dict:
                 break
             else:
@@ -30,7 +30,7 @@ def get_input(input_list: list, input_dict: dict):
     def get_freq():
         freqs = {"A", "B", "M"}
         while True:
-            freq = input("Enter the frequency of the data you'd like to query: M for monthly, A for annual, and B for both.\n")
+            freq = input("Enter the frequency of the data you'd like to query: M for monthly, A for annual, and B for both.   \n")
             if freq in freqs:
                 break
             else: 
