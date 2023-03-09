@@ -69,7 +69,7 @@ class IMF:
             csv_path = os.path.join(IMF.directory, csv_name)
             key = f'CompactData/DOT/{freq}.{reporter}.TXG_FOB_USD..?startPeriod={year}'
             data = requests.get(f'{IMF.root}{key}').json()['CompactData']['DataSet']['Series']
-            print(f'Writing {csv_path}....')
+            print(f'Writing {csv_name}....')
             IMF.flatten_and_write(data, csv_path)
 
     # function to write export data to a csv file for a country to all its partners, starting at year designated by start
@@ -87,10 +87,11 @@ class IMF:
             IMF.total("A", year)
             IMF.total("M", year)
         else:
-            csv_path = os.path.join(IMF.directory, f'imf_total_exports_{year}{freq}.csv')
+            csv_name = f'imf_total_exports_{year}{freq}.csv'
+            csv_path = os.path.join(IMF.directory, csv_name)
             key = f'CompactData/DOT/{freq}..TXG_FOB_USD.W00.?startPeriod={year}'
             data = requests.get(f'{IMF.root}{key}').json()['CompactData']['DataSet']['Series']
-            print(f'Writing {csv_path}....')
+            print(f'Writing {csv_name}....')
             IMF.flatten_and_write(data, csv_path)
 
     # function to get each country's total exports for a given year (returns data for specified year only)
