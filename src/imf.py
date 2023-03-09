@@ -67,7 +67,7 @@ class IMF:
             if int(start) > year and freq == "A":
                 start = str(year)
             csv_path = os.path.join(IMF.directory, csv_name)
-            key = f'CompactData/DOT/{freq}.{reporter}.TXG_FOB_USD..?startPeriod={year}'
+            key = f'CompactData/DOT/{freq}.{reporter}.TXG_FOB_USD..?startPeriod={start}'
             data = requests.get(f'{IMF.root}{key}').json()['CompactData']['DataSet']['Series']
             print(f'Writing {csv_name}....')
             IMF.flatten_and_write(data, csv_path)

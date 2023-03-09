@@ -128,7 +128,7 @@ clean_imf <- function(file) {
   time <- df |> select(all_of(common), ends_with("TIME_PERIOD")) 
   time <- time |>
     pivot_longer(
-      cols = -all_of(common),
+      cols = -c(all_of(common)),
       names_sep = "@",
       names_to = c("category", "time"),
       values_to = "date"
@@ -138,7 +138,7 @@ clean_imf <- function(file) {
   obs <- df |> select(all_of(common), ends_with("OBS_VALUE"))
   obs <- obs |>
     pivot_longer(
-      cols = -all_of(common),
+      cols = -c(all_of(common)),
       names_sep = "@",
       names_to = c("category", "obs"),
       values_to = "value"
