@@ -37,7 +37,7 @@ py_install("flatten_json")
 # per-country exports file format: comtrade_{year}{freq} 
 # total-exports file format: comtrade_total_{year}{freq}
 
-source_python("src/new_comtrade.py")
+source_python("src/comtrade.py")
 comtrade_obj = Comtrade()
 comtrade_obj$get_all_exports() # writes csv file containing all country-pair export data
 comtrade_obj$get_total_exports() # writes csv file containing total-export values for each country
@@ -46,13 +46,15 @@ comtrade_obj$get_total_exports() # writes csv file containing total-export value
 ```{r}
 #|: function-to-clean-and-write-over-comtrade-files
 # file name passed into function must not include extension
+# will result in an error if the file is already clean
 
 clean_comtrade <- function(file) {
-  csv <- paste(file,"csv", sep = ".")
-  excel <- paste(file,"xlsx", sep = ".")
+  csv <- paste(file, "csv", sep = ".")
+  excel <- paste(file, "xlsx", sep = ".")
   df <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
-  write_csv(comtrade_pairs_annual, csv)
-  write_xlsx(comtrade_pairs_annual, excel)
+  df <- df |> drop_na(primaryValue)
+  write_csv(df, csv)
+  write_xlsx(df, excel)
   return(df)
 }
 ```
@@ -66,22 +68,21 @@ clean_comtrade <- function(file) {
 file <- "data/comtrade_all_exports_2021A"
 comtrade_pairs_annual = data.frame()
 comtrade_pairs_annual <- clean_comtrade(file)
-view(comtrade_pairs_annual)
+# view(comtrade_pairs_annual)
 
-file <- "data/comtrade_all_exports_2021M"
 comtrade_pairs_monthly = data.frame()
 comtrade_pairs_monthly <- clean_comtrade(file)
-view(comtrade_pairs_monthly)
+# view(comtrade_pairs_monthly)
 
 file <- "data/comtrade_total_exports_2021A"
 comtrade_total_annual = data.frame()
 comtrade_total_annual <- clean_comtrade(file)
-view(comtrade_total_annual)
+# view(comtrade_total_annual)
 
 file <- "data/comtrade_total_exports_2021M"
 comtrade_total_monthly = data.frame()
 comtrade_total_monthly <- clean_comtrade(file)
-view(comtrade_total_monthly)
+# view(comtrade_total_monthly)
 ```
 
 ```{r}
@@ -97,59 +98,80 @@ imf_obj$get_reporter_exports() # writes csv file with export data for reporter t
 
 ```{r message = FALSE}
 #|: function-to-clean-and-write-over-imf-files
-# divide by 1 MM to get USD
+# will result in an error if the file is already clean
+# multiply by 1 MM to get USD
 
-file <- "data/imf_total_exports_2021M"
-csv <- paste(file,"csv", sep = ".")
-excel <- paste(file,"xlsx", sep = ".")
-imf_total_monthly <- read_csv(csv)
-imf_total_monthly <- imf_total_monthly[,-c(1,6:7)]
-for (i in 1:length(colnames(imf_total_monthly))) {
-  sub = str_sub(colnames(imf_total_monthly)[i], end = 3)
-  if (sub == "Obs") {
-    new_name = str_sub(colnames(imf_total_monthly)[i], 5)
-    beg = str_sub(new_name, end = 2)
-    sub = str_sub(new_name, 3)
-    s = unlist(strsplit(sub, split='_', fixed=TRUE))
-    sub = paste(s[1], s[2], sep = "")
-    s = unlist(strsplit(sub, split = "@", fixed=TRUE))
-    sub = paste(s[1], s[2], sep = "")
-    colnames(imf_total_monthly)[i] = paste(beg, sub, sep = "")
+clean_imf <- function(file) {
+  csv <- paste(file, "csv", sep = ".")
+  excel <- paste(file, "xlsx", sep = ".")
+  df <- read_csv(csv)
+  df <- df[,-c(1,6:7)]
+  for (i in 1:length(colnames(df))) {
+    sub = str_sub(colnames(df)[i], end = 3)
+    if (sub == "Obs") {
+      new_name = str_sub(colnames(df)[i], 5)
+      beg = str_sub(new_name, end = 2)
+      sub = str_sub(new_name, 3)
+      colnames(df)[i] = paste(beg, sub, sep = "")
+    }
+    else {
+      colnames(df)[i] = str_sub(colnames(df)[i], 2)
+    }
   }
-  else {
-    colnames(imf_total_monthly)[i] = str_sub(colnames(imf_total_monthly)[i], 2)
-  }
+  common <- c("FREQ", "REF_AREA", "INDICATOR", "COUNTERPART_AREA")
+  time <- df |> select(all_of(common), ends_with("TIME_PERIOD")) 
+  time <- time |>
+    pivot_longer(
+      cols = -common,
+      names_sep = "@",
+      names_to = c("category", "time"),
+      values_to = "date"
+    )
+  time$category <- gsub("_", "", time$category)
+  time <- time[,-6]
+  obs <- df |> select(all_of(common), ends_with("OBS_VALUE"))
+  obs <- obs |>
+    pivot_longer(
+      cols = -common,
+      names_sep = "@",
+      names_to = c("category", "obs"),
+      values_to = "value"
+    )
+  obs$category <- gsub("_", "", obs$category)
+  obs <- obs[,-6]
+  clean <- left_join(time, obs, by = c(all_of(common), "category"))
+  clean <- clean |> drop_na(date, value)
+  clean$value <- clean$value * 1000000
+  write_csv(clean, csv)
+  write_xlsx(clean, excel)
+  return(clean)
 }
-
-view(imf_total_monthly)
-imf_total_monthly <- imf_total_monthly |>
-  mutate(
-    
-  )
-imf_total_monthly <- imf_total_monthly |>
-  pivot_longer(
-    cols = -c(FREQ:COUNTERPART_AREA),
-    names_to = c("number", "type"),
-    names_pattern = '([0-9])_([A-Za-z]+)',
-    values_to = "data"
-  )
-
-file <- "data/imf_total_exports_2021A"
-imf_total_annual <- read_csv()
-
-file <- "data/imf_US_all_exports_2021M"
-imf_us_all_monthly <- read_csv()
-
-file <- "data/imf_US_all_exports_2021A"
-imf_us_all_annual <- read_csv()
 ```
 
-```{r}
+```{r message = FALSE}
 #|: applying-above-function-to-all-new-imf-files
 # file names must be changed depending on queries (year, freq)
 # in USD + months/years (depends on query)
 
+file <- "data/imf_total_exports_2021M"
+imf_total_monthly2 = data.frame()
+imf_total_monthly2 <- clean_imf(file)
+view(imf_total_monthly2)
 
+file <- "data/imf_total_exports_2021A"
+imf_total_annual2 <- data.frame()
+imf_total_annual2 <- clean_imf(file)
+view(imf_total_annual2)
+
+file <- "data/imf_US_all_exports_2021M"
+imf_us_all_monthly2 <- data.frame()
+imf_us_all_monthly2 <- clean_imf(file)
+view(imf_us_all_monthly2)
+
+file <- "data/imf_US_all_exports_2021A"
+imf_us_all_annual2 <- data.frame()
+imf_us_all_annual2 <- clean_imf(file)
+view(imf_us_all_annual2)
 ```
 
 ```{r}
@@ -163,24 +185,52 @@ imf_us_all_annual <- read_csv()
 ```
 
 ```{r}
-#|: using-wbstats-pkg-to-get-GDPs-and-total-exports
+#|: function-to-get-and-write-files-containing-total-exports-and-gdp-data-from-world-bank
+# total-exports file format: wb_total_exports
+# gdp file format: wb_gdp
+
+get_wb <- function(years, df_to_return) { 
+  gdp <- c("GDP" = "NY.GDP.MKTP.CD")
+  exports <- c("total_exports" ="BX.GSR.GNFS.CD")
+  indicators <- c(gdp, exports)
+  both <- wb_data(
+    indicators, 
+    country = "all",
+    mrv = years
+  )
+  both <- both |> filter(!is.na(iso2c))
+  gdp <- both[, -5] |> drop_na(GDP)
+  total_exports <- both[, -6] |> drop_na(total_exports)
+  gdp_name = "data/wb_gdp"
+  gdp_csv = paste(gdp_name, as.character(years), ".csv", sep = "")
+  gdp_excel = paste(gdp_name, as.character(years), ".xlsx", sep = "")
+  write_csv(gdp, gdp_csv)
+  write_xlsx(gdp, gdp_excel)
+  exports_name = "data/wb_total_exports"
+  exports_csv = paste(exports_name, as.character(years), ".csv", sep = "")
+  exports_excel = paste(exports_name, as.character(years), ".xlsx", sep = "")
+  write_csv(total_exports, exports_csv)
+  write_xlsx(total_exports, exports_excel)
+  if (df_to_return == "gdp") {
+    return(gdp)
+  }
+  return(total_exports)
+}
+```
+
+```{r}
+#|: using-above-function-to-get-GDPs-and-total-exports-from-world-bank
+# years argument specifies how many years you want data for, starting at the most recent year that has complete data (e.g., get_wb(3) will get data for 2019, 2020, and 2021)
+# df_to_return argument specifies which data frame you'd like to return, with valid arguments being "gdp" or "exports"
 # in USD + years 
 
-gdp <- c("GDP" = "NY.GDP.MKTP.CD")
-exports <- c("total_exports" ="BX.GSR.GNFS.CD")
-indicators <- c(gdp, exports)
-
-wb_both <- wb_data(
-  indicators, 
-  country = "all",
-  mrv = 3
-)
-
-file_name = "data/wb_gdp_total_exports.xlsx"
-csv_name = paste(file_name, ".csv")
-excel_name = paste(file_name, ".xlsx")
-# write_xlsx(wb_both, "data/wb_gdp_total_exports.xlsx")
-# write_csv(wb_both, "data/wb_gdp_total_exports.csv")
+wb_gdp <- data.frame()
+wb_gdp <- get_wb(3, "gdp")
 # 
-view(wb_both)
+view(wb_gdp)
+
+wb_total_exports <- data.frame()
+wb_total_exports <- get_wb(3, "exports")
+# 
+view(wb_total_exports)
 ```
