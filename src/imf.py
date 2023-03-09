@@ -10,8 +10,8 @@ class IMF:
    
     root = "http://dataservices.imf.org/REST/SDMX_JSON.svc/"
     cwd = os.getcwd()
-    # cwd = os.path.dirname(cwd) # gets parent of cwd, only use if not running in RStudio
-    directory = os.path.join(cwd, "data")
+    parent = os.path.dirname(cwd)
+    directory = os.path.join(parent, "data")
     json_path = os.path.join(directory, "my.json")
 
     # dictionary to store country names as keys and corresponding country codes as values

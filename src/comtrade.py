@@ -6,8 +6,8 @@ import os
 class Comtrade:
 
     cwd = os.getcwd()
-    # cwd = os.path.dirname(cwd) # gets parent of cwd, only use if not running in RStudio
-    directory = os.path.join(cwd, "data")
+    parent = os.path.dirname(cwd)
+    directory = os.path.join(parent, "data")
     subscription_key = "9be8b0a6438a4940bd592c691bb2c4ca"
 
     def __init__(self):

@@ -1,0 +1,247 @@
+---
+title: "Sanctions"
+format: html
+editor: visual
+---
+
+```{r message = FALSE}
+#|: loading-necessary-pkgs
+
+library(tidyverse) 
+library(tidymodels)
+library(lubridate) # for date manipulation
+library(wbstats) # for country GDPs from World Bank
+library(reticulate) # for running python stuff
+library(writexl) # for writing Excel files
+library(tempdisagg) # trying to use for freq conv
+library(tsbox) # also trying to use for freq conv
+```
+
+```{r message = FALSE}
+#|: importing-python-pkgs-to-run-modules-using-R
+# can also run via the command line: python3 imf.py or python3 comtrade.py
+
+os <- import("os")
+imf <- import("imf")
+json <- import("json")
+my_input <- import("my_input")
+datetime <- import("datetime")
+comtrade <- import("comtrade")
+fromcomtradepkg <- import("fromcomtradepkg")
+py_install("pandas")
+py_install("requests")
+py_install("flatten_json")
+```
+
+```{r}
+#|: running-comtrade.py
+# per-country exports file format: comtrade_{year}{freq} 
+# total-exports file format: comtrade_total_{year}{freq}
+
+source_python("comtrade.py")
+comtrade_obj = Comtrade()
+comtrade_obj$get_all_exports() # writes csv file containing all country-pair export data
+comtrade_obj$get_total_exports() # writes csv file containing total-export values for each country
+```
+
+```{r}
+#|: function-to-clean-and-write-over-comtrade-files
+# file name passed into function must not include extension
+# will result in an error if the file is already clean
+
+clean_comtrade <- function(file) {
+  file <- file.path(dirname(getwd()), "data", file)
+  csv <- paste(file, "csv", sep = ".")
+  excel <- paste(file, "xlsx", sep = ".")
+  df <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+  df <- df |> drop_na(primaryValue)
+  write_csv(df, csv)
+  write_xlsx(df, excel)
+  return(df)
+}
+```
+
+```{r message = FALSE}
+#|: applying-above-function-to-all-new-comtrade-files
+# file names must be changed depending on queries (year, freq)
+# primaryValue numbers in scientific notation ok for calculations
+# in USD + months/years (depends on query)
+
+file <- "comtrade_all_exports_2021A"
+comtrade_pairs_annual = data.frame()
+comtrade_pairs_annual <- clean_comtrade(file)
+# view(comtrade_pairs_annual)
+
+file <- "comtrade_all_exports_2021M"
+comtrade_pairs_monthly = data.frame()
+comtrade_pairs_monthly <- clean_comtrade(file)
+# view(comtrade_pairs_monthly)
+
+file <- "comtrade_total_exports_2021A"
+comtrade_total_annual = data.frame()
+comtrade_total_annual <- clean_comtrade(file)
+# view(comtrade_total_annual)
+
+file <- "comtrade_total_exports_2021M"
+comtrade_total_monthly = data.frame()
+comtrade_total_monthly <- clean_comtrade(file)
+# view(comtrade_total_monthly)
+```
+
+```{r}
+#|: running-imf.py
+# exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
+# total-exports file format: imf_total_exports_{year}{freq}
+# quirk w/ get_reporter_exports: if freq is annual and year is within 3 years of current year, function will return data starting from 3 years prior (e.g., if requesting annual data for France starting in 2021, it'll return data from 2020 to current day)
+
+source_python("imf.py")
+imf_obj = IMF()
+imf_obj$get_total_exports() # writes csv file containing total-export values for each country
+imf_obj$get_reporter_exports() # writes csv file with export data for reporter to all partners
+```
+
+```{r message = FALSE}
+#|: function-to-clean-and-write-over-imf-files
+# file name passed into function must not include extension
+# will result in an error if the file is already clean
+# multiply by 1 MM to get USD
+
+clean_imf <- function(file) {
+  file <- file.path(dirname(getwd()), "data", file)
+  csv <- paste(file, "csv", sep = ".")
+  excel <- paste(file, "xlsx", sep = ".")
+  df <- read_csv(csv)
+  df <- df[,-c(1,6:7)]
+  for (i in 1:length(colnames(df))) {
+    sub = str_sub(colnames(df)[i], end = 3)
+    if (sub == "Obs") {
+      new_name = str_sub(colnames(df)[i], 5)
+      beg = str_sub(new_name, end = 2)
+      sub = str_sub(new_name, 3)
+      colnames(df)[i] = paste(beg, sub, sep = "")
+    }
+    else {
+      colnames(df)[i] = str_sub(colnames(df)[i], 2)
+    }
+  }
+  common <- c("FREQ", "REF_AREA", "INDICATOR", "COUNTERPART_AREA")
+  time <- df |> select(all_of(common), ends_with("TIME_PERIOD")) 
+  time <- time |>
+    pivot_longer(
+      cols = -common,
+      names_sep = "@",
+      names_to = c("category", "time"),
+      values_to = "date"
+    )
+  time$category <- gsub("_", "", time$category)
+  time <- time[,-6]
+  obs <- df |> select(all_of(common), ends_with("OBS_VALUE"))
+  obs <- obs |>
+    pivot_longer(
+      cols = -common,
+      names_sep = "@",
+      names_to = c("category", "obs"),
+      values_to = "value"
+    )
+  obs$category <- gsub("_", "", obs$category)
+  obs <- obs[,-6]
+  clean <- left_join(time, obs, by = c(all_of(common), "category"))
+  clean <- clean |> drop_na(date, value)
+  clean$value <- clean$value * 1000000
+  if (str_sub(file, -1) == "M") {
+    clean$month <- month(ym(clean$date))
+    clean$year <- year(ym(clean$date))
+  } else {
+    clean$year = clean$date
+  }
+  clean <- subset(clean, select = -c(date, category))
+  write_csv(clean, csv)
+  write_xlsx(clean, excel)
+  return(clean)
+}
+```
+
+```{r message = FALSE}
+#|: applying-above-function-to-all-new-imf-files
+# file names must be changed depending on queries (year, freq)
+# in USD + months/years (depends on query)
+
+file <- "imf_total_exports_2021M"
+imf_total_monthly = data.frame()
+imf_total_monthly <- clean_imf(file)
+# view(imf_total_monthly)
+
+file <- "imf_total_exports_2021A"
+imf_total_annual <- data.frame()
+imf_total_annual <- clean_imf(file)
+# view(imf_total_annual)
+
+file <- "imf_FR_all_exports_2021M"
+imf_fr_all_monthly <- data.frame()
+imf_fr_all_monthly <- clean_imf(file)
+# view(imf_fr_all_monthly)
+
+file <- "imf_FR_all_exports_2021A"
+imf_fr_all_annual <- data.frame()
+imf_fr_all_annual <- clean_imf(file)
+# view(imf_fr_all_annual)
+```
+
+```{r}
+#|: for-finding-stuff-in-wbstats
+# in USD + years
+
+# wb_search("Export") |> view()
+# wb_search("GDP") |> view()
+# str(wb_cachelist, max.level = 1)
+# wb_indicators <- wb_cachelist$indicators |> view()
+```
+
+```{r}
+#|: function-to-get-and-write-files-containing-total-exports-and-gdp-data-from-world-bank
+# total-exports file format: wb_total_exports
+# gdp file format: wb_gdp
+
+get_wb <- function(years, df_to_return) { 
+  gdp <- c("GDP" = "NY.GDP.MKTP.CD")
+  exports <- c("total_exports" ="BX.GSR.GNFS.CD")
+  indicators <- c(gdp, exports)
+  both <- wb_data(
+    indicators, 
+    country = "all",
+    mrv = years
+  )
+  both <- both |> filter(!is.na(iso2c))
+  gdp <- both[, -5] |> drop_na(GDP)
+  total_exports <- both[, -6] |> drop_na(total_exports)
+  gdp_name <- file.path(dirname(getwd()), "data", "wb_gdp", as.character(years))
+  gdp_csv = paste(gdp_name, "csv", sep = ".")
+  gdp_excel = paste(gdp_name, "xlsx", sep = ".")
+  write_csv(gdp, gdp_csv)
+  write_xlsx(gdp, gdp_excel)
+  exports_name <- file.path(dirname(getwd()), "data", "wb_total_exports", as.character(years))
+  exports_csv = paste(exports_name, "csv", sep = ".")
+  exports_excel = paste(exports_name, "xlsx", sep = ".")
+  write_csv(total_exports, exports_csv)
+  write_xlsx(total_exports, exports_excel)
+  if (df_to_return == "gdp") {
+    return(gdp)
+  }
+  return(total_exports)
+}
+```
+
+```{r}
+#|: using-above-function-to-get-GDPs-and-total-exports-from-world-bank
+# years argument specifies how many years you want data for, starting at the most recent year that has complete data (e.g., get_wb(3) will get data for 2019, 2020, and 2021)
+# df_to_return argument specifies which data frame you'd like to return, with valid arguments being "gdp" or "exports"
+# in USD + years 
+
+wb_gdp <- data.frame()
+wb_gdp <- get_wb(3, "gdp")
+# view(wb_gdp)
+
+wb_total_exports <- data.frame()
+wb_total_exports <- get_wb(3, "exports")
+# view(wb_total_exports)
+```

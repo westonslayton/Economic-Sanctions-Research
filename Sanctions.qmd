@@ -22,22 +22,23 @@ library(tsbox) # also trying to use for freq conv
 # can also run via the command line: python3 imf.py or python3 comtrade.py
 
 os <- import("os")
-imf <- import("imf")
 json <- import("json")
-my_input <- import("my_input")
 datetime <- import("datetime")
-comtrade <- import("comtrade")
-fromcomtradepkg <- import("fromcomtradepkg")
 py_install("pandas")
 py_install("requests")
 py_install("flatten_json")
+```
+
+```{python}
+
+import fromcomtradepkg
 ```
 
 ```{r}
 #|: running-comtrade.py
 # per-country exports file format: comtrade_{year}{freq} 
 # total-exports file format: comtrade_total_{year}{freq}
-
+source_python("src/fromcomtradepkg.py")
 source_python("src/comtrade.py")
 comtrade_obj = Comtrade()
 comtrade_obj$get_all_exports() # writes csv file containing all country-pair export data
@@ -101,6 +102,7 @@ imf_obj$get_reporter_exports() # writes csv file with export data for reporter t
 
 ```{r message = FALSE}
 #|: function-to-clean-and-write-over-imf-files
+# file name passed into function must not include extension
 # will result in an error if the file is already clean
 # multiply by 1 MM to get USD
 
