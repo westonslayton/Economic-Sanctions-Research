@@ -40,20 +40,16 @@ comtrade$get_total_exports() # writes csv file containing total-export values fo
 ```
 
 ```{r}
-#|: running-imf.py
-# exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
-# total-exports file format: imf_total_exports_{year}{freq}
+#|: function-to-clean-and-write-over-comtrade-files
 
-source_python("src/imf.py")
-imf = IMF()
-imf$get_total_exports() # writes csv file containing total-export values for each country
-imf$get_reporter_exports() # writes csv file with export data for reporter to all partners
+
 ```
 
 ```{r message = FALSE}
-#|: cleaning-and-writing-over-comtrade-files
+#|: applying-above-function-to-all-new-comtrade-files
 # file names must be changed depending on queries (year, freq)
 # primaryValue numbers in scientific notation ok for calculations
+# in USD + months/years (depends on query)
 
 file <- "data/comtrade_2021A"
 csv <- paste(file,"csv", sep = ".")
@@ -88,16 +84,28 @@ comtrade_total_monthly <- read_csv(csv) |> select(freqCode, refPeriodId, refYear
 # write_xlsx(comtrade_total_monthly, excel)
 ```
 
-```{python}
-#|: running-imf.py-to-get-total-export-and-GDP-data
+```{r}
+#|: running-imf.py
+# exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
+# total-exports file format: imf_total_exports_{year}{freq}
 
-imf.get_total_exports()
-imf.get_pair_exports()
-# imf.main() add questions...
+source_python("src/imf.py")
+imf = IMF()
+imf$get_total_exports() # writes csv file containing total-export values for each country
+imf$get_reporter_exports() # writes csv file with export data for reporter to all partners
 ```
 
 ```{r}
-#|: cleaning-and-writing-over-imf-files
+#|: function-to-clean-and-write-over-imf-files
+# divide by 1 MM to get USD
+
+
+```
+
+```{r}
+#|: applying-above-function-to-all-new-imf-files
+# file names must be changed depending on queries (year, freq)
+# in USD + months/years (depends on query)
 
 
 ```
@@ -106,10 +114,10 @@ imf.get_pair_exports()
 #|: for-finding-stuff-in-wbstats
 # in USD + years
 
-wb_search("Export") |> view()
-wb_search("GDP") |> view()
-str(wb_cachelist, max.level = 1)
-wb_indicators <- wb_cachelist$indicators |> view()
+# wb_search("Export") |> view()
+# wb_search("GDP") |> view()
+# str(wb_cachelist, max.level = 1)
+# wb_indicators <- wb_cachelist$indicators |> view()
 ```
 
 ```{r}
