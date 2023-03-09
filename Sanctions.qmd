@@ -226,11 +226,9 @@ get_wb <- function(years, df_to_return) {
 
 wb_gdp <- data.frame()
 wb_gdp <- get_wb(3, "gdp")
-# 
-view(wb_gdp)
+# view(wb_gdp)
 
 wb_total_exports <- data.frame()
 wb_total_exports <- get_wb(3, "exports")
-# 
-view(wb_total_exports)
+# view(wb_total_exports)
 ```
