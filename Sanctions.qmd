@@ -37,7 +37,7 @@ py_install("flatten_json")
 # per-country exports file format: comtrade_{year}{freq} 
 # total-exports file format: comtrade_total_{year}{freq}
 
-source_python("src/comtrade.py")
+source_python("src/new_comtrade.py")
 comtrade_obj = Comtrade()
 comtrade_obj$get_all_exports() # writes csv file containing all country-pair export data
 comtrade_obj$get_total_exports() # writes csv file containing total-export values for each country
@@ -45,8 +45,16 @@ comtrade_obj$get_total_exports() # writes csv file containing total-export value
 
 ```{r}
 #|: function-to-clean-and-write-over-comtrade-files
+# file name passed into function must not include extension
 
-
+clean_comtrade <- function(file) {
+  csv <- paste(file,"csv", sep = ".")
+  excel <- paste(file,"xlsx", sep = ".")
+  df <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+  write_csv(comtrade_pairs_annual, csv)
+  write_xlsx(comtrade_pairs_annual, excel)
+  return(df)
+}
 ```
 
 ```{r message = FALSE}
@@ -55,37 +63,25 @@ comtrade_obj$get_total_exports() # writes csv file containing total-export value
 # primaryValue numbers in scientific notation ok for calculations
 # in USD + months/years (depends on query)
 
-file <- "data/comtrade_2021A"
-csv <- paste(file,"csv", sep = ".")
-excel <- paste(file,"xlsx", sep = ".")
-comtrade_pairs_annual <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
-# view(comtrade_pairs_annual)
-# write_csv(comtrade_pairs_annual, csv)
-# write_xlsx(comtrade_pairs_annual, excel)
+file <- "data/comtrade_all_exports_2021A"
+comtrade_pairs_annual = data.frame()
+comtrade_pairs_annual <- clean_comtrade(file)
+view(comtrade_pairs_annual)
 
-file <- "data/comtrade_2021M"
-csv <- paste(file,"csv", sep = ".")
-excel <- paste(file,"xlsx", sep = ".")
-comtrade_pairs_monthly <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
-# view(comtrade_pairs_monthly)
-# write_csv(comtrade_pairs_monthly, csv)
-# write_xlsx(comtrade_pairs_monthly, excel)
+file <- "data/comtrade_all_exports_2021M"
+comtrade_pairs_monthly = data.frame()
+comtrade_pairs_monthly <- clean_comtrade(file)
+view(comtrade_pairs_monthly)
 
-file <- "data/comtrade_total_2021A"
-csv <- paste(file,"csv", sep = ".")
-excel <- paste(file,"xlsx", sep = ".")
-comtrade_total_annual <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
-# view(comtrade_total_annual)
-# write_csv(comtrade_total_annual, csv)
-# write_xlsx(comtrade_total_annual, excel)
+file <- "data/comtrade_total_exports_2021A"
+comtrade_total_annual = data.frame()
+comtrade_total_annual <- clean_comtrade(file)
+view(comtrade_total_annual)
 
-file <- "data/comtrade_total_2021M"
-csv <- paste(file,"csv", sep = ".")
-excel <- paste(file,"xlsx", sep = ".")
-comtrade_total_monthly <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
-# view(comtrade_total_monthly)
-# write_csv(comtrade_total_monthly, csv)
-# write_xlsx(comtrade_total_monthly, excel)
+file <- "data/comtrade_total_exports_2021M"
+comtrade_total_monthly = data.frame()
+comtrade_total_monthly <- clean_comtrade(file)
+view(comtrade_total_monthly)
 ```
 
 ```{r}
@@ -99,11 +95,53 @@ imf_obj$get_total_exports() # writes csv file containing total-export values for
 imf_obj$get_reporter_exports() # writes csv file with export data for reporter to all partners
 ```
 
-```{r}
+```{r message = FALSE}
 #|: function-to-clean-and-write-over-imf-files
 # divide by 1 MM to get USD
 
+file <- "data/imf_total_exports_2021M"
+csv <- paste(file,"csv", sep = ".")
+excel <- paste(file,"xlsx", sep = ".")
+imf_total_monthly <- read_csv(csv)
+imf_total_monthly <- imf_total_monthly[,-c(1,6:7)]
+for (i in 1:length(colnames(imf_total_monthly))) {
+  sub = str_sub(colnames(imf_total_monthly)[i], end = 3)
+  if (sub == "Obs") {
+    new_name = str_sub(colnames(imf_total_monthly)[i], 5)
+    beg = str_sub(new_name, end = 2)
+    sub = str_sub(new_name, 3)
+    s = unlist(strsplit(sub, split='_', fixed=TRUE))
+    sub = paste(s[1], s[2], sep = "")
+    s = unlist(strsplit(sub, split = "@", fixed=TRUE))
+    sub = paste(s[1], s[2], sep = "")
+    colnames(imf_total_monthly)[i] = paste(beg, sub, sep = "")
+  }
+  else {
+    colnames(imf_total_monthly)[i] = str_sub(colnames(imf_total_monthly)[i], 2)
+  }
+}
 
+view(imf_total_monthly)
+imf_total_monthly <- imf_total_monthly |>
+  mutate(
+    
+  )
+imf_total_monthly <- imf_total_monthly |>
+  pivot_longer(
+    cols = -c(FREQ:COUNTERPART_AREA),
+    names_to = c("number", "type"),
+    names_pattern = '([0-9])_([A-Za-z]+)',
+    values_to = "data"
+  )
+
+file <- "data/imf_total_exports_2021A"
+imf_total_annual <- read_csv()
+
+file <- "data/imf_US_all_exports_2021M"
+imf_us_all_monthly <- read_csv()
+
+file <- "data/imf_US_all_exports_2021A"
+imf_us_all_annual <- read_csv()
 ```
 
 ```{r}
