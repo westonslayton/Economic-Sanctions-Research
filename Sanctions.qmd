@@ -7,13 +7,13 @@ editor: visual
 ```{r message = FALSE}
 #|: loading-necessary-pkgs
 
+library(tidyverse) 
+library(tidymodels)
+library(wbstats) # for country GDPs from World Bank
+library(reticulate) # for running python stuff
 library(writexl) # for writing Excel files
 library(tempdisagg) # trying to use for freq conv
 library(tsbox) # also trying to use for freq conv
-library(wbstats) # for country GDPs from World Bank
-library(tidyverse) 
-library(tidymodels)
-library(reticulate) # for running python stuff
 ```
 
 ```{r message = FALSE}
@@ -21,8 +21,12 @@ library(reticulate) # for running python stuff
 # can also run via the command line: python3 imf.py or python3 comtrade.py
 
 os <- import("os")
+imf <- import("imf")
 json <- import("json")
+my_input <- import("my_input")
 datetime <- import("datetime")
+comtrade <- import("comtrade")
+fromcomtradepkg <- import("fromcomtradepkg")
 py_install("pandas")
 py_install("requests")
 py_install("flatten_json")
@@ -34,9 +38,9 @@ py_install("flatten_json")
 # total-exports file format: comtrade_total_{year}{freq}
 
 source_python("src/comtrade.py")
-comtrade = Comtrade()
-comtrade$get_all_exports() # writes csv file containing all country-pair export data
-comtrade$get_total_exports() # writes csv file containing total-export values for each country
+comtrade_obj = Comtrade()
+comtrade_obj$get_all_exports() # writes csv file containing all country-pair export data
+comtrade_obj$get_total_exports() # writes csv file containing total-export values for each country
 ```
 
 ```{r}
@@ -90,9 +94,9 @@ comtrade_total_monthly <- read_csv(csv) |> select(freqCode, refPeriodId, refYear
 # total-exports file format: imf_total_exports_{year}{freq}
 
 source_python("src/imf.py")
-imf = IMF()
-imf$get_total_exports() # writes csv file containing total-export values for each country
-imf$get_reporter_exports() # writes csv file with export data for reporter to all partners
+imf_obj = IMF()
+imf_obj$get_total_exports() # writes csv file containing total-export values for each country
+imf_obj$get_reporter_exports() # writes csv file with export data for reporter to all partners
 ```
 
 ```{r}
