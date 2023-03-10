@@ -1,3 +1,4 @@
-# Econ Sanctions
+# Economic Sanctions
 
-1. Clone the repository by copying the SSH link.
+## Setup
+1. Clone the repository by copying the SSH link under the copy button.
