@@ -31,7 +31,7 @@ git push
   * ```get_total_exports```: same as Comtrade's get_total_exports method
   * ```get_reporter_exports```: writes csv file containing exports from reporter provided in console input to all its partners 
 ### World Bank
-* Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the wbstats R package.
+* Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the [wbstats](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf) R package.
 * This section is also similar in structure to the previous two. Compile ```get_wb```, which both gets and cleans the data requested.
 * Then, make the actual function call in the next code chunk, and provide two arguments, the first being the number of years to gather data for (relative to the current year; e.g., 5 will retrieve data corresponding to the data published in the most recent 5 years) and the second being the data frame to return: the two valid inputs are "gdp" and "total exports," which will return the corresponding data frame. 
   * ```get_wb```: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter)
