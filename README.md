@@ -4,7 +4,7 @@ Built upon Python modules and an R package that call JSON RESTful API to gather 
 ## Setup
 * Clone the repository by clicking on ```Code``` and copying the SSH link.
 * Create a new project by clicking on the 3D box in the upper-left corner. Click ```Version Control``` and then ```Git```, and then paste the link that you copied.
-* Open the Sanctions.qmd document in the src folder; this is the only file that you'll need to have open in order to run the program (though you may also want to view a csv/xlsx file in the data folder--you can do this by clicking on said file).
+* Navigate to ```src``` and open ```Sanctions.qmd```; this is the only file that you'll need to have open in order to run the program (though you may also want to view a csv/xlsx file in the data folder--you can do this by clicking on said file).
   * Side note: If you want to view an Excel file, it's easiest to download it from this repo (in the data folder) directly.
 * Run the first code chunk to install all the necessary packages. You can delete this chunk after installation. After saving your changes locally, you can commit and push your changes to GitHub by running the following commands in the terminal:
 ```
