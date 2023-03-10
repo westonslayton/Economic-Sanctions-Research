@@ -38,7 +38,7 @@ git push
   * ```get_wb```: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter)
 * Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, run ```get_wb``` twice, calling it once with "gdp" as an argument and then again with "total exports" as an argument.
 ### Other Notes
-* ```Ctrl-shift-c``` uncomments/comments out a block/line of code; commented code will not run. (I often use this with the viewing function to only view the data frames when needed.)
+* ```Ctrl-shift-c```/```cmd-shift-c uncomments/comments out a block/line of code; commented code will not run. (I often use this with the viewing function to only view the data frames when needed.)
 * The cleaning functions for Comtrade and IMF (```clean_comtrade``` and ```clean_imf```, respectively) will not work if you've already cleaned the files that you're passing into these functions.
 * You must update the file names when cleaning new Comtrade and IMF data. When you run the Python modules to get new data, the new file names will be printed in the console. These are the file names you should replace each file name with. Though not necessary, it'd likely be beneficial to also update the names of the data frames whenever you run new queries.
 * Comtrade functions will retrieve data for the given year only, while IMF functions will retrieve data starting at the given year and ending with the most recently published data.
