@@ -6,17 +6,32 @@ editor: visual
 
 ## Setup
 
+```{r}
+#|: installing-necessary-pkgs
+# only run once
+# uncomment with ctrl-shift-c / cmd-shift-c
+
+# install.packages("tidyverse") 
+# library(tidymodels)
+# library(writexl)
+# library(lubridate)
+# library(wbstats) # for country GDPs from World Bank
+# library(reticulate) # for running python stuff
+# library(tempdisagg) # trying to use for freq conv
+# library(tsbox) # also trying to use for freq conv
+```
+
 ```{r message = FALSE}
-#|: loading-necessary-pkgs
+#|: loading-pkgs
 
 library(tidyverse) 
 library(tidymodels)
 library(writexl)
 library(lubridate)
-library(wbstats) # for country GDPs from World Bank
-library(reticulate) # for running python stuff
-library(tempdisagg) # trying to use for freq conv
-library(tsbox) # also trying to use for freq conv
+library(wbstats)
+library(reticulate)
+library(tempdisagg) 
+library(tsbox)
 ```
 
 ```{r message = FALSE}
