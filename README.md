@@ -15,7 +15,7 @@
 
 ## Running the Program
 ### Comtrade
-* Start by sourcing the comtrade.py file and creating an object of the Comtrade class defined in comtrade.py so that we can call comtrade.py's methods.
+* Start by sourcing the comtrade.py file and creating an object of the Comtrade class defined in comtrade.py so that you can call comtrade.py's methods.
 * Now, you can call either the get_total_exports function or the get_all_exports_function, or both:
   * get_all_exports: writes csv file to data folder containing export data for all available country pairs
   * get_total_exports: writes csv file to data folder containing total-export (exports to world) data for all available reporters
