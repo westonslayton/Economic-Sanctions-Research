@@ -6,9 +6,11 @@
 * Open the Sanctions.qmd document in the src folder; this is the only file that you'll need to have open in order to run the program (though you may also want to view a csv/xlsx file in the data folder--you can do this by clicking on said file).
   * Side note: If you want to view an Excel file, it's easiest to download it from this repo directly.
 * Run the first code chunk to install all the necessary packages. You can delete this chunk after installation. After saving your changes locally, you can commit and push your changes to GitHub by running the following commands in the terminal:
-  * git add .
-  * git commit -m "your message here"
-  * git push
+```
+git add .
+git commit -m "your message here"
+git push
+```
 * Load the packages you just installed by running the second code chunk.
 * Now, run the next code chunk to install/import the Python packages that the program needs in order to work properly. As the code executes, RStudio will likely ask you to install a miniconda environment--go ahead and install it, as it'll enable you to run the code smoothly from here on out. 
 * Every time you open RStudio, be sure to run "git pull" in the terminal--this will update your local clone of the project with the most up-to-date changes.
