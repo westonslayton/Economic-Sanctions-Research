@@ -9,7 +9,7 @@ editor: visual
 ```{r}
 #|: installing-necessary-pkgs
 # only run once
-# uncomment with ctrl-shift-c / cmd-shift-c
+# uncomment with ctrl-shift-c/cmd-shift-c
 
 # install.packages("tidyverse") 
 # install.packages("tidymodels")
@@ -36,7 +36,6 @@ library(tsbox)
 
 ```{r message = FALSE}
 #|: importing-python-pkgs-to-run-modules-using-R
-# can also run via the command line: python3 imf.py or python3 comtrade.py
 
 os <- import("os")
 imf <- import("imf")
@@ -44,7 +43,7 @@ json <- import("json")
 my_input <- import("my_input")
 datetime <- import("datetime")
 comtrade <- import("comtrade")
-# fromcomtradepkg <- import("fromcomtradepkg")
+fromcomtradepkg <- import("fromcomtradepkg")
 py_install("pandas")
 py_install("requests")
 py_install("flatten_json")
