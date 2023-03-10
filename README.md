@@ -43,9 +43,9 @@ git push
 * Comtrade functions will retrieve data for the given year only, while IMF functions will retrieve data starting at the given year and ending with the most recently published data.
 * The ```get_reporter_exports``` function for IMF has a quirk that occurs when the user requests a query for annual data starting at a year within 3 years of the current year. In this case, the function will "override" the user's indicated year and instead make the starting year 3 years less than the current year--I had to add this padding in order to work around the varying structures of the JSON file returned by the IMF API. This has no serious implications, as it still gets all the data you requested.
 ### Summary
-* All-partner export sources: Comtrade (all country pairs) and IMF (one country pair @ a time)
-* Total-export sources: Comtrade (all reporters), IMF (all reporters), and World Bank (all reporters)
-* GDP source: World Bank (all reporters)
+* Reporter-to-all-Partners Export Sources: Comtrade (all country pairs) and IMF (one country pair @ a time)
+* Total-Export Sources: Comtrade (all reporters), IMF (all reporters), and World Bank (all reporters)
+* GDP Source: World Bank (all reporters)
 * All data is expressed in USD, and most data is available in both monthly and annual quantities, with World Bank being the only source that supports annual data only.
 * Get new data by running the get methods. The only get function that requires any arguments is ```get_wb```, which requires the number of years to gather data for, followed by the name of the data frame to return ("gdp" or "exports" are the two valid inputs).
 * Clean data currently in the data folder (that hasn't yet been cleaned) with the clean functions (only for Comtrade and IMF, as the cleaning of World Bank data is built into the get_wb function). All clean functions require only one argument: the file name (minus the extension) to clean.
