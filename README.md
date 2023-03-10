@@ -11,7 +11,8 @@
   * git commit -m "your message here"
   * git push
 * Load the packages you just installed by running the second code chunk.
-* Now, un the next code chunk to install/import the Python packages that the program needs in order to work properly. As the code executes, RStudio will likely ask you to install a miniconda environment--go ahead and install it, as it'll enable you to run the code smoothly from here on out. 
+* Now, run the next code chunk to install/import the Python packages that the program needs in order to work properly. As the code executes, RStudio will likely ask you to install a miniconda environment--go ahead and install it, as it'll enable you to run the code smoothly from here on out. 
+* Every time you open RStudio, be sure to run "git pull" in the terminal--this will update your local clone of the project with the most up-to-date changes.
 
 ## Running the Program
 ### Comtrade
@@ -25,11 +26,19 @@
 * You must update the file names when cleaning new Comtrade and IMF data. When you run the Python modules to get new data, the new file names will be printed in the console. These are the file names you should replace each file name with (minus the .csv extension--the cleaning functions will take care of that). Though not mandatory, it'd likely be beneficial to also update the names of the data frames whenever you run new queries.
 * Comtrade functions will retrieve data for the given year only, while IMF functions will retrieve data starting at the given year and ending with the most recently published data.
 * The get_reporter_exports function for IMF has a quirk that occurs when the user requests a query for annual data starting at a year within 3 years of the current year. In this case, the function will "override" the user's indicated year and instead make the starting year 3 years less than the current year--I had to add this padding in order to work around the varying structures of the JSON file returned by the IMF API. This has no serious implications, as it still gets all the data you requested.
+### Summary
+* All-partner export sources: Comtrade (all country pairs, in monthly/annual USD) and IMF (one country pair, in monthly/annual USD)
+* Total-export sources: Comtrade (all reporters, in monthly/annual USD), IMF (all reporters, in monthly/annual USD), and World Bank (all reporters, in annual USD)
+* GDP source: World Bank (all reporters, in annual USD)
+* Get new data by running the get methods.
+* Clean data currently in the data folder with the clean methods (only for Comtrade and IMF, as the cleaning of World Bank data is built into the get_wb function.
+* When getting and cleaning new data, be sure to update file names to clean and the names of data frames to save the newly cleaned files to.
+* 
 
 ## Resources
 ### Comtrade
 *
 ### IMF
-*
+* Bulk query: data is in millions USD
 ### World Bank
 *
