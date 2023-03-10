@@ -1,5 +1,6 @@
 # Economic Sanctions
 ###### Research @ Duke University - Nicholas School of the Environment | In collaboration with Morad Bali
+Built upon Python modules and an R package that call JSON RESTful API to gather macroeconomic data, this program offers a streamlined interface through which you can request and analyze vast amounts of macroeconomic data from sources including UN Comtrade, International Monetary Fund (IMF), and World Bank. Below is a step-by-step guide detailing effective use of this program.
 ## Setup
 * Clone the repository by clicking on the code button and copying the SSH link.
 * Create a new project by clicking on the 3D box in the upper-left corner. Click version control and then git, and then paste the link that you copied.
