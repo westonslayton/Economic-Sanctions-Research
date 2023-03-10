@@ -1,6 +1,5 @@
 # Economic Sanctions
 ###### Research @ Duke University - Nicholas School of the Environment | In collaboration with Morad Bali
-
 ## Setup
 * Clone the repository by clicking on the code button and copying the SSH link.
 * Create a new project by clicking on the 3D box in the upper-left corner. Click version control and then git, and then paste the link that you copied.
@@ -13,7 +12,6 @@
 * Load the packages you just installed by running the second code chunk.
 * Now, run the next code chunk to install/import the Python packages that the program needs in order to work properly. As the code executes, RStudio will likely ask you to install a miniconda environment--go ahead and install it, as it'll enable you to run the code smoothly from here on out. 
 * Every time you open RStudio, be sure to run "git pull" in the terminal--this will update your local clone of the project with the most up-to-date changes.
-
 ## Running the Program
 ### Comtrade
 * Start by sourcing the comtrade.py file and creating an object of the Comtrade class defined in comtrade.py so that you can call comtrade.py's methods.
@@ -37,8 +35,7 @@
   * get_wb: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter)
 * Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, run the function twice, calling it once with "gdp" as an argument and then again with "total exports" as an argument.
 ### Other Notes
-* Ctrl-shift-c uncomments/comments out a block/line of code; commented code will not run.
-  * I often use this with the viewing function to only view the data frames when needed.
+* Ctrl-shift-c uncomments/comments out a block/line of code; commented code will not run. (I often use this with the viewing function to only view the data frames when needed.)
 * The cleaning functions for Comtrade and IMF (clean_comtrade and clean_imf, respectively) will not work if you've already cleaned the files that you're passing into these functions.
 * You must update the file names when cleaning new Comtrade and IMF data. When you run the Python modules to get new data, the new file names will be printed in the console. These are the file names you should replace each file name with. Though not necessary, it'd likely be beneficial to also update the names of the data frames whenever you run new queries.
 * Comtrade functions will retrieve data for the given year only, while IMF functions will retrieve data starting at the given year and ending with the most recently published data.
@@ -51,7 +48,6 @@
 * Get new data by running the get methods. The only get function that requires any arguments is get_wb, which requires the number of years to gather data for, followed by the name of the data frame to return ("gdp" or "exports" are the two valid inputs).
 * Clean data currently in the data folder (that hasn't yet been cleaned) with the clean functions (only for Comtrade and IMF, as the cleaning of World Bank data is built into the get_wb function). All clean functions require only one argument: the file name (minus the extension) to clean.
 * When getting and cleaning new data, be sure to update file names to clean and the names of data frames to save the newly cleaned files to.
-
 ## Resources
 ### Comtrade
 *
