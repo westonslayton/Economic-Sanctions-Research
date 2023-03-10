@@ -12,13 +12,13 @@ editor: visual
 # uncomment with ctrl-shift-c / cmd-shift-c
 
 # install.packages("tidyverse") 
-# library(tidymodels)
-# library(writexl)
-# library(lubridate)
-# library(wbstats) # for country GDPs from World Bank
-# library(reticulate) # for running python stuff
-# library(tempdisagg) # trying to use for freq conv
-# library(tsbox) # also trying to use for freq conv
+# install.packages("tidymodels")
+# install.packages("writexl")
+# install.packages("lubridate")
+# install.packages("wbstats") # for country GDPs from World Bank
+# install.packages("reticulate") # for running python stuff
+# install.packages("tempdisagg") # trying to use for freq conv
+# install.packages("tsbox") # also trying to use for freq conv
 ```
 
 ```{r message = FALSE}
@@ -44,7 +44,7 @@ json <- import("json")
 my_input <- import("my_input")
 datetime <- import("datetime")
 comtrade <- import("comtrade")
-fromcomtradepkg <- import("fromcomtradepkg")
+# fromcomtradepkg <- import("fromcomtradepkg")
 py_install("pandas")
 py_install("requests")
 py_install("flatten_json")
