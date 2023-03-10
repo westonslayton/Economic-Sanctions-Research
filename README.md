@@ -57,3 +57,6 @@ git push
 * Bulk query: data is in millions USD
 ### World Bank
 * [Documentation](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf)
+* [Examples](https://rdrr.io/cran/wbstats/man/wb_data.html)
+* [More Examples](https://cran.r-project.org/web/packages/wbstats/vignettes/wbstats.html#:~:text=The%20wbstats%20R%2Dpackage%20allows,with%20realtime%20access%20to%20the)
+* [More More Examples](https://jesse.netlify.app/2018/01/08/getting-started-with-wbstats-a-world-bank-r-package/)
