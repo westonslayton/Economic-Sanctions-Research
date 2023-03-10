@@ -6,9 +6,9 @@
 * Create a new project by clicking on the 3D box in the upper-left corner. Click version control and then git, and then paste the link that you copied.
 * Open the Sanctions.qmd document in the src folder; this is the only file that you'll need to have open in order to run the program (though you may also want to view the csv/xlsx files in the data folder--you can do this by clicking on the file).
 * Run the first code chunk to install all the necessary packages. You can delete this chunk after installation. After saving your changes locally, you can commit and push your changes to GitHub by running the following commands in the terminal:
-*. git add .
-*. git commit -m "your message here"
-*. git push
+  * git add .
+  * git commit -m "your message here"
+  * git push
 * When installing/importing the Python packages, RStudio will likely ask you to install a miniconda environment--go ahead and install it, as it'll enable you to run the code smoothly from here on out.
 
 ## Running the Program
