@@ -53,10 +53,10 @@ git push
 ## Resources
 ### Comtrade
 * [New User Guide](https://unstats.un.org/wiki/display/comtrade/New+Comtrade+User+Guide#NewComtradeUserGuide-Tariffline)
-* API
-  * [Python Package Documentation](https://pypi.org/project/comtradeapicall/)
-  * [API Interface](https://comtradedeveloper.un.org/signin?returnUrl=%2Fapi-details#api=comtrade-v1&operation=get-get)
-    * Requires
+* [Python Package Documentation](https://pypi.org/project/comtradeapicall/)
+* [API Interface](https://comtradedeveloper.un.org/signin?returnUrl=%2Fapi-details#api=comtrade-v1&operation=get-get)
+  * Requires an account and a subscription key
+  * Allows you to determine what call you need to make given specific parameters and see if a call if valid or not, but doesn't allow you to download data directly from this page
 ### IMF
 * API
   * [Documentation](https://datahelp.imf.org/knowledgebase/articles/667681-json-restful-web-service)
@@ -65,6 +65,7 @@ git push
 * Bulk Query
   * [Guide](https://datahelp.imf.org/knowledgebase/articles/493639-export-data-how-to-bulk-download)
   * [Webpage](https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&sId=1479329334655)
+    * Allows you to manually get export for every possible country-pair (not possible through IMF API, but is possible through Comtrade)
 ### World Bank
 * [R Package Documentation](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf)
 * [Examples](https://rdrr.io/cran/wbstats/man/wb_data.html)
