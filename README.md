@@ -13,7 +13,7 @@ git push
 ```
 * Load the packages you just installed by running the second code chunk.
 * Now, run the next code chunk to install/import the Python packages that the program needs in order to work properly. As the code executes, RStudio will likely ask you to install a miniconda environment--go ahead and install it, as it'll enable you to run the code smoothly from here on out. 
-* Every time you open RStudio, be sure to run "git pull" in the terminal--this will update your local clone of the project with the most up-to-date changes.
+* Every time you open RStudio, be sure to run ```git pull``` in the terminal--this will update your local clone of the project with the most up-to-date changes.
 ## Running the Program
 ### Comtrade
 * Start by sourcing the comtrade.py file and creating an object of the Comtrade class defined in comtrade.py so that you can call comtrade.py's methods.
