@@ -25,7 +25,8 @@
 * Update the following code chunk to represent the new files you'd like to clean and the names of the data frames you'd like to save that data to.
 * Then, run the cleaning functions and examine the cleaned data frame/files.
 ### IMF
-* Repeat the steps outlined in the Comtrade section above, as the code to get IMF data is almost identical in structure to Comtrade's. The only difference is the input required to make the query; there's no need to worry about accidentally typing the wrong input, as the program will ensure the input is valid before making the API call.
+* Repeat the steps outlined in the Comtrade section above, as the code to get IMF data is almost identical in structure to Comtrade's. 
+* The only difference is the input required to make the query; there's no need to worry about accidentally typing the wrong input, as the program will ensure the input is valid before making the API call.
 ### World Bank
 * Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the wbstats R package.
 * This section is also similar in structure to the previous two. Compile the get_wb function, which both gets and cleans the data requested.
