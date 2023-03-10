@@ -54,9 +54,15 @@ git push
 ### Comtrade
 *
 ### IMF
-* Bulk query: data is in millions USD
+* API
+  * [Documentation](https://datahelp.imf.org/knowledgebase/articles/667681-json-restful-web-service)
+  * [Guide](http://www.bd-econ.com/imfapi1.html)
+  * [Examples](https://github.com/bdecon/econ_data/blob/master/APIs/IMF.ipynb)
+* Bulk Query
+  * [Guide](https://datahelp.imf.org/knowledgebase/articles/493639-export-data-how-to-bulk-download)
+  * [Webpage](https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&sId=1479329334655)
 ### World Bank
-* [Documentation](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf)
+* [Package Documentation](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf)
 * [Examples](https://rdrr.io/cran/wbstats/man/wb_data.html)
 * [More Examples](https://cran.r-project.org/web/packages/wbstats/vignettes/wbstats.html#:~:text=The%20wbstats%20R%2Dpackage%20allows,with%20realtime%20access%20to%20the)
 * [More More Examples](https://jesse.netlify.app/2018/01/08/getting-started-with-wbstats-a-world-bank-r-package/)
