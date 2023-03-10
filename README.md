@@ -32,7 +32,7 @@ git push
   * ```get_total_exports```: same as Comtrade's get_total_exports method
   * ```get_reporter_exports```: writes csv file containing value exports from reporter provided in console input to all its partners 
 ### World Bank
-* Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the [wbstats](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf) R package.
+* Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the [wbstats](https://github.com/gshs-ornl/wbstats) R package.
 * This section is also similar in structure to the previous two. Begin by compiling ```get_wb```, which both gets and cleans the data requested.
 * Then, make the actual function call in the next code chunk, and provide two arguments, the first being the number of years for which to gather data relative to the current year (e.g., 5 will retrieve the data published in the most recent 5 years) and the second being the data frame to return: the two valid inputs are "gdp" and "total exports," which will return the corresponding data frame. 
   * ```get_wb```: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter)
@@ -42,7 +42,7 @@ git push
 * The cleaning functions for Comtrade and IMF (```clean_comtrade``` and ```clean_imf```, respectively) will not work if you've already cleaned the files that you're passing into these functions.
 * You must update the file names when cleaning new Comtrade and IMF data. When you run the Python modules to get new data, the new file names will be printed in the console. These are the file names you should replace each file name with. Though not necessary, it'd likely be beneficial to also update the names of the data frames whenever you run new queries.
 * Comtrade functions will retrieve data for the given year only, while IMF functions will retrieve data starting at the given year and ending with the most recently published data.
-* The ```get_reporter_exports``` function for IMF has a quirk that occurs when the user requests a query for annual data starting at a year within 3 years of the current year. In this case, the function will "override" the user's indicated year and instead make the starting year 3 years less than the current year--I had to add this padding in order to work around the varying structures of the JSON file returned by the IMF API. This has no serious implications, as it still gets all the data you requested.
+* The ```get_reporter_exports``` function for IMF has a quirk that occurs when the user requests a query for annual data starting at a year within 3 years of the current year. In this case, the function will "override" the user's indicated year and instead make the starting year 3 years less than the current year--I had to add this padding in order to work around the varying structures of the JSON file returned by the IMF API. This has no serious implications, as it still gets all the data you requested (and then some).
 ### Summary
 * Reporter-to-all-Partners Export Sources: Comtrade (all country pairs) and IMF (one country pair @ a time)
 * Total-Export Sources: Comtrade (all reporters), IMF (all reporters), and World Bank (all reporters)
