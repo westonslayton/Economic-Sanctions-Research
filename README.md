@@ -27,10 +27,15 @@
 ### IMF
 * Repeat the steps outlined in the Comtrade section above, as the code to get IMF data is almost identical in structure to Comtrade's. 
 * The only difference is the input required to make the query; there's no need to worry about accidentally typing the wrong input, as the program will ensure the input is valid before making the API call.
+* Functions with which to query data:
+  * get_total_exports: same as Comtrade's get_total_exports method
+  * get_reporter_exports: writes csv file containing exports from reporter provided in console input to all its partners 
 ### World Bank
 * Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the wbstats R package.
 * This section is also similar in structure to the previous two. Compile the get_wb function, which both gets and cleans the data requested.
-* Then, make the actual function call in the next code chunk, and provide two arguments, the first being the number of years to gather data for (relative to the current year; e.g., 5 will retrieve data corresponding to the data published in the most recent 5 years) and the second being the data frame to return: the two valid inputs are "gdp" and "total exports," which will return the corresponding data frame. No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, run the function twice, calling it once with "gdp" as an argument and then again with "total exports" as an argument.
+* Then, make the actual function call in the next code chunk, and provide two arguments, the first being the number of years to gather data for (relative to the current year; e.g., 5 will retrieve data corresponding to the data published in the most recent 5 years) and the second being the data frame to return: the two valid inputs are "gdp" and "total exports," which will return the corresponding data frame. 
+  * get_wb: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter)
+* Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, run the function twice, calling it once with "gdp" as an argument and then again with "total exports" as an argument.
 ### Other Notes
 * Ctrl-shift-c uncomments/comments out a block/line of code; commented code will not run. (I often use this with the viewing function to only view the data frames when needed.)
 * The cleaning functions for Comtrade and IMF (clean_comtrade and clean_imf, respectively) will not work if you've already cleaned the files that you're passing into these functions.
