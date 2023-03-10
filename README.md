@@ -32,7 +32,7 @@
 * GDP source: World Bank (all reporters)
 * All data is expressed in USD, and most data is available in both monthly and annual quantities, with World Bank being the only source that supports annual data only.
 * Get new data by running the get methods.
-* Clean data currently in the data folder with the clean methods (only for Comtrade and IMF, as the cleaning of World Bank data is built into the get_wb function.
+* Clean data currently in the data folder (that hasn't yet been cleaned) with the clean methods (only for Comtrade and IMF, as the cleaning of World Bank data is built into the get_wb function.
 * When getting and cleaning new data, be sure to update file names to clean and the names of data frames to save the newly cleaned files to.
 * 
 
