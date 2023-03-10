@@ -53,13 +53,23 @@ py_install("flatten_json")
 ## Comtrade
 
 ```{r}
-#|: running-comtrade.py
-# per-country exports file format: comtrade_{year}{freq} 
-# total-exports file format: comtrade_total_{year}{freq}
+#|: setting-up-comtrade.py
 
 source_python("comtrade.py")
 comtrade_obj = Comtrade()
+```
+
+```{r}
+#|: running-comtrade-all-exports
+# total-exports file format: comtrade_total_{year}{freq}
+
 comtrade_obj$get_all_exports() # writes csv file containing all country-pair export data
+```
+
+```{r}
+#|: running-comtrade-total-exports
+# per-country exports file format: comtrade_{year}{freq} 
+
 comtrade_obj$get_total_exports() # writes csv file containing total-export values for each country
 ```
 
@@ -110,14 +120,24 @@ comtrade_total_monthly <- clean_comtrade(file)
 ## IMF
 
 ```{r}
-#|: running-imf.py
-# exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
-# total-exports file format: imf_total_exports_{year}{freq}
-# quirk w/ get_reporter_exports: if freq is annual and year is within 3 years of current year, function will return data starting from 3 years prior (e.g., if requesting annual data for France starting in 2021, it'll return data from 2020 to current day)
+#|: setting-up-imf
 
 source_python("imf.py")
 imf_obj = IMF()
+```
+
+```{r}
+#|: running-imf-total-exports
+# total-exports file format: imf_total_exports_{year}{freq}
+
 imf_obj$get_total_exports() # writes csv file containing total-export values for each country
+```
+
+```{r}
+#|: running-imf-reporter-exports
+# exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
+# quirk: if freq is annual and year is within 3 years of current year, function will return data starting from 3 years prior (e.g., if requesting annual data for France starting in 2021, it'll return data from 2020 to current day)
+
 imf_obj$get_reporter_exports() # writes csv file with export data for reporter to all partners
 ```
 
