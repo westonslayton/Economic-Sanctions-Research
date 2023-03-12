@@ -37,16 +37,38 @@ library(tsbox)
 ```{r message = FALSE}
 #|: importing-python-pkgs-to-run-modules-using-R
 
-os <- import("os")
-imf <- import("imf")
-json <- import("json")
-my_input <- import("my_input")
-datetime <- import("datetime")
-comtrade <- import("comtrade")
-fromcomtradepkg <- import("fromcomtradepkg")
+# os <- import("os")
+# imf <- import("imf")
+# json <- import("json")
+# my_input <- import("my_input")
+# datetime <- import("datetime")
+# comtrade <- import("comtrade")
+# fromcomtradepkg <- import("fromcomtradepkg")
+# py_install("pandas")
+# py_install("requests")
+# py_install("flatten_json")
+
+virtualenv_create("my-environment")
+use_virtualenv("my-environment")
+py_install("export_ease")
 py_install("pandas")
 py_install("requests")
 py_install("flatten_json")
+py_install("comtradeapicall")
+```
+
+```{python}
+from export_ease.comtrade import Comtrade
+
+comtrade_obj = Comtrade()
+comtrade_obj.get_all_exports()
+```
+
+```{python}
+from export_ease.imf import IMF
+
+imf_obj = IMF()
+imf_obj.get_reporter_exports()
 ```
 
 ## Comtrade
