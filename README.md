@@ -17,6 +17,7 @@ git push
 * Every time you open RStudio, be sure to run ```git pull``` in the terminal--this will update your local clone of the project with the most up-to-date changes.
 ## Running the Program
 ### Comtrade
+* This part of the program utilizes the [comtradeapicall](https://pypi.org/project/comtradeapicall/) Python package to implement additional functionality.
 * Start by sourcing ```comtrade.py``` and creating an object of the Comtrade class (defined in ```comtrade.py```) so that you can call the class' corresponding methods.
 * Now, you can call either the ```get_total_exports``` function or the ```get_all_exports``` function, or both:
   * ```get_all_exports```: writes csv file containing export data for all available country pairs
