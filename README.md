@@ -1,6 +1,6 @@
 # Economic Sanctions
 ###### Research @ Duke University - Nicholas School of the Environment | In collaboration with Morad Bali
-Built upon a Python package created for this project ([export_ease](https://pypi.org/project/export-ease/)) and an R package that call JSON RESTful API to gather macroeconomic data, this program offers a streamlined interface through which you can request and analyze vast amounts of macroeconomic data from sources including UN Comtrade, International Monetary Fund (IMF), and World Bank. Below is a step-by-step guide detailing effective use of this program.
+Built upon a Python package written specifically for this project ([export_ease](https://pypi.org/project/export-ease/)) that calls JSON RESTful API to gather macroeconomic data, this program offers a streamlined interface through which you can request and analyze vast amounts of macroeconomic data from sources including UN Comtrade, International Monetary Fund (IMF), and World Bank. Below is a step-by-step guide detailing effective use of this program.
 ## Setup
 * Clone the repository by clicking on ```Code``` and copying the SSH link.
 * Create a new project by clicking on the 3D box in the upper-left corner. Click ```Version Control``` and then ```Git```, and then paste the link that you copied.
