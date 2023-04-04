@@ -19,6 +19,7 @@ editor: visual
 # install.packages("reticulate") # for running python stuff
 # install.packages("tempdisagg") # for freq conv
 # install.packages("tsbox") # for time-series visualizations
+# install.packages("zoo")
 ```
 
 ```{r message = FALSE}
@@ -31,7 +32,8 @@ library(lubridate)
 library(wbstats)
 library(reticulate)
 library(tempdisagg) 
-library(tsbox)
+library(tsbox) 
+library(zoo)
 ```
 
 ```{r message = FALSE}
@@ -203,14 +205,22 @@ clean_imf <- function(file) {
   if (str_sub(file, -1) == "M") {
     clean$month <- month(ym(clean$date))
     clean$year <- year(ym(clean$date))
+    clean$date <- ym(clean$date)
   } else {
     clean$year = clean$date
+    clean$date = ymd(clean$year, truncated = 2L)
   }
   clean <- subset(clean, select = -c(category))
   write_csv(clean, csv)
   write_xlsx(clean, excel)
   return(clean)
 }
+
+# month <- ym(imf_total_monthly$date[10])
+# print(month)
+# typeof(as.Date(month))
+# date <- as.Date(month)
+# typeof(date)
 ```
 
 ```{r message = FALSE, warning = FALSE}
@@ -221,12 +231,14 @@ clean_imf <- function(file) {
 file <- "imf_total_exports_2021M"
 imf_total_monthly <- data.frame()
 imf_total_monthly <- clean_imf(file)
-# view(imf_total_monthly)
+# 
+view(imf_total_monthly)
 
 file <- "imf_total_exports_2021A"
 imf_total_annual <- data.frame()
 imf_total_annual <- clean_imf(file)
-# view(imf_total_annual)
+# 
+view(imf_total_annual)
 
 file <- "imf_FR_all_exports_2021M"
 imf_fr_all_monthly <- data.frame()
@@ -315,8 +327,14 @@ ymd(yrs, truncated = 2L)
 #|: getting-vector-for-tempdisagg-test
 
 head(gdp.q)
-daily <- td(gdp.q ~ 1, to = "daily", method = "fast")
+df <- as.data.frame(do.call(cbind, head(gdp.q))) # converting nested list to df
+df$time <- as_date(df$time)
+view(df) # putting input in df.... don't really need but good to know (need to convert to list)
+
+daily <- td(gdp.q ~ 1, to = "daily", method = "fast") # td is a nested list
 summary(daily)
+daily_df <- daily$values # getting the disaggregated values
+view(daily_df) # putting result in df
 
 gdp_daily <- predict(daily)
 ts_plot(
