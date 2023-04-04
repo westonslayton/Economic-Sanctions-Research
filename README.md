@@ -13,7 +13,7 @@ git commit -m "your message here"
 git push
 ```
 * Load the packages you just installed by running the second code chunk.
-* Now, run the next code chunk to install/import the Python packages that the program needs in order to work properly. As the code executes, RStudio will likely ask you to install a miniconda environment--go ahead and install it, as it'll enable you to run the code smoothly from here on out. 
+* Now, run the next code chunk to install/import the Python packages that the program needs in order to work properly. 
 * Every time you open RStudio, be sure to run ```git pull``` in the terminal--this will update your local clone of the project with the most up-to-date changes.
 ## Running the Program
 ### Comtrade
