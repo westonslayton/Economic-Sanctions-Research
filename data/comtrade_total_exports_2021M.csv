@@ -1,1216 +1,1216 @@
-freqCode,refPeriodId,refYear,refMonth,reporterCode,reporterISO,reporterDesc,flowDesc,partnerCode,partnerISO,partnerDesc,cmdDesc,primaryValue
-M,20210101,2021,1,28,ATG,Antigua and Barbuda,Export,0,W00,World,All Commodities,1216974.831
-M,20210101,2021,1,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1623974167.85
-M,20210101,2021,1,32,ARG,Argentina,Export,0,W00,World,All Commodities,4911999896.89
-M,20210101,2021,1,36,AUS,Australia,Export,0,W00,World,All Commodities,24488038917.517
-M,20210101,2021,1,51,ARM,Armenia,Export,0,W00,World,All Commodities,162579328.65
-M,20210101,2021,1,52,BRB,Barbados,Export,0,W00,World,All Commodities,20908151.5
-M,20210101,2021,1,56,BEL,Belgium,Export,0,W00,World,All Commodities,27583652150.235
-M,20210101,2021,1,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,743725111.81
-M,20210101,2021,1,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,551139199.7
-M,20210101,2021,1,72,BWA,Botswana,Export,0,W00,World,All Commodities,800000690.562
-M,20210101,2021,1,76,BRA,Brazil,Export,0,W00,World,All Commodities,14947626003
-M,20210101,2021,1,84,BLZ,Belize,Export,0,W00,World,All Commodities,14765424.31
-M,20210101,2021,1,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,2962426604.416
-M,20210101,2021,1,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1762170208.317
-M,20210101,2021,1,112,BLR,Belarus,Export,0,W00,World,All Commodities,2434717800
-M,20210101,2021,1,124,CAN,Canada,Export,0,W00,World,All Commodities,37160314953.789
-M,20210101,2021,1,152,CHL,Chile,Export,0,W00,World,All Commodities,7113957095.365
-M,20210101,2021,1,156,CHN,China,Export,0,W00,World,All Commodities,263633235503
-M,20210101,2021,1,170,COL,Colombia,Export,0,W00,World,All Commodities,2610936422.43
-M,20210101,2021,1,191,HRV,Croatia,Export,0,W00,World,All Commodities,1385000452
-M,20210101,2021,1,196,CYP,Cyprus,Export,0,W00,World,All Commodities,191677124.703
-M,20210101,2021,1,203,CZE,Czechia,Export,0,W00,World,All Commodities,17719510300
-M,20210101,2021,1,204,BEN,Benin,Export,0,W00,World,All Commodities,76938344.075
-M,20210101,2021,1,208,DNK,Denmark,Export,0,W00,World,All Commodities,9452571823.685
-M,20210101,2021,1,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,740229273.467
-M,20210101,2021,1,218,ECU,Ecuador,Export,0,W00,World,All Commodities,1814891832.808
-M,20210101,2021,1,222,SLV,El Salvador,Export,0,W00,World,All Commodities,515558118.07
-M,20210101,2021,1,233,EST,Estonia,Export,0,W00,World,All Commodities,1484840231.916
-M,20210101,2021,1,242,FJI,Fiji,Export,0,W00,World,All Commodities,56620031.69
-M,20210101,2021,1,246,FIN,Finland,Export,0,W00,World,All Commodities,5383139693.513
-M,20210101,2021,1,268,GEO,Georgia,Export,0,W00,World,All Commodities,224500231.81
-M,20210101,2021,1,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,99873118.95
-M,20210101,2021,1,276,DEU,Germany,Export,0,W00,World,All Commodities,120945626486.123
-M,20210101,2021,1,300,GRC,Greece,Export,0,W00,World,All Commodities,3067695770.536
-M,20210101,2021,1,308,GRD,Grenada,Export,0,W00,World,All Commodities,2278476.849
-M,20210101,2021,1,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1089712648
-M,20210101,2021,1,328,GUY,Guyana,Export,0,W00,World,All Commodities,262063384.212
-M,20210101,2021,1,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,52168243157.67
-M,20210101,2021,1,348,HUN,Hungary,Export,0,W00,World,All Commodities,10872320007
-M,20210101,2021,1,352,ISL,Iceland,Export,0,W00,World,All Commodities,382454159.812
-M,20210101,2021,1,360,IDN,Indonesia,Export,0,W00,World,All Commodities,15293664942.285
-M,20210101,2021,1,372,IRL,Ireland,Export,0,W00,World,All Commodities,16222655660.012
-M,20210101,2021,1,376,ISR,Israel,Export,0,W00,World,All Commodities,4705940000
-M,20210101,2021,1,380,ITA,Italy,Export,0,W00,World,All Commodities,41282497216.818
-M,20210101,2021,1,392,JPN,Japan,Export,0,W00,World,All Commodities,55735015938.369
-M,20210101,2021,1,404,KEN,Kenya,Export,0,W00,World,All Commodities,494597695.124
-M,20210101,2021,1,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4023308432
-M,20210101,2021,1,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,97572722
-M,20210101,2021,1,426,LSO,Lesotho,Export,0,W00,World,All Commodities,59618654.212
-M,20210101,2021,1,428,LVA,Latvia,Export,0,W00,World,All Commodities,1285049099.096
-M,20210101,2021,1,440,LTU,Lithuania,Export,0,W00,World,All Commodities,2771048009.99
-M,20210101,2021,1,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1183582077.821
-M,20210101,2021,1,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,147352128.774
-M,20210101,2021,1,450,MDG,Madagascar,Export,0,W00,World,All Commodities,162896671.156
-M,20210101,2021,1,458,MYS,Malaysia,Export,0,W00,World,All Commodities,22201593814.758
-M,20210101,2021,1,480,MUS,Mauritius,Export,0,W00,World,All Commodities,116979760.306
-M,20210101,2021,1,484,MEX,Mexico,Export,0,W00,World,All Commodities,32667770741
-M,20210101,2021,1,496,MNG,Mongolia,Export,0,W00,World,All Commodities,639684750.76
-M,20210101,2021,1,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,198437306
-M,20210101,2021,1,499,MNE,Montenegro,Export,0,W00,World,All Commodities,30790183.78
-M,20210101,2021,1,504,MAR,Morocco,Export,0,W00,World,All Commodities,2803088636.669
-M,20210101,2021,1,528,NLD,Netherlands,Export,0,W00,World,All Commodities,49813220474.078
-M,20210101,2021,1,554,NZL,New Zealand,Export,0,W00,World,All Commodities,3016865412.974
-M,20210101,2021,1,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,460420219.53
-M,20210101,2021,1,566,NGA,Nigeria,Export,0,W00,World,All Commodities,2349601978.858
-M,20210101,2021,1,579,NOR,Norway,Export,0,W00,World,All Commodities,9459561306.371
-M,20210101,2021,1,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2146063599.179
-M,20210101,2021,1,591,PAN,Panama,Export,0,W00,World,All Commodities,241506179
-M,20210101,2021,1,600,PRY,Paraguay,Export,0,W00,World,All Commodities,543955493
-M,20210101,2021,1,608,PHL,Philippines,Export,0,W00,World,All Commodities,5521466745
-M,20210101,2021,1,616,POL,Poland,Export,0,W00,World,All Commodities,24796391119
-M,20210101,2021,1,620,PRT,Portugal,Export,0,W00,World,All Commodities,5617333354.407
-M,20210101,2021,1,634,QAT,Qatar,Export,0,W00,World,All Commodities,5851327257.613
-M,20210101,2021,1,642,ROU,Romania,Export,0,W00,World,All Commodities,6584846035.5
-M,20210101,2021,1,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,26979459439.484
-M,20210101,2021,1,646,RWA,Rwanda,Export,0,W00,World,All Commodities,75414984.1
-M,20210101,2021,1,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,2106545.309
-M,20210101,2021,1,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,1449253.42
-M,20210101,2021,1,688,SRB,Serbia,Export,0,W00,World,All Commodities,1655694080
-M,20210101,2021,1,690,SYC,Seychelles,Export,0,W00,World,All Commodities,710299361.229
-M,20210101,2021,1,699,IND,India,Export,0,W00,World,All Commodities,27500549438.864
-M,20210101,2021,1,702,SGP,Singapore,Export,0,W00,World,All Commodities,33942509233.411
-M,20210101,2021,1,703,SVK,Slovakia,Export,0,W00,World,All Commodities,7940594008.231
-M,20210101,2021,1,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,28545770525
-M,20210101,2021,1,705,SVN,Slovenia,Export,0,W00,World,All Commodities,3528922518.008
-M,20210101,2021,1,710,ZAF,South Africa,Export,0,W00,World,All Commodities,7223606181.347
-M,20210101,2021,1,724,ESP,Spain,Export,0,W00,World,All Commodities,26683545383.237
-M,20210101,2021,1,752,SWE,Sweden,Export,0,W00,World,All Commodities,13718639459.313
-M,20210101,2021,1,757,CHE,Switzerland,Export,0,W00,World,All Commodities,27630003986.906
-M,20210101,2021,1,768,TGO,Togo,Export,0,W00,World,All Commodities,84063596.713
-M,20210101,2021,1,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,463643748.647
-M,20210101,2021,1,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1242368147.504
-M,20210101,2021,1,792,TUR,Türkiye,Export,0,W00,World,All Commodities,15003935219
-M,20210101,2021,1,804,UKR,Ukraine,Export,0,W00,World,All Commodities,3927453219.93
-M,20210101,2021,1,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,641517226.76
-M,20210101,2021,1,818,EGY,Egypt,Export,0,W00,World,All Commodities,2536387816.336
-M,20210101,2021,1,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,27392471984.041
-M,20210101,2021,1,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,416072971.429
-M,20210101,2021,1,842,USA,USA,Export,0,W00,World,All Commodities,127476378280
-M,20210101,2021,1,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,494996998.194
-M,20210101,2021,1,858,URY,Uruguay,Export,0,W00,World,All Commodities,559618967
-M,20210101,2021,1,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,528901635.04
-M,20210101,2021,1,882,WSM,Samoa,Export,0,W00,World,All Commodities,1655455.981
-M,20210101,2021,1,894,ZMB,Zambia,Export,0,W00,World,All Commodities,835043693.901
-M,20210201,2021,2,28,ATG,Antigua and Barbuda,Export,0,W00,World,All Commodities,1155221.737
-M,20210201,2021,2,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1163974263.69
-M,20210201,2021,2,32,ARG,Argentina,Export,0,W00,World,All Commodities,4774998994.87
-M,20210201,2021,2,36,AUS,Australia,Export,0,W00,World,All Commodities,24604296085.516
-M,20210201,2021,2,51,ARM,Armenia,Export,0,W00,World,All Commodities,195182204.05
-M,20210201,2021,2,52,BRB,Barbados,Export,0,W00,World,All Commodities,25609061.5
-M,20210201,2021,2,56,BEL,Belgium,Export,0,W00,World,All Commodities,27054233316.536
-M,20210201,2021,2,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,779415269.1
-M,20210201,2021,2,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,635814834.89
-M,20210201,2021,2,72,BWA,Botswana,Export,0,W00,World,All Commodities,597107583.576
-M,20210201,2021,2,76,BRA,Brazil,Export,0,W00,World,All Commodities,16375290870
-M,20210201,2021,2,84,BLZ,Belize,Export,0,W00,World,All Commodities,21175363.915
-M,20210201,2021,2,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3130539187.202
-M,20210201,2021,2,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1070589440.438
-M,20210201,2021,2,112,BLR,Belarus,Export,0,W00,World,All Commodities,2704166400
-M,20210201,2021,2,124,CAN,Canada,Export,0,W00,World,All Commodities,35724311443.989
-M,20210201,2021,2,152,CHL,Chile,Export,0,W00,World,All Commodities,7271354322.737
-M,20210201,2021,2,156,CHN,China,Export,0,W00,World,All Commodities,204513895257
-M,20210201,2021,2,170,COL,Colombia,Export,0,W00,World,All Commodities,2938994116.72
-M,20210201,2021,2,191,HRV,Croatia,Export,0,W00,World,All Commodities,1565639264
-M,20210201,2021,2,196,CYP,Cyprus,Export,0,W00,World,All Commodities,216731889.605
-M,20210201,2021,2,203,CZE,Czechia,Export,0,W00,World,All Commodities,17746538430
-M,20210201,2021,2,204,BEN,Benin,Export,0,W00,World,All Commodities,83701553.083
-M,20210201,2021,2,208,DNK,Denmark,Export,0,W00,World,All Commodities,9589436977.041
-M,20210201,2021,2,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,913659166.285
-M,20210201,2021,2,218,ECU,Ecuador,Export,0,W00,World,All Commodities,1953825093.096
-M,20210201,2021,2,222,SLV,El Salvador,Export,0,W00,World,All Commodities,504924024.11
-M,20210201,2021,2,233,EST,Estonia,Export,0,W00,World,All Commodities,1567959377.302
-M,20210201,2021,2,242,FJI,Fiji,Export,0,W00,World,All Commodities,60695797.377
-M,20210201,2021,2,246,FIN,Finland,Export,0,W00,World,All Commodities,5837505693.576
-M,20210201,2021,2,268,GEO,Georgia,Export,0,W00,World,All Commodities,267673692.45
-M,20210201,2021,2,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,96760771.44
-M,20210201,2021,2,276,DEU,Germany,Export,0,W00,World,All Commodities,131051575272.884
-M,20210201,2021,2,300,GRC,Greece,Export,0,W00,World,All Commodities,3515722370.952
-M,20210201,2021,2,308,GRD,Grenada,Export,0,W00,World,All Commodities,2135069.06
-M,20210201,2021,2,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1089477569
-M,20210201,2021,2,328,GUY,Guyana,Export,0,W00,World,All Commodities,338818250.346
-M,20210201,2021,2,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,41184084600.478
-M,20210201,2021,2,348,HUN,Hungary,Export,0,W00,World,All Commodities,11703556198
-M,20210201,2021,2,352,ISL,Iceland,Export,0,W00,World,All Commodities,409450217.992
-M,20210201,2021,2,360,IDN,Indonesia,Export,0,W00,World,All Commodities,15256164431.279
-M,20210201,2021,2,372,IRL,Ireland,Export,0,W00,World,All Commodities,14898893791.188
-M,20210201,2021,2,376,ISR,Israel,Export,0,W00,World,All Commodities,4270032000
-M,20210201,2021,2,380,ITA,Italy,Export,0,W00,World,All Commodities,47051677071.944
-M,20210201,2021,2,392,JPN,Japan,Export,0,W00,World,All Commodities,57303851858.861
-M,20210201,2021,2,404,KEN,Kenya,Export,0,W00,World,All Commodities,614581174.507
-M,20210201,2021,2,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4496218216
-M,20210201,2021,2,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,136152354
-M,20210201,2021,2,426,LSO,Lesotho,Export,0,W00,World,All Commodities,68681293.463
-M,20210201,2021,2,428,LVA,Latvia,Export,0,W00,World,All Commodities,1373869000.316
-M,20210201,2021,2,440,LTU,Lithuania,Export,0,W00,World,All Commodities,2951307324.96
-M,20210201,2021,2,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1015562758.27
-M,20210201,2021,2,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,67755349.386
-M,20210201,2021,2,450,MDG,Madagascar,Export,0,W00,World,All Commodities,166704366.419
-M,20210201,2021,2,458,MYS,Malaysia,Export,0,W00,World,All Commodities,21645833811.958
-M,20210201,2021,2,480,MUS,Mauritius,Export,0,W00,World,All Commodities,132738802.429
-M,20210201,2021,2,484,MEX,Mexico,Export,0,W00,World,All Commodities,36174570563
-M,20210201,2021,2,496,MNG,Mongolia,Export,0,W00,World,All Commodities,694630364.81
-M,20210201,2021,2,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,227035010
-M,20210201,2021,2,499,MNE,Montenegro,Export,0,W00,World,All Commodities,34898108.29
-M,20210201,2021,2,504,MAR,Morocco,Export,0,W00,World,All Commodities,2681151207.019
-M,20210201,2021,2,528,NLD,Netherlands,Export,0,W00,World,All Commodities,50791092893.637
-M,20210201,2021,2,554,NZL,New Zealand,Export,0,W00,World,All Commodities,3239074287.522
-M,20210201,2021,2,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,509302390.98
-M,20210201,2021,2,566,NGA,Nigeria,Export,0,W00,World,All Commodities,2584808427
-M,20210201,2021,2,579,NOR,Norway,Export,0,W00,World,All Commodities,9264063951.034
-M,20210201,2021,2,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2077295269.434
-M,20210201,2021,2,591,PAN,Panama,Export,0,W00,World,All Commodities,238513947
-M,20210201,2021,2,600,PRY,Paraguay,Export,0,W00,World,All Commodities,558430800
-M,20210201,2021,2,608,PHL,Philippines,Export,0,W00,World,All Commodities,5350328948
-M,20210201,2021,2,616,POL,Poland,Export,0,W00,World,All Commodities,26086226621
-M,20210201,2021,2,620,PRT,Portugal,Export,0,W00,World,All Commodities,6033540905.98
-M,20210201,2021,2,634,QAT,Qatar,Export,0,W00,World,All Commodities,5663338561.285
-M,20210201,2021,2,642,ROU,Romania,Export,0,W00,World,All Commodities,7001087659.98
-M,20210201,2021,2,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,30225943112.358
-M,20210201,2021,2,646,RWA,Rwanda,Export,0,W00,World,All Commodities,97684377.69
-M,20210201,2021,2,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,3401348.32
-M,20210201,2021,2,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,678042.066
-M,20210201,2021,2,688,SRB,Serbia,Export,0,W00,World,All Commodities,1920806636
-M,20210201,2021,2,690,SYC,Seychelles,Export,0,W00,World,All Commodities,21192004.519
-M,20210201,2021,2,699,IND,India,Export,0,W00,World,All Commodities,27606842092.716
-M,20210201,2021,2,702,SGP,Singapore,Export,0,W00,World,All Commodities,32094489976.889
-M,20210201,2021,2,703,SVK,Slovakia,Export,0,W00,World,All Commodities,8725078265.806
-M,20210201,2021,2,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,20195667948
-M,20210201,2021,2,705,SVN,Slovenia,Export,0,W00,World,All Commodities,3631441772.485
-M,20210201,2021,2,710,ZAF,South Africa,Export,0,W00,World,All Commodities,8826196783.596
-M,20210201,2021,2,724,ESP,Spain,Export,0,W00,World,All Commodities,29924484862.011
-M,20210201,2021,2,752,SWE,Sweden,Export,0,W00,World,All Commodities,14789381363.943
-M,20210201,2021,2,757,CHE,Switzerland,Export,0,W00,World,All Commodities,28625732974.165
-M,20210201,2021,2,768,TGO,Togo,Export,0,W00,World,All Commodities,95216314.576
-M,20210201,2021,2,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,736810678.495
-M,20210201,2021,2,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1275115146.083
-M,20210201,2021,2,792,TUR,Türkiye,Export,0,W00,World,All Commodities,15952528858
-M,20210201,2021,2,804,UKR,Ukraine,Export,0,W00,World,All Commodities,4548093006.23
-M,20210201,2021,2,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,659586522.22
-M,20210201,2021,2,818,EGY,Egypt,Export,0,W00,World,All Commodities,2717261987.91
-M,20210201,2021,2,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,36569812667.005
-M,20210201,2021,2,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,356239053.256
-M,20210201,2021,2,842,USA,USA,Export,0,W00,World,All Commodities,123874920638
-M,20210201,2021,2,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,390566393.48
-M,20210201,2021,2,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,677820283
-M,20210201,2021,2,882,WSM,Samoa,Export,0,W00,World,All Commodities,2335069.817
-M,20210301,2021,3,28,ATG,Antigua and Barbuda,Export,0,W00,World,All Commodities,2794678.127
-M,20210301,2021,3,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1350040145.75
-M,20210301,2021,3,32,ARG,Argentina,Export,0,W00,World,All Commodities,5719998796.77
-M,20210301,2021,3,36,AUS,Australia,Export,0,W00,World,All Commodities,27625525889.88
-M,20210301,2021,3,51,ARM,Armenia,Export,0,W00,World,All Commodities,215414632.36
-M,20210301,2021,3,52,BRB,Barbados,Export,0,W00,World,All Commodities,35108915
-M,20210301,2021,3,56,BEL,Belgium,Export,0,W00,World,All Commodities,32772943610.665
-M,20210301,2021,3,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,819932144.61
-M,20210301,2021,3,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,703552845.84
-M,20210301,2021,3,72,BWA,Botswana,Export,0,W00,World,All Commodities,824446523.877
-M,20210301,2021,3,76,BRA,Brazil,Export,0,W00,World,All Commodities,24335759852
-M,20210301,2021,3,84,BLZ,Belize,Export,0,W00,World,All Commodities,20859963.9
-M,20210301,2021,3,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3538488336.659
-M,20210301,2021,3,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1321635122.965
-M,20210301,2021,3,112,BLR,Belarus,Export,0,W00,World,All Commodities,3075112100
-M,20210301,2021,3,124,CAN,Canada,Export,0,W00,World,All Commodities,42663945137.11
-M,20210301,2021,3,152,CHL,Chile,Export,0,W00,World,All Commodities,7759866088.154
-M,20210301,2021,3,156,CHN,China,Export,0,W00,World,All Commodities,240708458147
-M,20210301,2021,3,170,COL,Colombia,Export,0,W00,World,All Commodities,3383554076.38
-M,20210301,2021,3,191,HRV,Croatia,Export,0,W00,World,All Commodities,1943550260
-M,20210301,2021,3,196,CYP,Cyprus,Export,0,W00,World,All Commodities,266983528.211
-M,20210301,2021,3,203,CZE,Czechia,Export,0,W00,World,All Commodities,20933223522
-M,20210301,2021,3,204,BEN,Benin,Export,0,W00,World,All Commodities,99031303.954
-M,20210301,2021,3,208,DNK,Denmark,Export,0,W00,World,All Commodities,11615033189.382
-M,20210301,2021,3,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,1114148916.36
-M,20210301,2021,3,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2092602235.645
-M,20210301,2021,3,222,SLV,El Salvador,Export,0,W00,World,All Commodities,558253360.99
-M,20210301,2021,3,233,EST,Estonia,Export,0,W00,World,All Commodities,1812683970.683
-M,20210301,2021,3,242,FJI,Fiji,Export,0,W00,World,All Commodities,72174839.04
-M,20210301,2021,3,246,FIN,Finland,Export,0,W00,World,All Commodities,6921946328.752
-M,20210301,2021,3,268,GEO,Georgia,Export,0,W00,World,All Commodities,326088939.88
-M,20210301,2021,3,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,118485111.47
-M,20210301,2021,3,276,DEU,Germany,Export,0,W00,World,All Commodities,152837784585.713
-M,20210301,2021,3,300,GRC,Greece,Export,0,W00,World,All Commodities,3987008223.149
-M,20210301,2021,3,308,GRD,Grenada,Export,0,W00,World,All Commodities,3396044.716
-M,20210301,2021,3,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1267056738
-M,20210301,2021,3,328,GUY,Guyana,Export,0,W00,World,All Commodities,542869263
-M,20210301,2021,3,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,54774564391.038
-M,20210301,2021,3,348,HUN,Hungary,Export,0,W00,World,All Commodities,13302067452
-M,20210301,2021,3,352,ISL,Iceland,Export,0,W00,World,All Commodities,489809385.125
-M,20210301,2021,3,360,IDN,Indonesia,Export,0,W00,World,All Commodities,18354446773.396
-M,20210301,2021,3,372,IRL,Ireland,Export,0,W00,World,All Commodities,17501531949.034
-M,20210301,2021,3,376,ISR,Israel,Export,0,W00,World,All Commodities,4794399000
-M,20210301,2021,3,380,ITA,Italy,Export,0,W00,World,All Commodities,54953618615.419
-M,20210301,2021,3,392,JPN,Japan,Export,0,W00,World,All Commodities,67902331920.751
-M,20210301,2021,3,404,KEN,Kenya,Export,0,W00,World,All Commodities,635093009.404
-M,20210301,2021,3,414,KWT,Kuwait,Export,0,W00,World,All Commodities,5006250055
-M,20210301,2021,3,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,192105765
-M,20210301,2021,3,426,LSO,Lesotho,Export,0,W00,World,All Commodities,67251250.021
-M,20210301,2021,3,428,LVA,Latvia,Export,0,W00,World,All Commodities,1588469863.195
-M,20210301,2021,3,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3280446870.99
-M,20210301,2021,3,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1461276534.19
-M,20210301,2021,3,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,125742987.729
-M,20210301,2021,3,450,MDG,Madagascar,Export,0,W00,World,All Commodities,165762790.164
-M,20210301,2021,3,458,MYS,Malaysia,Export,0,W00,World,All Commodities,25550241484.704
-M,20210301,2021,3,480,MUS,Mauritius,Export,0,W00,World,All Commodities,124189126.718
-M,20210301,2021,3,484,MEX,Mexico,Export,0,W00,World,All Commodities,43021477467
-M,20210301,2021,3,496,MNG,Mongolia,Export,0,W00,World,All Commodities,665387011.12
-M,20210301,2021,3,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,259287156
-M,20210301,2021,3,499,MNE,Montenegro,Export,0,W00,World,All Commodities,40688462.851
-M,20210301,2021,3,504,MAR,Morocco,Export,0,W00,World,All Commodities,3177619073.512
-M,20210301,2021,3,528,NLD,Netherlands,Export,0,W00,World,All Commodities,61651264974.873
-M,20210301,2021,3,554,NZL,New Zealand,Export,0,W00,World,All Commodities,4056539879.261
-M,20210301,2021,3,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,622566177.83
-M,20210301,2021,3,566,NGA,Nigeria,Export,0,W00,World,All Commodities,2900050947.509
-M,20210301,2021,3,579,NOR,Norway,Export,0,W00,World,All Commodities,11088445849.807
-M,20210301,2021,3,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2370504230.297
-M,20210301,2021,3,591,PAN,Panama,Export,0,W00,World,All Commodities,326246353
-M,20210301,2021,3,600,PRY,Paraguay,Export,0,W00,World,All Commodities,1192735645
-M,20210301,2021,3,608,PHL,Philippines,Export,0,W00,World,All Commodities,6772036196
-M,20210301,2021,3,616,POL,Poland,Export,0,W00,World,All Commodities,30521974328
-M,20210301,2021,3,620,PRT,Portugal,Export,0,W00,World,All Commodities,6958652864.097
-M,20210301,2021,3,634,QAT,Qatar,Export,0,W00,World,All Commodities,6060813399.032
-M,20210301,2021,3,642,ROU,Romania,Export,0,W00,World,All Commodities,7796198438.02
-M,20210301,2021,3,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,36476988302.506
-M,20210301,2021,3,646,RWA,Rwanda,Export,0,W00,World,All Commodities,96232929.99
-M,20210301,2021,3,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,3477623.349
-M,20210301,2021,3,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,1208347.492
-M,20210301,2021,3,688,SRB,Serbia,Export,0,W00,World,All Commodities,2261112019
-M,20210301,2021,3,690,SYC,Seychelles,Export,0,W00,World,All Commodities,279424563.743
-M,20210301,2021,3,699,IND,India,Export,0,W00,World,All Commodities,34710793904.463
-M,20210301,2021,3,702,SGP,Singapore,Export,0,W00,World,All Commodities,41302741939.388
-M,20210301,2021,3,703,SVK,Slovakia,Export,0,W00,World,All Commodities,10083418529.194
-M,20210301,2021,3,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,29653914695
-M,20210301,2021,3,705,SVN,Slovenia,Export,0,W00,World,All Commodities,4187451549.254
-M,20210301,2021,3,710,ZAF,South Africa,Export,0,W00,World,All Commodities,11132118158.641
-M,20210301,2021,3,724,ESP,Spain,Export,0,W00,World,All Commodities,36404671961.256
-M,20210301,2021,3,752,SWE,Sweden,Export,0,W00,World,All Commodities,16841554876.797
-M,20210301,2021,3,757,CHE,Switzerland,Export,0,W00,World,All Commodities,35247839960.656
-M,20210301,2021,3,768,TGO,Togo,Export,0,W00,World,All Commodities,79154858.83
-M,20210301,2021,3,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,535403046.228
-M,20210301,2021,3,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1561001883.133
-M,20210301,2021,3,792,TUR,Türkiye,Export,0,W00,World,All Commodities,18955706115
-M,20210301,2021,3,804,UKR,Ukraine,Export,0,W00,World,All Commodities,5231255170.32
-M,20210301,2021,3,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,701427708.93
-M,20210301,2021,3,818,EGY,Egypt,Export,0,W00,World,All Commodities,3430289300.038
-M,20210301,2021,3,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,48457910709.369
-M,20210301,2021,3,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,546564478.23
-M,20210301,2021,3,842,USA,USA,Export,0,W00,World,All Commodities,151488961267
-M,20210301,2021,3,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,494438128.854
-M,20210301,2021,3,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,736980034.67
-M,20210301,2021,3,882,WSM,Samoa,Export,0,W00,World,All Commodities,3579979.845
-M,20210401,2021,4,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2226287522.3
-M,20210401,2021,4,32,ARG,Argentina,Export,0,W00,World,All Commodities,6142998699.95
-M,20210401,2021,4,36,AUS,Australia,Export,0,W00,World,All Commodities,27221581162.757
-M,20210401,2021,4,51,ARM,Armenia,Export,0,W00,World,All Commodities,240598668.71
-M,20210401,2021,4,52,BRB,Barbados,Export,0,W00,World,All Commodities,26894351.5
-M,20210401,2021,4,56,BEL,Belgium,Export,0,W00,World,All Commodities,31201625277.249
-M,20210401,2021,4,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,865642273.32
-M,20210401,2021,4,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,679788333.39
-M,20210401,2021,4,72,BWA,Botswana,Export,0,W00,World,All Commodities,470926358.926
-M,20210401,2021,4,76,BRA,Brazil,Export,0,W00,World,All Commodities,26059431856
-M,20210401,2021,4,84,BLZ,Belize,Export,0,W00,World,All Commodities,29331422.855
-M,20210401,2021,4,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3598748159.79
-M,20210401,2021,4,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1112673504.69
-M,20210401,2021,4,112,BLR,Belarus,Export,0,W00,World,All Commodities,3185359100
-M,20210401,2021,4,124,CAN,Canada,Export,0,W00,World,All Commodities,38901441455.325
-M,20210401,2021,4,152,CHL,Chile,Export,0,W00,World,All Commodities,8364119462.065
-M,20210401,2021,4,156,CHN,China,Export,0,W00,World,All Commodities,263388825594
-M,20210401,2021,4,170,COL,Colombia,Export,0,W00,World,All Commodities,2976372344.03
-M,20210401,2021,4,191,HRV,Croatia,Export,0,W00,World,All Commodities,1838339748
-M,20210401,2021,4,196,CYP,Cyprus,Export,0,W00,World,All Commodities,293448011.681
-M,20210401,2021,4,203,CZE,Czechia,Export,0,W00,World,All Commodities,19751473008
-M,20210401,2021,4,204,BEN,Benin,Export,0,W00,World,All Commodities,81518605.586
-M,20210401,2021,4,208,DNK,Denmark,Export,0,W00,World,All Commodities,9961413026.991
-M,20210401,2021,4,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,989677705.347
-M,20210401,2021,4,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2231056845.048
-M,20210401,2021,4,222,SLV,El Salvador,Export,0,W00,World,All Commodities,512478614.96
-M,20210401,2021,4,233,EST,Estonia,Export,0,W00,World,All Commodities,1949575797.653
-M,20210401,2021,4,242,FJI,Fiji,Export,0,W00,World,All Commodities,55058810.987
-M,20210401,2021,4,246,FIN,Finland,Export,0,W00,World,All Commodities,6409310844.604
-M,20210401,2021,4,268,GEO,Georgia,Export,0,W00,World,All Commodities,377689459.13
-M,20210401,2021,4,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,106766195.65
-M,20210401,2021,4,276,DEU,Germany,Export,0,W00,World,All Commodities,135470506310.07
-M,20210401,2021,4,300,GRC,Greece,Export,0,W00,World,All Commodities,3817364503.283
-M,20210401,2021,4,308,GRD,Grenada,Export,0,W00,World,All Commodities,2333344.261
-M,20210401,2021,4,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1038891108
-M,20210401,2021,4,328,GUY,Guyana,Export,0,W00,World,All Commodities,315872476.748
-M,20210401,2021,4,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,53184685113.081
-M,20210401,2021,4,348,HUN,Hungary,Export,0,W00,World,All Commodities,11764568100
-M,20210401,2021,4,352,ISL,Iceland,Export,0,W00,World,All Commodities,488367693.763
-M,20210401,2021,4,360,IDN,Indonesia,Export,0,W00,World,All Commodities,18490725416.507
-M,20210401,2021,4,372,IRL,Ireland,Export,0,W00,World,All Commodities,14721196035.544
-M,20210401,2021,4,376,ISR,Israel,Export,0,W00,World,All Commodities,4614069000
-M,20210401,2021,4,380,ITA,Italy,Export,0,W00,World,All Commodities,52686297453.138
-M,20210401,2021,4,392,JPN,Japan,Export,0,W00,World,All Commodities,65792796227.129
-M,20210401,2021,4,404,KEN,Kenya,Export,0,W00,World,All Commodities,544947285.506
-M,20210401,2021,4,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4674868419
-M,20210401,2021,4,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,163811340
-M,20210401,2021,4,426,LSO,Lesotho,Export,0,W00,World,All Commodities,74199670.83
-M,20210401,2021,4,428,LVA,Latvia,Export,0,W00,World,All Commodities,1492323002.456
-M,20210401,2021,4,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3195307082.98
-M,20210401,2021,4,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1357406092.241
-M,20210401,2021,4,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,107539788.275
-M,20210401,2021,4,450,MDG,Madagascar,Export,0,W00,World,All Commodities,210885860.221
-M,20210401,2021,4,458,MYS,Malaysia,Export,0,W00,World,All Commodities,25602930901.718
-M,20210401,2021,4,480,MUS,Mauritius,Export,0,W00,World,All Commodities,121698423.05
-M,20210401,2021,4,484,MEX,Mexico,Export,0,W00,World,All Commodities,40772789633
-M,20210401,2021,4,496,MNG,Mongolia,Export,0,W00,World,All Commodities,496191726.98
-M,20210401,2021,4,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,218235170
-M,20210401,2021,4,499,MNE,Montenegro,Export,0,W00,World,All Commodities,48857488.769
-M,20210401,2021,4,504,MAR,Morocco,Export,0,W00,World,All Commodities,2911216211.212
-M,20210401,2021,4,528,NLD,Netherlands,Export,0,W00,World,All Commodities,55707033717.98
-M,20210401,2021,4,554,NZL,New Zealand,Export,0,W00,World,All Commodities,3822296299.823
-M,20210401,2021,4,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,517088108.74
-M,20210401,2021,4,566,NGA,Nigeria,Export,0,W00,World,All Commodities,4335660181.513
-M,20210401,2021,4,579,NOR,Norway,Export,0,W00,World,All Commodities,10199190538.199
-M,20210401,2021,4,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2221420214.363
-M,20210401,2021,4,591,PAN,Panama,Export,0,W00,World,All Commodities,279642439
-M,20210401,2021,4,600,PRY,Paraguay,Export,0,W00,World,All Commodities,936743295
-M,20210401,2021,4,608,PHL,Philippines,Export,0,W00,World,All Commodities,5780455446
-M,20210401,2021,4,616,POL,Poland,Export,0,W00,World,All Commodities,27502558078
-M,20210401,2021,4,620,PRT,Portugal,Export,0,W00,World,All Commodities,6398203373.867
-M,20210401,2021,4,634,QAT,Qatar,Export,0,W00,World,All Commodities,5756228169.092
-M,20210401,2021,4,642,ROU,Romania,Export,0,W00,World,All Commodities,7430766160.84
-M,20210401,2021,4,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,36905067466.64
-M,20210401,2021,4,646,RWA,Rwanda,Export,0,W00,World,All Commodities,108305663.15
-M,20210401,2021,4,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,2070771.803
-M,20210401,2021,4,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,1671750.984
-M,20210401,2021,4,688,SRB,Serbia,Export,0,W00,World,All Commodities,2100521668
-M,20210401,2021,4,699,IND,India,Export,0,W00,World,All Commodities,30728799053.8
-M,20210401,2021,4,702,SGP,Singapore,Export,0,W00,World,All Commodities,37913591483.138
-M,20210401,2021,4,703,SVK,Slovakia,Export,0,W00,World,All Commodities,8715175289.343
-M,20210401,2021,4,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,26549697511
-M,20210401,2021,4,705,SVN,Slovenia,Export,0,W00,World,All Commodities,3858762805.432
-M,20210401,2021,4,710,ZAF,South Africa,Export,0,W00,World,All Commodities,10909426134.748
-M,20210401,2021,4,724,ESP,Spain,Export,0,W00,World,All Commodities,32116127662.382
-M,20210401,2021,4,752,SWE,Sweden,Export,0,W00,World,All Commodities,15501702568.376
-M,20210401,2021,4,757,CHE,Switzerland,Export,0,W00,World,All Commodities,31445833746.942
-M,20210401,2021,4,768,TGO,Togo,Export,0,W00,World,All Commodities,97546885.679
-M,20210401,2021,4,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,722610362.868
-M,20210401,2021,4,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1458178938.89
-M,20210401,2021,4,792,TUR,Türkiye,Export,0,W00,World,All Commodities,18756865083
-M,20210401,2021,4,804,UKR,Ukraine,Export,0,W00,World,All Commodities,5362334374.44
-M,20210401,2021,4,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,736830045.36
-M,20210401,2021,4,818,EGY,Egypt,Export,0,W00,World,All Commodities,2915646561.545
-M,20210401,2021,4,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,37888521380.355
-M,20210401,2021,4,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,425373663.27
-M,20210401,2021,4,842,USA,USA,Export,0,W00,World,All Commodities,144342213766
-M,20210401,2021,4,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,413792878.013
-M,20210401,2021,4,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,900834897.53
-M,20210401,2021,4,882,WSM,Samoa,Export,0,W00,World,All Commodities,1648139.06
-M,20210501,2021,5,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1062896111.38
-M,20210501,2021,5,32,ARG,Argentina,Export,0,W00,World,All Commodities,6812691211.24
-M,20210501,2021,5,36,AUS,Australia,Export,0,W00,World,All Commodities,29766590771.045
-M,20210501,2021,5,51,ARM,Armenia,Export,0,W00,World,All Commodities,261063112.4
-M,20210501,2021,5,52,BRB,Barbados,Export,0,W00,World,All Commodities,52168477
-M,20210501,2021,5,56,BEL,Belgium,Export,0,W00,World,All Commodities,31088737987.174
-M,20210501,2021,5,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,949165490.55
-M,20210501,2021,5,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,654524482.28
-M,20210501,2021,5,72,BWA,Botswana,Export,0,W00,World,All Commodities,465917795.808
-M,20210501,2021,5,76,BRA,Brazil,Export,0,W00,World,All Commodities,26200662606
-M,20210501,2021,5,84,BLZ,Belize,Export,0,W00,World,All Commodities,26793114.45
-M,20210501,2021,5,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3200448993.655
-M,20210501,2021,5,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1120753833.397
-M,20210501,2021,5,112,BLR,Belarus,Export,0,W00,World,All Commodities,3085265800
-M,20210501,2021,5,124,CAN,Canada,Export,0,W00,World,All Commodities,40852214830.944
-M,20210501,2021,5,152,CHL,Chile,Export,0,W00,World,All Commodities,7789851244.121
-M,20210501,2021,5,156,CHN,China,Export,0,W00,World,All Commodities,263499100643
-M,20210501,2021,5,170,COL,Colombia,Export,0,W00,World,All Commodities,3096913278.01
-M,20210501,2021,5,191,HRV,Croatia,Export,0,W00,World,All Commodities,1855344148
-M,20210501,2021,5,196,CYP,Cyprus,Export,0,W00,World,All Commodities,276649546.28
-M,20210501,2021,5,203,CZE,Czechia,Export,0,W00,World,All Commodities,19158932828
-M,20210501,2021,5,204,BEN,Benin,Export,0,W00,World,All Commodities,106141433.536
-M,20210501,2021,5,208,DNK,Denmark,Export,0,W00,World,All Commodities,10686441826.807
-M,20210501,2021,5,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,1023031669.49
-M,20210501,2021,5,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2220923688.708
-M,20210501,2021,5,222,SLV,El Salvador,Export,0,W00,World,All Commodities,532519640
-M,20210501,2021,5,233,EST,Estonia,Export,0,W00,World,All Commodities,1809940920.22
-M,20210501,2021,5,242,FJI,Fiji,Export,0,W00,World,All Commodities,76043324.518
-M,20210501,2021,5,246,FIN,Finland,Export,0,W00,World,All Commodities,6443840600.789
-M,20210501,2021,5,268,GEO,Georgia,Export,0,W00,World,All Commodities,340007510.31
-M,20210501,2021,5,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,90972781.64
-M,20210501,2021,5,276,DEU,Germany,Export,0,W00,World,All Commodities,133565614247.105
-M,20210501,2021,5,300,GRC,Greece,Export,0,W00,World,All Commodities,3930089644.201
-M,20210501,2021,5,308,GRD,Grenada,Export,0,W00,World,All Commodities,3250655.923
-M,20210501,2021,5,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1090034378
-M,20210501,2021,5,328,GUY,Guyana,Export,0,W00,World,All Commodities,236007777.166
-M,20210501,2021,5,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,52884580077.587
-M,20210501,2021,5,348,HUN,Hungary,Export,0,W00,World,All Commodities,11486967717
-M,20210501,2021,5,352,ISL,Iceland,Export,0,W00,World,All Commodities,503729328.164
-M,20210501,2021,5,360,IDN,Indonesia,Export,0,W00,World,All Commodities,16932924188.722
-M,20210501,2021,5,372,IRL,Ireland,Export,0,W00,World,All Commodities,16454888730.829
-M,20210501,2021,5,376,ISR,Israel,Export,0,W00,World,All Commodities,4920564000
-M,20210501,2021,5,380,ITA,Italy,Export,0,W00,World,All Commodities,53382949280.294
-M,20210501,2021,5,392,JPN,Japan,Export,0,W00,World,All Commodities,57378657534.028
-M,20210501,2021,5,404,KEN,Kenya,Export,0,W00,World,All Commodities,587740022.815
-M,20210501,2021,5,414,KWT,Kuwait,Export,0,W00,World,All Commodities,5613589734
-M,20210501,2021,5,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,228292420
-M,20210501,2021,5,426,LSO,Lesotho,Export,0,W00,World,All Commodities,69507340.043
-M,20210501,2021,5,428,LVA,Latvia,Export,0,W00,World,All Commodities,1515827946.48
-M,20210501,2021,5,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3318201860.96
-M,20210501,2021,5,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1324173530.837
-M,20210501,2021,5,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,94851726.382
-M,20210501,2021,5,450,MDG,Madagascar,Export,0,W00,World,All Commodities,265073912.467
-M,20210501,2021,5,458,MYS,Malaysia,Export,0,W00,World,All Commodities,22365274011.405
-M,20210501,2021,5,480,MUS,Mauritius,Export,0,W00,World,All Commodities,138637452.908
-M,20210501,2021,5,484,MEX,Mexico,Export,0,W00,World,All Commodities,40798330978
-M,20210501,2021,5,496,MNG,Mongolia,Export,0,W00,World,All Commodities,825130451.15
-M,20210501,2021,5,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,201697034
-M,20210501,2021,5,499,MNE,Montenegro,Export,0,W00,World,All Commodities,37289849.008
-M,20210501,2021,5,504,MAR,Morocco,Export,0,W00,World,All Commodities,2459721800.676
-M,20210501,2021,5,528,NLD,Netherlands,Export,0,W00,World,All Commodities,55989048589.222
-M,20210501,2021,5,554,NZL,New Zealand,Export,0,W00,World,All Commodities,4234706972.004
-M,20210501,2021,5,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,536891109.62
-M,20210501,2021,5,566,NGA,Nigeria,Export,0,W00,World,All Commodities,3843745162.706
-M,20210501,2021,5,579,NOR,Norway,Export,0,W00,World,All Commodities,10943139106.025
-M,20210501,2021,5,586,PAK,Pakistan,Export,0,W00,World,All Commodities,1670818598.782
-M,20210501,2021,5,591,PAN,Panama,Export,0,W00,World,All Commodities,158647591
-M,20210501,2021,5,600,PRY,Paraguay,Export,0,W00,World,All Commodities,1001751160
-M,20210501,2021,5,608,PHL,Philippines,Export,0,W00,World,All Commodities,5941446957
-M,20210501,2021,5,616,POL,Poland,Export,0,W00,World,All Commodities,27056483764
-M,20210501,2021,5,620,PRT,Portugal,Export,0,W00,World,All Commodities,6450001060.739
-M,20210501,2021,5,634,QAT,Qatar,Export,0,W00,World,All Commodities,6776278476.017
-M,20210501,2021,5,642,ROU,Romania,Export,0,W00,World,All Commodities,7203546206.95
-M,20210501,2021,5,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,35256484352.28
-M,20210501,2021,5,646,RWA,Rwanda,Export,0,W00,World,All Commodities,107914395.67
-M,20210501,2021,5,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,2747496.323
-M,20210501,2021,5,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,1720700.057
-M,20210501,2021,5,688,SRB,Serbia,Export,0,W00,World,All Commodities,2013501220
-M,20210501,2021,5,690,SYC,Seychelles,Export,0,W00,World,All Commodities,148002677.536
-M,20210501,2021,5,699,IND,India,Export,0,W00,World,All Commodities,32239847213.599
-M,20210501,2021,5,702,SGP,Singapore,Export,0,W00,World,All Commodities,35597402552.886
-M,20210501,2021,5,703,SVK,Slovakia,Export,0,W00,World,All Commodities,8450048464.776
-M,20210501,2021,5,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,26192899032
-M,20210501,2021,5,705,SVN,Slovenia,Export,0,W00,World,All Commodities,3864945769.326
-M,20210501,2021,5,710,ZAF,South Africa,Export,0,W00,World,All Commodities,11370884774.315
-M,20210501,2021,5,724,ESP,Spain,Export,0,W00,World,All Commodities,32976596823.242
-M,20210501,2021,5,752,SWE,Sweden,Export,0,W00,World,All Commodities,15996267622.186
-M,20210501,2021,5,757,CHE,Switzerland,Export,0,W00,World,All Commodities,29125006624.752
-M,20210501,2021,5,768,TGO,Togo,Export,0,W00,World,All Commodities,89905421.694
-M,20210501,2021,5,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,524422458.001
-M,20210501,2021,5,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1242339954.738
-M,20210501,2021,5,792,TUR,Türkiye,Export,0,W00,World,All Commodities,16468343399
-M,20210501,2021,5,804,UKR,Ukraine,Export,0,W00,World,All Commodities,5547501968.23
-M,20210501,2021,5,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,664399530.028
-M,20210501,2021,5,818,EGY,Egypt,Export,0,W00,World,All Commodities,3137973188.198
-M,20210501,2021,5,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,38334171411.729
-M,20210501,2021,5,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,483810507.296
-M,20210501,2021,5,842,USA,USA,Export,0,W00,World,All Commodities,144663069020
-M,20210501,2021,5,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,369789694.494
-M,20210501,2021,5,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,2026518670.48
-M,20210501,2021,5,882,WSM,Samoa,Export,0,W00,World,All Commodities,3290853.487
-M,20210601,2021,6,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1383868348.82
-M,20210601,2021,6,36,AUS,Australia,Export,0,W00,World,All Commodities,31456495682.292
-M,20210601,2021,6,51,ARM,Armenia,Export,0,W00,World,All Commodities,280165837.98
-M,20210601,2021,6,52,BRB,Barbados,Export,0,W00,World,All Commodities,51549240
-M,20210601,2021,6,56,BEL,Belgium,Export,0,W00,World,All Commodities,34612742246.949
-M,20210601,2021,6,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,929190758.94
-M,20210601,2021,6,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,774523322.596
-M,20210601,2021,6,72,BWA,Botswana,Export,0,W00,World,All Commodities,685847978.084
-M,20210601,2021,6,76,BRA,Brazil,Export,0,W00,World,All Commodities,28257895138
-M,20210601,2021,6,84,BLZ,Belize,Export,0,W00,World,All Commodities,18716952.37
-M,20210601,2021,6,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3510582270.403
-M,20210601,2021,6,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1382126428.105
-M,20210601,2021,6,112,BLR,Belarus,Export,0,W00,World,All Commodities,3155096300
-M,20210601,2021,6,124,CAN,Canada,Export,0,W00,World,All Commodities,44991254292.007
-M,20210601,2021,6,152,CHL,Chile,Export,0,W00,World,All Commodities,7634674012.758
-M,20210601,2021,6,156,CHN,China,Export,0,W00,World,All Commodities,280942507509
-M,20210601,2021,6,170,COL,Colombia,Export,0,W00,World,All Commodities,3182215708.28
-M,20210601,2021,6,191,HRV,Croatia,Export,0,W00,World,All Commodities,1972975675
-M,20210601,2021,6,196,CYP,Cyprus,Export,0,W00,World,All Commodities,378462812.115
-M,20210601,2021,6,203,CZE,Czechia,Export,0,W00,World,All Commodities,19917444262
-M,20210601,2021,6,204,BEN,Benin,Export,0,W00,World,All Commodities,108858079.271
-M,20210601,2021,6,208,DNK,Denmark,Export,0,W00,World,All Commodities,11475350679.06
-M,20210601,2021,6,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,996432936.18
-M,20210601,2021,6,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2272930098.744
-M,20210601,2021,6,222,SLV,El Salvador,Export,0,W00,World,All Commodities,539002019.12
-M,20210601,2021,6,233,EST,Estonia,Export,0,W00,World,All Commodities,1814779227.135
-M,20210601,2021,6,242,FJI,Fiji,Export,0,W00,World,All Commodities,66003656.235
-M,20210601,2021,6,246,FIN,Finland,Export,0,W00,World,All Commodities,6867600879.718
-M,20210601,2021,6,268,GEO,Georgia,Export,0,W00,World,All Commodities,350654805.01
-M,20210601,2021,6,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,113439665.8
-M,20210601,2021,6,276,DEU,Germany,Export,0,W00,World,All Commodities,143980371605.862
-M,20210601,2021,6,300,GRC,Greece,Export,0,W00,World,All Commodities,4081955339.766
-M,20210601,2021,6,308,GRD,Grenada,Export,0,W00,World,All Commodities,5570415.26
-M,20210601,2021,6,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1131352240
-M,20210601,2021,6,328,GUY,Guyana,Export,0,W00,World,All Commodities,303799804.297
-M,20210601,2021,6,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,55828767314.675
-M,20210601,2021,6,348,HUN,Hungary,Export,0,W00,World,All Commodities,12700384634
-M,20210601,2021,6,352,ISL,Iceland,Export,0,W00,World,All Commodities,482174923.422
-M,20210601,2021,6,360,IDN,Indonesia,Export,0,W00,World,All Commodities,18542417973.379
-M,20210601,2021,6,372,IRL,Ireland,Export,0,W00,World,All Commodities,17768721608.807
-M,20210601,2021,6,376,ISR,Israel,Export,0,W00,World,All Commodities,5052494000
-M,20210601,2021,6,380,ITA,Italy,Export,0,W00,World,All Commodities,54867889121.538
-M,20210601,2021,6,392,JPN,Japan,Export,0,W00,World,All Commodities,65607338381.675
-M,20210601,2021,6,404,KEN,Kenya,Export,0,W00,World,All Commodities,526016613.895
-M,20210601,2021,6,414,KWT,Kuwait,Export,0,W00,World,All Commodities,6220192564
-M,20210601,2021,6,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,99617029
-M,20210601,2021,6,426,LSO,Lesotho,Export,0,W00,World,All Commodities,72344532.273
-M,20210601,2021,6,428,LVA,Latvia,Export,0,W00,World,All Commodities,1545378134.775
-M,20210601,2021,6,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3408087768.99
-M,20210601,2021,6,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1473574612.249
-M,20210601,2021,6,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,118205854.67
-M,20210601,2021,6,450,MDG,Madagascar,Export,0,W00,World,All Commodities,240312905.901
-M,20210601,2021,6,458,MYS,Malaysia,Export,0,W00,World,All Commodities,25511993984.73
-M,20210601,2021,6,480,MUS,Mauritius,Export,0,W00,World,All Commodities,147973864.61
-M,20210601,2021,6,484,MEX,Mexico,Export,0,W00,World,All Commodities,42668354692
-M,20210601,2021,6,496,MNG,Mongolia,Export,0,W00,World,All Commodities,751645774.84
-M,20210601,2021,6,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,226810807
-M,20210601,2021,6,499,MNE,Montenegro,Export,0,W00,World,All Commodities,43289876.206
-M,20210601,2021,6,504,MAR,Morocco,Export,0,W00,World,All Commodities,3044461748.109
-M,20210601,2021,6,528,NLD,Netherlands,Export,0,W00,World,All Commodities,60719642879.417
-M,20210601,2021,6,554,NZL,New Zealand,Export,0,W00,World,All Commodities,4233357171.489
-M,20210601,2021,6,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,573429591.14
-M,20210601,2021,6,566,NGA,Nigeria,Export,0,W00,World,All Commodities,4368779420.042
-M,20210601,2021,6,579,NOR,Norway,Export,0,W00,World,All Commodities,11789437662.158
-M,20210601,2021,6,586,PAK,Pakistan,Export,0,W00,World,All Commodities,3001848134.273
-M,20210601,2021,6,591,PAN,Panama,Export,0,W00,World,All Commodities,420338069
-M,20210601,2021,6,600,PRY,Paraguay,Export,0,W00,World,All Commodities,1064101738
-M,20210601,2021,6,608,PHL,Philippines,Export,0,W00,World,All Commodities,6575947102
-M,20210601,2021,6,616,POL,Poland,Export,0,W00,World,All Commodities,28922344747
-M,20210601,2021,6,620,PRT,Portugal,Export,0,W00,World,All Commodities,6196298789.106
-M,20210601,2021,6,634,QAT,Qatar,Export,0,W00,World,All Commodities,6942749366.142
-M,20210601,2021,6,642,ROU,Romania,Export,0,W00,World,All Commodities,7553009478.19
-M,20210601,2021,6,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,43167788914.945
-M,20210601,2021,6,646,RWA,Rwanda,Export,0,W00,World,All Commodities,138761907.84
-M,20210601,2021,6,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,3118002.049
-M,20210601,2021,6,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,1225748.663
-M,20210601,2021,6,688,SRB,Serbia,Export,0,W00,World,All Commodities,2189219165
-M,20210601,2021,6,690,SYC,Seychelles,Export,0,W00,World,All Commodities,42762763.113
-M,20210601,2021,6,699,IND,India,Export,0,W00,World,All Commodities,32507870904.42
-M,20210601,2021,6,702,SGP,Singapore,Export,0,W00,World,All Commodities,37223554321.849
-M,20210601,2021,6,703,SVK,Slovakia,Export,0,W00,World,All Commodities,9299649203.135
-M,20210601,2021,6,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,27204325441
-M,20210601,2021,6,705,SVN,Slovenia,Export,0,W00,World,All Commodities,4048420743.804
-M,20210601,2021,6,710,ZAF,South Africa,Export,0,W00,World,All Commodities,11248002860.721
-M,20210601,2021,6,724,ESP,Spain,Export,0,W00,World,All Commodities,35787320364.175
-M,20210601,2021,6,752,SWE,Sweden,Export,0,W00,World,All Commodities,17151694259.7
-M,20210601,2021,6,757,CHE,Switzerland,Export,0,W00,World,All Commodities,33502731666.029
-M,20210601,2021,6,768,TGO,Togo,Export,0,W00,World,All Commodities,84644254.645
-M,20210601,2021,6,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,880922947.719
-M,20210601,2021,6,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1509655107.712
-M,20210601,2021,6,792,TUR,Türkiye,Export,0,W00,World,All Commodities,19740427009
-M,20210601,2021,6,804,UKR,Ukraine,Export,0,W00,World,All Commodities,5318391963.43
-M,20210601,2021,6,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,703983966.66
-M,20210601,2021,6,818,EGY,Egypt,Export,0,W00,World,All Commodities,3644161461.983
-M,20210601,2021,6,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,38301735770.05
-M,20210601,2021,6,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,536447452.61
-M,20210601,2021,6,842,USA,USA,Export,0,W00,World,All Commodities,147636975885
-M,20210601,2021,6,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,518242958.887
-M,20210601,2021,6,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,1064413467.97
-M,20210601,2021,6,882,WSM,Samoa,Export,0,W00,World,All Commodities,2353168.719
-M,20210701,2021,7,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2584509490.32
-M,20210701,2021,7,32,ARG,Argentina,Export,0,W00,World,All Commodities,7251906933.18
-M,20210701,2021,7,36,AUS,Australia,Export,0,W00,World,All Commodities,31102554204.174
-M,20210701,2021,7,51,ARM,Armenia,Export,0,W00,World,All Commodities,252817822.71
-M,20210701,2021,7,52,BRB,Barbados,Export,0,W00,World,All Commodities,24676888.5
-M,20210701,2021,7,56,BEL,Belgium,Export,0,W00,World,All Commodities,32004033848.767
-M,20210701,2021,7,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,1007047624.15
-M,20210701,2021,7,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,711379180.59
-M,20210701,2021,7,72,BWA,Botswana,Export,0,W00,World,All Commodities,725215401.91
-M,20210701,2021,7,76,BRA,Brazil,Export,0,W00,World,All Commodities,25508595503
-M,20210701,2021,7,84,BLZ,Belize,Export,0,W00,World,All Commodities,18474645.67
-M,20210701,2021,7,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3513992871.05
-M,20210701,2021,7,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1048255920.031
-M,20210701,2021,7,112,BLR,Belarus,Export,0,W00,World,All Commodities,3270632500
-M,20210701,2021,7,124,CAN,Canada,Export,0,W00,World,All Commodities,40800766838.849
-M,20210701,2021,7,152,CHL,Chile,Export,0,W00,World,All Commodities,7937277675.864
-M,20210701,2021,7,156,CHN,China,Export,0,W00,World,All Commodities,282150911588
-M,20210701,2021,7,170,COL,Colombia,Export,0,W00,World,All Commodities,3444157909.18
-M,20210701,2021,7,191,HRV,Croatia,Export,0,W00,World,All Commodities,1871888567
-M,20210701,2021,7,196,CYP,Cyprus,Export,0,W00,World,All Commodities,417367095.95
-M,20210701,2021,7,203,CZE,Czechia,Export,0,W00,World,All Commodities,17078544272
-M,20210701,2021,7,204,BEN,Benin,Export,0,W00,World,All Commodities,102672139.33
-M,20210701,2021,7,208,DNK,Denmark,Export,0,W00,World,All Commodities,10133616650.793
-M,20210701,2021,7,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,973586640.482
-M,20210701,2021,7,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2277117298.117
-M,20210701,2021,7,222,SLV,El Salvador,Export,0,W00,World,All Commodities,582268937.52
-M,20210701,2021,7,233,EST,Estonia,Export,0,W00,World,All Commodities,1809103311.393
-M,20210701,2021,7,242,FJI,Fiji,Export,0,W00,World,All Commodities,49304582.758
-M,20210701,2021,7,246,FIN,Finland,Export,0,W00,World,All Commodities,6557669382.933
-M,20210701,2021,7,268,GEO,Georgia,Export,0,W00,World,All Commodities,386363289.08
-M,20210701,2021,7,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,99668561.33
-M,20210701,2021,7,276,DEU,Germany,Export,0,W00,World,All Commodities,137045461137.141
-M,20210701,2021,7,300,GRC,Greece,Export,0,W00,World,All Commodities,4198313272.572
-M,20210701,2021,7,308,GRD,Grenada,Export,0,W00,World,All Commodities,2774690.222
-M,20210701,2021,7,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1198120818
-M,20210701,2021,7,328,GUY,Guyana,Export,0,W00,World,All Commodities,439859579.348
-M,20210701,2021,7,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,56066128706.641
-M,20210701,2021,7,348,HUN,Hungary,Export,0,W00,World,All Commodities,11347837831
-M,20210701,2021,7,352,ISL,Iceland,Export,0,W00,World,All Commodities,545099222.279
-M,20210701,2021,7,360,IDN,Indonesia,Export,0,W00,World,All Commodities,19385790014.906
-M,20210701,2021,7,372,IRL,Ireland,Export,0,W00,World,All Commodities,15607721884.748
-M,20210701,2021,7,376,ISR,Israel,Export,0,W00,World,All Commodities,4967022000
-M,20210701,2021,7,380,ITA,Italy,Export,0,W00,World,All Commodities,58643184929.797
-M,20210701,2021,7,392,JPN,Japan,Export,0,W00,World,All Commodities,66759894642.412
-M,20210701,2021,7,404,KEN,Kenya,Export,0,W00,World,All Commodities,548020686.315
-M,20210701,2021,7,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4648710018
-M,20210701,2021,7,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,100473419
-M,20210701,2021,7,426,LSO,Lesotho,Export,0,W00,World,All Commodities,75262232.949
-M,20210701,2021,7,428,LVA,Latvia,Export,0,W00,World,All Commodities,1570213825.343
-M,20210701,2021,7,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3234034413
-M,20210701,2021,7,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1415777958.789
-M,20210701,2021,7,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,100837184.448
-M,20210701,2021,7,450,MDG,Madagascar,Export,0,W00,World,All Commodities,200151388.943
-M,20210701,2021,7,458,MYS,Malaysia,Export,0,W00,World,All Commodities,23179972877.91
-M,20210701,2021,7,480,MUS,Mauritius,Export,0,W00,World,All Commodities,143493328.984
-M,20210701,2021,7,484,MEX,Mexico,Export,0,W00,World,All Commodities,40887733850
-M,20210701,2021,7,496,MNG,Mongolia,Export,0,W00,World,All Commodities,629556541.1
-M,20210701,2021,7,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,240720917
-M,20210701,2021,7,499,MNE,Montenegro,Export,0,W00,World,All Commodities,38562225.849
-M,20210701,2021,7,504,MAR,Morocco,Export,0,W00,World,All Commodities,2526668245.951
-M,20210701,2021,7,528,NLD,Netherlands,Export,0,W00,World,All Commodities,56315986235.108
-M,20210701,2021,7,554,NZL,New Zealand,Export,0,W00,World,All Commodities,4017043860.98
-M,20210701,2021,7,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,595680142.62
-M,20210701,2021,7,566,NGA,Nigeria,Export,0,W00,World,All Commodities,4089729440.117
-M,20210701,2021,7,579,NOR,Norway,Export,0,W00,World,All Commodities,12262498671.781
-M,20210701,2021,7,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2339626297.949
-M,20210701,2021,7,591,PAN,Panama,Export,0,W00,World,All Commodities,281047882
-M,20210701,2021,7,600,PRY,Paraguay,Export,0,W00,World,All Commodities,1122758778
-M,20210701,2021,7,608,PHL,Philippines,Export,0,W00,World,All Commodities,6485442777
-M,20210701,2021,7,616,POL,Poland,Export,0,W00,World,All Commodities,27049980205
-M,20210701,2021,7,620,PRT,Portugal,Export,0,W00,World,All Commodities,6595823955.875
-M,20210701,2021,7,634,QAT,Qatar,Export,0,W00,World,All Commodities,7528160623.923
-M,20210701,2021,7,642,ROU,Romania,Export,0,W00,World,All Commodities,7542875749.51
-M,20210701,2021,7,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,43387900099.652
-M,20210701,2021,7,646,RWA,Rwanda,Export,0,W00,World,All Commodities,114427012.54
-M,20210701,2021,7,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,2904521.306
-M,20210701,2021,7,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,607527.293
-M,20210701,2021,7,688,SRB,Serbia,Export,0,W00,World,All Commodities,2195921850
-M,20210701,2021,7,690,SYC,Seychelles,Export,0,W00,World,All Commodities,45817692.284
-M,20210701,2021,7,699,IND,India,Export,0,W00,World,All Commodities,35504929584.118
-M,20210701,2021,7,702,SGP,Singapore,Export,0,W00,World,All Commodities,36796875144.351
-M,20210701,2021,7,703,SVK,Slovakia,Export,0,W00,World,All Commodities,7962397343.039
-M,20210701,2021,7,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,27864617697
-M,20210701,2021,7,705,SVN,Slovenia,Export,0,W00,World,All Commodities,4095603247.955
-M,20210701,2021,7,710,ZAF,South Africa,Export,0,W00,World,All Commodities,9750184840.751
-M,20210701,2021,7,724,ESP,Spain,Export,0,W00,World,All Commodities,33366860131.679
-M,20210701,2021,7,752,SWE,Sweden,Export,0,W00,World,All Commodities,14749742070.333
-M,20210701,2021,7,757,CHE,Switzerland,Export,0,W00,World,All Commodities,30915103835.568
-M,20210701,2021,7,768,TGO,Togo,Export,0,W00,World,All Commodities,91324668.891
-M,20210701,2021,7,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,840199442.559
-M,20210701,2021,7,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1283602502.275
-M,20210701,2021,7,792,TUR,Türkiye,Export,0,W00,World,All Commodities,16357698212
-M,20210701,2021,7,804,UKR,Ukraine,Export,0,W00,World,All Commodities,5603335223.87
-M,20210701,2021,7,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,694043940.71
-M,20210701,2021,7,818,EGY,Egypt,Export,0,W00,World,All Commodities,2958716131.923
-M,20210701,2021,7,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,37353216188.667
-M,20210701,2021,7,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,594083987.01
-M,20210701,2021,7,842,USA,USA,Export,0,W00,World,All Commodities,144029705365
-M,20210701,2021,7,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,376780494.464
-M,20210701,2021,7,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,845979384.8
-M,20210701,2021,7,882,WSM,Samoa,Export,0,W00,World,All Commodities,1689420.765
-M,20210801,2021,8,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1541800757.43
-M,20210801,2021,8,32,ARG,Argentina,Export,0,W00,World,All Commodities,8098856231.98
-M,20210801,2021,8,36,AUS,Australia,Export,0,W00,World,All Commodities,30731149256.074
-M,20210801,2021,8,51,ARM,Armenia,Export,0,W00,World,All Commodities,268080521.86
-M,20210801,2021,8,52,BRB,Barbados,Export,0,W00,World,All Commodities,26802441.5
-M,20210801,2021,8,56,BEL,Belgium,Export,0,W00,World,All Commodities,29770424671.568
-M,20210801,2021,8,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,984235912.86
-M,20210801,2021,8,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,651825359.99
-M,20210801,2021,8,72,BWA,Botswana,Export,0,W00,World,All Commodities,669161907.618
-M,20210801,2021,8,76,BRA,Brazil,Export,0,W00,World,All Commodities,27216375900
-M,20210801,2021,8,84,BLZ,Belize,Export,0,W00,World,All Commodities,34641820.64
-M,20210801,2021,8,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3334384781.776
-M,20210801,2021,8,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1249664201.554
-M,20210801,2021,8,112,BLR,Belarus,Export,0,W00,World,All Commodities,3516962300
-M,20210801,2021,8,124,CAN,Canada,Export,0,W00,World,All Commodities,42619634908.59
-M,20210801,2021,8,152,CHL,Chile,Export,0,W00,World,All Commodities,7905740170.846
-M,20210801,2021,8,156,CHN,China,Export,0,W00,World,All Commodities,293844262597
-M,20210801,2021,8,170,COL,Colombia,Export,0,W00,World,All Commodities,3465142874.93
-M,20210801,2021,8,191,HRV,Croatia,Export,0,W00,World,All Commodities,1566153150
-M,20210801,2021,8,196,CYP,Cyprus,Export,0,W00,World,All Commodities,334589624.073
-M,20210801,2021,8,203,CZE,Czechia,Export,0,W00,World,All Commodities,15976669907
-M,20210801,2021,8,204,BEN,Benin,Export,0,W00,World,All Commodities,92972026.364
-M,20210801,2021,8,208,DNK,Denmark,Export,0,W00,World,All Commodities,9437260707.666
-M,20210801,2021,8,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,1020348802.693
-M,20210801,2021,8,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2245068003.29
-M,20210801,2021,8,222,SLV,El Salvador,Export,0,W00,World,All Commodities,498740776.34
-M,20210801,2021,8,233,EST,Estonia,Export,0,W00,World,All Commodities,1637478502.4
-M,20210801,2021,8,242,FJI,Fiji,Export,0,W00,World,All Commodities,55737653.469
-M,20210801,2021,8,246,FIN,Finland,Export,0,W00,World,All Commodities,6074841151.742
-M,20210801,2021,8,268,GEO,Georgia,Export,0,W00,World,All Commodities,335161706.48
-M,20210801,2021,8,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,127790266.18
-M,20210801,2021,8,276,DEU,Germany,Export,0,W00,World,All Commodities,123668767081.568
-M,20210801,2021,8,300,GRC,Greece,Export,0,W00,World,All Commodities,3309833413.775
-M,20210801,2021,8,308,GRD,Grenada,Export,0,W00,World,All Commodities,2299044.258
-M,20210801,2021,8,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1130726897
-M,20210801,2021,8,328,GUY,Guyana,Export,0,W00,World,All Commodities,284378329.863
-M,20210801,2021,8,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,57978752602.798
-M,20210801,2021,8,348,HUN,Hungary,Export,0,W00,World,All Commodities,9849663726
-M,20210801,2021,8,352,ISL,Iceland,Export,0,W00,World,All Commodities,442265022.277
-M,20210801,2021,8,360,IDN,Indonesia,Export,0,W00,World,All Commodities,21427076797.612
-M,20210801,2021,8,372,IRL,Ireland,Export,0,W00,World,All Commodities,15499627318.085
-M,20210801,2021,8,376,ISR,Israel,Export,0,W00,World,All Commodities,4806264000
-M,20210801,2021,8,380,ITA,Italy,Export,0,W00,World,All Commodities,38725434546.64
-M,20210801,2021,8,392,JPN,Japan,Export,0,W00,World,All Commodities,60133549884.991
-M,20210801,2021,8,404,KEN,Kenya,Export,0,W00,World,All Commodities,560153571.854
-M,20210801,2021,8,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4299294393
-M,20210801,2021,8,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,91687947
-M,20210801,2021,8,426,LSO,Lesotho,Export,0,W00,World,All Commodities,106140468.858
-M,20210801,2021,8,428,LVA,Latvia,Export,0,W00,World,All Commodities,1700622888.713
-M,20210801,2021,8,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3501867030.98
-M,20210801,2021,8,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1254990543.415
-M,20210801,2021,8,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,114034917.014
-M,20210801,2021,8,450,MDG,Madagascar,Export,0,W00,World,All Commodities,190472114.09
-M,20210801,2021,8,458,MYS,Malaysia,Export,0,W00,World,All Commodities,22635196730.753
-M,20210801,2021,8,480,MUS,Mauritius,Export,0,W00,World,All Commodities,142828107.372
-M,20210801,2021,8,484,MEX,Mexico,Export,0,W00,World,All Commodities,40313435036
-M,20210801,2021,8,496,MNG,Mongolia,Export,0,W00,World,All Commodities,879511614.75
-M,20210801,2021,8,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,236300670
-M,20210801,2021,8,499,MNE,Montenegro,Export,0,W00,World,All Commodities,36593068.538
-M,20210801,2021,8,504,MAR,Morocco,Export,0,W00,World,All Commodities,2966336881.291
-M,20210801,2021,8,528,NLD,Netherlands,Export,0,W00,World,All Commodities,54976712357.8
-M,20210801,2021,8,554,NZL,New Zealand,Export,0,W00,World,All Commodities,3031721464.61
-M,20210801,2021,8,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,551197338.49
-M,20210801,2021,8,566,NGA,Nigeria,Export,0,W00,World,All Commodities,3457675407.828
-M,20210801,2021,8,579,NOR,Norway,Export,0,W00,World,All Commodities,13348936774.22
-M,20210801,2021,8,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2251517573.244
-M,20210801,2021,8,591,PAN,Panama,Export,0,W00,World,All Commodities,321792891
-M,20210801,2021,8,600,PRY,Paraguay,Export,0,W00,World,All Commodities,885426161
-M,20210801,2021,8,608,PHL,Philippines,Export,0,W00,World,All Commodities,6539616323
-M,20210801,2021,8,616,POL,Poland,Export,0,W00,World,All Commodities,25393399734
-M,20210801,2021,8,620,PRT,Portugal,Export,0,W00,World,All Commodities,5129866523.858
-M,20210801,2021,8,634,QAT,Qatar,Export,0,W00,World,All Commodities,7493849701.901
-M,20210801,2021,8,642,ROU,Romania,Export,0,W00,World,All Commodities,6676087469.58
-M,20210801,2021,8,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,43049017236.009
-M,20210801,2021,8,646,RWA,Rwanda,Export,0,W00,World,All Commodities,132580044.05
-M,20210801,2021,8,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,3659535.908
-M,20210801,2021,8,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,1623502.202
-M,20210801,2021,8,688,SRB,Serbia,Export,0,W00,World,All Commodities,2043012262
-M,20210801,2021,8,690,SYC,Seychelles,Export,0,W00,World,All Commodities,95181174.687
-M,20210801,2021,8,699,IND,India,Export,0,W00,World,All Commodities,33349264918.135
-M,20210801,2021,8,702,SGP,Singapore,Export,0,W00,World,All Commodities,38401681741.51
-M,20210801,2021,8,703,SVK,Slovakia,Export,0,W00,World,All Commodities,7465633523.872
-M,20210801,2021,8,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,27228450585
-M,20210801,2021,8,705,SVN,Slovenia,Export,0,W00,World,All Commodities,3273256021.688
-M,20210801,2021,8,710,ZAF,South Africa,Export,0,W00,World,All Commodities,10485485116.94
-M,20210801,2021,8,724,ESP,Spain,Export,0,W00,World,All Commodities,27008284544.397
-M,20210801,2021,8,752,SWE,Sweden,Export,0,W00,World,All Commodities,13327571831.172
-M,20210801,2021,8,757,CHE,Switzerland,Export,0,W00,World,All Commodities,29988925042.647
-M,20210801,2021,8,768,TGO,Togo,Export,0,W00,World,All Commodities,79014023.126
-M,20210801,2021,8,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,671365558.153
-M,20210801,2021,8,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1163606765.091
-M,20210801,2021,8,792,TUR,Türkiye,Export,0,W00,World,All Commodities,18860976378
-M,20210801,2021,8,804,UKR,Ukraine,Export,0,W00,World,All Commodities,6274584248.43
-M,20210801,2021,8,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,666136200.2
-M,20210801,2021,8,818,EGY,Egypt,Export,0,W00,World,All Commodities,3279103225.71
-M,20210801,2021,8,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,33298994944.492
-M,20210801,2021,8,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,625980675.971
-M,20210801,2021,8,842,USA,USA,Export,0,W00,World,All Commodities,148034903934
-M,20210801,2021,8,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,353650612.22
-M,20210801,2021,8,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,903955843.711
-M,20210801,2021,8,882,WSM,Samoa,Export,0,W00,World,All Commodities,1975985.675
-M,20210901,2021,9,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1694854358.07
-M,20210901,2021,9,32,ARG,Argentina,Export,0,W00,World,All Commodities,7570189290.44
-M,20210901,2021,9,36,AUS,Australia,Export,0,W00,World,All Commodities,27712268462.702
-M,20210901,2021,9,51,ARM,Armenia,Export,0,W00,World,All Commodities,224333442.15
-M,20210901,2021,9,52,BRB,Barbados,Export,0,W00,World,All Commodities,30617023.5
-M,20210901,2021,9,56,BEL,Belgium,Export,0,W00,World,All Commodities,34306453997.443
-M,20210901,2021,9,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,943325319.67
-M,20210901,2021,9,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,804131070.3
-M,20210901,2021,9,72,BWA,Botswana,Export,0,W00,World,All Commodities,587767853.459
-M,20210901,2021,9,76,BRA,Brazil,Export,0,W00,World,All Commodities,24376129510
-M,20210901,2021,9,84,BLZ,Belize,Export,0,W00,World,All Commodities,21462094.815
-M,20210901,2021,9,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3602418375.82
-M,20210901,2021,9,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1257443164.511
-M,20210901,2021,9,112,BLR,Belarus,Export,0,W00,World,All Commodities,3605912800
-M,20210901,2021,9,124,CAN,Canada,Export,0,W00,World,All Commodities,41277509602.49
-M,20210901,2021,9,152,CHL,Chile,Export,0,W00,World,All Commodities,7619634929.28
-M,20210901,2021,9,156,CHN,China,Export,0,W00,World,All Commodities,305118459339
-M,20210901,2021,9,170,COL,Colombia,Export,0,W00,World,All Commodities,3792235507.94
-M,20210901,2021,9,191,HRV,Croatia,Export,0,W00,World,All Commodities,1938336012
-M,20210901,2021,9,196,CYP,Cyprus,Export,0,W00,World,All Commodities,241030836.819
-M,20210901,2021,9,203,CZE,Czechia,Export,0,W00,World,All Commodities,18909449980
-M,20210901,2021,9,204,BEN,Benin,Export,0,W00,World,All Commodities,66781292.866
-M,20210901,2021,9,208,DNK,Denmark,Export,0,W00,World,All Commodities,10754527021.093
-M,20210901,2021,9,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,995470627.142
-M,20210901,2021,9,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2302402287.621
-M,20210901,2021,9,222,SLV,El Salvador,Export,0,W00,World,All Commodities,550437311.59
-M,20210901,2021,9,233,EST,Estonia,Export,0,W00,World,All Commodities,2463300408.421
-M,20210901,2021,9,242,FJI,Fiji,Export,0,W00,World,All Commodities,87673211.804
-M,20210901,2021,9,246,FIN,Finland,Export,0,W00,World,All Commodities,7793678952.02
-M,20210901,2021,9,268,GEO,Georgia,Export,0,W00,World,All Commodities,373710627.93
-M,20210901,2021,9,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,108641149.02
-M,20210901,2021,9,276,DEU,Germany,Export,0,W00,World,All Commodities,139987031681.84
-M,20210901,2021,9,300,GRC,Greece,Export,0,W00,World,All Commodities,4403513224.81
-M,20210901,2021,9,308,GRD,Grenada,Export,0,W00,World,All Commodities,2909202.825
-M,20210901,2021,9,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1179780795
-M,20210901,2021,9,328,GUY,Guyana,Export,0,W00,World,All Commodities,369679568.647
-M,20210901,2021,9,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,60187145937.245
-M,20210901,2021,9,348,HUN,Hungary,Export,0,W00,World,All Commodities,12186888373
-M,20210901,2021,9,352,ISL,Iceland,Export,0,W00,World,All Commodities,526754410.449
-M,20210901,2021,9,360,IDN,Indonesia,Export,0,W00,World,All Commodities,20605585843.821
-M,20210901,2021,9,372,IRL,Ireland,Export,0,W00,World,All Commodities,17386508046.628
-M,20210901,2021,9,376,ISR,Israel,Export,0,W00,World,All Commodities,4105444000
-M,20210901,2021,9,380,ITA,Italy,Export,0,W00,World,All Commodities,53131338570.889
-M,20210901,2021,9,392,JPN,Japan,Export,0,W00,World,All Commodities,62062717871.807
-M,20210901,2021,9,404,KEN,Kenya,Export,0,W00,World,All Commodities,489961523.537
-M,20210901,2021,9,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4087279622
-M,20210901,2021,9,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,119784516
-M,20210901,2021,9,426,LSO,Lesotho,Export,0,W00,World,All Commodities,77703889.876
-M,20210901,2021,9,428,LVA,Latvia,Export,0,W00,World,All Commodities,1901825000.366
-M,20210901,2021,9,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3677044310.98
-M,20210901,2021,9,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1471984838.077
-M,20210901,2021,9,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,85277016.816
-M,20210901,2021,9,450,MDG,Madagascar,Export,0,W00,World,All Commodities,227001019.614
-M,20210901,2021,9,458,MYS,Malaysia,Export,0,W00,World,All Commodities,26602315587.284
-M,20210901,2021,9,480,MUS,Mauritius,Export,0,W00,World,All Commodities,154627523.205
-M,20210901,2021,9,484,MEX,Mexico,Export,0,W00,World,All Commodities,41680024513
-M,20210901,2021,9,496,MNG,Mongolia,Export,0,W00,World,All Commodities,801754942.26
-M,20210901,2021,9,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,294897326
-M,20210901,2021,9,499,MNE,Montenegro,Export,0,W00,World,All Commodities,42177561.226
-M,20210901,2021,9,504,MAR,Morocco,Export,0,W00,World,All Commodities,3271187317.223
-M,20210901,2021,9,528,NLD,Netherlands,Export,0,W00,World,All Commodities,60822786860.529
-M,20210901,2021,9,554,NZL,New Zealand,Export,0,W00,World,All Commodities,3101651475.516
-M,20210901,2021,9,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,506791327.58
-M,20210901,2021,9,566,NGA,Nigeria,Export,0,W00,World,All Commodities,4959252355.231
-M,20210901,2021,9,579,NOR,Norway,Export,0,W00,World,All Commodities,15123696997.45
-M,20210901,2021,9,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2412207926.954
-M,20210901,2021,9,591,PAN,Panama,Export,0,W00,World,All Commodities,318361017
-M,20210901,2021,9,600,PRY,Paraguay,Export,0,W00,World,All Commodities,861988533
-M,20210901,2021,9,608,PHL,Philippines,Export,0,W00,World,All Commodities,6688729029
-M,20210901,2021,9,616,POL,Poland,Export,0,W00,World,All Commodities,28351137330
-M,20210901,2021,9,620,PRT,Portugal,Export,0,W00,World,All Commodities,6463950475.311
-M,20210901,2021,9,634,QAT,Qatar,Export,0,W00,World,All Commodities,7664343868.111
-M,20210901,2021,9,642,ROU,Romania,Export,0,W00,World,All Commodities,7467035905.09
-M,20210901,2021,9,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,45410415189.277
-M,20210901,2021,9,646,RWA,Rwanda,Export,0,W00,World,All Commodities,140221358.51
-M,20210901,2021,9,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,2581099.777
-M,20210901,2021,9,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,2286231.692
-M,20210901,2021,9,688,SRB,Serbia,Export,0,W00,World,All Commodities,2324686145
-M,20210901,2021,9,690,SYC,Seychelles,Export,0,W00,World,All Commodities,51339211.348
-M,20210901,2021,9,699,IND,India,Export,0,W00,World,All Commodities,33706355092.884
-M,20210901,2021,9,702,SGP,Singapore,Export,0,W00,World,All Commodities,38615240196.455
-M,20210901,2021,9,703,SVK,Slovakia,Export,0,W00,World,All Commodities,8375421460.075
-M,20210901,2021,9,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,27025836636
-M,20210901,2021,9,705,SVN,Slovenia,Export,0,W00,World,All Commodities,4157053518.96
-M,20210901,2021,9,710,ZAF,South Africa,Export,0,W00,World,All Commodities,10715876184.171
-M,20210901,2021,9,724,ESP,Spain,Export,0,W00,World,All Commodities,34733504426.035
-M,20210901,2021,9,752,SWE,Sweden,Export,0,W00,World,All Commodities,17019233673.883
-M,20210901,2021,9,757,CHE,Switzerland,Export,0,W00,World,All Commodities,32189494821.661
-M,20210901,2021,9,768,TGO,Togo,Export,0,W00,World,All Commodities,94114549.916
-M,20210901,2021,9,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,626115771.03
-M,20210901,2021,9,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1401591040.69
-M,20210901,2021,9,792,TUR,Türkiye,Export,0,W00,World,All Commodities,20715563079
-M,20210901,2021,9,804,UKR,Ukraine,Export,0,W00,World,All Commodities,4175180554.75
-M,20210901,2021,9,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,665327221.07
-M,20210901,2021,9,818,EGY,Egypt,Export,0,W00,World,All Commodities,3469309587.383
-M,20210901,2021,9,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,39638921591.252
-M,20210901,2021,9,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,621107907.02
-M,20210901,2021,9,842,USA,USA,Export,0,W00,World,All Commodities,141790419234
-M,20210901,2021,9,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,379569676.331
-M,20210901,2021,9,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,819550014.45
-M,20210901,2021,9,882,WSM,Samoa,Export,0,W00,World,All Commodities,2485702.43
-M,20211001,2021,10,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2217991094.57
-M,20211001,2021,10,32,ARG,Argentina,Export,0,W00,World,All Commodities,6862570097.27
-M,20211001,2021,10,36,AUS,Australia,Export,0,W00,World,All Commodities,28017649945.538
-M,20211001,2021,10,51,ARM,Armenia,Export,0,W00,World,All Commodities,264838172.39
-M,20211001,2021,10,52,BRB,Barbados,Export,0,W00,World,All Commodities,29519505.5
-M,20211001,2021,10,56,BEL,Belgium,Export,0,W00,World,All Commodities,35861740848.43
-M,20211001,2021,10,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,1022920223.32
-M,20211001,2021,10,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,802549236.11
-M,20211001,2021,10,72,BWA,Botswana,Export,0,W00,World,All Commodities,449220263.999
-M,20211001,2021,10,76,BRA,Brazil,Export,0,W00,World,All Commodities,22602637234
-M,20211001,2021,10,84,BLZ,Belize,Export,0,W00,World,All Commodities,17404454.71
-M,20211001,2021,10,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3653730962.286
-M,20211001,2021,10,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1122106445.577
-M,20211001,2021,10,112,BLR,Belarus,Export,0,W00,World,All Commodities,3760854700
-M,20211001,2021,10,124,CAN,Canada,Export,0,W00,World,All Commodities,44084355352.694
-M,20211001,2021,10,152,CHL,Chile,Export,0,W00,World,All Commodities,7770460024.336
-M,20211001,2021,10,156,CHN,China,Export,0,W00,World,All Commodities,299456821544
-M,20211001,2021,10,170,COL,Colombia,Export,0,W00,World,All Commodities,3799111286.02
-M,20211001,2021,10,191,HRV,Croatia,Export,0,W00,World,All Commodities,2108145878
-M,20211001,2021,10,196,CYP,Cyprus,Export,0,W00,World,All Commodities,536547958.306
-M,20211001,2021,10,203,CZE,Czechia,Export,0,W00,World,All Commodities,18961258962
-M,20211001,2021,10,204,BEN,Benin,Export,0,W00,World,All Commodities,69569244.818
-M,20211001,2021,10,208,DNK,Denmark,Export,0,W00,World,All Commodities,10552520733.611
-M,20211001,2021,10,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,968749182.26
-M,20211001,2021,10,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2577654438.026
-M,20211001,2021,10,222,SLV,El Salvador,Export,0,W00,World,All Commodities,552225198.01
-M,20211001,2021,10,233,EST,Estonia,Export,0,W00,World,All Commodities,2322540315.645
-M,20211001,2021,10,242,FJI,Fiji,Export,0,W00,World,All Commodities,96233352.252
-M,20211001,2021,10,246,FIN,Finland,Export,0,W00,World,All Commodities,7104353617.539
-M,20211001,2021,10,268,GEO,Georgia,Export,0,W00,World,All Commodities,410873496.54
-M,20211001,2021,10,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,136913608.8
-M,20211001,2021,10,276,DEU,Germany,Export,0,W00,World,All Commodities,141749086801.705
-M,20211001,2021,10,300,GRC,Greece,Export,0,W00,World,All Commodities,4315624349.819
-M,20211001,2021,10,308,GRD,Grenada,Export,0,W00,World,All Commodities,2200690.917
-M,20211001,2021,10,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1118832776
-M,20211001,2021,10,328,GUY,Guyana,Export,0,W00,World,All Commodities,422652406.898
-M,20211001,2021,10,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,57664403150.721
-M,20211001,2021,10,348,HUN,Hungary,Export,0,W00,World,All Commodities,11889852309
-M,20211001,2021,10,352,ISL,Iceland,Export,0,W00,World,All Commodities,564482564.897
-M,20211001,2021,10,360,IDN,Indonesia,Export,0,W00,World,All Commodities,22029687850.864
-M,20211001,2021,10,372,IRL,Ireland,Export,0,W00,World,All Commodities,17353747619.742
-M,20211001,2021,10,376,ISR,Israel,Export,0,W00,World,All Commodities,5947178000
-M,20211001,2021,10,380,ITA,Italy,Export,0,W00,World,All Commodities,53791732306.884
-M,20211001,2021,10,392,JPN,Japan,Export,0,W00,World,All Commodities,63496982273.895
-M,20211001,2021,10,414,KWT,Kuwait,Export,0,W00,World,All Commodities,6493935031
-M,20211001,2021,10,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,151986671
-M,20211001,2021,10,426,LSO,Lesotho,Export,0,W00,World,All Commodities,98974456.494
-M,20211001,2021,10,428,LVA,Latvia,Export,0,W00,World,All Commodities,1820399399.025
-M,20211001,2021,10,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3730320614.99
-M,20211001,2021,10,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1379127174.433
-M,20211001,2021,10,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,89786877.251
-M,20211001,2021,10,450,MDG,Madagascar,Export,0,W00,World,All Commodities,250170536.29
-M,20211001,2021,10,458,MYS,Malaysia,Export,0,W00,World,All Commodities,27484497596.865
-M,20211001,2021,10,480,MUS,Mauritius,Export,0,W00,World,All Commodities,143875912.196
-M,20211001,2021,10,484,MEX,Mexico,Export,0,W00,World,All Commodities,43054971587
-M,20211001,2021,10,496,MNG,Mongolia,Export,0,W00,World,All Commodities,1110514188.18
-M,20211001,2021,10,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,352247525
-M,20211001,2021,10,499,MNE,Montenegro,Export,0,W00,World,All Commodities,43284132.691
-M,20211001,2021,10,504,MAR,Morocco,Export,0,W00,World,All Commodities,3106697980.839
-M,20211001,2021,10,528,NLD,Netherlands,Export,0,W00,World,All Commodities,59132760478.438
-M,20211001,2021,10,554,NZL,New Zealand,Export,0,W00,World,All Commodities,3764110306.366
-M,20211001,2021,10,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,527637134.01
-M,20211001,2021,10,566,NGA,Nigeria,Export,0,W00,World,All Commodities,4804802862.373
-M,20211001,2021,10,579,NOR,Norway,Export,0,W00,World,All Commodities,18585105339.378
-M,20211001,2021,10,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2511137205.378
-M,20211001,2021,10,591,PAN,Panama,Export,0,W00,World,All Commodities,230230894
-M,20211001,2021,10,600,PRY,Paraguay,Export,0,W00,World,All Commodities,888381335
-M,20211001,2021,10,608,PHL,Philippines,Export,0,W00,World,All Commodities,6412082617
-M,20211001,2021,10,616,POL,Poland,Export,0,W00,World,All Commodities,28591457129
-M,20211001,2021,10,620,PRT,Portugal,Export,0,W00,World,All Commodities,6459584595.439
-M,20211001,2021,10,634,QAT,Qatar,Export,0,W00,World,All Commodities,8265965671.161
-M,20211001,2021,10,642,ROU,Romania,Export,0,W00,World,All Commodities,7618819406.7
-M,20211001,2021,10,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,46227177074.36
-M,20211001,2021,10,646,RWA,Rwanda,Export,0,W00,World,All Commodities,252311609.63
-M,20211001,2021,10,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,2336482.076
-M,20211001,2021,10,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,3011532.858
-M,20211001,2021,10,688,SRB,Serbia,Export,0,W00,World,All Commodities,2292046861
-M,20211001,2021,10,690,SYC,Seychelles,Export,0,W00,World,All Commodities,60059532.592
-M,20211001,2021,10,699,IND,India,Export,0,W00,World,All Commodities,35653252750.107
-M,20211001,2021,10,702,SGP,Singapore,Export,0,W00,World,All Commodities,39700493855.68
-M,20211001,2021,10,703,SVK,Slovakia,Export,0,W00,World,All Commodities,9259753624.328
-M,20211001,2021,10,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,28870990272
-M,20211001,2021,10,705,SVN,Slovenia,Export,0,W00,World,All Commodities,4167963489.695
-M,20211001,2021,10,710,ZAF,South Africa,Export,0,W00,World,All Commodities,9826519277.286
-M,20211001,2021,10,724,ESP,Spain,Export,0,W00,World,All Commodities,33956612599.36
-M,20211001,2021,10,752,SWE,Sweden,Export,0,W00,World,All Commodities,16825782167.571
-M,20211001,2021,10,757,CHE,Switzerland,Export,0,W00,World,All Commodities,33824213000.184
-M,20211001,2021,10,768,TGO,Togo,Export,0,W00,World,All Commodities,103243448.247
-M,20211001,2021,10,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,935738503.493
-M,20211001,2021,10,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1509483378.191
-M,20211001,2021,10,792,TUR,Türkiye,Export,0,W00,World,All Commodities,20713984277
-M,20211001,2021,10,804,UKR,Ukraine,Export,0,W00,World,All Commodities,6261605572.25
-M,20211001,2021,10,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,683170382.45
-M,20211001,2021,10,818,EGY,Egypt,Export,0,W00,World,All Commodities,3776281916.454
-M,20211001,2021,10,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,46604139299.117
-M,20211001,2021,10,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,590866972.02
-M,20211001,2021,10,842,USA,USA,Export,0,W00,World,All Commodities,164371444683
-M,20211001,2021,10,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,377485888.535
-M,20211001,2021,10,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,1880088239.768
-M,20211001,2021,10,882,WSM,Samoa,Export,0,W00,World,All Commodities,1951469.27
-M,20211101,2021,11,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2950597973.53
-M,20211101,2021,11,32,ARG,Argentina,Export,0,W00,World,All Commodities,6191188181.31
-M,20211101,2021,11,36,AUS,Australia,Export,0,W00,World,All Commodities,29446026293.14
-M,20211101,2021,11,51,ARM,Armenia,Export,0,W00,World,All Commodities,297272469.59
-M,20211101,2021,11,52,BRB,Barbados,Export,0,W00,World,All Commodities,35799773.5
-M,20211101,2021,11,56,BEL,Belgium,Export,0,W00,World,All Commodities,34471585098.671
-M,20211101,2021,11,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,1063977186.83
-M,20211101,2021,11,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,848584210.59
-M,20211101,2021,11,72,BWA,Botswana,Export,0,W00,World,All Commodities,577041386.952
-M,20211101,2021,11,76,BRA,Brazil,Export,0,W00,World,All Commodities,20501766210
-M,20211101,2021,11,84,BLZ,Belize,Export,0,W00,World,All Commodities,19258728.335
-M,20211101,2021,11,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3653232929.807
-M,20211101,2021,11,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1320104476.958
-M,20211101,2021,11,112,BLR,Belarus,Export,0,W00,World,All Commodities,4236399400
-M,20211101,2021,11,124,CAN,Canada,Export,0,W00,World,All Commodities,46686361632.831
-M,20211101,2021,11,152,CHL,Chile,Export,0,W00,World,All Commodities,8525532883.606
-M,20211101,2021,11,156,CHN,China,Export,0,W00,World,All Commodities,324706548283
-M,20211101,2021,11,170,COL,Colombia,Export,0,W00,World,All Commodities,4155804669.09
-M,20211101,2021,11,191,HRV,Croatia,Export,0,W00,World,All Commodities,2291786449
-M,20211101,2021,11,196,CYP,Cyprus,Export,0,W00,World,All Commodities,421843050.951
-M,20211101,2021,11,203,CZE,Czechia,Export,0,W00,World,All Commodities,21282560688
-M,20211101,2021,11,204,BEN,Benin,Export,0,W00,World,All Commodities,36218517.447
-M,20211101,2021,11,208,DNK,Denmark,Export,0,W00,World,All Commodities,11348960137.851
-M,20211101,2021,11,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,1074648920.017
-M,20211101,2021,11,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2608255229.425
-M,20211101,2021,11,222,SLV,El Salvador,Export,0,W00,World,All Commodities,538149031.77
-M,20211101,2021,11,233,EST,Estonia,Export,0,W00,World,All Commodities,2350801500.696
-M,20211101,2021,11,242,FJI,Fiji,Export,0,W00,World,All Commodities,56473302.172
-M,20211101,2021,11,246,FIN,Finland,Export,0,W00,World,All Commodities,7559753123.195
-M,20211101,2021,11,268,GEO,Georgia,Export,0,W00,World,All Commodities,430386149.15
-M,20211101,2021,11,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,132685190.99
-M,20211101,2021,11,276,DEU,Germany,Export,0,W00,World,All Commodities,144438859629.827
-M,20211101,2021,11,300,GRC,Greece,Export,0,W00,World,All Commodities,4474996038.367
-M,20211101,2021,11,308,GRD,Grenada,Export,0,W00,World,All Commodities,3499437.034
-M,20211101,2021,11,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1090034860
-M,20211101,2021,11,328,GUY,Guyana,Export,0,W00,World,All Commodities,327495225.957
-M,20211101,2021,11,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,64594569660.238
-M,20211101,2021,11,348,HUN,Hungary,Export,0,W00,World,All Commodities,12771119410
-M,20211101,2021,11,352,ISL,Iceland,Export,0,W00,World,All Commodities,551577805.431
-M,20211101,2021,11,360,IDN,Indonesia,Export,0,W00,World,All Commodities,22844428576.819
-M,20211101,2021,11,372,IRL,Ireland,Export,0,W00,World,All Commodities,17833113870.463
-M,20211101,2021,11,376,ISR,Israel,Export,0,W00,World,All Commodities,5979634000
-M,20211101,2021,11,380,ITA,Italy,Export,0,W00,World,All Commodities,55465428294.584
-M,20211101,2021,11,392,JPN,Japan,Export,0,W00,World,All Commodities,64612707714.202
-M,20211101,2021,11,404,KEN,Kenya,Export,0,W00,World,All Commodities,573737028.7
-M,20211101,2021,11,414,KWT,Kuwait,Export,0,W00,World,All Commodities,7292475907
-M,20211101,2021,11,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,127855035
-M,20211101,2021,11,426,LSO,Lesotho,Export,0,W00,World,All Commodities,119119354.409
-M,20211101,2021,11,428,LVA,Latvia,Export,0,W00,World,All Commodities,1854759401.027
-M,20211101,2021,11,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3874784792.97
-M,20211101,2021,11,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1421640749.159
-M,20211101,2021,11,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,114953179.565
-M,20211101,2021,11,450,MDG,Madagascar,Export,0,W00,World,All Commodities,313091319.012
-M,20211101,2021,11,458,MYS,Malaysia,Export,0,W00,World,All Commodities,26841697498.55
-M,20211101,2021,11,480,MUS,Mauritius,Export,0,W00,World,All Commodities,154288668.217
-M,20211101,2021,11,484,MEX,Mexico,Export,0,W00,World,All Commodities,45586981873
-M,20211101,2021,11,496,MNG,Mongolia,Export,0,W00,World,All Commodities,1300884972.74
-M,20211101,2021,11,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,363865029
-M,20211101,2021,11,499,MNE,Montenegro,Export,0,W00,World,All Commodities,44568414.707
-M,20211101,2021,11,504,MAR,Morocco,Export,0,W00,World,All Commodities,3630806744.356
-M,20211101,2021,11,528,NLD,Netherlands,Export,0,W00,World,All Commodities,64271557127.881
-M,20211101,2021,11,554,NZL,New Zealand,Export,0,W00,World,All Commodities,4118175608.223
-M,20211101,2021,11,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,539475729.8
-M,20211101,2021,11,566,NGA,Nigeria,Export,0,W00,World,All Commodities,5018493126.782
-M,20211101,2021,11,579,NOR,Norway,Export,0,W00,World,All Commodities,18145085724.232
-M,20211101,2021,11,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2906910373.496
-M,20211101,2021,11,591,PAN,Panama,Export,0,W00,World,All Commodities,332055382
-M,20211101,2021,11,600,PRY,Paraguay,Export,0,W00,World,All Commodities,851214281
-M,20211101,2021,11,608,PHL,Philippines,Export,0,W00,World,All Commodities,6273257794
-M,20211101,2021,11,616,POL,Poland,Export,0,W00,World,All Commodities,31355721859
-M,20211101,2021,11,620,PRT,Portugal,Export,0,W00,World,All Commodities,6917447140.45
-M,20211101,2021,11,634,QAT,Qatar,Export,0,W00,World,All Commodities,9418843830.933
-M,20211101,2021,11,642,ROU,Romania,Export,0,W00,World,All Commodities,8133360239.03
-M,20211101,2021,11,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,48012427803.639
-M,20211101,2021,11,646,RWA,Rwanda,Export,0,W00,World,All Commodities,129797800.49
-M,20211101,2021,11,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,3620817.293
-M,20211101,2021,11,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,2190828.312
-M,20211101,2021,11,688,SRB,Serbia,Export,0,W00,World,All Commodities,2317471739
-M,20211101,2021,11,690,SYC,Seychelles,Export,0,W00,World,All Commodities,55144113.653
-M,20211101,2021,11,699,IND,India,Export,0,W00,World,All Commodities,31791186790.583
-M,20211101,2021,11,702,SGP,Singapore,Export,0,W00,World,All Commodities,41785862872.959
-M,20211101,2021,11,703,SVK,Slovakia,Export,0,W00,World,All Commodities,9808942999.937
-M,20211101,2021,11,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,31867957645
-M,20211101,2021,11,705,SVN,Slovenia,Export,0,W00,World,All Commodities,4244342452.643
-M,20211101,2021,11,710,ZAF,South Africa,Export,0,W00,World,All Commodities,10374374649.561
-M,20211101,2021,11,724,ESP,Spain,Export,0,W00,World,All Commodities,35114517494.683
-M,20211101,2021,11,752,SWE,Sweden,Export,0,W00,World,All Commodities,17430668856.407
-M,20211101,2021,11,757,CHE,Switzerland,Export,0,W00,World,All Commodities,36694262761.715
-M,20211101,2021,11,768,TGO,Togo,Export,0,W00,World,All Commodities,73372570.224
-M,20211101,2021,11,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,860336535.298
-M,20211101,2021,11,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1453597482.701
-M,20211101,2021,11,792,TUR,Türkiye,Export,0,W00,World,All Commodities,21455111986
-M,20211101,2021,11,804,UKR,Ukraine,Export,0,W00,World,All Commodities,6795320768.34
-M,20211101,2021,11,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,699878488.87
-M,20211101,2021,11,818,EGY,Egypt,Export,0,W00,World,All Commodities,4495170553.346
-M,20211101,2021,11,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,40615413468.359
-M,20211101,2021,11,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,594564898.022
-M,20211101,2021,11,842,USA,USA,Export,0,W00,World,All Commodities,156347608488
-M,20211101,2021,11,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,382076110.843
-M,20211101,2021,11,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,2798380037.01
-M,20211101,2021,11,882,WSM,Samoa,Export,0,W00,World,All Commodities,3070685.816
-M,20211201,2021,12,24,AGO,Angola,Export,0,W00,World,All Commodities,3606565859.576
-M,20211201,2021,12,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2407180551.23
-M,20211201,2021,12,32,ARG,Argentina,Export,0,W00,World,All Commodities,6587062914.49
-M,20211201,2021,12,36,AUS,Australia,Export,0,W00,World,All Commodities,30713563961.551
-M,20211201,2021,12,51,ARM,Armenia,Export,0,W00,World,All Commodities,302452077.23
-M,20211201,2021,12,52,BRB,Barbados,Export,0,W00,World,All Commodities,42377940.5
-M,20211201,2021,12,56,BEL,Belgium,Export,0,W00,World,All Commodities,35151067890.95
-M,20211201,2021,12,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,All Commodities,971211525.08
-M,20211201,2021,12,70,BIH,Bosnia Herzegovina,Export,0,W00,World,All Commodities,796297934.59
-M,20211201,2021,12,72,BWA,Botswana,Export,0,W00,World,All Commodities,620813012.244
-M,20211201,2021,12,76,BRA,Brazil,Export,0,W00,World,All Commodities,24432406778
-M,20211201,2021,12,84,BLZ,Belize,Export,0,W00,World,All Commodities,21121698.675
-M,20211201,2021,12,100,BGR,Bulgaria,Export,0,W00,World,All Commodities,3493170298.979
-M,20211201,2021,12,104,MMR,Myanmar,Export,0,W00,World,All Commodities,1377336382.916
-M,20211201,2021,12,112,BLR,Belarus,Export,0,W00,World,All Commodities,3731801000
-M,20211201,2021,12,124,CAN,Canada,Export,0,W00,World,All Commodities,45514819091.28
-M,20211201,2021,12,152,CHL,Chile,Export,0,W00,World,All Commodities,8984341297.149
-M,20211201,2021,12,156,CHN,China,Export,0,W00,World,All Commodities,340338587435
-M,20211201,2021,12,170,COL,Colombia,Export,0,W00,World,All Commodities,4544550854.58
-M,20211201,2021,12,191,HRV,Croatia,Export,0,W00,World,All Commodities,2169110708
-M,20211201,2021,12,196,CYP,Cyprus,Export,0,W00,World,All Commodities,396737792.422
-M,20211201,2021,12,203,CZE,Czechia,Export,0,W00,World,All Commodities,18139288840
-M,20211201,2021,12,204,BEN,Benin,Export,0,W00,World,All Commodities,101375877.2
-M,20211201,2021,12,208,DNK,Denmark,Export,0,W00,World,All Commodities,10085239950.537
-M,20211201,2021,12,214,DOM,Dominican Rep.,Export,0,W00,World,All Commodities,915029880.257
-M,20211201,2021,12,218,ECU,Ecuador,Export,0,W00,World,All Commodities,2102472793.844
-M,20211201,2021,12,222,SLV,El Salvador,Export,0,W00,World,All Commodities,510331883.43
-M,20211201,2021,12,233,EST,Estonia,Export,0,W00,World,All Commodities,1993129993.72
-M,20211201,2021,12,242,FJI,Fiji,Export,0,W00,World,All Commodities,82633250.753
-M,20211201,2021,12,246,FIN,Finland,Export,0,W00,World,All Commodities,8376411868.368
-M,20211201,2021,12,268,GEO,Georgia,Export,0,W00,World,All Commodities,419543109.4
-M,20211201,2021,12,275,PSE,State of Palestine,Export,0,W00,World,All Commodities,125643607.9
-M,20211201,2021,12,276,DEU,Germany,Export,0,W00,World,All Commodities,132741865242.747
-M,20211201,2021,12,300,GRC,Greece,Export,0,W00,World,All Commodities,4046067926.071
-M,20211201,2021,12,308,GRD,Grenada,Export,0,W00,World,All Commodities,2516325.183
-M,20211201,2021,12,320,GTM,Guatemala,Export,0,W00,World,All Commodities,1311578368
-M,20211201,2021,12,328,GUY,Guyana,Export,0,W00,World,All Commodities,413754395.207
-M,20211201,2021,12,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,All Commodities,65270010642.746
-M,20211201,2021,12,348,HUN,Hungary,Export,0,W00,World,All Commodities,11281865924
-M,20211201,2021,12,352,ISL,Iceland,Export,0,W00,World,All Commodities,584963864.336
-M,20211201,2021,12,360,IDN,Indonesia,Export,0,W00,World,All Commodities,22359545319.21
-M,20211201,2021,12,372,IRL,Ireland,Export,0,W00,World,All Commodities,14755411524.747
-M,20211201,2021,12,376,ISR,Israel,Export,0,W00,World,All Commodities,5900321000
-M,20211201,2021,12,380,ITA,Italy,Export,0,W00,World,All Commodities,51627913129.984
-M,20211201,2021,12,392,JPN,Japan,Export,0,W00,World,All Commodities,69366333773.238
-M,20211201,2021,12,404,KEN,Kenya,Export,0,W00,World,All Commodities,585034957.117
-M,20211201,2021,12,414,KWT,Kuwait,Export,0,W00,World,All Commodities,6273571561
-M,20211201,2021,12,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,178888747
-M,20211201,2021,12,426,LSO,Lesotho,Export,0,W00,World,All Commodities,58915165.681
-M,20211201,2021,12,428,LVA,Latvia,Export,0,W00,World,All Commodities,1760178539.666
-M,20211201,2021,12,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3755933196.99
-M,20211201,2021,12,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1272417355.765
-M,20211201,2021,12,446,MAC,"China, Macao SAR",Export,0,W00,World,All Commodities,85619006.834
-M,20211201,2021,12,450,MDG,Madagascar,Export,0,W00,World,All Commodities,384754277.992
-M,20211201,2021,12,458,MYS,Malaysia,Export,0,W00,World,All Commodities,29417210195.26
-M,20211201,2021,12,480,MUS,Mauritius,Export,0,W00,World,All Commodities,146944867.192
-M,20211201,2021,12,484,MEX,Mexico,Export,0,W00,World,All Commodities,47692803567
-M,20211201,2021,12,496,MNG,Mongolia,Export,0,W00,World,All Commodities,446230811.25
-M,20211201,2021,12,498,MDA,Rep. of Moldova,Export,0,W00,World,All Commodities,324970867
-M,20211201,2021,12,499,MNE,Montenegro,Export,0,W00,World,All Commodities,66055523.551
-M,20211201,2021,12,504,MAR,Morocco,Export,0,W00,World,All Commodities,3951956381.934
-M,20211201,2021,12,528,NLD,Netherlands,Export,0,W00,World,All Commodities,61818761736.323
-M,20211201,2021,12,554,NZL,New Zealand,Export,0,W00,World,All Commodities,4118027954.575
-M,20211201,2021,12,558,NIC,Nicaragua,Export,0,W00,World,All Commodities,554505596.58
-M,20211201,2021,12,566,NGA,Nigeria,Export,0,W00,World,All Commodities,4190337564.025
-M,20211201,2021,12,579,NOR,Norway,Export,0,W00,World,All Commodities,20871984050.886
-M,20211201,2021,12,586,PAK,Pakistan,Export,0,W00,World,All Commodities,2772155697.411
-M,20211201,2021,12,591,PAN,Panama,Export,0,W00,World,All Commodities,409713883
-M,20211201,2021,12,600,PRY,Paraguay,Export,0,W00,World,All Commodities,663482649
-M,20211201,2021,12,608,PHL,Philippines,Export,0,W00,World,All Commodities,6278718821
-M,20211201,2021,12,616,POL,Poland,Export,0,W00,World,All Commodities,25078170134
-M,20211201,2021,12,620,PRT,Portugal,Export,0,W00,World,All Commodities,6007296230.331
-M,20211201,2021,12,634,QAT,Qatar,Export,0,W00,World,All Commodities,9781398949.623
-M,20211201,2021,12,642,ROU,Romania,Export,0,W00,World,All Commodities,7382096221.52
-M,20211201,2021,12,643,RUS,Russian Federation,Export,0,W00,World,All Commodities,57215121705.504
-M,20211201,2021,12,646,RWA,Rwanda,Export,0,W00,World,All Commodities,168852399.04
-M,20211201,2021,12,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,All Commodities,2694963.853
-M,20211201,2021,12,678,STP,Sao Tome and Principe,Export,0,W00,World,All Commodities,1607593.918
-M,20211201,2021,12,688,SRB,Serbia,Export,0,W00,World,All Commodities,2252167270
-M,20211201,2021,12,690,SYC,Seychelles,Export,0,W00,World,All Commodities,56668620.722
-M,20211201,2021,12,699,IND,India,Export,0,W00,World,All Commodities,39243708396.444
-M,20211201,2021,12,702,SGP,Singapore,Export,0,W00,World,All Commodities,43437348503.466
-M,20211201,2021,12,703,SVK,Slovakia,Export,0,W00,World,All Commodities,8614427668.626
-M,20211201,2021,12,704,VNM,Viet Nam,Export,0,W00,World,All Commodities,34592469823
-M,20211201,2021,12,705,SVN,Slovenia,Export,0,W00,World,All Commodities,3705257448.605
-M,20211201,2021,12,710,ZAF,South Africa,Export,0,W00,World,All Commodities,9676155999.21
-M,20211201,2021,12,724,ESP,Spain,Export,0,W00,World,All Commodities,33265813202.352
-M,20211201,2021,12,752,SWE,Sweden,Export,0,W00,World,All Commodities,16233429596.539
-M,20211201,2021,12,757,CHE,Switzerland,Export,0,W00,World,All Commodities,29966586936.335
-M,20211201,2021,12,768,TGO,Togo,Export,0,W00,World,All Commodities,107632367.064
-M,20211201,2021,12,780,TTO,Trinidad and Tobago,Export,0,W00,World,All Commodities,823311556.386
-M,20211201,2021,12,788,TUN,Tunisia,Export,0,W00,World,All Commodities,1576046173.88
-M,20211201,2021,12,792,TUR,Türkiye,Export,0,W00,World,All Commodities,22233318423
-M,20211201,2021,12,804,UKR,Ukraine,Export,0,W00,World,All Commodities,6825219440.17
-M,20211201,2021,12,807,MKD,North Macedonia,Export,0,W00,World,All Commodities,670013404.37
-M,20211201,2021,12,818,EGY,Egypt,Export,0,W00,World,All Commodities,4336362238.886
-M,20211201,2021,12,826,GBR,United Kingdom,Export,0,W00,World,All Commodities,45863436973.502
-M,20211201,2021,12,834,TZA,United Rep. of Tanzania,Export,0,W00,World,All Commodities,599750320.61
-M,20211201,2021,12,842,USA,USA,Export,0,W00,World,All Commodities,159080107546
-M,20211201,2021,12,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,509532403.702
-M,20211201,2021,12,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,908808654.044
-M,20211201,2021,12,882,WSM,Samoa,Export,0,W00,World,All Commodities,2789316.191
+freqCode,date,refYear,refMonth,reporterCode,reporterISO,reporterDesc,flowDesc,partnerCode,partnerISO,partnerDesc,primaryValue
+M,2021-01-01,2021,1,28,ATG,Antigua and Barbuda,Export,0,W00,World,1216974.831
+M,2021-01-01,2021,1,31,AZE,Azerbaijan,Export,0,W00,World,1623974167.85
+M,2021-01-01,2021,1,32,ARG,Argentina,Export,0,W00,World,4911999896.89
+M,2021-01-01,2021,1,36,AUS,Australia,Export,0,W00,World,24488038917.517
+M,2021-01-01,2021,1,51,ARM,Armenia,Export,0,W00,World,162579328.65
+M,2021-01-01,2021,1,52,BRB,Barbados,Export,0,W00,World,20908151.5
+M,2021-01-01,2021,1,56,BEL,Belgium,Export,0,W00,World,27583652150.235
+M,2021-01-01,2021,1,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,743725111.81
+M,2021-01-01,2021,1,70,BIH,Bosnia Herzegovina,Export,0,W00,World,551139199.7
+M,2021-01-01,2021,1,72,BWA,Botswana,Export,0,W00,World,800000690.562
+M,2021-01-01,2021,1,76,BRA,Brazil,Export,0,W00,World,14947626003
+M,2021-01-01,2021,1,84,BLZ,Belize,Export,0,W00,World,14765424.31
+M,2021-01-01,2021,1,100,BGR,Bulgaria,Export,0,W00,World,2962426604.416
+M,2021-01-01,2021,1,104,MMR,Myanmar,Export,0,W00,World,1762170208.317
+M,2021-01-01,2021,1,112,BLR,Belarus,Export,0,W00,World,2434717800
+M,2021-01-01,2021,1,124,CAN,Canada,Export,0,W00,World,37160314953.789
+M,2021-01-01,2021,1,152,CHL,Chile,Export,0,W00,World,7113957095.365
+M,2021-01-01,2021,1,156,CHN,China,Export,0,W00,World,263633235503
+M,2021-01-01,2021,1,170,COL,Colombia,Export,0,W00,World,2610936422.43
+M,2021-01-01,2021,1,191,HRV,Croatia,Export,0,W00,World,1385000452
+M,2021-01-01,2021,1,196,CYP,Cyprus,Export,0,W00,World,191677124.703
+M,2021-01-01,2021,1,203,CZE,Czechia,Export,0,W00,World,17719510300
+M,2021-01-01,2021,1,204,BEN,Benin,Export,0,W00,World,76938344.075
+M,2021-01-01,2021,1,208,DNK,Denmark,Export,0,W00,World,9452571823.685
+M,2021-01-01,2021,1,214,DOM,Dominican Rep.,Export,0,W00,World,740229273.467
+M,2021-01-01,2021,1,218,ECU,Ecuador,Export,0,W00,World,1814891832.808
+M,2021-01-01,2021,1,222,SLV,El Salvador,Export,0,W00,World,515558118.07
+M,2021-01-01,2021,1,233,EST,Estonia,Export,0,W00,World,1484840231.916
+M,2021-01-01,2021,1,242,FJI,Fiji,Export,0,W00,World,56620031.69
+M,2021-01-01,2021,1,246,FIN,Finland,Export,0,W00,World,5383139693.513
+M,2021-01-01,2021,1,268,GEO,Georgia,Export,0,W00,World,224500231.81
+M,2021-01-01,2021,1,275,PSE,State of Palestine,Export,0,W00,World,99873118.95
+M,2021-01-01,2021,1,276,DEU,Germany,Export,0,W00,World,120945626486.123
+M,2021-01-01,2021,1,300,GRC,Greece,Export,0,W00,World,3067695770.536
+M,2021-01-01,2021,1,308,GRD,Grenada,Export,0,W00,World,2278476.849
+M,2021-01-01,2021,1,320,GTM,Guatemala,Export,0,W00,World,1089712648
+M,2021-01-01,2021,1,328,GUY,Guyana,Export,0,W00,World,262063384.212
+M,2021-01-01,2021,1,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,52168243157.67
+M,2021-01-01,2021,1,348,HUN,Hungary,Export,0,W00,World,10872320007
+M,2021-01-01,2021,1,352,ISL,Iceland,Export,0,W00,World,382454159.812
+M,2021-01-01,2021,1,360,IDN,Indonesia,Export,0,W00,World,15293664942.285
+M,2021-01-01,2021,1,372,IRL,Ireland,Export,0,W00,World,16222655660.012
+M,2021-01-01,2021,1,376,ISR,Israel,Export,0,W00,World,4705940000
+M,2021-01-01,2021,1,380,ITA,Italy,Export,0,W00,World,41282497216.818
+M,2021-01-01,2021,1,392,JPN,Japan,Export,0,W00,World,55735015938.369
+M,2021-01-01,2021,1,404,KEN,Kenya,Export,0,W00,World,494597695.124
+M,2021-01-01,2021,1,414,KWT,Kuwait,Export,0,W00,World,4023308432
+M,2021-01-01,2021,1,417,KGZ,Kyrgyzstan,Export,0,W00,World,97572722
+M,2021-01-01,2021,1,426,LSO,Lesotho,Export,0,W00,World,59618654.212
+M,2021-01-01,2021,1,428,LVA,Latvia,Export,0,W00,World,1285049099.096
+M,2021-01-01,2021,1,440,LTU,Lithuania,Export,0,W00,World,2771048009.99
+M,2021-01-01,2021,1,442,LUX,Luxembourg,Export,0,W00,World,1183582077.821
+M,2021-01-01,2021,1,446,MAC,"China, Macao SAR",Export,0,W00,World,147352128.774
+M,2021-01-01,2021,1,450,MDG,Madagascar,Export,0,W00,World,162896671.156
+M,2021-01-01,2021,1,458,MYS,Malaysia,Export,0,W00,World,22201593814.758
+M,2021-01-01,2021,1,480,MUS,Mauritius,Export,0,W00,World,116979760.306
+M,2021-01-01,2021,1,484,MEX,Mexico,Export,0,W00,World,32667770741
+M,2021-01-01,2021,1,496,MNG,Mongolia,Export,0,W00,World,639684750.76
+M,2021-01-01,2021,1,498,MDA,Rep. of Moldova,Export,0,W00,World,198437306
+M,2021-01-01,2021,1,499,MNE,Montenegro,Export,0,W00,World,30790183.78
+M,2021-01-01,2021,1,504,MAR,Morocco,Export,0,W00,World,2803088636.669
+M,2021-01-01,2021,1,528,NLD,Netherlands,Export,0,W00,World,49813220474.078
+M,2021-01-01,2021,1,554,NZL,New Zealand,Export,0,W00,World,3016865412.974
+M,2021-01-01,2021,1,558,NIC,Nicaragua,Export,0,W00,World,460420219.53
+M,2021-01-01,2021,1,566,NGA,Nigeria,Export,0,W00,World,2349601978.858
+M,2021-01-01,2021,1,579,NOR,Norway,Export,0,W00,World,9459561306.371
+M,2021-01-01,2021,1,586,PAK,Pakistan,Export,0,W00,World,2146063599.179
+M,2021-01-01,2021,1,591,PAN,Panama,Export,0,W00,World,241506179
+M,2021-01-01,2021,1,600,PRY,Paraguay,Export,0,W00,World,543955493
+M,2021-01-01,2021,1,608,PHL,Philippines,Export,0,W00,World,5521466745
+M,2021-01-01,2021,1,616,POL,Poland,Export,0,W00,World,24796391119
+M,2021-01-01,2021,1,620,PRT,Portugal,Export,0,W00,World,5617333354.407
+M,2021-01-01,2021,1,634,QAT,Qatar,Export,0,W00,World,5851327257.613
+M,2021-01-01,2021,1,642,ROU,Romania,Export,0,W00,World,6584846035.5
+M,2021-01-01,2021,1,643,RUS,Russian Federation,Export,0,W00,World,26979459439.484
+M,2021-01-01,2021,1,646,RWA,Rwanda,Export,0,W00,World,75414984.1
+M,2021-01-01,2021,1,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,2106545.309
+M,2021-01-01,2021,1,678,STP,Sao Tome and Principe,Export,0,W00,World,1449253.42
+M,2021-01-01,2021,1,688,SRB,Serbia,Export,0,W00,World,1655694080
+M,2021-01-01,2021,1,690,SYC,Seychelles,Export,0,W00,World,710299361.229
+M,2021-01-01,2021,1,699,IND,India,Export,0,W00,World,27500549438.864
+M,2021-01-01,2021,1,702,SGP,Singapore,Export,0,W00,World,33942509233.411
+M,2021-01-01,2021,1,703,SVK,Slovakia,Export,0,W00,World,7940594008.231
+M,2021-01-01,2021,1,704,VNM,Viet Nam,Export,0,W00,World,28545770525
+M,2021-01-01,2021,1,705,SVN,Slovenia,Export,0,W00,World,3528922518.008
+M,2021-01-01,2021,1,710,ZAF,South Africa,Export,0,W00,World,7223606181.347
+M,2021-01-01,2021,1,724,ESP,Spain,Export,0,W00,World,26683545383.237
+M,2021-01-01,2021,1,752,SWE,Sweden,Export,0,W00,World,13718639459.313
+M,2021-01-01,2021,1,757,CHE,Switzerland,Export,0,W00,World,27630003986.906
+M,2021-01-01,2021,1,768,TGO,Togo,Export,0,W00,World,84063596.713
+M,2021-01-01,2021,1,780,TTO,Trinidad and Tobago,Export,0,W00,World,463643748.647
+M,2021-01-01,2021,1,788,TUN,Tunisia,Export,0,W00,World,1242368147.504
+M,2021-01-01,2021,1,792,TUR,Türkiye,Export,0,W00,World,15003935219
+M,2021-01-01,2021,1,804,UKR,Ukraine,Export,0,W00,World,3927453219.93
+M,2021-01-01,2021,1,807,MKD,North Macedonia,Export,0,W00,World,641517226.76
+M,2021-01-01,2021,1,818,EGY,Egypt,Export,0,W00,World,2536387816.336
+M,2021-01-01,2021,1,826,GBR,United Kingdom,Export,0,W00,World,27392471984.041
+M,2021-01-01,2021,1,834,TZA,United Rep. of Tanzania,Export,0,W00,World,416072971.429
+M,2021-01-01,2021,1,842,USA,USA,Export,0,W00,World,127476378280
+M,2021-01-01,2021,1,854,BFA,Burkina Faso,Export,0,W00,World,494996998.194
+M,2021-01-01,2021,1,858,URY,Uruguay,Export,0,W00,World,559618967
+M,2021-01-01,2021,1,860,UZB,Uzbekistan,Export,0,W00,World,528901635.04
+M,2021-01-01,2021,1,882,WSM,Samoa,Export,0,W00,World,1655455.981
+M,2021-01-01,2021,1,894,ZMB,Zambia,Export,0,W00,World,835043693.901
+M,2021-02-01,2021,2,28,ATG,Antigua and Barbuda,Export,0,W00,World,1155221.737
+M,2021-02-01,2021,2,31,AZE,Azerbaijan,Export,0,W00,World,1163974263.69
+M,2021-02-01,2021,2,32,ARG,Argentina,Export,0,W00,World,4774998994.87
+M,2021-02-01,2021,2,36,AUS,Australia,Export,0,W00,World,24604296085.516
+M,2021-02-01,2021,2,51,ARM,Armenia,Export,0,W00,World,195182204.05
+M,2021-02-01,2021,2,52,BRB,Barbados,Export,0,W00,World,25609061.5
+M,2021-02-01,2021,2,56,BEL,Belgium,Export,0,W00,World,27054233316.536
+M,2021-02-01,2021,2,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,779415269.1
+M,2021-02-01,2021,2,70,BIH,Bosnia Herzegovina,Export,0,W00,World,635814834.89
+M,2021-02-01,2021,2,72,BWA,Botswana,Export,0,W00,World,597107583.576
+M,2021-02-01,2021,2,76,BRA,Brazil,Export,0,W00,World,16375290870
+M,2021-02-01,2021,2,84,BLZ,Belize,Export,0,W00,World,21175363.915
+M,2021-02-01,2021,2,100,BGR,Bulgaria,Export,0,W00,World,3130539187.202
+M,2021-02-01,2021,2,104,MMR,Myanmar,Export,0,W00,World,1070589440.438
+M,2021-02-01,2021,2,112,BLR,Belarus,Export,0,W00,World,2704166400
+M,2021-02-01,2021,2,124,CAN,Canada,Export,0,W00,World,35724311443.989
+M,2021-02-01,2021,2,152,CHL,Chile,Export,0,W00,World,7271354322.737
+M,2021-02-01,2021,2,156,CHN,China,Export,0,W00,World,204513895257
+M,2021-02-01,2021,2,170,COL,Colombia,Export,0,W00,World,2938994116.72
+M,2021-02-01,2021,2,191,HRV,Croatia,Export,0,W00,World,1565639264
+M,2021-02-01,2021,2,196,CYP,Cyprus,Export,0,W00,World,216731889.605
+M,2021-02-01,2021,2,203,CZE,Czechia,Export,0,W00,World,17746538430
+M,2021-02-01,2021,2,204,BEN,Benin,Export,0,W00,World,83701553.083
+M,2021-02-01,2021,2,208,DNK,Denmark,Export,0,W00,World,9589436977.041
+M,2021-02-01,2021,2,214,DOM,Dominican Rep.,Export,0,W00,World,913659166.285
+M,2021-02-01,2021,2,218,ECU,Ecuador,Export,0,W00,World,1953825093.096
+M,2021-02-01,2021,2,222,SLV,El Salvador,Export,0,W00,World,504924024.11
+M,2021-02-01,2021,2,233,EST,Estonia,Export,0,W00,World,1567959377.302
+M,2021-02-01,2021,2,242,FJI,Fiji,Export,0,W00,World,60695797.377
+M,2021-02-01,2021,2,246,FIN,Finland,Export,0,W00,World,5837505693.576
+M,2021-02-01,2021,2,268,GEO,Georgia,Export,0,W00,World,267673692.45
+M,2021-02-01,2021,2,275,PSE,State of Palestine,Export,0,W00,World,96760771.44
+M,2021-02-01,2021,2,276,DEU,Germany,Export,0,W00,World,131051575272.884
+M,2021-02-01,2021,2,300,GRC,Greece,Export,0,W00,World,3515722370.952
+M,2021-02-01,2021,2,308,GRD,Grenada,Export,0,W00,World,2135069.06
+M,2021-02-01,2021,2,320,GTM,Guatemala,Export,0,W00,World,1089477569
+M,2021-02-01,2021,2,328,GUY,Guyana,Export,0,W00,World,338818250.346
+M,2021-02-01,2021,2,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,41184084600.478
+M,2021-02-01,2021,2,348,HUN,Hungary,Export,0,W00,World,11703556198
+M,2021-02-01,2021,2,352,ISL,Iceland,Export,0,W00,World,409450217.992
+M,2021-02-01,2021,2,360,IDN,Indonesia,Export,0,W00,World,15256164431.279
+M,2021-02-01,2021,2,372,IRL,Ireland,Export,0,W00,World,14898893791.188
+M,2021-02-01,2021,2,376,ISR,Israel,Export,0,W00,World,4270032000
+M,2021-02-01,2021,2,380,ITA,Italy,Export,0,W00,World,47051677071.944
+M,2021-02-01,2021,2,392,JPN,Japan,Export,0,W00,World,57303851858.861
+M,2021-02-01,2021,2,404,KEN,Kenya,Export,0,W00,World,614581174.507
+M,2021-02-01,2021,2,414,KWT,Kuwait,Export,0,W00,World,4496218216
+M,2021-02-01,2021,2,417,KGZ,Kyrgyzstan,Export,0,W00,World,136152354
+M,2021-02-01,2021,2,426,LSO,Lesotho,Export,0,W00,World,68681293.463
+M,2021-02-01,2021,2,428,LVA,Latvia,Export,0,W00,World,1373869000.316
+M,2021-02-01,2021,2,440,LTU,Lithuania,Export,0,W00,World,2951307324.96
+M,2021-02-01,2021,2,442,LUX,Luxembourg,Export,0,W00,World,1015562758.27
+M,2021-02-01,2021,2,446,MAC,"China, Macao SAR",Export,0,W00,World,67755349.386
+M,2021-02-01,2021,2,450,MDG,Madagascar,Export,0,W00,World,166704366.419
+M,2021-02-01,2021,2,458,MYS,Malaysia,Export,0,W00,World,21645833811.958
+M,2021-02-01,2021,2,480,MUS,Mauritius,Export,0,W00,World,132738802.429
+M,2021-02-01,2021,2,484,MEX,Mexico,Export,0,W00,World,36174570563
+M,2021-02-01,2021,2,496,MNG,Mongolia,Export,0,W00,World,694630364.81
+M,2021-02-01,2021,2,498,MDA,Rep. of Moldova,Export,0,W00,World,227035010
+M,2021-02-01,2021,2,499,MNE,Montenegro,Export,0,W00,World,34898108.29
+M,2021-02-01,2021,2,504,MAR,Morocco,Export,0,W00,World,2681151207.019
+M,2021-02-01,2021,2,528,NLD,Netherlands,Export,0,W00,World,50791092893.637
+M,2021-02-01,2021,2,554,NZL,New Zealand,Export,0,W00,World,3239074287.522
+M,2021-02-01,2021,2,558,NIC,Nicaragua,Export,0,W00,World,509302390.98
+M,2021-02-01,2021,2,566,NGA,Nigeria,Export,0,W00,World,2584808427
+M,2021-02-01,2021,2,579,NOR,Norway,Export,0,W00,World,9264063951.034
+M,2021-02-01,2021,2,586,PAK,Pakistan,Export,0,W00,World,2077295269.434
+M,2021-02-01,2021,2,591,PAN,Panama,Export,0,W00,World,238513947
+M,2021-02-01,2021,2,600,PRY,Paraguay,Export,0,W00,World,558430800
+M,2021-02-01,2021,2,608,PHL,Philippines,Export,0,W00,World,5350328948
+M,2021-02-01,2021,2,616,POL,Poland,Export,0,W00,World,26086226621
+M,2021-02-01,2021,2,620,PRT,Portugal,Export,0,W00,World,6033540905.98
+M,2021-02-01,2021,2,634,QAT,Qatar,Export,0,W00,World,5663338561.285
+M,2021-02-01,2021,2,642,ROU,Romania,Export,0,W00,World,7001087659.98
+M,2021-02-01,2021,2,643,RUS,Russian Federation,Export,0,W00,World,30225943112.358
+M,2021-02-01,2021,2,646,RWA,Rwanda,Export,0,W00,World,97684377.69
+M,2021-02-01,2021,2,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,3401348.32
+M,2021-02-01,2021,2,678,STP,Sao Tome and Principe,Export,0,W00,World,678042.066
+M,2021-02-01,2021,2,688,SRB,Serbia,Export,0,W00,World,1920806636
+M,2021-02-01,2021,2,690,SYC,Seychelles,Export,0,W00,World,21192004.519
+M,2021-02-01,2021,2,699,IND,India,Export,0,W00,World,27606842092.716
+M,2021-02-01,2021,2,702,SGP,Singapore,Export,0,W00,World,32094489976.889
+M,2021-02-01,2021,2,703,SVK,Slovakia,Export,0,W00,World,8725078265.806
+M,2021-02-01,2021,2,704,VNM,Viet Nam,Export,0,W00,World,20195667948
+M,2021-02-01,2021,2,705,SVN,Slovenia,Export,0,W00,World,3631441772.485
+M,2021-02-01,2021,2,710,ZAF,South Africa,Export,0,W00,World,8826196783.596
+M,2021-02-01,2021,2,724,ESP,Spain,Export,0,W00,World,29924484862.011
+M,2021-02-01,2021,2,752,SWE,Sweden,Export,0,W00,World,14789381363.943
+M,2021-02-01,2021,2,757,CHE,Switzerland,Export,0,W00,World,28625732974.165
+M,2021-02-01,2021,2,768,TGO,Togo,Export,0,W00,World,95216314.576
+M,2021-02-01,2021,2,780,TTO,Trinidad and Tobago,Export,0,W00,World,736810678.495
+M,2021-02-01,2021,2,788,TUN,Tunisia,Export,0,W00,World,1275115146.083
+M,2021-02-01,2021,2,792,TUR,Türkiye,Export,0,W00,World,15952528858
+M,2021-02-01,2021,2,804,UKR,Ukraine,Export,0,W00,World,4548093006.23
+M,2021-02-01,2021,2,807,MKD,North Macedonia,Export,0,W00,World,659586522.22
+M,2021-02-01,2021,2,818,EGY,Egypt,Export,0,W00,World,2717261987.91
+M,2021-02-01,2021,2,826,GBR,United Kingdom,Export,0,W00,World,36569812667.005
+M,2021-02-01,2021,2,834,TZA,United Rep. of Tanzania,Export,0,W00,World,356239053.256
+M,2021-02-01,2021,2,842,USA,USA,Export,0,W00,World,123874920638
+M,2021-02-01,2021,2,854,BFA,Burkina Faso,Export,0,W00,World,390566393.48
+M,2021-02-01,2021,2,860,UZB,Uzbekistan,Export,0,W00,World,677820283
+M,2021-02-01,2021,2,882,WSM,Samoa,Export,0,W00,World,2335069.817
+M,2021-03-01,2021,3,28,ATG,Antigua and Barbuda,Export,0,W00,World,2794678.127
+M,2021-03-01,2021,3,31,AZE,Azerbaijan,Export,0,W00,World,1350040145.75
+M,2021-03-01,2021,3,32,ARG,Argentina,Export,0,W00,World,5719998796.77
+M,2021-03-01,2021,3,36,AUS,Australia,Export,0,W00,World,27625525889.88
+M,2021-03-01,2021,3,51,ARM,Armenia,Export,0,W00,World,215414632.36
+M,2021-03-01,2021,3,52,BRB,Barbados,Export,0,W00,World,35108915
+M,2021-03-01,2021,3,56,BEL,Belgium,Export,0,W00,World,32772943610.665
+M,2021-03-01,2021,3,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,819932144.61
+M,2021-03-01,2021,3,70,BIH,Bosnia Herzegovina,Export,0,W00,World,703552845.84
+M,2021-03-01,2021,3,72,BWA,Botswana,Export,0,W00,World,824446523.877
+M,2021-03-01,2021,3,76,BRA,Brazil,Export,0,W00,World,24335759852
+M,2021-03-01,2021,3,84,BLZ,Belize,Export,0,W00,World,20859963.9
+M,2021-03-01,2021,3,100,BGR,Bulgaria,Export,0,W00,World,3538488336.659
+M,2021-03-01,2021,3,104,MMR,Myanmar,Export,0,W00,World,1321635122.965
+M,2021-03-01,2021,3,112,BLR,Belarus,Export,0,W00,World,3075112100
+M,2021-03-01,2021,3,124,CAN,Canada,Export,0,W00,World,42663945137.11
+M,2021-03-01,2021,3,152,CHL,Chile,Export,0,W00,World,7759866088.154
+M,2021-03-01,2021,3,156,CHN,China,Export,0,W00,World,240708458147
+M,2021-03-01,2021,3,170,COL,Colombia,Export,0,W00,World,3383554076.38
+M,2021-03-01,2021,3,191,HRV,Croatia,Export,0,W00,World,1943550260
+M,2021-03-01,2021,3,196,CYP,Cyprus,Export,0,W00,World,266983528.211
+M,2021-03-01,2021,3,203,CZE,Czechia,Export,0,W00,World,20933223522
+M,2021-03-01,2021,3,204,BEN,Benin,Export,0,W00,World,99031303.954
+M,2021-03-01,2021,3,208,DNK,Denmark,Export,0,W00,World,11615033189.382
+M,2021-03-01,2021,3,214,DOM,Dominican Rep.,Export,0,W00,World,1114148916.36
+M,2021-03-01,2021,3,218,ECU,Ecuador,Export,0,W00,World,2092602235.645
+M,2021-03-01,2021,3,222,SLV,El Salvador,Export,0,W00,World,558253360.99
+M,2021-03-01,2021,3,233,EST,Estonia,Export,0,W00,World,1812683970.683
+M,2021-03-01,2021,3,242,FJI,Fiji,Export,0,W00,World,72174839.04
+M,2021-03-01,2021,3,246,FIN,Finland,Export,0,W00,World,6921946328.752
+M,2021-03-01,2021,3,268,GEO,Georgia,Export,0,W00,World,326088939.88
+M,2021-03-01,2021,3,275,PSE,State of Palestine,Export,0,W00,World,118485111.47
+M,2021-03-01,2021,3,276,DEU,Germany,Export,0,W00,World,152837784585.713
+M,2021-03-01,2021,3,300,GRC,Greece,Export,0,W00,World,3987008223.149
+M,2021-03-01,2021,3,308,GRD,Grenada,Export,0,W00,World,3396044.716
+M,2021-03-01,2021,3,320,GTM,Guatemala,Export,0,W00,World,1267056738
+M,2021-03-01,2021,3,328,GUY,Guyana,Export,0,W00,World,542869263
+M,2021-03-01,2021,3,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,54774564391.038
+M,2021-03-01,2021,3,348,HUN,Hungary,Export,0,W00,World,13302067452
+M,2021-03-01,2021,3,352,ISL,Iceland,Export,0,W00,World,489809385.125
+M,2021-03-01,2021,3,360,IDN,Indonesia,Export,0,W00,World,18354446773.396
+M,2021-03-01,2021,3,372,IRL,Ireland,Export,0,W00,World,17501531949.034
+M,2021-03-01,2021,3,376,ISR,Israel,Export,0,W00,World,4794399000
+M,2021-03-01,2021,3,380,ITA,Italy,Export,0,W00,World,54953618615.419
+M,2021-03-01,2021,3,392,JPN,Japan,Export,0,W00,World,67902331920.751
+M,2021-03-01,2021,3,404,KEN,Kenya,Export,0,W00,World,635093009.404
+M,2021-03-01,2021,3,414,KWT,Kuwait,Export,0,W00,World,5006250055
+M,2021-03-01,2021,3,417,KGZ,Kyrgyzstan,Export,0,W00,World,192105765
+M,2021-03-01,2021,3,426,LSO,Lesotho,Export,0,W00,World,67251250.021
+M,2021-03-01,2021,3,428,LVA,Latvia,Export,0,W00,World,1588469863.195
+M,2021-03-01,2021,3,440,LTU,Lithuania,Export,0,W00,World,3280446870.99
+M,2021-03-01,2021,3,442,LUX,Luxembourg,Export,0,W00,World,1461276534.19
+M,2021-03-01,2021,3,446,MAC,"China, Macao SAR",Export,0,W00,World,125742987.729
+M,2021-03-01,2021,3,450,MDG,Madagascar,Export,0,W00,World,165762790.164
+M,2021-03-01,2021,3,458,MYS,Malaysia,Export,0,W00,World,25550241484.704
+M,2021-03-01,2021,3,480,MUS,Mauritius,Export,0,W00,World,124189126.718
+M,2021-03-01,2021,3,484,MEX,Mexico,Export,0,W00,World,43021477467
+M,2021-03-01,2021,3,496,MNG,Mongolia,Export,0,W00,World,665387011.12
+M,2021-03-01,2021,3,498,MDA,Rep. of Moldova,Export,0,W00,World,259287156
+M,2021-03-01,2021,3,499,MNE,Montenegro,Export,0,W00,World,40688462.851
+M,2021-03-01,2021,3,504,MAR,Morocco,Export,0,W00,World,3177619073.512
+M,2021-03-01,2021,3,528,NLD,Netherlands,Export,0,W00,World,61651264974.873
+M,2021-03-01,2021,3,554,NZL,New Zealand,Export,0,W00,World,4056539879.261
+M,2021-03-01,2021,3,558,NIC,Nicaragua,Export,0,W00,World,622566177.83
+M,2021-03-01,2021,3,566,NGA,Nigeria,Export,0,W00,World,2900050947.509
+M,2021-03-01,2021,3,579,NOR,Norway,Export,0,W00,World,11088445849.807
+M,2021-03-01,2021,3,586,PAK,Pakistan,Export,0,W00,World,2370504230.297
+M,2021-03-01,2021,3,591,PAN,Panama,Export,0,W00,World,326246353
+M,2021-03-01,2021,3,600,PRY,Paraguay,Export,0,W00,World,1192735645
+M,2021-03-01,2021,3,608,PHL,Philippines,Export,0,W00,World,6772036196
+M,2021-03-01,2021,3,616,POL,Poland,Export,0,W00,World,30521974328
+M,2021-03-01,2021,3,620,PRT,Portugal,Export,0,W00,World,6958652864.097
+M,2021-03-01,2021,3,634,QAT,Qatar,Export,0,W00,World,6060813399.032
+M,2021-03-01,2021,3,642,ROU,Romania,Export,0,W00,World,7796198438.02
+M,2021-03-01,2021,3,643,RUS,Russian Federation,Export,0,W00,World,36476988302.506
+M,2021-03-01,2021,3,646,RWA,Rwanda,Export,0,W00,World,96232929.99
+M,2021-03-01,2021,3,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,3477623.349
+M,2021-03-01,2021,3,678,STP,Sao Tome and Principe,Export,0,W00,World,1208347.492
+M,2021-03-01,2021,3,688,SRB,Serbia,Export,0,W00,World,2261112019
+M,2021-03-01,2021,3,690,SYC,Seychelles,Export,0,W00,World,279424563.743
+M,2021-03-01,2021,3,699,IND,India,Export,0,W00,World,34710793904.463
+M,2021-03-01,2021,3,702,SGP,Singapore,Export,0,W00,World,41302741939.388
+M,2021-03-01,2021,3,703,SVK,Slovakia,Export,0,W00,World,10083418529.194
+M,2021-03-01,2021,3,704,VNM,Viet Nam,Export,0,W00,World,29653914695
+M,2021-03-01,2021,3,705,SVN,Slovenia,Export,0,W00,World,4187451549.254
+M,2021-03-01,2021,3,710,ZAF,South Africa,Export,0,W00,World,11132118158.641
+M,2021-03-01,2021,3,724,ESP,Spain,Export,0,W00,World,36404671961.256
+M,2021-03-01,2021,3,752,SWE,Sweden,Export,0,W00,World,16841554876.797
+M,2021-03-01,2021,3,757,CHE,Switzerland,Export,0,W00,World,35247839960.656
+M,2021-03-01,2021,3,768,TGO,Togo,Export,0,W00,World,79154858.83
+M,2021-03-01,2021,3,780,TTO,Trinidad and Tobago,Export,0,W00,World,535403046.228
+M,2021-03-01,2021,3,788,TUN,Tunisia,Export,0,W00,World,1561001883.133
+M,2021-03-01,2021,3,792,TUR,Türkiye,Export,0,W00,World,18955706115
+M,2021-03-01,2021,3,804,UKR,Ukraine,Export,0,W00,World,5231255170.32
+M,2021-03-01,2021,3,807,MKD,North Macedonia,Export,0,W00,World,701427708.93
+M,2021-03-01,2021,3,818,EGY,Egypt,Export,0,W00,World,3430289300.038
+M,2021-03-01,2021,3,826,GBR,United Kingdom,Export,0,W00,World,48457910709.369
+M,2021-03-01,2021,3,834,TZA,United Rep. of Tanzania,Export,0,W00,World,546564478.23
+M,2021-03-01,2021,3,842,USA,USA,Export,0,W00,World,151488961267
+M,2021-03-01,2021,3,854,BFA,Burkina Faso,Export,0,W00,World,494438128.854
+M,2021-03-01,2021,3,860,UZB,Uzbekistan,Export,0,W00,World,736980034.67
+M,2021-03-01,2021,3,882,WSM,Samoa,Export,0,W00,World,3579979.845
+M,2021-04-01,2021,4,31,AZE,Azerbaijan,Export,0,W00,World,2226287522.3
+M,2021-04-01,2021,4,32,ARG,Argentina,Export,0,W00,World,6142998699.95
+M,2021-04-01,2021,4,36,AUS,Australia,Export,0,W00,World,27221581162.757
+M,2021-04-01,2021,4,51,ARM,Armenia,Export,0,W00,World,240598668.71
+M,2021-04-01,2021,4,52,BRB,Barbados,Export,0,W00,World,26894351.5
+M,2021-04-01,2021,4,56,BEL,Belgium,Export,0,W00,World,31201625277.249
+M,2021-04-01,2021,4,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,865642273.32
+M,2021-04-01,2021,4,70,BIH,Bosnia Herzegovina,Export,0,W00,World,679788333.39
+M,2021-04-01,2021,4,72,BWA,Botswana,Export,0,W00,World,470926358.926
+M,2021-04-01,2021,4,76,BRA,Brazil,Export,0,W00,World,26059431856
+M,2021-04-01,2021,4,84,BLZ,Belize,Export,0,W00,World,29331422.855
+M,2021-04-01,2021,4,100,BGR,Bulgaria,Export,0,W00,World,3598748159.79
+M,2021-04-01,2021,4,104,MMR,Myanmar,Export,0,W00,World,1112673504.69
+M,2021-04-01,2021,4,112,BLR,Belarus,Export,0,W00,World,3185359100
+M,2021-04-01,2021,4,124,CAN,Canada,Export,0,W00,World,38901441455.325
+M,2021-04-01,2021,4,152,CHL,Chile,Export,0,W00,World,8364119462.065
+M,2021-04-01,2021,4,156,CHN,China,Export,0,W00,World,263388825594
+M,2021-04-01,2021,4,170,COL,Colombia,Export,0,W00,World,2976372344.03
+M,2021-04-01,2021,4,191,HRV,Croatia,Export,0,W00,World,1838339748
+M,2021-04-01,2021,4,196,CYP,Cyprus,Export,0,W00,World,293448011.681
+M,2021-04-01,2021,4,203,CZE,Czechia,Export,0,W00,World,19751473008
+M,2021-04-01,2021,4,204,BEN,Benin,Export,0,W00,World,81518605.586
+M,2021-04-01,2021,4,208,DNK,Denmark,Export,0,W00,World,9961413026.991
+M,2021-04-01,2021,4,214,DOM,Dominican Rep.,Export,0,W00,World,989677705.347
+M,2021-04-01,2021,4,218,ECU,Ecuador,Export,0,W00,World,2231056845.048
+M,2021-04-01,2021,4,222,SLV,El Salvador,Export,0,W00,World,512478614.96
+M,2021-04-01,2021,4,233,EST,Estonia,Export,0,W00,World,1949575797.653
+M,2021-04-01,2021,4,242,FJI,Fiji,Export,0,W00,World,55058810.987
+M,2021-04-01,2021,4,246,FIN,Finland,Export,0,W00,World,6409310844.604
+M,2021-04-01,2021,4,268,GEO,Georgia,Export,0,W00,World,377689459.13
+M,2021-04-01,2021,4,275,PSE,State of Palestine,Export,0,W00,World,106766195.65
+M,2021-04-01,2021,4,276,DEU,Germany,Export,0,W00,World,135470506310.07
+M,2021-04-01,2021,4,300,GRC,Greece,Export,0,W00,World,3817364503.283
+M,2021-04-01,2021,4,308,GRD,Grenada,Export,0,W00,World,2333344.261
+M,2021-04-01,2021,4,320,GTM,Guatemala,Export,0,W00,World,1038891108
+M,2021-04-01,2021,4,328,GUY,Guyana,Export,0,W00,World,315872476.748
+M,2021-04-01,2021,4,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,53184685113.081
+M,2021-04-01,2021,4,348,HUN,Hungary,Export,0,W00,World,11764568100
+M,2021-04-01,2021,4,352,ISL,Iceland,Export,0,W00,World,488367693.763
+M,2021-04-01,2021,4,360,IDN,Indonesia,Export,0,W00,World,18490725416.507
+M,2021-04-01,2021,4,372,IRL,Ireland,Export,0,W00,World,14721196035.544
+M,2021-04-01,2021,4,376,ISR,Israel,Export,0,W00,World,4614069000
+M,2021-04-01,2021,4,380,ITA,Italy,Export,0,W00,World,52686297453.138
+M,2021-04-01,2021,4,392,JPN,Japan,Export,0,W00,World,65792796227.129
+M,2021-04-01,2021,4,404,KEN,Kenya,Export,0,W00,World,544947285.506
+M,2021-04-01,2021,4,414,KWT,Kuwait,Export,0,W00,World,4674868419
+M,2021-04-01,2021,4,417,KGZ,Kyrgyzstan,Export,0,W00,World,163811340
+M,2021-04-01,2021,4,426,LSO,Lesotho,Export,0,W00,World,74199670.83
+M,2021-04-01,2021,4,428,LVA,Latvia,Export,0,W00,World,1492323002.456
+M,2021-04-01,2021,4,440,LTU,Lithuania,Export,0,W00,World,3195307082.98
+M,2021-04-01,2021,4,442,LUX,Luxembourg,Export,0,W00,World,1357406092.241
+M,2021-04-01,2021,4,446,MAC,"China, Macao SAR",Export,0,W00,World,107539788.275
+M,2021-04-01,2021,4,450,MDG,Madagascar,Export,0,W00,World,210885860.221
+M,2021-04-01,2021,4,458,MYS,Malaysia,Export,0,W00,World,25602930901.718
+M,2021-04-01,2021,4,480,MUS,Mauritius,Export,0,W00,World,121698423.05
+M,2021-04-01,2021,4,484,MEX,Mexico,Export,0,W00,World,40772789633
+M,2021-04-01,2021,4,496,MNG,Mongolia,Export,0,W00,World,496191726.98
+M,2021-04-01,2021,4,498,MDA,Rep. of Moldova,Export,0,W00,World,218235170
+M,2021-04-01,2021,4,499,MNE,Montenegro,Export,0,W00,World,48857488.769
+M,2021-04-01,2021,4,504,MAR,Morocco,Export,0,W00,World,2911216211.212
+M,2021-04-01,2021,4,528,NLD,Netherlands,Export,0,W00,World,55707033717.98
+M,2021-04-01,2021,4,554,NZL,New Zealand,Export,0,W00,World,3822296299.823
+M,2021-04-01,2021,4,558,NIC,Nicaragua,Export,0,W00,World,517088108.74
+M,2021-04-01,2021,4,566,NGA,Nigeria,Export,0,W00,World,4335660181.513
+M,2021-04-01,2021,4,579,NOR,Norway,Export,0,W00,World,10199190538.199
+M,2021-04-01,2021,4,586,PAK,Pakistan,Export,0,W00,World,2221420214.363
+M,2021-04-01,2021,4,591,PAN,Panama,Export,0,W00,World,279642439
+M,2021-04-01,2021,4,600,PRY,Paraguay,Export,0,W00,World,936743295
+M,2021-04-01,2021,4,608,PHL,Philippines,Export,0,W00,World,5780455446
+M,2021-04-01,2021,4,616,POL,Poland,Export,0,W00,World,27502558078
+M,2021-04-01,2021,4,620,PRT,Portugal,Export,0,W00,World,6398203373.867
+M,2021-04-01,2021,4,634,QAT,Qatar,Export,0,W00,World,5756228169.092
+M,2021-04-01,2021,4,642,ROU,Romania,Export,0,W00,World,7430766160.84
+M,2021-04-01,2021,4,643,RUS,Russian Federation,Export,0,W00,World,36905067466.64
+M,2021-04-01,2021,4,646,RWA,Rwanda,Export,0,W00,World,108305663.15
+M,2021-04-01,2021,4,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,2070771.803
+M,2021-04-01,2021,4,678,STP,Sao Tome and Principe,Export,0,W00,World,1671750.984
+M,2021-04-01,2021,4,688,SRB,Serbia,Export,0,W00,World,2100521668
+M,2021-04-01,2021,4,699,IND,India,Export,0,W00,World,30728799053.8
+M,2021-04-01,2021,4,702,SGP,Singapore,Export,0,W00,World,37913591483.138
+M,2021-04-01,2021,4,703,SVK,Slovakia,Export,0,W00,World,8715175289.343
+M,2021-04-01,2021,4,704,VNM,Viet Nam,Export,0,W00,World,26549697511
+M,2021-04-01,2021,4,705,SVN,Slovenia,Export,0,W00,World,3858762805.432
+M,2021-04-01,2021,4,710,ZAF,South Africa,Export,0,W00,World,10909426134.748
+M,2021-04-01,2021,4,724,ESP,Spain,Export,0,W00,World,32116127662.382
+M,2021-04-01,2021,4,752,SWE,Sweden,Export,0,W00,World,15501702568.376
+M,2021-04-01,2021,4,757,CHE,Switzerland,Export,0,W00,World,31445833746.942
+M,2021-04-01,2021,4,768,TGO,Togo,Export,0,W00,World,97546885.679
+M,2021-04-01,2021,4,780,TTO,Trinidad and Tobago,Export,0,W00,World,722610362.868
+M,2021-04-01,2021,4,788,TUN,Tunisia,Export,0,W00,World,1458178938.89
+M,2021-04-01,2021,4,792,TUR,Türkiye,Export,0,W00,World,18756865083
+M,2021-04-01,2021,4,804,UKR,Ukraine,Export,0,W00,World,5362334374.44
+M,2021-04-01,2021,4,807,MKD,North Macedonia,Export,0,W00,World,736830045.36
+M,2021-04-01,2021,4,818,EGY,Egypt,Export,0,W00,World,2915646561.545
+M,2021-04-01,2021,4,826,GBR,United Kingdom,Export,0,W00,World,37888521380.355
+M,2021-04-01,2021,4,834,TZA,United Rep. of Tanzania,Export,0,W00,World,425373663.27
+M,2021-04-01,2021,4,842,USA,USA,Export,0,W00,World,144342213766
+M,2021-04-01,2021,4,854,BFA,Burkina Faso,Export,0,W00,World,413792878.013
+M,2021-04-01,2021,4,860,UZB,Uzbekistan,Export,0,W00,World,900834897.53
+M,2021-04-01,2021,4,882,WSM,Samoa,Export,0,W00,World,1648139.06
+M,2021-05-01,2021,5,31,AZE,Azerbaijan,Export,0,W00,World,1062896111.38
+M,2021-05-01,2021,5,32,ARG,Argentina,Export,0,W00,World,6812691211.24
+M,2021-05-01,2021,5,36,AUS,Australia,Export,0,W00,World,29766590771.045
+M,2021-05-01,2021,5,51,ARM,Armenia,Export,0,W00,World,261063112.4
+M,2021-05-01,2021,5,52,BRB,Barbados,Export,0,W00,World,52168477
+M,2021-05-01,2021,5,56,BEL,Belgium,Export,0,W00,World,31088737987.174
+M,2021-05-01,2021,5,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,949165490.55
+M,2021-05-01,2021,5,70,BIH,Bosnia Herzegovina,Export,0,W00,World,654524482.28
+M,2021-05-01,2021,5,72,BWA,Botswana,Export,0,W00,World,465917795.808
+M,2021-05-01,2021,5,76,BRA,Brazil,Export,0,W00,World,26200662606
+M,2021-05-01,2021,5,84,BLZ,Belize,Export,0,W00,World,26793114.45
+M,2021-05-01,2021,5,100,BGR,Bulgaria,Export,0,W00,World,3200448993.655
+M,2021-05-01,2021,5,104,MMR,Myanmar,Export,0,W00,World,1120753833.397
+M,2021-05-01,2021,5,112,BLR,Belarus,Export,0,W00,World,3085265800
+M,2021-05-01,2021,5,124,CAN,Canada,Export,0,W00,World,40852214830.944
+M,2021-05-01,2021,5,152,CHL,Chile,Export,0,W00,World,7789851244.121
+M,2021-05-01,2021,5,156,CHN,China,Export,0,W00,World,263499100643
+M,2021-05-01,2021,5,170,COL,Colombia,Export,0,W00,World,3096913278.01
+M,2021-05-01,2021,5,191,HRV,Croatia,Export,0,W00,World,1855344148
+M,2021-05-01,2021,5,196,CYP,Cyprus,Export,0,W00,World,276649546.28
+M,2021-05-01,2021,5,203,CZE,Czechia,Export,0,W00,World,19158932828
+M,2021-05-01,2021,5,204,BEN,Benin,Export,0,W00,World,106141433.536
+M,2021-05-01,2021,5,208,DNK,Denmark,Export,0,W00,World,10686441826.807
+M,2021-05-01,2021,5,214,DOM,Dominican Rep.,Export,0,W00,World,1023031669.49
+M,2021-05-01,2021,5,218,ECU,Ecuador,Export,0,W00,World,2220923688.708
+M,2021-05-01,2021,5,222,SLV,El Salvador,Export,0,W00,World,532519640
+M,2021-05-01,2021,5,233,EST,Estonia,Export,0,W00,World,1809940920.22
+M,2021-05-01,2021,5,242,FJI,Fiji,Export,0,W00,World,76043324.518
+M,2021-05-01,2021,5,246,FIN,Finland,Export,0,W00,World,6443840600.789
+M,2021-05-01,2021,5,268,GEO,Georgia,Export,0,W00,World,340007510.31
+M,2021-05-01,2021,5,275,PSE,State of Palestine,Export,0,W00,World,90972781.64
+M,2021-05-01,2021,5,276,DEU,Germany,Export,0,W00,World,133565614247.105
+M,2021-05-01,2021,5,300,GRC,Greece,Export,0,W00,World,3930089644.201
+M,2021-05-01,2021,5,308,GRD,Grenada,Export,0,W00,World,3250655.923
+M,2021-05-01,2021,5,320,GTM,Guatemala,Export,0,W00,World,1090034378
+M,2021-05-01,2021,5,328,GUY,Guyana,Export,0,W00,World,236007777.166
+M,2021-05-01,2021,5,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,52884580077.587
+M,2021-05-01,2021,5,348,HUN,Hungary,Export,0,W00,World,11486967717
+M,2021-05-01,2021,5,352,ISL,Iceland,Export,0,W00,World,503729328.164
+M,2021-05-01,2021,5,360,IDN,Indonesia,Export,0,W00,World,16932924188.722
+M,2021-05-01,2021,5,372,IRL,Ireland,Export,0,W00,World,16454888730.829
+M,2021-05-01,2021,5,376,ISR,Israel,Export,0,W00,World,4920564000
+M,2021-05-01,2021,5,380,ITA,Italy,Export,0,W00,World,53382949280.294
+M,2021-05-01,2021,5,392,JPN,Japan,Export,0,W00,World,57378657534.028
+M,2021-05-01,2021,5,404,KEN,Kenya,Export,0,W00,World,587740022.815
+M,2021-05-01,2021,5,414,KWT,Kuwait,Export,0,W00,World,5613589734
+M,2021-05-01,2021,5,417,KGZ,Kyrgyzstan,Export,0,W00,World,228292420
+M,2021-05-01,2021,5,426,LSO,Lesotho,Export,0,W00,World,69507340.043
+M,2021-05-01,2021,5,428,LVA,Latvia,Export,0,W00,World,1515827946.48
+M,2021-05-01,2021,5,440,LTU,Lithuania,Export,0,W00,World,3318201860.96
+M,2021-05-01,2021,5,442,LUX,Luxembourg,Export,0,W00,World,1324173530.837
+M,2021-05-01,2021,5,446,MAC,"China, Macao SAR",Export,0,W00,World,94851726.382
+M,2021-05-01,2021,5,450,MDG,Madagascar,Export,0,W00,World,265073912.467
+M,2021-05-01,2021,5,458,MYS,Malaysia,Export,0,W00,World,22365274011.405
+M,2021-05-01,2021,5,480,MUS,Mauritius,Export,0,W00,World,138637452.908
+M,2021-05-01,2021,5,484,MEX,Mexico,Export,0,W00,World,40798330978
+M,2021-05-01,2021,5,496,MNG,Mongolia,Export,0,W00,World,825130451.15
+M,2021-05-01,2021,5,498,MDA,Rep. of Moldova,Export,0,W00,World,201697034
+M,2021-05-01,2021,5,499,MNE,Montenegro,Export,0,W00,World,37289849.008
+M,2021-05-01,2021,5,504,MAR,Morocco,Export,0,W00,World,2459721800.676
+M,2021-05-01,2021,5,528,NLD,Netherlands,Export,0,W00,World,55989048589.222
+M,2021-05-01,2021,5,554,NZL,New Zealand,Export,0,W00,World,4234706972.004
+M,2021-05-01,2021,5,558,NIC,Nicaragua,Export,0,W00,World,536891109.62
+M,2021-05-01,2021,5,566,NGA,Nigeria,Export,0,W00,World,3843745162.706
+M,2021-05-01,2021,5,579,NOR,Norway,Export,0,W00,World,10943139106.025
+M,2021-05-01,2021,5,586,PAK,Pakistan,Export,0,W00,World,1670818598.782
+M,2021-05-01,2021,5,591,PAN,Panama,Export,0,W00,World,158647591
+M,2021-05-01,2021,5,600,PRY,Paraguay,Export,0,W00,World,1001751160
+M,2021-05-01,2021,5,608,PHL,Philippines,Export,0,W00,World,5941446957
+M,2021-05-01,2021,5,616,POL,Poland,Export,0,W00,World,27056483764
+M,2021-05-01,2021,5,620,PRT,Portugal,Export,0,W00,World,6450001060.739
+M,2021-05-01,2021,5,634,QAT,Qatar,Export,0,W00,World,6776278476.017
+M,2021-05-01,2021,5,642,ROU,Romania,Export,0,W00,World,7203546206.95
+M,2021-05-01,2021,5,643,RUS,Russian Federation,Export,0,W00,World,35256484352.28
+M,2021-05-01,2021,5,646,RWA,Rwanda,Export,0,W00,World,107914395.67
+M,2021-05-01,2021,5,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,2747496.323
+M,2021-05-01,2021,5,678,STP,Sao Tome and Principe,Export,0,W00,World,1720700.057
+M,2021-05-01,2021,5,688,SRB,Serbia,Export,0,W00,World,2013501220
+M,2021-05-01,2021,5,690,SYC,Seychelles,Export,0,W00,World,148002677.536
+M,2021-05-01,2021,5,699,IND,India,Export,0,W00,World,32239847213.599
+M,2021-05-01,2021,5,702,SGP,Singapore,Export,0,W00,World,35597402552.886
+M,2021-05-01,2021,5,703,SVK,Slovakia,Export,0,W00,World,8450048464.776
+M,2021-05-01,2021,5,704,VNM,Viet Nam,Export,0,W00,World,26192899032
+M,2021-05-01,2021,5,705,SVN,Slovenia,Export,0,W00,World,3864945769.326
+M,2021-05-01,2021,5,710,ZAF,South Africa,Export,0,W00,World,11370884774.315
+M,2021-05-01,2021,5,724,ESP,Spain,Export,0,W00,World,32976596823.242
+M,2021-05-01,2021,5,752,SWE,Sweden,Export,0,W00,World,15996267622.186
+M,2021-05-01,2021,5,757,CHE,Switzerland,Export,0,W00,World,29125006624.752
+M,2021-05-01,2021,5,768,TGO,Togo,Export,0,W00,World,89905421.694
+M,2021-05-01,2021,5,780,TTO,Trinidad and Tobago,Export,0,W00,World,524422458.001
+M,2021-05-01,2021,5,788,TUN,Tunisia,Export,0,W00,World,1242339954.738
+M,2021-05-01,2021,5,792,TUR,Türkiye,Export,0,W00,World,16468343399
+M,2021-05-01,2021,5,804,UKR,Ukraine,Export,0,W00,World,5547501968.23
+M,2021-05-01,2021,5,807,MKD,North Macedonia,Export,0,W00,World,664399530.028
+M,2021-05-01,2021,5,818,EGY,Egypt,Export,0,W00,World,3137973188.198
+M,2021-05-01,2021,5,826,GBR,United Kingdom,Export,0,W00,World,38334171411.729
+M,2021-05-01,2021,5,834,TZA,United Rep. of Tanzania,Export,0,W00,World,483810507.296
+M,2021-05-01,2021,5,842,USA,USA,Export,0,W00,World,144663069020
+M,2021-05-01,2021,5,854,BFA,Burkina Faso,Export,0,W00,World,369789694.494
+M,2021-05-01,2021,5,860,UZB,Uzbekistan,Export,0,W00,World,2026518670.48
+M,2021-05-01,2021,5,882,WSM,Samoa,Export,0,W00,World,3290853.487
+M,2021-06-01,2021,6,31,AZE,Azerbaijan,Export,0,W00,World,1383868348.82
+M,2021-06-01,2021,6,36,AUS,Australia,Export,0,W00,World,31456495682.292
+M,2021-06-01,2021,6,51,ARM,Armenia,Export,0,W00,World,280165837.98
+M,2021-06-01,2021,6,52,BRB,Barbados,Export,0,W00,World,51549240
+M,2021-06-01,2021,6,56,BEL,Belgium,Export,0,W00,World,34612742246.949
+M,2021-06-01,2021,6,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,929190758.94
+M,2021-06-01,2021,6,70,BIH,Bosnia Herzegovina,Export,0,W00,World,774523322.596
+M,2021-06-01,2021,6,72,BWA,Botswana,Export,0,W00,World,685847978.084
+M,2021-06-01,2021,6,76,BRA,Brazil,Export,0,W00,World,28257895138
+M,2021-06-01,2021,6,84,BLZ,Belize,Export,0,W00,World,18716952.37
+M,2021-06-01,2021,6,100,BGR,Bulgaria,Export,0,W00,World,3510582270.403
+M,2021-06-01,2021,6,104,MMR,Myanmar,Export,0,W00,World,1382126428.105
+M,2021-06-01,2021,6,112,BLR,Belarus,Export,0,W00,World,3155096300
+M,2021-06-01,2021,6,124,CAN,Canada,Export,0,W00,World,44991254292.007
+M,2021-06-01,2021,6,152,CHL,Chile,Export,0,W00,World,7634674012.758
+M,2021-06-01,2021,6,156,CHN,China,Export,0,W00,World,280942507509
+M,2021-06-01,2021,6,170,COL,Colombia,Export,0,W00,World,3182215708.28
+M,2021-06-01,2021,6,191,HRV,Croatia,Export,0,W00,World,1972975675
+M,2021-06-01,2021,6,196,CYP,Cyprus,Export,0,W00,World,378462812.115
+M,2021-06-01,2021,6,203,CZE,Czechia,Export,0,W00,World,19917444262
+M,2021-06-01,2021,6,204,BEN,Benin,Export,0,W00,World,108858079.271
+M,2021-06-01,2021,6,208,DNK,Denmark,Export,0,W00,World,11475350679.06
+M,2021-06-01,2021,6,214,DOM,Dominican Rep.,Export,0,W00,World,996432936.18
+M,2021-06-01,2021,6,218,ECU,Ecuador,Export,0,W00,World,2272930098.744
+M,2021-06-01,2021,6,222,SLV,El Salvador,Export,0,W00,World,539002019.12
+M,2021-06-01,2021,6,233,EST,Estonia,Export,0,W00,World,1814779227.135
+M,2021-06-01,2021,6,242,FJI,Fiji,Export,0,W00,World,66003656.235
+M,2021-06-01,2021,6,246,FIN,Finland,Export,0,W00,World,6867600879.718
+M,2021-06-01,2021,6,268,GEO,Georgia,Export,0,W00,World,350654805.01
+M,2021-06-01,2021,6,275,PSE,State of Palestine,Export,0,W00,World,113439665.8
+M,2021-06-01,2021,6,276,DEU,Germany,Export,0,W00,World,143980371605.862
+M,2021-06-01,2021,6,300,GRC,Greece,Export,0,W00,World,4081955339.766
+M,2021-06-01,2021,6,308,GRD,Grenada,Export,0,W00,World,5570415.26
+M,2021-06-01,2021,6,320,GTM,Guatemala,Export,0,W00,World,1131352240
+M,2021-06-01,2021,6,328,GUY,Guyana,Export,0,W00,World,303799804.297
+M,2021-06-01,2021,6,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,55828767314.675
+M,2021-06-01,2021,6,348,HUN,Hungary,Export,0,W00,World,12700384634
+M,2021-06-01,2021,6,352,ISL,Iceland,Export,0,W00,World,482174923.422
+M,2021-06-01,2021,6,360,IDN,Indonesia,Export,0,W00,World,18542417973.379
+M,2021-06-01,2021,6,372,IRL,Ireland,Export,0,W00,World,17768721608.807
+M,2021-06-01,2021,6,376,ISR,Israel,Export,0,W00,World,5052494000
+M,2021-06-01,2021,6,380,ITA,Italy,Export,0,W00,World,54867889121.538
+M,2021-06-01,2021,6,392,JPN,Japan,Export,0,W00,World,65607338381.675
+M,2021-06-01,2021,6,404,KEN,Kenya,Export,0,W00,World,526016613.895
+M,2021-06-01,2021,6,414,KWT,Kuwait,Export,0,W00,World,6220192564
+M,2021-06-01,2021,6,417,KGZ,Kyrgyzstan,Export,0,W00,World,99617029
+M,2021-06-01,2021,6,426,LSO,Lesotho,Export,0,W00,World,72344532.273
+M,2021-06-01,2021,6,428,LVA,Latvia,Export,0,W00,World,1545378134.775
+M,2021-06-01,2021,6,440,LTU,Lithuania,Export,0,W00,World,3408087768.99
+M,2021-06-01,2021,6,442,LUX,Luxembourg,Export,0,W00,World,1473574612.249
+M,2021-06-01,2021,6,446,MAC,"China, Macao SAR",Export,0,W00,World,118205854.67
+M,2021-06-01,2021,6,450,MDG,Madagascar,Export,0,W00,World,240312905.901
+M,2021-06-01,2021,6,458,MYS,Malaysia,Export,0,W00,World,25511993984.73
+M,2021-06-01,2021,6,480,MUS,Mauritius,Export,0,W00,World,147973864.61
+M,2021-06-01,2021,6,484,MEX,Mexico,Export,0,W00,World,42668354692
+M,2021-06-01,2021,6,496,MNG,Mongolia,Export,0,W00,World,751645774.84
+M,2021-06-01,2021,6,498,MDA,Rep. of Moldova,Export,0,W00,World,226810807
+M,2021-06-01,2021,6,499,MNE,Montenegro,Export,0,W00,World,43289876.206
+M,2021-06-01,2021,6,504,MAR,Morocco,Export,0,W00,World,3044461748.109
+M,2021-06-01,2021,6,528,NLD,Netherlands,Export,0,W00,World,60719642879.417
+M,2021-06-01,2021,6,554,NZL,New Zealand,Export,0,W00,World,4233357171.489
+M,2021-06-01,2021,6,558,NIC,Nicaragua,Export,0,W00,World,573429591.14
+M,2021-06-01,2021,6,566,NGA,Nigeria,Export,0,W00,World,4368779420.042
+M,2021-06-01,2021,6,579,NOR,Norway,Export,0,W00,World,11789437662.158
+M,2021-06-01,2021,6,586,PAK,Pakistan,Export,0,W00,World,3001848134.273
+M,2021-06-01,2021,6,591,PAN,Panama,Export,0,W00,World,420338069
+M,2021-06-01,2021,6,600,PRY,Paraguay,Export,0,W00,World,1064101738
+M,2021-06-01,2021,6,608,PHL,Philippines,Export,0,W00,World,6575947102
+M,2021-06-01,2021,6,616,POL,Poland,Export,0,W00,World,28922344747
+M,2021-06-01,2021,6,620,PRT,Portugal,Export,0,W00,World,6196298789.106
+M,2021-06-01,2021,6,634,QAT,Qatar,Export,0,W00,World,6942749366.142
+M,2021-06-01,2021,6,642,ROU,Romania,Export,0,W00,World,7553009478.19
+M,2021-06-01,2021,6,643,RUS,Russian Federation,Export,0,W00,World,43167788914.945
+M,2021-06-01,2021,6,646,RWA,Rwanda,Export,0,W00,World,138761907.84
+M,2021-06-01,2021,6,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,3118002.049
+M,2021-06-01,2021,6,678,STP,Sao Tome and Principe,Export,0,W00,World,1225748.663
+M,2021-06-01,2021,6,688,SRB,Serbia,Export,0,W00,World,2189219165
+M,2021-06-01,2021,6,690,SYC,Seychelles,Export,0,W00,World,42762763.113
+M,2021-06-01,2021,6,699,IND,India,Export,0,W00,World,32507870904.42
+M,2021-06-01,2021,6,702,SGP,Singapore,Export,0,W00,World,37223554321.849
+M,2021-06-01,2021,6,703,SVK,Slovakia,Export,0,W00,World,9299649203.135
+M,2021-06-01,2021,6,704,VNM,Viet Nam,Export,0,W00,World,27204325441
+M,2021-06-01,2021,6,705,SVN,Slovenia,Export,0,W00,World,4048420743.804
+M,2021-06-01,2021,6,710,ZAF,South Africa,Export,0,W00,World,11248002860.721
+M,2021-06-01,2021,6,724,ESP,Spain,Export,0,W00,World,35787320364.175
+M,2021-06-01,2021,6,752,SWE,Sweden,Export,0,W00,World,17151694259.7
+M,2021-06-01,2021,6,757,CHE,Switzerland,Export,0,W00,World,33502731666.029
+M,2021-06-01,2021,6,768,TGO,Togo,Export,0,W00,World,84644254.645
+M,2021-06-01,2021,6,780,TTO,Trinidad and Tobago,Export,0,W00,World,880922947.719
+M,2021-06-01,2021,6,788,TUN,Tunisia,Export,0,W00,World,1509655107.712
+M,2021-06-01,2021,6,792,TUR,Türkiye,Export,0,W00,World,19740427009
+M,2021-06-01,2021,6,804,UKR,Ukraine,Export,0,W00,World,5318391963.43
+M,2021-06-01,2021,6,807,MKD,North Macedonia,Export,0,W00,World,703983966.66
+M,2021-06-01,2021,6,818,EGY,Egypt,Export,0,W00,World,3644161461.983
+M,2021-06-01,2021,6,826,GBR,United Kingdom,Export,0,W00,World,38301735770.05
+M,2021-06-01,2021,6,834,TZA,United Rep. of Tanzania,Export,0,W00,World,536447452.61
+M,2021-06-01,2021,6,842,USA,USA,Export,0,W00,World,147636975885
+M,2021-06-01,2021,6,854,BFA,Burkina Faso,Export,0,W00,World,518242958.887
+M,2021-06-01,2021,6,860,UZB,Uzbekistan,Export,0,W00,World,1064413467.97
+M,2021-06-01,2021,6,882,WSM,Samoa,Export,0,W00,World,2353168.719
+M,2021-07-01,2021,7,31,AZE,Azerbaijan,Export,0,W00,World,2584509490.32
+M,2021-07-01,2021,7,32,ARG,Argentina,Export,0,W00,World,7251906933.18
+M,2021-07-01,2021,7,36,AUS,Australia,Export,0,W00,World,31102554204.174
+M,2021-07-01,2021,7,51,ARM,Armenia,Export,0,W00,World,252817822.71
+M,2021-07-01,2021,7,52,BRB,Barbados,Export,0,W00,World,24676888.5
+M,2021-07-01,2021,7,56,BEL,Belgium,Export,0,W00,World,32004033848.767
+M,2021-07-01,2021,7,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,1007047624.15
+M,2021-07-01,2021,7,70,BIH,Bosnia Herzegovina,Export,0,W00,World,711379180.59
+M,2021-07-01,2021,7,72,BWA,Botswana,Export,0,W00,World,725215401.91
+M,2021-07-01,2021,7,76,BRA,Brazil,Export,0,W00,World,25508595503
+M,2021-07-01,2021,7,84,BLZ,Belize,Export,0,W00,World,18474645.67
+M,2021-07-01,2021,7,100,BGR,Bulgaria,Export,0,W00,World,3513992871.05
+M,2021-07-01,2021,7,104,MMR,Myanmar,Export,0,W00,World,1048255920.031
+M,2021-07-01,2021,7,112,BLR,Belarus,Export,0,W00,World,3270632500
+M,2021-07-01,2021,7,124,CAN,Canada,Export,0,W00,World,40800766838.849
+M,2021-07-01,2021,7,152,CHL,Chile,Export,0,W00,World,7937277675.864
+M,2021-07-01,2021,7,156,CHN,China,Export,0,W00,World,282150911588
+M,2021-07-01,2021,7,170,COL,Colombia,Export,0,W00,World,3444157909.18
+M,2021-07-01,2021,7,191,HRV,Croatia,Export,0,W00,World,1871888567
+M,2021-07-01,2021,7,196,CYP,Cyprus,Export,0,W00,World,417367095.95
+M,2021-07-01,2021,7,203,CZE,Czechia,Export,0,W00,World,17078544272
+M,2021-07-01,2021,7,204,BEN,Benin,Export,0,W00,World,102672139.33
+M,2021-07-01,2021,7,208,DNK,Denmark,Export,0,W00,World,10133616650.793
+M,2021-07-01,2021,7,214,DOM,Dominican Rep.,Export,0,W00,World,973586640.482
+M,2021-07-01,2021,7,218,ECU,Ecuador,Export,0,W00,World,2277117298.117
+M,2021-07-01,2021,7,222,SLV,El Salvador,Export,0,W00,World,582268937.52
+M,2021-07-01,2021,7,233,EST,Estonia,Export,0,W00,World,1809103311.393
+M,2021-07-01,2021,7,242,FJI,Fiji,Export,0,W00,World,49304582.758
+M,2021-07-01,2021,7,246,FIN,Finland,Export,0,W00,World,6557669382.933
+M,2021-07-01,2021,7,268,GEO,Georgia,Export,0,W00,World,386363289.08
+M,2021-07-01,2021,7,275,PSE,State of Palestine,Export,0,W00,World,99668561.33
+M,2021-07-01,2021,7,276,DEU,Germany,Export,0,W00,World,137045461137.141
+M,2021-07-01,2021,7,300,GRC,Greece,Export,0,W00,World,4198313272.572
+M,2021-07-01,2021,7,308,GRD,Grenada,Export,0,W00,World,2774690.222
+M,2021-07-01,2021,7,320,GTM,Guatemala,Export,0,W00,World,1198120818
+M,2021-07-01,2021,7,328,GUY,Guyana,Export,0,W00,World,439859579.348
+M,2021-07-01,2021,7,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,56066128706.641
+M,2021-07-01,2021,7,348,HUN,Hungary,Export,0,W00,World,11347837831
+M,2021-07-01,2021,7,352,ISL,Iceland,Export,0,W00,World,545099222.279
+M,2021-07-01,2021,7,360,IDN,Indonesia,Export,0,W00,World,19385790014.906
+M,2021-07-01,2021,7,372,IRL,Ireland,Export,0,W00,World,15607721884.748
+M,2021-07-01,2021,7,376,ISR,Israel,Export,0,W00,World,4967022000
+M,2021-07-01,2021,7,380,ITA,Italy,Export,0,W00,World,58643184929.797
+M,2021-07-01,2021,7,392,JPN,Japan,Export,0,W00,World,66759894642.412
+M,2021-07-01,2021,7,404,KEN,Kenya,Export,0,W00,World,548020686.315
+M,2021-07-01,2021,7,414,KWT,Kuwait,Export,0,W00,World,4648710018
+M,2021-07-01,2021,7,417,KGZ,Kyrgyzstan,Export,0,W00,World,100473419
+M,2021-07-01,2021,7,426,LSO,Lesotho,Export,0,W00,World,75262232.949
+M,2021-07-01,2021,7,428,LVA,Latvia,Export,0,W00,World,1570213825.343
+M,2021-07-01,2021,7,440,LTU,Lithuania,Export,0,W00,World,3234034413
+M,2021-07-01,2021,7,442,LUX,Luxembourg,Export,0,W00,World,1415777958.789
+M,2021-07-01,2021,7,446,MAC,"China, Macao SAR",Export,0,W00,World,100837184.448
+M,2021-07-01,2021,7,450,MDG,Madagascar,Export,0,W00,World,200151388.943
+M,2021-07-01,2021,7,458,MYS,Malaysia,Export,0,W00,World,23179972877.91
+M,2021-07-01,2021,7,480,MUS,Mauritius,Export,0,W00,World,143493328.984
+M,2021-07-01,2021,7,484,MEX,Mexico,Export,0,W00,World,40887733850
+M,2021-07-01,2021,7,496,MNG,Mongolia,Export,0,W00,World,629556541.1
+M,2021-07-01,2021,7,498,MDA,Rep. of Moldova,Export,0,W00,World,240720917
+M,2021-07-01,2021,7,499,MNE,Montenegro,Export,0,W00,World,38562225.849
+M,2021-07-01,2021,7,504,MAR,Morocco,Export,0,W00,World,2526668245.951
+M,2021-07-01,2021,7,528,NLD,Netherlands,Export,0,W00,World,56315986235.108
+M,2021-07-01,2021,7,554,NZL,New Zealand,Export,0,W00,World,4017043860.98
+M,2021-07-01,2021,7,558,NIC,Nicaragua,Export,0,W00,World,595680142.62
+M,2021-07-01,2021,7,566,NGA,Nigeria,Export,0,W00,World,4089729440.117
+M,2021-07-01,2021,7,579,NOR,Norway,Export,0,W00,World,12262498671.781
+M,2021-07-01,2021,7,586,PAK,Pakistan,Export,0,W00,World,2339626297.949
+M,2021-07-01,2021,7,591,PAN,Panama,Export,0,W00,World,281047882
+M,2021-07-01,2021,7,600,PRY,Paraguay,Export,0,W00,World,1122758778
+M,2021-07-01,2021,7,608,PHL,Philippines,Export,0,W00,World,6485442777
+M,2021-07-01,2021,7,616,POL,Poland,Export,0,W00,World,27049980205
+M,2021-07-01,2021,7,620,PRT,Portugal,Export,0,W00,World,6595823955.875
+M,2021-07-01,2021,7,634,QAT,Qatar,Export,0,W00,World,7528160623.923
+M,2021-07-01,2021,7,642,ROU,Romania,Export,0,W00,World,7542875749.51
+M,2021-07-01,2021,7,643,RUS,Russian Federation,Export,0,W00,World,43387900099.652
+M,2021-07-01,2021,7,646,RWA,Rwanda,Export,0,W00,World,114427012.54
+M,2021-07-01,2021,7,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,2904521.306
+M,2021-07-01,2021,7,678,STP,Sao Tome and Principe,Export,0,W00,World,607527.293
+M,2021-07-01,2021,7,688,SRB,Serbia,Export,0,W00,World,2195921850
+M,2021-07-01,2021,7,690,SYC,Seychelles,Export,0,W00,World,45817692.284
+M,2021-07-01,2021,7,699,IND,India,Export,0,W00,World,35504929584.118
+M,2021-07-01,2021,7,702,SGP,Singapore,Export,0,W00,World,36796875144.351
+M,2021-07-01,2021,7,703,SVK,Slovakia,Export,0,W00,World,7962397343.039
+M,2021-07-01,2021,7,704,VNM,Viet Nam,Export,0,W00,World,27864617697
+M,2021-07-01,2021,7,705,SVN,Slovenia,Export,0,W00,World,4095603247.955
+M,2021-07-01,2021,7,710,ZAF,South Africa,Export,0,W00,World,9750184840.751
+M,2021-07-01,2021,7,724,ESP,Spain,Export,0,W00,World,33366860131.679
+M,2021-07-01,2021,7,752,SWE,Sweden,Export,0,W00,World,14749742070.333
+M,2021-07-01,2021,7,757,CHE,Switzerland,Export,0,W00,World,30915103835.568
+M,2021-07-01,2021,7,768,TGO,Togo,Export,0,W00,World,91324668.891
+M,2021-07-01,2021,7,780,TTO,Trinidad and Tobago,Export,0,W00,World,840199442.559
+M,2021-07-01,2021,7,788,TUN,Tunisia,Export,0,W00,World,1283602502.275
+M,2021-07-01,2021,7,792,TUR,Türkiye,Export,0,W00,World,16357698212
+M,2021-07-01,2021,7,804,UKR,Ukraine,Export,0,W00,World,5603335223.87
+M,2021-07-01,2021,7,807,MKD,North Macedonia,Export,0,W00,World,694043940.71
+M,2021-07-01,2021,7,818,EGY,Egypt,Export,0,W00,World,2958716131.923
+M,2021-07-01,2021,7,826,GBR,United Kingdom,Export,0,W00,World,37353216188.667
+M,2021-07-01,2021,7,834,TZA,United Rep. of Tanzania,Export,0,W00,World,594083987.01
+M,2021-07-01,2021,7,842,USA,USA,Export,0,W00,World,144029705365
+M,2021-07-01,2021,7,854,BFA,Burkina Faso,Export,0,W00,World,376780494.464
+M,2021-07-01,2021,7,860,UZB,Uzbekistan,Export,0,W00,World,845979384.8
+M,2021-07-01,2021,7,882,WSM,Samoa,Export,0,W00,World,1689420.765
+M,2021-08-01,2021,8,31,AZE,Azerbaijan,Export,0,W00,World,1541800757.43
+M,2021-08-01,2021,8,32,ARG,Argentina,Export,0,W00,World,8098856231.98
+M,2021-08-01,2021,8,36,AUS,Australia,Export,0,W00,World,30731149256.074
+M,2021-08-01,2021,8,51,ARM,Armenia,Export,0,W00,World,268080521.86
+M,2021-08-01,2021,8,52,BRB,Barbados,Export,0,W00,World,26802441.5
+M,2021-08-01,2021,8,56,BEL,Belgium,Export,0,W00,World,29770424671.568
+M,2021-08-01,2021,8,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,984235912.86
+M,2021-08-01,2021,8,70,BIH,Bosnia Herzegovina,Export,0,W00,World,651825359.99
+M,2021-08-01,2021,8,72,BWA,Botswana,Export,0,W00,World,669161907.618
+M,2021-08-01,2021,8,76,BRA,Brazil,Export,0,W00,World,27216375900
+M,2021-08-01,2021,8,84,BLZ,Belize,Export,0,W00,World,34641820.64
+M,2021-08-01,2021,8,100,BGR,Bulgaria,Export,0,W00,World,3334384781.776
+M,2021-08-01,2021,8,104,MMR,Myanmar,Export,0,W00,World,1249664201.554
+M,2021-08-01,2021,8,112,BLR,Belarus,Export,0,W00,World,3516962300
+M,2021-08-01,2021,8,124,CAN,Canada,Export,0,W00,World,42619634908.59
+M,2021-08-01,2021,8,152,CHL,Chile,Export,0,W00,World,7905740170.846
+M,2021-08-01,2021,8,156,CHN,China,Export,0,W00,World,293844262597
+M,2021-08-01,2021,8,170,COL,Colombia,Export,0,W00,World,3465142874.93
+M,2021-08-01,2021,8,191,HRV,Croatia,Export,0,W00,World,1566153150
+M,2021-08-01,2021,8,196,CYP,Cyprus,Export,0,W00,World,334589624.073
+M,2021-08-01,2021,8,203,CZE,Czechia,Export,0,W00,World,15976669907
+M,2021-08-01,2021,8,204,BEN,Benin,Export,0,W00,World,92972026.364
+M,2021-08-01,2021,8,208,DNK,Denmark,Export,0,W00,World,9437260707.666
+M,2021-08-01,2021,8,214,DOM,Dominican Rep.,Export,0,W00,World,1020348802.693
+M,2021-08-01,2021,8,218,ECU,Ecuador,Export,0,W00,World,2245068003.29
+M,2021-08-01,2021,8,222,SLV,El Salvador,Export,0,W00,World,498740776.34
+M,2021-08-01,2021,8,233,EST,Estonia,Export,0,W00,World,1637478502.4
+M,2021-08-01,2021,8,242,FJI,Fiji,Export,0,W00,World,55737653.469
+M,2021-08-01,2021,8,246,FIN,Finland,Export,0,W00,World,6074841151.742
+M,2021-08-01,2021,8,268,GEO,Georgia,Export,0,W00,World,335161706.48
+M,2021-08-01,2021,8,275,PSE,State of Palestine,Export,0,W00,World,127790266.18
+M,2021-08-01,2021,8,276,DEU,Germany,Export,0,W00,World,123668767081.568
+M,2021-08-01,2021,8,300,GRC,Greece,Export,0,W00,World,3309833413.775
+M,2021-08-01,2021,8,308,GRD,Grenada,Export,0,W00,World,2299044.258
+M,2021-08-01,2021,8,320,GTM,Guatemala,Export,0,W00,World,1130726897
+M,2021-08-01,2021,8,328,GUY,Guyana,Export,0,W00,World,284378329.863
+M,2021-08-01,2021,8,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,57978752602.798
+M,2021-08-01,2021,8,348,HUN,Hungary,Export,0,W00,World,9849663726
+M,2021-08-01,2021,8,352,ISL,Iceland,Export,0,W00,World,442265022.277
+M,2021-08-01,2021,8,360,IDN,Indonesia,Export,0,W00,World,21427076797.612
+M,2021-08-01,2021,8,372,IRL,Ireland,Export,0,W00,World,15499627318.085
+M,2021-08-01,2021,8,376,ISR,Israel,Export,0,W00,World,4806264000
+M,2021-08-01,2021,8,380,ITA,Italy,Export,0,W00,World,38725434546.64
+M,2021-08-01,2021,8,392,JPN,Japan,Export,0,W00,World,60133549884.991
+M,2021-08-01,2021,8,404,KEN,Kenya,Export,0,W00,World,560153571.854
+M,2021-08-01,2021,8,414,KWT,Kuwait,Export,0,W00,World,4299294393
+M,2021-08-01,2021,8,417,KGZ,Kyrgyzstan,Export,0,W00,World,91687947
+M,2021-08-01,2021,8,426,LSO,Lesotho,Export,0,W00,World,106140468.858
+M,2021-08-01,2021,8,428,LVA,Latvia,Export,0,W00,World,1700622888.713
+M,2021-08-01,2021,8,440,LTU,Lithuania,Export,0,W00,World,3501867030.98
+M,2021-08-01,2021,8,442,LUX,Luxembourg,Export,0,W00,World,1254990543.415
+M,2021-08-01,2021,8,446,MAC,"China, Macao SAR",Export,0,W00,World,114034917.014
+M,2021-08-01,2021,8,450,MDG,Madagascar,Export,0,W00,World,190472114.09
+M,2021-08-01,2021,8,458,MYS,Malaysia,Export,0,W00,World,22635196730.753
+M,2021-08-01,2021,8,480,MUS,Mauritius,Export,0,W00,World,142828107.372
+M,2021-08-01,2021,8,484,MEX,Mexico,Export,0,W00,World,40313435036
+M,2021-08-01,2021,8,496,MNG,Mongolia,Export,0,W00,World,879511614.75
+M,2021-08-01,2021,8,498,MDA,Rep. of Moldova,Export,0,W00,World,236300670
+M,2021-08-01,2021,8,499,MNE,Montenegro,Export,0,W00,World,36593068.538
+M,2021-08-01,2021,8,504,MAR,Morocco,Export,0,W00,World,2966336881.291
+M,2021-08-01,2021,8,528,NLD,Netherlands,Export,0,W00,World,54976712357.8
+M,2021-08-01,2021,8,554,NZL,New Zealand,Export,0,W00,World,3031721464.61
+M,2021-08-01,2021,8,558,NIC,Nicaragua,Export,0,W00,World,551197338.49
+M,2021-08-01,2021,8,566,NGA,Nigeria,Export,0,W00,World,3457675407.828
+M,2021-08-01,2021,8,579,NOR,Norway,Export,0,W00,World,13348936774.22
+M,2021-08-01,2021,8,586,PAK,Pakistan,Export,0,W00,World,2251517573.244
+M,2021-08-01,2021,8,591,PAN,Panama,Export,0,W00,World,321792891
+M,2021-08-01,2021,8,600,PRY,Paraguay,Export,0,W00,World,885426161
+M,2021-08-01,2021,8,608,PHL,Philippines,Export,0,W00,World,6539616323
+M,2021-08-01,2021,8,616,POL,Poland,Export,0,W00,World,25393399734
+M,2021-08-01,2021,8,620,PRT,Portugal,Export,0,W00,World,5129866523.858
+M,2021-08-01,2021,8,634,QAT,Qatar,Export,0,W00,World,7493849701.901
+M,2021-08-01,2021,8,642,ROU,Romania,Export,0,W00,World,6676087469.58
+M,2021-08-01,2021,8,643,RUS,Russian Federation,Export,0,W00,World,43049017236.009
+M,2021-08-01,2021,8,646,RWA,Rwanda,Export,0,W00,World,132580044.05
+M,2021-08-01,2021,8,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,3659535.908
+M,2021-08-01,2021,8,678,STP,Sao Tome and Principe,Export,0,W00,World,1623502.202
+M,2021-08-01,2021,8,688,SRB,Serbia,Export,0,W00,World,2043012262
+M,2021-08-01,2021,8,690,SYC,Seychelles,Export,0,W00,World,95181174.687
+M,2021-08-01,2021,8,699,IND,India,Export,0,W00,World,33349264918.135
+M,2021-08-01,2021,8,702,SGP,Singapore,Export,0,W00,World,38401681741.51
+M,2021-08-01,2021,8,703,SVK,Slovakia,Export,0,W00,World,7465633523.872
+M,2021-08-01,2021,8,704,VNM,Viet Nam,Export,0,W00,World,27228450585
+M,2021-08-01,2021,8,705,SVN,Slovenia,Export,0,W00,World,3273256021.688
+M,2021-08-01,2021,8,710,ZAF,South Africa,Export,0,W00,World,10485485116.94
+M,2021-08-01,2021,8,724,ESP,Spain,Export,0,W00,World,27008284544.397
+M,2021-08-01,2021,8,752,SWE,Sweden,Export,0,W00,World,13327571831.172
+M,2021-08-01,2021,8,757,CHE,Switzerland,Export,0,W00,World,29988925042.647
+M,2021-08-01,2021,8,768,TGO,Togo,Export,0,W00,World,79014023.126
+M,2021-08-01,2021,8,780,TTO,Trinidad and Tobago,Export,0,W00,World,671365558.153
+M,2021-08-01,2021,8,788,TUN,Tunisia,Export,0,W00,World,1163606765.091
+M,2021-08-01,2021,8,792,TUR,Türkiye,Export,0,W00,World,18860976378
+M,2021-08-01,2021,8,804,UKR,Ukraine,Export,0,W00,World,6274584248.43
+M,2021-08-01,2021,8,807,MKD,North Macedonia,Export,0,W00,World,666136200.2
+M,2021-08-01,2021,8,818,EGY,Egypt,Export,0,W00,World,3279103225.71
+M,2021-08-01,2021,8,826,GBR,United Kingdom,Export,0,W00,World,33298994944.492
+M,2021-08-01,2021,8,834,TZA,United Rep. of Tanzania,Export,0,W00,World,625980675.971
+M,2021-08-01,2021,8,842,USA,USA,Export,0,W00,World,148034903934
+M,2021-08-01,2021,8,854,BFA,Burkina Faso,Export,0,W00,World,353650612.22
+M,2021-08-01,2021,8,860,UZB,Uzbekistan,Export,0,W00,World,903955843.711
+M,2021-08-01,2021,8,882,WSM,Samoa,Export,0,W00,World,1975985.675
+M,2021-09-01,2021,9,31,AZE,Azerbaijan,Export,0,W00,World,1694854358.07
+M,2021-09-01,2021,9,32,ARG,Argentina,Export,0,W00,World,7570189290.44
+M,2021-09-01,2021,9,36,AUS,Australia,Export,0,W00,World,27712268462.702
+M,2021-09-01,2021,9,51,ARM,Armenia,Export,0,W00,World,224333442.15
+M,2021-09-01,2021,9,52,BRB,Barbados,Export,0,W00,World,30617023.5
+M,2021-09-01,2021,9,56,BEL,Belgium,Export,0,W00,World,34306453997.443
+M,2021-09-01,2021,9,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,943325319.67
+M,2021-09-01,2021,9,70,BIH,Bosnia Herzegovina,Export,0,W00,World,804131070.3
+M,2021-09-01,2021,9,72,BWA,Botswana,Export,0,W00,World,587767853.459
+M,2021-09-01,2021,9,76,BRA,Brazil,Export,0,W00,World,24376129510
+M,2021-09-01,2021,9,84,BLZ,Belize,Export,0,W00,World,21462094.815
+M,2021-09-01,2021,9,100,BGR,Bulgaria,Export,0,W00,World,3602418375.82
+M,2021-09-01,2021,9,104,MMR,Myanmar,Export,0,W00,World,1257443164.511
+M,2021-09-01,2021,9,112,BLR,Belarus,Export,0,W00,World,3605912800
+M,2021-09-01,2021,9,124,CAN,Canada,Export,0,W00,World,41277509602.49
+M,2021-09-01,2021,9,152,CHL,Chile,Export,0,W00,World,7619634929.28
+M,2021-09-01,2021,9,156,CHN,China,Export,0,W00,World,305118459339
+M,2021-09-01,2021,9,170,COL,Colombia,Export,0,W00,World,3792235507.94
+M,2021-09-01,2021,9,191,HRV,Croatia,Export,0,W00,World,1938336012
+M,2021-09-01,2021,9,196,CYP,Cyprus,Export,0,W00,World,241030836.819
+M,2021-09-01,2021,9,203,CZE,Czechia,Export,0,W00,World,18909449980
+M,2021-09-01,2021,9,204,BEN,Benin,Export,0,W00,World,66781292.866
+M,2021-09-01,2021,9,208,DNK,Denmark,Export,0,W00,World,10754527021.093
+M,2021-09-01,2021,9,214,DOM,Dominican Rep.,Export,0,W00,World,995470627.142
+M,2021-09-01,2021,9,218,ECU,Ecuador,Export,0,W00,World,2302402287.621
+M,2021-09-01,2021,9,222,SLV,El Salvador,Export,0,W00,World,550437311.59
+M,2021-09-01,2021,9,233,EST,Estonia,Export,0,W00,World,2463300408.421
+M,2021-09-01,2021,9,242,FJI,Fiji,Export,0,W00,World,87673211.804
+M,2021-09-01,2021,9,246,FIN,Finland,Export,0,W00,World,7793678952.02
+M,2021-09-01,2021,9,268,GEO,Georgia,Export,0,W00,World,373710627.93
+M,2021-09-01,2021,9,275,PSE,State of Palestine,Export,0,W00,World,108641149.02
+M,2021-09-01,2021,9,276,DEU,Germany,Export,0,W00,World,139987031681.84
+M,2021-09-01,2021,9,300,GRC,Greece,Export,0,W00,World,4403513224.81
+M,2021-09-01,2021,9,308,GRD,Grenada,Export,0,W00,World,2909202.825
+M,2021-09-01,2021,9,320,GTM,Guatemala,Export,0,W00,World,1179780795
+M,2021-09-01,2021,9,328,GUY,Guyana,Export,0,W00,World,369679568.647
+M,2021-09-01,2021,9,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,60187145937.245
+M,2021-09-01,2021,9,348,HUN,Hungary,Export,0,W00,World,12186888373
+M,2021-09-01,2021,9,352,ISL,Iceland,Export,0,W00,World,526754410.449
+M,2021-09-01,2021,9,360,IDN,Indonesia,Export,0,W00,World,20605585843.821
+M,2021-09-01,2021,9,372,IRL,Ireland,Export,0,W00,World,17386508046.628
+M,2021-09-01,2021,9,376,ISR,Israel,Export,0,W00,World,4105444000
+M,2021-09-01,2021,9,380,ITA,Italy,Export,0,W00,World,53131338570.889
+M,2021-09-01,2021,9,392,JPN,Japan,Export,0,W00,World,62062717871.807
+M,2021-09-01,2021,9,404,KEN,Kenya,Export,0,W00,World,489961523.537
+M,2021-09-01,2021,9,414,KWT,Kuwait,Export,0,W00,World,4087279622
+M,2021-09-01,2021,9,417,KGZ,Kyrgyzstan,Export,0,W00,World,119784516
+M,2021-09-01,2021,9,426,LSO,Lesotho,Export,0,W00,World,77703889.876
+M,2021-09-01,2021,9,428,LVA,Latvia,Export,0,W00,World,1901825000.366
+M,2021-09-01,2021,9,440,LTU,Lithuania,Export,0,W00,World,3677044310.98
+M,2021-09-01,2021,9,442,LUX,Luxembourg,Export,0,W00,World,1471984838.077
+M,2021-09-01,2021,9,446,MAC,"China, Macao SAR",Export,0,W00,World,85277016.816
+M,2021-09-01,2021,9,450,MDG,Madagascar,Export,0,W00,World,227001019.614
+M,2021-09-01,2021,9,458,MYS,Malaysia,Export,0,W00,World,26602315587.284
+M,2021-09-01,2021,9,480,MUS,Mauritius,Export,0,W00,World,154627523.205
+M,2021-09-01,2021,9,484,MEX,Mexico,Export,0,W00,World,41680024513
+M,2021-09-01,2021,9,496,MNG,Mongolia,Export,0,W00,World,801754942.26
+M,2021-09-01,2021,9,498,MDA,Rep. of Moldova,Export,0,W00,World,294897326
+M,2021-09-01,2021,9,499,MNE,Montenegro,Export,0,W00,World,42177561.226
+M,2021-09-01,2021,9,504,MAR,Morocco,Export,0,W00,World,3271187317.223
+M,2021-09-01,2021,9,528,NLD,Netherlands,Export,0,W00,World,60822786860.529
+M,2021-09-01,2021,9,554,NZL,New Zealand,Export,0,W00,World,3101651475.516
+M,2021-09-01,2021,9,558,NIC,Nicaragua,Export,0,W00,World,506791327.58
+M,2021-09-01,2021,9,566,NGA,Nigeria,Export,0,W00,World,4959252355.231
+M,2021-09-01,2021,9,579,NOR,Norway,Export,0,W00,World,15123696997.45
+M,2021-09-01,2021,9,586,PAK,Pakistan,Export,0,W00,World,2412207926.954
+M,2021-09-01,2021,9,591,PAN,Panama,Export,0,W00,World,318361017
+M,2021-09-01,2021,9,600,PRY,Paraguay,Export,0,W00,World,861988533
+M,2021-09-01,2021,9,608,PHL,Philippines,Export,0,W00,World,6688729029
+M,2021-09-01,2021,9,616,POL,Poland,Export,0,W00,World,28351137330
+M,2021-09-01,2021,9,620,PRT,Portugal,Export,0,W00,World,6463950475.311
+M,2021-09-01,2021,9,634,QAT,Qatar,Export,0,W00,World,7664343868.111
+M,2021-09-01,2021,9,642,ROU,Romania,Export,0,W00,World,7467035905.09
+M,2021-09-01,2021,9,643,RUS,Russian Federation,Export,0,W00,World,45410415189.277
+M,2021-09-01,2021,9,646,RWA,Rwanda,Export,0,W00,World,140221358.51
+M,2021-09-01,2021,9,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,2581099.777
+M,2021-09-01,2021,9,678,STP,Sao Tome and Principe,Export,0,W00,World,2286231.692
+M,2021-09-01,2021,9,688,SRB,Serbia,Export,0,W00,World,2324686145
+M,2021-09-01,2021,9,690,SYC,Seychelles,Export,0,W00,World,51339211.348
+M,2021-09-01,2021,9,699,IND,India,Export,0,W00,World,33706355092.884
+M,2021-09-01,2021,9,702,SGP,Singapore,Export,0,W00,World,38615240196.455
+M,2021-09-01,2021,9,703,SVK,Slovakia,Export,0,W00,World,8375421460.075
+M,2021-09-01,2021,9,704,VNM,Viet Nam,Export,0,W00,World,27025836636
+M,2021-09-01,2021,9,705,SVN,Slovenia,Export,0,W00,World,4157053518.96
+M,2021-09-01,2021,9,710,ZAF,South Africa,Export,0,W00,World,10715876184.171
+M,2021-09-01,2021,9,724,ESP,Spain,Export,0,W00,World,34733504426.035
+M,2021-09-01,2021,9,752,SWE,Sweden,Export,0,W00,World,17019233673.883
+M,2021-09-01,2021,9,757,CHE,Switzerland,Export,0,W00,World,32189494821.661
+M,2021-09-01,2021,9,768,TGO,Togo,Export,0,W00,World,94114549.916
+M,2021-09-01,2021,9,780,TTO,Trinidad and Tobago,Export,0,W00,World,626115771.03
+M,2021-09-01,2021,9,788,TUN,Tunisia,Export,0,W00,World,1401591040.69
+M,2021-09-01,2021,9,792,TUR,Türkiye,Export,0,W00,World,20715563079
+M,2021-09-01,2021,9,804,UKR,Ukraine,Export,0,W00,World,4175180554.75
+M,2021-09-01,2021,9,807,MKD,North Macedonia,Export,0,W00,World,665327221.07
+M,2021-09-01,2021,9,818,EGY,Egypt,Export,0,W00,World,3469309587.383
+M,2021-09-01,2021,9,826,GBR,United Kingdom,Export,0,W00,World,39638921591.252
+M,2021-09-01,2021,9,834,TZA,United Rep. of Tanzania,Export,0,W00,World,621107907.02
+M,2021-09-01,2021,9,842,USA,USA,Export,0,W00,World,141790419234
+M,2021-09-01,2021,9,854,BFA,Burkina Faso,Export,0,W00,World,379569676.331
+M,2021-09-01,2021,9,860,UZB,Uzbekistan,Export,0,W00,World,819550014.45
+M,2021-09-01,2021,9,882,WSM,Samoa,Export,0,W00,World,2485702.43
+M,2021-10-01,2021,10,31,AZE,Azerbaijan,Export,0,W00,World,2217991094.57
+M,2021-10-01,2021,10,32,ARG,Argentina,Export,0,W00,World,6862570097.27
+M,2021-10-01,2021,10,36,AUS,Australia,Export,0,W00,World,28017649945.538
+M,2021-10-01,2021,10,51,ARM,Armenia,Export,0,W00,World,264838172.39
+M,2021-10-01,2021,10,52,BRB,Barbados,Export,0,W00,World,29519505.5
+M,2021-10-01,2021,10,56,BEL,Belgium,Export,0,W00,World,35861740848.43
+M,2021-10-01,2021,10,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,1022920223.32
+M,2021-10-01,2021,10,70,BIH,Bosnia Herzegovina,Export,0,W00,World,802549236.11
+M,2021-10-01,2021,10,72,BWA,Botswana,Export,0,W00,World,449220263.999
+M,2021-10-01,2021,10,76,BRA,Brazil,Export,0,W00,World,22602637234
+M,2021-10-01,2021,10,84,BLZ,Belize,Export,0,W00,World,17404454.71
+M,2021-10-01,2021,10,100,BGR,Bulgaria,Export,0,W00,World,3653730962.286
+M,2021-10-01,2021,10,104,MMR,Myanmar,Export,0,W00,World,1122106445.577
+M,2021-10-01,2021,10,112,BLR,Belarus,Export,0,W00,World,3760854700
+M,2021-10-01,2021,10,124,CAN,Canada,Export,0,W00,World,44084355352.694
+M,2021-10-01,2021,10,152,CHL,Chile,Export,0,W00,World,7770460024.336
+M,2021-10-01,2021,10,156,CHN,China,Export,0,W00,World,299456821544
+M,2021-10-01,2021,10,170,COL,Colombia,Export,0,W00,World,3799111286.02
+M,2021-10-01,2021,10,191,HRV,Croatia,Export,0,W00,World,2108145878
+M,2021-10-01,2021,10,196,CYP,Cyprus,Export,0,W00,World,536547958.306
+M,2021-10-01,2021,10,203,CZE,Czechia,Export,0,W00,World,18961258962
+M,2021-10-01,2021,10,204,BEN,Benin,Export,0,W00,World,69569244.818
+M,2021-10-01,2021,10,208,DNK,Denmark,Export,0,W00,World,10552520733.611
+M,2021-10-01,2021,10,214,DOM,Dominican Rep.,Export,0,W00,World,968749182.26
+M,2021-10-01,2021,10,218,ECU,Ecuador,Export,0,W00,World,2577654438.026
+M,2021-10-01,2021,10,222,SLV,El Salvador,Export,0,W00,World,552225198.01
+M,2021-10-01,2021,10,233,EST,Estonia,Export,0,W00,World,2322540315.645
+M,2021-10-01,2021,10,242,FJI,Fiji,Export,0,W00,World,96233352.252
+M,2021-10-01,2021,10,246,FIN,Finland,Export,0,W00,World,7104353617.539
+M,2021-10-01,2021,10,268,GEO,Georgia,Export,0,W00,World,410873496.54
+M,2021-10-01,2021,10,275,PSE,State of Palestine,Export,0,W00,World,136913608.8
+M,2021-10-01,2021,10,276,DEU,Germany,Export,0,W00,World,141749086801.705
+M,2021-10-01,2021,10,300,GRC,Greece,Export,0,W00,World,4315624349.819
+M,2021-10-01,2021,10,308,GRD,Grenada,Export,0,W00,World,2200690.917
+M,2021-10-01,2021,10,320,GTM,Guatemala,Export,0,W00,World,1118832776
+M,2021-10-01,2021,10,328,GUY,Guyana,Export,0,W00,World,422652406.898
+M,2021-10-01,2021,10,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,57664403150.721
+M,2021-10-01,2021,10,348,HUN,Hungary,Export,0,W00,World,11889852309
+M,2021-10-01,2021,10,352,ISL,Iceland,Export,0,W00,World,564482564.897
+M,2021-10-01,2021,10,360,IDN,Indonesia,Export,0,W00,World,22029687850.864
+M,2021-10-01,2021,10,372,IRL,Ireland,Export,0,W00,World,17353747619.742
+M,2021-10-01,2021,10,376,ISR,Israel,Export,0,W00,World,5947178000
+M,2021-10-01,2021,10,380,ITA,Italy,Export,0,W00,World,53791732306.884
+M,2021-10-01,2021,10,392,JPN,Japan,Export,0,W00,World,63496982273.895
+M,2021-10-01,2021,10,414,KWT,Kuwait,Export,0,W00,World,6493935031
+M,2021-10-01,2021,10,417,KGZ,Kyrgyzstan,Export,0,W00,World,151986671
+M,2021-10-01,2021,10,426,LSO,Lesotho,Export,0,W00,World,98974456.494
+M,2021-10-01,2021,10,428,LVA,Latvia,Export,0,W00,World,1820399399.025
+M,2021-10-01,2021,10,440,LTU,Lithuania,Export,0,W00,World,3730320614.99
+M,2021-10-01,2021,10,442,LUX,Luxembourg,Export,0,W00,World,1379127174.433
+M,2021-10-01,2021,10,446,MAC,"China, Macao SAR",Export,0,W00,World,89786877.251
+M,2021-10-01,2021,10,450,MDG,Madagascar,Export,0,W00,World,250170536.29
+M,2021-10-01,2021,10,458,MYS,Malaysia,Export,0,W00,World,27484497596.865
+M,2021-10-01,2021,10,480,MUS,Mauritius,Export,0,W00,World,143875912.196
+M,2021-10-01,2021,10,484,MEX,Mexico,Export,0,W00,World,43054971587
+M,2021-10-01,2021,10,496,MNG,Mongolia,Export,0,W00,World,1110514188.18
+M,2021-10-01,2021,10,498,MDA,Rep. of Moldova,Export,0,W00,World,352247525
+M,2021-10-01,2021,10,499,MNE,Montenegro,Export,0,W00,World,43284132.691
+M,2021-10-01,2021,10,504,MAR,Morocco,Export,0,W00,World,3106697980.839
+M,2021-10-01,2021,10,528,NLD,Netherlands,Export,0,W00,World,59132760478.438
+M,2021-10-01,2021,10,554,NZL,New Zealand,Export,0,W00,World,3764110306.366
+M,2021-10-01,2021,10,558,NIC,Nicaragua,Export,0,W00,World,527637134.01
+M,2021-10-01,2021,10,566,NGA,Nigeria,Export,0,W00,World,4804802862.373
+M,2021-10-01,2021,10,579,NOR,Norway,Export,0,W00,World,18585105339.378
+M,2021-10-01,2021,10,586,PAK,Pakistan,Export,0,W00,World,2511137205.378
+M,2021-10-01,2021,10,591,PAN,Panama,Export,0,W00,World,230230894
+M,2021-10-01,2021,10,600,PRY,Paraguay,Export,0,W00,World,888381335
+M,2021-10-01,2021,10,608,PHL,Philippines,Export,0,W00,World,6412082617
+M,2021-10-01,2021,10,616,POL,Poland,Export,0,W00,World,28591457129
+M,2021-10-01,2021,10,620,PRT,Portugal,Export,0,W00,World,6459584595.439
+M,2021-10-01,2021,10,634,QAT,Qatar,Export,0,W00,World,8265965671.161
+M,2021-10-01,2021,10,642,ROU,Romania,Export,0,W00,World,7618819406.7
+M,2021-10-01,2021,10,643,RUS,Russian Federation,Export,0,W00,World,46227177074.36
+M,2021-10-01,2021,10,646,RWA,Rwanda,Export,0,W00,World,252311609.63
+M,2021-10-01,2021,10,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,2336482.076
+M,2021-10-01,2021,10,678,STP,Sao Tome and Principe,Export,0,W00,World,3011532.858
+M,2021-10-01,2021,10,688,SRB,Serbia,Export,0,W00,World,2292046861
+M,2021-10-01,2021,10,690,SYC,Seychelles,Export,0,W00,World,60059532.592
+M,2021-10-01,2021,10,699,IND,India,Export,0,W00,World,35653252750.107
+M,2021-10-01,2021,10,702,SGP,Singapore,Export,0,W00,World,39700493855.68
+M,2021-10-01,2021,10,703,SVK,Slovakia,Export,0,W00,World,9259753624.328
+M,2021-10-01,2021,10,704,VNM,Viet Nam,Export,0,W00,World,28870990272
+M,2021-10-01,2021,10,705,SVN,Slovenia,Export,0,W00,World,4167963489.695
+M,2021-10-01,2021,10,710,ZAF,South Africa,Export,0,W00,World,9826519277.286
+M,2021-10-01,2021,10,724,ESP,Spain,Export,0,W00,World,33956612599.36
+M,2021-10-01,2021,10,752,SWE,Sweden,Export,0,W00,World,16825782167.571
+M,2021-10-01,2021,10,757,CHE,Switzerland,Export,0,W00,World,33824213000.184
+M,2021-10-01,2021,10,768,TGO,Togo,Export,0,W00,World,103243448.247
+M,2021-10-01,2021,10,780,TTO,Trinidad and Tobago,Export,0,W00,World,935738503.493
+M,2021-10-01,2021,10,788,TUN,Tunisia,Export,0,W00,World,1509483378.191
+M,2021-10-01,2021,10,792,TUR,Türkiye,Export,0,W00,World,20713984277
+M,2021-10-01,2021,10,804,UKR,Ukraine,Export,0,W00,World,6261605572.25
+M,2021-10-01,2021,10,807,MKD,North Macedonia,Export,0,W00,World,683170382.45
+M,2021-10-01,2021,10,818,EGY,Egypt,Export,0,W00,World,3776281916.454
+M,2021-10-01,2021,10,826,GBR,United Kingdom,Export,0,W00,World,46604139299.117
+M,2021-10-01,2021,10,834,TZA,United Rep. of Tanzania,Export,0,W00,World,590866972.02
+M,2021-10-01,2021,10,842,USA,USA,Export,0,W00,World,164371444683
+M,2021-10-01,2021,10,854,BFA,Burkina Faso,Export,0,W00,World,377485888.535
+M,2021-10-01,2021,10,860,UZB,Uzbekistan,Export,0,W00,World,1880088239.768
+M,2021-10-01,2021,10,882,WSM,Samoa,Export,0,W00,World,1951469.27
+M,2021-11-01,2021,11,31,AZE,Azerbaijan,Export,0,W00,World,2950597973.53
+M,2021-11-01,2021,11,32,ARG,Argentina,Export,0,W00,World,6191188181.31
+M,2021-11-01,2021,11,36,AUS,Australia,Export,0,W00,World,29446026293.14
+M,2021-11-01,2021,11,51,ARM,Armenia,Export,0,W00,World,297272469.59
+M,2021-11-01,2021,11,52,BRB,Barbados,Export,0,W00,World,35799773.5
+M,2021-11-01,2021,11,56,BEL,Belgium,Export,0,W00,World,34471585098.671
+M,2021-11-01,2021,11,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,1063977186.83
+M,2021-11-01,2021,11,70,BIH,Bosnia Herzegovina,Export,0,W00,World,848584210.59
+M,2021-11-01,2021,11,72,BWA,Botswana,Export,0,W00,World,577041386.952
+M,2021-11-01,2021,11,76,BRA,Brazil,Export,0,W00,World,20501766210
+M,2021-11-01,2021,11,84,BLZ,Belize,Export,0,W00,World,19258728.335
+M,2021-11-01,2021,11,100,BGR,Bulgaria,Export,0,W00,World,3653232929.807
+M,2021-11-01,2021,11,104,MMR,Myanmar,Export,0,W00,World,1320104476.958
+M,2021-11-01,2021,11,112,BLR,Belarus,Export,0,W00,World,4236399400
+M,2021-11-01,2021,11,124,CAN,Canada,Export,0,W00,World,46686361632.831
+M,2021-11-01,2021,11,152,CHL,Chile,Export,0,W00,World,8525532883.606
+M,2021-11-01,2021,11,156,CHN,China,Export,0,W00,World,324706548283
+M,2021-11-01,2021,11,170,COL,Colombia,Export,0,W00,World,4155804669.09
+M,2021-11-01,2021,11,191,HRV,Croatia,Export,0,W00,World,2291786449
+M,2021-11-01,2021,11,196,CYP,Cyprus,Export,0,W00,World,421843050.951
+M,2021-11-01,2021,11,203,CZE,Czechia,Export,0,W00,World,21282560688
+M,2021-11-01,2021,11,204,BEN,Benin,Export,0,W00,World,36218517.447
+M,2021-11-01,2021,11,208,DNK,Denmark,Export,0,W00,World,11348960137.851
+M,2021-11-01,2021,11,214,DOM,Dominican Rep.,Export,0,W00,World,1074648920.017
+M,2021-11-01,2021,11,218,ECU,Ecuador,Export,0,W00,World,2608255229.425
+M,2021-11-01,2021,11,222,SLV,El Salvador,Export,0,W00,World,538149031.77
+M,2021-11-01,2021,11,233,EST,Estonia,Export,0,W00,World,2350801500.696
+M,2021-11-01,2021,11,242,FJI,Fiji,Export,0,W00,World,56473302.172
+M,2021-11-01,2021,11,246,FIN,Finland,Export,0,W00,World,7559753123.195
+M,2021-11-01,2021,11,268,GEO,Georgia,Export,0,W00,World,430386149.15
+M,2021-11-01,2021,11,275,PSE,State of Palestine,Export,0,W00,World,132685190.99
+M,2021-11-01,2021,11,276,DEU,Germany,Export,0,W00,World,144438859629.827
+M,2021-11-01,2021,11,300,GRC,Greece,Export,0,W00,World,4474996038.367
+M,2021-11-01,2021,11,308,GRD,Grenada,Export,0,W00,World,3499437.034
+M,2021-11-01,2021,11,320,GTM,Guatemala,Export,0,W00,World,1090034860
+M,2021-11-01,2021,11,328,GUY,Guyana,Export,0,W00,World,327495225.957
+M,2021-11-01,2021,11,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,64594569660.238
+M,2021-11-01,2021,11,348,HUN,Hungary,Export,0,W00,World,12771119410
+M,2021-11-01,2021,11,352,ISL,Iceland,Export,0,W00,World,551577805.431
+M,2021-11-01,2021,11,360,IDN,Indonesia,Export,0,W00,World,22844428576.819
+M,2021-11-01,2021,11,372,IRL,Ireland,Export,0,W00,World,17833113870.463
+M,2021-11-01,2021,11,376,ISR,Israel,Export,0,W00,World,5979634000
+M,2021-11-01,2021,11,380,ITA,Italy,Export,0,W00,World,55465428294.584
+M,2021-11-01,2021,11,392,JPN,Japan,Export,0,W00,World,64612707714.202
+M,2021-11-01,2021,11,404,KEN,Kenya,Export,0,W00,World,573737028.7
+M,2021-11-01,2021,11,414,KWT,Kuwait,Export,0,W00,World,7292475907
+M,2021-11-01,2021,11,417,KGZ,Kyrgyzstan,Export,0,W00,World,127855035
+M,2021-11-01,2021,11,426,LSO,Lesotho,Export,0,W00,World,119119354.409
+M,2021-11-01,2021,11,428,LVA,Latvia,Export,0,W00,World,1854759401.027
+M,2021-11-01,2021,11,440,LTU,Lithuania,Export,0,W00,World,3874784792.97
+M,2021-11-01,2021,11,442,LUX,Luxembourg,Export,0,W00,World,1421640749.159
+M,2021-11-01,2021,11,446,MAC,"China, Macao SAR",Export,0,W00,World,114953179.565
+M,2021-11-01,2021,11,450,MDG,Madagascar,Export,0,W00,World,313091319.012
+M,2021-11-01,2021,11,458,MYS,Malaysia,Export,0,W00,World,26841697498.55
+M,2021-11-01,2021,11,480,MUS,Mauritius,Export,0,W00,World,154288668.217
+M,2021-11-01,2021,11,484,MEX,Mexico,Export,0,W00,World,45586981873
+M,2021-11-01,2021,11,496,MNG,Mongolia,Export,0,W00,World,1300884972.74
+M,2021-11-01,2021,11,498,MDA,Rep. of Moldova,Export,0,W00,World,363865029
+M,2021-11-01,2021,11,499,MNE,Montenegro,Export,0,W00,World,44568414.707
+M,2021-11-01,2021,11,504,MAR,Morocco,Export,0,W00,World,3630806744.356
+M,2021-11-01,2021,11,528,NLD,Netherlands,Export,0,W00,World,64271557127.881
+M,2021-11-01,2021,11,554,NZL,New Zealand,Export,0,W00,World,4118175608.223
+M,2021-11-01,2021,11,558,NIC,Nicaragua,Export,0,W00,World,539475729.8
+M,2021-11-01,2021,11,566,NGA,Nigeria,Export,0,W00,World,5018493126.782
+M,2021-11-01,2021,11,579,NOR,Norway,Export,0,W00,World,18145085724.232
+M,2021-11-01,2021,11,586,PAK,Pakistan,Export,0,W00,World,2906910373.496
+M,2021-11-01,2021,11,591,PAN,Panama,Export,0,W00,World,332055382
+M,2021-11-01,2021,11,600,PRY,Paraguay,Export,0,W00,World,851214281
+M,2021-11-01,2021,11,608,PHL,Philippines,Export,0,W00,World,6273257794
+M,2021-11-01,2021,11,616,POL,Poland,Export,0,W00,World,31355721859
+M,2021-11-01,2021,11,620,PRT,Portugal,Export,0,W00,World,6917447140.45
+M,2021-11-01,2021,11,634,QAT,Qatar,Export,0,W00,World,9418843830.933
+M,2021-11-01,2021,11,642,ROU,Romania,Export,0,W00,World,8133360239.03
+M,2021-11-01,2021,11,643,RUS,Russian Federation,Export,0,W00,World,48012427803.639
+M,2021-11-01,2021,11,646,RWA,Rwanda,Export,0,W00,World,129797800.49
+M,2021-11-01,2021,11,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,3620817.293
+M,2021-11-01,2021,11,678,STP,Sao Tome and Principe,Export,0,W00,World,2190828.312
+M,2021-11-01,2021,11,688,SRB,Serbia,Export,0,W00,World,2317471739
+M,2021-11-01,2021,11,690,SYC,Seychelles,Export,0,W00,World,55144113.653
+M,2021-11-01,2021,11,699,IND,India,Export,0,W00,World,31791186790.583
+M,2021-11-01,2021,11,702,SGP,Singapore,Export,0,W00,World,41785862872.959
+M,2021-11-01,2021,11,703,SVK,Slovakia,Export,0,W00,World,9808942999.937
+M,2021-11-01,2021,11,704,VNM,Viet Nam,Export,0,W00,World,31867957645
+M,2021-11-01,2021,11,705,SVN,Slovenia,Export,0,W00,World,4244342452.643
+M,2021-11-01,2021,11,710,ZAF,South Africa,Export,0,W00,World,10374374649.561
+M,2021-11-01,2021,11,724,ESP,Spain,Export,0,W00,World,35114517494.683
+M,2021-11-01,2021,11,752,SWE,Sweden,Export,0,W00,World,17430668856.407
+M,2021-11-01,2021,11,757,CHE,Switzerland,Export,0,W00,World,36694262761.715
+M,2021-11-01,2021,11,768,TGO,Togo,Export,0,W00,World,73372570.224
+M,2021-11-01,2021,11,780,TTO,Trinidad and Tobago,Export,0,W00,World,860336535.298
+M,2021-11-01,2021,11,788,TUN,Tunisia,Export,0,W00,World,1453597482.701
+M,2021-11-01,2021,11,792,TUR,Türkiye,Export,0,W00,World,21455111986
+M,2021-11-01,2021,11,804,UKR,Ukraine,Export,0,W00,World,6795320768.34
+M,2021-11-01,2021,11,807,MKD,North Macedonia,Export,0,W00,World,699878488.87
+M,2021-11-01,2021,11,818,EGY,Egypt,Export,0,W00,World,4495170553.346
+M,2021-11-01,2021,11,826,GBR,United Kingdom,Export,0,W00,World,40615413468.359
+M,2021-11-01,2021,11,834,TZA,United Rep. of Tanzania,Export,0,W00,World,594564898.022
+M,2021-11-01,2021,11,842,USA,USA,Export,0,W00,World,156347608488
+M,2021-11-01,2021,11,854,BFA,Burkina Faso,Export,0,W00,World,382076110.843
+M,2021-11-01,2021,11,860,UZB,Uzbekistan,Export,0,W00,World,2798380037.01
+M,2021-11-01,2021,11,882,WSM,Samoa,Export,0,W00,World,3070685.816
+M,2021-12-01,2021,12,24,AGO,Angola,Export,0,W00,World,3606565859.576
+M,2021-12-01,2021,12,31,AZE,Azerbaijan,Export,0,W00,World,2407180551.23
+M,2021-12-01,2021,12,32,ARG,Argentina,Export,0,W00,World,6587062914.49
+M,2021-12-01,2021,12,36,AUS,Australia,Export,0,W00,World,30713563961.551
+M,2021-12-01,2021,12,51,ARM,Armenia,Export,0,W00,World,302452077.23
+M,2021-12-01,2021,12,52,BRB,Barbados,Export,0,W00,World,42377940.5
+M,2021-12-01,2021,12,56,BEL,Belgium,Export,0,W00,World,35151067890.95
+M,2021-12-01,2021,12,68,BOL,Bolivia (Plurinational State of),Export,0,W00,World,971211525.08
+M,2021-12-01,2021,12,70,BIH,Bosnia Herzegovina,Export,0,W00,World,796297934.59
+M,2021-12-01,2021,12,72,BWA,Botswana,Export,0,W00,World,620813012.244
+M,2021-12-01,2021,12,76,BRA,Brazil,Export,0,W00,World,24432406778
+M,2021-12-01,2021,12,84,BLZ,Belize,Export,0,W00,World,21121698.675
+M,2021-12-01,2021,12,100,BGR,Bulgaria,Export,0,W00,World,3493170298.979
+M,2021-12-01,2021,12,104,MMR,Myanmar,Export,0,W00,World,1377336382.916
+M,2021-12-01,2021,12,112,BLR,Belarus,Export,0,W00,World,3731801000
+M,2021-12-01,2021,12,124,CAN,Canada,Export,0,W00,World,45514819091.28
+M,2021-12-01,2021,12,152,CHL,Chile,Export,0,W00,World,8984341297.149
+M,2021-12-01,2021,12,156,CHN,China,Export,0,W00,World,340338587435
+M,2021-12-01,2021,12,170,COL,Colombia,Export,0,W00,World,4544550854.58
+M,2021-12-01,2021,12,191,HRV,Croatia,Export,0,W00,World,2169110708
+M,2021-12-01,2021,12,196,CYP,Cyprus,Export,0,W00,World,396737792.422
+M,2021-12-01,2021,12,203,CZE,Czechia,Export,0,W00,World,18139288840
+M,2021-12-01,2021,12,204,BEN,Benin,Export,0,W00,World,101375877.2
+M,2021-12-01,2021,12,208,DNK,Denmark,Export,0,W00,World,10085239950.537
+M,2021-12-01,2021,12,214,DOM,Dominican Rep.,Export,0,W00,World,915029880.257
+M,2021-12-01,2021,12,218,ECU,Ecuador,Export,0,W00,World,2102472793.844
+M,2021-12-01,2021,12,222,SLV,El Salvador,Export,0,W00,World,510331883.43
+M,2021-12-01,2021,12,233,EST,Estonia,Export,0,W00,World,1993129993.72
+M,2021-12-01,2021,12,242,FJI,Fiji,Export,0,W00,World,82633250.753
+M,2021-12-01,2021,12,246,FIN,Finland,Export,0,W00,World,8376411868.368
+M,2021-12-01,2021,12,268,GEO,Georgia,Export,0,W00,World,419543109.4
+M,2021-12-01,2021,12,275,PSE,State of Palestine,Export,0,W00,World,125643607.9
+M,2021-12-01,2021,12,276,DEU,Germany,Export,0,W00,World,132741865242.747
+M,2021-12-01,2021,12,300,GRC,Greece,Export,0,W00,World,4046067926.071
+M,2021-12-01,2021,12,308,GRD,Grenada,Export,0,W00,World,2516325.183
+M,2021-12-01,2021,12,320,GTM,Guatemala,Export,0,W00,World,1311578368
+M,2021-12-01,2021,12,328,GUY,Guyana,Export,0,W00,World,413754395.207
+M,2021-12-01,2021,12,344,HKG,"China, Hong Kong SAR",Export,0,W00,World,65270010642.746
+M,2021-12-01,2021,12,348,HUN,Hungary,Export,0,W00,World,11281865924
+M,2021-12-01,2021,12,352,ISL,Iceland,Export,0,W00,World,584963864.336
+M,2021-12-01,2021,12,360,IDN,Indonesia,Export,0,W00,World,22359545319.21
+M,2021-12-01,2021,12,372,IRL,Ireland,Export,0,W00,World,14755411524.747
+M,2021-12-01,2021,12,376,ISR,Israel,Export,0,W00,World,5900321000
+M,2021-12-01,2021,12,380,ITA,Italy,Export,0,W00,World,51627913129.984
+M,2021-12-01,2021,12,392,JPN,Japan,Export,0,W00,World,69366333773.238
+M,2021-12-01,2021,12,404,KEN,Kenya,Export,0,W00,World,585034957.117
+M,2021-12-01,2021,12,414,KWT,Kuwait,Export,0,W00,World,6273571561
+M,2021-12-01,2021,12,417,KGZ,Kyrgyzstan,Export,0,W00,World,178888747
+M,2021-12-01,2021,12,426,LSO,Lesotho,Export,0,W00,World,58915165.681
+M,2021-12-01,2021,12,428,LVA,Latvia,Export,0,W00,World,1760178539.666
+M,2021-12-01,2021,12,440,LTU,Lithuania,Export,0,W00,World,3755933196.99
+M,2021-12-01,2021,12,442,LUX,Luxembourg,Export,0,W00,World,1272417355.765
+M,2021-12-01,2021,12,446,MAC,"China, Macao SAR",Export,0,W00,World,85619006.834
+M,2021-12-01,2021,12,450,MDG,Madagascar,Export,0,W00,World,384754277.992
+M,2021-12-01,2021,12,458,MYS,Malaysia,Export,0,W00,World,29417210195.26
+M,2021-12-01,2021,12,480,MUS,Mauritius,Export,0,W00,World,146944867.192
+M,2021-12-01,2021,12,484,MEX,Mexico,Export,0,W00,World,47692803567
+M,2021-12-01,2021,12,496,MNG,Mongolia,Export,0,W00,World,446230811.25
+M,2021-12-01,2021,12,498,MDA,Rep. of Moldova,Export,0,W00,World,324970867
+M,2021-12-01,2021,12,499,MNE,Montenegro,Export,0,W00,World,66055523.551
+M,2021-12-01,2021,12,504,MAR,Morocco,Export,0,W00,World,3951956381.934
+M,2021-12-01,2021,12,528,NLD,Netherlands,Export,0,W00,World,61818761736.323
+M,2021-12-01,2021,12,554,NZL,New Zealand,Export,0,W00,World,4118027954.575
+M,2021-12-01,2021,12,558,NIC,Nicaragua,Export,0,W00,World,554505596.58
+M,2021-12-01,2021,12,566,NGA,Nigeria,Export,0,W00,World,4190337564.025
+M,2021-12-01,2021,12,579,NOR,Norway,Export,0,W00,World,20871984050.886
+M,2021-12-01,2021,12,586,PAK,Pakistan,Export,0,W00,World,2772155697.411
+M,2021-12-01,2021,12,591,PAN,Panama,Export,0,W00,World,409713883
+M,2021-12-01,2021,12,600,PRY,Paraguay,Export,0,W00,World,663482649
+M,2021-12-01,2021,12,608,PHL,Philippines,Export,0,W00,World,6278718821
+M,2021-12-01,2021,12,616,POL,Poland,Export,0,W00,World,25078170134
+M,2021-12-01,2021,12,620,PRT,Portugal,Export,0,W00,World,6007296230.331
+M,2021-12-01,2021,12,634,QAT,Qatar,Export,0,W00,World,9781398949.623
+M,2021-12-01,2021,12,642,ROU,Romania,Export,0,W00,World,7382096221.52
+M,2021-12-01,2021,12,643,RUS,Russian Federation,Export,0,W00,World,57215121705.504
+M,2021-12-01,2021,12,646,RWA,Rwanda,Export,0,W00,World,168852399.04
+M,2021-12-01,2021,12,670,VCT,Saint Vincent and the Grenadines,Export,0,W00,World,2694963.853
+M,2021-12-01,2021,12,678,STP,Sao Tome and Principe,Export,0,W00,World,1607593.918
+M,2021-12-01,2021,12,688,SRB,Serbia,Export,0,W00,World,2252167270
+M,2021-12-01,2021,12,690,SYC,Seychelles,Export,0,W00,World,56668620.722
+M,2021-12-01,2021,12,699,IND,India,Export,0,W00,World,39243708396.444
+M,2021-12-01,2021,12,702,SGP,Singapore,Export,0,W00,World,43437348503.466
+M,2021-12-01,2021,12,703,SVK,Slovakia,Export,0,W00,World,8614427668.626
+M,2021-12-01,2021,12,704,VNM,Viet Nam,Export,0,W00,World,34592469823
+M,2021-12-01,2021,12,705,SVN,Slovenia,Export,0,W00,World,3705257448.605
+M,2021-12-01,2021,12,710,ZAF,South Africa,Export,0,W00,World,9676155999.21
+M,2021-12-01,2021,12,724,ESP,Spain,Export,0,W00,World,33265813202.352
+M,2021-12-01,2021,12,752,SWE,Sweden,Export,0,W00,World,16233429596.539
+M,2021-12-01,2021,12,757,CHE,Switzerland,Export,0,W00,World,29966586936.335
+M,2021-12-01,2021,12,768,TGO,Togo,Export,0,W00,World,107632367.064
+M,2021-12-01,2021,12,780,TTO,Trinidad and Tobago,Export,0,W00,World,823311556.386
+M,2021-12-01,2021,12,788,TUN,Tunisia,Export,0,W00,World,1576046173.88
+M,2021-12-01,2021,12,792,TUR,Türkiye,Export,0,W00,World,22233318423
+M,2021-12-01,2021,12,804,UKR,Ukraine,Export,0,W00,World,6825219440.17
+M,2021-12-01,2021,12,807,MKD,North Macedonia,Export,0,W00,World,670013404.37
+M,2021-12-01,2021,12,818,EGY,Egypt,Export,0,W00,World,4336362238.886
+M,2021-12-01,2021,12,826,GBR,United Kingdom,Export,0,W00,World,45863436973.502
+M,2021-12-01,2021,12,834,TZA,United Rep. of Tanzania,Export,0,W00,World,599750320.61
+M,2021-12-01,2021,12,842,USA,USA,Export,0,W00,World,159080107546
+M,2021-12-01,2021,12,854,BFA,Burkina Faso,Export,0,W00,World,509532403.702
+M,2021-12-01,2021,12,860,UZB,Uzbekistan,Export,0,W00,World,908808654.044
+M,2021-12-01,2021,12,882,WSM,Samoa,Export,0,W00,World,2789316.191
