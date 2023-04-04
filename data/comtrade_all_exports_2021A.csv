@@ -1,151 +1,268 @@
 freqCode,refPeriodId,refYear,refMonth,reporterCode,reporterISO,reporterDesc,flowDesc,partnerCode,partnerISO,partnerDesc,cmdDesc,primaryValue
-A,20210101,2021,52,24,AGO,Angola,Export,0,W00,World,All Commodities,33743790442.26
-A,20210101,2021,52,24,AGO,Angola,Export,12,DZA,Algeria,All Commodities,1726.03
-A,20210101,2021,52,24,AGO,Angola,Export,20,AND,Andorra,All Commodities,154579
-A,20210101,2021,52,24,AGO,Angola,Export,28,ATG,Antigua and Barbuda,All Commodities,20500.41
-A,20210101,2021,52,24,AGO,Angola,Export,31,AZE,Azerbaijan,All Commodities,28434.31
-A,20210101,2021,52,24,AGO,Angola,Export,32,ARG,Argentina,All Commodities,318
-A,20210101,2021,52,24,AGO,Angola,Export,36,AUS,Australia,All Commodities,54883712.14
-A,20210101,2021,52,24,AGO,Angola,Export,40,AUT,Austria,All Commodities,1118.44
-A,20210101,2021,52,24,AGO,Angola,Export,44,BHS,Bahamas,All Commodities,17007.74
-A,20210101,2021,52,24,AGO,Angola,Export,48,BHR,Bahrain,All Commodities,43820
-A,20210101,2021,52,24,AGO,Angola,Export,50,BGD,Bangladesh,All Commodities,41824684.04
-A,20210101,2021,52,24,AGO,Angola,Export,51,ARM,Armenia,All Commodities,62.82
-A,20210101,2021,52,24,AGO,Angola,Export,56,BEL,Belgium,All Commodities,199712947.28
-A,20210101,2021,52,24,AGO,Angola,Export,68,BOL,Bolivia (Plurinational State of),All Commodities,74402.9
-A,20210101,2021,52,24,AGO,Angola,Export,72,BWA,Botswana,All Commodities,7780.63
-A,20210101,2021,52,24,AGO,Angola,Export,76,BRA,Brazil,All Commodities,166289975.34
-A,20210101,2021,52,24,AGO,Angola,Export,96,BRN,Brunei Darussalam,All Commodities,9156.7
-A,20210101,2021,52,24,AGO,Angola,Export,100,BGR,Bulgaria,All Commodities,3000
-A,20210101,2021,52,24,AGO,Angola,Export,112,BLR,Belarus,All Commodities,184.51
-A,20210101,2021,52,24,AGO,Angola,Export,116,KHM,Cambodia,All Commodities,4705
-A,20210101,2021,52,24,AGO,Angola,Export,120,CMR,Cameroon,All Commodities,9439265.72
-A,20210101,2021,52,24,AGO,Angola,Export,124,CAN,Canada,All Commodities,425382554.19
-A,20210101,2021,52,24,AGO,Angola,Export,132,CPV,Cabo Verde,All Commodities,38989.23
-A,20210101,2021,52,24,AGO,Angola,Export,136,CYM,Cayman Isds,All Commodities,4752
-A,20210101,2021,52,24,AGO,Angola,Export,148,TCD,Chad,All Commodities,6454.11
-A,20210101,2021,52,24,AGO,Angola,Export,152,CHL,Chile,All Commodities,518157206.91
-A,20210101,2021,52,24,AGO,Angola,Export,156,CHN,China,All Commodities,20324472216.54
-A,20210101,2021,52,24,AGO,Angola,Export,170,COL,Colombia,All Commodities,36533
-A,20210101,2021,52,24,AGO,Angola,Export,178,COG,Congo,All Commodities,44877180.33
-A,20210101,2021,52,24,AGO,Angola,Export,180,COD,Dem. Rep. of the Congo,All Commodities,262281266.33
-A,20210101,2021,52,24,AGO,Angola,Export,188,CRI,Costa Rica,All Commodities,4637
-A,20210101,2021,52,24,AGO,Angola,Export,191,HRV,Croatia,All Commodities,498
-A,20210101,2021,52,24,AGO,Angola,Export,192,CUB,Cuba,All Commodities,2047639.2
-A,20210101,2021,52,24,AGO,Angola,Export,196,CYP,Cyprus,All Commodities,81420.01
-A,20210101,2021,52,24,AGO,Angola,Export,203,CZE,Czechia,All Commodities,10077580.13
-A,20210101,2021,52,24,AGO,Angola,Export,204,BEN,Benin,All Commodities,352822.55
-A,20210101,2021,52,24,AGO,Angola,Export,208,DNK,Denmark,All Commodities,424140.07
-A,20210101,2021,52,24,AGO,Angola,Export,214,DOM,Dominican Rep.,All Commodities,15392723.32
-A,20210101,2021,52,24,AGO,Angola,Export,218,ECU,Ecuador,All Commodities,41410.01
-A,20210101,2021,52,24,AGO,Angola,Export,226,GNQ,Equatorial Guinea,All Commodities,295935.63
-A,20210101,2021,52,24,AGO,Angola,Export,231,ETH,Ethiopia,All Commodities,95196.45
-A,20210101,2021,52,24,AGO,Angola,Export,232,ERI,Eritrea,All Commodities,73.35
-A,20210101,2021,52,24,AGO,Angola,Export,246,FIN,Finland,All Commodities,1498.26
-A,20210101,2021,52,24,AGO,Angola,Export,251,FRA,France,All Commodities,242534122.34
-A,20210101,2021,52,24,AGO,Angola,Export,262,DJI,Djibouti,All Commodities,8855.4
-A,20210101,2021,52,24,AGO,Angola,Export,266,GAB,Gabon,All Commodities,352248.34
-A,20210101,2021,52,24,AGO,Angola,Export,270,GMB,Gambia,All Commodities,38838
-A,20210101,2021,52,24,AGO,Angola,Export,276,DEU,Germany,All Commodities,2680763.95
-A,20210101,2021,52,24,AGO,Angola,Export,288,GHA,Ghana,All Commodities,5837386.4
-A,20210101,2021,52,24,AGO,Angola,Export,292,GIB,Gibraltar,All Commodities,75871306
-A,20210101,2021,52,24,AGO,Angola,Export,300,GRC,Greece,All Commodities,100377471.18
-A,20210101,2021,52,24,AGO,Angola,Export,324,GIN,Guinea,All Commodities,1262290.68
-A,20210101,2021,52,24,AGO,Angola,Export,344,HKG,"China, Hong Kong SAR",All Commodities,332757.49
-A,20210101,2021,52,24,AGO,Angola,Export,348,HUN,Hungary,All Commodities,4016.15
-A,20210101,2021,52,24,AGO,Angola,Export,352,ISL,Iceland,All Commodities,77023.48
-A,20210101,2021,52,24,AGO,Angola,Export,360,IDN,Indonesia,All Commodities,437786618.65
-A,20210101,2021,52,24,AGO,Angola,Export,372,IRL,Ireland,All Commodities,1356301.95
-A,20210101,2021,52,24,AGO,Angola,Export,376,ISR,Israel,All Commodities,90278105.3
-A,20210101,2021,52,24,AGO,Angola,Export,380,ITA,Italy,All Commodities,639378453.52
-A,20210101,2021,52,24,AGO,Angola,Export,384,CIV,Côte d'Ivoire,All Commodities,16396052.75
-A,20210101,2021,52,24,AGO,Angola,Export,392,JPN,Japan,All Commodities,90440897.09
-A,20210101,2021,52,24,AGO,Angola,Export,398,KAZ,Kazakhstan,All Commodities,17112.81
-A,20210101,2021,52,24,AGO,Angola,Export,404,KEN,Kenya,All Commodities,29542.43
-A,20210101,2021,52,24,AGO,Angola,Export,410,KOR,Rep. of Korea,All Commodities,93030272.85
-A,20210101,2021,52,24,AGO,Angola,Export,414,KWT,Kuwait,All Commodities,44225133.27
-A,20210101,2021,52,24,AGO,Angola,Export,422,LBN,Lebanon,All Commodities,181352.28
-A,20210101,2021,52,24,AGO,Angola,Export,426,LSO,Lesotho,All Commodities,2070
-A,20210101,2021,52,24,AGO,Angola,Export,430,LBR,Liberia,All Commodities,54209.15
-A,20210101,2021,52,24,AGO,Angola,Export,442,LUX,Luxembourg,All Commodities,27617
-A,20210101,2021,52,24,AGO,Angola,Export,446,MAC,"China, Macao SAR",All Commodities,97.94
-A,20210101,2021,52,24,AGO,Angola,Export,450,MDG,Madagascar,All Commodities,18042.15
-A,20210101,2021,52,24,AGO,Angola,Export,454,MWI,Malawi,All Commodities,921.13
-A,20210101,2021,52,24,AGO,Angola,Export,458,MYS,Malaysia,All Commodities,122861812.16
-A,20210101,2021,52,24,AGO,Angola,Export,466,MLI,Mali,All Commodities,46125.94
-A,20210101,2021,52,24,AGO,Angola,Export,470,MLT,Malta,All Commodities,30908.39
-A,20210101,2021,52,24,AGO,Angola,Export,478,MRT,Mauritania,All Commodities,88705.38
-A,20210101,2021,52,24,AGO,Angola,Export,480,MUS,Mauritius,All Commodities,317
-A,20210101,2021,52,24,AGO,Angola,Export,484,MEX,Mexico,All Commodities,169766.62
-A,20210101,2021,52,24,AGO,Angola,Export,490,S19,"Other Asia, nes",All Commodities,135184954.69
-A,20210101,2021,52,24,AGO,Angola,Export,504,MAR,Morocco,All Commodities,11636843.04
-A,20210101,2021,52,24,AGO,Angola,Export,508,MOZ,Mozambique,All Commodities,937481.57
-A,20210101,2021,52,24,AGO,Angola,Export,512,OMN,Oman,All Commodities,23709.29
-A,20210101,2021,52,24,AGO,Angola,Export,516,NAM,Namibia,All Commodities,19246411.3
-A,20210101,2021,52,24,AGO,Angola,Export,528,NLD,Netherlands,All Commodities,469447005.56
-A,20210101,2021,52,24,AGO,Angola,Export,531,CUW,Curaçao,All Commodities,469.06
-A,20210101,2021,52,24,AGO,Angola,Export,548,VUT,Vanuatu,All Commodities,685
-A,20210101,2021,52,24,AGO,Angola,Export,554,NZL,New Zealand,All Commodities,355640
-A,20210101,2021,52,24,AGO,Angola,Export,558,NIC,Nicaragua,All Commodities,8500
-A,20210101,2021,52,24,AGO,Angola,Export,566,NGA,Nigeria,All Commodities,638830.9
-A,20210101,2021,52,24,AGO,Angola,Export,579,NOR,Norway,All Commodities,1875075.29
-A,20210101,2021,52,24,AGO,Angola,Export,584,MHL,Marshall Isds,All Commodities,5298.72
-A,20210101,2021,52,24,AGO,Angola,Export,586,PAK,Pakistan,All Commodities,286338446.37
-A,20210101,2021,52,24,AGO,Angola,Export,591,PAN,Panama,All Commodities,52846.97
-A,20210101,2021,52,24,AGO,Angola,Export,598,PNG,Papua New Guinea,All Commodities,11894
-A,20210101,2021,52,24,AGO,Angola,Export,604,PER,Peru,All Commodities,26891.97
-A,20210101,2021,52,24,AGO,Angola,Export,608,PHL,Philippines,All Commodities,66812.67
-A,20210101,2021,52,24,AGO,Angola,Export,616,POL,Poland,All Commodities,476816.04
-A,20210101,2021,52,24,AGO,Angola,Export,620,PRT,Portugal,All Commodities,80280082.5
-A,20210101,2021,52,24,AGO,Angola,Export,624,GNB,Guinea-Bissau,All Commodities,127.05
-A,20210101,2021,52,24,AGO,Angola,Export,634,QAT,Qatar,All Commodities,247572.94
-A,20210101,2021,52,24,AGO,Angola,Export,642,ROU,Romania,All Commodities,43610.22
-A,20210101,2021,52,24,AGO,Angola,Export,643,RUS,Russian Federation,All Commodities,425377.75
-A,20210101,2021,52,24,AGO,Angola,Export,646,RWA,Rwanda,All Commodities,13777.1
-A,20210101,2021,52,24,AGO,Angola,Export,670,VCT,Saint Vincent and the Grenadines,All Commodities,1337
-A,20210101,2021,52,24,AGO,Angola,Export,678,STP,Sao Tome and Principe,All Commodities,2621593.06
-A,20210101,2021,52,24,AGO,Angola,Export,682,SAU,Saudi Arabia,All Commodities,392522
-A,20210101,2021,52,24,AGO,Angola,Export,686,SEN,Senegal,All Commodities,9168569.64
-A,20210101,2021,52,24,AGO,Angola,Export,688,SRB,Serbia,All Commodities,5000
-A,20210101,2021,52,24,AGO,Angola,Export,690,SYC,Seychelles,All Commodities,138
-A,20210101,2021,52,24,AGO,Angola,Export,694,SLE,Sierra Leone,All Commodities,24923.3
-A,20210101,2021,52,24,AGO,Angola,Export,699,IND,India,All Commodities,3059805954.63
-A,20210101,2021,52,24,AGO,Angola,Export,702,SGP,Singapore,All Commodities,750093627.26
-A,20210101,2021,52,24,AGO,Angola,Export,704,VNM,Viet Nam,All Commodities,29130204.76
-A,20210101,2021,52,24,AGO,Angola,Export,710,ZAF,South Africa,All Commodities,512143495.94
-A,20210101,2021,52,24,AGO,Angola,Export,716,ZWE,Zimbabwe,All Commodities,392.23
-A,20210101,2021,52,24,AGO,Angola,Export,724,ESP,Spain,All Commodities,713659471.38
-A,20210101,2021,52,24,AGO,Angola,Export,729,SDN,Sudan,All Commodities,25418.29
-A,20210101,2021,52,24,AGO,Angola,Export,752,SWE,Sweden,All Commodities,187062.42
-A,20210101,2021,52,24,AGO,Angola,Export,757,CHE,Switzerland,All Commodities,131926.41
-A,20210101,2021,52,24,AGO,Angola,Export,760,SYR,Syria,All Commodities,2201
-A,20210101,2021,52,24,AGO,Angola,Export,764,THA,Thailand,All Commodities,1004971729.5
-A,20210101,2021,52,24,AGO,Angola,Export,768,TGO,Togo,All Commodities,37582427.41
-A,20210101,2021,52,24,AGO,Angola,Export,780,TTO,Trinidad and Tobago,All Commodities,152421.89
-A,20210101,2021,52,24,AGO,Angola,Export,784,ARE,United Arab Emirates,All Commodities,1410405130.37
-A,20210101,2021,52,24,AGO,Angola,Export,788,TUN,Tunisia,All Commodities,5165.75
-A,20210101,2021,52,24,AGO,Angola,Export,792,TUR,Türkiye,All Commodities,5803910.8
-A,20210101,2021,52,24,AGO,Angola,Export,796,TCA,Turks and Caicos Isds,All Commodities,531.69
-A,20210101,2021,52,24,AGO,Angola,Export,800,UGA,Uganda,All Commodities,122.04
-A,20210101,2021,52,24,AGO,Angola,Export,804,UKR,Ukraine,All Commodities,13847.13
-A,20210101,2021,52,24,AGO,Angola,Export,818,EGY,Egypt,All Commodities,388413.57
-A,20210101,2021,52,24,AGO,Angola,Export,826,GBR,United Kingdom,All Commodities,27363215.73
-A,20210101,2021,52,24,AGO,Angola,Export,834,TZA,United Rep. of Tanzania,All Commodities,527172.42
-A,20210101,2021,52,24,AGO,Angola,Export,842,USA,USA,All Commodities,467975600.54
-A,20210101,2021,52,24,AGO,Angola,Export,854,BFA,Burkina Faso,All Commodities,1783.97
-A,20210101,2021,52,24,AGO,Angola,Export,858,URY,Uruguay,All Commodities,334142446.02
-A,20210101,2021,52,24,AGO,Angola,Export,862,VEN,Venezuela,All Commodities,214874.57
-A,20210101,2021,52,24,AGO,Angola,Export,882,WSM,Samoa,All Commodities,10
-A,20210101,2021,52,24,AGO,Angola,Export,894,ZMB,Zambia,All Commodities,35499.65
-A,20210101,2021,52,24,AGO,Angola,Export,899,_X,"Areas, nes",All Commodities,327079519.09
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,22206671115.28
+A,20210101,2021,52,20,AND,Andorra,Export,0,W00,World,All Commodities,163974317.51
+A,20210101,2021,52,20,AND,Andorra,Export,4,AFG,Afghanistan,All Commodities,200.021
+A,20210101,2021,52,20,AND,Andorra,Export,8,ALB,Albania,All Commodities,413.253
+A,20210101,2021,52,20,AND,Andorra,Export,12,DZA,Algeria,All Commodities,3823967.267
+A,20210101,2021,52,20,AND,Andorra,Export,24,AGO,Angola,All Commodities,11763.189
+A,20210101,2021,52,20,AND,Andorra,Export,31,AZE,Azerbaijan,All Commodities,532.567
+A,20210101,2021,52,20,AND,Andorra,Export,32,ARG,Argentina,All Commodities,52290.975
+A,20210101,2021,52,20,AND,Andorra,Export,36,AUS,Australia,All Commodities,131955.197
+A,20210101,2021,52,20,AND,Andorra,Export,40,AUT,Austria,All Commodities,897160.082
+A,20210101,2021,52,20,AND,Andorra,Export,48,BHR,Bahrain,All Commodities,4014.259
+A,20210101,2021,52,20,AND,Andorra,Export,51,ARM,Armenia,All Commodities,699.663
+A,20210101,2021,52,20,AND,Andorra,Export,56,BEL,Belgium,All Commodities,470526.352
+A,20210101,2021,52,20,AND,Andorra,Export,60,BMU,Bermuda,All Commodities,373.822
+A,20210101,2021,52,20,AND,Andorra,Export,70,BIH,Bosnia Herzegovina,All Commodities,551.105
+A,20210101,2021,52,20,AND,Andorra,Export,76,BRA,Brazil,All Commodities,30756.564
+A,20210101,2021,52,20,AND,Andorra,Export,96,BRN,Brunei Darussalam,All Commodities,250.756
+A,20210101,2021,52,20,AND,Andorra,Export,100,BGR,Bulgaria,All Commodities,37657.98
+A,20210101,2021,52,20,AND,Andorra,Export,112,BLR,Belarus,All Commodities,29972.606
+A,20210101,2021,52,20,AND,Andorra,Export,116,KHM,Cambodia,All Commodities,14249.586
+A,20210101,2021,52,20,AND,Andorra,Export,120,CMR,Cameroon,All Commodities,47.053
+A,20210101,2021,52,20,AND,Andorra,Export,124,CAN,Canada,All Commodities,148901.083
+A,20210101,2021,52,20,AND,Andorra,Export,152,CHL,Chile,All Commodities,6984.699
+A,20210101,2021,52,20,AND,Andorra,Export,156,CHN,China,All Commodities,440002.229
+A,20210101,2021,52,20,AND,Andorra,Export,170,COL,Colombia,All Commodities,55005.06
+A,20210101,2021,52,20,AND,Andorra,Export,174,COM,Comoros,All Commodities,9.411
+A,20210101,2021,52,20,AND,Andorra,Export,180,COD,Dem. Rep. of the Congo,All Commodities,1881.746
+A,20210101,2021,52,20,AND,Andorra,Export,191,HRV,Croatia,All Commodities,6491.292
+A,20210101,2021,52,20,AND,Andorra,Export,192,CUB,Cuba,All Commodities,100574.267
+A,20210101,2021,52,20,AND,Andorra,Export,196,CYP,Cyprus,All Commodities,5323.431
+A,20210101,2021,52,20,AND,Andorra,Export,203,CZE,Czechia,All Commodities,15827.853
+A,20210101,2021,52,20,AND,Andorra,Export,204,BEN,Benin,All Commodities,1336.592
+A,20210101,2021,52,20,AND,Andorra,Export,208,DNK,Denmark,All Commodities,2317745.637
+A,20210101,2021,52,20,AND,Andorra,Export,214,DOM,Dominican Rep.,All Commodities,22641.786
+A,20210101,2021,52,20,AND,Andorra,Export,222,SLV,El Salvador,All Commodities,485095.227
+A,20210101,2021,52,20,AND,Andorra,Export,226,GNQ,Equatorial Guinea,All Commodities,335.416
+A,20210101,2021,52,20,AND,Andorra,Export,233,EST,Estonia,All Commodities,1155.733
+A,20210101,2021,52,20,AND,Andorra,Export,246,FIN,Finland,All Commodities,16215.838
+A,20210101,2021,52,20,AND,Andorra,Export,251,FRA,France,All Commodities,24602919.74
+A,20210101,2021,52,20,AND,Andorra,Export,262,DJI,Djibouti,All Commodities,29.408
+A,20210101,2021,52,20,AND,Andorra,Export,266,GAB,Gabon,All Commodities,18.821
+A,20210101,2021,52,20,AND,Andorra,Export,268,GEO,Georgia,All Commodities,1200.057
+A,20210101,2021,52,20,AND,Andorra,Export,276,DEU,Germany,All Commodities,2767282.319
+A,20210101,2021,52,20,AND,Andorra,Export,288,GHA,Ghana,All Commodities,831.599
+A,20210101,2021,52,20,AND,Andorra,Export,292,GIB,Gibraltar,All Commodities,643.317
+A,20210101,2021,52,20,AND,Andorra,Export,300,GRC,Greece,All Commodities,14788.611
+A,20210101,2021,52,20,AND,Andorra,Export,320,GTM,Guatemala,All Commodities,269752.417
+A,20210101,2021,52,20,AND,Andorra,Export,340,HND,Honduras,All Commodities,665747.015
+A,20210101,2021,52,20,AND,Andorra,Export,344,HKG,"China, Hong Kong SAR",All Commodities,854919.293
+A,20210101,2021,52,20,AND,Andorra,Export,348,HUN,Hungary,All Commodities,33838.437
+A,20210101,2021,52,20,AND,Andorra,Export,352,ISL,Iceland,All Commodities,962.841
+A,20210101,2021,52,20,AND,Andorra,Export,360,IDN,Indonesia,All Commodities,254.085
+A,20210101,2021,52,20,AND,Andorra,Export,368,IRQ,Iraq,All Commodities,876.534
+A,20210101,2021,52,20,AND,Andorra,Export,372,IRL,Ireland,All Commodities,68668.252
+A,20210101,2021,52,20,AND,Andorra,Export,376,ISR,Israel,All Commodities,19972.037
+A,20210101,2021,52,20,AND,Andorra,Export,380,ITA,Italy,All Commodities,1725607.024
+A,20210101,2021,52,20,AND,Andorra,Export,384,CIV,Côte d'Ivoire,All Commodities,28.232
+A,20210101,2021,52,20,AND,Andorra,Export,392,JPN,Japan,All Commodities,170420.778
+A,20210101,2021,52,20,AND,Andorra,Export,398,KAZ,Kazakhstan,All Commodities,3598.395
+A,20210101,2021,52,20,AND,Andorra,Export,400,JOR,Jordan,All Commodities,133362.216
+A,20210101,2021,52,20,AND,Andorra,Export,408,PRK,Dem. People's Rep. of Korea,All Commodities,93.87
+A,20210101,2021,52,20,AND,Andorra,Export,410,KOR,Rep. of Korea,All Commodities,66055.659
+A,20210101,2021,52,20,AND,Andorra,Export,414,KWT,Kuwait,All Commodities,142486.486
+A,20210101,2021,52,20,AND,Andorra,Export,417,KGZ,Kyrgyzstan,All Commodities,517.58
+A,20210101,2021,52,20,AND,Andorra,Export,418,LAO,Lao People's Dem. Rep.,All Commodities,1072.932
+A,20210101,2021,52,20,AND,Andorra,Export,422,LBN,Lebanon,All Commodities,349269.588
+A,20210101,2021,52,20,AND,Andorra,Export,440,LTU,Lithuania,All Commodities,17449.915
+A,20210101,2021,52,20,AND,Andorra,Export,442,LUX,Luxembourg,All Commodities,45995.563
+A,20210101,2021,52,20,AND,Andorra,Export,446,MAC,"China, Macao SAR",All Commodities,14174.678
+A,20210101,2021,52,20,AND,Andorra,Export,450,MDG,Madagascar,All Commodities,388.444
+A,20210101,2021,52,20,AND,Andorra,Export,458,MYS,Malaysia,All Commodities,1353.531
+A,20210101,2021,52,20,AND,Andorra,Export,470,MLT,Malta,All Commodities,1889.78
+A,20210101,2021,52,20,AND,Andorra,Export,480,MUS,Mauritius,All Commodities,10886.796
+A,20210101,2021,52,20,AND,Andorra,Export,484,MEX,Mexico,All Commodities,72961.357
+A,20210101,2021,52,20,AND,Andorra,Export,490,S19,"Other Asia, nes",All Commodities,36252.137
+A,20210101,2021,52,20,AND,Andorra,Export,496,MNG,Mongolia,All Commodities,679.571
+A,20210101,2021,52,20,AND,Andorra,Export,498,MDA,Rep. of Moldova,All Commodities,6433.5
+A,20210101,2021,52,20,AND,Andorra,Export,504,MAR,Morocco,All Commodities,6791.066
+A,20210101,2021,52,20,AND,Andorra,Export,512,OMN,Oman,All Commodities,1427.698
+A,20210101,2021,52,20,AND,Andorra,Export,528,NLD,Netherlands,All Commodities,4043674.502
+A,20210101,2021,52,20,AND,Andorra,Export,540,NCL,New Caledonia,All Commodities,55.758
+A,20210101,2021,52,20,AND,Andorra,Export,554,NZL,New Zealand,All Commodities,26040.466
+A,20210101,2021,52,20,AND,Andorra,Export,566,NGA,Nigeria,All Commodities,671.866
+A,20210101,2021,52,20,AND,Andorra,Export,568,E19,"Other Europe, nes",All Commodities,5575787.264
+A,20210101,2021,52,20,AND,Andorra,Export,574,NFK,Norfolk Isds,All Commodities,86.871
+A,20210101,2021,52,20,AND,Andorra,Export,577,F19,"Other Africa, nes",All Commodities,302.879
+A,20210101,2021,52,20,AND,Andorra,Export,579,NOR,Norway,All Commodities,3716610.122
+A,20210101,2021,52,20,AND,Andorra,Export,591,PAN,Panama,All Commodities,9645.098
+A,20210101,2021,52,20,AND,Andorra,Export,604,PER,Peru,All Commodities,25212.514
+A,20210101,2021,52,20,AND,Andorra,Export,608,PHL,Philippines,All Commodities,2346.639
+A,20210101,2021,52,20,AND,Andorra,Export,616,POL,Poland,All Commodities,34687.81
+A,20210101,2021,52,20,AND,Andorra,Export,620,PRT,Portugal,All Commodities,173072.284
+A,20210101,2021,52,20,AND,Andorra,Export,634,QAT,Qatar,All Commodities,25646.987
+A,20210101,2021,52,20,AND,Andorra,Export,642,ROU,Romania,All Commodities,167326.33
+A,20210101,2021,52,20,AND,Andorra,Export,643,RUS,Russian Federation,All Commodities,385002.192
+A,20210101,2021,52,20,AND,Andorra,Export,646,RWA,Rwanda,All Commodities,3217.232
+A,20210101,2021,52,20,AND,Andorra,Export,682,SAU,Saudi Arabia,All Commodities,64301.438
+A,20210101,2021,52,20,AND,Andorra,Export,686,SEN,Senegal,All Commodities,2738.329
+A,20210101,2021,52,20,AND,Andorra,Export,699,IND,India,All Commodities,2627.344
+A,20210101,2021,52,20,AND,Andorra,Export,702,SGP,Singapore,All Commodities,29873.513
+A,20210101,2021,52,20,AND,Andorra,Export,703,SVK,Slovakia,All Commodities,5726.591
+A,20210101,2021,52,20,AND,Andorra,Export,704,VNM,Viet Nam,All Commodities,459.905
+A,20210101,2021,52,20,AND,Andorra,Export,705,SVN,Slovenia,All Commodities,96938.712
+A,20210101,2021,52,20,AND,Andorra,Export,710,ZAF,South Africa,All Commodities,54683.043
+A,20210101,2021,52,20,AND,Andorra,Export,724,ESP,Spain,All Commodities,93709927.808
+A,20210101,2021,52,20,AND,Andorra,Export,748,SWZ,Eswatini,All Commodities,402.913
+A,20210101,2021,52,20,AND,Andorra,Export,752,SWE,Sweden,All Commodities,48239.415
+A,20210101,2021,52,20,AND,Andorra,Export,757,CHE,Switzerland,All Commodities,1160169.475
+A,20210101,2021,52,20,AND,Andorra,Export,764,THA,Thailand,All Commodities,1540.578
+A,20210101,2021,52,20,AND,Andorra,Export,768,TGO,Togo,All Commodities,28.232
+A,20210101,2021,52,20,AND,Andorra,Export,784,ARE,United Arab Emirates,All Commodities,1720194.946
+A,20210101,2021,52,20,AND,Andorra,Export,788,TUN,Tunisia,All Commodities,18.821
+A,20210101,2021,52,20,AND,Andorra,Export,792,TUR,Türkiye,All Commodities,7060.266
+A,20210101,2021,52,20,AND,Andorra,Export,804,UKR,Ukraine,All Commodities,1215059.597
+A,20210101,2021,52,20,AND,Andorra,Export,807,MKD,North Macedonia,All Commodities,17.645
+A,20210101,2021,52,20,AND,Andorra,Export,818,EGY,Egypt,All Commodities,90943.321
+A,20210101,2021,52,20,AND,Andorra,Export,826,GBR,United Kingdom,All Commodities,9343724.932
+A,20210101,2021,52,20,AND,Andorra,Export,842,USA,USA,All Commodities,20207.3
+A,20210101,2021,52,20,AND,Andorra,Export,854,BFA,Burkina Faso,All Commodities,2.353
+A,20210101,2021,52,20,AND,Andorra,Export,858,URY,Uruguay,All Commodities,151.098
+A,20210101,2021,52,20,AND,Andorra,Export,860,UZB,Uzbekistan,All Commodities,1104.164
+A,20210101,2021,52,20,AND,Andorra,Export,899,_X,"Areas, nes",All Commodities,963977.784
+A,20210101,2021,52,24,AGO,Angola,Export,0,W00,World,All Commodities,33260057816.965
+A,20210101,2021,52,24,AGO,Angola,Export,12,DZA,Algeria,All Commodities,1627.408
+A,20210101,2021,52,24,AGO,Angola,Export,20,AND,Andorra,All Commodities,146206.687
+A,20210101,2021,52,24,AGO,Angola,Export,28,ATG,Antigua and Barbuda,All Commodities,7100.608
+A,20210101,2021,52,24,AGO,Angola,Export,31,AZE,Azerbaijan,All Commodities,4714.329
+A,20210101,2021,52,24,AGO,Angola,Export,32,ARG,Argentina,All Commodities,502.152
+A,20210101,2021,52,24,AGO,Angola,Export,36,AUS,Australia,All Commodities,57958103.915
+A,20210101,2021,52,24,AGO,Angola,Export,40,AUT,Austria,All Commodities,5946.426
+A,20210101,2021,52,24,AGO,Angola,Export,44,BHS,Bahamas,All Commodities,12851.509
+A,20210101,2021,52,24,AGO,Angola,Export,48,BHR,Bahrain,All Commodities,41580.114
+A,20210101,2021,52,24,AGO,Angola,Export,50,BGD,Bangladesh,All Commodities,42197099.611
+A,20210101,2021,52,24,AGO,Angola,Export,56,BEL,Belgium,All Commodities,198085519.33
+A,20210101,2021,52,24,AGO,Angola,Export,68,BOL,Bolivia (Plurinational State of),All Commodities,66527.676
+A,20210101,2021,52,24,AGO,Angola,Export,72,BWA,Botswana,All Commodities,7957.378
+A,20210101,2021,52,24,AGO,Angola,Export,76,BRA,Brazil,All Commodities,166412197.365
+A,20210101,2021,52,24,AGO,Angola,Export,96,BRN,Brunei Darussalam,All Commodities,9307.848
+A,20210101,2021,52,24,AGO,Angola,Export,100,BGR,Bulgaria,All Commodities,2961.376
+A,20210101,2021,52,24,AGO,Angola,Export,116,KHM,Cambodia,All Commodities,4728.653
+A,20210101,2021,52,24,AGO,Angola,Export,120,CMR,Cameroon,All Commodities,10366672.886
+A,20210101,2021,52,24,AGO,Angola,Export,124,CAN,Canada,All Commodities,407356591.173
+A,20210101,2021,52,24,AGO,Angola,Export,132,CPV,Cabo Verde,All Commodities,36450.683
+A,20210101,2021,52,24,AGO,Angola,Export,148,TCD,Chad,All Commodities,7324.648
+A,20210101,2021,52,24,AGO,Angola,Export,152,CHL,Chile,All Commodities,518264559.233
+A,20210101,2021,52,24,AGO,Angola,Export,156,CHN,China,All Commodities,20058019571.077
+A,20210101,2021,52,24,AGO,Angola,Export,170,COL,Colombia,All Commodities,35022.49
+A,20210101,2021,52,24,AGO,Angola,Export,178,COG,Congo,All Commodities,26844694.611
+A,20210101,2021,52,24,AGO,Angola,Export,180,COD,Dem. Rep. of the Congo,All Commodities,250777794.625
+A,20210101,2021,52,24,AGO,Angola,Export,188,CRI,Costa Rica,All Commodities,4742.229
+A,20210101,2021,52,24,AGO,Angola,Export,191,HRV,Croatia,All Commodities,503.374
+A,20210101,2021,52,24,AGO,Angola,Export,192,CUB,Cuba,All Commodities,714619.715
+A,20210101,2021,52,24,AGO,Angola,Export,196,CYP,Cyprus,All Commodities,86194.759
+A,20210101,2021,52,24,AGO,Angola,Export,203,CZE,Czechia,All Commodities,9829340.036
+A,20210101,2021,52,24,AGO,Angola,Export,204,BEN,Benin,All Commodities,501178.005
+A,20210101,2021,52,24,AGO,Angola,Export,208,DNK,Denmark,All Commodities,559187.384
+A,20210101,2021,52,24,AGO,Angola,Export,214,DOM,Dominican Rep.,All Commodities,15051889.501
+A,20210101,2021,52,24,AGO,Angola,Export,218,ECU,Ecuador,All Commodities,42013.018
+A,20210101,2021,52,24,AGO,Angola,Export,226,GNQ,Equatorial Guinea,All Commodities,373465.376
+A,20210101,2021,52,24,AGO,Angola,Export,231,ETH,Ethiopia,All Commodities,67053.147
+A,20210101,2021,52,24,AGO,Angola,Export,232,ERI,Eritrea,All Commodities,72.283
+A,20210101,2021,52,24,AGO,Angola,Export,246,FIN,Finland,All Commodities,3890.764
+A,20210101,2021,52,24,AGO,Angola,Export,251,FRA,France,All Commodities,234019827.851
+A,20210101,2021,52,24,AGO,Angola,Export,262,DJI,Djibouti,All Commodities,8723.634
+A,20210101,2021,52,24,AGO,Angola,Export,266,GAB,Gabon,All Commodities,332341.321
+A,20210101,2021,52,24,AGO,Angola,Export,270,GMB,Gambia,All Commodities,18192.026
+A,20210101,2021,52,24,AGO,Angola,Export,276,DEU,Germany,All Commodities,4314213.085
+A,20210101,2021,52,24,AGO,Angola,Export,288,GHA,Ghana,All Commodities,7596021.605
+A,20210101,2021,52,24,AGO,Angola,Export,292,GIB,Gibraltar,All Commodities,67659073.833
+A,20210101,2021,52,24,AGO,Angola,Export,300,GRC,Greece,All Commodities,95018862.143
+A,20210101,2021,52,24,AGO,Angola,Export,324,GIN,Guinea,All Commodities,1259181.74
+A,20210101,2021,52,24,AGO,Angola,Export,344,HKG,"China, Hong Kong SAR",All Commodities,301331.22
+A,20210101,2021,52,24,AGO,Angola,Export,348,HUN,Hungary,All Commodities,3696.682
+A,20210101,2021,52,24,AGO,Angola,Export,352,ISL,Iceland,All Commodities,5651.383
+A,20210101,2021,52,24,AGO,Angola,Export,360,IDN,Indonesia,All Commodities,444254841.035
+A,20210101,2021,52,24,AGO,Angola,Export,368,IRQ,Iraq,All Commodities,1926.929
+A,20210101,2021,52,24,AGO,Angola,Export,372,IRL,Ireland,All Commodities,1330433.339
+A,20210101,2021,52,24,AGO,Angola,Export,376,ISR,Israel,All Commodities,90721874.385
+A,20210101,2021,52,24,AGO,Angola,Export,380,ITA,Italy,All Commodities,630907230.612
+A,20210101,2021,52,24,AGO,Angola,Export,384,CIV,Côte d'Ivoire,All Commodities,16167060.003
+A,20210101,2021,52,24,AGO,Angola,Export,392,JPN,Japan,All Commodities,88265965.3
+A,20210101,2021,52,24,AGO,Angola,Export,398,KAZ,Kazakhstan,All Commodities,1734.082
+A,20210101,2021,52,24,AGO,Angola,Export,404,KEN,Kenya,All Commodities,27911.283
+A,20210101,2021,52,24,AGO,Angola,Export,410,KOR,Rep. of Korea,All Commodities,91051443.139
+A,20210101,2021,52,24,AGO,Angola,Export,414,KWT,Kuwait,All Commodities,44973850.014
+A,20210101,2021,52,24,AGO,Angola,Export,422,LBN,Lebanon,All Commodities,203008.014
+A,20210101,2021,52,24,AGO,Angola,Export,426,LSO,Lesotho,All Commodities,2118.653
+A,20210101,2021,52,24,AGO,Angola,Export,430,LBR,Liberia,All Commodities,65764.044
+A,20210101,2021,52,24,AGO,Angola,Export,442,LUX,Luxembourg,All Commodities,3402.129
+A,20210101,2021,52,24,AGO,Angola,Export,446,MAC,"China, Macao SAR",All Commodities,100.514
+A,20210101,2021,52,24,AGO,Angola,Export,450,MDG,Madagascar,All Commodities,33101.763
+A,20210101,2021,52,24,AGO,Angola,Export,454,MWI,Malawi,All Commodities,4733.807
+A,20210101,2021,52,24,AGO,Angola,Export,458,MYS,Malaysia,All Commodities,122300130.067
+A,20210101,2021,52,24,AGO,Angola,Export,466,MLI,Mali,All Commodities,1072274.346
+A,20210101,2021,52,24,AGO,Angola,Export,470,MLT,Malta,All Commodities,39774.976
+A,20210101,2021,52,24,AGO,Angola,Export,478,MRT,Mauritania,All Commodities,165637.664
+A,20210101,2021,52,24,AGO,Angola,Export,480,MUS,Mauritius,All Commodities,10907.236
+A,20210101,2021,52,24,AGO,Angola,Export,484,MEX,Mexico,All Commodities,164508.211
+A,20210101,2021,52,24,AGO,Angola,Export,490,S19,"Other Asia, nes",All Commodities,135105848.451
+A,20210101,2021,52,24,AGO,Angola,Export,504,MAR,Morocco,All Commodities,11643239.035
+A,20210101,2021,52,24,AGO,Angola,Export,508,MOZ,Mozambique,All Commodities,866031.113
+A,20210101,2021,52,24,AGO,Angola,Export,512,OMN,Oman,All Commodities,24440.885
+A,20210101,2021,52,24,AGO,Angola,Export,516,NAM,Namibia,All Commodities,21076303.05
+A,20210101,2021,52,24,AGO,Angola,Export,528,NLD,Netherlands,All Commodities,460248776.693
+A,20210101,2021,52,24,AGO,Angola,Export,531,CUW,Curaçao,All Commodities,13.461
+A,20210101,2021,52,24,AGO,Angola,Export,554,NZL,New Zealand,All Commodities,368373.99
+A,20210101,2021,52,24,AGO,Angola,Export,558,NIC,Nicaragua,All Commodities,8049.795
+A,20210101,2021,52,24,AGO,Angola,Export,566,NGA,Nigeria,All Commodities,877100.485
+A,20210101,2021,52,24,AGO,Angola,Export,579,NOR,Norway,All Commodities,4403747.193
+A,20210101,2021,52,24,AGO,Angola,Export,584,MHL,Marshall Isds,All Commodities,3914.202
+A,20210101,2021,52,24,AGO,Angola,Export,586,PAK,Pakistan,All Commodities,281446850.489
+A,20210101,2021,52,24,AGO,Angola,Export,591,PAN,Panama,All Commodities,33415.011
+A,20210101,2021,52,24,AGO,Angola,Export,598,PNG,Papua New Guinea,All Commodities,12092.822
+A,20210101,2021,52,24,AGO,Angola,Export,604,PER,Peru,All Commodities,13865.146
+A,20210101,2021,52,24,AGO,Angola,Export,608,PHL,Philippines,All Commodities,68033.827
+A,20210101,2021,52,24,AGO,Angola,Export,616,POL,Poland,All Commodities,278052.73
+A,20210101,2021,52,24,AGO,Angola,Export,620,PRT,Portugal,All Commodities,80821357.174
+A,20210101,2021,52,24,AGO,Angola,Export,624,GNB,Guinea-Bissau,All Commodities,120.391
+A,20210101,2021,52,24,AGO,Angola,Export,634,QAT,Qatar,All Commodities,267546.32
+A,20210101,2021,52,24,AGO,Angola,Export,642,ROU,Romania,All Commodities,44373.649
+A,20210101,2021,52,24,AGO,Angola,Export,643,RUS,Russian Federation,All Commodities,472013.949
+A,20210101,2021,52,24,AGO,Angola,Export,646,RWA,Rwanda,All Commodities,4862.185
+A,20210101,2021,52,24,AGO,Angola,Export,670,VCT,Saint Vincent and the Grenadines,All Commodities,1361.467
+A,20210101,2021,52,24,AGO,Angola,Export,678,STP,Sao Tome and Principe,All Commodities,2910709.466
+A,20210101,2021,52,24,AGO,Angola,Export,682,SAU,Saudi Arabia,All Commodities,274521.278
+A,20210101,2021,52,24,AGO,Angola,Export,686,SEN,Senegal,All Commodities,11490672.158
+A,20210101,2021,52,24,AGO,Angola,Export,688,SRB,Serbia,All Commodities,5083.581
+A,20210101,2021,52,24,AGO,Angola,Export,690,SYC,Seychelles,All Commodities,2051.6
+A,20210101,2021,52,24,AGO,Angola,Export,694,SLE,Sierra Leone,All Commodities,35367.964
+A,20210101,2021,52,24,AGO,Angola,Export,699,IND,India,All Commodities,3008283839.877
+A,20210101,2021,52,24,AGO,Angola,Export,702,SGP,Singapore,All Commodities,752118624.291
+A,20210101,2021,52,24,AGO,Angola,Export,704,VNM,Viet Nam,All Commodities,29197667.65
+A,20210101,2021,52,24,AGO,Angola,Export,710,ZAF,South Africa,All Commodities,501994777.406
+A,20210101,2021,52,24,AGO,Angola,Export,716,ZWE,Zimbabwe,All Commodities,194.779
+A,20210101,2021,52,24,AGO,Angola,Export,724,ESP,Spain,All Commodities,665776537.679
+A,20210101,2021,52,24,AGO,Angola,Export,729,SDN,Sudan,All Commodities,25699.447
+A,20210101,2021,52,24,AGO,Angola,Export,752,SWE,Sweden,All Commodities,186485.932
+A,20210101,2021,52,24,AGO,Angola,Export,757,CHE,Switzerland,All Commodities,125634.297
+A,20210101,2021,52,24,AGO,Angola,Export,760,SYR,Syria,All Commodities,2258.706
+A,20210101,2021,52,24,AGO,Angola,Export,764,THA,Thailand,All Commodities,1004833529.77
+A,20210101,2021,52,24,AGO,Angola,Export,768,TGO,Togo,All Commodities,38416289.898
+A,20210101,2021,52,24,AGO,Angola,Export,780,TTO,Trinidad and Tobago,All Commodities,177761.177
+A,20210101,2021,52,24,AGO,Angola,Export,784,ARE,United Arab Emirates,All Commodities,1392782008.273
+A,20210101,2021,52,24,AGO,Angola,Export,788,TUN,Tunisia,All Commodities,5524.193
+A,20210101,2021,52,24,AGO,Angola,Export,792,TUR,Türkiye,All Commodities,5981207.413
+A,20210101,2021,52,24,AGO,Angola,Export,796,TCA,Turks and Caicos Isds,All Commodities,535.201
+A,20210101,2021,52,24,AGO,Angola,Export,800,UGA,Uganda,All Commodities,119.25
+A,20210101,2021,52,24,AGO,Angola,Export,804,UKR,Ukraine,All Commodities,13817.948
+A,20210101,2021,52,24,AGO,Angola,Export,818,EGY,Egypt,All Commodities,270634.959
+A,20210101,2021,52,24,AGO,Angola,Export,826,GBR,United Kingdom,All Commodities,28700078.228
+A,20210101,2021,52,24,AGO,Angola,Export,834,TZA,United Rep. of Tanzania,All Commodities,498359.552
+A,20210101,2021,52,24,AGO,Angola,Export,842,USA,USA,All Commodities,459769466.374
+A,20210101,2021,52,24,AGO,Angola,Export,854,BFA,Burkina Faso,All Commodities,708.206
+A,20210101,2021,52,24,AGO,Angola,Export,858,URY,Uruguay,All Commodities,333653105.652
+A,20210101,2021,52,24,AGO,Angola,Export,862,VEN,Venezuela,All Commodities,129264.591
+A,20210101,2021,52,24,AGO,Angola,Export,894,ZMB,Zambia,All Commodities,32892.131
+A,20210101,2021,52,24,AGO,Angola,Export,899,_X,"Areas, nes",All Commodities,318057993.055
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,22207974784.94
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,4,AFG,Afghanistan,All Commodities,6484697.48
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,8,ALB,Albania,All Commodities,4293076.83
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,12,DZA,Algeria,All Commodities,9457.32
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,24,AGO,Angola,All Commodities,123724.65
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,32,ARG,Argentina,All Commodities,11798.84
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,36,AUS,Australia,All Commodities,21309676.14
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,40,AUT,Austria,All Commodities,139994930.37
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,40,AUT,Austria,All Commodities,139980373.13
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,48,BHR,Bahrain,All Commodities,5776
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,50,BGD,Bangladesh,All Commodities,290215.99
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,56,BEL,Belgium,All Commodities,33156468.41
@@ -175,9 +292,9 @@ A,20210101,2021,52,31,AZE,Azerbaijan,Export,246,FIN,Finland,All Commodities,3766
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,251,FRA,France,All Commodities,64595191.08
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,262,DJI,Djibouti,All Commodities,17520
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,266,GAB,Gabon,All Commodities,12121
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,268,GEO,Georgia,All Commodities,661080660.78
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,268,GEO,Georgia,All Commodities,661042747.52
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,275,PSE,State of Palestine,All Commodities,149207.45
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,276,DEU,Germany,All Commodities,650258950.34
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,276,DEU,Germany,All Commodities,650258544.83
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,288,GHA,Ghana,All Commodities,146529.7
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,292,GIB,Gibraltar,All Commodities,59598458.55
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,300,GRC,Greece,All Commodities,415415945.19
@@ -186,14 +303,14 @@ A,20210101,2021,52,31,AZE,Azerbaijan,Export,344,HKG,"China, Hong Kong SAR",All C
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,348,HUN,Hungary,All Commodities,1793172.49
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,352,ISL,Iceland,All Commodities,6183.85
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,360,IDN,Indonesia,All Commodities,87318606.13
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,364,IRN,Iran,All Commodities,43287148.68
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,364,IRN,Iran,All Commodities,45600403.76
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,368,IRQ,Iraq,All Commodities,23083135.07
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,372,IRL,Ireland,All Commodities,41755984.22
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,376,ISR,Israel,All Commodities,898096979.86
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,380,ITA,Italy,All Commodities,9243521374.26
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,384,CIV,Côte d'Ivoire,All Commodities,310007.02
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,392,JPN,Japan,All Commodities,15819550.62
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,398,KAZ,Kazakhstan,All Commodities,39893969.62
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,398,KAZ,Kazakhstan,All Commodities,38835313.48
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,400,JOR,Jordan,All Commodities,621362.73
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,410,KOR,Rep. of Korea,All Commodities,83806.8
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,414,KWT,Kuwait,All Commodities,288345.62
@@ -225,7 +342,7 @@ A,20210101,2021,52,31,AZE,Azerbaijan,Export,616,POL,Poland,All Commodities,54571
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,620,PRT,Portugal,All Commodities,587440314.69
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,634,QAT,Qatar,All Commodities,1490431.37
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,642,ROU,Romania,All Commodities,120591516.76
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,643,RUS,Russian Federation,All Commodities,920819534.41
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,643,RUS,Russian Federation,All Commodities,920821837.48
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,674,SMR,San Marino,All Commodities,144672.99
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,682,SAU,Saudi Arabia,All Commodities,12467687.06
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,686,SEN,Senegal,All Commodities,393747.72
@@ -241,7 +358,7 @@ A,20210101,2021,52,31,AZE,Azerbaijan,Export,710,ZAF,South Africa,All Commodities
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,724,ESP,Spain,All Commodities,564436233.04
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,729,SDN,Sudan,All Commodities,88251.65
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,752,SWE,Sweden,All Commodities,5691506.33
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,757,CHE,Switzerland,All Commodities,272548625.04
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,757,CHE,Switzerland,All Commodities,272667686.42
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,760,SYR,Syria,All Commodities,120620
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,762,TJK,Tajikistan,All Commodities,7331410.04
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,764,THA,Thailand,All Commodities,134160645.04
@@ -249,7 +366,7 @@ A,20210101,2021,52,31,AZE,Azerbaijan,Export,768,TGO,Togo,All Commodities,1857589
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,780,TTO,Trinidad and Tobago,All Commodities,159997.32
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,784,ARE,United Arab Emirates,All Commodities,14042293.47
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,788,TUN,Tunisia,All Commodities,577312210.7
-A,20210101,2021,52,31,AZE,Azerbaijan,Export,792,TUR,Türkiye,All Commodities,2818136001.86
+A,20210101,2021,52,31,AZE,Azerbaijan,Export,792,TUR,Türkiye,All Commodities,2818116584.14
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,795,TKM,Turkmenistan,All Commodities,34275955.56
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,804,UKR,Ukraine,All Commodities,452449318.81
 A,20210101,2021,52,31,AZE,Azerbaijan,Export,807,MKD,North Macedonia,All Commodities,326856.48
@@ -9813,8 +9930,8 @@ A,20210101,2021,52,414,KWT,Kuwait,Export,862,VEN,Venezuela,All Commodities,19758
 A,20210101,2021,52,414,KWT,Kuwait,Export,887,YEM,Yemen,All Commodities,20219744
 A,20210101,2021,52,414,KWT,Kuwait,Export,894,ZMB,Zambia,All Commodities,2789
 A,20210101,2021,52,414,KWT,Kuwait,Export,899,_X,"Areas, nes",All Commodities,57826313946
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,1688227965
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,4,AFG,Afghanistan,All Commodities,13626801
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,2752163636
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,4,AFG,Afghanistan,All Commodities,13203621
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,8,ALB,Albania,All Commodities,172920
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,12,DZA,Algeria,All Commodities,13090
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,31,AZE,Azerbaijan,All Commodities,4277478
@@ -9822,11 +9939,11 @@ A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,36,AUS,Australia,All Commodities,11
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,40,AUT,Austria,All Commodities,17491
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,48,BHR,Bahrain,All Commodities,15273
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,50,BGD,Bangladesh,All Commodities,44567
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,51,ARM,Armenia,All Commodities,76499
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,51,ARM,Armenia,All Commodities,104217
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,56,BEL,Belgium,All Commodities,7566148
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,70,BIH,Bosnia Herzegovina,All Commodities,552133
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,100,BGR,Bulgaria,All Commodities,5139466
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,112,BLR,Belarus,All Commodities,13578750
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,112,BLR,Belarus,All Commodities,15690746
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,124,CAN,Canada,All Commodities,654126
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,140,CAF,Central African Rep.,All Commodities,6700
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,156,CHN,China,All Commodities,64090574
@@ -9837,7 +9954,7 @@ A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,233,EST,Estonia,All Commodities,119
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,246,FIN,Finland,All Commodities,67267
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,251,FRA,France,All Commodities,321302
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,268,GEO,Georgia,All Commodities,7061269
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,276,DEU,Germany,All Commodities,12526193
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,276,DEU,Germany,All Commodities,12513432
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,288,GHA,Ghana,All Commodities,580
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,300,GRC,Greece,All Commodities,639316
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,344,HKG,"China, Hong Kong SAR",All Commodities,22907914
@@ -9849,8 +9966,8 @@ A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,368,IRQ,Iraq,All Commodities,957451
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,372,IRL,Ireland,All Commodities,1174
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,376,ISR,Israel,All Commodities,25177
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,380,ITA,Italy,All Commodities,9700636
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,392,JPN,Japan,All Commodities,493638
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,398,KAZ,Kazakhstan,All Commodities,430762340
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,392,JPN,Japan,All Commodities,488024
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,398,KAZ,Kazakhstan,All Commodities,382189210
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,400,JOR,Jordan,All Commodities,795913
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,404,KEN,Kenya,All Commodities,443
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,410,KOR,Rep. of Korea,All Commodities,587850
@@ -9878,7 +9995,7 @@ A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,616,POL,Poland,All Commodities,1215
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,620,PRT,Portugal,All Commodities,6698
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,634,QAT,Qatar,All Commodities,103236
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,642,ROU,Romania,All Commodities,463888
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,643,RUS,Russian Federation,All Commodities,387266638
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,643,RUS,Russian Federation,All Commodities,392408993
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,660,AIA,Anguilla,All Commodities,2
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,682,SAU,Saudi Arabia,All Commodities,453901
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,688,SRB,Serbia,All Commodities,8734461
@@ -9895,7 +10012,7 @@ A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,757,CHE,Switzerland,All Commodities
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,760,SYR,Syria,All Commodities,5572521
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,762,TJK,Tajikistan,All Commodities,23794237
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,764,THA,Thailand,All Commodities,1200
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,784,ARE,United Arab Emirates,All Commodities,54505579
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,784,ARE,United Arab Emirates,All Commodities,54463144
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,792,TUR,Türkiye,All Commodities,90267794
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,795,TKM,Turkmenistan,All Commodities,5065881
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,804,UKR,Ukraine,All Commodities,6487694
@@ -9903,8 +10020,8 @@ A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,807,MKD,North Macedonia,All Commodi
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,818,EGY,Egypt,All Commodities,2026087
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,826,GBR,United Kingdom,All Commodities,234232560
 A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,842,USA,USA,All Commodities,4119255
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,860,UZB,Uzbekistan,All Commodities,180109409
-A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,899,_X,"Areas, nes",All Commodities,7787905
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,860,UZB,Uzbekistan,All Commodities,180096466
+A,20210101,2021,52,417,KGZ,Kyrgyzstan,Export,899,_X,"Areas, nes",All Commodities,1113511570
 A,20210101,2021,52,418,LAO,Lao People's Dem. Rep.,Export,0,W00,World,All Commodities,7164605459.07
 A,20210101,2021,52,418,LAO,Lao People's Dem. Rep.,Export,24,AGO,Angola,All Commodities,347779.53
 A,20210101,2021,52,418,LAO,Lao People's Dem. Rep.,Export,28,ATG,Antigua and Barbuda,All Commodities,62647.5
@@ -10176,6 +10293,96 @@ A,20210101,2021,52,422,LBN,Lebanon,Export,862,VEN,Venezuela,All Commodities,7103
 A,20210101,2021,52,422,LBN,Lebanon,Export,887,YEM,Yemen,All Commodities,7981963
 A,20210101,2021,52,422,LBN,Lebanon,Export,894,ZMB,Zambia,All Commodities,2461520
 A,20210101,2021,52,422,LBN,Lebanon,Export,899,_X,"Areas, nes",All Commodities,8317938
+A,20210101,2021,52,426,LSO,Lesotho,Export,0,W00,World,All Commodities,948535188.45
+A,20210101,2021,52,426,LSO,Lesotho,Export,12,DZA,Algeria,All Commodities,514.901
+A,20210101,2021,52,426,LSO,Lesotho,Export,24,AGO,Angola,All Commodities,53238.839
+A,20210101,2021,52,426,LSO,Lesotho,Export,32,ARG,Argentina,All Commodities,13760.332
+A,20210101,2021,52,426,LSO,Lesotho,Export,36,AUS,Australia,All Commodities,266126.279
+A,20210101,2021,52,426,LSO,Lesotho,Export,40,AUT,Austria,All Commodities,60
+A,20210101,2021,52,426,LSO,Lesotho,Export,50,BGD,Bangladesh,All Commodities,969758.338
+A,20210101,2021,52,426,LSO,Lesotho,Export,56,BEL,Belgium,All Commodities,175468260.745
+A,20210101,2021,52,426,LSO,Lesotho,Export,64,BTN,Bhutan,All Commodities,36144.708
+A,20210101,2021,52,426,LSO,Lesotho,Export,68,BOL,Bolivia (Plurinational State of),All Commodities,2919.484
+A,20210101,2021,52,426,LSO,Lesotho,Export,72,BWA,Botswana,All Commodities,2381384.77
+A,20210101,2021,52,426,LSO,Lesotho,Export,90,SLB,Solomon Isds,All Commodities,27860.504
+A,20210101,2021,52,426,LSO,Lesotho,Export,100,BGR,Bulgaria,All Commodities,1436.27
+A,20210101,2021,52,426,LSO,Lesotho,Export,108,BDI,Burundi,All Commodities,38.016
+A,20210101,2021,52,426,LSO,Lesotho,Export,116,KHM,Cambodia,All Commodities,12.446
+A,20210101,2021,52,426,LSO,Lesotho,Export,120,CMR,Cameroon,All Commodities,24.419
+A,20210101,2021,52,426,LSO,Lesotho,Export,124,CAN,Canada,All Commodities,5815945.085
+A,20210101,2021,52,426,LSO,Lesotho,Export,152,CHL,Chile,All Commodities,128678.807
+A,20210101,2021,52,426,LSO,Lesotho,Export,156,CHN,China,All Commodities,223388.382
+A,20210101,2021,52,426,LSO,Lesotho,Export,178,COG,Congo,All Commodities,142498.124
+A,20210101,2021,52,426,LSO,Lesotho,Export,180,COD,Dem. Rep. of the Congo,All Commodities,147362.69
+A,20210101,2021,52,426,LSO,Lesotho,Export,191,HRV,Croatia,All Commodities,27292.707
+A,20210101,2021,52,426,LSO,Lesotho,Export,204,BEN,Benin,All Commodities,10146.491
+A,20210101,2021,52,426,LSO,Lesotho,Export,208,DNK,Denmark,All Commodities,340.313
+A,20210101,2021,52,426,LSO,Lesotho,Export,214,DOM,Dominican Rep.,All Commodities,9089.632
+A,20210101,2021,52,426,LSO,Lesotho,Export,231,ETH,Ethiopia,All Commodities,260725.235
+A,20210101,2021,52,426,LSO,Lesotho,Export,246,FIN,Finland,All Commodities,2.976
+A,20210101,2021,52,426,LSO,Lesotho,Export,251,FRA,France,All Commodities,56524.272
+A,20210101,2021,52,426,LSO,Lesotho,Export,276,DEU,Germany,All Commodities,7707402.706
+A,20210101,2021,52,426,LSO,Lesotho,Export,288,GHA,Ghana,All Commodities,6606.921
+A,20210101,2021,52,426,LSO,Lesotho,Export,300,GRC,Greece,All Commodities,22.999
+A,20210101,2021,52,426,LSO,Lesotho,Export,332,HTI,Haiti,All Commodities,14272.054
+A,20210101,2021,52,426,LSO,Lesotho,Export,344,HKG,"China, Hong Kong SAR",All Commodities,26727.141
+A,20210101,2021,52,426,LSO,Lesotho,Export,348,HUN,Hungary,All Commodities,104219.677
+A,20210101,2021,52,426,LSO,Lesotho,Export,372,IRL,Ireland,All Commodities,1228.808
+A,20210101,2021,52,426,LSO,Lesotho,Export,376,ISR,Israel,All Commodities,7562.518
+A,20210101,2021,52,426,LSO,Lesotho,Export,380,ITA,Italy,All Commodities,1996.694
+A,20210101,2021,52,426,LSO,Lesotho,Export,392,JPN,Japan,All Commodities,489848.413
+A,20210101,2021,52,426,LSO,Lesotho,Export,400,JOR,Jordan,All Commodities,5.344
+A,20210101,2021,52,426,LSO,Lesotho,Export,404,KEN,Kenya,All Commodities,108898.9
+A,20210101,2021,52,426,LSO,Lesotho,Export,410,KOR,Rep. of Korea,All Commodities,51007.49
+A,20210101,2021,52,426,LSO,Lesotho,Export,428,LVA,Latvia,All Commodities,3.382
+A,20210101,2021,52,426,LSO,Lesotho,Export,450,MDG,Madagascar,All Commodities,83992.175
+A,20210101,2021,52,426,LSO,Lesotho,Export,454,MWI,Malawi,All Commodities,62488.312
+A,20210101,2021,52,426,LSO,Lesotho,Export,458,MYS,Malaysia,All Commodities,188010.41
+A,20210101,2021,52,426,LSO,Lesotho,Export,480,MUS,Mauritius,All Commodities,1308289.77
+A,20210101,2021,52,426,LSO,Lesotho,Export,484,MEX,Mexico,All Commodities,2084655.932
+A,20210101,2021,52,426,LSO,Lesotho,Export,490,S19,"Other Asia, nes",All Commodities,912860.134
+A,20210101,2021,52,426,LSO,Lesotho,Export,508,MOZ,Mozambique,All Commodities,280871.091
+A,20210101,2021,52,426,LSO,Lesotho,Export,516,NAM,Namibia,All Commodities,8671.867
+A,20210101,2021,52,426,LSO,Lesotho,Export,528,NLD,Netherlands,All Commodities,169042.426
+A,20210101,2021,52,426,LSO,Lesotho,Export,554,NZL,New Zealand,All Commodities,375234.4
+A,20210101,2021,52,426,LSO,Lesotho,Export,566,NGA,Nigeria,All Commodities,12049.972
+A,20210101,2021,52,426,LSO,Lesotho,Export,579,NOR,Norway,All Commodities,54.115
+A,20210101,2021,52,426,LSO,Lesotho,Export,586,PAK,Pakistan,All Commodities,125.749
+A,20210101,2021,52,426,LSO,Lesotho,Export,598,PNG,Papua New Guinea,All Commodities,77.249
+A,20210101,2021,52,426,LSO,Lesotho,Export,604,PER,Peru,All Commodities,5427.155
+A,20210101,2021,52,426,LSO,Lesotho,Export,608,PHL,Philippines,All Commodities,997.265
+A,20210101,2021,52,426,LSO,Lesotho,Export,620,PRT,Portugal,All Commodities,88.68
+A,20210101,2021,52,426,LSO,Lesotho,Export,642,ROU,Romania,All Commodities,39299.049
+A,20210101,2021,52,426,LSO,Lesotho,Export,646,RWA,Rwanda,All Commodities,368.453
+A,20210101,2021,52,426,LSO,Lesotho,Export,682,SAU,Saudi Arabia,All Commodities,9675.693
+A,20210101,2021,52,426,LSO,Lesotho,Export,688,SRB,Serbia,All Commodities,214973.221
+A,20210101,2021,52,426,LSO,Lesotho,Export,690,SYC,Seychelles,All Commodities,14.205
+A,20210101,2021,52,426,LSO,Lesotho,Export,694,SLE,Sierra Leone,All Commodities,1775.23
+A,20210101,2021,52,426,LSO,Lesotho,Export,699,IND,India,All Commodities,53206.302
+A,20210101,2021,52,426,LSO,Lesotho,Export,702,SGP,Singapore,All Commodities,2538.922
+A,20210101,2021,52,426,LSO,Lesotho,Export,704,VNM,Viet Nam,All Commodities,1594.352
+A,20210101,2021,52,426,LSO,Lesotho,Export,705,SVN,Slovenia,All Commodities,27.057
+A,20210101,2021,52,426,LSO,Lesotho,Export,710,ZAF,South Africa,All Commodities,425608417.251
+A,20210101,2021,52,426,LSO,Lesotho,Export,716,ZWE,Zimbabwe,All Commodities,209430.802
+A,20210101,2021,52,426,LSO,Lesotho,Export,724,ESP,Spain,All Commodities,15236.917
+A,20210101,2021,52,426,LSO,Lesotho,Export,729,SDN,Sudan,All Commodities,13462.093
+A,20210101,2021,52,426,LSO,Lesotho,Export,748,SWZ,Eswatini,All Commodities,10374666.131
+A,20210101,2021,52,426,LSO,Lesotho,Export,757,CHE,Switzerland,All Commodities,1200.195
+A,20210101,2021,52,426,LSO,Lesotho,Export,784,ARE,United Arab Emirates,All Commodities,206639.705
+A,20210101,2021,52,426,LSO,Lesotho,Export,792,TUR,Türkiye,All Commodities,18050.133
+A,20210101,2021,52,426,LSO,Lesotho,Export,796,TCA,Turks and Caicos Isds,All Commodities,51.409
+A,20210101,2021,52,426,LSO,Lesotho,Export,800,UGA,Uganda,All Commodities,54441.806
+A,20210101,2021,52,426,LSO,Lesotho,Export,804,UKR,Ukraine,All Commodities,12.988
+A,20210101,2021,52,426,LSO,Lesotho,Export,807,MKD,North Macedonia,All Commodities,467964.259
+A,20210101,2021,52,426,LSO,Lesotho,Export,818,EGY,Egypt,All Commodities,1869477.211
+A,20210101,2021,52,426,LSO,Lesotho,Export,826,GBR,United Kingdom,All Commodities,1355097.29
+A,20210101,2021,52,426,LSO,Lesotho,Export,834,TZA,United Rep. of Tanzania,All Commodities,604516.134
+A,20210101,2021,52,426,LSO,Lesotho,Export,842,USA,USA,All Commodities,286824900.529
+A,20210101,2021,52,426,LSO,Lesotho,Export,854,BFA,Burkina Faso,All Commodities,199.345
+A,20210101,2021,52,426,LSO,Lesotho,Export,858,URY,Uruguay,All Commodities,2296.895
+A,20210101,2021,52,426,LSO,Lesotho,Export,860,UZB,Uzbekistan,All Commodities,236.21
+A,20210101,2021,52,426,LSO,Lesotho,Export,894,ZMB,Zambia,All Commodities,173028.847
+A,20210101,2021,52,426,LSO,Lesotho,Export,899,_X,"Areas, nes",All Commodities,20356115.305
 A,20210101,2021,52,428,LVA,Latvia,Export,0,W00,World,All Commodities,19458821916.273
 A,20210101,2021,52,428,LVA,Latvia,Export,4,AFG,Afghanistan,All Commodities,505193.331
 A,20210101,2021,52,428,LVA,Latvia,Export,8,ALB,Albania,All Commodities,2182335.648
@@ -16669,223 +16876,223 @@ A,20210101,2021,52,699,IND,India,Export,882,WSM,Samoa,All Commodities,1984413.78
 A,20210101,2021,52,699,IND,India,Export,887,YEM,Yemen,All Commodities,767860353.005
 A,20210101,2021,52,699,IND,India,Export,894,ZMB,Zambia,All Commodities,334808469.969
 A,20210101,2021,52,699,IND,India,Export,899,_X,"Areas, nes",All Commodities,947625479.387
-A,20210101,2021,52,702,SGP,Singapore,Export,0,W00,World,All Commodities,614081093705
-A,20210101,2021,52,702,SGP,Singapore,Export,4,AFG,Afghanistan,All Commodities,13076023
-A,20210101,2021,52,702,SGP,Singapore,Export,8,ALB,Albania,All Commodities,2240636
-A,20210101,2021,52,702,SGP,Singapore,Export,12,DZA,Algeria,All Commodities,56240996
-A,20210101,2021,52,702,SGP,Singapore,Export,16,ASM,American Samoa,All Commodities,35883337
-A,20210101,2021,52,702,SGP,Singapore,Export,20,AND,Andorra,All Commodities,53267
-A,20210101,2021,52,702,SGP,Singapore,Export,24,AGO,Angola,All Commodities,74193771
-A,20210101,2021,52,702,SGP,Singapore,Export,28,ATG,Antigua and Barbuda,All Commodities,95702230
-A,20210101,2021,52,702,SGP,Singapore,Export,31,AZE,Azerbaijan,All Commodities,33405262
-A,20210101,2021,52,702,SGP,Singapore,Export,32,ARG,Argentina,All Commodities,219656155
-A,20210101,2021,52,702,SGP,Singapore,Export,36,AUS,Australia,All Commodities,17501966445
-A,20210101,2021,52,702,SGP,Singapore,Export,40,AUT,Austria,All Commodities,400984220
-A,20210101,2021,52,702,SGP,Singapore,Export,44,BHS,Bahamas,All Commodities,1103935179
-A,20210101,2021,52,702,SGP,Singapore,Export,48,BHR,Bahrain,All Commodities,213089962
-A,20210101,2021,52,702,SGP,Singapore,Export,50,BGD,Bangladesh,All Commodities,4866123107
-A,20210101,2021,52,702,SGP,Singapore,Export,51,ARM,Armenia,All Commodities,1837752
-A,20210101,2021,52,702,SGP,Singapore,Export,52,BRB,Barbados,All Commodities,26854510
-A,20210101,2021,52,702,SGP,Singapore,Export,56,BEL,Belgium,All Commodities,7252862984
-A,20210101,2021,52,702,SGP,Singapore,Export,60,BMU,Bermuda,All Commodities,70792828
-A,20210101,2021,52,702,SGP,Singapore,Export,64,BTN,Bhutan,All Commodities,12617746
-A,20210101,2021,52,702,SGP,Singapore,Export,68,BOL,Bolivia (Plurinational State of),All Commodities,6871516
-A,20210101,2021,52,702,SGP,Singapore,Export,70,BIH,Bosnia Herzegovina,All Commodities,698967
-A,20210101,2021,52,702,SGP,Singapore,Export,72,BWA,Botswana,All Commodities,9859865
-A,20210101,2021,52,702,SGP,Singapore,Export,76,BRA,Brazil,All Commodities,2164269731
-A,20210101,2021,52,702,SGP,Singapore,Export,84,BLZ,Belize,All Commodities,19343471
-A,20210101,2021,52,702,SGP,Singapore,Export,86,IOT,Br. Indian Ocean Terr.,All Commodities,50837088
-A,20210101,2021,52,702,SGP,Singapore,Export,90,SLB,Solomon Isds,All Commodities,82622503
-A,20210101,2021,52,702,SGP,Singapore,Export,92,VGB,Br. Virgin Isds,All Commodities,385392
-A,20210101,2021,52,702,SGP,Singapore,Export,96,BRN,Brunei Darussalam,All Commodities,1001886434
-A,20210101,2021,52,702,SGP,Singapore,Export,100,BGR,Bulgaria,All Commodities,46847307
-A,20210101,2021,52,702,SGP,Singapore,Export,104,MMR,Myanmar,All Commodities,3512961557
-A,20210101,2021,52,702,SGP,Singapore,Export,108,BDI,Burundi,All Commodities,49981
-A,20210101,2021,52,702,SGP,Singapore,Export,112,BLR,Belarus,All Commodities,1504354
-A,20210101,2021,52,702,SGP,Singapore,Export,116,KHM,Cambodia,All Commodities,8884347655
-A,20210101,2021,52,702,SGP,Singapore,Export,120,CMR,Cameroon,All Commodities,24153221
-A,20210101,2021,52,702,SGP,Singapore,Export,124,CAN,Canada,All Commodities,1009975201
-A,20210101,2021,52,702,SGP,Singapore,Export,132,CPV,Cabo Verde,All Commodities,971199
-A,20210101,2021,52,702,SGP,Singapore,Export,136,CYM,Cayman Isds,All Commodities,132821835
-A,20210101,2021,52,702,SGP,Singapore,Export,140,CAF,Central African Rep.,All Commodities,894100
-A,20210101,2021,52,702,SGP,Singapore,Export,144,LKA,Sri Lanka,All Commodities,1573824203
-A,20210101,2021,52,702,SGP,Singapore,Export,148,TCD,Chad,All Commodities,1203488
-A,20210101,2021,52,702,SGP,Singapore,Export,152,CHL,Chile,All Commodities,140396803
-A,20210101,2021,52,702,SGP,Singapore,Export,156,CHN,China,All Commodities,90938519298
-A,20210101,2021,52,702,SGP,Singapore,Export,162,CXR,Christmas Isds,All Commodities,295040
-A,20210101,2021,52,702,SGP,Singapore,Export,170,COL,Colombia,All Commodities,128180827
-A,20210101,2021,52,702,SGP,Singapore,Export,174,COM,Comoros,All Commodities,4431330
-A,20210101,2021,52,702,SGP,Singapore,Export,178,COG,Congo,All Commodities,13811779
-A,20210101,2021,52,702,SGP,Singapore,Export,180,COD,Dem. Rep. of the Congo,All Commodities,21288340
-A,20210101,2021,52,702,SGP,Singapore,Export,184,COK,Cook Isds,All Commodities,6993736
-A,20210101,2021,52,702,SGP,Singapore,Export,188,CRI,Costa Rica,All Commodities,148312133
-A,20210101,2021,52,702,SGP,Singapore,Export,191,HRV,Croatia,All Commodities,43493844
-A,20210101,2021,52,702,SGP,Singapore,Export,192,CUB,Cuba,All Commodities,6779848
-A,20210101,2021,52,702,SGP,Singapore,Export,196,CYP,Cyprus,All Commodities,595658440
-A,20210101,2021,52,702,SGP,Singapore,Export,203,CZE,Czechia,All Commodities,778248616
-A,20210101,2021,52,702,SGP,Singapore,Export,204,BEN,Benin,All Commodities,7151678
-A,20210101,2021,52,702,SGP,Singapore,Export,208,DNK,Denmark,All Commodities,450875854
-A,20210101,2021,52,702,SGP,Singapore,Export,212,DMA,Dominica,All Commodities,1503270
-A,20210101,2021,52,702,SGP,Singapore,Export,214,DOM,Dominican Rep.,All Commodities,241596817
-A,20210101,2021,52,702,SGP,Singapore,Export,218,ECU,Ecuador,All Commodities,129294105
-A,20210101,2021,52,702,SGP,Singapore,Export,222,SLV,El Salvador,All Commodities,29005337
-A,20210101,2021,52,702,SGP,Singapore,Export,226,GNQ,Equatorial Guinea,All Commodities,4396050
-A,20210101,2021,52,702,SGP,Singapore,Export,231,ETH,Ethiopia,All Commodities,36639261
-A,20210101,2021,52,702,SGP,Singapore,Export,233,EST,Estonia,All Commodities,25596438
-A,20210101,2021,52,702,SGP,Singapore,Export,234,FRO,Faeroe Isds,All Commodities,89900
-A,20210101,2021,52,702,SGP,Singapore,Export,242,FJI,Fiji,All Commodities,370329108
-A,20210101,2021,52,702,SGP,Singapore,Export,246,FIN,Finland,All Commodities,257452244
-A,20210101,2021,52,702,SGP,Singapore,Export,251,FRA,France,All Commodities,5194339468
-A,20210101,2021,52,702,SGP,Singapore,Export,258,PYF,French Polynesia,All Commodities,106898341
-A,20210101,2021,52,702,SGP,Singapore,Export,262,DJI,Djibouti,All Commodities,37657596
-A,20210101,2021,52,702,SGP,Singapore,Export,266,GAB,Gabon,All Commodities,35563789
-A,20210101,2021,52,702,SGP,Singapore,Export,268,GEO,Georgia,All Commodities,4178060
-A,20210101,2021,52,702,SGP,Singapore,Export,270,GMB,Gambia,All Commodities,2336626
-A,20210101,2021,52,702,SGP,Singapore,Export,276,DEU,Germany,All Commodities,9538243680
-A,20210101,2021,52,702,SGP,Singapore,Export,288,GHA,Ghana,All Commodities,105647802
-A,20210101,2021,52,702,SGP,Singapore,Export,292,GIB,Gibraltar,All Commodities,16632446
-A,20210101,2021,52,702,SGP,Singapore,Export,296,KIR,Kiribati,All Commodities,5699058
-A,20210101,2021,52,702,SGP,Singapore,Export,300,GRC,Greece,All Commodities,1250734411
-A,20210101,2021,52,702,SGP,Singapore,Export,304,GRL,Greenland,All Commodities,4839
-A,20210101,2021,52,702,SGP,Singapore,Export,308,GRD,Grenada,All Commodities,98964
-A,20210101,2021,52,702,SGP,Singapore,Export,316,GUM,Guam,All Commodities,575143961
-A,20210101,2021,52,702,SGP,Singapore,Export,320,GTM,Guatemala,All Commodities,64286204
-A,20210101,2021,52,702,SGP,Singapore,Export,324,GIN,Guinea,All Commodities,21345211
-A,20210101,2021,52,702,SGP,Singapore,Export,328,GUY,Guyana,All Commodities,40982539
-A,20210101,2021,52,702,SGP,Singapore,Export,332,HTI,Haiti,All Commodities,526881
-A,20210101,2021,52,702,SGP,Singapore,Export,336,VAT,Holy See (Vatican City State),All Commodities,118075
-A,20210101,2021,52,702,SGP,Singapore,Export,340,HND,Honduras,All Commodities,5913102
-A,20210101,2021,52,702,SGP,Singapore,Export,344,HKG,"China, Hong Kong SAR",All Commodities,80737637854
-A,20210101,2021,52,702,SGP,Singapore,Export,348,HUN,Hungary,All Commodities,699496647
-A,20210101,2021,52,702,SGP,Singapore,Export,352,ISL,Iceland,All Commodities,788401
-A,20210101,2021,52,702,SGP,Singapore,Export,360,IDN,Indonesia,All Commodities,38660537825
-A,20210101,2021,52,702,SGP,Singapore,Export,364,IRN,Iran,All Commodities,17719574
-A,20210101,2021,52,702,SGP,Singapore,Export,368,IRQ,Iraq,All Commodities,121387662
-A,20210101,2021,52,702,SGP,Singapore,Export,372,IRL,Ireland,All Commodities,760525050
-A,20210101,2021,52,702,SGP,Singapore,Export,376,ISR,Israel,All Commodities,1315192758
-A,20210101,2021,52,702,SGP,Singapore,Export,380,ITA,Italy,All Commodities,1183588905
-A,20210101,2021,52,702,SGP,Singapore,Export,384,CIV,Côte d'Ivoire,All Commodities,26990240
-A,20210101,2021,52,702,SGP,Singapore,Export,388,JAM,Jamaica,All Commodities,16411379
-A,20210101,2021,52,702,SGP,Singapore,Export,392,JPN,Japan,All Commodities,24638590342
-A,20210101,2021,52,702,SGP,Singapore,Export,398,KAZ,Kazakhstan,All Commodities,18140028
-A,20210101,2021,52,702,SGP,Singapore,Export,400,JOR,Jordan,All Commodities,84474010
-A,20210101,2021,52,702,SGP,Singapore,Export,404,KEN,Kenya,All Commodities,205122308
-A,20210101,2021,52,702,SGP,Singapore,Export,410,KOR,Rep. of Korea,All Commodities,26444491491
-A,20210101,2021,52,702,SGP,Singapore,Export,414,KWT,Kuwait,All Commodities,277285908
-A,20210101,2021,52,702,SGP,Singapore,Export,417,KGZ,Kyrgyzstan,All Commodities,3026713
-A,20210101,2021,52,702,SGP,Singapore,Export,418,LAO,Lao People's Dem. Rep.,All Commodities,84794203
-A,20210101,2021,52,702,SGP,Singapore,Export,422,LBN,Lebanon,All Commodities,21835272
-A,20210101,2021,52,702,SGP,Singapore,Export,426,LSO,Lesotho,All Commodities,135645
-A,20210101,2021,52,702,SGP,Singapore,Export,428,LVA,Latvia,All Commodities,57104281
-A,20210101,2021,52,702,SGP,Singapore,Export,430,LBR,Liberia,All Commodities,4499003003
-A,20210101,2021,52,702,SGP,Singapore,Export,434,LBY,Libya,All Commodities,22219658
-A,20210101,2021,52,702,SGP,Singapore,Export,440,LTU,Lithuania,All Commodities,241540368
-A,20210101,2021,52,702,SGP,Singapore,Export,442,LUX,Luxembourg,All Commodities,164433359
-A,20210101,2021,52,702,SGP,Singapore,Export,446,MAC,"China, Macao SAR",All Commodities,295824733
-A,20210101,2021,52,702,SGP,Singapore,Export,450,MDG,Madagascar,All Commodities,17730397
-A,20210101,2021,52,702,SGP,Singapore,Export,454,MWI,Malawi,All Commodities,812230
-A,20210101,2021,52,702,SGP,Singapore,Export,458,MYS,Malaysia,All Commodities,56552911665
-A,20210101,2021,52,702,SGP,Singapore,Export,462,MDV,Maldives,All Commodities,262507832
-A,20210101,2021,52,702,SGP,Singapore,Export,466,MLI,Mali,All Commodities,8352675
-A,20210101,2021,52,702,SGP,Singapore,Export,470,MLT,Malta,All Commodities,1885436117
-A,20210101,2021,52,702,SGP,Singapore,Export,478,MRT,Mauritania,All Commodities,3538923
-A,20210101,2021,52,702,SGP,Singapore,Export,480,MUS,Mauritius,All Commodities,111308606
-A,20210101,2021,52,702,SGP,Singapore,Export,484,MEX,Mexico,All Commodities,2183343197
-A,20210101,2021,52,702,SGP,Singapore,Export,490,S19,"Other Asia, nes",All Commodities,31286681393
-A,20210101,2021,52,702,SGP,Singapore,Export,496,MNG,Mongolia,All Commodities,160661295
-A,20210101,2021,52,702,SGP,Singapore,Export,498,MDA,Rep. of Moldova,All Commodities,6528045
-A,20210101,2021,52,702,SGP,Singapore,Export,499,MNE,Montenegro,All Commodities,2604602
-A,20210101,2021,52,702,SGP,Singapore,Export,504,MAR,Morocco,All Commodities,234204962
-A,20210101,2021,52,702,SGP,Singapore,Export,508,MOZ,Mozambique,All Commodities,137885858
-A,20210101,2021,52,702,SGP,Singapore,Export,512,OMN,Oman,All Commodities,317961987
-A,20210101,2021,52,702,SGP,Singapore,Export,516,NAM,Namibia,All Commodities,16015853
-A,20210101,2021,52,702,SGP,Singapore,Export,520,NRU,Nauru,All Commodities,669282
-A,20210101,2021,52,702,SGP,Singapore,Export,524,NPL,Nepal,All Commodities,233587652
-A,20210101,2021,52,702,SGP,Singapore,Export,527,O19,"Oceania, nes",All Commodities,283737
-A,20210101,2021,52,702,SGP,Singapore,Export,528,NLD,Netherlands,All Commodities,13068335539
-A,20210101,2021,52,702,SGP,Singapore,Export,531,CUW,Curaçao,All Commodities,16673667
-A,20210101,2021,52,702,SGP,Singapore,Export,533,ABW,Aruba,All Commodities,60268
-A,20210101,2021,52,702,SGP,Singapore,Export,540,NCL,New Caledonia,All Commodities,336763236
-A,20210101,2021,52,702,SGP,Singapore,Export,548,VUT,Vanuatu,All Commodities,46144131
-A,20210101,2021,52,702,SGP,Singapore,Export,554,NZL,New Zealand,All Commodities,2994492191
-A,20210101,2021,52,702,SGP,Singapore,Export,558,NIC,Nicaragua,All Commodities,6054054
-A,20210101,2021,52,702,SGP,Singapore,Export,562,NER,Niger,All Commodities,1887800
-A,20210101,2021,52,702,SGP,Singapore,Export,566,NGA,Nigeria,All Commodities,548554273
-A,20210101,2021,52,702,SGP,Singapore,Export,570,NIU,Niue,All Commodities,1406680
-A,20210101,2021,52,702,SGP,Singapore,Export,577,F19,"Other Africa, nes",All Commodities,14101
-A,20210101,2021,52,702,SGP,Singapore,Export,579,NOR,Norway,All Commodities,775043798
-A,20210101,2021,52,702,SGP,Singapore,Export,580,MNP,N. Mariana Isds,All Commodities,8367358
-A,20210101,2021,52,702,SGP,Singapore,Export,581,UMI,United States Minor Outlying Islands,All Commodities,2786646
-A,20210101,2021,52,702,SGP,Singapore,Export,583,FSM,FS Micronesia,All Commodities,6859390
-A,20210101,2021,52,702,SGP,Singapore,Export,584,MHL,Marshall Isds,All Commodities,4816282939
-A,20210101,2021,52,702,SGP,Singapore,Export,585,PLW,Palau,All Commodities,21027887
-A,20210101,2021,52,702,SGP,Singapore,Export,586,PAK,Pakistan,All Commodities,1737842642
-A,20210101,2021,52,702,SGP,Singapore,Export,591,PAN,Panama,All Commodities,5775129415
-A,20210101,2021,52,702,SGP,Singapore,Export,598,PNG,Papua New Guinea,All Commodities,730097907
-A,20210101,2021,52,702,SGP,Singapore,Export,600,PRY,Paraguay,All Commodities,7490730
-A,20210101,2021,52,702,SGP,Singapore,Export,604,PER,Peru,All Commodities,98401655
-A,20210101,2021,52,702,SGP,Singapore,Export,608,PHL,Philippines,All Commodities,12304952605
-A,20210101,2021,52,702,SGP,Singapore,Export,616,POL,Poland,All Commodities,590918099
-A,20210101,2021,52,702,SGP,Singapore,Export,620,PRT,Portugal,All Commodities,606535769
-A,20210101,2021,52,702,SGP,Singapore,Export,624,GNB,Guinea-Bissau,All Commodities,302065
-A,20210101,2021,52,702,SGP,Singapore,Export,626,TLS,Timor-Leste,All Commodities,139751355
-A,20210101,2021,52,702,SGP,Singapore,Export,634,QAT,Qatar,All Commodities,1012433458
-A,20210101,2021,52,702,SGP,Singapore,Export,642,ROU,Romania,All Commodities,112477865
-A,20210101,2021,52,702,SGP,Singapore,Export,643,RUS,Russian Federation,All Commodities,655059016
-A,20210101,2021,52,702,SGP,Singapore,Export,646,RWA,Rwanda,All Commodities,459016
-A,20210101,2021,52,702,SGP,Singapore,Export,659,KNA,Saint Kitts and Nevis,All Commodities,6257354
-A,20210101,2021,52,702,SGP,Singapore,Export,660,AIA,Anguilla,All Commodities,13080
-A,20210101,2021,52,702,SGP,Singapore,Export,662,LCA,Saint Lucia,All Commodities,1073707
-A,20210101,2021,52,702,SGP,Singapore,Export,670,VCT,Saint Vincent and the Grenadines,All Commodities,13379054
-A,20210101,2021,52,702,SGP,Singapore,Export,678,STP,Sao Tome and Principe,All Commodities,2014381
-A,20210101,2021,52,702,SGP,Singapore,Export,682,SAU,Saudi Arabia,All Commodities,1276334162
-A,20210101,2021,52,702,SGP,Singapore,Export,686,SEN,Senegal,All Commodities,51626895
-A,20210101,2021,52,702,SGP,Singapore,Export,688,SRB,Serbia,All Commodities,9897113
-A,20210101,2021,52,702,SGP,Singapore,Export,690,SYC,Seychelles,All Commodities,28919732
-A,20210101,2021,52,702,SGP,Singapore,Export,694,SLE,Sierra Leone,All Commodities,20431798
-A,20210101,2021,52,702,SGP,Singapore,Export,699,IND,India,All Commodities,16945997451
-A,20210101,2021,52,702,SGP,Singapore,Export,703,SVK,Slovakia,All Commodities,194232586
-A,20210101,2021,52,702,SGP,Singapore,Export,704,VNM,Viet Nam,All Commodities,21035388990
-A,20210101,2021,52,702,SGP,Singapore,Export,705,SVN,Slovenia,All Commodities,77450222
-A,20210101,2021,52,702,SGP,Singapore,Export,706,SOM,Somalia,All Commodities,5128298
-A,20210101,2021,52,702,SGP,Singapore,Export,710,ZAF,South Africa,All Commodities,555242466
-A,20210101,2021,52,702,SGP,Singapore,Export,716,ZWE,Zimbabwe,All Commodities,2715893
-A,20210101,2021,52,702,SGP,Singapore,Export,724,ESP,Spain,All Commodities,568984306
-A,20210101,2021,52,702,SGP,Singapore,Export,728,SSD,South Sudan,All Commodities,2017290
-A,20210101,2021,52,702,SGP,Singapore,Export,729,SDN,Sudan,All Commodities,8011523
-A,20210101,2021,52,702,SGP,Singapore,Export,732,ESH,Western Sahara,All Commodities,46853780
-A,20210101,2021,52,702,SGP,Singapore,Export,740,SUR,Suriname,All Commodities,4124688
-A,20210101,2021,52,702,SGP,Singapore,Export,748,SWZ,Eswatini,All Commodities,229588
-A,20210101,2021,52,702,SGP,Singapore,Export,752,SWE,Sweden,All Commodities,187748615
-A,20210101,2021,52,702,SGP,Singapore,Export,757,CHE,Switzerland,All Commodities,4600410900
-A,20210101,2021,52,702,SGP,Singapore,Export,760,SYR,Syria,All Commodities,2852918
-A,20210101,2021,52,702,SGP,Singapore,Export,762,TJK,Tajikistan,All Commodities,146473
-A,20210101,2021,52,702,SGP,Singapore,Export,764,THA,Thailand,All Commodities,20970139300
-A,20210101,2021,52,702,SGP,Singapore,Export,768,TGO,Togo,All Commodities,122811671
-A,20210101,2021,52,702,SGP,Singapore,Export,772,TKL,Tokelau,All Commodities,7924
-A,20210101,2021,52,702,SGP,Singapore,Export,776,TON,Tonga,All Commodities,4046555
-A,20210101,2021,52,702,SGP,Singapore,Export,780,TTO,Trinidad and Tobago,All Commodities,15222320
-A,20210101,2021,52,702,SGP,Singapore,Export,784,ARE,United Arab Emirates,All Commodities,5393828925
-A,20210101,2021,52,702,SGP,Singapore,Export,788,TUN,Tunisia,All Commodities,37759666
-A,20210101,2021,52,702,SGP,Singapore,Export,792,TUR,Türkiye,All Commodities,1148146753
-A,20210101,2021,52,702,SGP,Singapore,Export,795,TKM,Turkmenistan,All Commodities,2350115
-A,20210101,2021,52,702,SGP,Singapore,Export,796,TCA,Turks and Caicos Isds,All Commodities,21911
-A,20210101,2021,52,702,SGP,Singapore,Export,798,TUV,Tuvalu,All Commodities,56124805
-A,20210101,2021,52,702,SGP,Singapore,Export,800,UGA,Uganda,All Commodities,8478617
-A,20210101,2021,52,702,SGP,Singapore,Export,804,UKR,Ukraine,All Commodities,30577147
-A,20210101,2021,52,702,SGP,Singapore,Export,807,MKD,North Macedonia,All Commodities,1898458
-A,20210101,2021,52,702,SGP,Singapore,Export,818,EGY,Egypt,All Commodities,337906998
-A,20210101,2021,52,702,SGP,Singapore,Export,826,GBR,United Kingdom,All Commodities,4973974793
-A,20210101,2021,52,702,SGP,Singapore,Export,834,TZA,United Rep. of Tanzania,All Commodities,103538611
-A,20210101,2021,52,702,SGP,Singapore,Export,842,USA,USA,All Commodities,52776152660
-A,20210101,2021,52,702,SGP,Singapore,Export,854,BFA,Burkina Faso,All Commodities,7166092
-A,20210101,2021,52,702,SGP,Singapore,Export,858,URY,Uruguay,All Commodities,13688999
-A,20210101,2021,52,702,SGP,Singapore,Export,860,UZB,Uzbekistan,All Commodities,7155447
-A,20210101,2021,52,702,SGP,Singapore,Export,862,VEN,Venezuela,All Commodities,6968087
-A,20210101,2021,52,702,SGP,Singapore,Export,876,WLF,Wallis and Futuna Isds,All Commodities,434474
-A,20210101,2021,52,702,SGP,Singapore,Export,882,WSM,Samoa,All Commodities,54398880
-A,20210101,2021,52,702,SGP,Singapore,Export,887,YEM,Yemen,All Commodities,15308876
-A,20210101,2021,52,702,SGP,Singapore,Export,894,ZMB,Zambia,All Commodities,7036251
+A,20210101,2021,52,702,SGP,Singapore,Export,0,W00,World,All Commodities,457081283281.544
+A,20210101,2021,52,702,SGP,Singapore,Export,4,AFG,Afghanistan,All Commodities,9732925.235
+A,20210101,2021,52,702,SGP,Singapore,Export,8,ALB,Albania,All Commodities,1667780.996
+A,20210101,2021,52,702,SGP,Singapore,Export,12,DZA,Algeria,All Commodities,41862071.456
+A,20210101,2021,52,702,SGP,Singapore,Export,16,ASM,American Samoa,All Commodities,26709178.792
+A,20210101,2021,52,702,SGP,Singapore,Export,20,AND,Andorra,All Commodities,39648.426
+A,20210101,2021,52,702,SGP,Singapore,Export,24,AGO,Angola,All Commodities,55224927.795
+A,20210101,2021,52,702,SGP,Singapore,Export,28,ATG,Antigua and Barbuda,All Commodities,71234399.739
+A,20210101,2021,52,702,SGP,Singapore,Export,31,AZE,Azerbaijan,All Commodities,24864663.934
+A,20210101,2021,52,702,SGP,Singapore,Export,32,ARG,Argentina,All Commodities,163497489.562
+A,20210101,2021,52,702,SGP,Singapore,Export,36,AUS,Australia,All Commodities,13027304316.381
+A,20210101,2021,52,702,SGP,Singapore,Export,40,AUT,Austria,All Commodities,298466088.163
+A,20210101,2021,52,702,SGP,Singapore,Export,44,BHS,Bahamas,All Commodities,821696211.542
+A,20210101,2021,52,702,SGP,Singapore,Export,48,BHR,Bahrain,All Commodities,158610050.503
+A,20210101,2021,52,702,SGP,Singapore,Export,50,BGD,Bangladesh,All Commodities,3622019660.195
+A,20210101,2021,52,702,SGP,Singapore,Export,51,ARM,Armenia,All Commodities,1367900.838
+A,20210101,2021,52,702,SGP,Singapore,Export,52,BRB,Barbados,All Commodities,19988718.133
+A,20210101,2021,52,702,SGP,Singapore,Export,56,BEL,Belgium,All Commodities,5398550703.117
+A,20210101,2021,52,702,SGP,Singapore,Export,60,BMU,Bermuda,All Commodities,52693491.138
+A,20210101,2021,52,702,SGP,Singapore,Export,64,BTN,Bhutan,All Commodities,9391814.197
+A,20210101,2021,52,702,SGP,Singapore,Export,68,BOL,Bolivia (Plurinational State of),All Commodities,5114701.272
+A,20210101,2021,52,702,SGP,Singapore,Export,70,BIH,Bosnia Herzegovina,All Commodities,520264.728
+A,20210101,2021,52,702,SGP,Singapore,Export,72,BWA,Botswana,All Commodities,7339030.29
+A,20210101,2021,52,702,SGP,Singapore,Export,76,BRA,Brazil,All Commodities,1610939004.887
+A,20210101,2021,52,702,SGP,Singapore,Export,84,BLZ,Belize,All Commodities,14397998.307
+A,20210101,2021,52,702,SGP,Singapore,Export,86,IOT,Br. Indian Ocean Terr.,All Commodities,37839760.35
+A,20210101,2021,52,702,SGP,Singapore,Export,90,SLB,Solomon Isds,All Commodities,61498717.492
+A,20210101,2021,52,702,SGP,Singapore,Export,92,VGB,Br. Virgin Isds,All Commodities,286860.273
+A,20210101,2021,52,702,SGP,Singapore,Export,96,BRN,Brunei Darussalam,All Commodities,745737886.493
+A,20210101,2021,52,702,SGP,Singapore,Export,100,BGR,Bulgaria,All Commodities,34870031.697
+A,20210101,2021,52,702,SGP,Singapore,Export,104,MMR,Myanmar,All Commodities,2614815849.328
+A,20210101,2021,52,702,SGP,Singapore,Export,108,BDI,Burundi,All Commodities,37202.545
+A,20210101,2021,52,702,SGP,Singapore,Export,112,BLR,Belarus,All Commodities,1119741.454
+A,20210101,2021,52,702,SGP,Singapore,Export,116,KHM,Cambodia,All Commodities,6612919806.35
+A,20210101,2021,52,702,SGP,Singapore,Export,120,CMR,Cameroon,All Commodities,17978057.562
+A,20210101,2021,52,702,SGP,Singapore,Export,124,CAN,Canada,All Commodities,751758628.767
+A,20210101,2021,52,702,SGP,Singapore,Export,132,CPV,Cabo Verde,All Commodities,722896.194
+A,20210101,2021,52,702,SGP,Singapore,Export,136,CYM,Cayman Isds,All Commodities,98863774.527
+A,20210101,2021,52,702,SGP,Singapore,Export,140,CAF,Central African Rep.,All Commodities,665508.806
+A,20210101,2021,52,702,SGP,Singapore,Export,144,LKA,Sri Lanka,All Commodities,1171450470.86
+A,20210101,2021,52,702,SGP,Singapore,Export,148,TCD,Chad,All Commodities,895796.736
+A,20210101,2021,52,702,SGP,Singapore,Export,152,CHL,Chile,All Commodities,104502078.865
+A,20210101,2021,52,702,SGP,Singapore,Export,156,CHN,China,All Commodities,67688609088.528
+A,20210101,2021,52,702,SGP,Singapore,Export,162,CXR,Christmas Isds,All Commodities,219608.23
+A,20210101,2021,52,702,SGP,Singapore,Export,170,COL,Colombia,All Commodities,95409315.639
+A,20210101,2021,52,702,SGP,Singapore,Export,174,COM,Comoros,All Commodities,3298388.476
+A,20210101,2021,52,702,SGP,Singapore,Export,178,COG,Congo,All Commodities,10280573.257
+A,20210101,2021,52,702,SGP,Singapore,Export,180,COD,Dem. Rep. of the Congo,All Commodities,15845629.943
+A,20210101,2021,52,702,SGP,Singapore,Export,184,COK,Cook Isds,All Commodities,5205673.743
+A,20210101,2021,52,702,SGP,Singapore,Export,188,CRI,Costa Rica,All Commodities,110393726.126
+A,20210101,2021,52,702,SGP,Singapore,Export,191,HRV,Croatia,All Commodities,32373936.006
+A,20210101,2021,52,702,SGP,Singapore,Export,192,CUB,Cuba,All Commodities,5046469.686
+A,20210101,2021,52,702,SGP,Singapore,Export,196,CYP,Cyprus,All Commodities,443368680.364
+A,20210101,2021,52,702,SGP,Singapore,Export,203,CZE,Czechia,All Commodities,579276710.78
+A,20210101,2021,52,702,SGP,Singapore,Export,204,BEN,Benin,All Commodities,5323235.305
+A,20210101,2021,52,702,SGP,Singapore,Export,208,DNK,Denmark,All Commodities,335602115.192
+A,20210101,2021,52,702,SGP,Singapore,Export,212,DMA,Dominica,All Commodities,1118934.596
+A,20210101,2021,52,702,SGP,Singapore,Export,214,DOM,Dominican Rep.,All Commodities,179828664.786
+A,20210101,2021,52,702,SGP,Singapore,Export,218,ECU,Ecuador,All Commodities,96237966.028
+A,20210101,2021,52,702,SGP,Singapore,Export,222,SLV,El Salvador,All Commodities,21589651.259
+A,20210101,2021,52,702,SGP,Singapore,Export,226,GNQ,Equatorial Guinea,All Commodities,3272128.382
+A,20210101,2021,52,702,SGP,Singapore,Export,231,ETH,Ethiopia,All Commodities,27271838.537
+A,20210101,2021,52,702,SGP,Singapore,Export,233,EST,Estonia,All Commodities,19052292.683
+A,20210101,2021,52,702,SGP,Singapore,Export,234,FRO,Faeroe Isds,All Commodities,66915.604
+A,20210101,2021,52,702,SGP,Singapore,Export,242,FJI,Fiji,All Commodities,275648453.692
+A,20210101,2021,52,702,SGP,Singapore,Export,246,FIN,Finland,All Commodities,191630394.222
+A,20210101,2021,52,702,SGP,Singapore,Export,251,FRA,France,All Commodities,3866322174.989
+A,20210101,2021,52,702,SGP,Singapore,Export,258,PYF,French Polynesia,All Commodities,79568043.025
+A,20210101,2021,52,702,SGP,Singapore,Export,262,DJI,Djibouti,All Commodities,28029819.647
+A,20210101,2021,52,702,SGP,Singapore,Export,266,GAB,Gabon,All Commodities,26471328.431
+A,20210101,2021,52,702,SGP,Singapore,Export,268,GEO,Georgia,All Commodities,3109871.068
+A,20210101,2021,52,702,SGP,Singapore,Export,270,GMB,Gambia,All Commodities,1739229.593
+A,20210101,2021,52,702,SGP,Singapore,Export,276,DEU,Germany,All Commodities,7099636686.748
+A,20210101,2021,52,702,SGP,Singapore,Export,288,GHA,Ghana,All Commodities,78637224.642
+A,20210101,2021,52,702,SGP,Singapore,Export,292,GIB,Gibraltar,All Commodities,12380090.903
+A,20210101,2021,52,702,SGP,Singapore,Export,296,KIR,Kiribati,All Commodities,4242001.213
+A,20210101,2021,52,702,SGP,Singapore,Export,300,GRC,Greece,All Commodities,930963834.394
+A,20210101,2021,52,702,SGP,Singapore,Export,304,GRL,Greenland,All Commodities,3601.831
+A,20210101,2021,52,702,SGP,Singapore,Export,308,GRD,Grenada,All Commodities,73662.245
+A,20210101,2021,52,702,SGP,Singapore,Export,316,GUM,Guam,All Commodities,428099061.281
+A,20210101,2021,52,702,SGP,Singapore,Export,320,GTM,Guatemala,All Commodities,47850391.297
+A,20210101,2021,52,702,SGP,Singapore,Export,324,GIN,Guinea,All Commodities,15887960.948
+A,20210101,2021,52,702,SGP,Singapore,Export,328,GUY,Guyana,All Commodities,30504686.938
+A,20210101,2021,52,702,SGP,Singapore,Export,332,HTI,Haiti,All Commodities,392175.311
+A,20210101,2021,52,702,SGP,Singapore,Export,336,VAT,Holy See (Vatican City State),All Commodities,87887.208
+A,20210101,2021,52,702,SGP,Singapore,Export,340,HND,Honduras,All Commodities,4401321.386
+A,20210101,2021,52,702,SGP,Singapore,Export,344,HKG,"China, Hong Kong SAR",All Commodities,60095748750.01
+A,20210101,2021,52,702,SGP,Singapore,Export,348,HUN,Hungary,All Commodities,520658962.374
+A,20210101,2021,52,702,SGP,Singapore,Export,352,ISL,Iceland,All Commodities,586833.473
+A,20210101,2021,52,702,SGP,Singapore,Export,360,IDN,Indonesia,All Commodities,28776343096.299
+A,20210101,2021,52,702,SGP,Singapore,Export,364,IRN,Iran,All Commodities,13189276.964
+A,20210101,2021,52,702,SGP,Singapore,Export,368,IRQ,Iraq,All Commodities,90352933.66
+A,20210101,2021,52,702,SGP,Singapore,Export,372,IRL,Ireland,All Commodities,566084462.435
+A,20210101,2021,52,702,SGP,Singapore,Export,376,ISR,Israel,All Commodities,978942357.535
+A,20210101,2021,52,702,SGP,Singapore,Export,380,ITA,Italy,All Commodities,880985168.117
+A,20210101,2021,52,702,SGP,Singapore,Export,384,CIV,Côte d'Ivoire,All Commodities,20089746.553
+A,20210101,2021,52,702,SGP,Singapore,Export,388,JAM,Jamaica,All Commodities,12215543.274
+A,20210101,2021,52,702,SGP,Singapore,Export,392,JPN,Japan,All Commodities,18339334343.975
+A,20210101,2021,52,702,SGP,Singapore,Export,398,KAZ,Kazakhstan,All Commodities,13502235.066
+A,20210101,2021,52,702,SGP,Singapore,Export,400,JOR,Jordan,All Commodities,62876856.641
+A,20210101,2021,52,702,SGP,Singapore,Export,404,KEN,Kenya,All Commodities,152679456.722
+A,20210101,2021,52,702,SGP,Singapore,Export,410,KOR,Rep. of Korea,All Commodities,19683527518.339
+A,20210101,2021,52,702,SGP,Singapore,Export,414,KWT,Kuwait,All Commodities,206393259.724
+A,20210101,2021,52,702,SGP,Singapore,Export,417,KGZ,Kyrgyzstan,All Commodities,2252884.637
+A,20210101,2021,52,702,SGP,Singapore,Export,418,LAO,Lao People's Dem. Rep.,All Commodities,63115187.097
+A,20210101,2021,52,702,SGP,Singapore,Export,422,LBN,Lebanon,All Commodities,16252729.89
+A,20210101,2021,52,702,SGP,Singapore,Export,426,LSO,Lesotho,All Commodities,100965.152
+A,20210101,2021,52,702,SGP,Singapore,Export,428,LVA,Latvia,All Commodities,42504643.618
+A,20210101,2021,52,702,SGP,Singapore,Export,430,LBR,Liberia,All Commodities,3348759776.484
+A,20210101,2021,52,702,SGP,Singapore,Export,434,LBY,Libya,All Commodities,16538841.363
+A,20210101,2021,52,702,SGP,Singapore,Export,440,LTU,Lithuania,All Commodities,179786647.89
+A,20210101,2021,52,702,SGP,Singapore,Export,442,LUX,Luxembourg,All Commodities,122393298.73
+A,20210101,2021,52,702,SGP,Singapore,Export,446,MAC,"China, Macao SAR",All Commodities,220192332.857
+A,20210101,2021,52,702,SGP,Singapore,Export,450,MDG,Madagascar,All Commodities,13197332.888
+A,20210101,2021,52,702,SGP,Singapore,Export,454,MWI,Malawi,All Commodities,604570.202
+A,20210101,2021,52,702,SGP,Singapore,Export,458,MYS,Malaysia,All Commodities,42094240813.028
+A,20210101,2021,52,702,SGP,Singapore,Export,462,MDV,Maldives,All Commodities,195393438.997
+A,20210101,2021,52,702,SGP,Singapore,Export,466,MLI,Mali,All Commodities,6217177.905
+A,20210101,2021,52,702,SGP,Singapore,Export,470,MLT,Malta,All Commodities,1403393735.352
+A,20210101,2021,52,702,SGP,Singapore,Export,478,MRT,Mauritania,All Commodities,2634139.828
+A,20210101,2021,52,702,SGP,Singapore,Export,480,MUS,Mauritius,All Commodities,82850752.111
+A,20210101,2021,52,702,SGP,Singapore,Export,484,MEX,Mexico,All Commodities,1625136029.36
+A,20210101,2021,52,702,SGP,Singapore,Export,490,S19,"Other Asia, nes",All Commodities,23287732886.307
+A,20210101,2021,52,702,SGP,Singapore,Export,496,MNG,Mongolia,All Commodities,119585624.187
+A,20210101,2021,52,702,SGP,Singapore,Export,498,MDA,Rep. of Moldova,All Commodities,4859044.215
+A,20210101,2021,52,702,SGP,Singapore,Export,499,MNE,Montenegro,All Commodities,1938693.174
+A,20210101,2021,52,702,SGP,Singapore,Export,504,MAR,Morocco,All Commodities,174326657.634
+A,20210101,2021,52,702,SGP,Singapore,Export,508,MOZ,Mozambique,All Commodities,102633097.757
+A,20210101,2021,52,702,SGP,Singapore,Export,512,OMN,Oman,All Commodities,236669838.141
+A,20210101,2021,52,702,SGP,Singapore,Export,516,NAM,Namibia,All Commodities,11921139.923
+A,20210101,2021,52,702,SGP,Singapore,Export,520,NRU,Nauru,All Commodities,498169.181
+A,20210101,2021,52,702,SGP,Singapore,Export,524,NPL,Nepal,All Commodities,173867172.967
+A,20210101,2021,52,702,SGP,Singapore,Export,527,O19,"Oceania, nes",All Commodities,211195.025
+A,20210101,2021,52,702,SGP,Singapore,Export,528,NLD,Netherlands,All Commodities,9727203198.002
+A,20210101,2021,52,702,SGP,Singapore,Export,531,CUW,Curaçao,All Commodities,12410773.084
+A,20210101,2021,52,702,SGP,Singapore,Export,533,ABW,Aruba,All Commodities,44859.506
+A,20210101,2021,52,702,SGP,Singapore,Export,540,NCL,New Caledonia,All Commodities,250664242.314
+A,20210101,2021,52,702,SGP,Singapore,Export,548,VUT,Vanuatu,All Commodities,34346634.068
+A,20210101,2021,52,702,SGP,Singapore,Export,554,NZL,New Zealand,All Commodities,2228901601.873
+A,20210101,2021,52,702,SGP,Singapore,Export,558,NIC,Nicaragua,All Commodities,4506236.717
+A,20210101,2021,52,702,SGP,Singapore,Export,562,NER,Niger,All Commodities,1405153.253
+A,20210101,2021,52,702,SGP,Singapore,Export,566,NGA,Nigeria,All Commodities,408307459.101
+A,20210101,2021,52,702,SGP,Singapore,Export,570,NIU,Niue,All Commodities,1047039.399
+A,20210101,2021,52,702,SGP,Singapore,Export,577,F19,"Other Africa, nes",All Commodities,10495.85
+A,20210101,2021,52,702,SGP,Singapore,Export,579,NOR,Norway,All Commodities,576891256.58
+A,20210101,2021,52,702,SGP,Singapore,Export,580,MNP,N. Mariana Isds,All Commodities,6228106.958
+A,20210101,2021,52,702,SGP,Singapore,Export,581,UMI,United States Minor Outlying Islands,All Commodities,2074194.667
+A,20210101,2021,52,702,SGP,Singapore,Export,583,FSM,FS Micronesia,All Commodities,5105675.481
+A,20210101,2021,52,702,SGP,Singapore,Export,584,MHL,Marshall Isds,All Commodities,3584921941.047
+A,20210101,2021,52,702,SGP,Singapore,Export,585,PLW,Palau,All Commodities,15651765.985
+A,20210101,2021,52,702,SGP,Singapore,Export,586,PAK,Pakistan,All Commodities,1293534930.63
+A,20210101,2021,52,702,SGP,Singapore,Export,591,PAN,Panama,All Commodities,4298623734.202
+A,20210101,2021,52,702,SGP,Singapore,Export,598,PNG,Papua New Guinea,All Commodities,543436512.984
+A,20210101,2021,52,702,SGP,Singapore,Export,600,PRY,Paraguay,All Commodities,5575603.151
+A,20210101,2021,52,702,SGP,Singapore,Export,604,PER,Peru,All Commodities,73243672.872
+A,20210101,2021,52,702,SGP,Singapore,Export,608,PHL,Philippines,All Commodities,9158991516.052
+A,20210101,2021,52,702,SGP,Singapore,Export,616,POL,Poland,All Commodities,439840284.572
+A,20210101,2021,52,702,SGP,Singapore,Export,620,PRT,Portugal,All Commodities,451465043.449
+A,20210101,2021,52,702,SGP,Singapore,Export,624,GNB,Guinea-Bissau,All Commodities,224837.174
+A,20210101,2021,52,702,SGP,Singapore,Export,626,TLS,Timor-Leste,All Commodities,104021650.135
+A,20210101,2021,52,702,SGP,Singapore,Export,634,QAT,Qatar,All Commodities,753588392.419
+A,20210101,2021,52,702,SGP,Singapore,Export,642,ROU,Romania,All Commodities,83721071.047
+A,20210101,2021,52,702,SGP,Singapore,Export,643,RUS,Russian Federation,All Commodities,487582533.851
+A,20210101,2021,52,702,SGP,Singapore,Export,646,RWA,Rwanda,All Commodities,341661.101
+A,20210101,2021,52,702,SGP,Singapore,Export,659,KNA,Saint Kitts and Nevis,All Commodities,4657559.768
+A,20210101,2021,52,702,SGP,Singapore,Export,660,AIA,Anguilla,All Commodities,9735.885
+A,20210101,2021,52,702,SGP,Singapore,Export,662,LCA,Saint Lucia,All Commodities,799196.358
+A,20210101,2021,52,702,SGP,Singapore,Export,670,VCT,Saint Vincent and the Grenadines,All Commodities,9958481.435
+A,20210101,2021,52,702,SGP,Singapore,Export,678,STP,Sao Tome and Principe,All Commodities,1499371.764
+A,20210101,2021,52,702,SGP,Singapore,Export,682,SAU,Saudi Arabia,All Commodities,950018593.055
+A,20210101,2021,52,702,SGP,Singapore,Export,686,SEN,Senegal,All Commodities,38427640.356
+A,20210101,2021,52,702,SGP,Singapore,Export,688,SRB,Serbia,All Commodities,7366755.233
+A,20210101,2021,52,702,SGP,Singapore,Export,690,SYC,Seychelles,All Commodities,21525932.569
+A,20210101,2021,52,702,SGP,Singapore,Export,694,SLE,Sierra Leone,All Commodities,15208076.825
+A,20210101,2021,52,702,SGP,Singapore,Export,699,IND,India,All Commodities,12613477830.193
+A,20210101,2021,52,702,SGP,Singapore,Export,703,SVK,Slovakia,All Commodities,144573869.11
+A,20210101,2021,52,702,SGP,Singapore,Export,704,VNM,Viet Nam,All Commodities,15657349969.635
+A,20210101,2021,52,702,SGP,Singapore,Export,705,SVN,Slovenia,All Commodities,57648814.18
+A,20210101,2021,52,702,SGP,Singapore,Export,706,SOM,Somalia,All Commodities,3817165.281
+A,20210101,2021,52,702,SGP,Singapore,Export,710,ZAF,South Africa,All Commodities,413285706.877
+A,20210101,2021,52,702,SGP,Singapore,Export,716,ZWE,Zimbabwe,All Commodities,2021530.821
+A,20210101,2021,52,702,SGP,Singapore,Export,724,ESP,Spain,All Commodities,423514222.176
+A,20210101,2021,52,702,SGP,Singapore,Export,728,SSD,South Sudan,All Commodities,1501537.031
+A,20210101,2021,52,702,SGP,Singapore,Export,729,SDN,Sudan,All Commodities,5963246.958
+A,20210101,2021,52,702,SGP,Singapore,Export,732,ESH,Western Sahara,All Commodities,34874849.769
+A,20210101,2021,52,702,SGP,Singapore,Export,740,SUR,Suriname,All Commodities,3070144.487
+A,20210101,2021,52,702,SGP,Singapore,Export,748,SWZ,Eswatini,All Commodities,170890.097
+A,20210101,2021,52,702,SGP,Singapore,Export,752,SWE,Sweden,All Commodities,139747630.66
+A,20210101,2021,52,702,SGP,Singapore,Export,757,CHE,Switzerland,All Commodities,3424241096.738
+A,20210101,2021,52,702,SGP,Singapore,Export,760,SYR,Syria,All Commodities,2123523.153
+A,20210101,2021,52,702,SGP,Singapore,Export,762,TJK,Tajikistan,All Commodities,109024.797
+A,20210101,2021,52,702,SGP,Singapore,Export,764,THA,Thailand,All Commodities,15608782423.191
+A,20210101,2021,52,702,SGP,Singapore,Export,768,TGO,Togo,All Commodities,91412871.619
+A,20210101,2021,52,702,SGP,Singapore,Export,772,TKL,Tokelau,All Commodities,5898.101
+A,20210101,2021,52,702,SGP,Singapore,Export,776,TON,Tonga,All Commodities,3011987.458
+A,20210101,2021,52,702,SGP,Singapore,Export,780,TTO,Trinidad and Tobago,All Commodities,11330486.529
+A,20210101,2021,52,702,SGP,Singapore,Export,784,ARE,United Arab Emirates,All Commodities,4014808910.604
+A,20210101,2021,52,702,SGP,Singapore,Export,788,TUN,Tunisia,All Commodities,28105793.793
+A,20210101,2021,52,702,SGP,Singapore,Export,792,TUR,Türkiye,All Commodities,854604378.211
+A,20210101,2021,52,702,SGP,Singapore,Export,795,TKM,Turkmenistan,All Commodities,1749269.911
+A,20210101,2021,52,702,SGP,Singapore,Export,796,TCA,Turks and Caicos Isds,All Commodities,16309.097
+A,20210101,2021,52,702,SGP,Singapore,Export,798,TUV,Tuvalu,All Commodities,41775586.574
+A,20210101,2021,52,702,SGP,Singapore,Export,800,UGA,Uganda,All Commodities,6310920.786
+A,20210101,2021,52,702,SGP,Singapore,Export,804,UKR,Ukraine,All Commodities,22759602.491
+A,20210101,2021,52,702,SGP,Singapore,Export,807,MKD,North Macedonia,All Commodities,1413086.362
+A,20210101,2021,52,702,SGP,Singapore,Export,818,EGY,Egypt,All Commodities,251515582.973
+A,20210101,2021,52,702,SGP,Singapore,Export,826,GBR,United Kingdom,All Commodities,3702297310.079
+A,20210101,2021,52,702,SGP,Singapore,Export,834,TZA,United Rep. of Tanzania,All Commodities,77067282.595
+A,20210101,2021,52,702,SGP,Singapore,Export,842,USA,USA,All Commodities,39283071619.99
+A,20210101,2021,52,702,SGP,Singapore,Export,854,BFA,Burkina Faso,All Commodities,5333964.131
+A,20210101,2021,52,702,SGP,Singapore,Export,858,URY,Uruguay,All Commodities,10189183.959
+A,20210101,2021,52,702,SGP,Singapore,Export,860,UZB,Uzbekistan,All Commodities,5326040.698
+A,20210101,2021,52,702,SGP,Singapore,Export,862,VEN,Venezuela,All Commodities,5186582.327
+A,20210101,2021,52,702,SGP,Singapore,Export,876,WLF,Wallis and Futuna Isds,All Commodities,323393.662
+A,20210101,2021,52,702,SGP,Singapore,Export,882,WSM,Samoa,All Commodities,40490922.346
+A,20210101,2021,52,702,SGP,Singapore,Export,887,YEM,Yemen,All Commodities,11394913.081
+A,20210101,2021,52,702,SGP,Singapore,Export,894,ZMB,Zambia,All Commodities,5237319.093
 A,20210101,2021,52,703,SVK,Slovakia,Export,0,W00,World,All Commodities,104733320881.922
 A,20210101,2021,52,703,SVK,Slovakia,Export,4,AFG,Afghanistan,All Commodities,1656226.738
 A,20210101,2021,52,703,SVK,Slovakia,Export,8,ALB,Albania,All Commodities,46547986.777
@@ -20910,167 +21117,166 @@ A,20210101,2021,52,854,BFA,Burkina Faso,Export,842,USA,USA,All Commodities,56587
 A,20210101,2021,52,854,BFA,Burkina Faso,Export,858,URY,Uruguay,All Commodities,2428.179
 A,20210101,2021,52,854,BFA,Burkina Faso,Export,860,UZB,Uzbekistan,All Commodities,901.66
 A,20210101,2021,52,854,BFA,Burkina Faso,Export,894,ZMB,Zambia,All Commodities,10035.869
-A,20210101,2021,52,858,URY,Uruguay,Export,0,W00,World,All Commodities,9507415891
+A,20210101,2021,52,858,URY,Uruguay,Export,0,W00,World,All Commodities,9541020289
 A,20210101,2021,52,858,URY,Uruguay,Export,4,AFG,Afghanistan,All Commodities,1
 A,20210101,2021,52,858,URY,Uruguay,Export,8,ALB,Albania,All Commodities,329071
-A,20210101,2021,52,858,URY,Uruguay,Export,12,DZA,Algeria,All Commodities,190876209
-A,20210101,2021,52,858,URY,Uruguay,Export,24,AGO,Angola,All Commodities,1134178
+A,20210101,2021,52,858,URY,Uruguay,Export,12,DZA,Algeria,All Commodities,189270715
+A,20210101,2021,52,858,URY,Uruguay,Export,24,AGO,Angola,All Commodities,1260623
 A,20210101,2021,52,858,URY,Uruguay,Export,31,AZE,Azerbaijan,All Commodities,51546
-A,20210101,2021,52,858,URY,Uruguay,Export,32,ARG,Argentina,All Commodities,463573553
-A,20210101,2021,52,858,URY,Uruguay,Export,36,AUS,Australia,All Commodities,7574775
-A,20210101,2021,52,858,URY,Uruguay,Export,40,AUT,Austria,All Commodities,1717935
+A,20210101,2021,52,858,URY,Uruguay,Export,32,ARG,Argentina,All Commodities,468532486
+A,20210101,2021,52,858,URY,Uruguay,Export,36,AUS,Australia,All Commodities,7595370
+A,20210101,2021,52,858,URY,Uruguay,Export,40,AUT,Austria,All Commodities,1711388
 A,20210101,2021,52,858,URY,Uruguay,Export,44,BHS,Bahamas,All Commodities,434624
-A,20210101,2021,52,858,URY,Uruguay,Export,48,BHR,Bahrain,All Commodities,2853584
-A,20210101,2021,52,858,URY,Uruguay,Export,50,BGD,Bangladesh,All Commodities,34029671
+A,20210101,2021,52,858,URY,Uruguay,Export,48,BHR,Bahrain,All Commodities,2821952
+A,20210101,2021,52,858,URY,Uruguay,Export,50,BGD,Bangladesh,All Commodities,34618160
 A,20210101,2021,52,858,URY,Uruguay,Export,51,ARM,Armenia,All Commodities,3843
-A,20210101,2021,52,858,URY,Uruguay,Export,52,BRB,Barbados,All Commodities,3937135
-A,20210101,2021,52,858,URY,Uruguay,Export,56,BEL,Belgium,All Commodities,47943112
-A,20210101,2021,52,858,URY,Uruguay,Export,68,BOL,Bolivia (Plurinational State of),All Commodities,51013557
-A,20210101,2021,52,858,URY,Uruguay,Export,76,BRA,Brazil,All Commodities,1742639035
-A,20210101,2021,52,858,URY,Uruguay,Export,84,BLZ,Belize,All Commodities,296948
-A,20210101,2021,52,858,URY,Uruguay,Export,92,VGB,Br. Virgin Isds,All Commodities,16211
-A,20210101,2021,52,858,URY,Uruguay,Export,96,BRN,Brunei Darussalam,All Commodities,160139
-A,20210101,2021,52,858,URY,Uruguay,Export,100,BGR,Bulgaria,All Commodities,12370995
+A,20210101,2021,52,858,URY,Uruguay,Export,52,BRB,Barbados,All Commodities,3930062
+A,20210101,2021,52,858,URY,Uruguay,Export,56,BEL,Belgium,All Commodities,47553824
+A,20210101,2021,52,858,URY,Uruguay,Export,68,BOL,Bolivia (Plurinational State of),All Commodities,50516206
+A,20210101,2021,52,858,URY,Uruguay,Export,76,BRA,Brazil,All Commodities,1742459379
+A,20210101,2021,52,858,URY,Uruguay,Export,84,BLZ,Belize,All Commodities,296912
+A,20210101,2021,52,858,URY,Uruguay,Export,92,VGB,Br. Virgin Isds,All Commodities,14608
+A,20210101,2021,52,858,URY,Uruguay,Export,96,BRN,Brunei Darussalam,All Commodities,160138
+A,20210101,2021,52,858,URY,Uruguay,Export,100,BGR,Bulgaria,All Commodities,12317633
 A,20210101,2021,52,858,URY,Uruguay,Export,104,MMR,Myanmar,All Commodities,397168
-A,20210101,2021,52,858,URY,Uruguay,Export,112,BLR,Belarus,All Commodities,258441
-A,20210101,2021,52,858,URY,Uruguay,Export,116,KHM,Cambodia,All Commodities,2181477
-A,20210101,2021,52,858,URY,Uruguay,Export,120,CMR,Cameroon,All Commodities,6075339
-A,20210101,2021,52,858,URY,Uruguay,Export,124,CAN,Canada,All Commodities,50255166
-A,20210101,2021,52,858,URY,Uruguay,Export,132,CPV,Cabo Verde,All Commodities,1966442
-A,20210101,2021,52,858,URY,Uruguay,Export,144,LKA,Sri Lanka,All Commodities,548780
-A,20210101,2021,52,858,URY,Uruguay,Export,152,CHL,Chile,All Commodities,127743335
-A,20210101,2021,52,858,URY,Uruguay,Export,156,CHN,China,All Commodities,2576656495
-A,20210101,2021,52,858,URY,Uruguay,Export,170,COL,Colombia,All Commodities,35187189
-A,20210101,2021,52,858,URY,Uruguay,Export,178,COG,Congo,All Commodities,2950338
-A,20210101,2021,52,858,URY,Uruguay,Export,188,CRI,Costa Rica,All Commodities,12817904
+A,20210101,2021,52,858,URY,Uruguay,Export,112,BLR,Belarus,All Commodities,256492
+A,20210101,2021,52,858,URY,Uruguay,Export,116,KHM,Cambodia,All Commodities,2180981
+A,20210101,2021,52,858,URY,Uruguay,Export,120,CMR,Cameroon,All Commodities,6801778
+A,20210101,2021,52,858,URY,Uruguay,Export,124,CAN,Canada,All Commodities,50356178
+A,20210101,2021,52,858,URY,Uruguay,Export,132,CPV,Cabo Verde,All Commodities,1937911
+A,20210101,2021,52,858,URY,Uruguay,Export,144,LKA,Sri Lanka,All Commodities,939232
+A,20210101,2021,52,858,URY,Uruguay,Export,152,CHL,Chile,All Commodities,127041051
+A,20210101,2021,52,858,URY,Uruguay,Export,156,CHN,China,All Commodities,2598261360
+A,20210101,2021,52,858,URY,Uruguay,Export,170,COL,Colombia,All Commodities,36521853
+A,20210101,2021,52,858,URY,Uruguay,Export,178,COG,Congo,All Commodities,3156866
+A,20210101,2021,52,858,URY,Uruguay,Export,188,CRI,Costa Rica,All Commodities,12645468
 A,20210101,2021,52,858,URY,Uruguay,Export,191,HRV,Croatia,All Commodities,175712
-A,20210101,2021,52,858,URY,Uruguay,Export,192,CUB,Cuba,All Commodities,29092981
-A,20210101,2021,52,858,URY,Uruguay,Export,196,CYP,Cyprus,All Commodities,834925
-A,20210101,2021,52,858,URY,Uruguay,Export,203,CZE,Czechia,All Commodities,2167011
-A,20210101,2021,52,858,URY,Uruguay,Export,204,BEN,Benin,All Commodities,975767
-A,20210101,2021,52,858,URY,Uruguay,Export,208,DNK,Denmark,All Commodities,10925374
+A,20210101,2021,52,858,URY,Uruguay,Export,192,CUB,Cuba,All Commodities,28679722
+A,20210101,2021,52,858,URY,Uruguay,Export,196,CYP,Cyprus,All Commodities,818091
+A,20210101,2021,52,858,URY,Uruguay,Export,203,CZE,Czechia,All Commodities,2166789
+A,20210101,2021,52,858,URY,Uruguay,Export,204,BEN,Benin,All Commodities,973966
+A,20210101,2021,52,858,URY,Uruguay,Export,208,DNK,Denmark,All Commodities,10907717
 A,20210101,2021,52,858,URY,Uruguay,Export,212,DMA,Dominica,All Commodities,60822
-A,20210101,2021,52,858,URY,Uruguay,Export,214,DOM,Dominican Rep.,All Commodities,6275994
-A,20210101,2021,52,858,URY,Uruguay,Export,218,ECU,Ecuador,All Commodities,16210444
-A,20210101,2021,52,858,URY,Uruguay,Export,222,SLV,El Salvador,All Commodities,2254875
-A,20210101,2021,52,858,URY,Uruguay,Export,226,GNQ,Equatorial Guinea,All Commodities,696969
+A,20210101,2021,52,858,URY,Uruguay,Export,214,DOM,Dominican Rep.,All Commodities,6469957
+A,20210101,2021,52,858,URY,Uruguay,Export,218,ECU,Ecuador,All Commodities,16311604
+A,20210101,2021,52,858,URY,Uruguay,Export,222,SLV,El Salvador,All Commodities,2258849
+A,20210101,2021,52,858,URY,Uruguay,Export,226,GNQ,Equatorial Guinea,All Commodities,680391
 A,20210101,2021,52,858,URY,Uruguay,Export,231,ETH,Ethiopia,All Commodities,564422
-A,20210101,2021,52,858,URY,Uruguay,Export,233,EST,Estonia,All Commodities,1059135
-A,20210101,2021,52,858,URY,Uruguay,Export,246,FIN,Finland,All Commodities,808474
-A,20210101,2021,52,858,URY,Uruguay,Export,251,FRA,France,All Commodities,50053231
-A,20210101,2021,52,858,URY,Uruguay,Export,258,PYF,French Polynesia,All Commodities,9130440
-A,20210101,2021,52,858,URY,Uruguay,Export,262,DJI,Djibouti,All Commodities,129055
-A,20210101,2021,52,858,URY,Uruguay,Export,266,GAB,Gabon,All Commodities,5045161
-A,20210101,2021,52,858,URY,Uruguay,Export,268,GEO,Georgia,All Commodities,3966711
+A,20210101,2021,52,858,URY,Uruguay,Export,233,EST,Estonia,All Commodities,1041681
+A,20210101,2021,52,858,URY,Uruguay,Export,246,FIN,Finland,All Commodities,808091
+A,20210101,2021,52,858,URY,Uruguay,Export,251,FRA,France,All Commodities,49951674
+A,20210101,2021,52,858,URY,Uruguay,Export,258,PYF,French Polynesia,All Commodities,9119609
+A,20210101,2021,52,858,URY,Uruguay,Export,262,DJI,Djibouti,All Commodities,129050
+A,20210101,2021,52,858,URY,Uruguay,Export,266,GAB,Gabon,All Commodities,5495576
+A,20210101,2021,52,858,URY,Uruguay,Export,268,GEO,Georgia,All Commodities,3933446
 A,20210101,2021,52,858,URY,Uruguay,Export,270,GMB,Gambia,All Commodities,126910
-A,20210101,2021,52,858,URY,Uruguay,Export,275,PSE,State of Palestine,All Commodities,5978208
-A,20210101,2021,52,858,URY,Uruguay,Export,276,DEU,Germany,All Commodities,87888935
-A,20210101,2021,52,858,URY,Uruguay,Export,288,GHA,Ghana,All Commodities,650235
-A,20210101,2021,52,858,URY,Uruguay,Export,300,GRC,Greece,All Commodities,767875
-A,20210101,2021,52,858,URY,Uruguay,Export,320,GTM,Guatemala,All Commodities,14362256
-A,20210101,2021,52,858,URY,Uruguay,Export,324,GIN,Guinea,All Commodities,735586
-A,20210101,2021,52,858,URY,Uruguay,Export,328,GUY,Guyana,All Commodities,4098518
-A,20210101,2021,52,858,URY,Uruguay,Export,332,HTI,Haiti,All Commodities,965261
-A,20210101,2021,52,858,URY,Uruguay,Export,340,HND,Honduras,All Commodities,1220860
-A,20210101,2021,52,858,URY,Uruguay,Export,344,HKG,"China, Hong Kong SAR",All Commodities,54981569
-A,20210101,2021,52,858,URY,Uruguay,Export,348,HUN,Hungary,All Commodities,1089981
+A,20210101,2021,52,858,URY,Uruguay,Export,275,PSE,State of Palestine,All Commodities,2628224
+A,20210101,2021,52,858,URY,Uruguay,Export,276,DEU,Germany,All Commodities,87636279
+A,20210101,2021,52,858,URY,Uruguay,Export,288,GHA,Ghana,All Commodities,647055
+A,20210101,2021,52,858,URY,Uruguay,Export,300,GRC,Greece,All Commodities,764515
+A,20210101,2021,52,858,URY,Uruguay,Export,320,GTM,Guatemala,All Commodities,14642068
+A,20210101,2021,52,858,URY,Uruguay,Export,324,GIN,Guinea,All Commodities,1090578
+A,20210101,2021,52,858,URY,Uruguay,Export,328,GUY,Guyana,All Commodities,4071164
+A,20210101,2021,52,858,URY,Uruguay,Export,332,HTI,Haiti,All Commodities,964954
+A,20210101,2021,52,858,URY,Uruguay,Export,340,HND,Honduras,All Commodities,1219022
+A,20210101,2021,52,858,URY,Uruguay,Export,344,HKG,"China, Hong Kong SAR",All Commodities,54943390
+A,20210101,2021,52,858,URY,Uruguay,Export,348,HUN,Hungary,All Commodities,1089381
 A,20210101,2021,52,858,URY,Uruguay,Export,352,ISL,Iceland,All Commodities,500
-A,20210101,2021,52,858,URY,Uruguay,Export,360,IDN,Indonesia,All Commodities,13440005
+A,20210101,2021,52,858,URY,Uruguay,Export,360,IDN,Indonesia,All Commodities,13202258
 A,20210101,2021,52,858,URY,Uruguay,Export,364,IRN,Iran,All Commodities,3319325
 A,20210101,2021,52,858,URY,Uruguay,Export,368,IRQ,Iraq,All Commodities,73044308
-A,20210101,2021,52,858,URY,Uruguay,Export,372,IRL,Ireland,All Commodities,6671935
-A,20210101,2021,52,858,URY,Uruguay,Export,376,ISR,Israel,All Commodities,92728246
-A,20210101,2021,52,858,URY,Uruguay,Export,380,ITA,Italy,All Commodities,99091641
-A,20210101,2021,52,858,URY,Uruguay,Export,384,CIV,Côte d'Ivoire,All Commodities,4146284
-A,20210101,2021,52,858,URY,Uruguay,Export,388,JAM,Jamaica,All Commodities,883413
-A,20210101,2021,52,858,URY,Uruguay,Export,392,JPN,Japan,All Commodities,53166825
-A,20210101,2021,52,858,URY,Uruguay,Export,398,KAZ,Kazakhstan,All Commodities,3477033
-A,20210101,2021,52,858,URY,Uruguay,Export,400,JOR,Jordan,All Commodities,1315251
-A,20210101,2021,52,858,URY,Uruguay,Export,404,KEN,Kenya,All Commodities,802016
-A,20210101,2021,52,858,URY,Uruguay,Export,410,KOR,Rep. of Korea,All Commodities,20018960
-A,20210101,2021,52,858,URY,Uruguay,Export,414,KWT,Kuwait,All Commodities,5016629
+A,20210101,2021,52,858,URY,Uruguay,Export,372,IRL,Ireland,All Commodities,6640795
+A,20210101,2021,52,858,URY,Uruguay,Export,376,ISR,Israel,All Commodities,93471620
+A,20210101,2021,52,858,URY,Uruguay,Export,380,ITA,Italy,All Commodities,97955176
+A,20210101,2021,52,858,URY,Uruguay,Export,384,CIV,Côte d'Ivoire,All Commodities,4414794
+A,20210101,2021,52,858,URY,Uruguay,Export,388,JAM,Jamaica,All Commodities,917040
+A,20210101,2021,52,858,URY,Uruguay,Export,392,JPN,Japan,All Commodities,53704238
+A,20210101,2021,52,858,URY,Uruguay,Export,398,KAZ,Kazakhstan,All Commodities,3458625
+A,20210101,2021,52,858,URY,Uruguay,Export,400,JOR,Jordan,All Commodities,1299972
+A,20210101,2021,52,858,URY,Uruguay,Export,404,KEN,Kenya,All Commodities,799778
+A,20210101,2021,52,858,URY,Uruguay,Export,410,KOR,Rep. of Korea,All Commodities,20302575
+A,20210101,2021,52,858,URY,Uruguay,Export,414,KWT,Kuwait,All Commodities,5015036
 A,20210101,2021,52,858,URY,Uruguay,Export,417,KGZ,Kyrgyzstan,All Commodities,66017
 A,20210101,2021,52,858,URY,Uruguay,Export,418,LAO,Lao People's Dem. Rep.,All Commodities,32629
-A,20210101,2021,52,858,URY,Uruguay,Export,422,LBN,Lebanon,All Commodities,7575972
-A,20210101,2021,52,858,URY,Uruguay,Export,428,LVA,Latvia,All Commodities,1506661
-A,20210101,2021,52,858,URY,Uruguay,Export,430,LBR,Liberia,All Commodities,269242
-A,20210101,2021,52,858,URY,Uruguay,Export,434,LBY,Libya,All Commodities,2372739
-A,20210101,2021,52,858,URY,Uruguay,Export,440,LTU,Lithuania,All Commodities,934961
+A,20210101,2021,52,858,URY,Uruguay,Export,422,LBN,Lebanon,All Commodities,7572088
+A,20210101,2021,52,858,URY,Uruguay,Export,428,LVA,Latvia,All Commodities,1463738
+A,20210101,2021,52,858,URY,Uruguay,Export,430,LBR,Liberia,All Commodities,381419
+A,20210101,2021,52,858,URY,Uruguay,Export,434,LBY,Libya,All Commodities,2340218
+A,20210101,2021,52,858,URY,Uruguay,Export,440,LTU,Lithuania,All Commodities,929500
 A,20210101,2021,52,858,URY,Uruguay,Export,442,LUX,Luxembourg,All Commodities,225
 A,20210101,2021,52,858,URY,Uruguay,Export,446,MAC,"China, Macao SAR",All Commodities,468
-A,20210101,2021,52,858,URY,Uruguay,Export,450,MDG,Madagascar,All Commodities,3207775
-A,20210101,2021,52,858,URY,Uruguay,Export,458,MYS,Malaysia,All Commodities,6879424
+A,20210101,2021,52,858,URY,Uruguay,Export,450,MDG,Madagascar,All Commodities,3207128
+A,20210101,2021,52,858,URY,Uruguay,Export,458,MYS,Malaysia,All Commodities,6919692
 A,20210101,2021,52,858,URY,Uruguay,Export,462,MDV,Maldives,All Commodities,1690
 A,20210101,2021,52,858,URY,Uruguay,Export,466,MLI,Mali,All Commodities,988247
-A,20210101,2021,52,858,URY,Uruguay,Export,470,MLT,Malta,All Commodities,31372
-A,20210101,2021,52,858,URY,Uruguay,Export,478,MRT,Mauritania,All Commodities,620582
-A,20210101,2021,52,858,URY,Uruguay,Export,480,MUS,Mauritius,All Commodities,5967469
-A,20210101,2021,52,858,URY,Uruguay,Export,484,MEX,Mexico,All Commodities,144343512
-A,20210101,2021,52,858,URY,Uruguay,Export,490,S19,"Other Asia, nes",All Commodities,7637971
+A,20210101,2021,52,858,URY,Uruguay,Export,470,MLT,Malta,All Commodities,31275
+A,20210101,2021,52,858,URY,Uruguay,Export,478,MRT,Mauritania,All Commodities,619422
+A,20210101,2021,52,858,URY,Uruguay,Export,480,MUS,Mauritius,All Commodities,6223873
+A,20210101,2021,52,858,URY,Uruguay,Export,484,MEX,Mexico,All Commodities,143646226
+A,20210101,2021,52,858,URY,Uruguay,Export,490,S19,"Other Asia, nes",All Commodities,7628968
 A,20210101,2021,52,858,URY,Uruguay,Export,496,MNG,Mongolia,All Commodities,381495
 A,20210101,2021,52,858,URY,Uruguay,Export,498,MDA,Rep. of Moldova,All Commodities,37622
 A,20210101,2021,52,858,URY,Uruguay,Export,499,MNE,Montenegro,All Commodities,203790
-A,20210101,2021,52,858,URY,Uruguay,Export,504,MAR,Morocco,All Commodities,3551231
-A,20210101,2021,52,858,URY,Uruguay,Export,508,MOZ,Mozambique,All Commodities,614224
-A,20210101,2021,52,858,URY,Uruguay,Export,512,OMN,Oman,All Commodities,4818032
-A,20210101,2021,52,858,URY,Uruguay,Export,516,NAM,Namibia,All Commodities,65993
-A,20210101,2021,52,858,URY,Uruguay,Export,524,NPL,Nepal,All Commodities,6
-A,20210101,2021,52,858,URY,Uruguay,Export,528,NLD,Netherlands,All Commodities,234490652
+A,20210101,2021,52,858,URY,Uruguay,Export,504,MAR,Morocco,All Commodities,3502914
+A,20210101,2021,52,858,URY,Uruguay,Export,508,MOZ,Mozambique,All Commodities,672686
+A,20210101,2021,52,858,URY,Uruguay,Export,512,OMN,Oman,All Commodities,4817273
+A,20210101,2021,52,858,URY,Uruguay,Export,516,NAM,Namibia,All Commodities,65986
+A,20210101,2021,52,858,URY,Uruguay,Export,524,NPL,Nepal,All Commodities,310252
+A,20210101,2021,52,858,URY,Uruguay,Export,528,NLD,Netherlands,All Commodities,230440395
 A,20210101,2021,52,858,URY,Uruguay,Export,531,CUW,Curaçao,All Commodities,265562
-A,20210101,2021,52,858,URY,Uruguay,Export,533,ABW,Aruba,All Commodities,6210308
-A,20210101,2021,52,858,URY,Uruguay,Export,534,SXM,Saint Maarten,All Commodities,22136
+A,20210101,2021,52,858,URY,Uruguay,Export,533,ABW,Aruba,All Commodities,6137839
+A,20210101,2021,52,858,URY,Uruguay,Export,534,SXM,Saint Maarten,All Commodities,19947
 A,20210101,2021,52,858,URY,Uruguay,Export,548,VUT,Vanuatu,All Commodities,21000
-A,20210101,2021,52,858,URY,Uruguay,Export,554,NZL,New Zealand,All Commodities,840177
-A,20210101,2021,52,858,URY,Uruguay,Export,558,NIC,Nicaragua,All Commodities,1301207
+A,20210101,2021,52,858,URY,Uruguay,Export,554,NZL,New Zealand,All Commodities,905754
+A,20210101,2021,52,858,URY,Uruguay,Export,558,NIC,Nicaragua,All Commodities,1299164
 A,20210101,2021,52,858,URY,Uruguay,Export,562,NER,Niger,All Commodities,115200
-A,20210101,2021,52,858,URY,Uruguay,Export,566,NGA,Nigeria,All Commodities,13393502
-A,20210101,2021,52,858,URY,Uruguay,Export,579,NOR,Norway,All Commodities,10917421
-A,20210101,2021,52,858,URY,Uruguay,Export,581,UMI,United States Minor Outlying Islands,All Commodities,50
-A,20210101,2021,52,858,URY,Uruguay,Export,586,PAK,Pakistan,All Commodities,1259660
-A,20210101,2021,52,858,URY,Uruguay,Export,591,PAN,Panama,All Commodities,15907092
-A,20210101,2021,52,858,URY,Uruguay,Export,598,PNG,Papua New Guinea,All Commodities,79807
-A,20210101,2021,52,858,URY,Uruguay,Export,600,PRY,Paraguay,All Commodities,133339542
-A,20210101,2021,52,858,URY,Uruguay,Export,604,PER,Peru,All Commodities,106368178
-A,20210101,2021,52,858,URY,Uruguay,Export,608,PHL,Philippines,All Commodities,18324962
-A,20210101,2021,52,858,URY,Uruguay,Export,616,POL,Poland,All Commodities,15037203
-A,20210101,2021,52,858,URY,Uruguay,Export,620,PRT,Portugal,All Commodities,62445655
-A,20210101,2021,52,858,URY,Uruguay,Export,634,QAT,Qatar,All Commodities,1341832
-A,20210101,2021,52,858,URY,Uruguay,Export,642,ROU,Romania,All Commodities,5744288
-A,20210101,2021,52,858,URY,Uruguay,Export,643,RUS,Russian Federation,All Commodities,115163643
+A,20210101,2021,52,858,URY,Uruguay,Export,566,NGA,Nigeria,All Commodities,13579926
+A,20210101,2021,52,858,URY,Uruguay,Export,579,NOR,Norway,All Commodities,10851107
+A,20210101,2021,52,858,URY,Uruguay,Export,586,PAK,Pakistan,All Commodities,1256977
+A,20210101,2021,52,858,URY,Uruguay,Export,591,PAN,Panama,All Commodities,15934356
+A,20210101,2021,52,858,URY,Uruguay,Export,598,PNG,Papua New Guinea,All Commodities,76488
+A,20210101,2021,52,858,URY,Uruguay,Export,600,PRY,Paraguay,All Commodities,133186284
+A,20210101,2021,52,858,URY,Uruguay,Export,604,PER,Peru,All Commodities,105218887
+A,20210101,2021,52,858,URY,Uruguay,Export,608,PHL,Philippines,All Commodities,19093491
+A,20210101,2021,52,858,URY,Uruguay,Export,616,POL,Poland,All Commodities,14956700
+A,20210101,2021,52,858,URY,Uruguay,Export,620,PRT,Portugal,All Commodities,61831158
+A,20210101,2021,52,858,URY,Uruguay,Export,634,QAT,Qatar,All Commodities,1329089
+A,20210101,2021,52,858,URY,Uruguay,Export,642,ROU,Romania,All Commodities,5662647
+A,20210101,2021,52,858,URY,Uruguay,Export,643,RUS,Russian Federation,All Commodities,114494081
 A,20210101,2021,52,858,URY,Uruguay,Export,654,SHN,Saint Helena,All Commodities,41829
 A,20210101,2021,52,858,URY,Uruguay,Export,662,LCA,Saint Lucia,All Commodities,8232
-A,20210101,2021,52,858,URY,Uruguay,Export,682,SAU,Saudi Arabia,All Commodities,6246973
-A,20210101,2021,52,858,URY,Uruguay,Export,686,SEN,Senegal,All Commodities,6752641
+A,20210101,2021,52,858,URY,Uruguay,Export,682,SAU,Saudi Arabia,All Commodities,6389403
+A,20210101,2021,52,858,URY,Uruguay,Export,686,SEN,Senegal,All Commodities,7020663
 A,20210101,2021,52,858,URY,Uruguay,Export,688,SRB,Serbia,All Commodities,68257
-A,20210101,2021,52,858,URY,Uruguay,Export,694,SLE,Sierra Leone,All Commodities,6605849
-A,20210101,2021,52,858,URY,Uruguay,Export,699,IND,India,All Commodities,76047776
-A,20210101,2021,52,858,URY,Uruguay,Export,702,SGP,Singapore,All Commodities,11388800
+A,20210101,2021,52,858,URY,Uruguay,Export,694,SLE,Sierra Leone,All Commodities,6605157
+A,20210101,2021,52,858,URY,Uruguay,Export,699,IND,India,All Commodities,75779665
+A,20210101,2021,52,858,URY,Uruguay,Export,702,SGP,Singapore,All Commodities,11686829
 A,20210101,2021,52,858,URY,Uruguay,Export,703,SVK,Slovakia,All Commodities,79479
-A,20210101,2021,52,858,URY,Uruguay,Export,704,VNM,Viet Nam,All Commodities,33887155
-A,20210101,2021,52,858,URY,Uruguay,Export,705,SVN,Slovenia,All Commodities,5411
-A,20210101,2021,52,858,URY,Uruguay,Export,710,ZAF,South Africa,All Commodities,30691057
-A,20210101,2021,52,858,URY,Uruguay,Export,716,ZWE,Zimbabwe,All Commodities,208145
-A,20210101,2021,52,858,URY,Uruguay,Export,724,ESP,Spain,All Commodities,79054492
+A,20210101,2021,52,858,URY,Uruguay,Export,704,VNM,Viet Nam,All Commodities,34500404
+A,20210101,2021,52,858,URY,Uruguay,Export,705,SVN,Slovenia,All Commodities,5139
+A,20210101,2021,52,858,URY,Uruguay,Export,710,ZAF,South Africa,All Commodities,30617145
+A,20210101,2021,52,858,URY,Uruguay,Export,716,ZWE,Zimbabwe,All Commodities,207958
+A,20210101,2021,52,858,URY,Uruguay,Export,724,ESP,Spain,All Commodities,77975972
 A,20210101,2021,52,858,URY,Uruguay,Export,729,SDN,Sudan,All Commodities,28755
 A,20210101,2021,52,858,URY,Uruguay,Export,740,SUR,Suriname,All Commodities,170285
-A,20210101,2021,52,858,URY,Uruguay,Export,752,SWE,Sweden,All Commodities,5941538
-A,20210101,2021,52,858,URY,Uruguay,Export,757,CHE,Switzerland,All Commodities,21838474
+A,20210101,2021,52,858,URY,Uruguay,Export,752,SWE,Sweden,All Commodities,5912427
+A,20210101,2021,52,858,URY,Uruguay,Export,757,CHE,Switzerland,All Commodities,22353527
 A,20210101,2021,52,858,URY,Uruguay,Export,760,SYR,Syria,All Commodities,71900
-A,20210101,2021,52,858,URY,Uruguay,Export,764,THA,Thailand,All Commodities,59795281
-A,20210101,2021,52,858,URY,Uruguay,Export,768,TGO,Togo,All Commodities,46579
-A,20210101,2021,52,858,URY,Uruguay,Export,780,TTO,Trinidad and Tobago,All Commodities,17051176
-A,20210101,2021,52,858,URY,Uruguay,Export,784,ARE,United Arab Emirates,All Commodities,11327513
-A,20210101,2021,52,858,URY,Uruguay,Export,788,TUN,Tunisia,All Commodities,31300
-A,20210101,2021,52,858,URY,Uruguay,Export,792,TUR,Türkiye,All Commodities,142703483
+A,20210101,2021,52,858,URY,Uruguay,Export,764,THA,Thailand,All Commodities,60049973
+A,20210101,2021,52,858,URY,Uruguay,Export,768,TGO,Togo,All Commodities,44800
+A,20210101,2021,52,858,URY,Uruguay,Export,780,TTO,Trinidad and Tobago,All Commodities,17300598
+A,20210101,2021,52,858,URY,Uruguay,Export,784,ARE,United Arab Emirates,All Commodities,11221842
+A,20210101,2021,52,858,URY,Uruguay,Export,788,TUN,Tunisia,All Commodities,121485
+A,20210101,2021,52,858,URY,Uruguay,Export,792,TUR,Türkiye,All Commodities,140771889
 A,20210101,2021,52,858,URY,Uruguay,Export,800,UGA,Uganda,All Commodities,21680
-A,20210101,2021,52,858,URY,Uruguay,Export,804,UKR,Ukraine,All Commodities,851340
-A,20210101,2021,52,858,URY,Uruguay,Export,807,MKD,North Macedonia,All Commodities,8698658
-A,20210101,2021,52,858,URY,Uruguay,Export,818,EGY,Egypt,All Commodities,141962336
-A,20210101,2021,52,858,URY,Uruguay,Export,826,GBR,United Kingdom,All Commodities,72490007
-A,20210101,2021,52,858,URY,Uruguay,Export,838,X2,Free Zones,All Commodities,1189159334
-A,20210101,2021,52,858,URY,Uruguay,Export,842,USA,USA,All Commodities,545396374
-A,20210101,2021,52,858,URY,Uruguay,Export,854,BFA,Burkina Faso,All Commodities,541656
-A,20210101,2021,52,858,URY,Uruguay,Export,862,VEN,Venezuela,All Commodities,34451544
+A,20210101,2021,52,858,URY,Uruguay,Export,804,UKR,Ukraine,All Commodities,852997
+A,20210101,2021,52,858,URY,Uruguay,Export,807,MKD,North Macedonia,All Commodities,8669722
+A,20210101,2021,52,858,URY,Uruguay,Export,818,EGY,Egypt,All Commodities,155026255
+A,20210101,2021,52,858,URY,Uruguay,Export,826,GBR,United Kingdom,All Commodities,72613680
+A,20210101,2021,52,858,URY,Uruguay,Export,838,X2,Free Zones,All Commodities,1196329348
+A,20210101,2021,52,858,URY,Uruguay,Export,842,USA,USA,All Commodities,542580143
+A,20210101,2021,52,858,URY,Uruguay,Export,854,BFA,Burkina Faso,All Commodities,536216
+A,20210101,2021,52,858,URY,Uruguay,Export,862,VEN,Venezuela,All Commodities,33702222
 A,20210101,2021,52,858,URY,Uruguay,Export,887,YEM,Yemen,All Commodities,1298
 A,20210101,2021,52,858,URY,Uruguay,Export,894,ZMB,Zambia,All Commodities,640594
 A,20210101,2021,52,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,14092247992.431

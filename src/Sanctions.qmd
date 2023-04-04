@@ -17,8 +17,8 @@ editor: visual
 # install.packages("lubridate")
 # install.packages("wbstats") # for country GDPs from World Bank
 # install.packages("reticulate") # for running python stuff
-# install.packages("tempdisagg") # trying to use for freq conv
-# install.packages("tsbox") # also trying to use for freq conv
+# install.packages("tempdisagg") # for freq conv
+# install.packages("tsbox") # for time-series visualizations
 ```
 
 ```{r message = FALSE}
@@ -37,7 +37,6 @@ library(tsbox)
 ```{r message = FALSE}
 #|: importing-python-pkgs-to-run-modules-using-R
 
-<<<<<<< HEAD
 # os <- import("os")
 # imf <- import("imf")
 # json <- import("json")
@@ -56,22 +55,6 @@ py_install("pandas")
 py_install("requests")
 py_install("flatten_json")
 py_install("comtradeapicall")
-```
-
-```{python}
-from export_ease.comtrade import Comtrade
-
-comtrade_obj = Comtrade()
-comtrade_obj.get_all_exports()
-```
-
-```{python}
-from export_ease.imf import IMF
-
-imf_obj = IMF()
-imf_obj.get_reporter_exports()
-=======
->>>>>>> e4b5d2d972905d29473de5afd94a63ab9854a640
 ```
 
 ## Comtrade
@@ -311,4 +294,12 @@ wb_gdp <- get_wb(3, "gdp")
 wb_total_exports <- data.frame()
 wb_total_exports <- get_wb(3, "exports")
 # view(wb_total_exports)
+```
+
+## Frequency Conversion
+
+```{r}
+#|: getting-vector-for-tempdisagg-test
+
+
 ```

@@ -47,6 +47,7 @@ M,20210101,2021,1,392,JPN,Japan,Export,0,W00,World,All Commodities,55735015938.3
 M,20210101,2021,1,404,KEN,Kenya,Export,0,W00,World,All Commodities,494597695.124
 M,20210101,2021,1,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4023308432
 M,20210101,2021,1,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,97572722
+M,20210101,2021,1,426,LSO,Lesotho,Export,0,W00,World,All Commodities,59618654.212
 M,20210101,2021,1,428,LVA,Latvia,Export,0,W00,World,All Commodities,1285049099.096
 M,20210101,2021,1,440,LTU,Lithuania,Export,0,W00,World,All Commodities,2771048009.99
 M,20210101,2021,1,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1183582077.821
@@ -150,6 +151,7 @@ M,20210201,2021,2,392,JPN,Japan,Export,0,W00,World,All Commodities,57303851858.8
 M,20210201,2021,2,404,KEN,Kenya,Export,0,W00,World,All Commodities,614581174.507
 M,20210201,2021,2,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4496218216
 M,20210201,2021,2,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,136152354
+M,20210201,2021,2,426,LSO,Lesotho,Export,0,W00,World,All Commodities,68681293.463
 M,20210201,2021,2,428,LVA,Latvia,Export,0,W00,World,All Commodities,1373869000.316
 M,20210201,2021,2,440,LTU,Lithuania,Export,0,W00,World,All Commodities,2951307324.96
 M,20210201,2021,2,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1015562758.27
@@ -204,7 +206,7 @@ M,20210201,2021,2,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,390566
 M,20210201,2021,2,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,677820283
 M,20210201,2021,2,882,WSM,Samoa,Export,0,W00,World,All Commodities,2335069.817
 M,20210301,2021,3,28,ATG,Antigua and Barbuda,Export,0,W00,World,All Commodities,2794678.127
-M,20210301,2021,3,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1350002526.61
+M,20210301,2021,3,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1350040145.75
 M,20210301,2021,3,32,ARG,Argentina,Export,0,W00,World,All Commodities,5719998796.77
 M,20210301,2021,3,36,AUS,Australia,Export,0,W00,World,All Commodities,27625525889.88
 M,20210301,2021,3,51,ARM,Armenia,Export,0,W00,World,All Commodities,215414632.36
@@ -251,6 +253,7 @@ M,20210301,2021,3,392,JPN,Japan,Export,0,W00,World,All Commodities,67902331920.7
 M,20210301,2021,3,404,KEN,Kenya,Export,0,W00,World,All Commodities,635093009.404
 M,20210301,2021,3,414,KWT,Kuwait,Export,0,W00,World,All Commodities,5006250055
 M,20210301,2021,3,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,192105765
+M,20210301,2021,3,426,LSO,Lesotho,Export,0,W00,World,All Commodities,67251250.021
 M,20210301,2021,3,428,LVA,Latvia,Export,0,W00,World,All Commodities,1588469863.195
 M,20210301,2021,3,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3280446870.99
 M,20210301,2021,3,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1461276534.19
@@ -304,7 +307,7 @@ M,20210301,2021,3,842,USA,USA,Export,0,W00,World,All Commodities,151488961267
 M,20210301,2021,3,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,494438128.854
 M,20210301,2021,3,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,736980034.67
 M,20210301,2021,3,882,WSM,Samoa,Export,0,W00,World,All Commodities,3579979.845
-M,20210401,2021,4,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2226238321.14
+M,20210401,2021,4,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2226287522.3
 M,20210401,2021,4,32,ARG,Argentina,Export,0,W00,World,All Commodities,6142998699.95
 M,20210401,2021,4,36,AUS,Australia,Export,0,W00,World,All Commodities,27221581162.757
 M,20210401,2021,4,51,ARM,Armenia,Export,0,W00,World,All Commodities,240598668.71
@@ -351,6 +354,7 @@ M,20210401,2021,4,392,JPN,Japan,Export,0,W00,World,All Commodities,65792796227.1
 M,20210401,2021,4,404,KEN,Kenya,Export,0,W00,World,All Commodities,544947285.506
 M,20210401,2021,4,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4674868419
 M,20210401,2021,4,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,163811340
+M,20210401,2021,4,426,LSO,Lesotho,Export,0,W00,World,All Commodities,74199670.83
 M,20210401,2021,4,428,LVA,Latvia,Export,0,W00,World,All Commodities,1492323002.456
 M,20210401,2021,4,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3195307082.98
 M,20210401,2021,4,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1357406092.241
@@ -450,6 +454,7 @@ M,20210501,2021,5,392,JPN,Japan,Export,0,W00,World,All Commodities,57378657534.0
 M,20210501,2021,5,404,KEN,Kenya,Export,0,W00,World,All Commodities,587740022.815
 M,20210501,2021,5,414,KWT,Kuwait,Export,0,W00,World,All Commodities,5613589734
 M,20210501,2021,5,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,228292420
+M,20210501,2021,5,426,LSO,Lesotho,Export,0,W00,World,All Commodities,69507340.043
 M,20210501,2021,5,428,LVA,Latvia,Export,0,W00,World,All Commodities,1515827946.48
 M,20210501,2021,5,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3318201860.96
 M,20210501,2021,5,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1324173530.837
@@ -549,6 +554,7 @@ M,20210601,2021,6,392,JPN,Japan,Export,0,W00,World,All Commodities,65607338381.6
 M,20210601,2021,6,404,KEN,Kenya,Export,0,W00,World,All Commodities,526016613.895
 M,20210601,2021,6,414,KWT,Kuwait,Export,0,W00,World,All Commodities,6220192564
 M,20210601,2021,6,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,99617029
+M,20210601,2021,6,426,LSO,Lesotho,Export,0,W00,World,All Commodities,72344532.273
 M,20210601,2021,6,428,LVA,Latvia,Export,0,W00,World,All Commodities,1545378134.775
 M,20210601,2021,6,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3408087768.99
 M,20210601,2021,6,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1473574612.249
@@ -602,7 +608,7 @@ M,20210601,2021,6,842,USA,USA,Export,0,W00,World,All Commodities,147636975885
 M,20210601,2021,6,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,518242958.887
 M,20210601,2021,6,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,1064413467.97
 M,20210601,2021,6,882,WSM,Samoa,Export,0,W00,World,All Commodities,2353168.719
-M,20210701,2021,7,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2582196235.24
+M,20210701,2021,7,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2584509490.32
 M,20210701,2021,7,32,ARG,Argentina,Export,0,W00,World,All Commodities,7251906933.18
 M,20210701,2021,7,36,AUS,Australia,Export,0,W00,World,All Commodities,31102554204.174
 M,20210701,2021,7,51,ARM,Armenia,Export,0,W00,World,All Commodities,252817822.71
@@ -649,6 +655,7 @@ M,20210701,2021,7,392,JPN,Japan,Export,0,W00,World,All Commodities,66759894642.4
 M,20210701,2021,7,404,KEN,Kenya,Export,0,W00,World,All Commodities,548020686.315
 M,20210701,2021,7,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4648710018
 M,20210701,2021,7,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,100473419
+M,20210701,2021,7,426,LSO,Lesotho,Export,0,W00,World,All Commodities,75262232.949
 M,20210701,2021,7,428,LVA,Latvia,Export,0,W00,World,All Commodities,1570213825.343
 M,20210701,2021,7,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3234034413
 M,20210701,2021,7,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1415777958.789
@@ -702,7 +709,7 @@ M,20210701,2021,7,842,USA,USA,Export,0,W00,World,All Commodities,144029705365
 M,20210701,2021,7,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,376780494.464
 M,20210701,2021,7,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,845979384.8
 M,20210701,2021,7,882,WSM,Samoa,Export,0,W00,World,All Commodities,1689420.765
-M,20210801,2021,8,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1541768516.35
+M,20210801,2021,8,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1541800757.43
 M,20210801,2021,8,32,ARG,Argentina,Export,0,W00,World,All Commodities,8098856231.98
 M,20210801,2021,8,36,AUS,Australia,Export,0,W00,World,All Commodities,30731149256.074
 M,20210801,2021,8,51,ARM,Armenia,Export,0,W00,World,All Commodities,268080521.86
@@ -749,6 +756,7 @@ M,20210801,2021,8,392,JPN,Japan,Export,0,W00,World,All Commodities,60133549884.9
 M,20210801,2021,8,404,KEN,Kenya,Export,0,W00,World,All Commodities,560153571.854
 M,20210801,2021,8,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4299294393
 M,20210801,2021,8,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,91687947
+M,20210801,2021,8,426,LSO,Lesotho,Export,0,W00,World,All Commodities,106140468.858
 M,20210801,2021,8,428,LVA,Latvia,Export,0,W00,World,All Commodities,1700622888.713
 M,20210801,2021,8,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3501867030.98
 M,20210801,2021,8,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1254990543.415
@@ -802,7 +810,7 @@ M,20210801,2021,8,842,USA,USA,Export,0,W00,World,All Commodities,148034903934
 M,20210801,2021,8,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,353650612.22
 M,20210801,2021,8,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,903955843.711
 M,20210801,2021,8,882,WSM,Samoa,Export,0,W00,World,All Commodities,1975985.675
-M,20210901,2021,9,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1694862024.63
+M,20210901,2021,9,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,1694854358.07
 M,20210901,2021,9,32,ARG,Argentina,Export,0,W00,World,All Commodities,7570189290.44
 M,20210901,2021,9,36,AUS,Australia,Export,0,W00,World,All Commodities,27712268462.702
 M,20210901,2021,9,51,ARM,Armenia,Export,0,W00,World,All Commodities,224333442.15
@@ -849,6 +857,7 @@ M,20210901,2021,9,392,JPN,Japan,Export,0,W00,World,All Commodities,62062717871.8
 M,20210901,2021,9,404,KEN,Kenya,Export,0,W00,World,All Commodities,489961523.537
 M,20210901,2021,9,414,KWT,Kuwait,Export,0,W00,World,All Commodities,4087279622
 M,20210901,2021,9,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,119784516
+M,20210901,2021,9,426,LSO,Lesotho,Export,0,W00,World,All Commodities,77703889.876
 M,20210901,2021,9,428,LVA,Latvia,Export,0,W00,World,All Commodities,1901825000.366
 M,20210901,2021,9,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3677044310.98
 M,20210901,2021,9,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1471984838.077
@@ -902,7 +911,7 @@ M,20210901,2021,9,842,USA,USA,Export,0,W00,World,All Commodities,141790419234
 M,20210901,2021,9,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,379569676.331
 M,20210901,2021,9,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,819550014.45
 M,20210901,2021,9,882,WSM,Samoa,Export,0,W00,World,All Commodities,2485702.43
-M,20211001,2021,10,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2218029902.07
+M,20211001,2021,10,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2217991094.57
 M,20211001,2021,10,32,ARG,Argentina,Export,0,W00,World,All Commodities,6862570097.27
 M,20211001,2021,10,36,AUS,Australia,Export,0,W00,World,All Commodities,28017649945.538
 M,20211001,2021,10,51,ARM,Armenia,Export,0,W00,World,All Commodities,264838172.39
@@ -948,6 +957,7 @@ M,20211001,2021,10,380,ITA,Italy,Export,0,W00,World,All Commodities,53791732306.
 M,20211001,2021,10,392,JPN,Japan,Export,0,W00,World,All Commodities,63496982273.895
 M,20211001,2021,10,414,KWT,Kuwait,Export,0,W00,World,All Commodities,6493935031
 M,20211001,2021,10,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,151986671
+M,20211001,2021,10,426,LSO,Lesotho,Export,0,W00,World,All Commodities,98974456.494
 M,20211001,2021,10,428,LVA,Latvia,Export,0,W00,World,All Commodities,1820399399.025
 M,20211001,2021,10,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3730320614.99
 M,20211001,2021,10,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1379127174.433
@@ -1001,7 +1011,7 @@ M,20211001,2021,10,842,USA,USA,Export,0,W00,World,All Commodities,164371444683
 M,20211001,2021,10,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,377485888.535
 M,20211001,2021,10,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,1880088239.768
 M,20211001,2021,10,882,WSM,Samoa,Export,0,W00,World,All Commodities,1951469.27
-M,20211101,2021,11,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2951656629.67
+M,20211101,2021,11,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2950597973.53
 M,20211101,2021,11,32,ARG,Argentina,Export,0,W00,World,All Commodities,6191188181.31
 M,20211101,2021,11,36,AUS,Australia,Export,0,W00,World,All Commodities,29446026293.14
 M,20211101,2021,11,51,ARM,Armenia,Export,0,W00,World,All Commodities,297272469.59
@@ -1048,6 +1058,7 @@ M,20211101,2021,11,392,JPN,Japan,Export,0,W00,World,All Commodities,64612707714.
 M,20211101,2021,11,404,KEN,Kenya,Export,0,W00,World,All Commodities,573737028.7
 M,20211101,2021,11,414,KWT,Kuwait,Export,0,W00,World,All Commodities,7292475907
 M,20211101,2021,11,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,127855035
+M,20211101,2021,11,426,LSO,Lesotho,Export,0,W00,World,All Commodities,119119354.409
 M,20211101,2021,11,428,LVA,Latvia,Export,0,W00,World,All Commodities,1854759401.027
 M,20211101,2021,11,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3874784792.97
 M,20211101,2021,11,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1421640749.159
@@ -1101,7 +1112,8 @@ M,20211101,2021,11,842,USA,USA,Export,0,W00,World,All Commodities,156347608488
 M,20211101,2021,11,854,BFA,Burkina Faso,Export,0,W00,World,All Commodities,382076110.843
 M,20211101,2021,11,860,UZB,Uzbekistan,Export,0,W00,World,All Commodities,2798380037.01
 M,20211101,2021,11,882,WSM,Samoa,Export,0,W00,World,All Commodities,3070685.816
-M,20211201,2021,12,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2407204067.83
+M,20211201,2021,12,24,AGO,Angola,Export,0,W00,World,All Commodities,3606565859.576
+M,20211201,2021,12,31,AZE,Azerbaijan,Export,0,W00,World,All Commodities,2407180551.23
 M,20211201,2021,12,32,ARG,Argentina,Export,0,W00,World,All Commodities,6587062914.49
 M,20211201,2021,12,36,AUS,Australia,Export,0,W00,World,All Commodities,30713563961.551
 M,20211201,2021,12,51,ARM,Armenia,Export,0,W00,World,All Commodities,302452077.23
@@ -1148,6 +1160,7 @@ M,20211201,2021,12,392,JPN,Japan,Export,0,W00,World,All Commodities,69366333773.
 M,20211201,2021,12,404,KEN,Kenya,Export,0,W00,World,All Commodities,585034957.117
 M,20211201,2021,12,414,KWT,Kuwait,Export,0,W00,World,All Commodities,6273571561
 M,20211201,2021,12,417,KGZ,Kyrgyzstan,Export,0,W00,World,All Commodities,178888747
+M,20211201,2021,12,426,LSO,Lesotho,Export,0,W00,World,All Commodities,58915165.681
 M,20211201,2021,12,428,LVA,Latvia,Export,0,W00,World,All Commodities,1760178539.666
 M,20211201,2021,12,440,LTU,Lithuania,Export,0,W00,World,All Commodities,3755933196.99
 M,20211201,2021,12,442,LUX,Luxembourg,Export,0,W00,World,All Commodities,1272417355.765
