@@ -152,6 +152,28 @@ imf_obj.get_total_exports() # writes csv file containing total-export values for
 imf_obj.get_reporter_exports() # writes csv file with export data for reporter to all partners
 ```
 
+```{r}
+#|: function-used-by-clean_imf-to-add-country-names-to-final-df
+# never call this yourself -> all calls to this function will be nested w/in clean_imf
+
+add_countries <- function(clean) {
+  country_codes <- "imf_country_codes.csv"
+  countries <- read_csv(file.path(dirname(getwd()), "data", country_codes))
+  colnames(countries)[1] <- "Names"
+  colnames(countries)[2] <- "Codes"
+  combo <- left_join(clean, countries, by = c("REF_AREA" = "Codes"))  
+  combo$reporter_name <- combo$Names
+  combo$reporter_code <- combo$REF_AREA
+  combo <- subset(combo, select = -c(Names, REF_AREA))
+  combo <- left_join(combo, countries, by = c("COUNTERPART_AREA" = "Codes"))
+  combo$partner_name <- combo$Names
+  combo$partner_code <- combo$COUNTERPART_AREA
+  combo <- subset(combo, select = -c(Names, COUNTERPART_AREA))
+  combo <- combo |> relocate(reporter_name, reporter_code, partner_name, partner_code)
+  return(combo)
+}
+```
+
 ```{r message = FALSE}
 #|: function-to-clean-and-write-over-imf-files
 # file name passed into function must not include extension
@@ -209,17 +231,11 @@ clean_imf <- function(file) {
     clean$date = ymd(clean$year, truncated = 2L)
   }
   clean <- subset(clean, select = -c(category, INDICATOR))
-  #### add code here
-  write_csv(clean, csv)
-  write_xlsx(clean, excel)
-  return(clean)
+  total <- add_countries(clean)
+  write_csv(total, csv)
+  write_xlsx(total, excel)
+  return(total)
 }
-
-# month <- ym(imf_total_monthly$date[10])
-# print(month)
-# typeof(as.Date(month))
-# date <- as.Date(month)
-# typeof(date)
 ```
 
 ```{r message = FALSE, warning = FALSE}
@@ -246,27 +262,6 @@ file <- "imf_FR_all_exports_2021A"
 imf_fr_all_annual <- data.frame()
 imf_fr_all_annual <- clean_imf(file)
 # view(imf_fr_all_annual)
-```
-
-```{r}
-#|: test-to-add-countries-to-imf-dfs
-
-country_codes <- "imf_country_codes.csv"
-countries <- read_csv(file.path(dirname(getwd()), "data", country_codes))
-colnames(countries)[1] <- "Names"
-colnames(countries)[2] <- "Codes"
-
-combo <- left_join(imf_total_annual, countries, by = c("REF_AREA" = "Codes"))  
-combo$reporter_name <- combo$Names
-combo$reporter_code <- combo$REF_AREA
-combo <- subset(combo, select = -c(Names, REF_AREA))
-
-combo <- left_join(combo, countries, by = c("COUNTERPART_AREA" = "Codes"))
-combo$partner_name <- combo$Names
-combo$partner_code <- combo$COUNTERPART_AREA
-combo <- subset(combo, select = -c(Names, COUNTERPART_AREA))
-combo <- combo |> relocate(reporter_name, reporter_code, partner_code, partner_name)
-view(combo)
 ```
 
 ## World Bank
