@@ -160,7 +160,14 @@ imf_obj.get_reporter_exports() # writes csv file with export data for reporter t
 # will result in an error if the file is already clean
 # multiply by 1 MM to get USD
 
+country_codes <- "imf_country_codes.csv"
+countries <- read_csv(file.path(dirname(getwd()), "data", country_codes))
+colnames(countries)[1] <- "Names"
+colnames(countries)[2] <- "Codes"
+view(countries)
+
 clean_imf <- function(file) {
+  country_codes <- read_csv("imf_country_codes.csv")
   file <- file.path(dirname(getwd()), "data", file)
   csv <- paste(file, "csv", sep = ".")
   excel <- paste(file, "xlsx", sep = ".")
@@ -236,7 +243,8 @@ imf_total_monthly <- clean_imf(file)
 file <- "imf_total_exports_2021A"
 imf_total_annual <- data.frame()
 imf_total_annual <- clean_imf(file)
-# view(imf_total_annual)
+# 
+view(imf_total_annual)
 
 file <- "imf_FR_all_exports_2021M"
 imf_fr_all_monthly <- data.frame()
