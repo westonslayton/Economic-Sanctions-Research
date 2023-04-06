@@ -31,7 +31,7 @@ git push
 * The only difference is the input required to make the query, but there's no need to worry about accidentally typing the wrong input, as the program will ensure the input is valid before making the API call.
 * Functions with which to query data:
   * ```get_total_exports```: same as Comtrade's get_total_exports method
-  * ```get_reporter_exports```: writes csv file containing value exports from reporter provided in console input to all its partners 
+  * ```get_reporter_exports```: writes csv file containing value exports from reporter (provided in console input) to all its partners 
 ### World Bank
 * Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the [wbstats](https://github.com/gshs-ornl/wbstats) R package.
 * This section is also similar in structure to the previous two. Begin by compiling ```get_wb```, which both gets and cleans the data requested.
