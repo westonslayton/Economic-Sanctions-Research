@@ -39,6 +39,7 @@ library(zoo)
 ```{r message = FALSE}
 #|: importing-python-pkgs-to-run-modules-using-R
 
+### OLD: LEAVE COMMENTED OUT
 # os <- import("os")
 # imf <- import("imf")
 # json <- import("json")
@@ -46,9 +47,6 @@ library(zoo)
 # datetime <- import("datetime")
 # comtrade <- import("comtrade")
 # fromcomtradepkg <- import("fromcomtradepkg")
-# py_install("pandas")
-# py_install("requests")
-# py_install("flatten_json")
 
 virtualenv_create("my-environment")
 use_virtualenv("my-environment")
@@ -160,14 +158,7 @@ imf_obj.get_reporter_exports() # writes csv file with export data for reporter t
 # will result in an error if the file is already clean
 # multiply by 1 MM to get USD
 
-country_codes <- "imf_country_codes.csv"
-countries <- read_csv(file.path(dirname(getwd()), "data", country_codes))
-colnames(countries)[1] <- "Names"
-colnames(countries)[2] <- "Codes"
-view(countries)
-
 clean_imf <- function(file) {
-  country_codes <- read_csv("imf_country_codes.csv")
   file <- file.path(dirname(getwd()), "data", file)
   csv <- paste(file, "csv", sep = ".")
   excel <- paste(file, "xlsx", sep = ".")
@@ -217,7 +208,8 @@ clean_imf <- function(file) {
     clean$year = clean$date
     clean$date = ymd(clean$year, truncated = 2L)
   }
-  clean <- subset(clean, select = -c(category))
+  clean <- subset(clean, select = -c(category, INDICATOR))
+  #### add code here
   write_csv(clean, csv)
   write_xlsx(clean, excel)
   return(clean)
@@ -243,8 +235,7 @@ imf_total_monthly <- clean_imf(file)
 file <- "imf_total_exports_2021A"
 imf_total_annual <- data.frame()
 imf_total_annual <- clean_imf(file)
-# 
-view(imf_total_annual)
+# view(imf_total_annual)
 
 file <- "imf_FR_all_exports_2021M"
 imf_fr_all_monthly <- data.frame()
@@ -255,6 +246,27 @@ file <- "imf_FR_all_exports_2021A"
 imf_fr_all_annual <- data.frame()
 imf_fr_all_annual <- clean_imf(file)
 # view(imf_fr_all_annual)
+```
+
+```{r}
+#|: test-to-add-countries-to-imf-dfs
+
+country_codes <- "imf_country_codes.csv"
+countries <- read_csv(file.path(dirname(getwd()), "data", country_codes))
+colnames(countries)[1] <- "Names"
+colnames(countries)[2] <- "Codes"
+
+combo <- left_join(imf_total_annual, countries, by = c("REF_AREA" = "Codes"))  
+combo$reporter_name <- combo$Names
+combo$reporter_code <- combo$REF_AREA
+combo <- subset(combo, select = -c(Names, REF_AREA))
+
+combo <- left_join(combo, countries, by = c("COUNTERPART_AREA" = "Codes"))
+combo$partner_name <- combo$Names
+combo$partner_code <- combo$COUNTERPART_AREA
+combo <- subset(combo, select = -c(Names, COUNTERPART_AREA))
+combo <- combo |> relocate(reporter_name, reporter_code, partner_code, partner_name)
+view(combo)
 ```
 
 ## World Bank
