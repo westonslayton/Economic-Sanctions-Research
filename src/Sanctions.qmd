@@ -328,12 +328,6 @@ wb_total_exports <- get_wb(3, "exports")
 # view(wb_total_exports)
 ```
 
-```{r}
-#|: checking-missing-comtrade-countries
-
-eu <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
-```
-
 ## Frequency Conversion
 
 ```{r}
