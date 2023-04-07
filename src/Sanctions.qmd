@@ -262,8 +262,6 @@ file <- "imf_FR_all_exports_2021A"
 imf_fr_all_annual <- data.frame()
 imf_fr_all_annual <- clean_imf(file)
 # view(imf_fr_all_annual)
-
-imf_us_monthly <- read_csv("")
 ```
 
 ## World Bank
