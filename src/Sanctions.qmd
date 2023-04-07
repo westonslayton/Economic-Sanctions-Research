@@ -262,6 +262,8 @@ file <- "imf_FR_all_exports_2021A"
 imf_fr_all_annual <- data.frame()
 imf_fr_all_annual <- clean_imf(file)
 # view(imf_fr_all_annual)
+
+imf_us_monthly <- read_csv("")
 ```
 
 ## World Bank
@@ -321,17 +323,11 @@ get_wb <- function(years, df_to_return) {
 
 wb_gdp <- data.frame()
 wb_gdp <- get_wb(3, "gdp")
-#
-view(wb_gdp)
+# view(wb_gdp)
 
 wb_total_exports <- data.frame()
 wb_total_exports <- get_wb(3, "exports")
 # view(wb_total_exports)
-
-rus_gdp <- wb_gdp |> filter(country == "Russian Federation")
-write_xlsx(rus_gdp, "russia_gdp.xlsx")
-us_gdp <- wb_gdp |> filter(country == "United States")
-write_xlsx(us_gdp, "us_gdp.xlsx")
 ```
 
 ```{r}
