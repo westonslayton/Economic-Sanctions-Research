@@ -37,7 +37,7 @@ git push
 * This section is also similar in structure to the previous two. Begin by compiling ```get_wb```, which both gets and cleans the data requested.
 * Then, make the actual function call in the next code chunk, and provide two arguments, the first being the number of years for which to gather data relative to the current year (e.g., 5 will retrieve the data published in the most recent 5 years) and the second being the data frame to return: the two valid inputs are "gdp" and "total exports," which will return the corresponding data frame. 
   * ```get_wb```: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter)
-* Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, run ```get_wb``` twice, calling it once with "gdp" as an argument and then again with "total exports" as an argument.
+* Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, run ```get_wb``` once and then load the data frame that wasn't returned with ```df <- read_csv(file.path(dirname(getwd()), "data", file_name.csv))```.
 ### Other Notes
 * ```Ctrl-shift-c```/```cmd-shift-c``` uncomments/comments out a block/line of code; commented code will not run. (I often use this with the viewing function to only view the data frames when needed.)
 * The cleaning functions for Comtrade and IMF (```clean_comtrade``` and ```clean_imf```, respectively) will not work if you've already cleaned the files that you're passing into these functions.
@@ -48,7 +48,7 @@ git push
 * Reporter-to-all-Partners Export Sources: Comtrade (all country pairs) and IMF (one country pair @ a time)
 * Total-Export Sources: Comtrade (all reporters), IMF (all reporters), and World Bank (all reporters)
 * GDP Source: World Bank (all reporters)
-* All data is expressed in USD, and most data is available in both monthly and annual quantities, with World Bank being the only source that supports annual data only.
+* All data is expressed in USD, and most data is available in both monthly and annual quantities, with World Bank being the only source that supports annual data only. None of the data is seasonally adjusted, nor is it inflation adjusted. This ensures congruency across data sets and enables direct comparisons.
 * Get new data by running the get methods. The only get function that requires any arguments is ```get_wb```, which requires the number of years to gather data for, followed by the name of the data frame to return ("gdp" or "exports" are the two valid inputs).
 * Clean data currently in ```data```(that hasn't yet been cleaned) with the clean functions (only for Comtrade and IMF, as the cleaning of World Bank data is built into the ```get_wb``` function). All clean functions require only one argument: the file name (minus the extension) to clean.
 * When getting and cleaning new data, be sure to update file names to clean and the names of data frames to save the newly cleaned files to.
