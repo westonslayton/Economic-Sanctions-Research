@@ -295,20 +295,24 @@ get_wb <- function(years, df_to_return) {
   both$date <- ymd(both$year, truncated = 2L)
   both <- both |> relocate(iso2c, iso3c, country, year, date, GDP, total_exports)
   gdp <- both[, -7] |> drop_na(GDP)
-  total_exports <- both[, -6] |> drop_na(total_exports)
   gdp_name <- file.path(dirname(getwd()), "data", "wb_gdp")
+  print(paste("Writing wb_gdp", as.character(years), "....", sep = ""))
   gdp_csv = paste(gdp_name, as.character(years), ".csv", sep = "")
   gdp_excel = paste(gdp_name, as.character(years), ".xlsx", sep = "")
   write_csv(gdp, gdp_csv)
   write_xlsx(gdp, gdp_excel)
+  total_exports <- both[, -6] |> drop_na(total_exports)
   exports_name <- file.path(dirname(getwd()), "data", "wb_total_exports")
+  print(paste("Writing wb_total_exports", as.character(years), "....", sep = ""))
   exports_csv = paste(exports_name,  as.character(years), ".csv", sep = "")
   exports_excel = paste(exports_name,  as.character(years), ".xlsx", sep = "")
   write_csv(total_exports, exports_csv)
   write_xlsx(total_exports, exports_excel)
   if (df_to_return == "gdp") {
+    print(paste("Returning wb_gdp", as.character(years), "....", sep = ""))
     return(gdp)
   }
+  print(paste("Returning wb_total_exports", as.character(years), "....", sep = ""))
   return(total_exports)
 }
 ```
