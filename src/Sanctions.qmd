@@ -19,7 +19,8 @@ editor: visual
 # install.packages("reticulate") # for running python stuff
 # install.packages("tempdisagg") # for freq conv
 # install.packages("tsbox") # for time-series visualizations
-# install.packages("zoo")
+# install.packages("zoo") # also for freq conv
+# install.packages("Hmisc") # date manipulations 
 ```
 
 ```{r message = FALSE}
@@ -34,6 +35,7 @@ library(reticulate)
 library(tempdisagg) 
 library(tsbox) 
 library(zoo)
+library(Hmisc)
 ```
 
 ```{r message = FALSE}
@@ -355,4 +357,37 @@ view(daily_df) # putting result in df
 #   title = "Daily disaggregated GDP",
 #   subtitle = "no indicator"
 # )
+```
+
+```{r}
+
+disaggregate_to_daily <- function(df) {
+  df$date <- as.Date(df$date)
+  total <- data.frame()
+  for (i in 1 : nrow(df)) {
+    row <- df[i, ]
+    obs_date <- ymd(row$date)
+    first_day <- floor_date(obs_date, 'month')
+    last_day <- ceiling_date(obs_date, 'month') - days(1)
+    date <- c(seq(ymd(first_day), ymd(last_day), "days"))
+    num_days <- monthDays(obs_date)
+    value <- row$value / num_days
+    reporter_name <- row$reporter_name
+    df_month <- data.frame(date)
+    df_month$reporter_name <- reporter_name
+    df_month$value <- value
+    total <- rbind(total, df_month)
+  }
+  return(total)
+}
+```
+
+```{r}
+#|: checking-above-function
+
+df <- imf_total_monthly
+df$date <- as.Date(df$date)
+df <- subset(df, select = -c(reporter_code, partner_name, partner_code, FREQ, year))
+check <- disaggregate_to_daily(df)
+view(check)
 ```
