@@ -123,7 +123,6 @@ comtrade_total_annual <- data.frame()
 comtrade_total_annual <- clean_comtrade(file)
 # view(comtrade_total_annual)
 
-
 file <- "comtrade_total_exports_2021M"
 comtrade_total_monthly <- data.frame()
 comtrade_total_monthly <- clean_comtrade(file)
@@ -337,31 +336,35 @@ wb_total_exports <- get_wb(3, "exports")
 ## Frequency Conversion
 
 ```{r}
-#|: getting-vector-for-tempdisagg-test
+#|: merging-and-removing-from-dfs
 
-head(gdp.q)
-df <- as.data.frame(do.call(cbind, head(gdp.q))) # converting nested list to df
-df$time <- as_date(df$time)
-view(df) # putting input in df.... don't really need but good to know (need to convert to list)
+pairs <- comtrade_pairs_monthly
+total <- comtrade_total_monthly
+gdp <- wb_gdp
 
-daily <- td(gdp.q ~ 1, to = "daily", method = "fast") # td is a nested list
-summary(daily)
-daily_df <- daily$values # getting the disaggregated values
-view(daily_df) # putting result in df
+p_dates <- pairs |> distinct(date)
+t_dates <- total |> distinct(date)
+g_dates <- gdp |> distinct(date)
+dates <- intersect(intersect(p_dates, t_dates), g_dates)
 
-# gdp_daily <- predict(daily)
-# ts_plot(
-#   ts_scale(
-#     ts_c(gdp_daily, gdp.q)
-#   ),
-#   title = "Daily disaggregated GDP",
-#   subtitle = "no indicator"
-# )
+p_countries <- pairs |> distinct(reporterDesc)
+t_countries <- total |> distinct(reporterDesc)
+g_countries <- gdp |> distinct(country)
+exp_countries <- intersect(p_countries, t_countries)
+
+
+gdp_only <- setdiff(g_countries, intersect(p_countries, t_countries))
+
+a <- c(1,3,5,7,9)
+b <- c(3,6,8,9,10)
+setdiff(a, b)
+c <- c(2,3,4,5,7,9)
+print(intersect(intersect(a,b),c))
 ```
 
 ```{r}
 
-disaggregate_to_daily <- function(df) {
+disaggregate_total_to_daily <- function(df) {
   df$date <- as.Date(df$date)
   total <- data.frame()
   for (i in 1 : nrow(df)) {
@@ -388,6 +391,42 @@ disaggregate_to_daily <- function(df) {
 df <- imf_total_monthly
 df$date <- as.Date(df$date)
 df <- subset(df, select = -c(reporter_code, partner_name, partner_code, FREQ, year))
-check <- disaggregate_to_daily(df)
+check <- disaggregate_total_to_daily(df)
+view(check)
+```
+
+```{r}
+#|: adapting-function-for-country-pairs
+
+disaggregate_pairs_to_daily <- function(df) {
+  df$date <- as.Date(df$date)
+  total <- data.frame()
+  for (i in 1 : nrow(df)) {
+    row <- df[i, ]
+    obs_date <- ymd(row$date)
+    first_day <- floor_date(obs_date, 'month')
+    last_day <- ceiling_date(obs_date, 'month') - days(1)
+    date <- c(seq(ymd(first_day), ymd(last_day), "days"))
+    num_days <- monthDays(obs_date)
+    value <- row$primaryValue / num_days
+    reporter_name <- row$reporterDesc
+    partner_name <- row$partnerDesc
+    df_month <- data.frame(date)
+    df_month$reporter_name <- reporter_name
+    df_month$partner_name <- partner_name
+    df_month$value <- value
+    total <- rbind(total, df_month)
+  }
+  return(total)
+}
+```
+
+```{r}
+#|: biiiiiggggg-check
+
+df <- comtrade_pairs_monthly
+df$date <- as.Date(df$date)
+df <- subset(df, select = -c(freqCode, refYear, refMonth, reporterCode, reporterISO, flowDesc, partnerCode, partnerISO))
+check <- disaggregate_pairs_to_daily(df)
 view(check)
 ```
