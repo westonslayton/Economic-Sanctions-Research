@@ -517,7 +517,7 @@ view(dupe2)
 ```
 
 ```{r}
-# old function: it works with imf data but not efficient -> scrap later
+# OLD function: it works with imf data but not efficient -> scrap later
 
 disaggregate_total_to_daily <- function(df) {
   df$date <- as.Date(df$date)
@@ -541,7 +541,7 @@ disaggregate_total_to_daily <- function(df) {
 ```
 
 ```{r}
-#|: checking-above-function
+# OLD check of above function -> scrap later
 
 df <- imf_total_annual
 check <- disaggregate_total_to_daily(df)
