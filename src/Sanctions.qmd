@@ -98,6 +98,7 @@ clean_comtrade <- function(file) {
   df <- df |> 
     mutate(value = primaryValue, reporter = reporterDesc, partner = partnerDesc) |> 
     select(date, value, reporter, partner)
+  df$date <- as.Date(df$date)
   write_csv(df, csv)
   write_xlsx(df, excel)
   return(df)
@@ -173,6 +174,7 @@ add_countries <- function(clean) {
   combo$partner_code <- combo$COUNTERPART_AREA
   combo <- subset(combo, select = -c(Names, COUNTERPART_AREA))
   combo <- combo |> select(date, value, reporter, partner)
+  combo$date <- as.Date(combo$date)
   return(combo)
 }
 ```
@@ -229,9 +231,11 @@ clean_imf <- function(file) {
     clean$month <- month(ym(clean$date))
     clean$year <- year(ym(clean$date))
     clean$date <- ym(clean$date)
+    clean$date <- as.Date(clean$date)
   } else {
-    clean$year = clean$date
-    clean$date = ymd(clean$year, truncated = 2L)
+    clean$year <- clean$date
+    clean$date <- ymd(clean$year, truncated = 2L)
+    clean$date <- as.Date(clean$date)
   }
   clean <- subset(clean, select = -c(category, INDICATOR))
   total <- add_countries(clean)
@@ -369,31 +373,38 @@ view(dupe2)
 #|: merging-data-frames
 # may need to update the countries that are renamed/removed, depending on the data made available by future queries
 
+# why isn't france in pairs? need to add countries missing from comtrade_annual to comtrade_monthly, intersect w/ imf countries to then get all countries that can be added, then loop over this vector with imf function -> change the functionality of functions in package
+comtrade_pairs_annual |> distinct(reporter) |> view()
+comtrade_pairs_monthly |> distinct(reporter) |> view()
+
+# need these changes to df colnames before merge
 pairs <- comtrade_pairs_monthly |> mutate(partner_exports = value)
 total <- imf_total_monthly |>
   mutate(total_exports = value) |>
   select(date, total_exports, reporter)
 gdp <- wb_gdp
 
+# getting all common dates and filtering dfs for these dates only
 p_dates <- pairs |> distinct(date)
 t_dates <- total |> distinct(date)
 g_dates <- gdp |> distinct(date)
-dates <- intersect(intersect(p_dates, t_dates), g_dates)
+exp_only_dates <- intersect(p_dates, t_dates)
+gdp_only_dates <- intersect(exp_only_dates, g_dates)
+view(gdp)
+view(pairs)
+view(total)
 
-p_countries <- pairs |> distinct(reporter)
-t_countries <- total |> distinct(reporter)
-g_countries <- gdp |> distinct(reporter)
-view(p_countries)
-view(t_countries)
-view(g_countries)
+pairs <- pairs |> filter(date %in% exp_only_dates)
+total <- total |> filter(date %in% exp_only_dates)
+gdp <- gdp |> filter(date %in% gdp_only_dates)
+check <- pairs[pairs$date %in% exp_only_dates]
+view(pairs)
+view(total)
+view(gdp)
 
-p_not_t <- setdiff(p_countries, t_countries)
-p_not_g <- setdiff(p_countries, g_countries)
-view(p_not_t)
-view(p_not_g)
-
+# adjusting countries w/ diff names to be same across all dfs
 # be sure to filter NAs out of merged df
-p_countries <- p_countries |> 
+pairs <- pairs |> 
   mutate(
     reporter = case_when(
       str_detect(reporter, "Bolivia") ~ "Bolivia",
@@ -411,11 +422,26 @@ p_countries <- p_countries |>
       str_detect(reporter, "rkiye") ~ "Turkey",
       str_detect(reporter, "Kyrgyz") ~ "Kyrgyzstan",
       str_detect(reporter, "Macedonia") ~ "Macedonia",
+      str_detect(reporter, "Macao") ~ "Macao",
+      str_detect(reporter, "Palestine") ~ "Palestine",
+      str_detect(reporter, "Iran") ~ "Iran",
+      str_detect(reporter, "Venezuela") ~ "Venezuela", 
+      str_detect(reporter, "Falkland") ~ "Falkland Islands",
+      str_detect(reporter, "Marshall") ~ "Marshall Islands",
+      str_detect(reporter, "Vatican") ~ "Vatican City",
+      str_detect(reporter, "Kosovo") ~ "Kosovo",
+      str_detect(reporter, "Lucia") ~ "St. Lucia",
+      str_detect(reporter, "Tajik") ~ "Tajikistan",
+      str_detect(reporter, "Afghanistan") ~ "Afghanistan",
+      str_detect(reporter, "Cuba") ~ "Cuba",
+      str_detect(reporter, "Bahamas") ~ "Bahamas",
+      str_detect(reporter, "Arab Emirates") ~ "United Arab Emirates",
+      str_detect(reporter, "Haiti") ~ "Haiti",
       TRUE ~ reporter
     )
   )
 
-t_countries <- t_countries |> 
+total <- total |> 
   mutate(
     reporter = case_when(
       str_detect(reporter, "Bolivia") ~ "Bolivia",
@@ -433,11 +459,26 @@ t_countries <- t_countries |>
       str_detect(reporter, "rkiye") ~ "Turkey",
       str_detect(reporter, "Kyrgyz") ~ "Kyrgyzstan",
       str_detect(reporter, "Macedonia") ~ "Macedonia",
+      str_detect(reporter, "Macao") ~ "Macao",
+      str_detect(reporter, "Palestine") ~ "Palestine",
+      str_detect(reporter, "Iran") ~ "Iran",
+      str_detect(reporter, "Venezuela") ~ "Venezuela", 
+      str_detect(reporter, "Falkland") ~ "Falkland Islands",
+      str_detect(reporter, "Marshall") ~ "Marshall Islands",
+      str_detect(reporter, "Vatican") ~ "Vatican City",
+      str_detect(reporter, "Kosovo") ~ "Kosovo",
+      str_detect(reporter, "Lucia") ~ "St. Lucia",
+      str_detect(reporter, "Tajik") ~ "Tajikistan",
+      str_detect(reporter, "Afghanistan") ~ "Afghanistan",
+      str_detect(reporter, "Cuba") ~ "Cuba",
+      str_detect(reporter, "Bahamas") ~ "Bahamas",
+      str_detect(reporter, "Arab Emirates") ~ "United Arab Emirates",
+      str_detect(reporter, "Haiti") ~ "Haiti",
       TRUE ~ reporter
     )
   )
 
-g_countries <- g_countries |> 
+gdp <- gdp |> 
   mutate(
     reporter = case_when(
       str_detect(reporter, "Bolivia") ~ "Bolivia",
@@ -455,9 +496,41 @@ g_countries <- g_countries |>
       str_detect(reporter, "rkiye") ~ "Turkey",
       str_detect(reporter, "Kyrgyz") ~ "Kyrgyzstan",
       str_detect(reporter, "Macedonia") ~ "Macedonia",
+      str_detect(reporter, "Macao") ~ "Macao",
+      str_detect(reporter, "Palestine") ~ "Palestine",
+      str_detect(reporter, "Iran") ~ "Iran",
+      str_detect(reporter, "Venezuela") ~ "Venezuela", 
+      str_detect(reporter, "Falkland") ~ "Falkland Islands",
+      str_detect(reporter, "Marshall") ~ "Marshall Islands",
+      str_detect(reporter, "Vatican") ~ "Vatican City",
+      str_detect(reporter, "Kosovo") ~ "Kosovo",
+      str_detect(reporter, "Lucia") ~ "St. Lucia",
+      str_detect(reporter, "Tajik") ~ "Tajikistan",
+      str_detect(reporter, "Afghanistan") ~ "Afghanistan",
+      str_detect(reporter, "Cuba") ~ "Cuba",
+      str_detect(reporter, "Bahamas") ~ "Bahamas",
+      str_detect(reporter, "Arab Emirates") ~ "United Arab Emirates",
+      str_detect(reporter, "Haiti") ~ "Haiti",
       TRUE ~ reporter
     )
   )
+# creating df containing all countries in annual but not monthly (for comtrade)
+# when adding annual data (reporters + date), divide by 12 AND make sure it's in annual by checking if (dim(df)[1] == 0): no observations, basically checking if NULL
+p_annual_reps <- comtrade_pairs_annual |> distinct(reporter)
+p_monthly_reps <- comtrade_pairs_monthly |> distinct(reporter)
+p_reps_diff <- setdiff(p_annual_reps, p_monthly_reps)
+view(p_reps_diff)
+view(comtrade_pairs_annual)
+
+# getting all reporting countries shared across all dfs
+p_reporters <- pairs |> distinct(reporter)
+t_reporters <- total |> distinct(reporter)
+g_reporters <- gdp |> distinct(reporter)
+reporters <- intersect(intersect(p_reporters, t_reporters), g_reporters)
+view(reporters)
+
+# actual merge
+...
 ```
 
 ```{r}
