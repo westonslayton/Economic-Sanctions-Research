@@ -347,27 +347,6 @@ wb_total_exports <- get_wb(3, "exports")
 #|: merging-and-removing-from-dfs
 # what if the date didn't matter? could I just have it in terms of daily values but not have every day? since all the days will have the same values....
 
-pairs <- comtrade_pairs_monthly
-total <- comtrade_total_monthly
-view(total)
-gdp <- wb_gdp
-
-p_dates <- pairs |> distinct(date)
-t_dates <- total |> distinct(date)
-g_dates <- gdp |> distinct(date)
-dates <- intersect(intersect(p_dates, t_dates), g_dates)
-
-p_countries <- pairs |> distinct(reporterDesc)
-t_countries <- total |> distinct(reporterDesc)
-g_countries <- gdp |> distinct(country)
-exp_countries <- intersect(p_countries, t_countries)
-colnames(exp_countries)[1] <- "country"
-
-gdp_only <- setdiff(g_countries, exp_countries)
-exp_only <- setdiff(exp_countries, g_countries)
-view(gdp_only)
-view(exp_only)
-
 df2 <- imf_total_monthly
 df2$date <- as.Date(df2$date)
 df2 <- subset(df2, select = -c(reporter_code, partner_name, partner_code, FREQ, year))
@@ -388,8 +367,97 @@ view(dupe2)
 
 ```{r}
 #|: merging-data-frames
+# may need to update the countries that are renamed/removed, depending on the data made available by future queries
 
+pairs <- comtrade_pairs_monthly |> mutate(partner_exports = value)
+total <- imf_total_monthly |>
+  mutate(total_exports = value) |>
+  select(date, total_exports, reporter)
+gdp <- wb_gdp
 
+p_dates <- pairs |> distinct(date)
+t_dates <- total |> distinct(date)
+g_dates <- gdp |> distinct(date)
+dates <- intersect(intersect(p_dates, t_dates), g_dates)
+
+p_countries <- pairs |> distinct(reporter)
+t_countries <- total |> distinct(reporter)
+g_countries <- gdp |> distinct(reporter)
+view(p_countries)
+view(t_countries)
+view(g_countries)
+
+p_not_t <- setdiff(p_countries, t_countries)
+p_not_g <- setdiff(p_countries, g_countries)
+view(p_not_t)
+view(p_not_g)
+
+# be sure to filter NAs out of merged df
+p_countries <- p_countries |> 
+  mutate(
+    reporter = case_when(
+      str_detect(reporter, "Bolivia") ~ "Bolivia",
+      str_detect(reporter, "Bosnia") ~ "Bosnia and Herzegovina",
+      str_detect(reporter, "USA") ~ "United States",
+      str_detect(reporter, "Tanzania") ~ "Tanzania",
+      str_detect(reporter, "Czech") ~ "Czechia",
+      str_detect(reporter, "Dominican Rep") ~ "Dominican Republic", 
+      str_detect(reporter, "Hong Kong") ~ "Hong Kong",
+      str_detect(reporter, "Moldova") ~ "Moldova",
+      str_detect(reporter, "Egypt") ~ "Egypt",
+      str_detect(reporter, "Vincent") ~ "St. Vincent and the Grenadines",
+      str_detect(reporter, "Slovak") ~ "Slovakia",
+      str_detect(reporter, "Viet") ~ "Vietnam",
+      str_detect(reporter, "rkiye") ~ "Turkey",
+      str_detect(reporter, "Kyrgyz") ~ "Kyrgyzstan",
+      str_detect(reporter, "Macedonia") ~ "Macedonia",
+      TRUE ~ reporter
+    )
+  )
+
+t_countries <- t_countries |> 
+  mutate(
+    reporter = case_when(
+      str_detect(reporter, "Bolivia") ~ "Bolivia",
+      str_detect(reporter, "Bosnia") ~ "Bosnia and Herzegovina",
+      str_detect(reporter, "USA") ~ "United States",
+      str_detect(reporter, "Tanzania") ~ "Tanzania",
+      str_detect(reporter, "Czech") ~ "Czechia",
+      str_detect(reporter, "Dominican Rep") ~ "Dominican Republic", 
+      str_detect(reporter, "Hong Kong") ~ "Hong Kong",
+      str_detect(reporter, "Moldova") ~ "Moldova",
+      str_detect(reporter, "Egypt") ~ "Egypt",
+      str_detect(reporter, "Vincent") ~ "St. Vincent and the Grenadines",
+      str_detect(reporter, "Slovak") ~ "Slovakia",
+      str_detect(reporter, "Viet") ~ "Vietnam",
+      str_detect(reporter, "rkiye") ~ "Turkey",
+      str_detect(reporter, "Kyrgyz") ~ "Kyrgyzstan",
+      str_detect(reporter, "Macedonia") ~ "Macedonia",
+      TRUE ~ reporter
+    )
+  )
+
+g_countries <- g_countries |> 
+  mutate(
+    reporter = case_when(
+      str_detect(reporter, "Bolivia") ~ "Bolivia",
+      str_detect(reporter, "Bosnia") ~ "Bosnia and Herzegovina",
+      str_detect(reporter, "USA") ~ "United States",
+      str_detect(reporter, "Tanzania") ~ "Tanzania",
+      str_detect(reporter, "Czech") ~ "Czechia",
+      str_detect(reporter, "Dominican Rep") ~ "Dominican Republic", 
+      str_detect(reporter, "Hong Kong") ~ "Hong Kong",
+      str_detect(reporter, "Moldova") ~ "Moldova",
+      str_detect(reporter, "Egypt") ~ "Egypt",
+      str_detect(reporter, "Vincent") ~ "St. Vincent and the Grenadines",
+      str_detect(reporter, "Slovak") ~ "Slovakia",
+      str_detect(reporter, "Viet") ~ "Vietnam",
+      str_detect(reporter, "rkiye") ~ "Turkey",
+      str_detect(reporter, "Kyrgyz") ~ "Kyrgyzstan",
+      str_detect(reporter, "Macedonia") ~ "Macedonia",
+      TRUE ~ reporter
+    )
+  )
 ```
 
 ```{r}
