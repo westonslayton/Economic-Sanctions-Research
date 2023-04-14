@@ -165,14 +165,14 @@ add_countries <- function(clean) {
   colnames(countries)[1] <- "Names"
   colnames(countries)[2] <- "Codes"
   combo <- left_join(clean, countries, by = c("REF_AREA" = "Codes"))  
-  combo$reporter_name <- combo$Names
+  combo$reporter <- combo$Names
   combo$reporter_code <- combo$REF_AREA
   combo <- subset(combo, select = -c(Names, REF_AREA))
   combo <- left_join(combo, countries, by = c("COUNTERPART_AREA" = "Codes"))
-  combo$partner_name <- combo$Names
+  combo$partner <- combo$Names
   combo$partner_code <- combo$COUNTERPART_AREA
   combo <- subset(combo, select = -c(Names, COUNTERPART_AREA))
-  combo <- combo |> relocate(reporter_name, reporter_code, partner_name, partner_code)
+  combo <- combo |> select(date, value, reporter, partner)
   return(combo)
 }
 ```
@@ -297,14 +297,20 @@ get_wb <- function(years, df_to_return) {
   both$year <- both$date
   both$date <- ymd(both$year, truncated = 2L)
   both <- both |> relocate(iso2c, iso3c, country, year, date, GDP, total_exports)
-  gdp <- both[, -7] |> drop_na(GDP)
+  gdp <- both[, -7] |> 
+    drop_na(GDP) |> 
+    mutate(reporter = country) |> 
+    select(date, GDP, reporter)
   gdp_name <- file.path(dirname(getwd()), "data", "wb_gdp")
   print(paste("Writing wb_gdp", as.character(years), "....", sep = ""))
   gdp_csv = paste(gdp_name, as.character(years), ".csv", sep = "")
   gdp_excel = paste(gdp_name, as.character(years), ".xlsx", sep = "")
   write_csv(gdp, gdp_csv)
   write_xlsx(gdp, gdp_excel)
-  total_exports <- both[, -6] |> drop_na(total_exports)
+  total_exports <- both[, -6] |> 
+    drop_na(total_exports) |> 
+    mutate(reporter = country) |> 
+    select(date, total_exports, reporter)
   exports_name <- file.path(dirname(getwd()), "data", "wb_total_exports")
   print(paste("Writing wb_total_exports", as.character(years), "....", sep = ""))
   exports_csv = paste(exports_name,  as.character(years), ".csv", sep = "")
@@ -378,6 +384,12 @@ view(date)
 dupe2 <- dupe
 dupe2$date <- date
 view(dupe2)
+```
+
+```{r}
+#|: merging-data-frames
+
+
 ```
 
 ```{r}
