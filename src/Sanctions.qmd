@@ -94,8 +94,10 @@ clean_comtrade <- function(file) {
   df <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
   df <- df |> drop_na(primaryValue)
   df$date <- ymd(df$refPeriodId)
-  df <- df |> relocate(freqCode, date)
-  df <- subset(df, select = -c(cmdDesc, refPeriodId))
+  df$date <- as.Date(df$date)
+  df <- df |> 
+    mutate(value = primaryValue, reporter = reporterDesc, partner = partnerDesc) |> 
+    select(date, value, reporter, partner)
   write_csv(df, csv)
   write_xlsx(df, excel)
   return(df)
