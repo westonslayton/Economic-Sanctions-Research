@@ -432,8 +432,9 @@ adjust_names <- function(df) {
 
 ```{r}
 #|: merging-all-data-frames
+# assumption: all dfs have one (and only one) year of data in common 
+# process of data querying, cleaning + merging will need to be repeated for another year
 
-# need to add countries missing from comtrade_annual to comtrade_monthly (add values too: dupe rows 12x, divide value by 12, add new col w/ first day in each mon repeated (# of countries) times, then replace old date col w/ this new col)
 comtrade_pairs_annual |> distinct(reporter) |> view()
 comtrade_pairs_monthly |> distinct(reporter) |> view()
 
@@ -475,9 +476,12 @@ g_reporters <- gdp |> distinct(reporter)
 reporters <- intersect(intersect(p_reporters, t_reporters), g_reporters)
 view(reporters)
 
-# actual merge
-# be sure to filter NAs out of merged df (ie, countries that aren't in all dfs)
-...
+# 1) filter for countries shared by all dfs
+# 2) left_join total-exports df to per country-exp df by reporter + date
+# 3) adjust gdp df to monthly (divide by 12 only--don't adjust dates)
+# 4) left_join gdp df to export df (from prev merge) by reporter only
+# 5) filter NAs out of merged df (ie, countries that aren't in all dfs)
+### the resulting df should be ready for freq conv (steps below) ###
 ```
 
 ```{r}
