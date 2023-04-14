@@ -359,6 +359,7 @@ adjust_names <- function(df) {
         str_detect(reporter, "Bolivia") ~ "Bolivia",
         str_detect(reporter, "Bosnia") ~ "Bosnia and Herzegovina",
         str_detect(reporter, "USA") ~ "United States",
+        str_detect(reporter, "United States") ~ "United States",
         str_detect(reporter, "Tanzania") ~ "Tanzania",
         str_detect(reporter, "Czech") ~ "Czechia",
         str_detect(reporter, "Dominican Rep") ~ "Dominican Republic", 
@@ -395,6 +396,41 @@ adjust_names <- function(df) {
 ```
 
 ```{r}
+#|: function-to-add-countries-in-comtrade-annual-df-to-comtrade-monthly-df
+# when adding annual data (reporters + date), divide by 12, then extend seq of first days of all months, then replace old date col w/ new sequence
+
+# add_annual <- function(comtrade_pairs_annual, comtrade_pairs_monthly) {
+  annual <- comtrade_pairs_annual |> distinct(reporter)
+  monthly <- comtrade_pairs_monthly |> distinct(reporter)
+  diff <- setdiff(annual$reporter, monthly$reporter)
+  diff_df <- comtrade_pairs_annual |> filter(reporter %in% diff)
+  diff_df <- diff_df |> mutate(value = value / 12)
+  diff_dupe <- diff_df[rep(1:nrow(diff_df), each = 12), ]
+  year <- year(as.Date(comtrade_pairs_annual$date[1]))
+  date <- c(
+    paste(year, "01-01", sep = "-"),
+    paste(year, "02-01", sep = "-"),
+    paste(year, "03-01", sep = "-"),
+    paste(year, "04-01", sep = "-"),
+    paste(year, "05-01", sep = "-"),
+    paste(year, "06-01", sep = "-"),
+    paste(year, "07-01", sep = "-"),
+    paste(year, "08-01", sep = "-"),
+    paste(year, "09-01", sep = "-"),
+    paste(year, "10-01", sep = "-"),
+    paste(year, "11-01", sep = "-"),
+    paste(year, "12-01", sep = "-")
+  )
+  date <- as.Date(date)
+  num_countries <- length(diff_df$reporter)
+  date <- rep(date, len = length(diff_dupe$date))
+  view(date)
+  diff_dupe$date <- date
+# done w/ fixing annual df, just need to add diff_dupe to monthly df and then return!
+# }
+```
+
+```{r}
 #|: merging-all-data-frames
 
 # need to add countries missing from comtrade_annual to comtrade_monthly (add values too: dupe rows 12x, divide value by 12, add new col w/ first day in each mon repeated (# of countries) times, then replace old date col w/ this new col)
@@ -405,31 +441,32 @@ comtrade_pairs_monthly |> distinct(reporter) |> view()
 pairs <- comtrade_pairs_monthly |>
   mutate(partner_exports = value) |>
   select(date, partner_exports, reporter, partner)
+pairs_annual <- comtrade_pairs_annual |>
+  mutate(partner_exports = value) |>
+  select(date, partner_exports, reporter, partner)
 total <- imf_total_monthly |>
   mutate(total_exports = value) |>
   select(date, total_exports, reporter)
 gdp <- wb_gdp
+
 p_dates <- pairs |> distinct(date)
 t_dates <- total |> distinct(date)
 g_dates <- gdp |> distinct(date)
 exp_only_dates <- intersect(p_dates$date, t_dates$date)
 gdp_only_dates <- intersect(exp_only_dates, g_dates$date)
 pairs <- pairs |> filter(date %in% exp_only_dates)
+pairs_annual <- pairs_annual |> filter(date %in% exp_only_dates)
 total <- total |> filter(date %in% exp_only_dates)
 gdp <- gdp |> filter(date %in% gdp_only_dates)
 
 # adjusting countries w/ diff names to be same across all dfs
 pairs <- adjust_names(pairs)
+pairs_annual <- adjust_names(pairs_annual)
 total <- adjust_names(total)
 gdp <- adjust_names(gdp)
 
-# creating df containing all countries in annual but not monthly (for comtrade)
-# when adding annual data (reporters + date), divide by 12 AND make sure it's in annual by checking if (dim(df)[1] == 0): no observations, basically checking if NULL
-p_annual_reps <- comtrade_pairs_annual |> distinct(reporter)
-p_monthly_reps <- comtrade_pairs_monthly |> distinct(reporter)
-p_reps_diff <- setdiff(p_annual_reps, p_monthly_reps)
-view(p_reps_diff)
-view(comtrade_pairs_annual)
+# adding (and converting) data from annual exp-pair df to monthly exp-pair df
+pairs <- add_annual(pairs, pairs_annual)
 
 # getting all reporting countries shared across all dfs
 p_reporters <- pairs |> distinct(reporter)
