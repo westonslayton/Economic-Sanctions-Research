@@ -291,7 +291,7 @@ imf_fr_all_annual <- clean_imf(file)
 # gdp file format: wb_gdp
 
 get_wb <- function(years, df_to_return) { 
-  gdp <- c("GDP" = "NY.GDP.MKTP.CD")
+  gdp <- c("gdp" = "NY.GDP.MKTP.CD")
   exports <- c("total_exports" ="BX.GSR.GNFS.CD")
   indicators <- c(gdp, exports)
   both <- wb_data(
@@ -303,11 +303,11 @@ get_wb <- function(years, df_to_return) {
   both$year <- both$date
   both$date <- ymd(both$year, truncated = 2L)
   both$date <- as.Date(both$date)
-  both <- both |> relocate(iso2c, iso3c, country, year, date, GDP, total_exports)
+  both <- both |> relocate(iso2c, iso3c, country, year, date, gdp, total_exports)
   gdp <- both[, -7] |> 
-    drop_na(GDP) |> 
+    drop_na(gdp) |> 
     mutate(reporter = country) |> 
-    select(date, GDP, reporter)
+    select(date, gdp, reporter)
   gdp_name <- file.path(dirname(getwd()), "data", "wb_gdp")
   print(paste("Writing wb_gdp", as.character(years), "....", sep = ""))
   gdp_csv = paste(gdp_name, as.character(years), ".csv", sep = "")
@@ -445,6 +445,9 @@ add_annual <- function(pairs_monthly, pairs_annual) {
 ```{r}
 #|: actual-merge-function
 # returns a df containing all data that's ready to undergo freq conv
+# assumption: all dfs have one (and only one) year of data in common, 
+# so process of data querying, cleaning + merging will need to be repeated for another year
+# must pass ONLY these dfs as parameters -> don't change
 
 merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
   pairs <- pairs_monthly |>
@@ -472,56 +475,26 @@ merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
   gdp <- adjust_names(gdp)
   pairs <- add_annual(pairs, pairs_annual)
   all_exports <- na.omit(left_join(pairs, total, by = c("reporter", "date")))
-  gdp <- gdp |> mutate(GDP = GDP / 12) |> select(reporter, GDP)
+  gdp <- gdp |> mutate(gdp = gdp / 12) |> select(reporter, gdp)
   final <- na.omit(left_join(all_exports, gdp, by = "reporter")) |> 
-    relocate(date, reporter, total_exports, GDP, partner, partner_exports)
+    relocate(date, reporter, total_exports, gdp, partner, partner_exports)
   return(final)
 }
 ```
 
 ```{r}
 #|: merging-all-data-frames
-# assumption: all dfs have one (and only one) year of data in common 
-# process of data querying, cleaning + merging will need to be repeated for another year
-# must pass these only these dfs as parameters -> don't change
 
 final <- merge(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly, wb_gdp)
 # view(final)
 ```
 
 ```{r}
-# rough implementation of freq conv to be done on final, merged df
-# 1) have vector of first day in each month, then iterate thru it
-# 2) get days in month w/ monthDays(), then dupe rows that many times
-# 3) divide values by monthDays()
-# 4) get first day of the date for the current iteration, then get last day
-# 5) get sequence of dates btwn first and last days in month, then dupe that n times, where n = # countries in merged df (ie, get # of DISTINCT countries in reporter column)
-# 6) replace old date column in df w/ new dates (the dupe seq of dates from above step)
-# 7) freq conv is done: value/date are good to go, everything else will have been carried down
-# 8) calc beta = (exports to partner / total exports) * (total exports / total GDP)
-# 9) return and dunne!
-# 10) save final df and check to make sure values line up
-
-df2 <- imf_total_monthly
-df2$date <- as.Date(df2$date)
-df2 <- subset(df2, select = -c(reporter_code, partner_name, partner_code, FREQ, year))
-row2 <- df2[1, ]
-view(row2)
-dupe <- df2[rep(1:nrow(row2), each = 31), ]
-view(dupe)
-day <- row$date[1]
-first_day <- floor_date(day, 'month')
-last_day <- ceiling_date(day, 'month') - days(1)
-date <- c(seq(ymd(first_day), ymd(last_day), "days"))
-date <- rep(date, length.out = 10 * length(date))
-view(date)
-dupe2 <- dupe
-dupe2$date <- date
-view(dupe2)
-```
-
-```{r}
-#|: freq-conv
+#|: freq-conv-and-beta-calc
+# make into a function 
+# combine this function w/ merge function to make a SUPER function that takes in the dfs and magically spits out merged, freq-converted, beta-calculated SUPER df
+# need to filter resulting df b/c has too many rows to view entire thing @ once
+# ignore the subheader under the beta column
 
 year <- year(as.Date(final$date[1]))
 months <- get_months(year)
@@ -530,7 +503,7 @@ total <- data.frame(
   date = as.Date(character(), format = "%Y-%m-%d"),
   reporter = character(),
   total_exports = numeric(),
-  GDP = numeric(),
+  gdp = numeric(),
   partner = character(),
   partner_exports = numeric(),
   stringsAsFactors = FALSE
@@ -542,7 +515,7 @@ for (day in months) {
   df <- final |> filter(date == day) |> 
     mutate(
       total_exports = total_exports / num_days,
-      GDP = GDP / num_days, 
+      gdp = gdp / num_days, 
       partner_exports = partner_exports / num_days
     )
   df_dupe <- df[rep(1:nrow(df), each = num_days), ]
@@ -554,37 +527,7 @@ for (day in months) {
   df_dupe$date <- date
   total <- rbind(total, df_dupe)
 }
-```
 
-```{r}
-# OLD function: it works with imf data but not efficient -> scrap later
-
-disaggregate_total_to_daily <- function(df) {
-  df$date <- as.Date(df$date)
-  total <- data.frame()
-  for (i in 1 : nrow(df)) {
-    row <- df[i, ]
-    obs_date <- ymd(row$date)
-    first_day <- floor_date(obs_date, 'month')
-    last_day <- ceiling_date(obs_date, 'month') - days(1)
-    date <- c(seq(ymd(first_day), ymd(last_day), "days"))
-    num_days <- monthDays(obs_date)
-    value <- row$value / num_days
-    reporter <- row$reporter
-    df_month <- data.frame(date)
-    df_month$reporter <- reporter
-    df_month$value <- value
-    total <- rbind(total, df_month)
-  }
-  return(total)
-}
-```
-
-```{r}
-# OLD check of above function -> scrap later
-
-df <- imf_total_annual
-check <- disaggregate_total_to_daily(df)
-view(df)
-view(check)
+total <- total |> mutate(beta = (partner_exports / total_exports) * (total_exports / gdp))
+total |> filter(reporter == "Zimbabwe") |> view()
 ```
