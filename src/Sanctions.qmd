@@ -8,7 +8,7 @@ editor: visual
 
 ```{r}
 #|: installing-necessary-pkgs
-# only run once
+# only run code below once
 # uncomment with ctrl-shift-c/cmd-shift-c
 
 # install.packages("tidyverse") 
@@ -52,11 +52,13 @@ library(Hmisc)
 
 virtualenv_create("my-environment")
 use_virtualenv("my-environment")
-py_install("export_ease")
-py_install("pandas")
-py_install("requests")
-py_install("flatten_json")
-py_install("comtradeapicall")
+
+# only run code below once
+# py_install("export_ease")
+# py_install("pandas")
+# py_install("requests")
+# py_install("flatten_json")
+# py_install("comtradeapicall")
 ```
 
 ## Comtrade
@@ -349,7 +351,7 @@ wb_total_exports <- get_wb(3, "exports")
 ## Frequency Conversion
 
 ```{r}
-#|: function-to-unify-country-naming-conventions-across-countries
+#|: merge-helper-function-to-unify-country-naming-conventions-across-countries
 # may need to update the countries that are renamed/removed, depending on the data made available by future queries
 
 adjust_names <- function(df) {
@@ -396,17 +398,19 @@ adjust_names <- function(df) {
 ```
 
 ```{r}
-#|: function-to-add-countries-in-comtrade-annual-df-to-comtrade-monthly-df
+#|: merge-helper-function-to-add-countries-in-comtrade-annual-df-to-comtrade-monthly-df
 # when adding annual data (reporters + date), divide by 12, then extend seq of first days of all months, then replace old date col w/ new sequence
+# pairs_annual = comtrade df containing per-partner exports by year
+# pairs_monthly = comtrade df containing per-partner exports by month
 
-# add_annual <- function(comtrade_pairs_annual, comtrade_pairs_monthly) {
-  annual <- comtrade_pairs_annual |> distinct(reporter)
-  monthly <- comtrade_pairs_monthly |> distinct(reporter)
+add_annual <- function(pairs_monthly, pairs_annual) {
+  monthly <- pairs_monthly |> distinct(reporter)
+  annual <- pairs_annual |> distinct(reporter)
   diff <- setdiff(annual$reporter, monthly$reporter)
-  diff_df <- comtrade_pairs_annual |> filter(reporter %in% diff)
-  diff_df <- diff_df |> mutate(value = value / 12)
+  diff_df <- pairs_annual |> filter(reporter %in% diff)
+  diff_df <- diff_df |> mutate(partner_exports = partner_exports / 12)
   diff_dupe <- diff_df[rep(1:nrow(diff_df), each = 12), ]
-  year <- year(as.Date(comtrade_pairs_annual$date[1]))
+  year <- year(as.Date(pairs_annual$date[1]))
   date <- c(
     paste(year, "01-01", sep = "-"),
     paste(year, "02-01", sep = "-"),
@@ -424,64 +428,57 @@ adjust_names <- function(df) {
   date <- as.Date(date)
   num_countries <- length(diff_df$reporter)
   date <- rep(date, len = length(diff_dupe$date))
-  view(date)
   diff_dupe$date <- date
-# done w/ fixing annual df, just need to add diff_dupe to monthly df and then return!
-# }
+  combo <- rbind(pairs_monthly, diff_dupe)
+  return(combo)
+}
+```
+
+```{r}
+#|: actual-merge-function
+# returns a df containing all data that's ready to undergo freq conv
+
+merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
+  pairs <- pairs_monthly |>
+    mutate(partner_exports = value) |>
+    select(date, partner_exports, reporter, partner)
+  pairs_annual <- pairs_annual |>
+    mutate(partner_exports = value) |>
+    select(date, partner_exports, reporter, partner)
+  total <- total_monthly |>
+    mutate(total_exports = value) |>
+    select(date, total_exports, reporter)
+  gdp <- gdp
+  p_dates <- pairs |> distinct(date)
+  t_dates <- total |> distinct(date)
+  g_dates <- gdp |> distinct(date)
+  exp_only_dates <- intersect(p_dates$date, t_dates$date)
+  gdp_only_dates <- intersect(exp_only_dates, g_dates$date)
+  pairs <- pairs |> filter(date %in% exp_only_dates)
+  pairs_annual <- pairs_annual |> filter(date %in% exp_only_dates)
+  total <- total |> filter(date %in% exp_only_dates)
+  gdp <- gdp |> filter(date %in% gdp_only_dates)
+  pairs <- adjust_names(pairs)
+  pairs_annual <- adjust_names(pairs_annual)
+  total <- adjust_names(total)
+  gdp <- adjust_names(gdp)
+  pairs <- add_annual(pairs, pairs_annual)
+  all_exports <- na.omit(left_join(pairs, total, by = c("reporter", "date")))
+  gdp <- gdp |> mutate(GDP = GDP / 12) |> select(reporter, GDP)
+  final <- na.omit(left_join(all_exports, gdp, by = "reporter")) |> 
+    relocate(date, reporter, total_exports, GDP, partner, partner_exports)
+  return(final)
+}
 ```
 
 ```{r}
 #|: merging-all-data-frames
 # assumption: all dfs have one (and only one) year of data in common 
 # process of data querying, cleaning + merging will need to be repeated for another year
+# must pass these only these dfs as parameters -> don't change
 
-comtrade_pairs_annual |> distinct(reporter) |> view()
-comtrade_pairs_monthly |> distinct(reporter) |> view()
-
-# keeping only data for dates common across all dfs
-pairs <- comtrade_pairs_monthly |>
-  mutate(partner_exports = value) |>
-  select(date, partner_exports, reporter, partner)
-pairs_annual <- comtrade_pairs_annual |>
-  mutate(partner_exports = value) |>
-  select(date, partner_exports, reporter, partner)
-total <- imf_total_monthly |>
-  mutate(total_exports = value) |>
-  select(date, total_exports, reporter)
-gdp <- wb_gdp
-
-p_dates <- pairs |> distinct(date)
-t_dates <- total |> distinct(date)
-g_dates <- gdp |> distinct(date)
-exp_only_dates <- intersect(p_dates$date, t_dates$date)
-gdp_only_dates <- intersect(exp_only_dates, g_dates$date)
-pairs <- pairs |> filter(date %in% exp_only_dates)
-pairs_annual <- pairs_annual |> filter(date %in% exp_only_dates)
-total <- total |> filter(date %in% exp_only_dates)
-gdp <- gdp |> filter(date %in% gdp_only_dates)
-
-# adjusting countries w/ diff names to be same across all dfs
-pairs <- adjust_names(pairs)
-pairs_annual <- adjust_names(pairs_annual)
-total <- adjust_names(total)
-gdp <- adjust_names(gdp)
-
-# adding (and converting) data from annual exp-pair df to monthly exp-pair df
-pairs <- add_annual(pairs, pairs_annual)
-
-# getting all reporting countries shared across all dfs
-p_reporters <- pairs |> distinct(reporter)
-t_reporters <- total |> distinct(reporter)
-g_reporters <- gdp |> distinct(reporter)
-reporters <- intersect(intersect(p_reporters, t_reporters), g_reporters)
-view(reporters)
-
-# 1) filter for countries shared by all dfs
-# 2) left_join total-exports df to per country-exp df by reporter + date
-# 3) adjust gdp df to monthly (divide by 12 only--don't adjust dates)
-# 4) left_join gdp df to export df (from prev merge) by reporter only
-# 5) filter NAs out of merged df (ie, countries that aren't in all dfs)
-### the resulting df should be ready for freq conv (steps below) ###
+final <- merge(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly, wb_gdp)
+# view(final)
 ```
 
 ```{r}
