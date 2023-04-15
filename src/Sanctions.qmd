@@ -398,19 +398,9 @@ adjust_names <- function(df) {
 ```
 
 ```{r}
-#|: merge-helper-function-to-add-countries-in-comtrade-annual-df-to-comtrade-monthly-df
-# when adding annual data (reporters + date), divide by 12, then extend seq of first days of all months, then replace old date col w/ new sequence
-# pairs_annual = comtrade df containing per-partner exports by year
-# pairs_monthly = comtrade df containing per-partner exports by month
+#|: helper-function-for-add-annual
 
-add_annual <- function(pairs_monthly, pairs_annual) {
-  monthly <- pairs_monthly |> distinct(reporter)
-  annual <- pairs_annual |> distinct(reporter)
-  diff <- setdiff(annual$reporter, monthly$reporter)
-  diff_df <- pairs_annual |> filter(reporter %in% diff)
-  diff_df <- diff_df |> mutate(partner_exports = partner_exports / 12)
-  diff_dupe <- diff_df[rep(1:nrow(diff_df), each = 12), ]
-  year <- year(as.Date(pairs_annual$date[1]))
+get_months <- function(year) {
   date <- c(
     paste(year, "01-01", sep = "-"),
     paste(year, "02-01", sep = "-"),
@@ -426,7 +416,25 @@ add_annual <- function(pairs_monthly, pairs_annual) {
     paste(year, "12-01", sep = "-")
   )
   date <- as.Date(date)
-  num_countries <- length(diff_df$reporter)
+  return(date)
+}
+```
+
+```{r}
+#|: merge-helper-function-to-add-countries-in-comtrade-annual-df-to-comtrade-monthly-df
+# when adding annual data (reporters + date), divide by 12, then extend seq of first days of all months, then replace old date col w/ new sequence
+# pairs_annual = comtrade df containing per-partner exports by year
+# pairs_monthly = comtrade df containing per-partner exports by month
+
+add_annual <- function(pairs_monthly, pairs_annual) {
+  monthly <- pairs_monthly |> distinct(reporter)
+  annual <- pairs_annual |> distinct(reporter)
+  diff <- setdiff(annual$reporter, monthly$reporter)
+  diff_df <- pairs_annual |> filter(reporter %in% diff)
+  diff_df <- diff_df |> mutate(partner_exports = partner_exports / 12)
+  diff_dupe <- diff_df[rep(1:nrow(diff_df), each = 12), ]
+  year <- year(as.Date(pairs_annual$date[1]))
+  date <- get_months(year)
   date <- rep(date, len = length(diff_dupe$date))
   diff_dupe$date <- date
   combo <- rbind(pairs_monthly, diff_dupe)
@@ -482,7 +490,6 @@ final <- merge(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly,
 ```
 
 ```{r}
-#|: merging-and-removing-from-dfs
 # rough implementation of freq conv to be done on final, merged df
 # 1) have vector of first day in each month, then iterate thru it
 # 2) get days in month w/ monthDays(), then dupe rows that many times
@@ -511,6 +518,42 @@ view(date)
 dupe2 <- dupe
 dupe2$date <- date
 view(dupe2)
+```
+
+```{r}
+#|: freq-conv
+
+year <- year(as.Date(final$date[1]))
+months <- get_months(year)
+# months <- c("2021-01-01")
+total <- data.frame(
+  date = as.Date(character(), format = "%Y-%m-%d"),
+  reporter = character(),
+  total_exports = numeric(),
+  GDP = numeric(),
+  partner = character(),
+  partner_exports = numeric(),
+  stringsAsFactors = FALSE
+)
+
+for (day in months) { 
+  day <- as.Date(day)
+  num_days <- monthDays(day)
+  df <- final |> filter(date == day) |> 
+    mutate(
+      total_exports = total_exports / num_days,
+      GDP = GDP / num_days, 
+      partner_exports = partner_exports / num_days
+    )
+  df_dupe <- df[rep(1:nrow(df), each = num_days), ]
+  first_day <- floor_date(day, 'month')
+  last_day <- ceiling_date(day, 'month') - days(1)
+  date <- c(seq(ymd(first_day), ymd(last_day), "days"))
+  date <- as.Date(date)
+  date <- rep(date, len = length(df_dupe$date))
+  df_dupe$date <- date
+  total <- rbind(total, df_dupe)
+}
 ```
 
 ```{r}
