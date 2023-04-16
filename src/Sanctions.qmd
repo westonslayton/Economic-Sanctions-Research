@@ -134,6 +134,45 @@ comtrade_total_monthly <- clean_comtrade(file)
 # view(comtrade_total_monthly)
 ```
 
+```{r}
+#|: for-loading-dfs-that-have-already-been-queried
+
+# year <- "2021" # year of data you're querying
+# file_name <- "comtrade_all_exports_"
+#
+# comtrade_pairs_annual <- read_csv(
+#   file.path(
+#     dirname(getwd()),
+#     "data",
+#     paste0(file_name, year, "A", ".csv")
+#   )
+# )
+# comtrade_pairs_monthly <- read_csv(
+#   file.path(
+#     dirname(getwd()),
+#     "data",
+#     paste0(file_name, year, "M", ".csv")
+#   )
+# )
+# 
+# file_name <- "comtrade_total_exports_"
+#
+# comtrade_total_annual <- read_csv(
+#   file.path(
+#     dirname(getwd()),
+#     "data",
+#     paste0(file_name, year, "A", ".csv")
+#   )
+# )
+# comtrade_total_monthly <- read_csv(
+#   file.path(
+#     dirname(getwd()),
+#     "data",
+#     paste0(file_name, year, "M", ".csv")
+#   )
+# )
+```
+
 ## IMF
 
 ```{python}
@@ -251,6 +290,7 @@ clean_imf <- function(file) {
 #|: applying-above-function-to-all-new-imf-files
 # file names must be changed depending on queries (year, freq)
 # in USD + months/years (depends on query)
+# only run when you're loading queried data for the first time (and need to clean it)
 
 file <- "imf_total_exports_2021M"
 imf_total_monthly <- data.frame()
@@ -271,6 +311,48 @@ file <- "imf_FR_all_exports_2021A"
 imf_fr_all_annual <- data.frame()
 imf_fr_all_annual <- clean_imf(file)
 # view(imf_fr_all_annual)
+```
+
+```{r message = FALSE}
+#|: for-loading-dfs-that-have-already-been-queried
+# only run when dfs you want to load have already been queried
+# change year and country depending on queries
+
+year <- "2021" # year of data you're querying
+file_name <- "imf_total_exports_"
+
+imf_total_annual <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "A", ".csv")
+  )
+)
+imf_total_monthly <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "M", ".csv")
+  )
+)
+
+country <- "FR" # country of data you're querying\
+file_name <- "all_exports_"
+
+imf_fr_all_annual <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0("imf_", country, "_", file_name, year, "A", ".csv")
+  )
+)
+imf_fr_all_monthly <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0("imf_", country, "_", file_name, year, "M", ".csv")
+  )
+)
 ```
 
 ## World Bank
@@ -447,7 +529,6 @@ add_annual <- function(pairs_monthly, pairs_annual) {
 # returns a df containing all data that's ready to undergo freq conv
 # assumption: all dfs have one (and only one) year of data in common, 
 # so process of data querying, cleaning + merging will need to be repeated for another year
-# must pass ONLY these dfs as parameters -> don't change
 
 merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
   pairs <- pairs_monthly |>
@@ -483,51 +564,50 @@ merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
 ```
 
 ```{r}
-#|: merging-all-data-frames
+#|: all-encompassing-function-that-merges-dfs-and converts-frequencies-and-calcs-beta
+# must pass ONLY these dfs as parameters -> don't change
+# ignore the subheader under the beta column
 
-final <- merge(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly, wb_gdp)
-# view(final)
+beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
+  df <- merge(pairs_monthly, pairs_annual, total_monthly, gdp)
+  year <- year(as.Date(final$date[1]))
+  months <- get_months(year)
+  total <- data.frame(
+    date = as.Date(character(), format = "%Y-%m-%d"),
+    reporter = character(),
+    total_exports = numeric(),
+    gdp = numeric(),
+    partner = character(),
+    partner_exports = numeric(),
+    stringsAsFactors = FALSE
+  )
+  for (day in months) { 
+    day <- as.Date(day)
+    num_days <- monthDays(day)
+    df <- df |> filter(date == day) |> 
+      mutate(
+        total_exports = total_exports / num_days,
+        gdp = gdp / num_days, 
+        partner_exports = partner_exports / num_days
+      )
+    df_dupe <- df[rep(1:nrow(df), each = num_days), ]
+    first_day <- floor_date(day, 'month')
+    last_day <- ceiling_date(day, 'month') - days(1)
+    date <- c(seq(ymd(first_day), ymd(last_day), "days"))
+    date <- as.Date(date)
+    date <- rep(date, len = length(df_dupe$date))
+    df_dupe$date <- date
+    total <- rbind(total, df_dupe)
+  }
+  total <- total |> mutate(beta = (partner_exports / total_exports) * (total_exports / gdp))
+  return(total)
+}
 ```
 
 ```{r}
-#|: freq-conv-and-beta-calc
-# make into a function 
-# combine this function w/ merge function to make a SUPER function that takes in the dfs and magically spits out merged, freq-converted, beta-calculated SUPER df
-# need to filter resulting df b/c has too many rows to view entire thing @ once
-# ignore the subheader under the beta column
+#|: merging-all-data-frames
 
-year <- year(as.Date(final$date[1]))
-months <- get_months(year)
-# months <- c("2021-01-01")
-total <- data.frame(
-  date = as.Date(character(), format = "%Y-%m-%d"),
-  reporter = character(),
-  total_exports = numeric(),
-  gdp = numeric(),
-  partner = character(),
-  partner_exports = numeric(),
-  stringsAsFactors = FALSE
-)
-
-for (day in months) { 
-  day <- as.Date(day)
-  num_days <- monthDays(day)
-  df <- final |> filter(date == day) |> 
-    mutate(
-      total_exports = total_exports / num_days,
-      gdp = gdp / num_days, 
-      partner_exports = partner_exports / num_days
-    )
-  df_dupe <- df[rep(1:nrow(df), each = num_days), ]
-  first_day <- floor_date(day, 'month')
-  last_day <- ceiling_date(day, 'month') - days(1)
-  date <- c(seq(ymd(first_day), ymd(last_day), "days"))
-  date <- as.Date(date)
-  date <- rep(date, len = length(df_dupe$date))
-  df_dupe$date <- date
-  total <- rbind(total, df_dupe)
-}
-
-total <- total |> mutate(beta = (partner_exports / total_exports) * (total_exports / gdp))
-total |> filter(reporter == "Zimbabwe") |> view()
+final <- beta_calc(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly, wb_gdp)
+# 
+view(final)
 ```
