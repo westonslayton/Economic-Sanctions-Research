@@ -483,7 +483,7 @@ everything <- function(year) {
 
 ### Beta
 
-```{r message = FALSE}
+```{r message = FALSE, warning = FALSE}
 #|: running-everything
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
