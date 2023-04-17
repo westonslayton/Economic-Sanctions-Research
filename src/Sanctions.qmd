@@ -39,26 +39,14 @@ library(Hmisc)
 ```
 
 ```{r message = FALSE}
-#|: importing-python-pkgs-to-run-modules-using-R
+#|: creating-virtual-env-and-installing-python-pkgs
 
-### OLD: LEAVE COMMENTED OUT
-# os <- import("os")
-# imf <- import("imf")
-# json <- import("json")
-# my_input <- import("my_input")
-# datetime <- import("datetime")
-# comtrade <- import("comtrade")
-# fromcomtradepkg <- import("fromcomtradepkg")
-
-virtualenv_create("my-environment")
-use_virtualenv("my-environment")
-
-# only run code below once
-# py_install("export_ease")
-# py_install("pandas")
-# py_install("requests")
-# py_install("flatten_json")
-# py_install("comtradeapicall")
+virtualenv_create("my_env")
+use_virtualenv("my_env")
+virtualenv_install(
+  "my_env", 
+  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json")
+)
 ```
 
 ## Comtrade
@@ -67,21 +55,20 @@ use_virtualenv("my-environment")
 #|: setting-up-comtrade.py
 
 from export_ease.comtrade import Comtrade
-comtrade_obj = Comtrade()
 ```
 
 ```{python}
 #|: running-comtrade-all-exports
 # total-exports file format: comtrade_total_{year}{freq}
 
-comtrade_obj.get_all_exports() # writes csv file containing all country-pair export data
+Comtrade.get_all_exports("B", 2021) # writes csv file containing all country-pair export data
 ```
 
 ```{python}
 #|: running-comtrade-total-exports
 # per-country exports file format: comtrade_{year}{freq} 
 
-comtrade_obj.get_total_exports() # writes csv file containing total-export values for each country
+Comtrade.get_total_exports("B", 2021) # writes csv file containing total-export values for each country
 ```
 
 ```{r}
@@ -179,14 +166,13 @@ comtrade_total_monthly <- read_csv(
 #|: setting-up-imf
 
 from export_ease.imf import IMF
-imf_obj = IMF()
 ```
 
 ```{python}
 #|: running-imf-total-exports
 # total-exports file format: imf_total_exports_{year}{freq}
 
-imf_obj.get_total_exports() # writes csv file containing total-export values for each country
+IMF.get_total_exports("B", 2021) # writes csv file containing total-export values for each country
 ```
 
 ```{python}
@@ -194,7 +180,7 @@ imf_obj.get_total_exports() # writes csv file containing total-export values for
 # exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
 # quirk: if freq is annual and year is within 3 years of current year, function will return data starting from 3 years prior (e.g., if requesting annual data for France starting in 2021, it'll return data from 2020 to current day)
 
-imf_obj.get_reporter_exports() # writes csv file with export data for reporter to all partners
+IMF.get_reporter_exports("France", "B", 2021) # writes csv file with export data for reporter to all partners
 ```
 
 ```{r}
