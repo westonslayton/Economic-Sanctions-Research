@@ -64,7 +64,7 @@ If you input an incorrect country name for ```get_reporter_exports```, you can c
 * Bulk Query
   * [Guide](https://datahelp.imf.org/knowledgebase/articles/493639-export-data-how-to-bulk-download)
   * [Webpage](https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&sId=1479329334655)
-    * Allows you to manually get export data for every possible country-pair (not possible through IMF's API)
+    * Allows you to manually get export data for every possible country pair (not possible through IMF's API)
 ### World Bank
 * [R Package Documentation](https://cran.r-project.org/web/packages/wbstats/wbstats.pdf)
 * [Examples](https://rdrr.io/cran/wbstats/man/wb_data.html)
