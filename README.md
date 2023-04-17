@@ -33,7 +33,7 @@ Functions with which to query data:
 The code to get IMF data is almost identical in structure to Comtrade's. The only difference is the arguments for ```get_reporter_exports``` (```get_total_exports``` is the same for both Comtrade and IMF): the first argument is the name of the reporting country for which you'd like to gather (e.g., "France"), followed by the frequency and year (in the same format as Comtrade's).
 If you input an incorrect country name for ```get_reporter_exports```, you can check country_codes.csv to see valid country names (this file is written by the program when you run ```get_reporter_exports```).
 ### World Bank
-* Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the [wbstats](https://github.com/gshs-ornl/wbstats) R package.
+* Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)——all functionality is provided by the [wbstats](https://github.com/gshs-ornl/wbstats) R package.
   * ```get_wb```: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter) and outputs the names of the files written (in the console)
 * Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, either run ```get_wb``` twice, changing the data frame-to-return parameter each time, or run ```get_wb``` once and then load the data frame that wasn't returned with ```df <- read_csv(file.path(dirname(getwd()), "data", file_name.csv))```.
 ## Other Notes
