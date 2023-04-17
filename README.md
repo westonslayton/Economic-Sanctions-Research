@@ -37,7 +37,7 @@ If you input an incorrect country name for ```get_reporter_exports```, you can c
   * ```get_wb```: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter) and outputs the names of the files written (in the console)
 * Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, either run ```get_wb``` twice, changing the data frame-to-return parameter each time, or run ```get_wb``` once and then load the data frame that wasn't returned with ```df <- read_csv(file.path(dirname(getwd()), "data", file_name.csv))```.
 ### Other Functions
-* You can use ```clean_comtrade``` and ```clean_imf``` to clean the queried data returned by the Comtrade and IMF functions listed above. (World Bank data is automatically cleaned when ```get_wb``` is called.
+* You can use ```clean_comtrade``` and ```clean_imf``` to clean the queried data returned by the Comtrade and IMF functions listed above. (World Bank data is automatically cleaned when ```get_wb``` is called.)
 * The other functions should not be used directly, as they are called by the ```everything``` function when merging, converting frequency, and calculating beta to create the final combined data set.
 ### Summary
 * Reporter-to-all-Partners Export Sources: Comtrade (all country pairs) and IMF (one country pair @ a time)
