@@ -451,6 +451,7 @@ beta_filter <- function(df, reporters, partners, keyword) {
 
 everything <- function(year) {
   freq <- "B"
+  exp <- import("export_ease")
   exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year)
   exp$comtrade$Comtrade$get_total_exports(freq = freq, year = year)
   exp$imf$IMF$get_total_exports(freq = freq, year = year)
@@ -468,7 +469,13 @@ everything <- function(year) {
   imf_total_monthly <- clean_imf(file)
   wb_gdp <- get_wb(10, "gdp")
   wb_total_exports <- get_wb(10, "exports")
-  final <- beta_calc(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly, wb_gdp)
+  final <- beta_calc(
+    comtrade_pairs_monthly,
+    comtrade_pairs_annual,
+    imf_total_monthly,
+    wb_gdp
+  )
+  return(final)
 }
 ```
 
@@ -476,7 +483,7 @@ everything <- function(year) {
 
 ### Beta
 
-```{r}
+```{r message = FALSE}
 #|: running-everything
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
