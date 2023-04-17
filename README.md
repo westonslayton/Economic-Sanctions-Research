@@ -18,8 +18,7 @@ git push
 ## Running the Program
 ### Comtrade
 * This part of the program utilizes the [comtradeapicall](https://pypi.org/project/comtradeapicall/) Python package to implement additional functionality.
-* Start by sourcing ```comtrade.py``` and creating an object of the Comtrade class (defined in ```comtrade.py```) so that you can call the class' corresponding methods.
-* Now, you can call either the ```get_total_exports``` function or the ```get_all_exports``` function, or both:
+* You can call either the ```get_total_exports``` function or the ```get_all_exports``` function, or both:
   * ```get_all_exports```: writes csv file containing export data for all available country pairs
   * ```get_total_exports```: writes csv file containing total-export (exports to world) data for all available reporters
 * When you run these functions, you'll need to enter the parameters for your query in the console. The program will ask you for the input that the query requires. Once the program's finished running, it'll output the names of the files that were just created.
