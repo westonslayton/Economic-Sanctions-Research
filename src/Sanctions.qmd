@@ -461,7 +461,7 @@ everything <- function(year) {
   comtrade_pairs_monthly <- clean_comtrade(file)
   file <- paste0("comtrade_total_exports_", year, "A")
   comtrade_total_annual <- clean_comtrade(file)
-  file <- paste0("comtrade_total_exports_", year, "A")
+  file <- paste0("comtrade_total_exports_", year, "M")
   comtrade_total_monthly <- clean_comtrade(file)
   file <- paste0("imf_total_exports_", year, "A")
   imf_total_annual <- clean_imf(file)
