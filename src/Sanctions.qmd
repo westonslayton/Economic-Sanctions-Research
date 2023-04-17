@@ -41,10 +41,11 @@ library(Hmisc)
 ```{r message = FALSE}
 #|: creating-virtual-env-and-installing-python-pkgs
 
-virtualenv_create("my_env")
-use_virtualenv("my_env")
+virtualenv_create("my_environment")
+RETICULATE_PYTHON = virtualenv_python("my_environment")
+use_virtualenv("my_environment")
 virtualenv_install(
-  "my_env", 
+  "my_environment", 
   c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json")
 )
 ```
