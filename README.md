@@ -21,11 +21,13 @@ git push
 ### Comtrade
 This part of the program utilizes the comtradeapicall Python package to implement additional functionality.
 To query export data from Comtrade, you can use the following methods:
+
 ```get_all_exports```: writes csv file containing export data for all available country pairs (i.e., exports from each reportner to all its partners)
 ```get_total_exports```: writes csv file containing total-export (exports to world) data for all available reporters
 When you run these functions, you'll need to enter the criteria for your query. Both of these functions require two arguments, the first being the frequency ("A" for annual, "M" for monthly, or "B" for both) and the second being the year for which to gather data (e.g., 2021). Once the program's finished running, it'll output the names of the files that were just created.
 ### IMF
 Functions with which to query data:
+
 ```get_reporter_exports```: writes csv file containing value exports from reporter provided in console input to all its partners
 ```get_total_exports```: same as Comtrade's ```get_total_exports``` method
 The code to get IMF data is almost identical in structure to Comtrade's. The only difference is the arguments for ```get_reporter_exports``` (```get_total_exports``` is the same for both Comtrade and IMF): the first argument is the name of the reporting country for which you'd like to gather (e.g., "France"), followed by the frequency and year (in the same format as Comtrade's).
