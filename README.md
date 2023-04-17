@@ -21,28 +21,28 @@ git push
 ### Comtrade
 This part of the program utilizes the comtradeapicall Python package to implement additional functionality.
 To query export data from Comtrade, you can use the following methods:
-get_all_exports: writes csv file containing export data for all available country pairs (i.e., exports from each reportner to all its partners)
-get_total_exports: writes csv file containing total-export (exports to world) data for all available reporters
+```get_all_exports```: writes csv file containing export data for all available country pairs (i.e., exports from each reportner to all its partners)
+```get_total_exports```: writes csv file containing total-export (exports to world) data for all available reporters
 When you run these functions, you'll need to enter the criteria for your query. Both of these functions require two arguments, the first being the frequency ("A" for annual, "M" for monthly, or "B" for both) and the second being the year for which to gather data (e.g., 2021). Once the program's finished running, it'll output the names of the files that were just created.
 ### IMF
 Functions with which to query data:
-get_reporter_exports: writes csv file containing value exports from reporter provided in console input to all its partners
-get_total_exports: same as Comtrade's get_total_exports method
-The code to get IMF data is almost identical in structure to Comtrade's. The only difference is the arguments for get_reporter_exports (get_total_exports is the same across Comtrade and IMF): the first argument is the name of the reporting country for which you'd like to gather (e.g., "France"), followed by the frequency and year (in the same format as Comtrade's).
-If you input an incorrect country name for get_reporter_exports, you can check country_codes.csv to see valid country names (this file is written by the program when you run get_reporter_exports).
+```get_reporter_exports```: writes csv file containing value exports from reporter provided in console input to all its partners
+```get_total_exports```: same as Comtrade's ```get_total_exports``` method
+The code to get IMF data is almost identical in structure to Comtrade's. The only difference is the arguments for ```get_reporter_exports``` (```get_total_exports``` is the same for both Comtrade and IMF): the first argument is the name of the reporting country for which you'd like to gather (e.g., "France"), followed by the frequency and year (in the same format as Comtrade's).
+If you input an incorrect country name for ```get_reporter_exports```, you can check country_codes.csv to see valid country names (this file is written by the program when you run ```get_reporter_exports```).
 ### World Bank
 * Unlike the previous two sources, the code for getting World Bank data does not make any API calls (at least not directly)--all functionality is provided by the [wbstats](https://github.com/gshs-ornl/wbstats) R package.
   * ```get_wb```: writes two csv and Excel files, one containing GDP and the other total-export data (both include every possible reporter) and outputs the names of the files written (in the console)
 * Note: No matter which data frame you return, both will be written to csv and Excel files. If you'd like to view both data frames, either run ```get_wb``` twice, changing the data frame-to-return parameter each time, or run ```get_wb``` once and then load the data frame that wasn't returned with ```df <- read_csv(file.path(dirname(getwd()), "data", file_name.csv))```.
-### Other Notes
-* ```Ctrl-shift-c```/```cmd-shift-c``` uncomments/comments out a block/line of code; commented code will not run. (I often use this with the viewing function to only view the data frames when needed.)
+## Other Notes
+* All data is expressed in USD, and most data is available in both monthly and annual quantities, with World Bank being the only source that supports annual data only. None of the data is seasonally adjusted, nor is it inflation adjusted.
 * Comtrade functions will retrieve data for the given year only, while IMF functions will retrieve data starting at the given year and ending with the most recently published data.
 * The ```get_reporter_exports``` function for IMF has a quirk that occurs when the user requests a query for annual data starting at a year within 3 years of the current year. In this case, the function will "override" the user's indicated year and instead make the starting year 3 years less than the current year--I had to add this padding in order to work around the varying structures of the JSON file returned by the IMF API. This has no serious implications, as it still gets all the data you requested (and then some).
+* ```Ctrl-shift-c```/```cmd-shift-c``` uncomments/comments out a block/line of code; commented code will not run. (I often use this with the viewing function to only view the data frames when needed.)
 ### Summary
 * Reporter-to-all-Partners Export Sources: Comtrade (all country pairs) and IMF (one country pair @ a time)
 * Total-Export Sources: Comtrade (all reporters), IMF (all reporters), and World Bank (all reporters)
 * GDP Source: World Bank (all reporters)
-* All data is expressed in USD, and most data is available in both monthly and annual quantities, with World Bank being the only source that supports annual data only. None of the data is seasonally adjusted, nor is it inflation adjusted.
 ## Resources
 ### Comtrade
 * [New User Guide](https://unstats.un.org/wiki/display/comtrade/New+Comtrade+User+Guide#NewComtradeUserGuide-Tariffline)
