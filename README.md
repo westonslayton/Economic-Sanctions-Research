@@ -16,7 +16,7 @@ git push
 * Now, run the next code chunk to install/import the Python packages that the program needs in order to work properly. 
 * Every time you open RStudio, be sure to run ```git pull``` in the terminal--this will update your local clone of the project with the most up-to-date changes.
 ## Running the Program
-* Simply specify the year for which you'd like to gather data by editing the year variable in the first code chunk of the ```Viewing + Getting Data``` section. When you run ```final <- everything(year)``` within the same code chunk (the ```everything``` function combines all the other functions), the functions provided will query, clean, merge, convert frequency, and calculate beta for all available countries.
+* Simply specify the year for which you'd like to gather data by editing the year variable in the first code chunk of the ```Viewing + Getting Data``` section. When you run ```final <- everything(year)``` within the same code chunk (the ```everything``` function utilizes all the other functions), the functions provided will query, clean, merge, convert frequency, and calculate beta for all available countries.
 ## Documentation
 ### Comtrade
 This part of the program utilizes the comtradeapicall Python package to implement additional functionality.
