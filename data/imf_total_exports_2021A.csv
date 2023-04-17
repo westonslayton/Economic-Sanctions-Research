@@ -1,455 +1,238 @@
-date,value,reporter,partner
-2021-01-01,923586872758,Middle East,"All Countries, excluding the IO"
-2022-01-01,1301216908197,Middle East,"All Countries, excluding the IO"
-2021-01-01,81239605833,Iraq,"All Countries, excluding the IO"
-2022-01-01,124427845251,Iraq,"All Countries, excluding the IO"
-2021-01-01,87388114977,Romania,"All Countries, excluding the IO"
-2022-01-01,96706966763,Romania,"All Countries, excluding the IO"
-2021-01-01,1411875549,Other Countries n.i.e. (IMF),"All Countries, excluding the IO"
-2022-01-01,1566350022,Other Countries n.i.e. (IMF),"All Countries, excluding the IO"
-2021-01-01,585020854161,France,"All Countries, excluding the IO"
-2022-01-01,618152685111,France,"All Countries, excluding the IO"
-2021-01-01,189524794453,Sweden,"All Countries, excluding the IO"
-2022-01-01,197825954907,Sweden,"All Countries, excluding the IO"
-2021-01-01,14747546463,Costa Rica,"All Countries, excluding the IO"
-2022-01-01,17947848105,Costa Rica,"All Countries, excluding the IO"
-2021-01-01,5821624149,Zimbabwe,"All Countries, excluding the IO"
-2022-01-01,5745176767,Zimbabwe,"All Countries, excluding the IO"
-2021-01-01,505755692,Montenegro,"All Countries, excluding the IO"
-2022-01-01,742312921,Montenegro,"All Countries, excluding the IO"
-2021-01-01,5194857137,Senegal,"All Countries, excluding the IO"
-2022-01-01,4904300758,Senegal,"All Countries, excluding the IO"
-2021-01-01,1023799460,Benin,"All Countries, excluding the IO"
-2022-01-01,1337315407,Benin,"All Countries, excluding the IO"
-2021-01-01,5092716381076,Developing Asia (IMF),"All Countries, excluding the IO"
-2022-01-01,5585269157910,Developing Asia (IMF),"All Countries, excluding the IO"
-2021-01-01,1508338165342,Emerging and Developing Europe,"All Countries, excluding the IO"
-2022-01-01,1650202719731,Emerging and Developing Europe,"All Countries, excluding the IO"
-2021-01-01,15467737933,Cote d`Ivoire,"All Countries, excluding the IO"
-2022-01-01,16668575792,Cote d`Ivoire,"All Countries, excluding the IO"
-2021-01-01,1251956007,Macao,"All Countries, excluding the IO"
-2022-01-01,1370944073,Macao,"All Countries, excluding the IO"
-2021-01-01,5121376250,Mozambique,"All Countries, excluding the IO"
-2022-01-01,7347487583,Mozambique,"All Countries, excluding the IO"
-2021-01-01,35116222451,Angola,"All Countries, excluding the IO"
-2022-01-01,52707846563,Angola,"All Countries, excluding the IO"
-2021-01-01,7898732029,Lao People`s Democratic Republic,"All Countries, excluding the IO"
-2022-01-01,9509458036,Lao People`s Democratic Republic,"All Countries, excluding the IO"
-2021-01-01,93878024713,Chile,"All Countries, excluding the IO"
-2022-01-01,97489095973,Chile,"All Countries, excluding the IO"
-2021-01-01,151281170,Maldives,"All Countries, excluding the IO"
-2022-01-01,159007612,Maldives,"All Countries, excluding the IO"
-2021-01-01,22208004300,Azerbaijan,"All Countries, excluding the IO"
-2022-01-01,38146434200,Azerbaijan,"All Countries, excluding the IO"
-2021-01-01,6054132505,Iceland,"All Countries, excluding the IO"
-2022-01-01,7402719309,Iceland,"All Countries, excluding the IO"
-2021-01-01,39986971100,Belarus,"All Countries, excluding the IO"
-2022-01-01,34344776316.000004,Belarus,"All Countries, excluding the IO"
-2021-01-01,5153983808,Gabon,"All Countries, excluding the IO"
-2022-01-01,7380837100,Gabon,"All Countries, excluding the IO"
-2021-01-01,3368216972663,China,"All Countries, excluding the IO"
-2022-01-01,3604481490750,China,"All Countries, excluding the IO"
-2021-01-01,3142979849,"Moldova, Republic of","All Countries, excluding the IO"
-2022-01-01,4246457282.0000005,"Moldova, Republic of","All Countries, excluding the IO"
-2021-01-01,1704092104,Nepal,"All Countries, excluding the IO"
-2022-01-01,1341554483,Nepal,"All Countries, excluding the IO"
-2021-01-01,7206283135,Papua New Guinea,"All Countries, excluding the IO"
-2022-01-01,9593482632,Papua New Guinea,"All Countries, excluding the IO"
-2021-01-01,55738726174,Nigeria,"All Countries, excluding the IO"
-2022-01-01,63262479940,Nigeria,"All Countries, excluding the IO"
-2021-01-01,3681100753,Albania,"All Countries, excluding the IO"
-2022-01-01,4310142456,Albania,"All Countries, excluding the IO"
-2021-01-01,8188220682,"North Macedonia, Republic of","All Countries, excluding the IO"
-2022-01-01,8729356237,"North Macedonia, Republic of","All Countries, excluding the IO"
-2021-01-01,3294806657,Mauritania,"All Countries, excluding the IO"
-2022-01-01,3337647098,Mauritania,"All Countries, excluding the IO"
-2021-01-01,8614079101,Bosnia and Herzegovina,"All Countries, excluding the IO"
-2022-01-01,9678192326,Bosnia and Herzegovina,"All Countries, excluding the IO"
-2021-01-01,28248919,Gambia,"All Countries, excluding the IO"
-2022-01-01,42316752,Gambia,"All Countries, excluding the IO"
-2021-01-01,11079788843,Bolivia,"All Countries, excluding the IO"
-2022-01-01,13056701268,Bolivia,"All Countries, excluding the IO"
-2021-01-01,112839351,Burundi,"All Countries, excluding the IO"
-2022-01-01,106120859,Burundi,"All Countries, excluding the IO"
-2021-01-01,459609361804,United Kingdom,"All Countries, excluding the IO"
-2022-01-01,529129755812,United Kingdom,"All Countries, excluding the IO"
-2021-01-01,18460488070,Oman,"All Countries, excluding the IO"
-2022-01-01,22339410831,Oman,"All Countries, excluding the IO"
-2021-01-01,720705623,Niger,"All Countries, excluding the IO"
-2022-01-01,563327899,Niger,"All Countries, excluding the IO"
-2021-01-01,1023895056,Seychelles,"All Countries, excluding the IO"
-2022-01-01,1007248327,Seychelles,"All Countries, excluding the IO"
-2021-01-01,4256702876.9999995,Guyana,"All Countries, excluding the IO"
-2022-01-01,8123894360,Guyana,"All Countries, excluding the IO"
-2021-01-01,579259001,Bahamas,"All Countries, excluding the IO"
-2022-01-01,1957741350,Bahamas,"All Countries, excluding the IO"
-2021-01-01,615635199934,Italy,"All Countries, excluding the IO"
-2022-01-01,657038683591,Italy,"All Countries, excluding the IO"
-2021-01-01,1562523714,Rwanda,"All Countries, excluding the IO"
-2022-01-01,1562504485,Rwanda,"All Countries, excluding the IO"
-2021-01-01,21877520555,Croatia,"All Countries, excluding the IO"
-2022-01-01,25305653307,Croatia,"All Countries, excluding the IO"
-2021-01-01,65826467477,Ukraine,"All Countries, excluding the IO"
-2022-01-01,44443200594,Ukraine,"All Countries, excluding the IO"
-2021-01-01,1060959270547,"Middle East, North Africa, Afghanistan, and Pakistan","All Countries, excluding the IO"
-2022-01-01,1484532858620,"Middle East, North Africa, Afghanistan, and Pakistan","All Countries, excluding the IO"
-2021-01-01,47217829186,Greece,"All Countries, excluding the IO"
-2022-01-01,57391609834,Greece,"All Countries, excluding the IO"
-2021-01-01,3591811125,"Venezuela, Bolivarian Republic","All Countries, excluding the IO"
-2022-01-01,5319629516,"Venezuela, Bolivarian Republic","All Countries, excluding the IO"
-2021-01-01,202805954177,Austria,"All Countries, excluding the IO"
-2022-01-01,211391996842,Austria,"All Countries, excluding the IO"
-2021-01-01,18095969440,"Iran, Islamic Republic of","All Countries, excluding the IO"
-2022-01-01,18531443961,"Iran, Islamic Republic of","All Countries, excluding the IO"
-2021-01-01,7705493530822,Export earnings: nonfuel,"All Countries, excluding the IO"
-2022-01-01,8535315364708.001,Export earnings: nonfuel,"All Countries, excluding the IO"
-2021-01-01,132703816.99999999,Yemen,"All Countries, excluding the IO"
-2022-01-01,90721830,Yemen,"All Countries, excluding the IO"
-2021-01-01,627010707,Syrian Arab Republic,"All Countries, excluding the IO"
-2022-01-01,676409597,Syrian Arab Republic,"All Countries, excluding the IO"
-2021-01-01,225214458038,Türkiye,"All Countries, excluding the IO"
-2022-01-01,254201009047,Türkiye,"All Countries, excluding the IO"
-2021-01-01,21520018099,Estonia,"All Countries, excluding the IO"
-2022-01-01,22404764569,Estonia,"All Countries, excluding the IO"
-2021-01-01,409778754,Sierra Leone,"All Countries, excluding the IO"
-2022-01-01,490558565,Sierra Leone,"All Countries, excluding the IO"
-2021-01-01,122354020983,South Africa,"All Countries, excluding the IO"
-2022-01-01,123387268726,South Africa,"All Countries, excluding the IO"
-2021-01-01,456881517599,Singapore,"All Countries, excluding the IO"
-2022-01-01,516016210061,Singapore,"All Countries, excluding the IO"
-2021-01-01,74619469587,Philippines,"All Countries, excluding the IO"
-2022-01-01,80951915150,Philippines,"All Countries, excluding the IO"
-2021-01-01,13635511756,Guatemala,"All Countries, excluding the IO"
-2022-01-01,15683554945,Guatemala,"All Countries, excluding the IO"
-2021-01-01,59817570568,Kazakhstan,"All Countries, excluding the IO"
-2022-01-01,83290272138,Kazakhstan,"All Countries, excluding the IO"
-2021-01-01,4790601254,Honduras,"All Countries, excluding the IO"
-2022-01-01,7569297947,Honduras,"All Countries, excluding the IO"
-2021-01-01,386245450534,Sub-Saharan Africa,"All Countries, excluding the IO"
-2022-01-01,466925664809,Sub-Saharan Africa,"All Countries, excluding the IO"
-2021-01-01,11949099437,Sudan,"All Countries, excluding the IO"
-2022-01-01,21449715939,Sudan,"All Countries, excluding the IO"
-2021-01-01,281645257207,Brazil,"All Countries, excluding the IO"
-2022-01-01,334463079195,Brazil,"All Countries, excluding the IO"
-2021-01-01,203061551,Guinea-Bissau,"All Countries, excluding the IO"
-2022-01-01,303490066,Guinea-Bissau,"All Countries, excluding the IO"
-2021-01-01,4998131851,Mali,"All Countries, excluding the IO"
-2022-01-01,5177232818,Mali,"All Countries, excluding the IO"
-2021-01-01,41157188704,Bulgaria,"All Countries, excluding the IO"
-2022-01-01,50238784706,Bulgaria,"All Countries, excluding the IO"
-2021-01-01,87200560581,Qatar,"All Countries, excluding the IO"
-2022-01-01,137376104022.00002,Qatar,"All Countries, excluding the IO"
-2021-01-01,26345747048,Ecuador,"All Countries, excluding the IO"
-2022-01-01,37975978068,Ecuador,"All Countries, excluding the IO"
-2021-01-01,16800336263.000002,Luxembourg,"All Countries, excluding the IO"
-2022-01-01,17274356544,Luxembourg,"All Countries, excluding the IO"
-2021-01-01,1646292329689,Export earnings: fuel,"All Countries, excluding the IO"
-2022-01-01,2218934533298,Export earnings: fuel,"All Countries, excluding the IO"
-2021-01-01,160306668845,Norway,"All Countries, excluding the IO"
-2022-01-01,270865654988,Norway,"All Countries, excluding the IO"
-2021-01-01,76314661,Vanuatu,"All Countries, excluding the IO"
-2022-01-01,73978518,Vanuatu,"All Countries, excluding the IO"
-2021-01-01,493348026793,Africa,"All Countries, excluding the IO"
-2022-01-01,619251284288,Africa,"All Countries, excluding the IO"
-2021-01-01,275527643,Barbados,"All Countries, excluding the IO"
-2022-01-01,320067196,Barbados,"All Countries, excluding the IO"
-2021-01-01,17594333454,Cambodia,"All Countries, excluding the IO"
-2022-01-01,23078465454,Cambodia,"All Countries, excluding the IO"
-2021-01-01,1636741953121,Germany,"All Countries, excluding the IO"
-2022-01-01,1656713639815,Germany,"All Countries, excluding the IO"
-2021-01-01,9351785860511,Emerging and Developing Countries,"All Countries, excluding the IO"
-2022-01-01,10754249898006,Emerging and Developing Countries,"All Countries, excluding the IO"
-2021-01-01,27381078426,"Congo, the Democratic Republic of the","All Countries, excluding the IO"
-2022-01-01,41271015345,"Congo, the Democratic Republic of the","All Countries, excluding the IO"
-2021-01-01,840031521421,Netherlands,"All Countries, excluding the IO"
-2022-01-01,965761906765,Netherlands,"All Countries, excluding the IO"
-2021-01-01,750137760,Fiji,"All Countries, excluding the IO"
-2022-01-01,851475612,Fiji,"All Countries, excluding the IO"
-2021-01-01,527136291,Somalia,"All Countries, excluding the IO"
-2022-01-01,638995966,Somalia,"All Countries, excluding the IO"
-2021-01-01,12445363332,Dominican Republic,"All Countries, excluding the IO"
-2022-01-01,13626163798,Dominican Republic,"All Countries, excluding the IO"
-2021-01-01,15159029402,Myanmar,"All Countries, excluding the IO"
-2022-01-01,20411979906,Myanmar,"All Countries, excluding the IO"
-2021-01-01,8377133986.999999,Trinidad and Tobago,"All Countries, excluding the IO"
-2022-01-01,13286231743,Trinidad and Tobago,"All Countries, excluding the IO"
-2021-01-01,5040406639,Burkina Faso,"All Countries, excluding the IO"
-2022-01-01,16844400758,Burkina Faso,"All Countries, excluding the IO"
-2021-01-01,3015987201,Armenia,"All Countries, excluding the IO"
-2022-01-01,5360069395,Armenia,"All Countries, excluding the IO"
-2021-01-01,17489763756,Bahrain,"All Countries, excluding the IO"
-2022-01-01,24315655908,Bahrain,"All Countries, excluding the IO"
-2021-01-01,362156497,Djibouti,"All Countries, excluding the IO"
-2022-01-01,377030249,Djibouti,"All Countries, excluding the IO"
-2021-01-01,13317602487,Sri Lanka,"All Countries, excluding the IO"
-2022-01-01,17054345451.000002,Sri Lanka,"All Countries, excluding the IO"
-2021-01-01,1502012892,Suriname,"All Countries, excluding the IO"
-2022-01-01,1970656623,Suriname,"All Countries, excluding the IO"
-2021-01-01,216044336,"Korea, Democratic People`s Republic of","All Countries, excluding the IO"
-2022-01-01,248729987,"Korea, Democratic People`s Republic of","All Countries, excluding the IO"
-2021-01-01,77629061078,Argentina,"All Countries, excluding the IO"
-2022-01-01,90072130752,Argentina,"All Countries, excluding the IO"
-2021-01-01,3227683856,Ethiopia,"All Countries, excluding the IO"
-2022-01-01,3733969703,Ethiopia,"All Countries, excluding the IO"
-2021-01-01,26775746,Samoa,"All Countries, excluding the IO"
-2022-01-01,31865260,Samoa,"All Countries, excluding the IO"
-2021-01-01,548868945936,Belgium,"All Countries, excluding the IO"
-2022-01-01,635514337888,Belgium,"All Countries, excluding the IO"
-2021-01-01,494760559000,Mexico,"All Countries, excluding the IO"
-2022-01-01,578188005000,Mexico,"All Countries, excluding the IO"
-2021-01-01,266291811219.99997,Thailand,"All Countries, excluding the IO"
-2022-01-01,283504156341,Thailand,"All Countries, excluding the IO"
-2021-01-01,261239072909,United Arab Emirates,"All Countries, excluding the IO"
-2022-01-01,360394063832,United Arab Emirates,"All Countries, excluding the IO"
-2021-01-01,81995695786,Finland,"All Countries, excluding the IO"
-2022-01-01,85907059063,Finland,"All Countries, excluding the IO"
-2021-01-01,1476349167,Jamaica,"All Countries, excluding the IO"
-2022-01-01,1068628895,Jamaica,"All Countries, excluding the IO"
-2021-01-01,74219849,Cabo Verde,"All Countries, excluding the IO"
-2022-01-01,58883704,Cabo Verde,"All Countries, excluding the IO"
-2021-01-01,190658115547,Ireland,"All Countries, excluding the IO"
-2022-01-01,213991055481,Ireland,"All Countries, excluding the IO"
-2021-01-01,41389989091,Colombia,"All Countries, excluding the IO"
-2022-01-01,57105700449,Colombia,"All Countries, excluding the IO"
-2021-01-01,16815047953.000002,Tunisia,"All Countries, excluding the IO"
-2022-01-01,18558038104,Tunisia,"All Countries, excluding the IO"
-2021-01-01,1644269913,Faroe Islands,"All Countries, excluding the IO"
-2022-01-01,2263671795,Faroe Islands,"All Countries, excluding the IO"
-2021-01-01,394463710390,India,"All Countries, excluding the IO"
-2022-01-01,449535857035,India,"All Countries, excluding the IO"
-2021-01-01,2378175928,Congo,"All Countries, excluding the IO"
-2022-01-01,3729060611,Congo,"All Countries, excluding the IO"
-2021-01-01,10559535045,Paraguay,"All Countries, excluding the IO"
-2022-01-01,9957013974,Paraguay,"All Countries, excluding the IO"
-2021-01-01,28681421762,Pakistan,"All Countries, excluding the IO"
-2022-01-01,30019339966,Pakistan,"All Countries, excluding the IO"
-2021-01-01,454079837,Liberia,"All Countries, excluding the IO"
-2022-01-01,448836637,Liberia,"All Countries, excluding the IO"
-2021-01-01,1195831213,Cuba,"All Countries, excluding the IO"
-2022-01-01,1317620035,Cuba,"All Countries, excluding the IO"
-2021-01-01,36820212,Comoros,"All Countries, excluding the IO"
-2022-01-01,37145766,Comoros,"All Countries, excluding the IO"
-2021-01-01,2707433581,Madagascar,"All Countries, excluding the IO"
-2022-01-01,3546314854,Madagascar,"All Countries, excluding the IO"
-2021-01-01,9349414607,Turkmenistan,"All Countries, excluding the IO"
-2022-01-01,12820660645,Turkmenistan,"All Countries, excluding the IO"
-2021-01-01,36530850612,Morocco,"All Countries, excluding the IO"
-2022-01-01,43383566724,Morocco,"All Countries, excluding the IO"
-2021-01-01,141830131160,Hungary,"All Countries, excluding the IO"
-2022-01-01,151540101075,Hungary,"All Countries, excluding the IO"
-2021-01-01,52979674,Saint Vincent and the Grenadines,"All Countries, excluding the IO"
-2022-01-01,72097467,Saint Vincent and the Grenadines,"All Countries, excluding the IO"
-2021-01-01,52570833,Bermuda,"All Countries, excluding the IO"
-2022-01-01,44557967,Bermuda,"All Countries, excluding the IO"
-2021-01-01,501740476073,Canada,"All Countries, excluding the IO"
-2022-01-01,596957712230,Canada,"All Countries, excluding the IO"
-2021-01-01,1658948495,Kyrgyzstan,"All Countries, excluding the IO"
-2022-01-01,2186695034,Kyrgyzstan,"All Countries, excluding the IO"
-2021-01-01,4399540648,Cameroon,"All Countries, excluding the IO"
-2022-01-01,6171664019,Cameroon,"All Countries, excluding the IO"
-2021-01-01,9277283656,Mongolia,"All Countries, excluding the IO"
-2022-01-01,13276867150,Mongolia,"All Countries, excluding the IO"
-2021-01-01,1079792698,Togo,"All Countries, excluding the IO"
-2022-01-01,2715998013,Togo,"All Countries, excluding the IO"
-2021-01-01,218501637,Belize,"All Countries, excluding the IO"
-2022-01-01,232044366,Belize,"All Countries, excluding the IO"
-2021-01-01,39574133382,New Zealand,"All Countries, excluding the IO"
-2022-01-01,46319748469,New Zealand,"All Countries, excluding the IO"
-2021-01-01,3953611158,Uganda,"All Countries, excluding the IO"
-2022-01-01,3550758994,Uganda,"All Countries, excluding the IO"
-2021-01-01,11051924478,Brunei Darussalam,"All Countries, excluding the IO"
-2022-01-01,14362123292,Brunei Darussalam,"All Countries, excluding the IO"
-2021-01-01,56236884800,Peru,"All Countries, excluding the IO"
-2022-01-01,66471631148,Peru,"All Countries, excluding the IO"
-2021-01-01,20874447,Sao Tome and Principe,"All Countries, excluding the IO"
-2022-01-01,22587972,Sao Tome and Principe,"All Countries, excluding the IO"
-2021-01-01,3513117968,Nicaragua,"All Countries, excluding the IO"
-2022-01-01,3878440278,Nicaragua,"All Countries, excluding the IO"
-2021-01-01,340633516883,Poland,"All Countries, excluding the IO"
-2022-01-01,360541931833,Poland,"All Countries, excluding the IO"
-2021-01-01,344138637936,Australia,"All Countries, excluding the IO"
-2022-01-01,412540265911,Australia,"All Countries, excluding the IO"
-2021-01-01,278924567991,Saudi Arabia,"All Countries, excluding the IO"
-2022-01-01,408348703780,Saudi Arabia,"All Countries, excluding the IO"
-2021-01-01,125944806080,Denmark,"All Countries, excluding the IO"
-2022-01-01,128861557225,Denmark,"All Countries, excluding the IO"
-2021-01-01,22050195261171,"All Countries, excluding the IO","All Countries, excluding the IO"
-2022-01-01,24655529674494,"All Countries, excluding the IO","All Countries, excluding the IO"
-2021-01-01,330431996952,Viet Nam,"All Countries, excluding the IO"
-2022-01-01,360341121878,Viet Nam,"All Countries, excluding the IO"
-2021-01-01,3063586579,Malta,"All Countries, excluding the IO"
-2022-01-01,3207059252,Malta,"All Countries, excluding the IO"
-2021-01-01,231522458148,Indonesia,"All Countries, excluding the IO"
-2022-01-01,292305268543,Indonesia,"All Countries, excluding the IO"
-2021-01-01,16657228,Grenada,"All Countries, excluding the IO"
-2022-01-01,17787532,Grenada,"All Countries, excluding the IO"
-2021-01-01,59075000000,Israel,"All Countries, excluding the IO"
-2022-01-01,72538300000,Israel,"All Countries, excluding the IO"
-2021-01-01,1276838056,Haiti,"All Countries, excluding the IO"
-2022-01-01,1204616173,Haiti,"All Countries, excluding the IO"
-2021-01-01,87492818,Aruba,"All Countries, excluding the IO"
-2022-01-01,103841099,Aruba,"All Countries, excluding the IO"
-2021-01-01,57351903433,Slovenia,"All Countries, excluding the IO"
-2022-01-01,69700974155,Slovenia,"All Countries, excluding the IO"
-2021-01-01,6647148171318,EU (Member States and Institutions of the European Union) changing composition,"All Countries, excluding the IO"
-2022-01-01,7150111746903,EU (Member States and Institutions of the European Union) changing composition,"All Countries, excluding the IO"
-2021-01-01,2452655301,Chad,"All Countries, excluding the IO"
-2022-01-01,4193722160.9999995,Chad,"All Countries, excluding the IO"
-2021-01-01,38434843397,Algeria,"All Countries, excluding the IO"
-2022-01-01,65102212578,Algeria,"All Countries, excluding the IO"
-2021-01-01,4695751872,Equatorial Guinea,"All Countries, excluding the IO"
-2022-01-01,7673276422,Equatorial Guinea,"All Countries, excluding the IO"
-2021-01-01,756166163384,Japan,"All Countries, excluding the IO"
-2022-01-01,746720431187,Japan,"All Countries, excluding the IO"
-2021-01-01,11141099670,Zambia,"All Countries, excluding the IO"
-2022-01-01,17614334709,Zambia,"All Countries, excluding the IO"
-2021-01-01,6621385982,El Salvador,"All Countries, excluding the IO"
-2022-01-01,7115101783,El Salvador,"All Countries, excluding the IO"
-2021-01-01,777035183,Afghanistan,"All Countries, excluding the IO"
-2022-01-01,449403799,Afghanistan,"All Countries, excluding the IO"
-2021-01-01,40705673741,Lithuania,"All Countries, excluding the IO"
-2022-01-01,46339780884,Lithuania,"All Countries, excluding the IO"
-2021-01-01,6391040503,"Tanzania, United Republic of","All Countries, excluding the IO"
-2022-01-01,9824773113,"Tanzania, United Republic of","All Countries, excluding the IO"
-2021-01-01,1649978155,Mauritius,"All Countries, excluding the IO"
-2022-01-01,1646519465,Mauritius,"All Countries, excluding the IO"
-2021-01-01,75229280076,Portugal,"All Countries, excluding the IO"
-2022-01-01,82354805503,Portugal,"All Countries, excluding the IO"
-2021-01-01,20833171465,Latvia,"All Countries, excluding the IO"
-2022-01-01,24011049604,Latvia,"All Countries, excluding the IO"
-2021-01-01,5176358630,Guinea,"All Countries, excluding the IO"
-2022-01-01,5208977799,Guinea,"All Countries, excluding the IO"
-2021-01-01,1337931087,New Caledonia,"All Countries, excluding the IO"
-2022-01-01,1594022952,New Caledonia,"All Countries, excluding the IO"
-2021-01-01,4242323767,Georgia,"All Countries, excluding the IO"
-2022-01-01,5592764969,Georgia,"All Countries, excluding the IO"
-2021-01-01,492048058908,Russian Federation,"All Countries, excluding the IO"
-2022-01-01,572471050832,Russian Federation,"All Countries, excluding the IO"
-2021-01-01,716833758955,Community of Independent States (CIS),"All Countries, excluding the IO"
-2022-01-01,818732854883,Community of Independent States (CIS),"All Countries, excluding the IO"
-2021-01-01,31309030,Dominica,"All Countries, excluding the IO"
-2022-01-01,28277421,Dominica,"All Countries, excluding the IO"
-2021-01-01,18109303001,Ghana,"All Countries, excluding the IO"
-2022-01-01,18564496772,Ghana,"All Countries, excluding the IO"
-2021-01-01,12696997525111,Advanced Economies (IMF),"All Countries, excluding the IO"
-2022-01-01,13899713426466,Advanced Economies (IMF),"All Countries, excluding the IO"
-2021-01-01,957862157,Greenland,"All Countries, excluding the IO"
-2022-01-01,997924369,Greenland,"All Countries, excluding the IO"
-2021-01-01,3887900803,Cyprus,"All Countries, excluding the IO"
-2022-01-01,4342448272,Cyprus,"All Countries, excluding the IO"
-2021-01-01,356063393,Solomon Islands,"All Countries, excluding the IO"
-2022-01-01,378598104,Solomon Islands,"All Countries, excluding the IO"
-2021-01-01,299037704561,Malaysia,"All Countries, excluding the IO"
-2022-01-01,352337923095,Malaysia,"All Countries, excluding the IO"
-2021-01-01,379969120569,Spain,"All Countries, excluding the IO"
-2022-01-01,418364066638,Spain,"All Countries, excluding the IO"
-2021-01-01,644399390000,"Korea, Republic of","All Countries, excluding the IO"
-2022-01-01,683583612000,"Korea, Republic of","All Countries, excluding the IO"
-2021-01-01,379401552404,Switzerland,"All Countries, excluding the IO"
-2022-01-01,401706622689,Switzerland,"All Countries, excluding the IO"
-2021-01-01,36344059715,Libya,"All Countries, excluding the IO"
-2022-01-01,46483050628,Libya,"All Countries, excluding the IO"
-2021-01-01,1754300367662,United States,"All Countries, excluding the IO"
-2022-01-01,2064056389455,United States,"All Countries, excluding the IO"
-2021-01-01,103891285834,Slovakia,"All Countries, excluding the IO"
-2022-01-01,107770858037,Slovakia,"All Countries, excluding the IO"
-2021-01-01,9537248058,Uruguay,"All Countries, excluding the IO"
-2022-01-01,11187261351,Uruguay,"All Countries, excluding the IO"
-2021-01-01,25559357631,Serbia,"All Countries, excluding the IO"
-2022-01-01,29056978647,Serbia,"All Countries, excluding the IO"
-2021-01-01,1069721027.9999999,Malawi,"All Countries, excluding the IO"
-2022-01-01,1053607800,Malawi,"All Countries, excluding the IO"
-2021-01-01,1187697311391,Western Hemisphere,"All Countries, excluding the IO"
-2022-01-01,1404092127077,Western Hemisphere,"All Countries, excluding the IO"
-2021-01-01,95674498,Saint Lucia,"All Countries, excluding the IO"
-2022-01-01,79364778,Saint Lucia,"All Countries, excluding the IO"
-2021-01-01,68303554694.00001,Kuwait,"All Countries, excluding the IO"
-2022-01-01,94062283605,Kuwait,"All Countries, excluding the IO"
-2021-01-01,14063261482,Uzbekistan,"All Countries, excluding the IO"
-2022-01-01,14253365581,Uzbekistan,"All Countries, excluding the IO"
-2021-01-01,1508338165342,Europe,"All Countries, excluding the IO"
-2022-01-01,1650202719731,Europe,"All Countries, excluding the IO"
-2021-01-01,4575932080,Lebanon,"All Countries, excluding the IO"
-2022-01-01,4308951000,Lebanon,"All Countries, excluding the IO"
-2021-01-01,6730576026,Kenya,"All Countries, excluding the IO"
-2022-01-01,7219712818,Kenya,"All Countries, excluding the IO"
-2021-01-01,37848891219,Bangladesh,"All Countries, excluding the IO"
-2022-01-01,46851063751,Bangladesh,"All Countries, excluding the IO"
-2021-01-01,46288059,Central African Republic,"All Countries, excluding the IO"
-2022-01-01,47546631,Central African Republic,"All Countries, excluding the IO"
-2021-01-01,3686245702,Panama,"All Countries, excluding the IO"
-2022-01-01,4661918529,Panama,"All Countries, excluding the IO"
-2021-01-01,226563752375,Czech Republic,"All Countries, excluding the IO"
-2022-01-01,241457659239,Czech Republic,"All Countries, excluding the IO"
-2021-01-01,1473771201,Tajikistan,"All Countries, excluding the IO"
-2022-01-01,1577107897,Tajikistan,"All Countries, excluding the IO"
-2021-01-01,8899187039,Jordan,"All Countries, excluding the IO"
-2022-01-01,10177581712,Jordan,"All Countries, excluding the IO"
-2021-01-01,31468320,Tonga,"All Countries, excluding the IO"
-2022-01-01,26592982,Tonga,"All Countries, excluding the IO"
-2021-01-01,42962642,Saint Kitts and Nevis,"All Countries, excluding the IO"
-2022-01-01,25901066,Saint Kitts and Nevis,"All Countries, excluding the IO"
-2021-01-01,671992604167,"Hong Kong, China","All Countries, excluding the IO"
-2022-01-01,611365563695,"Hong Kong, China","All Countries, excluding the IO"
-2021-01-01,40696756050,Egypt,"All Countries, excluding the IO"
-2022-01-01,48361226990,Egypt,"All Countries, excluding the IO"
-2021-01-01,7114200093,Botswana,"All Countries, excluding the IO"
-2022-01-01,8463614334,Botswana,"All Countries, excluding the IO"
-2021-01-01,18887541,Holy See (Vatican City State),"All Countries, excluding the IO"
-2022-01-01,16832931,Holy See (Vatican City State),"All Countries, excluding the IO"
-2021-01-01,36817249,Kiribati,"All Countries, excluding the IO"
-2022-01-01,185207141,Kiribati,"All Countries, excluding the IO"
-2021-01-01,6429529563,Namibia,"All Countries, excluding the IO"
-2022-01-01,6342538396,Namibia,"All Countries, excluding the IO"
-2021-01-01,1657689626,Antigua and Barbuda,"All Countries, excluding the IO"
-2022-01-01,2085033974.9999998,Antigua and Barbuda,"All Countries, excluding the IO"
-2021-01-01,220977580,Nauru,"All Countries, excluding the IO"
-2022-01-01,236877267,Nauru,"All Countries, excluding the IO"
-2021-01-01,154429266,Gibraltar,"All Countries, excluding the IO"
-2022-01-01,414293536,Gibraltar,"All Countries, excluding the IO"
-2021-01-01,668865211,Bhutan,"All Countries, excluding the IO"
-2022-01-01,631106440,Bhutan,"All Countries, excluding the IO"
-2021-01-01,232102189,"Micronesia, Federated States of","All Countries, excluding the IO"
-2022-01-01,226642043,"Micronesia, Federated States of","All Countries, excluding the IO"
-2021-01-01,164153485,Guam,"All Countries, excluding the IO"
-2022-01-01,196033175,Guam,"All Countries, excluding the IO"
-2021-01-01,201004649,Curacao,"All Countries, excluding the IO"
-2022-01-01,197131168,Curacao,"All Countries, excluding the IO"
-2021-01-01,35294202,Anguilla,"All Countries, excluding the IO"
-2022-01-01,36597436,Anguilla,"All Countries, excluding the IO"
-2021-01-01,811364585,South Sudan,"All Countries, excluding the IO"
-2022-01-01,521587179,South Sudan,"All Countries, excluding the IO"
-2021-01-01,266037717,French Polynesia,"All Countries, excluding the IO"
-2022-01-01,131533274,French Polynesia,"All Countries, excluding the IO"
-2021-01-01,1364317559,Marshall islands,"All Countries, excluding the IO"
-2022-01-01,1232706446,Marshall islands,"All Countries, excluding the IO"
-2021-01-01,1070253305,Lesotho,"All Countries, excluding the IO"
-2022-01-01,1841833323,Lesotho,"All Countries, excluding the IO"
-2021-01-01,1357640076,"Palestine, State of","All Countries, excluding the IO"
-2022-01-01,1323455250,"Palestine, State of","All Countries, excluding the IO"
-2021-01-01,71567146,American Samoa,"All Countries, excluding the IO"
-2022-01-01,26678052,American Samoa,"All Countries, excluding the IO"
-2021-01-01,26868337,Tuvalu,"All Countries, excluding the IO"
-2022-01-01,23466011,Tuvalu,"All Countries, excluding the IO"
-2021-01-01,215358911,San Marino,"All Countries, excluding the IO"
-2022-01-01,206336810,San Marino,"All Countries, excluding the IO"
-2021-01-01,488822568,Eritrea,"All Countries, excluding the IO"
-2022-01-01,578176840,Eritrea,"All Countries, excluding the IO"
-2021-01-01,885544653,"Kosovo, Republic of","All Countries, excluding the IO"
-2022-01-01,967840058,"Kosovo, Republic of","All Countries, excluding the IO"
-2021-01-01,8515752,Montserrat,"All Countries, excluding the IO"
-2022-01-01,4043388,Montserrat,"All Countries, excluding the IO"
-2021-01-01,1812635,Palau,"All Countries, excluding the IO"
-2022-01-01,4447412,Palau,"All Countries, excluding the IO"
-2021-01-01,87463380,Sint Maarten (Dutch part),"All Countries, excluding the IO"
-2022-01-01,100967869,Sint Maarten (Dutch part),"All Countries, excluding the IO"
-2021-01-01,2063257732,Eswatini,"All Countries, excluding the IO"
-2022-01-01,2006222264,Eswatini,"All Countries, excluding the IO"
-2021-01-01,1290594346,Timor-Leste,"All Countries, excluding the IO"
-2022-01-01,321846662,Timor-Leste,"All Countries, excluding the IO"
-2021-01-01,313831177,Falkland Islands (Malvinas),"All Countries, excluding the IO"
-2022-01-01,366168757,Falkland Islands (Malvinas),"All Countries, excluding the IO"
-2021-01-01,5472228346131,Euro Area (Member States and Institutions of the Euro Area) changing composition,"All Countries, excluding the IO"
-2022-01-01,5897633137848,Euro Area (Member States and Institutions of the Euro Area) changing composition,"All Countries, excluding the IO"
-2021-01-01,1176788552168,Middle East and Central Asia,"All Countries, excluding the IO"
-2022-01-01,1647760228479,Middle East and Central Asia,"All Countries, excluding the IO"
+,@FREQ,@REF_AREA,@INDICATOR,@COUNTERPART_AREA,@UNIT_MULT,@TIME_FORMAT,Obs_0_@TIME_PERIOD,Obs_0_@OBS_VALUE,Obs_1_@TIME_PERIOD,Obs_1_@OBS_VALUE
+0,A,F97,TXG_FOB_USD,W00,6,P1Y,2021,923586.872758,2022,1301216.908197
+1,A,IQ,TXG_FOB_USD,W00,6,P1Y,2021,81239.605833,2022,124427.845251
+2,A,RO,TXG_FOB_USD,W00,6,P1Y,2021,87388.114977,2022,96706.966763
+3,A,X88,TXG_FOB_USD,W00,6,P1Y,2021,1411.875549,2022,1566.350022
+4,A,FR,TXG_FOB_USD,W00,6,P1Y,2021,585020.854161,2022,618152.685111
+5,A,AN,TXG_FOB_USD,W00,6,P1Y,,,,
+6,A,SE,TXG_FOB_USD,W00,6,P1Y,2021,189524.794453,2022,197825.954907
+7,A,CR,TXG_FOB_USD,W00,6,P1Y,2021,14747.546463,2022,17947.848105
+8,A,ZW,TXG_FOB_USD,W00,6,P1Y,2021,5821.624149,2022,5745.176767
+9,A,ME,TXG_FOB_USD,W00,6,P1Y,2021,505.755692,2022,742.312921
+10,A,SN,TXG_FOB_USD,W00,6,P1Y,2021,5194.857137,2022,4904.300758
+11,A,BJ,TXG_FOB_USD,W00,6,P1Y,2021,1023.79946,2022,1337.315407
+12,A,XS25,TXG_FOB_USD,W00,6,P1Y,2021,5092716.381076,2022,5585269.15791
+13,A,1C_903,TXG_FOB_USD,W00,6,P1Y,2021,1508338.165342,2022,1650202.719731
+14,A,CI,TXG_FOB_USD,W00,6,P1Y,2021,15467.737933,2022,16668.575792
+15,A,MO,TXG_FOB_USD,W00,6,P1Y,2021,1251.956007,2022,1370.944073
+16,A,MZ,TXG_FOB_USD,W00,6,P1Y,2021,5121.37625,2022,7347.487583
+17,A,AO,TXG_FOB_USD,W00,6,P1Y,2021,35116.222451,2022,52707.846563
+18,A,LA,TXG_FOB_USD,W00,6,P1Y,2021,7898.732029,2022,9509.458036
+19,A,CL,TXG_FOB_USD,W00,6,P1Y,2021,93878.024713,2022,97489.095973
+20,A,MV,TXG_FOB_USD,W00,6,P1Y,2021,151.28117,2022,159.007612
+21,A,AZ,TXG_FOB_USD,W00,6,P1Y,2021,22208.0043,2022,38146.4342
+22,A,IS,TXG_FOB_USD,W00,6,P1Y,2021,6054.132505,2022,7402.719309
+23,A,BY,TXG_FOB_USD,W00,6,P1Y,2021,39986.9711,2022,34344.776316
+24,A,GA,TXG_FOB_USD,W00,6,P1Y,2021,5153.983808,2022,7380.8371
+25,A,CN,TXG_FOB_USD,W00,6,P1Y,2021,3368216.972663,2022,3604481.49075
+26,A,MD,TXG_FOB_USD,W00,6,P1Y,2021,3142.979849,2022,4246.457282
+27,A,NP,TXG_FOB_USD,W00,6,P1Y,2021,1704.092104,2022,1341.554483
+28,A,PG,TXG_FOB_USD,W00,6,P1Y,2021,7206.283135,2022,9593.482632
+29,A,NG,TXG_FOB_USD,W00,6,P1Y,2021,55738.726174,2022,63262.47994
+30,A,AL,TXG_FOB_USD,W00,6,P1Y,2021,3681.100753,2022,4310.142456
+31,A,MK,TXG_FOB_USD,W00,6,P1Y,2021,8188.220682,2022,8729.356237
+32,A,MR,TXG_FOB_USD,W00,6,P1Y,2021,3294.806657,2022,3337.647098
+33,A,R1,TXG_FOB_USD,W00,6,P1Y,,,,
+34,A,BA,TXG_FOB_USD,W00,6,P1Y,2021,8614.079101,2022,9678.192326
+35,A,GM,TXG_FOB_USD,W00,6,P1Y,2021,28.248919,2022,42.316752
+36,A,BO,TXG_FOB_USD,W00,6,P1Y,2021,11079.788843,2022,13056.701268
+37,A,BI,TXG_FOB_USD,W00,6,P1Y,2021,112.839351,2022,106.120859
+38,A,GB,TXG_FOB_USD,W00,6,P1Y,2021,459609.361804,2022,529129.755812
+39,A,OM,TXG_FOB_USD,W00,6,P1Y,2021,18460.48807,2022,22339.410831
+40,A,NE,TXG_FOB_USD,W00,6,P1Y,2021,720.705623,2022,563.327899
+41,A,SC,TXG_FOB_USD,W00,6,P1Y,2021,1023.895056,2022,1007.248327
+42,A,GY,TXG_FOB_USD,W00,6,P1Y,2021,4256.702877,2022,8123.89436
+43,A,BS,TXG_FOB_USD,W00,6,P1Y,2021,579.259001,2022,1957.74135
+44,A,IT,TXG_FOB_USD,W00,6,P1Y,2021,615635.199934,2022,657038.683591
+45,A,RW,TXG_FOB_USD,W00,6,P1Y,2021,1562.523714,2022,1562.504485
+46,A,HR,TXG_FOB_USD,W00,6,P1Y,2021,21877.520555,2022,25305.653307
+47,A,UA,TXG_FOB_USD,W00,6,P1Y,2021,65826.467477,2022,44443.200594
+48,A,1C_440,TXG_FOB_USD,W00,6,P1Y,2021,1060959.270547,2022,1484532.85862
+49,A,GR,TXG_FOB_USD,W00,6,P1Y,2021,47217.829186,2022,57391.609834
+50,A,CSH,TXG_FOB_USD,W00,6,P1Y,,,,
+51,A,VE,TXG_FOB_USD,W00,6,P1Y,2021,3591.811125,2022,5319.629516
+52,A,AT,TXG_FOB_USD,W00,6,P1Y,2021,202805.954177,2022,211391.996842
+53,A,IR,TXG_FOB_USD,W00,6,P1Y,2021,18095.96944,2022,18531.443961
+54,A,1C_092,TXG_FOB_USD,W00,6,P1Y,2021,7705493.530822,2022,8535315.364708
+55,A,YE,TXG_FOB_USD,W00,6,P1Y,2021,132.703817,2022,90.72183
+56,A,SY,TXG_FOB_USD,W00,6,P1Y,2021,627.010707,2022,676.409597
+57,A,TR,TXG_FOB_USD,W00,6,P1Y,2021,225214.458038,2022,254201.009047
+58,A,EE,TXG_FOB_USD,W00,6,P1Y,2021,21520.018099,2022,22404.764569
+59,A,SL,TXG_FOB_USD,W00,6,P1Y,2021,409.778754,2022,490.558565
+60,A,ZA,TXG_FOB_USD,W00,6,P1Y,2021,122354.020983,2022,123387.268726
+61,A,SG,TXG_FOB_USD,W00,6,P1Y,2021,456881.517599,2022,516016.210061
+62,A,PH,TXG_FOB_USD,W00,6,P1Y,2021,74619.469587,2022,80951.91515
+63,A,GT,TXG_FOB_USD,W00,6,P1Y,2021,13635.511756,2022,15683.554945
+64,A,KZ,TXG_FOB_USD,W00,6,P1Y,2021,59817.570568,2022,83290.272138
+65,A,HN,TXG_FOB_USD,W00,6,P1Y,2021,4790.601254,2022,7569.297947
+66,A,SUH,TXG_FOB_USD,W00,6,P1Y,,,,
+67,A,F6,TXG_FOB_USD,W00,6,P1Y,2021,386245.450534,2022,466925.664809
+68,A,SD,TXG_FOB_USD,W00,6,P1Y,2021,11949.099437,2022,21449.715939
+69,A,BR,TXG_FOB_USD,W00,6,P1Y,2021,281645.257207,2022,334463.079195
+70,A,GW,TXG_FOB_USD,W00,6,P1Y,2021,203.061551,2022,303.490066
+71,A,ML,TXG_FOB_USD,W00,6,P1Y,2021,4998.131851,2022,5177.232818
+72,A,BG,TXG_FOB_USD,W00,6,P1Y,2021,41157.188704,2022,50238.784706
+73,A,QA,TXG_FOB_USD,W00,6,P1Y,2021,87200.560581,2022,137376.104022
+74,A,EC,TXG_FOB_USD,W00,6,P1Y,2021,26345.747048,2022,37975.978068
+75,A,LU,TXG_FOB_USD,W00,6,P1Y,2021,16800.336263,2022,17274.356544
+76,A,1C_080,TXG_FOB_USD,W00,6,P1Y,2021,1646292.329689,2022,2218934.533298
+77,A,NO,TXG_FOB_USD,W00,6,P1Y,2021,160306.668845,2022,270865.654988
+78,A,VU,TXG_FOB_USD,W00,6,P1Y,2021,76.314661,2022,73.978518
+79,A,F1,TXG_FOB_USD,W00,6,P1Y,2021,493348.026793,2022,619251.284288
+80,A,BB,TXG_FOB_USD,W00,6,P1Y,2021,275.527643,2022,320.067196
+81,A,KH,TXG_FOB_USD,W00,6,P1Y,2021,17594.333454,2022,23078.465454
+82,A,DE,TXG_FOB_USD,W00,6,P1Y,2021,1636741.953121,2022,1656713.639815
+83,A,XR43,TXG_FOB_USD,W00,6,P1Y,2021,9351785.860511,2022,10754249.898006
+84,A,CD,TXG_FOB_USD,W00,6,P1Y,2021,27381.078426,2022,41271.015345
+85,A,NL,TXG_FOB_USD,W00,6,P1Y,2021,840031.521421,2022,965761.906765
+86,A,FJ,TXG_FOB_USD,W00,6,P1Y,2021,750.13776,2022,851.475612
+87,A,SO,TXG_FOB_USD,W00,6,P1Y,2021,527.136291,2022,638.995966
+88,A,DO,TXG_FOB_USD,W00,6,P1Y,2021,12445.363332,2022,13626.163798
+89,A,MM,TXG_FOB_USD,W00,6,P1Y,2021,15159.029402,2022,20411.979906
+90,A,TT,TXG_FOB_USD,W00,6,P1Y,2021,8377.133987,2022,13286.231743
+91,A,BF,TXG_FOB_USD,W00,6,P1Y,2021,5040.406639,2022,16844.400758
+92,A,AM,TXG_FOB_USD,W00,6,P1Y,2021,3015.987201,2022,5360.069395
+93,A,BH,TXG_FOB_USD,W00,6,P1Y,2021,17489.763756,2022,24315.655908
+94,A,DJ,TXG_FOB_USD,W00,6,P1Y,2021,362.156497,2022,377.030249
+95,A,LK,TXG_FOB_USD,W00,6,P1Y,2021,13317.602487,2022,17054.345451
+96,A,SR,TXG_FOB_USD,W00,6,P1Y,2021,1502.012892,2022,1970.656623
+97,A,KP,TXG_FOB_USD,W00,6,P1Y,2021,216.044336,2022,248.729987
+98,A,AR,TXG_FOB_USD,W00,6,P1Y,2021,77629.061078,2022,90072.130752
+99,A,ET,TXG_FOB_USD,W00,6,P1Y,2021,3227.683856,2022,3733.969703
+100,A,WS,TXG_FOB_USD,W00,6,P1Y,2021,26.775746,2022,31.86526
+101,A,BE,TXG_FOB_USD,W00,6,P1Y,2021,548868.945936,2022,635514.337888
+102,A,MX,TXG_FOB_USD,W00,6,P1Y,2021,494760.559,2022,578188.005
+103,A,TH,TXG_FOB_USD,W00,6,P1Y,2021,266291.81122,2022,283504.156341
+104,A,AE,TXG_FOB_USD,W00,6,P1Y,2021,261239.072909,2022,360394.063832
+105,A,FI,TXG_FOB_USD,W00,6,P1Y,2021,81995.695786,2022,85907.059063
+106,A,JM,TXG_FOB_USD,W00,6,P1Y,2021,1476.349167,2022,1068.628895
+107,A,CV,TXG_FOB_USD,W00,6,P1Y,2021,74.219849,2022,58.883704
+108,A,IE,TXG_FOB_USD,W00,6,P1Y,2021,190658.115547,2022,213991.055481
+109,A,CO,TXG_FOB_USD,W00,6,P1Y,2021,41389.989091,2022,57105.700449
+110,A,TN,TXG_FOB_USD,W00,6,P1Y,2021,16815.047953,2022,18558.038104
+111,A,FO,TXG_FOB_USD,W00,6,P1Y,2021,1644.269913,2022,2263.671795
+112,A,IN,TXG_FOB_USD,W00,6,P1Y,2021,394463.71039,2022,449535.857035
+113,A,CG,TXG_FOB_USD,W00,6,P1Y,2021,2378.175928,2022,3729.060611
+114,A,PY,TXG_FOB_USD,W00,6,P1Y,2021,10559.535045,2022,9957.013974
+115,A,PK,TXG_FOB_USD,W00,6,P1Y,2021,28681.421762,2022,30019.339966
+116,A,LR,TXG_FOB_USD,W00,6,P1Y,2021,454.079837,2022,448.836637
+117,A,1C_473,TXG_FOB_USD,W00,6,P1Y,,,,
+118,A,CU,TXG_FOB_USD,W00,6,P1Y,2021,1195.831213,2022,1317.620035
+119,A,KM,TXG_FOB_USD,W00,6,P1Y,2021,36.820212,2022,37.145766
+120,A,MG,TXG_FOB_USD,W00,6,P1Y,2021,2707.433581,2022,3546.314854
+121,A,TM,TXG_FOB_USD,W00,6,P1Y,2021,9349.414607,2022,12820.660645
+122,A,MA,TXG_FOB_USD,W00,6,P1Y,2021,36530.850612,2022,43383.566724
+123,A,HU,TXG_FOB_USD,W00,6,P1Y,2021,141830.13116,2022,151540.101075
+124,A,DE2,TXG_FOB_USD,W00,6,P1Y,,,,
+125,A,VC,TXG_FOB_USD,W00,6,P1Y,2021,52.979674,2022,72.097467
+126,A,BM,TXG_FOB_USD,W00,6,P1Y,2021,52.570833,2022,44.557967
+127,A,CA,TXG_FOB_USD,W00,6,P1Y,2021,501740.476073,2022,596957.71223
+128,A,KG,TXG_FOB_USD,W00,6,P1Y,2021,1658.948495,2022,2186.695034
+129,A,CM,TXG_FOB_USD,W00,6,P1Y,2021,4399.540648,2022,6171.664019
+130,A,MN,TXG_FOB_USD,W00,6,P1Y,2021,9277.283656,2022,13276.86715
+131,A,TG,TXG_FOB_USD,W00,6,P1Y,2021,1079.792698,2022,2715.998013
+132,A,BZ,TXG_FOB_USD,W00,6,P1Y,2021,218.501637,2022,232.044366
+133,A,NZ,TXG_FOB_USD,W00,6,P1Y,2021,39574.133382,2022,46319.748469
+134,A,UG,TXG_FOB_USD,W00,6,P1Y,2021,3953.611158,2022,3550.758994
+135,A,BN,TXG_FOB_USD,W00,6,P1Y,2021,11051.924478,2022,14362.123292
+136,A,PE,TXG_FOB_USD,W00,6,P1Y,2021,56236.8848,2022,66471.631148
+137,A,ST,TXG_FOB_USD,W00,6,P1Y,2021,20.874447,2022,22.587972
+138,A,NI,TXG_FOB_USD,W00,6,P1Y,2021,3513.117968,2022,3878.440278
+139,A,PL,TXG_FOB_USD,W00,6,P1Y,2021,340633.516883,2022,360541.931833
+140,A,AU,TXG_FOB_USD,W00,6,P1Y,2021,344138.637936,2022,412540.265911
+141,A,YUC,TXG_FOB_USD,W00,6,P1Y,,,,
+142,A,SA,TXG_FOB_USD,W00,6,P1Y,2021,278924.567991,2022,408348.70378
+143,A,DK,TXG_FOB_USD,W00,6,P1Y,2021,125944.80608,2022,128861.557225
+144,A,W00,TXG_FOB_USD,W00,6,P1Y,2021,22050195.261171,2022,24655529.674494
+145,A,VN,TXG_FOB_USD,W00,6,P1Y,2021,330431.996952,2022,360341.121878
+146,A,MT,TXG_FOB_USD,W00,6,P1Y,2021,3063.586579,2022,3207.059252
+147,A,ID,TXG_FOB_USD,W00,6,P1Y,2021,231522.458148,2022,292305.268543
+148,A,GD,TXG_FOB_USD,W00,6,P1Y,2021,16.657228,2022,17.787532
+149,A,IL,TXG_FOB_USD,W00,6,P1Y,2021,59075,2022,72538.3
+150,A,HT,TXG_FOB_USD,W00,6,P1Y,2021,1276.838056,2022,1204.616173
+151,A,AW,TXG_FOB_USD,W00,6,P1Y,2021,87.492818,2022,103.841099
+152,A,SI,TXG_FOB_USD,W00,6,P1Y,2021,57351.903433,2022,69700.974155
+153,A,B0,TXG_FOB_USD,W00,6,P1Y,2021,6647148.171318,2022,7150111.746903
+154,A,TD,TXG_FOB_USD,W00,6,P1Y,2021,2452.655301,2022,4193.722161
+155,A,DZ,TXG_FOB_USD,W00,6,P1Y,2021,38434.843397,2022,65102.212578
+156,A,GQ,TXG_FOB_USD,W00,6,P1Y,2021,4695.751872,2022,7673.276422
+157,A,JP,TXG_FOB_USD,W00,6,P1Y,2021,756166.163384,2022,746720.431187
+158,A,ZM,TXG_FOB_USD,W00,6,P1Y,2021,11141.09967,2022,17614.334709
+159,A,SV,TXG_FOB_USD,W00,6,P1Y,2021,6621.385982,2022,7115.101783
+160,A,AF,TXG_FOB_USD,W00,6,P1Y,2021,777.035183,2022,449.403799
+161,A,LT,TXG_FOB_USD,W00,6,P1Y,2021,40705.673741,2022,46339.780884
+162,A,TZ,TXG_FOB_USD,W00,6,P1Y,2021,6391.040503,2022,9824.773113
+163,A,CS,TXG_FOB_USD,W00,6,P1Y,,,,
+164,A,MU,TXG_FOB_USD,W00,6,P1Y,2021,1649.978155,2022,1646.519465
+165,A,PT,TXG_FOB_USD,W00,6,P1Y,2021,75229.280076,2022,82354.805503
+166,A,LV,TXG_FOB_USD,W00,6,P1Y,2021,20833.171465,2022,24011.049604
+167,A,GN,TXG_FOB_USD,W00,6,P1Y,2021,5176.35863,2022,5208.977799
+168,A,NC,TXG_FOB_USD,W00,6,P1Y,2021,1337.931087,2022,1594.022952
+169,A,GE,TXG_FOB_USD,W00,6,P1Y,2021,4242.323767,2022,5592.764969
+170,A,RU,TXG_FOB_USD,W00,6,P1Y,2021,492048.058908,2022,572471.050832
+171,A,R14,TXG_FOB_USD,W00,6,P1Y,2021,716833.758955,2022,818732.854883
+172,A,DM,TXG_FOB_USD,W00,6,P1Y,2021,31.30903,2022,28.277421
+173,A,GH,TXG_FOB_USD,W00,6,P1Y,2021,18109.303001,2022,18564.496772
+174,A,XR29,TXG_FOB_USD,W00,6,P1Y,2021,12696997.525111,2022,13899713.426466
+175,A,GL,TXG_FOB_USD,W00,6,P1Y,2021,957.862157,2022,997.924369
+176,A,CY,TXG_FOB_USD,W00,6,P1Y,2021,3887.900803,2022,4342.448272
+177,A,SB,TXG_FOB_USD,W00,6,P1Y,2021,356.063393,2022,378.598104
+178,A,MY,TXG_FOB_USD,W00,6,P1Y,2021,299037.704561,2022,352337.923095
+179,A,ES,TXG_FOB_USD,W00,6,P1Y,2021,379969.120569,2022,418364.066638
+180,A,KR,TXG_FOB_USD,W00,6,P1Y,2021,644399.39,2022,683583.612
+181,A,CH,TXG_FOB_USD,W00,6,P1Y,2021,379401.552404,2022,401706.622689
+182,A,LY,TXG_FOB_USD,W00,6,P1Y,2021,36344.059715,2022,46483.050628
+183,A,US,TXG_FOB_USD,W00,6,P1Y,2021,1754300.367662,2022,2064056.389455
+184,A,SK,TXG_FOB_USD,W00,6,P1Y,2021,103891.285834,2022,107770.858037
+185,A,1C_459,TXG_FOB_USD,W00,6,P1Y,,,,
+186,A,UY,TXG_FOB_USD,W00,6,P1Y,2021,9537.248058,2022,11187.261351
+187,A,RS,TXG_FOB_USD,W00,6,P1Y,2021,25559.357631,2022,29056.978647
+188,A,MW,TXG_FOB_USD,W00,6,P1Y,2021,1069.721028,2022,1053.6078
+189,A,A10,TXG_FOB_USD,W00,6,P1Y,2021,1187697.311391,2022,1404092.127077
+190,A,LC,TXG_FOB_USD,W00,6,P1Y,2021,95.674498,2022,79.364778
+191,A,KW,TXG_FOB_USD,W00,6,P1Y,2021,68303.554694,2022,94062.283605
+192,A,1C_198,TXG_FOB_USD,W00,6,P1Y,,,,
+193,A,UZ,TXG_FOB_USD,W00,6,P1Y,2021,14063.261482,2022,14253.365581
+194,A,E1,TXG_FOB_USD,W00,6,P1Y,2021,1508338.165342,2022,1650202.719731
+195,A,LB,TXG_FOB_USD,W00,6,P1Y,2021,4575.93208,2022,4308.951
+196,A,KE,TXG_FOB_USD,W00,6,P1Y,2021,6730.576026,2022,7219.712818
+197,A,BD,TXG_FOB_USD,W00,6,P1Y,2021,37848.891219,2022,46851.063751
+198,A,CF,TXG_FOB_USD,W00,6,P1Y,2021,46.288059,2022,47.546631
+199,A,PA,TXG_FOB_USD,W00,6,P1Y,2021,3686.245702,2022,4661.918529
+200,A,CZ,TXG_FOB_USD,W00,6,P1Y,2021,226563.752375,2022,241457.659239
+201,A,TJ,TXG_FOB_USD,W00,6,P1Y,2021,1473.771201,2022,1577.107897
+202,A,JO,TXG_FOB_USD,W00,6,P1Y,2021,8899.187039,2022,10177.581712
+203,A,TO,TXG_FOB_USD,W00,6,P1Y,2021,31.46832,2022,26.592982
+204,A,KN,TXG_FOB_USD,W00,6,P1Y,2021,42.962642,2022,25.901066
+205,A,HK,TXG_FOB_USD,W00,6,P1Y,2021,671992.604167,2022,611365.563695
+206,A,EG,TXG_FOB_USD,W00,6,P1Y,2021,40696.75605,2022,48361.22699
+207,A,BW,TXG_FOB_USD,W00,6,P1Y,2021,7114.200093,2022,8463.614334
+208,A,VA,TXG_FOB_USD,W00,6,P1Y,2021,18.887541,2022,16.832931
+209,A,KI,TXG_FOB_USD,W00,6,P1Y,2021,36.817249,2022,185.207141
+210,A,NA,TXG_FOB_USD,W00,6,P1Y,2021,6429.529563,2022,6342.538396
+211,A,AG,TXG_FOB_USD,W00,6,P1Y,2021,1657.689626,2022,2085.033975
+212,A,NR,TXG_FOB_USD,W00,6,P1Y,2021,220.97758,2022,236.877267
+213,A,GI,TXG_FOB_USD,W00,6,P1Y,2021,154.429266,2022,414.293536
+214,A,BT,TXG_FOB_USD,W00,6,P1Y,2021,668.865211,2022,631.10644
+215,A,FM,TXG_FOB_USD,W00,6,P1Y,2021,232.102189,2022,226.642043
+216,A,GU,TXG_FOB_USD,W00,6,P1Y,2021,164.153485,2022,196.033175
+217,A,CW,TXG_FOB_USD,W00,6,P1Y,2021,201.004649,2022,197.131168
+218,A,AI,TXG_FOB_USD,W00,6,P1Y,2021,35.294202,2022,36.597436
+219,A,SS,TXG_FOB_USD,W00,6,P1Y,2021,811.364585,2022,521.587179
+220,A,PF,TXG_FOB_USD,W00,6,P1Y,2021,266.037717,2022,131.533274
+221,A,MH,TXG_FOB_USD,W00,6,P1Y,2021,1364.317559,2022,1232.706446
+222,A,LS,TXG_FOB_USD,W00,6,P1Y,2021,1070.253305,2022,1841.833323
+223,A,PS,TXG_FOB_USD,W00,6,P1Y,2021,1357.640076,2022,1323.45525
+224,A,AS,TXG_FOB_USD,W00,6,P1Y,2021,71.567146,2022,26.678052
+225,A,TV,TXG_FOB_USD,W00,6,P1Y,2021,26.868337,2022,23.466011
+226,A,SM,TXG_FOB_USD,W00,6,P1Y,2021,215.358911,2022,206.33681
+227,A,ER,TXG_FOB_USD,W00,6,P1Y,2021,488.822568,2022,578.17684
+228,A,XK,TXG_FOB_USD,W00,6,P1Y,2021,885.544653,2022,967.840058
+229,A,MS,TXG_FOB_USD,W00,6,P1Y,2021,8.515752,2022,4.043388
+230,A,PW,TXG_FOB_USD,W00,6,P1Y,2021,1.812635,2022,4.447412
+231,A,SX,TXG_FOB_USD,W00,6,P1Y,2021,87.46338,2022,100.967869
+232,A,SZ,TXG_FOB_USD,W00,6,P1Y,2021,2063.257732,2022,2006.222264
+233,A,TL,TXG_FOB_USD,W00,6,P1Y,2021,1290.594346,2022,321.846662
+234,A,FK,TXG_FOB_USD,W00,6,P1Y,2021,313.831177,2022,366.168757
+235,A,U2,TXG_FOB_USD,W00,6,P1Y,2021,5472228.346131,2022,5897633.137848
+236,A,XS5,TXG_FOB_USD,W00,6,P1Y,2021,1176788.552168,2022,1647760.228479

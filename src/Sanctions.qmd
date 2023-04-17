@@ -50,27 +50,9 @@ virtualenv_install(
 )
 ```
 
-## Comtrade
+## Functions
 
-```{python}
-#|: setting-up-comtrade.py
-
-from export_ease.comtrade import Comtrade
-```
-
-```{python}
-#|: running-comtrade-all-exports
-# total-exports file format: comtrade_total_{year}{freq}
-
-Comtrade.get_all_exports("B", 2021) # writes csv file containing all country-pair export data
-```
-
-```{python}
-#|: running-comtrade-total-exports
-# per-country exports file format: comtrade_{year}{freq} 
-
-Comtrade.get_total_exports("B", 2021) # writes csv file containing total-export values for each country
-```
+### Cleaning
 
 ```{r}
 #|: function-to-clean-and-write-over-comtrade-files
@@ -93,95 +75,6 @@ clean_comtrade <- function(file) {
   write_xlsx(df, excel)
   return(df)
 }
-```
-
-```{r message = FALSE}
-#|: applying-above-function-to-all-new-comtrade-files
-# file names must be changed depending on queries (year, freq)
-# primaryValue numbers in scientific notation ok for calculations
-# in USD + months/years (depends on query)
-
-file <- "comtrade_all_exports_2021A"
-comtrade_pairs_annual <- data.frame()
-comtrade_pairs_annual <- clean_comtrade(file)
-# view(comtrade_pairs_annual)
-
-file <- "comtrade_all_exports_2021M"
-comtrade_pairs_monthly <- data.frame()
-comtrade_pairs_monthly <- clean_comtrade(file)
-# view(comtrade_pairs_monthly)
-
-file <- "comtrade_total_exports_2021A"
-comtrade_total_annual <- data.frame()
-comtrade_total_annual <- clean_comtrade(file)
-# view(comtrade_total_annual)
-
-file <- "comtrade_total_exports_2021M"
-comtrade_total_monthly <- data.frame()
-comtrade_total_monthly <- clean_comtrade(file)
-# view(comtrade_total_monthly)
-```
-
-```{r message = FALSE}
-#|: for-loading-dfs-that-have-already-been-queried
-
-year <- "2021" # year of data you're querying
-file_name <- "comtrade_all_exports_"
-
-comtrade_pairs_annual <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "A", ".csv")
-  )
-)
-comtrade_pairs_monthly <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "M", ".csv")
-  )
-)
-
-file_name <- "comtrade_total_exports_"
-
-comtrade_total_annual <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "A", ".csv")
-  )
-)
-comtrade_total_monthly <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "M", ".csv")
-  )
-)
-```
-
-## IMF
-
-```{python}
-#|: setting-up-imf
-
-from export_ease.imf import IMF
-```
-
-```{python}
-#|: running-imf-total-exports
-# total-exports file format: imf_total_exports_{year}{freq}
-
-IMF.get_total_exports("B", 2021) # writes csv file containing total-export values for each country
-```
-
-```{python}
-#|: running-imf-reporter-exports
-# exports from one reporter to all partners file format: imf_{country}_all_exports_{year}{freq}
-# quirk: if freq is annual and year is within 3 years of current year, function will return data starting from 3 years prior (e.g., if requesting annual data for France starting in 2021, it'll return data from 2020 to current day)
-
-IMF.get_reporter_exports("France", "B", 2021) # writes csv file with export data for reporter to all partners
 ```
 
 ```{r}
@@ -273,87 +166,6 @@ clean_imf <- function(file) {
 }
 ```
 
-```{r message = FALSE, warning = FALSE}
-#|: applying-above-function-to-all-new-imf-files
-# file names must be changed depending on queries (year, freq)
-# in USD + months/years (depends on query)
-# only run when you're loading queried data for the first time (and need to clean it)
-
-file <- "imf_total_exports_2021M"
-imf_total_monthly <- data.frame()
-imf_total_monthly <- clean_imf(file)
-# view(imf_total_monthly)
-
-file <- "imf_total_exports_2021A"
-imf_total_annual <- data.frame()
-imf_total_annual <- clean_imf(file)
-# view(imf_total_annual)
-
-file <- "imf_FR_all_exports_2021M"
-imf_fr_all_monthly <- data.frame()
-imf_fr_all_monthly <- clean_imf(file)
-# view(imf_fr_all_monthly)
-
-file <- "imf_FR_all_exports_2021A"
-imf_fr_all_annual <- data.frame()
-imf_fr_all_annual <- clean_imf(file)
-# view(imf_fr_all_annual)
-```
-
-```{r message = FALSE}
-#|: for-loading-dfs-that-have-already-been-queried
-# only run when dfs you want to load have already been queried
-# change year and country depending on queries
-
-year <- "2021" # year of data you're querying
-file_name <- "imf_total_exports_"
-
-imf_total_annual <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "A", ".csv")
-  )
-)
-imf_total_monthly <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "M", ".csv")
-  )
-)
-
-country <- "FR" # country of data you're querying\
-file_name <- "all_exports_"
-
-imf_fr_all_annual <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0("imf_", country, "_", file_name, year, "A", ".csv")
-  )
-)
-imf_fr_all_monthly <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0("imf_", country, "_", file_name, year, "M", ".csv")
-  )
-)
-```
-
-## World Bank
-
-```{r}
-#|: for-finding-stuff-in-wbstats
-# in USD + years
-
-# wb_search("Export") |> view()
-# wb_search("GDP") |> view()
-# str(wb_cachelist, max.level = 1)
-# wb_indicators <- wb_cachelist$indicators |> view()
-```
-
 ```{r}
 #|: function-to-get-and-write-files-containing-total-exports-and-gdp-data-from-world-bank
 # total-exports file format: wb_total_exports
@@ -401,51 +213,6 @@ get_wb <- function(years, df_to_return) {
   return(total_exports)
 }
 ```
-
-```{r}
-#|: using-above-function-to-get-GDPs-and-total-exports-from-world-bank
-# first argument specifies how many years you want data for, starting at the most recent year that has complete data (e.g., get_wb(3, ...) will get data for 2019, 2020, and 2021)
-# second arguments specifies data frame to return; valid args = "gdp" or "exports"
-# df_to_return argument specifies which data frame you'd like to return, with valid arguments being "gdp" or "exports"
-# in USD + years 
-
-wb_gdp <- data.frame()
-wb_gdp <- get_wb(3, "gdp")
-# view(wb_gdp)
-
-wb_total_exports <- data.frame()
-wb_total_exports <- get_wb(3, "exports")
-# view(wb_total_exports)
-```
-
-```{r message = FALSE}
-#|: for-loading-dfs-that-have-already-been-queried
-# only run when dfs you want to load have already been queried
-# change year and country depending on queries
-
-num_years <- "3" # of years of data you queried
-file_name <- "wb_gdp"
-
-wb_gdp <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, num_years, ".csv")
-  )
-)
-
-file_name <- "wb_total_exports"
-
-wb_total_exports <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, num_years, ".csv")
-  )
-)
-```
-
-## Frequency Conversion
 
 ```{r}
 #|: merge-helper-function-to-unify-country-naming-conventions-across-countries
@@ -578,6 +345,8 @@ add_annual <- function(pairs_monthly, pairs_annual) {
 }
 ```
 
+### Frequency Conversion
+
 ```{r}
 #|: actual-merge-function
 # returns a df containing all data that's ready to undergo freq conv
@@ -659,18 +428,10 @@ beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
 ```
 
 ```{r}
-#|: merge-convert-and-calc-beta
-
-final <- beta_calc(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly, wb_gdp)
-```
-
-```{r}
 #|: function-to-filter-df-based-on-criteria
-# can't view entire resulting df @ once or write Excel file b/c it's too large,
-# so must filter the df first before viewing/writing a file
 # this function takes in 1) the final df w/ beta included, 2) a vector of reporter countries, 
 # 3) a vector of partner countries, and 4) a keyword to use when writing the file (e.g., "eu")
-# can leave either reporters OR partners parameters NULL in order to get all reporters/partners
+# can leave either reporters or partners parameters NULL in order to get all reporters or partners (but not both at the same time -> df is too large)
 
 beta_filter <- function(df, reporters, partners, keyword) {
   if (!is.null(reporters)) { df <- df |> filter(reporter %in% reporters) }
@@ -686,8 +447,48 @@ beta_filter <- function(df, reporters, partners, keyword) {
 ```
 
 ```{r}
+#|: the-function-that-puts-everything-together
+
+everything <- function(year) {
+  freq <- "B"
+  exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year)
+  exp$comtrade$Comtrade$get_total_exports(freq = freq, year = year)
+  exp$imf$IMF$get_total_exports(freq = freq, year = year)
+  file <- paste0("comtrade_all_exports_", year, "A")
+  comtrade_pairs_annual <- clean_comtrade(file)
+  file <- paste0("comtrade_all_exports_", year, "M")
+  comtrade_pairs_monthly <- clean_comtrade(file)
+  file <- paste0("comtrade_total_exports_", year, "A")
+  comtrade_total_annual <- clean_comtrade(file)
+  file <- paste0("comtrade_total_exports_", year, "A")
+  comtrade_total_monthly <- clean_comtrade(file)
+  file <- paste0("imf_total_exports_", year, "A")
+  imf_total_annual <- clean_imf(file)
+  file <- paste0("imf_total_exports_", year, "M")
+  imf_total_monthly <- clean_imf(file)
+  wb_gdp <- get_wb(10, "gdp")
+  wb_total_exports <- get_wb(10, "exports")
+  final <- beta_calc(comtrade_pairs_monthly, comtrade_pairs_annual, imf_total_monthly, wb_gdp)
+}
+```
+
+## Getting + Viewing Data
+
+### Beta
+
+```{r}
+#|: running-everything
+# can't view entire resulting df @ once or write Excel file b/c it's too large,
+# so must filter the df first before viewing/writing a file
+
+year <- "2021" # year for which you want to gather data
+
+final <- everything(year)
+```
+
+```{r}
 #|: example-of-filtering-final-df-with-beta-based-on-criteria-using-function-above
-# note that beta_filter() can't write Excel files for dfs w/ > 1,000,000 rows, 
+# note that the beta_filter function can't write Excel files for dfs w/ > 1,000,000 rows, 
 # though the function will continue to work otherwise even if this is the case
 
 partners <- c("Russia")
@@ -695,4 +496,109 @@ eu_reporters <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cypr
 
 filtered_final <- beta_filter(final, eu_reporters, partners, "eu")
 # view(filtered_final)
+```
+
+### Comtrade
+
+```{r message = FALSE}
+#|: for-loading-dfs-that-have-already-been-queried
+
+file_name <- "comtrade_all_exports_"
+
+comtrade_pairs_annual <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "A", ".csv")
+  )
+)
+# view(comtrade_pairs_annual)
+
+comtrade_pairs_monthly <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "M", ".csv")
+  )
+)
+# view(comtrade_pairs_monthly)
+
+file_name <- "comtrade_total_exports_"
+
+comtrade_total_annual <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "A", ".csv")
+  )
+)
+# view(comtrade_total_annual)
+
+comtrade_total_monthly <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "M", ".csv")
+  )
+)
+# view(comtrade_total_monthly)
+```
+
+### IMF
+
+```{r message = FALSE}
+#|: for-loading-dfs-that-have-already-been-queried
+# only run when dfs you want to load have already been queried
+# change year and country depending on queries
+
+file_name <- "imf_total_exports_"
+
+imf_total_annual <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "A", ".csv")
+  )
+)
+# view(imf_total_annual)
+
+imf_total_monthly <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "M", ".csv")
+  )
+)
+# view(imf_total_monthly)
+```
+
+### World Bank
+
+```{r message = FALSE}
+#|: for-loading-dfs-that-have-already-been-queried
+# only run when dfs you want to load have already been queried
+# change year and country depending on queries
+
+num_years <- "10"
+file_name <- "wb_gdp"
+
+wb_gdp <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, num_years, ".csv")
+  )
+)
+# view(wb_gdp)
+
+file_name <- "wb_total_exports"
+
+wb_total_exports <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, num_years, ".csv")
+  )
+)
+# view(wb_total_exports)
 ```
