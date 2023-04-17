@@ -125,7 +125,7 @@ clean_imf <- function(file) {
     }
   }
   common <- c("FREQ", "REF_AREA", "INDICATOR", "COUNTERPART_AREA")
-  time <- df |> select(all_of(common), ends_with("TIME_PERIOD")) 
+  time <- df |> select(one_of(common), ends_with("TIME_PERIOD")) 
   time <- time |>
     pivot_longer(
       cols = -c("FREQ", "REF_AREA", "INDICATOR", "COUNTERPART_AREA"),
@@ -479,7 +479,7 @@ everything <- function(year) {
 }
 ```
 
-## Getting + Viewing Data
+## Getting & Viewing Data
 
 ### Beta
 
