@@ -20,6 +20,7 @@ library(tidyverse)
 
 ```{r}
 #IMPORTANT: it's also essential to do not leave sanctions with a multiplier equal to 0. If it is so, just erase the line.
+# loading sanction list and removing details column
 
 file <- "sanction_list.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
@@ -32,6 +33,8 @@ view(sanclist.ini)
 ```
 
 ```{r}
+# setting values for alpha (in Morad's paper)
+# will later need to allow for user to pass in their own values if they wish
 
 a.ind <- 1 #Individual Sanction
 a.ann <- 10  #Announcement
@@ -41,8 +44,9 @@ a.emb <- 3000 #Embargo
 ```
 
 ```{r}
-
 #!!WARNING!! Column "Date" in Beta must be in day/month/year
+# loading file containing beta data
+# will need to change this code to accomodate our new method of calculating beta (using the beta.qmd file in this src folder)
 
 file <- "beta_daily.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
@@ -55,7 +59,7 @@ beta$Date <- as.Date(beta$Date) #Transform column "Date" in date type
 ```
 
 ```{r}
-
+# checking if the dates line up (we might be able to get rid of this once we update the above code chunk, as the new method for obtaining beta values may not need this check... or we'll need to adapt the check)
 #Check if the last date of Beta is superior or equal to the last date of sanction list.
 if (tail(beta$Date,1) >= tail(sanclist.ini$Date,1)){
   print("beta_daily.csv and sanction_list.xlsx have compatible ending dates.")
@@ -69,7 +73,7 @@ if (tail(beta$Date,1) >= tail(sanclist.ini$Date,1)){
 ```
 
 ```{r}
-
+# another check to make sure the dates line up
 #Check if the first date of Beta is superior or equal to the first date of sanction list.
 if (head(beta$Date,1) <= head(sanclist.ini$Date,1)){
   print("beta_daily.csv and sanction_list.xlsx have compatible beginning dates.")
@@ -79,6 +83,10 @@ if (head(beta$Date,1) <= head(sanclist.ini$Date,1)){
 ```
 
 ```{r}
+# will later add functionality to take in user input to define U, which represents the day at which the sanction loses all effectiveness (here, with a value of 2190, any sanction is assumed to lose effectiveness after 6 years)
+# u is a vector from 1 to 2190 (or whatever the max value of U is); u enables us to plot the resulting data we get from this code as a time series
+# little u's values will never change
+# see the qt_general channel and/or Morad's paper for more details + clarification
 
 khi.U <- 2190 # number of steps starting at day 0 (when sanction is implemented) and ends at day/step 2190             
 khi.u <- c(1:khi.U)      #Sets little u between 1 (when the sanction is implemented) to 2190 (when the sanction stops)
@@ -93,7 +101,7 @@ khi.o.emb <- 15
 ```
 
 ```{r}
-
+# calculating khi (this won't change)
 #Khi for sanctions  against individuals:
 khi$khi.ind = (1 - (khi$khi.u / khi.U)) ^ khi.o.ind
 khi["1", "khi.ind"] <- 1 #First value = 1 as it is when the sanction is implemented.
@@ -116,7 +124,7 @@ khi["1","khi.emb"] <- 1
 ```
 
 ```{r}
-
+# changing type column from character (sanction type) to integer (value of alpha)
 view(sanction.list)
 sanction.list$Type <- revalue(sanction.list$Type, c("announcement"=a.ann)) #Replace sanctions announcements by its Alpha value
 sanction.list$Type <- revalue(sanction.list$Type, c("individual"=a.ind)) #Replace sanctions against individual by its Alpha value
@@ -126,6 +134,7 @@ sanction.list$Type <- revalue(sanction.list$Type, c("embargo"=a.emb)) #Replace e
 ```
 
 ```{r}
+# cleaning
 
 sanction.list <- na.omit(sanction.list) #Remove rows with missing values
 sanction.list$Type <- as.numeric(sanction.list$Type) #Transform column "Type" in numeric values
@@ -137,13 +146,14 @@ sanction.list$Date <- as.Date(sanction.list$Date) #Turn column date into a Date 
 ```
 
 ```{r}
-
+# turning into time series so that we can plot our data later
 #Creates dt that is a daily time series that starts at the date of the first sanction of the list, and ends at the last date available in Beta. Because if Beta is equal to zero, the index is equal to zero.
 dt = data.table(Date=seq(as.Date(head(sanction.list$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
 dt_res <- dt #Creates a dataframe where results will be stored.
 ```
 
 ```{r}
+# we need to work on optimizing the code below so that it can scale when calculating hundreds of sanction indices at once (we're currently doing a row at a time in the data frame)
 
 setDT(sanction.list)#This will be used in the for that follows
 
@@ -195,7 +205,7 @@ dt2 <- dt2[dt2$alpha != 0,] #Keeps only rows in which alpha is different from 0
 #As Khi parameter has N observations, it is possible that the number of observation for a precise sanction is < N.
 #It is thus important to determine this, because otherwise when merging Khi to dt2_m, date values in dt2_m will be copied over and over to fit the number of rows of Khi.
 
-if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has less rows than khi 
+if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has fewer rows than khi 
   nb_l <- nrow(dt2)
   #We merge Khi value depending on the type of sanction:
  if (dt2$Type[1] == "announcement") {
@@ -237,7 +247,7 @@ if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has less rows than khi
      if (dt2$Type[1] == "embargo") {
      dt2 <- cbind(dt2[1:nb_l], khi$khi.emb[1:nb_l]) #merge khi values for an embargo  
      } else {
-      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector,       embargo")  
+      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector, embargo")  
      }
     }
    }
