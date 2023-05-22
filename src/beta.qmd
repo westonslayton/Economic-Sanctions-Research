@@ -506,7 +506,7 @@ filtered_final <- beta_filter(final, eu_reporters, partners, paste0("eu", year))
 ```
 
 ```{r message = FALSE, warning = FALSE}
-#temp chunk to get all data for Austria sanction_list check
+#temp chunk to get all data for Austria sanction_list check (delete later)
 
 year2014 <- read_csv(
   file.path(
@@ -571,6 +571,18 @@ year2021 <- read_csv(
     "eu2021_beta.csv"
   )
 ) |> filter(reporter == "Austria" & partner == "Russia") |> view()
+
+combo <- rbind(year2014, year2015, year2016, year2017, year2018, year2019, year2020, year2021)
+combo$Date <- format(as.Date(combo$date, format = "%Y-%m-%d"), "%d/%m/%Y")
+view(combo)
+write_xlsx(
+  combo,
+  file.path(
+    dirname(getwd()),
+    "data",
+    "combo.xlsx"
+  )
+)
 ```
 
 ### Comtrade
