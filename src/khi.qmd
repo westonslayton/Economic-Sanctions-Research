@@ -48,14 +48,17 @@ a.emb <- 3000 #Embargo
 # loading file containing beta data
 # will need to change this code to accomodate our new method of calculating beta (using the beta.qmd file in this src folder)
 
-file <- "beta_daily.xlsx"
+file <- "eu_beta.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 beta <- read_excel(path) #Import external trade and GDP data
-beta$A = beta$Tkj / beta$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
-beta$B = beta$Tj / beta$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
-beta$beta = beta$A * beta$B            #Create Beta
-colnames(beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
-beta$Date <- as.Date(beta$Date) #Transform column "Date" in date type
+
+beta$date <- format(as.Date(beta$date, format = "%Y-%m-%d"), "%d/%m/%Y")
+
+beta <- beta |>
+  group_by(date) |>
+  dplyr::summarize(beta = sum(beta))
+
+colnames(beta)[1] = "Date"
 ```
 
 ```{r}
