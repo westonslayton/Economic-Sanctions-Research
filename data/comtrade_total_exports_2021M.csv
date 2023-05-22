@@ -1,4 +1,6 @@
 date,value,reporter,partner
+2021-01-01,10480178.233,Andorra,World
+2021-01-01,2300601309.482,Angola,World
 2021-01-01,1216974.831,Antigua and Barbuda,World
 2021-01-01,1623974167.85,Azerbaijan,World
 2021-01-01,4911999896.89,Argentina,World
@@ -55,6 +57,7 @@ date,value,reporter,partner
 2021-01-01,162896671.156,Madagascar,World
 2021-01-01,63439812.649,Malawi,World
 2021-01-01,22201593814.758,Malaysia,World
+2021-01-01,274473658.565,Malta,World
 2021-01-01,116979760.306,Mauritius,World
 2021-01-01,32667770741,Mexico,World
 2021-01-01,639684750.76,Mongolia,World
@@ -104,6 +107,8 @@ date,value,reporter,partner
 2021-01-01,528901635.04,Uzbekistan,World
 2021-01-01,1655455.981,Samoa,World
 2021-01-01,835043693.901,Zambia,World
+2021-02-01,13535776.462,Andorra,World
+2021-02-01,2084220035.049,Angola,World
 2021-02-01,1155221.737,Antigua and Barbuda,World
 2021-02-01,1163974263.69,Azerbaijan,World
 2021-02-01,4774998994.87,Argentina,World
@@ -160,6 +165,7 @@ date,value,reporter,partner
 2021-02-01,166704366.419,Madagascar,World
 2021-02-01,63615004.379,Malawi,World
 2021-02-01,21645833811.958,Malaysia,World
+2021-02-01,238397561.415,Malta,World
 2021-02-01,132738802.429,Mauritius,World
 2021-02-01,36174570563,Mexico,World
 2021-02-01,694630364.81,Mongolia,World
@@ -207,6 +213,8 @@ date,value,reporter,partner
 2021-02-01,390566393.48,Burkina Faso,World
 2021-02-01,677820283,Uzbekistan,World
 2021-02-01,2335069.817,Samoa,World
+2021-03-01,15390883.786,Andorra,World
+2021-03-01,2545933072.164,Angola,World
 2021-03-01,2794678.127,Antigua and Barbuda,World
 2021-03-01,1350040145.75,Azerbaijan,World
 2021-03-01,5719998796.77,Argentina,World
@@ -263,6 +271,7 @@ date,value,reporter,partner
 2021-03-01,165762790.164,Madagascar,World
 2021-03-01,52587340.843,Malawi,World
 2021-03-01,25550241484.704,Malaysia,World
+2021-03-01,261543083.397,Malta,World
 2021-03-01,124189126.718,Mauritius,World
 2021-03-01,43021477467,Mexico,World
 2021-03-01,665387011.12,Mongolia,World
@@ -310,6 +319,8 @@ date,value,reporter,partner
 2021-03-01,494438128.854,Burkina Faso,World
 2021-03-01,736980034.67,Uzbekistan,World
 2021-03-01,3579979.845,Samoa,World
+2021-04-01,14514660.137,Andorra,World
+2021-04-01,2637981686.048,Angola,World
 2021-04-01,2226287522.3,Azerbaijan,World
 2021-04-01,6142998699.95,Argentina,World
 2021-04-01,27221581162.757,Australia,World
@@ -365,6 +376,7 @@ date,value,reporter,partner
 2021-04-01,210885860.221,Madagascar,World
 2021-04-01,43857028.141,Malawi,World
 2021-04-01,25602930901.718,Malaysia,World
+2021-04-01,276946020.393,Malta,World
 2021-04-01,121698423.05,Mauritius,World
 2021-04-01,40772789633,Mexico,World
 2021-04-01,496191726.98,Mongolia,World
@@ -411,6 +423,8 @@ date,value,reporter,partner
 2021-04-01,413792878.013,Burkina Faso,World
 2021-04-01,900834897.53,Uzbekistan,World
 2021-04-01,1648139.06,Samoa,World
+2021-05-01,14619955.588,Andorra,World
+2021-05-01,2477519190.121,Angola,World
 2021-05-01,1062896111.38,Azerbaijan,World
 2021-05-01,6812691211.24,Argentina,World
 2021-05-01,29766590771.045,Australia,World
@@ -466,6 +480,7 @@ date,value,reporter,partner
 2021-05-01,265073912.467,Madagascar,World
 2021-05-01,81151544.228,Malawi,World
 2021-05-01,22365274011.405,Malaysia,World
+2021-05-01,222137089.933,Malta,World
 2021-05-01,138637452.908,Mauritius,World
 2021-05-01,40798330978,Mexico,World
 2021-05-01,825130451.15,Mongolia,World
@@ -513,7 +528,10 @@ date,value,reporter,partner
 2021-05-01,369789694.494,Burkina Faso,World
 2021-05-01,2026518670.48,Uzbekistan,World
 2021-05-01,3290853.487,Samoa,World
+2021-06-01,16440116.516,Andorra,World
+2021-06-01,2644302936.939,Angola,World
 2021-06-01,1383868348.82,Azerbaijan,World
+2021-06-01,7009853738.19,Argentina,World
 2021-06-01,31456495682.292,Australia,World
 2021-06-01,280165837.98,Armenia,World
 2021-06-01,51549240,Barbados,World
@@ -567,6 +585,7 @@ date,value,reporter,partner
 2021-06-01,240312905.901,Madagascar,World
 2021-06-01,105801099.573,Malawi,World
 2021-06-01,25511993984.73,Malaysia,World
+2021-06-01,261827343.878,Malta,World
 2021-06-01,147973864.61,Mauritius,World
 2021-06-01,42668354692,Mexico,World
 2021-06-01,751645774.84,Mongolia,World
@@ -614,6 +633,8 @@ date,value,reporter,partner
 2021-06-01,518242958.887,Burkina Faso,World
 2021-06-01,1064413467.97,Uzbekistan,World
 2021-06-01,2353168.719,Samoa,World
+2021-07-01,17603547.92,Andorra,World
+2021-07-01,2994299978.354,Angola,World
 2021-07-01,2584509490.32,Azerbaijan,World
 2021-07-01,7251906933.18,Argentina,World
 2021-07-01,31102554204.174,Australia,World
@@ -669,6 +690,7 @@ date,value,reporter,partner
 2021-07-01,200151388.943,Madagascar,World
 2021-07-01,117743603.268,Malawi,World
 2021-07-01,23179972877.91,Malaysia,World
+2021-07-01,233229032.655,Malta,World
 2021-07-01,143493328.984,Mauritius,World
 2021-07-01,40887733850,Mexico,World
 2021-07-01,629556541.1,Mongolia,World
@@ -716,6 +738,8 @@ date,value,reporter,partner
 2021-07-01,376780494.464,Burkina Faso,World
 2021-07-01,845979384.8,Uzbekistan,World
 2021-07-01,1689420.765,Samoa,World
+2021-08-01,8176048.65,Andorra,World
+2021-08-01,2686272988.425,Angola,World
 2021-08-01,1541800757.43,Azerbaijan,World
 2021-08-01,8098856231.98,Argentina,World
 2021-08-01,30731149256.074,Australia,World
@@ -771,6 +795,7 @@ date,value,reporter,partner
 2021-08-01,190472114.09,Madagascar,World
 2021-08-01,111727592.929,Malawi,World
 2021-08-01,22635196730.753,Malaysia,World
+2021-08-01,204369447.52,Malta,World
 2021-08-01,142828107.372,Mauritius,World
 2021-08-01,40313435036,Mexico,World
 2021-08-01,879511614.75,Mongolia,World
@@ -808,7 +833,6 @@ date,value,reporter,partner
 2021-08-01,79014023.126,Togo,World
 2021-08-01,671365558.153,Trinidad and Tobago,World
 2021-08-01,1163606765.091,Tunisia,World
-2021-08-01,18860976378,Türkiye,World
 2021-08-01,6274584248.43,Ukraine,World
 2021-08-01,666136200.2,North Macedonia,World
 2021-08-01,3279103225.71,Egypt,World
@@ -818,6 +842,8 @@ date,value,reporter,partner
 2021-08-01,353650612.22,Burkina Faso,World
 2021-08-01,903955843.711,Uzbekistan,World
 2021-08-01,1975985.675,Samoa,World
+2021-09-01,10486400.059,Andorra,World
+2021-09-01,3022386354.595,Angola,World
 2021-09-01,1694854358.07,Azerbaijan,World
 2021-09-01,7570189290.44,Argentina,World
 2021-09-01,27712268462.702,Australia,World
@@ -873,6 +899,7 @@ date,value,reporter,partner
 2021-09-01,227001019.614,Madagascar,World
 2021-09-01,114370839.048,Malawi,World
 2021-09-01,26602315587.284,Malaysia,World
+2021-09-01,216885063.481,Malta,World
 2021-09-01,154627523.205,Mauritius,World
 2021-09-01,41680024513,Mexico,World
 2021-09-01,801754942.26,Mongolia,World
@@ -920,6 +947,8 @@ date,value,reporter,partner
 2021-09-01,379569676.331,Burkina Faso,World
 2021-09-01,819550014.45,Uzbekistan,World
 2021-09-01,2485702.43,Samoa,World
+2021-10-01,13651279.364,Andorra,World
+2021-10-01,3377515260.991,Angola,World
 2021-10-01,2217991094.57,Azerbaijan,World
 2021-10-01,6862570097.27,Argentina,World
 2021-10-01,28017649945.538,Australia,World
@@ -974,6 +1003,7 @@ date,value,reporter,partner
 2021-10-01,250170536.29,Madagascar,World
 2021-10-01,105918146.89,Malawi,World
 2021-10-01,27484497596.865,Malaysia,World
+2021-10-01,288364362.422,Malta,World
 2021-10-01,143875912.196,Mauritius,World
 2021-10-01,43054971587,Mexico,World
 2021-10-01,1110514188.18,Mongolia,World
@@ -1021,6 +1051,8 @@ date,value,reporter,partner
 2021-10-01,377485888.535,Burkina Faso,World
 2021-10-01,1880088239.768,Uzbekistan,World
 2021-10-01,1951469.27,Samoa,World
+2021-11-01,15112955.228,Andorra,World
+2021-11-01,3062715427.994,Angola,World
 2021-11-01,2950597973.53,Azerbaijan,World
 2021-11-01,6191188181.31,Argentina,World
 2021-11-01,29446026293.14,Australia,World
@@ -1076,6 +1108,7 @@ date,value,reporter,partner
 2021-11-01,313091319.012,Madagascar,World
 2021-11-01,87439769.814,Malawi,World
 2021-11-01,26841697498.55,Malaysia,World
+2021-11-01,283057593.293,Malta,World
 2021-11-01,154288668.217,Mauritius,World
 2021-11-01,45586981873,Mexico,World
 2021-11-01,1300884972.74,Mongolia,World
@@ -1123,6 +1156,7 @@ date,value,reporter,partner
 2021-11-01,382076110.843,Burkina Faso,World
 2021-11-01,2798380037.01,Uzbekistan,World
 2021-11-01,3070685.816,Samoa,World
+2021-12-01,14818371.108,Andorra,World
 2021-12-01,3606565859.576,Angola,World
 2021-12-01,2407180551.23,Azerbaijan,World
 2021-12-01,6587062914.49,Argentina,World
@@ -1179,6 +1213,7 @@ date,value,reporter,partner
 2021-12-01,384754277.992,Madagascar,World
 2021-12-01,59426502.805,Malawi,World
 2021-12-01,29417210195.26,Malaysia,World
+2021-12-01,302360068.747,Malta,World
 2021-12-01,146944867.192,Mauritius,World
 2021-12-01,47692803567,Mexico,World
 2021-12-01,446230811.25,Mongolia,World
