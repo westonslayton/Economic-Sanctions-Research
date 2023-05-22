@@ -514,7 +514,7 @@ year2014 <- read_csv(
     "data",
     "eu2014_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 
 year2015 <- read_csv(
   file.path(
@@ -522,7 +522,7 @@ year2015 <- read_csv(
     "data",
     "eu2015_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 
 year2016 <- read_csv(
   file.path(
@@ -530,7 +530,7 @@ year2016 <- read_csv(
     "data",
     "eu2016_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 
 year2017 <- read_csv(
   file.path(
@@ -538,7 +538,7 @@ year2017 <- read_csv(
     "data",
     "eu2017_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 
 year2018 <- read_csv(
   file.path(
@@ -546,7 +546,7 @@ year2018 <- read_csv(
     "data",
     "eu2018_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 
 year2019 <- read_csv(
   file.path(
@@ -554,7 +554,7 @@ year2019 <- read_csv(
     "data",
     "eu2019_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 
 year2020 <- read_csv(
   file.path(
@@ -562,7 +562,7 @@ year2020 <- read_csv(
     "data",
     "eu2020_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 
 year2021 <- read_csv(
   file.path(
@@ -570,7 +570,7 @@ year2021 <- read_csv(
     "data",
     "eu2021_beta.csv"
   )
-)
+) |> filter(reporter == "Austria" & partner == "Russia") |> view()
 ```
 
 ### Comtrade
