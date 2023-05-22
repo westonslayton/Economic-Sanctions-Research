@@ -24,12 +24,12 @@ library(tidyverse)
 
 file <- "sanction_list.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
-sanction.list <- read_excel(path) #Import the sanction list.
-sanction.list$Details <- NULL #Remove column "details", not used for calculations.
+sanction.list <- read_excel(path) #Import the sanction list
+sanction.list$Details <- NULL #Remove column "details", not used for calculations
 sanclist.ini <- sanction.list #Save the initial list
-sanclist.ini <- as.data.frame(sanclist.ini) #Turn sanction list into dataframe.
+sanclist.ini <- as.data.frame(sanclist.ini) #Turn sanction list into dataframe
 sanclist.ini <- na.omit(sanclist.ini)
-view(sanclist.ini)
+# view(sanclist.ini)
 ```
 
 ```{r}
@@ -48,41 +48,48 @@ a.emb <- 3000 #Embargo
 # loading file containing beta data
 # will need to change this code to accomodate our new method of calculating beta (using the beta.qmd file in this src folder)
 
-file <- "eu_beta.xlsx"
+file <- "beta_daily.xlsx"
+path <- file.path(dirname(getwd()), "data", file)
+beta1 <- read_excel(path) #Import external trade and GDP data
+beta1$A = beta1$Tkj / beta1$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
+beta1$B = beta1$Tj / beta1$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
+beta1$beta = beta1$A * beta1$B            #Create Beta
+colnames(beta1) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
+beta1$Date <- as.Date(beta1$Date) #Transform column "Date" in date type
+# view(beta1)
+
+# some error w/ date?
+file <- "combo.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 beta <- read_excel(path) #Import external trade and GDP data
-
-beta$date <- format(as.Date(beta$date, format = "%Y-%m-%d"), "%d/%m/%Y")
-
-beta <- beta |>
-  group_by(date) |>
-  dplyr::summarize(beta = sum(beta))
-
-colnames(beta)[1] = "Date"
+beta <- beta |> select(Date, beta)
+# view(beta)
 ```
 
 ```{r}
 # checking if the dates line up (we might be able to get rid of this once we update the above code chunk, as the new method for obtaining beta values may not need this check... or we'll need to adapt the check)
-#Check if the last date of Beta is superior or equal to the last date of sanction list.
-if (tail(beta$Date,1) >= tail(sanclist.ini$Date,1)){
-  print("beta_daily.csv and sanction_list.xlsx have compatible ending dates.")
-} else{
-  
-  fin_beta <- tail(beta$Date,1)
-  sanclist.ini$Date[sanclist.ini$Date > as.Date(fin_beta)] <- NA #Replace by NA all dates that are after the last date in beta file.
-  sanclist.ini <- na.omit(sanclist.ini) #Erase rows with NA
-    warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values stop at a date that is prior to the date of a precise sanction! The sanction list has been shorten to fit dates in beta.")
-}
+#Check if the last date of Beta is superior or equal to the last date of sanction list
+
+# if (tail(beta$Date,1) >= tail(sanclist.ini$Date,1)){
+#   print("beta_daily.csv and sanction_list.xlsx have compatible ending dates.")
+# } else{
+#   fin_beta <- tail(beta$Date,1)
+#   sanclist.ini$Date[sanclist.ini$Date > as.Date(fin_beta)] <- NA #Replace by NA all dates that are after the last date in beta file.
+#   sanclist.ini <- na.omit(sanclist.ini) #Erase rows with NA
+#     warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values stop at a date that is prior to the date of a precise sanction! The sanction list has been shortened to fit dates in beta.")
+# }
+# view(sanclist.ini)
 ```
 
 ```{r}
 # another check to make sure the dates line up
-#Check if the first date of Beta is superior or equal to the first date of sanction list.
-if (head(beta$Date,1) <= head(sanclist.ini$Date,1)){
-  print("beta_daily.csv and sanction_list.xlsx have compatible beginning dates.")
-} else{
-    warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values start after sanctions' dates.")
-}
+#Check if the first date of Beta is superior or equal to the first date of sanction list
+
+# if (head(beta$Date,1) <= head(sanclist.ini$Date,1)){
+#   print("beta_daily.csv and sanction_list.xlsx have compatible beginning dates.")
+# } else{
+#     warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values start after sanctions' dates.")
+# }
 ```
 
 ```{r}
@@ -105,6 +112,7 @@ khi.o.emb <- 15
 
 ```{r}
 # calculating khi (this won't change)
+
 #Khi for sanctions  against individuals:
 khi$khi.ind = (1 - (khi$khi.u / khi.U)) ^ khi.o.ind
 khi["1", "khi.ind"] <- 1 #First value = 1 as it is when the sanction is implemented.
@@ -128,12 +136,13 @@ khi["1","khi.emb"] <- 1
 
 ```{r}
 # changing type column from character (sanction type) to integer (value of alpha)
-view(sanction.list)
+
 sanction.list$Type <- revalue(sanction.list$Type, c("announcement"=a.ann)) #Replace sanctions announcements by its Alpha value
 sanction.list$Type <- revalue(sanction.list$Type, c("individual"=a.ind)) #Replace sanctions against individual by its Alpha value
 sanction.list$Type <- revalue(sanction.list$Type, c("company"=a.com)) #Replace sanctions against companies by its Alpha value
 sanction.list$Type <- revalue(sanction.list$Type, c("sector"=a.sec)) #Replace sanctions against sectors by its Alpha value
 sanction.list$Type <- revalue(sanction.list$Type, c("embargo"=a.emb)) #Replace embargo by its Alpha value
+# view(sanction.list)
 ```
 
 ```{r}
@@ -182,14 +191,14 @@ for (i in sanclist.ini$ID){
  #Merge sanction.list and dt2 by Date
  dt2 <- beta[dt2, on = c('Date')]
 
- #Removing unecessary variables: (THIS COULD BE DONE BEFORE?)
- dt2$Tkj <- NULL
- dt2$Tj <- NULL
- dt2$Yj <- NULL
- dt2$A <- NULL
- dt2$B <- NULL
- dt2$ID.1 <- NULL
- 
+ # #Removing unecessary variables: (THIS COULD BE DONE BEFORE?)
+ # dt2$Tkj <- NULL
+ # dt2$Tj <- NULL
+ # dt2$Yj <- NULL
+ # dt2$A <- NULL
+ # dt2$B <- NULL
+ # dt2$ID.1 <- NULL
+
  #Apply the alpha value to all cells located after the beginning of the sanction ()
  non_zero <- which(dt2[,4] != 0) #find the row in which the sanction starts.
  row_num <- nrow(dt2[,4]) #find row number of column 4, that is alpha.
@@ -296,9 +305,10 @@ for (i in 2:n_sanc) {
 Date <- dt_res$Date
 S_index <- as.numeric(unlist(dt_res$Sindex))
 data <- data.frame(Date,S_index)
+view(dt_res)
 
 # Plot
-ggplot(data, aes(x=dt_res$Date, y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y")+ theme(axis.text.x=element_text(angle=60, hjust=1))
+ggplot(data, aes(x=dt_res$Date, y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y") + theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
 path <- file.path(dirname(getwd()), "data")
 ggsave(path = path, filename = "my_plot_check.png")
 file <- "example.xlsx"
