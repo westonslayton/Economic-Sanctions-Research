@@ -488,7 +488,7 @@ everything <- function(year) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
 
-year <- "2020" # year for which you want to gather data
+year <- "2021" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -501,8 +501,76 @@ final <- everything(year)
 partners <- c("Russia")
 eu_reporters <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
 
-filtered_final <- beta_filter(final, eu_reporters, partners, "eu")
+filtered_final <- beta_filter(final, eu_reporters, partners, paste0("eu", year))
 # view(filtered_final)
+```
+
+```{r message = FALSE, warning = FALSE}
+#temp chunk to get all data for Austria sanction_list check
+
+year2014 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2014_beta.csv"
+  )
+)
+
+year2015 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2015_beta.csv"
+  )
+)
+
+year2016 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2016_beta.csv"
+  )
+)
+
+year2017 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2017_beta.csv"
+  )
+)
+
+year2018 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2018_beta.csv"
+  )
+)
+
+year2019 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2019_beta.csv"
+  )
+)
+
+year2020 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2020_beta.csv"
+  )
+)
+
+year2021 <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    "eu2021_beta.csv"
+  )
+)
 ```
 
 ### Comtrade
