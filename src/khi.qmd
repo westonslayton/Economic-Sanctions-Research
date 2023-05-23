@@ -19,6 +19,27 @@ library(tidyverse)
 ```
 
 ```{r}
+# loading file containing beta data
+# will need to change this code to accomodate our new method of calculating beta (using the beta.qmd file in this src folder)
+
+# file <- "beta_daily.xlsx"
+# path <- file.path(dirname(getwd()), "data", file)
+# beta1 <- read_excel(path) #Import external trade and GDP data
+# beta1$A = beta1$Tkj / beta1$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
+# beta1$B = beta1$Tj / beta1$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
+# beta1$beta = beta1$A * beta1$B            #Create Beta
+# colnames(beta1) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
+# beta1$Date <- as.Date(beta1$Date) #Transform column "Date" in date type
+# view(beta1)
+
+file <- "combo.xlsx"
+path <- file.path(dirname(getwd()), "data", file)
+beta <- read_excel(path) #Import external trade and GDP data
+beta <- beta |> select(Date, beta)
+# view(beta)
+```
+
+```{r}
 #IMPORTANT: it's also essential to do not leave sanctions with a multiplier equal to 0. If it is so, just erase the line.
 # loading sanction list and removing details column
 
@@ -26,10 +47,29 @@ file <- "sanction_list.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 sanction.list <- read_excel(path) #Import the sanction list
 sanction.list$Details <- NULL #Remove column "details", not used for calculations
+sanction.list$Date <- as.Date(sanction.list$Date)
+first <- as.Date(min(beta$Date))
+last <- as.Date(max(beta$Date))
+dates <- c(seq(ymd(first), ymd(last), "days"))
+dates <- as.Date(dates)
+dates <- as.double(date)
+sanction_dates <- as.Date(sanction.list$Date)
+view(sanction_dates)
+view(dates)
+x <- intersect(sanction_dates, dates) 
+view(as.Date(x))
+view(dates)
+view(sanction_dates)
+check <- sanction.list |> filter(Date %in% dates)
+sanction.list <- check |> 
+  mutate(
+    Date <- as.Date(Date)
+  )
 sanclist.ini <- sanction.list #Save the initial list
 sanclist.ini <- as.data.frame(sanclist.ini) #Turn sanction list into dataframe
 sanclist.ini <- na.omit(sanclist.ini)
-# view(sanclist.ini)
+view(sanction.list)
+view(sanclist.ini)
 ```
 
 ```{r}
@@ -41,29 +81,6 @@ a.ann <- 10  #Announcement
 a.com <- 100  #Sanction against a company
 a.sec <- 1000  #Sanction against an economic sector
 a.emb <- 3000 #Embargo
-```
-
-```{r}
-#!!WARNING!! Column "Date" in Beta must be in day/month/year
-# loading file containing beta data
-# will need to change this code to accomodate our new method of calculating beta (using the beta.qmd file in this src folder)
-
-file <- "beta_daily.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-beta1 <- read_excel(path) #Import external trade and GDP data
-beta1$A = beta1$Tkj / beta1$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
-beta1$B = beta1$Tj / beta1$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
-beta1$beta = beta1$A * beta1$B            #Create Beta
-colnames(beta1) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
-beta1$Date <- as.Date(beta1$Date) #Transform column "Date" in date type
-# view(beta1)
-
-# some error w/ date?
-file <- "combo.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-beta <- read_excel(path) #Import external trade and GDP data
-beta <- beta |> select(Date, beta)
-# view(beta)
 ```
 
 ```{r}
@@ -154,14 +171,15 @@ sanction.list$alpha <- sanction.list$Type * sanction.list$Multiplier #Create the
 #Remove Columns Multiplier and Type as they are not going to be used anymore:
 sanction.list$Type <- NULL
 sanction.list$Multiplier <- NULL
-sanction.list$Date <- as.Date(sanction.list$Date) #Turn column date into a Date type instead of a POSIXct
+# view(sanction.list)
 ```
 
 ```{r}
 # turning into time series so that we can plot our data later
 #Creates dt that is a daily time series that starts at the date of the first sanction of the list, and ends at the last date available in Beta. Because if Beta is equal to zero, the index is equal to zero.
 dt = data.table(Date=seq(as.Date(head(sanction.list$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
-dt_res <- dt #Creates a dataframe where results will be stored.
+dt_res <- dt #Creates a dataframe where results will be stored
+# view(dt_res)
 ```
 
 ```{r}

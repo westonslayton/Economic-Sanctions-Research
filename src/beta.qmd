@@ -505,86 +505,6 @@ filtered_final <- beta_filter(final, eu_reporters, partners, paste0("eu", year))
 # view(filtered_final)
 ```
 
-```{r message = FALSE, warning = FALSE}
-#temp chunk to get all data for Austria sanction_list check (delete later)
-
-year2014 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2014_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-year2015 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2015_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-year2016 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2016_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-year2017 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2017_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-year2018 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2018_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-year2019 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2019_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-year2020 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2020_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-year2021 <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    "eu2021_beta.csv"
-  )
-) |> filter(reporter == "Austria" & partner == "Russia") |> view()
-
-combo <- rbind(year2014, year2015, year2016, year2017, year2018, year2019, year2020, year2021)
-combo$Date <- format(as.Date(combo$date, format = "%Y-%m-%d"), "%d/%m/%Y")
-view(combo)
-write_xlsx(
-  combo,
-  file.path(
-    dirname(getwd()),
-    "data",
-    "combo.xlsx"
-  )
-)
-```
-
 ### Comtrade
 
 ```{r message = FALSE}
@@ -687,5 +607,6 @@ wb_total_exports <- read_csv(
     paste0(file_name, num_years, ".csv")
   )
 )
-# view(wb_total_exports)
+# 
+view(wb_total_exports)
 ```
