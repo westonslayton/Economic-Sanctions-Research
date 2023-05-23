@@ -48,28 +48,19 @@ path <- file.path(dirname(getwd()), "data", file)
 sanction.list <- read_excel(path) #Import the sanction list
 sanction.list$Details <- NULL #Remove column "details", not used for calculations
 sanction.list$Date <- as.Date(sanction.list$Date)
+
 first <- as.Date(min(beta$Date))
 last <- as.Date(max(beta$Date))
 dates <- c(seq(ymd(first), ymd(last), "days"))
 dates <- as.Date(dates)
-dates <- as.double(date)
-sanction_dates <- as.Date(sanction.list$Date)
-view(sanction_dates)
-view(dates)
-x <- intersect(sanction_dates, dates) 
-view(as.Date(x))
-view(dates)
-view(sanction_dates)
-check <- sanction.list |> filter(Date %in% dates)
-sanction.list <- check |> 
-  mutate(
-    Date <- as.Date(Date)
-  )
+
+sanction.list <- sanction.list |> filter(Date %in% dates)
 sanclist.ini <- sanction.list #Save the initial list
 sanclist.ini <- as.data.frame(sanclist.ini) #Turn sanction list into dataframe
 sanclist.ini <- na.omit(sanclist.ini)
-view(sanction.list)
-view(sanclist.ini)
+
+# view(sanction.list)
+# view(sanclist.ini)
 ```
 
 ```{r}
@@ -166,7 +157,7 @@ sanction.list$Type <- revalue(sanction.list$Type, c("embargo"=a.emb)) #Replace e
 # cleaning
 
 sanction.list <- na.omit(sanction.list) #Remove rows with missing values
-sanction.list$Type <- as.numeric(sanction.list$Type) #Transform column "Type" in numeric values
+sanction.list$Type <- as.numeric(sanction.list$Type)#Transform column "Type" in numeric values
 sanction.list$alpha <- sanction.list$Type * sanction.list$Multiplier #Create the Alpha for each sanction
 #Remove Columns Multiplier and Type as they are not going to be used anymore:
 sanction.list$Type <- NULL
@@ -177,7 +168,7 @@ sanction.list$Multiplier <- NULL
 ```{r}
 # turning into time series so that we can plot our data later
 #Creates dt that is a daily time series that starts at the date of the first sanction of the list, and ends at the last date available in Beta. Because if Beta is equal to zero, the index is equal to zero.
-dt = data.table(Date=seq(as.Date(head(sanction.list$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
+dt = data.table(Date=seq(as.Date(head(beta$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
 dt_res <- dt #Creates a dataframe where results will be stored
 # view(dt_res)
 ```
