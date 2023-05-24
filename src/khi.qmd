@@ -142,7 +142,7 @@ khi$khi.emb = (1 - (khi$khi.u / khi.U)) ^ khi.o.emb
 khi["1","khi.emb"] <- 1
 ```
 
-```{r}
+```{r message = FALSE, warning = FALSE }
 # changing type column from character (sanction type) to integer (value of alpha)
 
 sanction.list$Type <- revalue(sanction.list$Type, c("announcement"=a.ann)) #Replace sanctions announcements by its Alpha value
@@ -175,114 +175,56 @@ dt_res <- dt #Creates a dataframe where results will be stored
 
 ```{r}
 
-setDT(sanction.list)#This will be used in the for that follows
+setDT(sanction.list)
+khi_ind <- khi$khi.ind
+khi_ann <- khi$khi.ann
+khi_com <- khi$khi.com
+khi_sec <- khi$khi.sec
+khi_emb <- khi$khi.emb
 
 for (i in sanclist.ini$ID){
- #Attribute the same ID to each line, since it concerns only one sanction:
- dt2 <- cbind(dt, sanction.list[i,1])
- setDT(dt2)
- #Merge sanction.list and dt2 by ID and Date
- dt2 <- sanction.list[dt2, on = c('ID','Date')]
-
- dt2$alpha[is.na(dt2$alpha)] = 0   #Replace NA by zeros
-
- #Add sanction i's ID:
- dt2 <- cbind(dt2, sanction.list$ID[i])
- ori_col <- colnames(sanction.list)[1] #Create an object that is the name of column 1 ("ID")
- colnames(dt2)[4] <- paste0(ori_col) #Add the ID of the sanction
-
- #We add the beta parameter:
- setDT(dt2)
- setDT(beta)
- 
- # Merge sanction.list and dt2 by Date
- # dt2 <- beta[dt2, on = c('Date')]
+  dt2 <- cbind(dt, sanction.list[i,1])
+  setDT(dt2)
+  dt2 <- sanction.list[dt2, on = c('ID','Date')]
+  dt2$alpha[is.na(dt2$alpha)] = 0
+  dt2 <- cbind(dt2, sanction.list$ID[i])
+  ori_col <- colnames(sanction.list)[1]
+  colnames(dt2)[4] <- paste0(ori_col)
+  setDT(dt2)
+  setDT(beta)
+  dt2 <- beta[dt2, on = c('Date')]
+  dt2$ID.1 <- NULL
+  non_zero <- which(dt2[,4] != 0)
+  row_num <- nrow(dt2[,4])
+  dt2$alpha[non_zero:row_num] <- dt2$alpha[dt2$alpha != "0"]
+  dt2 <- dt2[sanclist.ini, on = c('ID')]
+  dt2 <- na.omit(dt2)
+  dt2$i.Date <- NULL
+  dt2$Multiplier <- NULL
+  dt2 <- dt2[dt2$alpha != 0,]
+  date <- as.Date(as.double(toString(sanction.list[i,2])), origin = "1970-01-01")
+  dates <- as.Date(seq(as.Date(date), by = "day", length.out = khi.U))
+  if (dt2$Type[1] == "individual") { khi_to_use <- khi_ind }
+  if (dt2$Type[1] == "announcement") { khi_to_use <- khi_ann }
+  if (dt2$Type[1] == "company") { khi_to_use <- khi_com }
+  if (dt2$Type[1] == "sector") { khi_to_use <- khi_sec }
+  if (dt2$Type[1] == "embargo") { khi_to_use <- khi_emb }
+  khi_combo <- data.frame(dates, khi_to_use)
+  dt2 <- left_join(dt2, khi_combo, by = c("Date" = "dates"))
+  dt2 <- dt2 |> mutate(
+    khi = case_when(
+      is.na(khi) ~ 0,
+      TRUE ~ khi
+    ),
+    sanc = alpha * beta * khi
+  )
+  dt2$beta <- NULL
+  dt2$alpha <- NULL
   dt2$ID <- NULL
-  dt2 <- left_join(dt2, beta, by = "Date")
-  
- #Apply the alpha value to all cells located after the beginning of the sanction ()
- non_zero <- which(dt2[,4] != 0) #find the row in which the sanction starts.
- row_num <- nrow(dt2[,4]) #find row number of column 4, that is alpha.
- dt2$alpha[non_zero:row_num] <- dt2$alpha[dt2$alpha != "0"] #apply the value of alpha to all cell under the beggining of the sanction.
- #Note: dt2_m$alpha[dt2_m$alpha != "0"] this finds the value non equal to 0 in alpha
-
- #We also need the sanction type here so we will merge "sanclist.ini" to "dt2":
- dt2 <- dt2[sanclist.ini, on = c('ID')] #Merging
- dt2 <- na.omit(dt2) #Removing NA (other sanctions)
- dt2$i.Date <- NULL #Removing i.Date column
- dt2$Multiplier <- NULL #Removing Multiplier
- 
-#At that point the easiest is to remove rows where the sanction was not implemented yet:
-dt2 <- dt2[dt2$alpha != 0,] #Keeps only rows in which alpha is different from 0
-
-#As Khi parameter has N observations, it is possible that the number of observation for a precise sanction is < N.
-#It is thus important to determine this, because otherwise when merging Khi to dt2_m, date values in dt2_m will be copied over and over to fit the number of rows of Khi.
-
-if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has less rows than khi 
-  nb_l <- nrow(dt2)
-  #We merge Khi value depending on the type of sanction:
- if (str_detect(dt2$Type[1], "announcement")) {
-  dt2 <- cbind(dt2[1:nb_l,], khi$khi.ann[1:nb_l]) #merge khi values for an announcement
- } else {
-  if (dt2$Type[1] == "individual") {
-  dt2 <- cbind(dt2[1:nb_l,], khi$khi.ind[1:nb_l]) #merge khi values for sanction against individual
-  } else {
-   if (dt2$Type[1] == "company") {
-   dt2 <- cbind(dt2[1:nb_l,], khi$khi.com[1:nb_l]) #merge khi values for sanction against a company 
-   } else {
-    if (dt2$Type[1] == "sector") {
-    dt2 <- cbind(dt2[1:nb_l,], khi$khi.sec[1:nb_l]) #merge khi values for sanction against a sector  
-    } else {
-     if (dt2$Type[1] == "embargo") {
-     dt2 <- cbind(dt2[1:nb_l,], khi$khi.emb[1:nb_l]) #merge khi values for an embargo  
-     } else {
-      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector,       embargo")  
-     }
-    }
-   }
-  }
- }
-} else {
-  nb_l <- nrow(khi)
-  #We merge Khi value depending on the type of sanction:
- if (str_detect(dt2$Type[1], "announcement")) {
-  dt2 <- cbind(dt2[1:nb_l], khi$khi.ann[1:nb_l]) #merge khi values for an announcement
- } else {
-  if (dt2$Type[1] == "individual") {
-  dt2 <- cbind(dt2[1:nb_l], khi$khi.ind[1:nb_l]) #merge khi values for sanction against individual
-  } else {
-   if (dt2$Type[1] == "company") {
-   dt2 <- cbind(dt2[1:nb_l], khi$khi.com[1:nb_l]) #merge khi values for sanction against a company 
-   } else {
-    if (dt2$Type[1] == "sector") {
-    dt2 <- cbind(dt2[1:nb_l], khi$khi.sec[1:nb_l]) #merge khi values for sanction against a sector  
-    } else {
-     if (dt2$Type[1] == "embargo") {
-     dt2 <- cbind(dt2[1:nb_l], khi$khi.emb[1:nb_l]) #merge khi values for an embargo  
-     } else {
-      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector,       embargo")  
-     }
-    }
-   }
-  }
- }
-}
-
- names(dt2)[6] <- 'Khi' 
-
- #Once Khi has been determined, it is time to create the final value attributed to the sanction
- dt2$S <- dt2$alpha*dt2$beta*dt2$Khi #Creation of S, the final value of the sanction
-
- #Removing unecessary variables:
- dt2$beta <- NULL
- dt2$alpha <- NULL
- dt2$ID <- NULL
- dt2$Type <- NULL
- dt2$Khi <- NULL
- 
- #Merging the value of the sanction S to the entire timeline:
- dt2$S <- as.data.frame(dt2$S)
- dt_res <- left_join(dt_res, dt2, by=c("Date" = "Date"))
+  dt2$Type <- NULL
+  dt2$khi <- NULL
+  dt2$S <- as.data.frame(dt2$S)
+  dt_res <- left_join(dt_res, dt2, by=c("Date" = "Date"))
 }
 ```
 
