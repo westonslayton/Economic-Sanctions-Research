@@ -24,13 +24,13 @@ library(tidyverse)
 
 # file <- "beta_daily.xlsx"
 # path <- file.path(dirname(getwd()), "data", file)
-# beta1 <- read_excel(path) #Import external trade and GDP data
-# beta1$A = beta1$Tkj / beta1$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
-# beta1$B = beta1$Tj / beta1$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
-# beta1$beta = beta1$A * beta1$B            #Create Beta
-# colnames(beta1) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
-# beta1$Date <- as.Date(beta1$Date) #Transform column "Date" in date type
-# view(beta1)
+# beta <- read_excel(path) #Import external trade and GDP data
+# beta$A = beta$Tkj / beta$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
+# beta$B = beta$Tj / beta$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
+# beta$beta = beta$A * beta$B            #Create Beta
+# colnames(beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
+# beta$Date <- as.Date(beta$Date) #Transform column "Date" in date type
+# # view(beta)
 
 file <- "combo.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
@@ -168,13 +168,12 @@ sanction.list$Multiplier <- NULL
 ```{r}
 # turning into time series so that we can plot our data later
 #Creates dt that is a daily time series that starts at the date of the first sanction of the list, and ends at the last date available in Beta. Because if Beta is equal to zero, the index is equal to zero.
-dt = data.table(Date=seq(as.Date(head(beta$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
+dt = data.table(Date=seq(as.Date(head(sanction.list$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
 dt_res <- dt #Creates a dataframe where results will be stored
 # view(dt_res)
 ```
 
 ```{r}
-# we need to work on optimizing the code below so that it can scale when calculating hundreds of sanction indices at once (we're currently doing a row at a time in the data frame)
 
 setDT(sanction.list)#This will be used in the for that follows
 
@@ -196,18 +195,11 @@ for (i in sanclist.ini$ID){
  setDT(dt2)
  setDT(beta)
  
- 
- #Merge sanction.list and dt2 by Date
- dt2 <- beta[dt2, on = c('Date')]
-
- # #Removing unecessary variables: (THIS COULD BE DONE BEFORE?)
- # dt2$Tkj <- NULL
- # dt2$Tj <- NULL
- # dt2$Yj <- NULL
- # dt2$A <- NULL
- # dt2$B <- NULL
- # dt2$ID.1 <- NULL
-
+ # Merge sanction.list and dt2 by Date
+ # dt2 <- beta[dt2, on = c('Date')]
+  dt2$ID <- NULL
+  dt2 <- left_join(dt2, beta, by = "Date")
+  
  #Apply the alpha value to all cells located after the beginning of the sanction ()
  non_zero <- which(dt2[,4] != 0) #find the row in which the sanction starts.
  row_num <- nrow(dt2[,4]) #find row number of column 4, that is alpha.
@@ -226,10 +218,10 @@ dt2 <- dt2[dt2$alpha != 0,] #Keeps only rows in which alpha is different from 0
 #As Khi parameter has N observations, it is possible that the number of observation for a precise sanction is < N.
 #It is thus important to determine this, because otherwise when merging Khi to dt2_m, date values in dt2_m will be copied over and over to fit the number of rows of Khi.
 
-if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has fewer rows than khi 
+if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has less rows than khi 
   nb_l <- nrow(dt2)
   #We merge Khi value depending on the type of sanction:
- if (dt2$Type[1] == "announcement") {
+ if (str_detect(dt2$Type[1], "announcement")) {
   dt2 <- cbind(dt2[1:nb_l,], khi$khi.ann[1:nb_l]) #merge khi values for an announcement
  } else {
   if (dt2$Type[1] == "individual") {
@@ -253,7 +245,7 @@ if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has fewer rows than khi
 } else {
   nb_l <- nrow(khi)
   #We merge Khi value depending on the type of sanction:
- if (dt2$Type[1] == "announcement") {
+ if (str_detect(dt2$Type[1], "announcement")) {
   dt2 <- cbind(dt2[1:nb_l], khi$khi.ann[1:nb_l]) #merge khi values for an announcement
  } else {
   if (dt2$Type[1] == "individual") {
@@ -268,7 +260,7 @@ if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has fewer rows than khi
      if (dt2$Type[1] == "embargo") {
      dt2 <- cbind(dt2[1:nb_l], khi$khi.emb[1:nb_l]) #merge khi values for an embargo  
      } else {
-      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector, embargo")  
+      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector,       embargo")  
      }
     }
    }
@@ -278,7 +270,7 @@ if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has fewer rows than khi
 
  names(dt2)[6] <- 'Khi' 
 
- #Once Khi has been determined, it is time to create the final value attributed to the sanction:
+ #Once Khi has been determined, it is time to create the final value attributed to the sanction
  dt2$S <- dt2$alpha*dt2$beta*dt2$Khi #Creation of S, the final value of the sanction
 
  #Removing unecessary variables:
@@ -296,22 +288,22 @@ if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has fewer rows than khi
 
 ```{r}
 
-colnames(dt_res) = c("Date", 1:nrow(sanclist.ini)) #Rename each sanction with its ID number
-
 n_sanc <- nrow(sanclist.ini) #Determines the number of sanctions
+colnames(dt_res) = c("Date", 1:n_sanc) #Rename each sanction with its ID number.
 dt_res$Sindex <- 0   #Create a sanction index column that contains zeros
 dt_res[is.na(dt_res)] <-  0 #Replace NA by zeros to avoid issues when summing all sanctions with each other
 
 #Sum each sanction into Sindex that is the final santion index.
-dt_res <- as.data.frame(dt_res) #turn it in data frame to run the "for" that follows
+dt_res <- as.data.frame(dt_res) #turn it in data frame to run the "for" that follows.
 for (i in 2:n_sanc) {
   dt_res$Sindex <- dt_res$Sindex + dt_res[,i]
 }
+# view(dt_res)
 ```
 
 ```{r}
 #Plot the Index:
-Date <- dt_res$Date
+Date <- as.Date(dt_res$Date)
 S_index <- as.numeric(unlist(dt_res$Sindex))
 data <- data.frame(Date,S_index)
 view(dt_res)
