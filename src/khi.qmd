@@ -193,12 +193,10 @@ for (i in sanclist.ini$ID){
   setDT(dt2)
   setDT(beta)
   dt2$ID <- NULL
-  view(dt2)
   dt2 <- left_join(dt2, beta, by = "Date")
   non_zero <- which(dt2[,4] != 0)
   row_num <- nrow(dt2[,4])
   dt2$alpha[non_zero:row_num] <- dt2$alpha[dt2$alpha != "0"]
-  view(dt2)
   dt2 <- dt2[sanclist.ini, on = c('ID')]
   dt2 <- na.omit(dt2)
   dt2$i.Date <- NULL
@@ -255,13 +253,12 @@ for (i in 2:n_sanc) {
 Date <- as.Date(dt_res$Date)
 S_index <- as.numeric(unlist(dt_res$Sindex))
 data <- data.frame(Date,S_index)
-view(dt_res)
 
 # Plot
-ggplot(data, aes(x=dt_res$Date, y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y") + theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
+ggplot(data, aes(x=as.Date(dt_res$Date), y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y") + theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
 path <- file.path(dirname(getwd()), "data")
-ggsave(path = path, filename = "my_plot_check.png")
-file <- "example.xlsx"
+ggsave(path = path, filename = "new_plot.png")
+file <- "new_example.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 write_xlsx(dt_res, path)
 ```
