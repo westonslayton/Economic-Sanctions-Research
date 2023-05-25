@@ -1,0 +1,287 @@
+---
+title: "Sanctions"
+format: html
+editor: visual
+---
+
+```{r message = FALSE, warning = FALSE}
+
+library("readxl")
+library(data.table)
+library(plyr)
+library(lubridate)
+require("plyr")
+library(dplyr)
+library(ggplot2)
+library(hrbrthemes)
+library("writexl")
+library(tidyverse)
+```
+
+```{r}
+#IMPORTANT: it's also essential to do not leave sanctions with a multiplier equal to 0. If it is so, just erase the line.
+
+sanction.list <- read_excel("sanction_list.xlsx") #Import the sanction list.
+
+sanction.list$Details <- NULL #Remove column "details", not used for calculations.
+sanclist.ini <- sanction.list #Save the initial list
+sanclist.ini <- as.data.frame(sanclist.ini) #Turn sanction list into dataframe.
+sanclist.ini <- na.omit(sanclist.ini)
+# view(sanclist.ini)
+```
+
+```{r}
+
+a.ind <- 1 #Individual Sanction
+a.ann <- 10  #Announcement
+a.com <- 100  #Sanction against a company
+a.sec <- 1000  #Sanction against an economic sector
+a.emb <- 3000 #Embargo
+```
+
+```{r}
+
+#!!WARNING!! Column "Date" in Beta must be in day/month/year
+beta <- read_excel("beta_daily.xlsx") #Import external trade and GDP data
+beta$A = beta$Tkj / beta$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
+beta$B = beta$Tj / beta$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
+beta$beta = beta$A * beta$B            #Create Beta
+colnames(beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
+beta$Date <- as.Date(beta$Date) #Transform column "Date" in date type
+```
+
+```{r}
+
+#Check if the last date of Beta is superior or equal to the last date of sanction list.
+if (tail(beta$Date,1) >= tail(sanclist.ini$Date,1)){
+  print("beta_daily.csv and sanction_list.xlsx have compatible ending dates.")
+} else{
+  
+  fin_beta <- tail(beta$Date,1)
+  sanclist.ini$Date[sanclist.ini$Date > as.Date(fin_beta)] <- NA #Replace by NA all dates that are after the last date in beta file.
+  sanclist.ini <- na.omit(sanclist.ini) #Erase rows with NA
+    warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values stop at a date that is prior to the date of a precise sanction! The sanction list has been shorten to fit dates in beta.")
+}
+```
+
+```{r}
+
+#Check if the first date of Beta is superior or equal to the first date of sanction list.
+if (head(beta$Date,1) <= head(sanclist.ini$Date,1)){
+  print("beta_daily.csv and sanction_list.xlsx have compatible beginning dates.")
+} else{
+    warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values start after sanctions' dates.")
+}
+```
+
+```{r}
+
+khi.U <- 2190 # number of steps starting at day 0 (when sanction is implemented) and ends at day/step 2190             
+khi.u <- c(1:khi.U)      #Sets little u between 1 (when the sanction is implemented) to 2190 (when the sanction stops)
+khi <- data.frame(khi.u) #Creates Khi dataframe.
+
+#Defining the slope of Khi depending on each sanction type.
+khi.o.ind <- 100
+khi.o.ann <- 50
+khi.o.com <- 1
+khi.o.sec <- 5
+khi.o.emb <- 15
+```
+
+```{r}
+
+#Khi for sanctions  against individuals:
+khi$khi.ind = (1 - (khi$khi.u / khi.U)) ^ khi.o.ind
+khi["1", "khi.ind"] <- 1 #First value = 1 as it is when the sanction is implemented.
+
+#Khi for an announcement of sanctions:
+khi$khi.ann = (1 - (khi$khi.u / khi.U)) ^ khi.o.ann
+khi["1","khi.ann"] <- 1
+
+#Khi for a sanction against a company:
+khi$khi.com = (1 - (khi$khi.u / khi.U)) ^ khi.o.com
+khi["1","khi.com"] <- 1
+
+#Khi for a sanction against a sector:
+khi$khi.sec = (1 - (khi$khi.u / khi.U)) ^ khi.o.sec
+khi["1","khi.sec"] <- 1
+
+#Khi for an embargo:
+khi$khi.emb = (1 - (khi$khi.u / khi.U)) ^ khi.o.emb
+khi["1","khi.emb"] <- 1
+# view(khi)
+```
+
+```{r}
+
+sanction.list$Type <- revalue(sanction.list$Type, c("announcement"=a.ann)) #Replace sanctions announcements by its Alpha value
+sanction.list$Type <- revalue(sanction.list$Type, c("individual"=a.ind)) #Replace sanctions against individual by its Alpha value
+sanction.list$Type <- revalue(sanction.list$Type, c("company"=a.com)) #Replace sanctions against companies by its Alpha value
+sanction.list$Type <- revalue(sanction.list$Type, c("sector"=a.sec)) #Replace sanctions against sectors by its Alpha value
+sanction.list$Type <- revalue(sanction.list$Type, c("embargo"=a.emb)) #Replace embargo by its Alpha value
+```
+
+```{r}
+
+sanction.list <- na.omit(sanction.list) #Remove rows with missing values
+sanction.list$Type <- as.numeric(sanction.list$Type) #Transform column "Type" in numeric values
+sanction.list$alpha <- sanction.list$Type * sanction.list$Multiplier #Create the Alpha for each sanction
+#Remove Columns Multiplier and Type as they are not going to be used anymore:
+sanction.list$Type <- NULL
+sanction.list$Multiplier <- NULL
+sanction.list$Date <- as.Date(sanction.list$Date) #Turn column date into a Date type instead of a POSIXct
+```
+
+```{r}
+
+#Creates dt that is a daily time series that starts at the date of the first sanction of the list, and ends at the last date available in Beta. Because if Beta is equal to zero, the index is equal to zero.
+dt = data.table(Date=seq(as.Date(head(sanction.list$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
+dt_res <- dt #Creates a dataframe where results will be stored.
+```
+
+```{r}
+
+setDT(sanction.list)#This will be used in the for that follows
+
+for (i in sanclist.ini$ID) {
+ #Attribute the same ID to each line, since it concerns only one sanction:
+ dt2 <- cbind(dt, sanction.list[i,1])
+ setDT(dt2)
+ #Merge sanction.list and dt2 by ID and Date
+ dt2 <- sanction.list[dt2, on = c('ID','Date')]
+
+ dt2$alpha[is.na(dt2$alpha)] = 0   #Replace NA by zeros
+
+ #Add sanction i's ID:
+ dt2 <- cbind(dt2, sanction.list$ID[i])
+ ori_col <- colnames(sanction.list)[1] #Create an object that is the name of column 1 ("ID")
+ colnames(dt2)[4] <- paste0(ori_col) #Add the ID of the sanction
+
+ #We add the beta parameter:
+ setDT(dt2)
+ setDT(beta)
+ 
+ #Merge sanction.list and dt2 by Date
+ dt2 <- beta[dt2, on = c('Date')]
+
+ #Removing unecessary variables: (THIS COULD BE DONE BEFORE?)
+ dt2$Tkj <- NULL
+ dt2$Tj <- NULL
+ dt2$Yj <- NULL
+ dt2$A <- NULL
+ dt2$B <- NULL
+ dt2$ID.1 <- NULL
+ 
+ #Apply the alpha value to all cells located after the beginning of the sanction ()
+ non_zero <- which(dt2[,4] != 0) #find the row in which the sanction starts.
+ row_num <- nrow(dt2[,4]) #find row number of column 4, that is alpha.
+ dt2$alpha[non_zero:row_num] <- dt2$alpha[dt2$alpha != "0"] #apply the value of alpha to all cell under the beggining of the sanction.
+ #Note: dt2_m$alpha[dt2_m$alpha != "0"] this finds the value non equal to 0 in alpha
+
+ #We also need the sanction type here so we will merge "sanclist.ini" to "dt2":
+ dt2 <- dt2[sanclist.ini, on = c('ID')] #Merging
+ dt2 <- na.omit(dt2) #Removing NA (other sanctions)
+ dt2$i.Date <- NULL #Removing i.Date column
+ dt2$Multiplier <- NULL #Removing Multiplier
+ 
+#At that point the easiest is to remove rows where the sanction was not implemented yet:
+dt2 <- dt2[dt2$alpha != 0,] #Keeps only rows in which alpha is different from 0
+
+#As Khi parameter has N observations, it is possible that the number of observation for a precise sanction is < N.
+#It is thus important to determine this, because otherwise when merging Khi to dt2_m, date values in dt2_m will be copied over and over to fit the number of rows of Khi.
+
+if (nrow(dt2)<nrow(khi)){     #Test to see if dt2_m has less rows than khi 
+  nb_l <- nrow(dt2)
+  #We merge Khi value depending on the type of sanction:
+ if (dt2$Type[1] == "announcement") {
+  dt2 <- cbind(dt2[1:nb_l,], khi$khi.ann[1:nb_l]) #merge khi values for an announcement
+ } else {
+  if (dt2$Type[1] == "individual") {
+  dt2 <- cbind(dt2[1:nb_l,], khi$khi.ind[1:nb_l]) #merge khi values for sanction against individual
+  } else {
+   if (dt2$Type[1] == "company") {
+   dt2 <- cbind(dt2[1:nb_l,], khi$khi.com[1:nb_l]) #merge khi values for sanction against a company 
+   } else {
+    if (dt2$Type[1] == "sector") {
+    dt2 <- cbind(dt2[1:nb_l,], khi$khi.sec[1:nb_l]) #merge khi values for sanction against a sector  
+    } else {
+     if (dt2$Type[1] == "embargo") {
+     dt2 <- cbind(dt2[1:nb_l,], khi$khi.emb[1:nb_l]) #merge khi values for an embargo  
+     } else {
+      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector,       embargo")  
+     }
+    }
+   }
+  }
+ }
+} else {
+  nb_l <- nrow(khi)
+  #We merge Khi value depending on the type of sanction:
+ if (dt2$Type[1] == "announcement") {
+  dt2 <- cbind(dt2[1:nb_l], khi$khi.ann[1:nb_l]) #merge khi values for an announcement
+ } else {
+  if (dt2$Type[1] == "individual") {
+  dt2 <- cbind(dt2[1:nb_l], khi$khi.ind[1:nb_l]) #merge khi values for sanction against individual
+  } else {
+   if (dt2$Type[1] == "company") {
+   dt2 <- cbind(dt2[1:nb_l], khi$khi.com[1:nb_l]) #merge khi values for sanction against a company 
+   } else {
+    if (dt2$Type[1] == "sector") {
+    dt2 <- cbind(dt2[1:nb_l], khi$khi.sec[1:nb_l]) #merge khi values for sanction against a sector  
+    } else {
+     if (dt2$Type[1] == "embargo") {
+     dt2 <- cbind(dt2[1:nb_l], khi$khi.emb[1:nb_l]) #merge khi values for an embargo  
+     } else {
+      stop("Impossible to determine sanction type. Check that the sanction type is properly written: individual, announcement, company, sector,       embargo")  
+     }
+    }
+   }
+  }
+ }
+}
+
+ names(dt2)[6] <- 'khi' 
+
+ #Once Khi has been determined, it is time to create the final value attributed to the sanction
+ dt2$S <- dt2$alpha*dt2$beta*dt2$khi #Creation of S, the final value of the sanction
+
+ #Removing unecessary variables:
+ dt2$beta <- NULL
+ dt2$alpha <- NULL
+ dt2$ID <- NULL
+ dt2$Type <- NULL
+ dt2$khi <- NULL
+ 
+ #Merging the value of the sanction S to the entire timeline:
+ dt2$S <- as.data.frame(dt2$S)
+ dt_res <- left_join(dt_res, dt2, by=c("Date" = "Date"))
+}
+```
+
+```{r}
+
+n_sanc <- nrow(sanclist.ini) #Determines the number of sanctions
+colnames(dt_res) = c("Date", 1:n_sanc) #Rename each sanction with its ID number.
+dt_res$Sindex <- 0   #Create a sanction index column that contains zeros
+dt_res[is.na(dt_res)] <-  0 #Replace NA by zeros to avoid issues when summing all sanctions with each other
+
+#Sum each sanction into Sindex that is the final santion index.
+dt_res <- as.data.frame(dt_res) #turn it in data frame to run the "for" that follows.
+for (i in 2:n_sanc) {
+  dt_res$Sindex <- dt_res$Sindex + dt_res[,i]
+}
+```
+
+```{r}
+
+#Plot the Index:
+Date <- dt_res$Date
+S_index <- as.numeric(unlist(dt_res$Sindex))
+data <- data.frame(Date,S_index)
+
+# Plot
+ggplot(data, aes(x=dt_res$Date, y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y")+ theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
+
+ggsave("my_plot_check.png")
+write_xlsx(dt_res, "example.xlsx")
+```
