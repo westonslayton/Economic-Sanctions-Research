@@ -20,17 +20,6 @@ library(tidyverse)
 
 ```{r}
 # loading file containing beta data
-# will need to change this code to accomodate our new method of calculating beta (using the beta.qmd file in this src folder)
-
-# file <- "beta_daily.xlsx"
-# path <- file.path(dirname(getwd()), "data", file)
-# beta <- read_excel(path) #Import external trade and GDP data
-# beta$A = beta$Tkj / beta$Tj            #Create A (see p. 28 Bali&Rapelanoro (2021))
-# beta$B = beta$Tj / beta$Yj             #Create B (see p. 28 Bali&Rapelanoro (2021))
-# beta$beta = beta$A * beta$B            #Create Beta
-# colnames(beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
-# beta$Date <- as.Date(beta$Date) #Transform column "Date" in date type
-# # view(beta)
 
 file <- "combo.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
@@ -72,32 +61,6 @@ a.ann <- 10  #Announcement
 a.com <- 100  #Sanction against a company
 a.sec <- 1000  #Sanction against an economic sector
 a.emb <- 3000 #Embargo
-```
-
-```{r}
-# checking if the dates line up (we might be able to get rid of this once we update the above code chunk, as the new method for obtaining beta values may not need this check... or we'll need to adapt the check)
-#Check if the last date of Beta is superior or equal to the last date of sanction list
-
-# if (tail(beta$Date,1) >= tail(sanclist.ini$Date,1)){
-#   print("beta_daily.csv and sanction_list.xlsx have compatible ending dates.")
-# } else{
-#   fin_beta <- tail(beta$Date,1)
-#   sanclist.ini$Date[sanclist.ini$Date > as.Date(fin_beta)] <- NA #Replace by NA all dates that are after the last date in beta file.
-#   sanclist.ini <- na.omit(sanclist.ini) #Erase rows with NA
-#     warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values stop at a date that is prior to the date of a precise sanction! The sanction list has been shortened to fit dates in beta.")
-# }
-# view(sanclist.ini)
-```
-
-```{r}
-# another check to make sure the dates line up
-#Check if the first date of Beta is superior or equal to the first date of sanction list
-
-# if (head(beta$Date,1) <= head(sanclist.ini$Date,1)){
-#   print("beta_daily.csv and sanction_list.xlsx have compatible beginning dates.")
-# } else{
-#     warning("beta_daily.csv and sanction_list.xlsx do not have compatible dates. The index cannot be calculated if Beta values start after sanctions' dates.")
-# }
 ```
 
 ```{r}
@@ -167,13 +130,15 @@ sanction.list$Multiplier <- NULL
 
 ```{r}
 # turning into time series so that we can plot our data later
-#Creates dt that is a daily time series that starts at the date of the first sanction of the list, and ends at the last date available in Beta. Because if Beta is equal to zero, the index is equal to zero.
+# Creates dt that is a daily time series that starts at the date of the first sanction of the list, and ends at the last date available in Beta. Because if Beta is equal to zero, the index is equal to zero.
+
 dt = data.table(Date=seq(as.Date(head(sanction.list$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
-dt_res <- dt #Creates a dataframe where results will be stored
+dt_res <- dt # creates a dataframe where results will be stored
 # view(dt_res)
 ```
 
 ```{r warning = FALSE}
+# applying applicable khi values (based on type of sanction) to each sanction
 
 setDT(sanction.list)
 khi_ind <- khi$khi.ind
@@ -249,16 +214,45 @@ for (i in 2:n_sanc) {
 ```
 
 ```{r}
-#Plot the Index:
+# plot stuff
+
 Date <- as.Date(dt_res$Date)
 S_index <- as.numeric(unlist(dt_res$Sindex))
 data <- data.frame(Date,S_index)
 
-# Plot
 ggplot(data, aes(x=as.Date(dt_res$Date), y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y") + theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
 path <- file.path(dirname(getwd()), "data")
 ggsave(path = path, filename = "new_plot.png")
 file <- "new_example.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 write_xlsx(dt_res, path)
+```
+
+```{r}
+# Morad: fixed errors, will work on function in coming days, pls check graphs attached as well as Excel file w/ percent diffs to see if betas are close enough, can't get data for 2022+ b/c of World Bank (can't work around--tried other sources)
+file <- "beta_daily.xlsx"
+path <- file.path(dirname(getwd()), "data", file)
+old_beta <- read_excel(path)
+old_beta$A = old_beta$Tkj / old_beta$Tj           
+old_beta$B = old_beta$Tj / old_beta$Yj             
+old_beta$beta = old_beta$A * old_beta$B           
+colnames(old_beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
+beta$Date <- as.Date(beta$Date)
+old_beta <- old_beta |> mutate(old_beta = beta) |> select(Date, old_beta)
+
+file <- "combo.xlsx"
+path <- file.path(dirname(getwd()), "data", file)
+new_beta <- read_excel(path) #Import external trade and GDP data
+new_beta <- new_beta |> mutate(new_beta = beta) |> select(Date, new_beta)
+
+beta <- inner_join(old_beta, new_beta, by = "Date")
+beta <- beta |> mutate(
+  percent_diff = abs(old_beta - new_beta) / old_beta * 100
+)
+beta |> summarize(mean_diff = mean(percent_diff)) # ~11%
+view(beta)
+
+file <- "beta_check.xlsx"
+path <- file.path(dirname(getwd()), "data", file)
+write_xlsx(beta, path)
 ```
