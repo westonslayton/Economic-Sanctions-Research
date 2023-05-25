@@ -173,7 +173,7 @@ dt_res <- dt #Creates a dataframe where results will be stored
 # view(dt_res)
 ```
 
-```{r}
+```{r warning = FALSE}
 
 setDT(sanction.list)
 khi_ind <- khi$khi.ind
@@ -192,11 +192,13 @@ for (i in sanclist.ini$ID){
   colnames(dt2)[4] <- paste0(ori_col)
   setDT(dt2)
   setDT(beta)
-  dt2 <- beta[dt2, on = c('Date')]
-  dt2$ID.1 <- NULL
+  dt2$ID <- NULL
+  view(dt2)
+  dt2 <- left_join(dt2, beta, by = "Date")
   non_zero <- which(dt2[,4] != 0)
   row_num <- nrow(dt2[,4])
   dt2$alpha[non_zero:row_num] <- dt2$alpha[dt2$alpha != "0"]
+  view(dt2)
   dt2 <- dt2[sanclist.ini, on = c('ID')]
   dt2 <- na.omit(dt2)
   dt2$i.Date <- NULL
@@ -204,27 +206,32 @@ for (i in sanclist.ini$ID){
   dt2 <- dt2[dt2$alpha != 0,]
   date <- as.Date(as.double(toString(sanction.list[i,2])), origin = "1970-01-01")
   dates <- as.Date(seq(as.Date(date), by = "day", length.out = khi.U))
-  if (dt2$Type[1] == "individual") { khi_to_use <- khi_ind }
-  if (dt2$Type[1] == "announcement") { khi_to_use <- khi_ann }
-  if (dt2$Type[1] == "company") { khi_to_use <- khi_com }
-  if (dt2$Type[1] == "sector") { khi_to_use <- khi_sec }
-  if (dt2$Type[1] == "embargo") { khi_to_use <- khi_emb }
+  if (dt2$Type[1] == "individual") { 
+    khi_to_use <- khi_ind 
+  } else if (dt2$Type[1] == "announcement") { 
+      khi_to_use <- khi_ann 
+  } else if (dt2$Type[1] == "company") { 
+      khi_to_use <- khi_com 
+  } else if (dt2$Type[1] == "sector") { 
+    khi_to_use <- khi_sec 
+  } else { khi_to_use <- khi_emb }
   khi_combo <- data.frame(dates, khi_to_use)
   dt2 <- left_join(dt2, khi_combo, by = c("Date" = "dates"))
   dt2 <- dt2 |> mutate(
     khi = case_when(
-      is.na(khi) ~ 0,
-      TRUE ~ khi
+      is.na(khi_to_use) ~ 0,
+      TRUE ~ khi_to_use
     ),
-    sanc = alpha * beta * khi
+    S = alpha * beta * khi
   )
   dt2$beta <- NULL
   dt2$alpha <- NULL
   dt2$ID <- NULL
   dt2$Type <- NULL
   dt2$khi <- NULL
+  dt2$khi_to_use <- NULL
   dt2$S <- as.data.frame(dt2$S)
-  dt_res <- left_join(dt_res, dt2, by=c("Date" = "Date"))
+  dt_res <- left_join(dt_res, dt2, by = "Date")
 }
 ```
 
