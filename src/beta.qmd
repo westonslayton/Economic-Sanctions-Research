@@ -501,7 +501,7 @@ delete <- function(years) {
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".csv")))
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".csv")))
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".xlsx")))
-  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".xslx")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".xlsx")))
   }
 }
 ```
@@ -641,10 +641,9 @@ wb_total_exports <- read_csv(
 ### Deleting Data
 
 ```{r}
-{r}
 #|: function-to-delete-files
 # deletes all Comtrade, IMF, and World Bank files for the years specified
 
-# years <- c("2020", "2021")
-# delete(years)
+years <- c("2021")
+delete(years)
 ```
