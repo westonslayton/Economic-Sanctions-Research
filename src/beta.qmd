@@ -205,11 +205,6 @@ get_wb <- function(years, df_to_return) {
   exports_excel = paste(exports_name,  as.character(years), ".xlsx", sep = "")
   write_csv(total_exports, exports_csv)
   write_xlsx(total_exports, exports_excel)
-  if (df_to_return == "gdp") {
-    print(paste("Returning wb_gdp", as.character(years), "....", sep = ""))
-    return(gdp)
-  }
-  print(paste("Returning wb_total_exports", as.character(years), "....", sep = ""))
   return(total_exports)
 }
 ```
@@ -467,8 +462,8 @@ everything <- function(year) {
   imf_total_annual <- clean_imf(file)
   file <- paste0("imf_total_exports_", year, "M")
   imf_total_monthly <- clean_imf(file)
-  wb_gdp <- get_wb(10, "gdp")
-  wb_total_exports <- get_wb(10, "exports")
+  wb_gdp <- get_wb(50, "gdp")
+  wb_total_exports <- get_wb(50, "exports")
   final <- beta_calc(
     comtrade_pairs_monthly,
     comtrade_pairs_annual,
@@ -479,7 +474,39 @@ everything <- function(year) {
 }
 ```
 
-## Getting & Viewing Data
+### Deleting
+
+```{r}
+#|: function-to-delete-files
+# deletes all Comtrade, IMF, and World Bank files for the years specified
+
+delete <- function(years) {
+  num_years <- "50"
+  # WB
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_gdp", num_years, ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_gdp", num_years, ".xlsx")))
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_total_exports", num_years, ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_total_exports", num_years, ".xlsx")))
+  for (year in years) {
+  # Comtrade
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"A",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"A",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".xlsx")))
+  # IMF
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".xlsx")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".xslx")))
+  }
+}
+```
+
+## Getting and Deleting Data
 
 ### Beta
 
@@ -488,7 +515,7 @@ everything <- function(year) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
 
-year <- "2023" # year for which you want to gather data
+year <- "2021" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -499,9 +526,10 @@ final <- everything(year)
 # though the function will continue to work otherwise even if this is the case
 
 partners <- c("Russia")
-eu_reporters <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
+eu <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
+reporters <- eu
 
-filtered_final <- beta_filter(final, eu_reporters, partners, paste0("eu", year))
+filtered_final <- beta_filter(final, reporters, partners, paste0("eu", year))
 # view(filtered_final)
 ```
 
@@ -586,7 +614,7 @@ imf_total_monthly <- read_csv(
 # only run when dfs you want to load have already been queried
 # change year and country depending on queries
 
-num_years <- "10"
+num_years <- "50"
 file_name <- "wb_gdp"
 
 wb_gdp <- read_csv(
@@ -607,6 +635,16 @@ wb_total_exports <- read_csv(
     paste0(file_name, num_years, ".csv")
   )
 )
-# 
-view(wb_total_exports)
+# view(wb_total_exports)
+```
+
+### Deleting Data
+
+```{r}
+{r}
+#|: function-to-delete-files
+# deletes all Comtrade, IMF, and World Bank files for the years specified
+
+# years <- c("2020", "2021")
+# delete(years)
 ```
