@@ -226,11 +226,10 @@ ggsave(path = path, filename = "new_plot.png")
 file <- "new_example.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 write_xlsx(dt_res, path)
-view(sanclist.ini)
 
 df <- dt_res |> filter(S_index == 0) |> select(Date)
 weird_dates <- as.Date(df$Date)
-view(weird_dates)
+# view(weird_dates)
 ```
 
 ```{r}
