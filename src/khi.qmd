@@ -229,7 +229,8 @@ write_xlsx(dt_res, path)
 ```
 
 ```{r}
-# Morad: fixed errors, will work on function in coming days, pls check graphs attached as well as Excel file w/ percent diffs to see if betas are close enough, can't get data for 2022+ b/c of World Bank (can't work around--tried other sources)
+# beta check (to be removed later)
+
 file <- "beta_daily.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 old_beta <- read_excel(path)
