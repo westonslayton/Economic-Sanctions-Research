@@ -220,7 +220,7 @@ Date <- as.Date(dt_res$Date)
 S_index <- as.numeric(unlist(dt_res$Sindex))
 data <- data.frame(Date,S_index)
 
-ggplot(data, aes(x=as.Date(dt_res$Date), y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y") + theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
+ggplot(data, aes(x=as.Date(dt_res$Date), y=S_index)) + geom_line(color="steelblue") + ylab("Value of the Sanction Index") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y", limits = as.Date(c("2014-01-01", "2019-01-01"))) + theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
 path <- file.path(dirname(getwd()), "data")
 ggsave(path = path, filename = "new_plot.png")
 file <- "new_example.xlsx"
