@@ -25,7 +25,8 @@ file <- "combo.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 beta <- read_excel(path) #Import external trade and GDP data
 beta <- beta |> select(Date, beta)
-# view(beta)
+# 
+view(beta)
 ```
 
 ```{r}
@@ -146,8 +147,8 @@ khi_ann <- khi$khi.ann
 khi_com <- khi$khi.com
 khi_sec <- khi$khi.sec
 khi_emb <- khi$khi.emb
-
-for (i in sanclist.ini$ID){
+i <- 1
+#for (i in sanclist.ini$ID){
   dt2 <- cbind(dt, sanction.list[i,1])
   setDT(dt2)
   dt2 <- sanction.list[dt2, on = c('ID','Date')]
@@ -179,6 +180,7 @@ for (i in sanclist.ini$ID){
     khi_to_use <- khi_sec 
   } else { khi_to_use <- khi_emb }
   khi_combo <- data.frame(dates, khi_to_use)
+  view(dt2)
   dt2 <- left_join(dt2, khi_combo, by = c("Date" = "dates"))
   dt2 <- dt2 |> mutate(
     khi = case_when(
@@ -195,7 +197,8 @@ for (i in sanclist.ini$ID){
   dt2$khi_to_use <- NULL
   dt2$S <- as.data.frame(dt2$S)
   dt_res <- left_join(dt_res, dt2, by = "Date")
-}
+  view(dt_res)
+#}
 ```
 
 ```{r}
@@ -235,29 +238,29 @@ weird_dates <- as.Date(df$Date)
 ```{r}
 # beta check (to be removed later)
 
-file <- "beta_daily.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-old_beta <- read_excel(path)
-old_beta$A = old_beta$Tkj / old_beta$Tj           
-old_beta$B = old_beta$Tj / old_beta$Yj             
-old_beta$beta = old_beta$A * old_beta$B           
-colnames(old_beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
-beta$Date <- as.Date(beta$Date)
-old_beta <- old_beta |> mutate(old_beta = beta) |> select(Date, old_beta)
-
-file <- "combo.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-new_beta <- read_excel(path) #Import external trade and GDP data
-new_beta <- new_beta |> mutate(new_beta = beta) |> select(Date, new_beta)
-
-beta <- inner_join(old_beta, new_beta, by = "Date")
-beta <- beta |> mutate(
-  percent_diff = abs(old_beta - new_beta) / old_beta * 100
-)
-beta |> summarize(mean_diff = mean(percent_diff)) # ~11%
-view(beta)
-
-file <- "beta_check.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-write_xlsx(beta, path)
+# file <- "beta_daily.xlsx"
+# path <- file.path(dirname(getwd()), "data", file)
+# old_beta <- read_excel(path)
+# old_beta$A = old_beta$Tkj / old_beta$Tj           
+# old_beta$B = old_beta$Tj / old_beta$Yj             
+# old_beta$beta = old_beta$A * old_beta$B           
+# colnames(old_beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
+# beta$Date <- as.Date(beta$Date)
+# old_beta <- old_beta |> mutate(old_beta = beta) |> select(Date, old_beta)
+# 
+# file <- "combo.xlsx"
+# path <- file.path(dirname(getwd()), "data", file)
+# new_beta <- read_excel(path) #Import external trade and GDP data
+# new_beta <- new_beta |> mutate(new_beta = beta) |> select(Date, new_beta)
+# 
+# beta <- inner_join(old_beta, new_beta, by = "Date")
+# beta <- beta |> mutate(
+#   percent_diff = abs(old_beta - new_beta) / old_beta * 100
+# )
+# beta |> summarize(mean_diff = mean(percent_diff)) # ~11%
+# view(beta)
+# 
+# file <- "beta_check.xlsx"
+# path <- file.path(dirname(getwd()), "data", file)
+# write_xlsx(beta, path)
 ```

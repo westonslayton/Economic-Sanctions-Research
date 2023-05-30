@@ -17,10 +17,6 @@ editor: visual
 # install.packages("lubridate")
 # install.packages("wbstats") # for country GDPs from World Bank
 # install.packages("reticulate") # for running python stuff
-# install.packages("tempdisagg") # for freq conv
-# install.packages("tsbox") # for time-series visualizations
-# install.packages("zoo") # also for freq conv
-# install.packages("Hmisc") # date manipulations 
 ```
 
 ```{r message = FALSE}
@@ -32,10 +28,6 @@ library(writexl)
 library(lubridate)
 library(wbstats)
 library(reticulate)
-library(tempdisagg) 
-library(tsbox) 
-library(zoo)
-library(Hmisc)
 ```
 
 ```{r message = FALSE, warning = FALSE }
@@ -386,7 +378,7 @@ merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
 # must pass ONLY these dfs as parameters -> don't change
 # ignore the subheader under the beta column
 
-beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
+beta_calc <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
   df <- merge(pairs_monthly, pairs_annual, total_monthly, gdp)
   year <- year(as.Date(df$date[1]))
   months <- get_months(year)
@@ -448,22 +440,17 @@ everything <- function(year) {
   freq <- "B"
   exp <- import("export_ease")
   exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year)
-  exp$comtrade$Comtrade$get_total_exports(freq = freq, year = year)
   exp$imf$IMF$get_total_exports(freq = freq, year = year)
   file <- paste0("comtrade_all_exports_", year, "A")
   comtrade_pairs_annual <- clean_comtrade(file)
   file <- paste0("comtrade_all_exports_", year, "M")
   comtrade_pairs_monthly <- clean_comtrade(file)
-  file <- paste0("comtrade_total_exports_", year, "A")
-  comtrade_total_annual <- clean_comtrade(file)
-  file <- paste0("comtrade_total_exports_", year, "M")
-  comtrade_total_monthly <- clean_comtrade(file)
   file <- paste0("imf_total_exports_", year, "A")
-  imf_total_annual <- clean_imf(file)
+  clean_imf(file)
   file <- paste0("imf_total_exports_", year, "M")
   imf_total_monthly <- clean_imf(file)
   wb_gdp <- get_wb(50, "gdp")
-  wb_total_exports <- get_wb(50, "exports")
+  get_wb(50, "exports")
   final <- beta_calc(
     comtrade_pairs_monthly,
     comtrade_pairs_annual,
@@ -482,26 +469,19 @@ everything <- function(year) {
 
 delete <- function(years) {
   num_years <- "50"
-  # WB
   unlink(file.path(dirname(getwd()), "data", paste0("wb_gdp", num_years, ".csv")))
   unlink(file.path(dirname(getwd()), "data", paste0("wb_gdp", num_years, ".xlsx")))
   unlink(file.path(dirname(getwd()), "data", paste0("wb_total_exports", num_years, ".csv")))
   unlink(file.path(dirname(getwd()), "data", paste0("wb_total_exports", num_years, ".xlsx")))
   for (year in years) {
-  # Comtrade
   unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"A",".csv")))
   unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".csv")))
-  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".csv")))
-  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".csv")))
   unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"A",".xlsx")))
   unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".xlsx")))
-  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".xlsx")))
-  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".xlsx")))
-  # IMF
-  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".csv")))
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".csv")))
-  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".xlsx")))
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".xlsx")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".xlsx")))
   }
 }
 ```
@@ -547,6 +527,7 @@ comtrade_pairs_annual <- read_csv(
     paste0(file_name, year, "A", ".csv")
   )
 )
+
 # view(comtrade_pairs_annual)
 
 comtrade_pairs_monthly <- read_csv(
@@ -556,27 +537,8 @@ comtrade_pairs_monthly <- read_csv(
     paste0(file_name, year, "M", ".csv")
   )
 )
+
 # view(comtrade_pairs_monthly)
-
-file_name <- "comtrade_total_exports_"
-
-comtrade_total_annual <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "A", ".csv")
-  )
-)
-# view(comtrade_total_annual)
-
-comtrade_total_monthly <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "M", ".csv")
-  )
-)
-# view(comtrade_total_monthly)
 ```
 
 ### IMF
@@ -588,15 +550,6 @@ comtrade_total_monthly <- read_csv(
 
 file_name <- "imf_total_exports_"
 
-imf_total_annual <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, year, "A", ".csv")
-  )
-)
-# view(imf_total_annual)
-
 imf_total_monthly <- read_csv(
   file.path(
     dirname(getwd()),
@@ -604,6 +557,7 @@ imf_total_monthly <- read_csv(
     paste0(file_name, year, "M", ".csv")
   )
 )
+
 # view(imf_total_monthly)
 ```
 
@@ -624,18 +578,8 @@ wb_gdp <- read_csv(
     paste0(file_name, num_years, ".csv")
   )
 )
+
 # view(wb_gdp)
-
-file_name <- "wb_total_exports"
-
-wb_total_exports <- read_csv(
-  file.path(
-    dirname(getwd()),
-    "data",
-    paste0(file_name, num_years, ".csv")
-  )
-)
-# view(wb_total_exports)
 ```
 
 ### Deleting Data
@@ -646,4 +590,47 @@ wb_total_exports <- read_csv(
 
 years <- c("2021")
 delete(years)
+```
+
+```{r}
+# merge check 
+
+# pairs_monthly <- comtrade_pairs_monthly
+# pairs_annual <- comtrade_pairs_annual
+# total_monthly <- imf_total_monthly
+# pairs <- pairs_monthly |>
+#   mutate(partner_exports = value) |>
+#   select(date, partner_exports, reporter, partner)
+# pairs_annual <- pairs_annual |>
+#   mutate(partner_exports = value) |>
+#   select(date, partner_exports, reporter, partner)
+# total <- total_monthly |>
+#   mutate(total_exports = value) |>
+#   select(date, total_exports, reporter)
+# gdp <- wb_gdp
+# p_dates <- pairs |> distinct(date)
+# t_dates <- total |> distinct(date)
+# g_dates <- gdp |> distinct(date)
+# exp_only_dates <- intersect(p_dates$date, t_dates$date)
+# gdp_only_dates <- intersect(exp_only_dates, g_dates$date)
+# pairs <- pairs |> filter(date %in% exp_only_dates)
+# pairs_annual <- pairs_annual |> filter(date %in% exp_only_dates)
+# total <- total |> filter(date %in% exp_only_dates)
+# gdp <- gdp |> filter(date %in% gdp_only_dates)
+# pairs <- adjust_names(pairs, TRUE)
+# pairs_annual <- adjust_names(pairs_annual, TRUE)
+# total <- adjust_names(total, FALSE)
+# gdp <- adjust_names(gdp, FALSE)
+# pairs <- add_annual(pairs, pairs_annual)
+# all_exports <- na.omit(left_join(pairs, total, by = c("reporter", "date")))
+# gdp <- gdp |> mutate(gdp = gdp / 12) |> select(reporter, gdp)
+# all_exports <- na.omit(left_join(all_exports, gdp, by = "reporter")) |> 
+#   relocate(date, reporter, total_exports, gdp, partner, partner_exports)
+# # view(all_exports)
+# 
+# freq <- "B"
+# year <- 2021
+# exp <- import("export_ease")
+# 
+# exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year) 
 ```
