@@ -1,5 +1,5 @@
 ---
-title: "beta"
+title: "Sanctions"
 format: html
 editor: visual
 ---
@@ -17,6 +17,10 @@ editor: visual
 # install.packages("lubridate")
 # install.packages("wbstats") # for country GDPs from World Bank
 # install.packages("reticulate") # for running python stuff
+# install.packages("tempdisagg") # for freq conv
+# install.packages("tsbox") # for time-series visualizations
+# install.packages("zoo") # also for freq conv
+# install.packages("Hmisc") # date manipulations 
 ```
 
 ```{r message = FALSE}
@@ -28,9 +32,13 @@ library(writexl)
 library(lubridate)
 library(wbstats)
 library(reticulate)
+library(tempdisagg) 
+library(tsbox) 
+library(zoo)
+library(Hmisc)
 ```
 
-```{r message = FALSE, warning = FALSE }
+```{r message = FALSE}
 #|: creating-virtual-env-and-installing-python-pkgs
 
 virtualenv_create("my_environment")
@@ -58,11 +66,11 @@ clean_comtrade <- function(file) {
   df <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
   df <- df |> drop_na(primaryValue)
   df$date <- ymd(df$refPeriodId)
-  df$date <- as.Date(df$date, origin = "1970-01-01")
+  df$date <- as.Date(df$date)
   df <- df |> 
     mutate(value = primaryValue, reporter = reporterDesc, partner = partnerDesc) |> 
     select(date, value, reporter, partner)
-  df$date <- as.Date(df$date, origin = "1970-01-01")
+  df$date <- as.Date(df$date)
   write_csv(df, csv)
   write_xlsx(df, excel)
   return(df)
@@ -87,7 +95,7 @@ add_countries <- function(clean) {
   combo$partner_code <- combo$COUNTERPART_AREA
   combo <- subset(combo, select = -c(Names, COUNTERPART_AREA))
   combo <- combo |> select(date, value, reporter, partner)
-  combo$date <- as.Date(combo$date, origin = "1970-01-01")
+  combo$date <- as.Date(combo$date)
   return(combo)
 }
 ```
@@ -144,11 +152,11 @@ clean_imf <- function(file) {
     clean$month <- month(ym(clean$date))
     clean$year <- year(ym(clean$date))
     clean$date <- ym(clean$date)
-    clean$date <- as.Date(clean$date, origin = "1970-01-01")
+    clean$date <- as.Date(clean$date)
   } else {
     clean$year <- clean$date
     clean$date <- ymd(clean$year, truncated = 2L)
-    clean$date <- as.Date(clean$date, origin = "1970-01-01")
+    clean$date <- as.Date(clean$date)
   }
   clean <- subset(clean, select = -c(category, INDICATOR))
   total <- add_countries(clean)
@@ -175,7 +183,7 @@ get_wb <- function(years, df_to_return) {
   both <- both |> filter(!is.na(iso2c))
   both$year <- both$date
   both$date <- ymd(both$year, truncated = 2L)
-  both$date <- as.Date(both$date, origin = "1970-01-01")
+  both$date <- as.Date(both$date)
   both <- both |> relocate(iso2c, iso3c, country, year, date, gdp, total_exports)
   gdp <- both[, -7] |> 
     drop_na(gdp) |> 
@@ -197,7 +205,11 @@ get_wb <- function(years, df_to_return) {
   exports_excel = paste(exports_name,  as.character(years), ".xlsx", sep = "")
   write_csv(total_exports, exports_csv)
   write_xlsx(total_exports, exports_excel)
-  if (df_to_return == "gdp") return(gdp)
+  if (df_to_return == "gdp") {
+    print(paste("Returning wb_gdp", as.character(years), "....", sep = ""))
+    return(gdp)
+  }
+  print(paste("Returning wb_total_exports", as.character(years), "....", sep = ""))
   return(total_exports)
 }
 ```
@@ -306,7 +318,7 @@ get_months <- function(year) {
     paste(year, "11-01", sep = "-"),
     paste(year, "12-01", sep = "-")
   )
-  date <- as.Date(date, origin = "1970-01-01")
+  date <- as.Date(date)
   return(date)
 }
 ```
@@ -379,18 +391,12 @@ merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
 # must pass ONLY these dfs as parameters -> don't change
 # ignore the subheader under the beta column
 
-# pairs_monthly <- comtrade_pairs_monthly
-# pairs_annual <- comtrade_pairs_annual
-# total_monthly <- imf_total_monthly
-# gdp <- wb_gdp
-# view(wb_gdp)
-
-beta_calc <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
+beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
   df <- merge(pairs_monthly, pairs_annual, total_monthly, gdp)
   year <- year(as.Date(df$date[1]))
   months <- get_months(year)
   total <- data.frame(
-    date = as.Date(character(), format = "%Y-%m-%d", origin = "1970-01-01"),
+    date = as.Date(character(), format = "%Y-%m-%d"),
     reporter = character(),
     total_exports = numeric(),
     gdp = numeric(),
@@ -399,7 +405,7 @@ beta_calc <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
     stringsAsFactors = FALSE
   )
   for (day in months) { 
-    day <- as.Date(day, origin = "1970-01-01")
+    day <- as.Date(day)
     num_days <- monthDays(day)
     df_month <- df |> filter(date == day) |> 
       mutate(
@@ -411,7 +417,7 @@ beta_calc <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
     first_day <- floor_date(day, 'month')
     last_day <- ceiling_date(day, 'month') - days(1)
     date <- c(seq(ymd(first_day), ymd(last_day), "days"))
-    date <- as.Date(date, origin = "1970-01-01")
+    date <- as.Date(date)
     date <- rep(date, len = length(df_dupe$date))
     df_dupe$date <- date
     total <- rbind(total, df_dupe)
@@ -447,13 +453,18 @@ everything <- function(year) {
   freq <- "B"
   exp <- import("export_ease")
   exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year)
+  exp$comtrade$Comtrade$get_total_exports(freq = freq, year = year)
   exp$imf$IMF$get_total_exports(freq = freq, year = year)
   file <- paste0("comtrade_all_exports_", year, "A")
   comtrade_pairs_annual <- clean_comtrade(file)
   file <- paste0("comtrade_all_exports_", year, "M")
   comtrade_pairs_monthly <- clean_comtrade(file)
+  file <- paste0("comtrade_total_exports_", year, "A")
+  comtrade_total_annual <- clean_comtrade(file)
+  file <- paste0("comtrade_total_exports_", year, "M")
+  comtrade_total_monthly <- clean_comtrade(file)
   file <- paste0("imf_total_exports_", year, "A")
-  clean_imf(file)
+  imf_total_annual <- clean_imf(file)
   file <- paste0("imf_total_exports_", year, "M")
   imf_total_monthly <- clean_imf(file)
   wb_gdp <- get_wb(50, "gdp")
@@ -484,6 +495,10 @@ delete <- function(years) {
   unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".csv")))
   unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"A",".xlsx")))
   unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".xlsx")))
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".csv")))
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".xlsx")))
   unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".csv")))
@@ -584,7 +599,8 @@ wb_gdp <- read_csv(
     paste0(file_name, num_years, ".csv")
   )
 )
-
+view(beta)
+view(filtered_final)
 # view(wb_gdp)
 ```
 
