@@ -1,0 +1,658 @@
+---
+title: "Sanctions"
+format: html
+editor: visual
+---
+
+## Setup
+
+```{r}
+#|: installing-necessary-pkgs
+# only run code below once
+# uncomment with ctrl-shift-c/cmd-shift-c
+
+# install.packages("tidyverse") 
+# install.packages("tidymodels")
+# install.packages("writexl")
+# install.packages("lubridate")
+# install.packages("wbstats") # for country GDPs from World Bank
+# install.packages("reticulate") # for running python stuff
+# install.packages("tempdisagg") # for freq conv
+# install.packages("tsbox") # for time-series visualizations
+# install.packages("zoo") # also for freq conv
+# install.packages("Hmisc") # date manipulations 
+```
+
+```{r message = FALSE}
+#|: loading-pkgs
+
+library(tidyverse) 
+library(tidymodels)
+library(writexl)
+library(lubridate)
+library(wbstats)
+library(reticulate)
+library(tempdisagg) 
+library(tsbox) 
+library(zoo)
+library(Hmisc)
+```
+
+```{r message = FALSE}
+#|: creating-virtual-env-and-installing-python-pkgs
+
+virtualenv_create("my_environment")
+Sys.setenv(RETICULATE_PYTHON = virtualenv_python("my_environment"))
+use_virtualenv("my_environment")
+virtualenv_install(
+  "my_environment", 
+  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json")
+)
+```
+
+## Functions
+
+### Cleaning
+
+```{r}
+#|: function-to-clean-and-write-over-comtrade-files
+# file name passed into function must not include extension
+# will result in an error if the file is already clean
+
+clean_comtrade <- function(file) {
+  file <- file.path(dirname(getwd()), "data", file)
+  csv <- paste(file, "csv", sep = ".")
+  excel <- paste(file, "xlsx", sep = ".")
+  df <- read_csv(csv) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdDesc, primaryValue)
+  df <- df |> drop_na(primaryValue)
+  df$date <- ymd(df$refPeriodId)
+  df$date <- as.Date(df$date)
+  df <- df |> 
+    mutate(value = primaryValue, reporter = reporterDesc, partner = partnerDesc) |> 
+    select(date, value, reporter, partner)
+  df$date <- as.Date(df$date)
+  write_csv(df, csv)
+  write_xlsx(df, excel)
+  return(df)
+}
+```
+
+```{r}
+#|: function-used-by-clean_imf-to-add-country-names-to-final-df
+# never call this yourself -> all calls to this function will be nested w/in clean_imf
+
+add_countries <- function(clean) {
+  country_codes <- "imf_country_codes.csv"
+  countries <- read_csv(file.path(dirname(getwd()), "data", country_codes))
+  colnames(countries)[1] <- "Names"
+  colnames(countries)[2] <- "Codes"
+  combo <- left_join(clean, countries, by = c("REF_AREA" = "Codes"))  
+  combo$reporter <- combo$Names
+  combo$reporter_code <- combo$REF_AREA
+  combo <- subset(combo, select = -c(Names, REF_AREA))
+  combo <- left_join(combo, countries, by = c("COUNTERPART_AREA" = "Codes"))
+  combo$partner <- combo$Names
+  combo$partner_code <- combo$COUNTERPART_AREA
+  combo <- subset(combo, select = -c(Names, COUNTERPART_AREA))
+  combo <- combo |> select(date, value, reporter, partner)
+  combo$date <- as.Date(combo$date)
+  return(combo)
+}
+```
+
+```{r message = FALSE}
+#|: function-to-clean-and-write-over-imf-files
+# file name passed into function must not include extension
+# will result in an error if the file is already clean
+# multiply by 1 MM to get USD
+
+clean_imf <- function(file) {
+  file <- file.path(dirname(getwd()), "data", file)
+  csv <- paste(file, "csv", sep = ".")
+  excel <- paste(file, "xlsx", sep = ".")
+  df <- read_csv(csv)
+  df <- df[,-c(1,6:7)]
+  for (i in 1:length(colnames(df))) {
+    sub = str_sub(colnames(df)[i], end = 3)
+    if (sub == "Obs") {
+      new_name = str_sub(colnames(df)[i], 5)
+      beg = str_sub(new_name, end = 2)
+      sub = str_sub(new_name, 3)
+      colnames(df)[i] = paste(beg, sub, sep = "")
+    }
+    else {
+      colnames(df)[i] = str_sub(colnames(df)[i], 2)
+    }
+  }
+  common <- c("FREQ", "REF_AREA", "INDICATOR", "COUNTERPART_AREA")
+  time <- df |> select(one_of(common), ends_with("TIME_PERIOD")) 
+  time <- time |>
+    pivot_longer(
+      cols = -c("FREQ", "REF_AREA", "INDICATOR", "COUNTERPART_AREA"),
+      names_sep = "@",
+      names_to = c("category", "time"),
+      values_to = "date"
+    )
+  time$category <- gsub("_", "", time$category)
+  time <- time[,-6]
+  obs <- df |> select(all_of(common), ends_with("OBS_VALUE"))
+  obs <- obs |>
+    pivot_longer(
+      cols = -c("FREQ", "REF_AREA", "INDICATOR", "COUNTERPART_AREA"),
+      names_sep = "@",
+      names_to = c("category", "obs"),
+      values_to = "value"
+    )
+  obs$category <- gsub("_", "", obs$category)
+  obs <- obs[,-6]
+  clean <- left_join(time, obs, by = c(all_of(common), "category"))
+  clean <- clean |> drop_na(date, value)
+  clean$value <- clean$value * 1000000
+  if (str_sub(file, -1) == "M") {
+    clean$month <- month(ym(clean$date))
+    clean$year <- year(ym(clean$date))
+    clean$date <- ym(clean$date)
+    clean$date <- as.Date(clean$date)
+  } else {
+    clean$year <- clean$date
+    clean$date <- ymd(clean$year, truncated = 2L)
+    clean$date <- as.Date(clean$date)
+  }
+  clean <- subset(clean, select = -c(category, INDICATOR))
+  total <- add_countries(clean)
+  write_csv(total, csv)
+  write_xlsx(total, excel)
+  return(total)
+}
+```
+
+```{r}
+#|: function-to-get-and-write-files-containing-total-exports-and-gdp-data-from-world-bank
+# total-exports file format: wb_total_exports
+# gdp file format: wb_gdp
+
+get_wb <- function(years, df_to_return) { 
+  gdp <- c("gdp" = "NY.GDP.MKTP.CD")
+  exports <- c("total_exports" ="BX.GSR.GNFS.CD")
+  indicators <- c(gdp, exports)
+  both <- wb_data(
+    indicators, 
+    country = "all",
+    mrv = years
+  )
+  both <- both |> filter(!is.na(iso2c))
+  both$year <- both$date
+  both$date <- ymd(both$year, truncated = 2L)
+  both$date <- as.Date(both$date)
+  both <- both |> relocate(iso2c, iso3c, country, year, date, gdp, total_exports)
+  gdp <- both[, -7] |> 
+    drop_na(gdp) |> 
+    mutate(reporter = country) |> 
+    select(date, gdp, reporter)
+  gdp_name <- file.path(dirname(getwd()), "data", "wb_gdp")
+  print(paste("Writing wb_gdp", as.character(years), "....", sep = ""))
+  gdp_csv = paste(gdp_name, as.character(years), ".csv", sep = "")
+  gdp_excel = paste(gdp_name, as.character(years), ".xlsx", sep = "")
+  write_csv(gdp, gdp_csv)
+  write_xlsx(gdp, gdp_excel)
+  total_exports <- both[, -6] |> 
+    drop_na(total_exports) |> 
+    mutate(reporter = country) |> 
+    select(date, total_exports, reporter)
+  exports_name <- file.path(dirname(getwd()), "data", "wb_total_exports")
+  print(paste("Writing wb_total_exports", as.character(years), "....", sep = ""))
+  exports_csv = paste(exports_name,  as.character(years), ".csv", sep = "")
+  exports_excel = paste(exports_name,  as.character(years), ".xlsx", sep = "")
+  write_csv(total_exports, exports_csv)
+  write_xlsx(total_exports, exports_excel)
+  if (df_to_return == "gdp") {
+    print(paste("Returning wb_gdp", as.character(years), "....", sep = ""))
+    return(gdp)
+  }
+  print(paste("Returning wb_total_exports", as.character(years), "....", sep = ""))
+  return(total_exports)
+}
+```
+
+```{r}
+#|: merge-helper-function-to-unify-country-naming-conventions-across-countries
+# may need to update the countries that are renamed/removed, depending on the data made available by future queries
+
+adjust_names <- function(df, check) {
+  df <- df |>
+    mutate(
+      reporter = case_when(
+        str_detect(reporter, "Bolivia") ~ "Bolivia",
+        str_detect(reporter, "Bosnia") ~ "Bosnia and Herzegovina",
+        str_detect(reporter, "USA") ~ "United States",
+        str_detect(reporter, "United States") ~ "United States",
+        str_detect(reporter, "Tanzania") ~ "Tanzania",
+        str_detect(reporter, "Czech") ~ "Czechia",
+        str_detect(reporter, "Dominican Rep") ~ "Dominican Republic", 
+        str_detect(reporter, "Hong Kong") ~ "Hong Kong",
+        str_detect(reporter, "Moldova") ~ "Moldova",
+        str_detect(reporter, "Egypt") ~ "Egypt",
+        str_detect(reporter, "Vincent") ~ "St. Vincent and the Grenadines",
+        str_detect(reporter, "Slovak") ~ "Slovakia",
+        str_detect(reporter, "Viet") ~ "Vietnam",
+        str_detect(reporter, "rkiye") ~ "Turkey",
+        str_detect(reporter, "Kyrgyz") ~ "Kyrgyzstan",
+        str_detect(reporter, "Macedonia") ~ "Macedonia",
+        str_detect(reporter, "Macao") ~ "Macao",
+        str_detect(reporter, "Palestine") ~ "Palestine",
+        str_detect(reporter, "Iran") ~ "Iran",
+        str_detect(reporter, "Venezuela") ~ "Venezuela", 
+        str_detect(reporter, "Falkland") ~ "Falkland Islands",
+        str_detect(reporter, "Marshall") ~ "Marshall Islands",
+        str_detect(reporter, "Vatican") ~ "Vatican City",
+        str_detect(reporter, "Kosovo") ~ "Kosovo",
+        str_detect(reporter, "Lucia") ~ "St. Lucia",
+        str_detect(reporter, "Tajik") ~ "Tajikistan",
+        str_detect(reporter, "Afghanistan") ~ "Afghanistan",
+        str_detect(reporter, "Cuba") ~ "Cuba",
+        str_detect(reporter, "Bahamas") ~ "Bahamas",
+        str_detect(reporter, "Arab Emirates") ~ "United Arab Emirates",
+        str_detect(reporter, "Haiti") ~ "Haiti",
+        str_detect(reporter, "Russia") ~ "Russia",
+        TRUE ~ reporter
+      )
+    )
+    if(check) {
+      df <- df |> mutate(
+        partner = case_when(
+          str_detect(partner, "Bolivia") ~ "Bolivia",
+          str_detect(partner, "Bosnia") ~ "Bosnia and Herzegovina",
+          str_detect(partner, "USA") ~ "United States",
+          str_detect(partner, "United States") ~ "United States",
+          str_detect(partner, "Tanzania") ~ "Tanzania",
+          str_detect(partner, "Czech") ~ "Czechia",
+          str_detect(partner, "Dominican Rep") ~ "Dominican Republic", 
+          str_detect(partner, "Hong Kong") ~ "Hong Kong",
+          str_detect(partner, "Moldova") ~ "Moldova",
+          str_detect(partner, "Egypt") ~ "Egypt",
+          str_detect(partner, "Vincent") ~ "St. Vincent and the Grenadines",
+          str_detect(partner, "Slovak") ~ "Slovakia",
+          str_detect(partner, "Viet") ~ "Vietnam",
+          str_detect(partner, "rkiye") ~ "Turkey",
+          str_detect(partner, "Kyrgyz") ~ "Kyrgyzstan",
+          str_detect(partner, "Macedonia") ~ "Macedonia",
+          str_detect(partner, "Macao") ~ "Macao",
+          str_detect(partner, "Palestine") ~ "Palestine",
+          str_detect(partner, "Iran") ~ "Iran",
+          str_detect(partner, "Venezuela") ~ "Venezuela", 
+          str_detect(partner, "Falkland") ~ "Falkland Islands",
+          str_detect(partner, "Marshall") ~ "Marshall Islands",
+          str_detect(partner, "Vatican") ~ "Vatican City",
+          str_detect(partner, "Kosovo") ~ "Kosovo",
+          str_detect(partner, "Lucia") ~ "St. Lucia",
+          str_detect(partner, "Tajik") ~ "Tajikistan",
+          str_detect(partner, "Afghanistan") ~ "Afghanistan",
+          str_detect(partner, "Cuba") ~ "Cuba",
+          str_detect(partner, "Bahamas") ~ "Bahamas",
+          str_detect(partner, "Arab Emirates") ~ "United Arab Emirates",
+          str_detect(partner, "Haiti") ~ "Haiti",
+          str_detect(partner, "Russia") ~ "Russia",
+          TRUE ~ reporter
+        )
+      )
+    }
+  return(df)
+}
+```
+
+```{r}
+#|: helper-function-for-add-annual
+
+get_months <- function(year) {
+  date <- c(
+    paste(year, "01-01", sep = "-"),
+    paste(year, "02-01", sep = "-"),
+    paste(year, "03-01", sep = "-"),
+    paste(year, "04-01", sep = "-"),
+    paste(year, "05-01", sep = "-"),
+    paste(year, "06-01", sep = "-"),
+    paste(year, "07-01", sep = "-"),
+    paste(year, "08-01", sep = "-"),
+    paste(year, "09-01", sep = "-"),
+    paste(year, "10-01", sep = "-"),
+    paste(year, "11-01", sep = "-"),
+    paste(year, "12-01", sep = "-")
+  )
+  date <- as.Date(date)
+  return(date)
+}
+```
+
+```{r}
+#|: merge-helper-function-to-add-countries-in-comtrade-annual-df-to-comtrade-monthly-df
+# when adding annual data (reporters + date), divide by 12, then extend seq of first days of all months, then replace old date col w/ new sequence
+# pairs_annual = comtrade df containing per-partner exports by year
+# pairs_monthly = comtrade df containing per-partner exports by month
+
+add_annual <- function(pairs_monthly, pairs_annual) {
+  monthly <- pairs_monthly |> distinct(reporter)
+  annual <- pairs_annual |> distinct(reporter)
+  diff <- setdiff(annual$reporter, monthly$reporter)
+  diff_df <- pairs_annual |> filter(reporter %in% diff)
+  diff_df <- diff_df |> mutate(partner_exports = partner_exports / 12)
+  diff_dupe <- diff_df[rep(1:nrow(diff_df), each = 12), ]
+  year <- year(as.Date(pairs_annual$date[1]))
+  date <- get_months(year)
+  date <- rep(date, len = length(diff_dupe$date))
+  diff_dupe$date <- date
+  combo <- rbind(pairs_monthly, diff_dupe)
+  return(combo)
+}
+```
+
+### Frequency Conversion
+
+```{r}
+#|: actual-merge-function
+# returns a df containing all data that's ready to undergo freq conv
+# assumption: all dfs have one (and only one) year of data in common, 
+# so process of data querying, cleaning + merging will need to be repeated for another year
+
+merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
+  pairs <- pairs_monthly |>
+    mutate(partner_exports = value) |>
+    select(date, partner_exports, reporter, partner)
+  pairs_annual <- pairs_annual |>
+    mutate(partner_exports = value) |>
+    select(date, partner_exports, reporter, partner)
+  total <- total_monthly |>
+    mutate(total_exports = value) |>
+    select(date, total_exports, reporter)
+  gdp <- gdp
+  p_dates <- pairs |> distinct(date)
+  t_dates <- total |> distinct(date)
+  g_dates <- gdp |> distinct(date)
+  exp_only_dates <- intersect(p_dates$date, t_dates$date)
+  gdp_only_dates <- intersect(exp_only_dates, g_dates$date)
+  pairs <- pairs |> filter(date %in% exp_only_dates)
+  pairs_annual <- pairs_annual |> filter(date %in% exp_only_dates)
+  total <- total |> filter(date %in% exp_only_dates)
+  gdp <- gdp |> filter(date %in% gdp_only_dates)
+  pairs <- adjust_names(pairs, TRUE)
+  pairs_annual <- adjust_names(pairs_annual, TRUE)
+  total <- adjust_names(total, FALSE)
+  gdp <- adjust_names(gdp, FALSE)
+  pairs <- add_annual(pairs, pairs_annual)
+  all_exports <- na.omit(left_join(pairs, total, by = c("reporter", "date")))
+  gdp <- gdp |> mutate(gdp = gdp / 12) |> select(reporter, gdp)
+  all_exports <- na.omit(left_join(all_exports, gdp, by = "reporter")) |> 
+    relocate(date, reporter, total_exports, gdp, partner, partner_exports)
+  return(all_exports)
+}
+```
+
+```{r}
+#|: all-encompassing-function-that-merges-dfs-and converts-frequencies-and-calcs-beta
+# must pass ONLY these dfs as parameters -> don't change
+# ignore the subheader under the beta column
+
+beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
+  df <- merge(pairs_monthly, pairs_annual, total_monthly, gdp)
+  year <- year(as.Date(df$date[1]))
+  months <- get_months(year)
+  total <- data.frame(
+    date = as.Date(character(), format = "%Y-%m-%d"),
+    reporter = character(),
+    total_exports = numeric(),
+    gdp = numeric(),
+    partner = character(),
+    partner_exports = numeric(),
+    stringsAsFactors = FALSE
+  )
+  for (day in months) { 
+    day <- as.Date(day)
+    num_days <- monthDays(day)
+    df_month <- df |> filter(date == day) |> 
+      mutate(
+        total_exports = total_exports / num_days,
+        gdp = gdp / num_days, 
+        partner_exports = partner_exports / num_days
+      )
+    df_dupe <- df_month[rep(1:nrow(df_month), each = num_days), ]
+    first_day <- floor_date(day, 'month')
+    last_day <- ceiling_date(day, 'month') - days(1)
+    date <- c(seq(ymd(first_day), ymd(last_day), "days"))
+    date <- as.Date(date)
+    date <- rep(date, len = length(df_dupe$date))
+    df_dupe$date <- date
+    total <- rbind(total, df_dupe)
+  }
+  total <- total |> mutate(beta = (partner_exports / total_exports) * (total_exports / gdp))
+  return(total)
+}
+```
+
+```{r}
+#|: function-to-filter-df-based-on-criteria
+# this function takes in 1) the final df w/ beta included, 2) a vector of reporter countries, 
+# 3) a vector of partner countries, and 4) a keyword to use when writing the file (e.g., "eu")
+# can leave either reporters or partners parameters NULL in order to get all reporters or partners (but not both at the same time -> df is too large)
+
+beta_filter <- function(df, reporters, partners, keyword) {
+  if (!is.null(reporters)) { df <- df |> filter(reporter %in% reporters) }
+  if (!is.null(partners)) {df <- df |> filter(partner %in% partners) }
+  path <- file.path(dirname(getwd()), "data", paste(keyword, "beta.csv", sep = "_"))
+  write_csv(df, path)
+  if (nrow(df) < 1000000) {
+    path <- file.path(dirname(getwd()), "data", paste(keyword, "beta.xlsx", sep = "_"))
+    write_xlsx(df, path)   
+  }
+  return(df)
+}
+```
+
+```{r}
+#|: the-function-that-puts-everything-together
+
+everything <- function(year) {
+  freq <- "B"
+  exp <- import("export_ease")
+  exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year)
+  exp$comtrade$Comtrade$get_total_exports(freq = freq, year = year)
+  exp$imf$IMF$get_total_exports(freq = freq, year = year)
+  file <- paste0("comtrade_all_exports_", year, "A")
+  comtrade_pairs_annual <- clean_comtrade(file)
+  file <- paste0("comtrade_all_exports_", year, "M")
+  comtrade_pairs_monthly <- clean_comtrade(file)
+  file <- paste0("comtrade_total_exports_", year, "A")
+  comtrade_total_annual <- clean_comtrade(file)
+  file <- paste0("comtrade_total_exports_", year, "M")
+  comtrade_total_monthly <- clean_comtrade(file)
+  file <- paste0("imf_total_exports_", year, "A")
+  imf_total_annual <- clean_imf(file)
+  file <- paste0("imf_total_exports_", year, "M")
+  imf_total_monthly <- clean_imf(file)
+  wb_gdp <- get_wb(50, "gdp")
+  final <- beta_calc(
+    comtrade_pairs_monthly,
+    comtrade_pairs_annual,
+    imf_total_monthly,
+    wb_gdp
+  )
+  return(final)
+}
+```
+
+### Deleting
+
+```{r}
+#|: function-to-delete-files
+# deletes all Comtrade, IMF, and World Bank files for the years specified
+
+delete <- function(years) {
+  num_years <- "50"
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_gdp", num_years, ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_gdp", num_years, ".xlsx")))
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_total_exports", num_years, ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("wb_total_exports", num_years, ".xlsx")))
+  for (year in years) {
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"A",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"A",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_all_exports_",year,"M",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".csv")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"A",".xlsx")))
+  unlink(file.path(dirname(getwd()),"data",paste0("comtrade_total_exports_",year,"M",".xlsx")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "M", ".xlsx")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".csv")))
+  unlink(file.path(dirname(getwd()), "data", paste0("imf_total_exports_", year, "A", ".xlsx")))
+  }
+}
+```
+
+## Getting and Deleting Data
+
+### Beta
+
+```{r message = FALSE, warning = FALSE}
+#|: running-everything
+# can't view entire resulting df @ once or write Excel file b/c it's too large,
+# so must filter the df first before viewing/writing a file
+
+year <- "2021" # year for which you want to gather data
+
+final <- everything(year)
+```
+
+```{r}
+#|: example-of-filtering-final-df-with-beta-based-on-criteria-using-function-above
+# note that the beta_filter function can't write Excel files for dfs w/ > 1,000,000 rows, 
+# though the function will continue to work otherwise even if this is the case
+
+partners <- c("Russia")
+eu <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
+reporters <- eu
+
+filtered_final <- beta_filter(final, reporters, partners, paste0("eu", year))
+# view(filtered_final)
+```
+
+### Comtrade
+
+```{r message = FALSE}
+#|: for-loading-dfs-that-have-already-been-queried
+
+file_name <- "comtrade_all_exports_"
+
+comtrade_pairs_annual <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "A", ".csv")
+  )
+)
+
+# view(comtrade_pairs_annual)
+
+comtrade_pairs_monthly <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "M", ".csv")
+  )
+)
+
+# view(comtrade_pairs_monthly)
+```
+
+### IMF
+
+```{r message = FALSE}
+#|: for-loading-dfs-that-have-already-been-queried
+# only run when dfs you want to load have already been queried
+# change year and country depending on queries
+
+file_name <- "imf_total_exports_"
+
+imf_total_monthly <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, year, "M", ".csv")
+  )
+)
+
+# view(imf_total_monthly)
+```
+
+### World Bank
+
+```{r message = FALSE}
+#|: for-loading-dfs-that-have-already-been-queried
+# only run when dfs you want to load have already been queried
+# change year and country depending on queries
+
+num_years <- "50"
+file_name <- "wb_gdp"
+
+wb_gdp <- read_csv(
+  file.path(
+    dirname(getwd()),
+    "data",
+    paste0(file_name, num_years, ".csv")
+  )
+)
+view(beta)
+view(filtered_final)
+# view(wb_gdp)
+```
+
+### Deleting Data
+
+```{r}
+#|: function-to-delete-files
+# deletes all Comtrade, IMF, and World Bank files for the years specified
+
+years <- c("2017")
+delete(years)
+```
+
+```{r}
+# merge check 
+
+# pairs_monthly <- comtrade_pairs_monthly
+# pairs_annual <- comtrade_pairs_annual
+# total_monthly <- imf_total_monthly
+# pairs <- pairs_monthly |>
+#   mutate(partner_exports = value) |>
+#   select(date, partner_exports, reporter, partner)
+# pairs_annual <- pairs_annual |>
+#   mutate(partner_exports = value) |>
+#   select(date, partner_exports, reporter, partner)
+# total <- total_monthly |>
+#   mutate(total_exports = value) |>
+#   select(date, total_exports, reporter)
+# gdp <- wb_gdp
+# p_dates <- pairs |> distinct(date)
+# t_dates <- total |> distinct(date)
+# g_dates <- gdp |> distinct(date)
+# exp_only_dates <- intersect(p_dates$date, t_dates$date)
+# gdp_only_dates <- intersect(exp_only_dates, g_dates$date)
+# pairs <- pairs |> filter(date %in% exp_only_dates)
+# pairs_annual <- pairs_annual |> filter(date %in% exp_only_dates)
+# total <- total |> filter(date %in% exp_only_dates)
+# gdp <- gdp |> filter(date %in% gdp_only_dates)
+# pairs <- adjust_names(pairs, TRUE)
+# pairs_annual <- adjust_names(pairs_annual, TRUE)
+# total <- adjust_names(total, FALSE)
+# gdp <- adjust_names(gdp, FALSE)
+# pairs <- add_annual(pairs, pairs_annual)
+# all_exports <- na.omit(left_join(pairs, total, by = c("reporter", "date")))
+# gdp <- gdp |> mutate(gdp = gdp / 12) |> select(reporter, gdp)
+# all_exports <- na.omit(left_join(all_exports, gdp, by = "reporter")) |> 
+#   relocate(date, reporter, total_exports, gdp, partner, partner_exports)
+# # view(all_exports)
+# 
+# freq <- "B"
+# year <- 2021
+# exp <- import("export_ease")
+# 
+# exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year) 
+```
