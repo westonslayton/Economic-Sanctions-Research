@@ -434,22 +434,21 @@ beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
 # 3) a vector of partner countries, and 4) a keyword to use when writing the file (e.g., "eu")
 # can leave either reporters or partners parameters NULL in order to get all reporters or partners (but not both at the same time -> df is too large)
 
-beta_filter <- function(df, reporters, partners, keyword) {
+beta_filter <- function(df, reporters, partners, year, keyword) {
   if (!is.null(reporters)) { df <- df |> filter(reporter %in% reporters) }
   if (!is.null(partners)) {df <- df |> filter(partner %in% partners) }
   if (length(pull(df, date)) < 364) {
     print("Missing dates have been detected--the missing data will be linearly interpolated.")
-    year <- 2017
     first_day <- as.Date(ymd(year, truncated = 2L))
     last_day <- ceiling_date(first_day, 'year') - 1
     date <- c(seq(ymd(as.Date(first_day)), ymd(as.Date(last_day)), "days"))
     date <- as.data.frame(date)
     df <- left_join(date, df)
-    df <- df |> 
-      mutate(beta = coalesce(beta, predict(lm(beta ~ date), across(date)))) |> 
+    df <- df |>
+      mutate(beta = coalesce(beta, predict(lm(beta ~ date)), across(date))) |> 
       mutate_if(is.numeric, round, digits = 9)
   }
-  df <- df |> mutate(Date = date) |> select(Date, beta)
+  if (is.null(keyword)) return(df)
   path <- file.path(dirname(getwd()), "data", paste(keyword, "beta.csv", sep = "_"))
   write_csv(df, path)
   if (nrow(df) < 1000000) {
@@ -488,7 +487,6 @@ everything <- function(year) {
     imf_total_monthly,
     wb_gdp
   )
-  delete(year)
   return(final)
 }
 ```
@@ -531,7 +529,7 @@ delete <- function(years) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
 
-year <- "2017" # year for which you want to gather data
+year <- "2010" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -545,8 +543,7 @@ partners <- c("Russia")
 eu <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
 reporters <- eu
 
-filtered_final <- beta_filter(final, reporters, partners, paste0("eu", year)) 
-# view(filtered_final)
+filtered_final <- beta_filter(final, reporters, partners, year, paste0("eu", year))
 ```
 
 ### Comtrade
@@ -625,28 +622,6 @@ view(filtered_final)
 #|: function-to-delete-files
 # deletes all Comtrade, IMF, and World Bank files for the years specified
 
-years <- c("2017")
+years <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021")
 delete(years)
-```
-
-```{r message = FALSE}
-# editting combo.xlsx
-
-file <- "combo.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-beta <- read_excel(path)
-beta <- beta |> select(Date, beta)
-
-first_day <- as.Date("2014-01-01")
-last_day <- as.Date("2021-12-31")
-Date <- c(seq(ymd(first_day), ymd(last_day), "days"))
-Date <- as.data.frame(Date)
-
-df <- left_join(Date, beta)
-df <- df |> 
-  mutate(beta = coalesce(beta, predict(lm(beta ~ Date), across(Date)))) |> 
-  mutate_if(is.numeric, round, digits = 9)
-
-path <- file.path(dirname(getwd()), "data", "combo.xlsx")
-write_xlsx(df, path) 
 ```
