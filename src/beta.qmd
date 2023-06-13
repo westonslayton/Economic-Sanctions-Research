@@ -14,8 +14,9 @@ editor: visual
 # install.packages("tidyverse") 
 # install.packages("tidymodels")
 # install.packages("writexl")
+# install.packages("readxl")
 # install.packages("lubridate")
-# install.packages("wbstats") # for country GDPs from World Bank
+# install.packages("wbstats") # for country GDP and total-export stats from World Bank
 # install.packages("reticulate") # for running python stuff
 # install.packages("tempdisagg") # for freq conv
 # install.packages("tsbox") # for time-series visualizations
@@ -29,6 +30,7 @@ editor: visual
 library(tidyverse) 
 library(tidymodels)
 library(writexl)
+library(readxl)
 library(lubridate)
 library(wbstats)
 library(reticulate)
@@ -325,7 +327,6 @@ get_months <- function(year) {
 
 ```{r}
 #|: merge-helper-function-to-add-countries-in-comtrade-annual-df-to-comtrade-monthly-df
-# when adding annual data (reporters + date), divide by 12, then extend seq of first days of all months, then replace old date col w/ new sequence
 # pairs_annual = comtrade df containing per-partner exports by year
 # pairs_monthly = comtrade df containing per-partner exports by month
 
@@ -436,6 +437,19 @@ beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
 beta_filter <- function(df, reporters, partners, keyword) {
   if (!is.null(reporters)) { df <- df |> filter(reporter %in% reporters) }
   if (!is.null(partners)) {df <- df |> filter(partner %in% partners) }
+  if (length(pull(df, date)) < 364) {
+    print("Missing dates have been detected--the missing data will be linearly interpolated.")
+    year <- 2017
+    first_day <- as.Date(ymd(year, truncated = 2L))
+    last_day <- ceiling_date(first_day, 'year') - 1
+    date <- c(seq(ymd(as.Date(first_day)), ymd(as.Date(last_day)), "days"))
+    date <- as.data.frame(date)
+    df <- left_join(date, df)
+    df <- df |> 
+      mutate(beta = coalesce(beta, predict(lm(beta ~ date), across(date)))) |> 
+      mutate_if(is.numeric, round, digits = 9)
+  }
+  df <- df |> mutate(Date = date) |> select(Date, beta)
   path <- file.path(dirname(getwd()), "data", paste(keyword, "beta.csv", sep = "_"))
   write_csv(df, path)
   if (nrow(df) < 1000000) {
@@ -474,6 +488,7 @@ everything <- function(year) {
     imf_total_monthly,
     wb_gdp
   )
+  delete(year)
   return(final)
 }
 ```
@@ -516,7 +531,7 @@ delete <- function(years) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
 
-year <- "2021" # year for which you want to gather data
+year <- "2017" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -530,7 +545,7 @@ partners <- c("Russia")
 eu <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
 reporters <- eu
 
-filtered_final <- beta_filter(final, reporters, partners, paste0("eu", year))
+filtered_final <- beta_filter(final, reporters, partners, paste0("eu", year)) 
 # view(filtered_final)
 ```
 
@@ -610,49 +625,6 @@ view(filtered_final)
 #|: function-to-delete-files
 # deletes all Comtrade, IMF, and World Bank files for the years specified
 
-years <- c("2021")
+years <- c("2017")
 delete(years)
-```
-
-```{r}
-# merge check 
-
-# pairs_monthly <- comtrade_pairs_monthly
-# pairs_annual <- comtrade_pairs_annual
-# total_monthly <- imf_total_monthly
-# pairs <- pairs_monthly |>
-#   mutate(partner_exports = value) |>
-#   select(date, partner_exports, reporter, partner)
-# pairs_annual <- pairs_annual |>
-#   mutate(partner_exports = value) |>
-#   select(date, partner_exports, reporter, partner)
-# total <- total_monthly |>
-#   mutate(total_exports = value) |>
-#   select(date, total_exports, reporter)
-# gdp <- wb_gdp
-# p_dates <- pairs |> distinct(date)
-# t_dates <- total |> distinct(date)
-# g_dates <- gdp |> distinct(date)
-# exp_only_dates <- intersect(p_dates$date, t_dates$date)
-# gdp_only_dates <- intersect(exp_only_dates, g_dates$date)
-# pairs <- pairs |> filter(date %in% exp_only_dates)
-# pairs_annual <- pairs_annual |> filter(date %in% exp_only_dates)
-# total <- total |> filter(date %in% exp_only_dates)
-# gdp <- gdp |> filter(date %in% gdp_only_dates)
-# pairs <- adjust_names(pairs, TRUE)
-# pairs_annual <- adjust_names(pairs_annual, TRUE)
-# total <- adjust_names(total, FALSE)
-# gdp <- adjust_names(gdp, FALSE)
-# pairs <- add_annual(pairs, pairs_annual)
-# all_exports <- na.omit(left_join(pairs, total, by = c("reporter", "date")))
-# gdp <- gdp |> mutate(gdp = gdp / 12) |> select(reporter, gdp)
-# all_exports <- na.omit(left_join(all_exports, gdp, by = "reporter")) |> 
-#   relocate(date, reporter, total_exports, gdp, partner, partner_exports)
-# # view(all_exports)
-# 
-# freq <- "B"
-# year <- 2021
-# exp <- import("export_ease")
-# 
-# exp$comtrade$Comtrade$get_all_exports(freq = freq, year = year) 
 ```

@@ -24,7 +24,6 @@ library(tidyverse)
 file <- "combo.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 beta <- read_excel(path) #Import external trade and GDP data
-beta <- beta |> select(Date, beta)
 # view(beta)
 ```
 
