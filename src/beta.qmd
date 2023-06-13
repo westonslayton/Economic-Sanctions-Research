@@ -628,3 +628,25 @@ view(filtered_final)
 years <- c("2017")
 delete(years)
 ```
+
+```{r message = FALSE}
+# editting combo.xlsx
+
+file <- "combo.xlsx"
+path <- file.path(dirname(getwd()), "data", file)
+beta <- read_excel(path)
+beta <- beta |> select(Date, beta)
+
+first_day <- as.Date("2014-01-01")
+last_day <- as.Date("2021-12-31")
+Date <- c(seq(ymd(first_day), ymd(last_day), "days"))
+Date <- as.data.frame(Date)
+
+df <- left_join(Date, beta)
+df <- df |> 
+  mutate(beta = coalesce(beta, predict(lm(beta ~ Date), across(Date)))) |> 
+  mutate_if(is.numeric, round, digits = 9)
+
+path <- file.path(dirname(getwd()), "data", "combo.xlsx")
+write_xlsx(df, path) 
+```
