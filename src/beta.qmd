@@ -435,17 +435,21 @@ beta_calc <- function(pairs_monthly,pairs_annual, total_monthly, gdp) {
 # can leave either reporters or partners parameters NULL in order to get all reporters or partners (but not both at the same time -> df is too large)
 
 beta_filter <- function(df, reporters, partners, year, keyword) {
+  df <- as.data.frame(df)
   if (!is.null(reporters)) { df <- df |> filter(reporter %in% reporters) }
   if (!is.null(partners)) {df <- df |> filter(partner %in% partners) }
+  df <- df |> select(date, beta)
   if (length(pull(df, date)) < 364) {
-    print("Missing dates have been detected--the missing data will be linearly interpolated.")
     first_day <- as.Date(ymd(year, truncated = 2L))
     last_day <- ceiling_date(first_day, 'year') - 1
     date <- c(seq(ymd(as.Date(first_day)), ymd(as.Date(last_day)), "days"))
     date <- as.data.frame(date)
     df <- left_join(date, df)
+    missing <- df |> filter(is.na(beta))
+    missing <- as.Date(pull(missing, date))
+    print(paste0("Missing data from ", min(missing), " to ", max(missing), " has been estimated using linear interpolation."))
     df <- df |>
-      mutate(beta = coalesce(beta, predict(lm(beta ~ date)), across(date))) |> 
+      mutate(beta = coalesce(beta, predict(lm(beta ~ date), across(date)))) |> 
       mutate_if(is.numeric, round, digits = 9)
   }
   if (is.null(keyword)) return(df)
@@ -529,7 +533,7 @@ delete <- function(years) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
 
-year <- "2010" # year for which you want to gather data
+year <- "2017" # year for which you want to gather data
 
 final <- everything(year)
 ```

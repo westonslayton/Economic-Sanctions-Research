@@ -240,7 +240,7 @@ khi <- function(provide_beta, betas, sanctions, alphas, image_name, reporter, pa
 # the sanction file must be provided, while the beta file can be created by the function at runtime if necessary
 
 provide_beta <- TRUE # put FALSE if you want the khi function to calculate needed betas for you
-betas <- "combo.xlsx" # only needed if above is TRUE; provided file must be in data folder
+betas <- "austria_combo.xlsx" # only needed if above is TRUE; provided file must be in data folder
 sanctions <- "sanction_list.xlsx" # provided list of sanctions
 alphas <- c(1, 10, 100, 1000, 3000)
 image_name <- "my_plot.png" # name of image to be saved
