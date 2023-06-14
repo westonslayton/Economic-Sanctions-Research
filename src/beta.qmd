@@ -531,9 +531,9 @@ delete <- function(years) {
 ```{r message = FALSE, warning = FALSE}
 #|: running-everything
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
-# so must filter the df first before viewing/writing a file
+# so must filter the df first before viewing/writing
 
-year <- "2014" # year for which you want to gather data
+year <- "2021" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -543,11 +543,11 @@ final <- everything(year)
 # note that the beta_filter function can't write Excel files for dfs w/ > 1,000,000 rows, 
 # though the function will continue to work otherwise even if this is the case
 
-partners <- c("Russia")
 eu <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
-reporters <- eu
+partners <- c("Russia")
+reporters <- c("Germany")
 
-filtered_final <- beta_filter(final, reporters, partners, year, paste0("eu", year))
+filtered_final <- beta_filter(final, reporters, partners, year, paste0(reporters, year))
 ```
 
 ### Comtrade
@@ -615,8 +615,7 @@ wb_gdp <- read_csv(
     paste0(file_name, num_years, ".csv")
   )
 )
-view(beta)
-view(filtered_final)
+
 # view(wb_gdp)
 ```
 
@@ -628,25 +627,4 @@ view(filtered_final)
 
 years <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021")
 delete(years)
-```
-
-```{r}
-#|: combining eu data from 2014 to 2021
-
-years <- c(2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021)
-df <- data.frame(
-  date = as.Date(character(), format = "%Y-%m-%d"),
-  beta = numeric(),
-  stringsAsFactors = FALSE
-)
-
-for (year in years) {
-  file <- paste0("eu", year, "_beta.xlsx")
-  path <- file.path(dirname(getwd()), "data", file)
-  beta <- read_excel(path)
-  df <- rbind(df, beta)
-}
-
-view(beta)
-view(df)
 ```
