@@ -533,7 +533,7 @@ delete <- function(years) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing a file
 
-year <- "2017" # year for which you want to gather data
+year <- "2014" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -628,4 +628,25 @@ view(filtered_final)
 
 years <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021")
 delete(years)
+```
+
+```{r}
+#|: combining eu data from 2014 to 2021
+
+years <- c(2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021)
+df <- data.frame(
+  date = as.Date(character(), format = "%Y-%m-%d"),
+  beta = numeric(),
+  stringsAsFactors = FALSE
+)
+
+for (year in years) {
+  file <- paste0("eu", year, "_beta.xlsx")
+  path <- file.path(dirname(getwd()), "data", file)
+  beta <- read_excel(path)
+  df <- rbind(df, beta)
+}
+
+view(beta)
+view(df)
 ```
