@@ -32,7 +32,7 @@ load_sanction <- function(sanctions) {
 ```{r}
 #|: function that loads beta and sanction data
 
-load_beta <- function(reporter, partner, provide_beta, betas) {
+load_beta <- function(reporter, partner, provide_beta, betas, sanction.list) {
   if (provide_beta) {
     path <- file.path(dirname(getwd()), "data", betas)
     beta <- read_excel(path) 
@@ -52,7 +52,7 @@ load_beta <- function(reporter, partner, provide_beta, betas) {
           print(paste0("Cannot obtain data for ", year))
       } else {
           df <- everything(year)
-          df <- df |> beta_filter(df, reporter, partner, year, NULL)
+          df <- beta_filter(df, reporter, partner, year, NULL)
           df <- df |> mutate(Date = date) |> select(Date, beta)
           beta <- rbind(beta, df)
       }
@@ -223,10 +223,10 @@ plot <- function(dt_res, image_name) {
 
 khi <- function(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U) {
   sanction.list <- load_sanction(sanctions)
-  beta <- load_beta(reporter, partner, provide_beta, betas)
+  beta <- load_beta(reporter, partner, provide_beta, betas, sanction.list)
   both <- update_sanction(sanction.list, beta, alphas)
-  sanction.list <- both[1]
-  sanclist.ini <- both[2]
+  sanction.list <- as.data.frame(both[1])
+  sanclist.ini <- as.data.frame(both[2])
   dt_res <- create_time_series(beta, sanction.list, sanclist.ini, U)
   plot(dt_res, image_name)
   return(dt_res)
@@ -239,8 +239,8 @@ khi <- function(provide_beta, betas, sanctions, alphas, image_name, reporter, pa
 # both the beta file and sanction file provided need to be structured in the exact same way as combo.xlsx (betas) and sanction_list.xlsx (sanctions), with the same column names
 # the sanction file must be provided, while the beta file can be created by the function at runtime if necessary
 
-provide_beta <- TRUE # put FALSE if you want the khi function to calculate needed betas for you
-betas <- "austria_combo.xlsx" # only needed if above is TRUE; provided file must be in data folder
+provide_beta <- FALSE # put FALSE if you want the khi function to calculate needed betas for you
+betas <- "austria_input.xlsx" # only needed if above is TRUE; provided file must be in data folder
 sanctions <- "sanction_list.xlsx" # provided list of sanctions
 alphas <- c(1, 10, 100, 1000, 3000)
 image_name <- "my_plot.png" # name of image to be saved
@@ -249,14 +249,27 @@ partner <- "Russia" # only need if provide_beta == FALSE
 U <- 2190
 ```
 
-```{r}
+```{r message = FALSE warning = FALSE}
 #|: running khi function
 
 khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
 
-sanction.list <- load_sanction(sanctions)
-beta <- load_beta(reporter, partner, provide_beta, betas)
-both <- update_sanction(sanction.list, beta, alphas)
-sanction.list <- both[1]
-sanclist.ini <- both[2]
+# sanction.list <- load_sanction(sanctions)
+# beta <- load_beta(reporter, partner, provide_beta, betas)
+# both <- update_sanction(sanction.list, beta, alphas)
+# sanction.list <- as.data.frame(both[1])
+# sanclist.ini <- both[2]
+# 
+# view(sanction.list)
+# dt = data.table(
+#   Date=seq(
+#     as.Date(head(sanction.list$Date, n=1)), 
+#     as.Date(tail(beta$Date, n=1)), by="day"
+#   )
+# )
+# 
+# length(sanction.list)
+# view(sanction.list$Date)
+# head(sanction.list$Date, n=1)
+# tail(beta$Date, n=1)
 ```
