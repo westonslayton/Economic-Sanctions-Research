@@ -81,7 +81,6 @@ clean_comtrade <- function(file) {
 
 ```{r}
 #|: function-used-by-clean_imf-to-add-country-names-to-final-df
-# never call this yourself -> all calls to this function will be nested w/in clean_imf
 
 add_countries <- function(clean) {
   country_codes <- "imf_country_codes.csv"
@@ -106,7 +105,6 @@ add_countries <- function(clean) {
 #|: function-to-clean-and-write-over-imf-files
 # file name passed into function must not include extension
 # will result in an error if the file is already clean
-# multiply by 1 MM to get USD
 
 clean_imf <- function(file) {
   file <- file.path(dirname(getwd()), "data", file)

@@ -134,7 +134,7 @@ sanction.list$Multiplier <- NULL
 
 dt = data.table(Date=seq(as.Date(head(sanction.list$Date, n=1)), as.Date(tail(beta$Date, n=1)), by="day"))
 dt_res <- dt # creates a dataframe where results will be stored
-# view(dt_res)
+view(dt_res)
 ```
 
 ```{r warning = FALSE}
@@ -225,34 +225,4 @@ ggsave(path = path, filename = "check.png")
 file <- "check.xlsx"
 path <- file.path(dirname(getwd()), "data", file)
 write_xlsx(dt_res, path)
-```
-
-```{r}
-# beta check (to be removed later)
-
-# file <- "beta_daily.xlsx"
-# path <- file.path(dirname(getwd()), "data", file)
-# old_beta <- read_excel(path)
-# old_beta$A = old_beta$Tkj / old_beta$Tj           
-# old_beta$B = old_beta$Tj / old_beta$Yj             
-# old_beta$beta = old_beta$A * old_beta$B           
-# colnames(old_beta) = c("Date", "Tkj", "Tj", "Yj", "A", "B", "beta")
-# beta$Date <- as.Date(beta$Date)
-# old_beta <- old_beta |> mutate(old_beta = beta) |> select(Date, old_beta)
-# 
-# file <- "combo.xlsx"
-# path <- file.path(dirname(getwd()), "data", file)
-# new_beta <- read_excel(path) #Import external trade and GDP data
-# new_beta <- new_beta |> mutate(new_beta = beta) |> select(Date, new_beta)
-# 
-# beta <- inner_join(old_beta, new_beta, by = "Date")
-# beta <- beta |> mutate(
-#   percent_diff = abs(old_beta - new_beta) / old_beta * 100
-# )
-# beta |> summarize(mean_diff = mean(percent_diff)) # ~11%
-# view(beta)
-# 
-# file <- "beta_check.xlsx"
-# path <- file.path(dirname(getwd()), "data", file)
-# write_xlsx(beta, path)
 ```
