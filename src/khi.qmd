@@ -228,46 +228,6 @@ write_xlsx(dt_res, path)
 ```
 
 ```{r}
-# France growth rates
-
-file <- "old_france_index.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-old_index <- read_excel(path) 
-old_index <- old_index |> select(Date, Sindex)
-old_index <- old_index |>
-  mutate(
-    growth_rate = (Sindex - lag(Sindex)) / lag(Sindex)
-  )
-
-file <- "new_france_index.xlsx"
-path <- file.path(dirname(getwd()), "data", file)
-new_index <- read_excel(path)
-new_index <- new_index |> select(Date, Sindex)
-new_index <- new_index |>
-  mutate(
-    growth_rate = (Sindex - lag(Sindex)) / lag(Sindex)
-  )
-
-
-first <- as.Date(min(new_index$Date))
-last <- as.Date(max(new_index$Date))
-dates <- c(seq(ymd(first), ymd(last), "days"))
-dates <- as.Date(dates)
-old_index <- old_index |> filter(Date %in% dates)
-
-
-ggplot(old_index, aes(x=as.Date(old_index$Date), y=growth_rate)) + geom_line(aes(color="Old Index Growth Rate")) + geom_line(data=new_index, aes(color="New Index Growth Rate")) + ylab("Value of the Sanction Index Growth Rate") + xlab("Date") + scale_x_date(date_breaks = "2 month", date_labels = "%m-%Y", limits = as.Date(c("2014-01-01", "2019-01-01"))) + theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
-
-
-sd(old_index$growth_rate, na.rm = TRUE)
-sd(new_index$growth_rate, na.rm = TRUE)
-  
-
-```
-
-
-
-```{r}
 # beta check (to be removed later)
 
 # file <- "beta_daily.xlsx"
