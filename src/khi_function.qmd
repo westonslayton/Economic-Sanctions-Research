@@ -253,45 +253,24 @@ U <- 2190
 ```{r message = FALSE warning = FALSE}
 #|: running khi function
 
-khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
+# khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
 
-  sanction.list <- load_sanction(sanctions)
-    years <- pull(sanction.list, Date)
-    years <- format(as.Date(years, format="%d/%m/%Y"),"%Y")
-    years <- as.data.frame(years) |> distinct(years)
-    years <- pull(years, years)
-    view(years)
-  beta <- load_beta(reporter, partner, provide_beta, betas, sanction.list)
-  both <- update_sanction(sanction.list, beta, alphas)
-  sanction.list <- as.data.frame(both[1])
-  sanclist.ini <- as.data.frame(both[2])
-  dt_res <- create_time_series(beta, sanction.list, sanclist.ini, U)
-  plot(dt_res, image_name)
+beta <- load_beta(reporter, partner, provide_beta, betas, sanction.list)
+both <- update_sanction(sanction.list, beta, alphas)
+sanction.list <- as.data.frame(both[1])
+sanclist.ini <- as.data.frame(both[2])
+dt_res <- create_time_series(beta, sanction.list, sanclist.ini, U)
+plot(dt_res, image_name)
   
-      for (year in years) {
-      curr_year <- format(as.Date(Sys.Date(), format="%d/%m/%Y"),"%Y")
-      if (as.double(year) >= as.double(curr_year) - 1) {
-          print(paste0("Cannot obtain data for ", year))
-      }
-      else
-    }
-
 # sanction.list <- load_sanction(sanctions)
-# beta <- load_beta(reporter, partner, provide_beta, betas)
-# both <- update_sanction(sanction.list, beta, alphas)
-# sanction.list <- as.data.frame(both[1])
-# sanclist.ini <- both[2]
-# 
-# view(sanction.list)
-# dt = data.table(
-#   Date=seq(
-#     as.Date(head(sanction.list$Date, n=1)), 
-#     as.Date(tail(beta$Date, n=1)), by="day"
-#   )
-# )
-# 
-# length(sanction.list)
-# view(sanction.list$Date)
-# head(sanction.list$Date, n=1)
-# tail(beta$Date, n=1)
+# years <- pull(sanction.list, Date)
+# years <- format(as.Date(years, format="%d/%m/%Y"),"%Y")
+# years <- as.data.frame(years) |> distinct(years)
+# years <- pull(years, years)
+# for (year in years) {
+#   curr_year <- format(as.Date(Sys.Date(), format="%d/%m/%Y"),"%Y")
+#   if (as.double(year) >= as.double(curr_year) - 1) {
+#     print(paste0("Cannot obtain data for ", year))
+#   }
+# }
 ```

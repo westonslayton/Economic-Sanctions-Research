@@ -24,6 +24,8 @@ This part of the program utilizes the comtradeapicall Python package to implemen
 To query export data from Comtrade, you can use the following methods:
   * ```get_all_exports```: writes csv file containing export data for all available country pairs (i.e., exports from each reportner to all its partners)
   * ```get_total_exports```: writes csv file containing total-export (exports to world) data for all available reporters
+  * ```get_all_imports```: writes csv file containing import data for all available country pairs (i.e., imports to each reporter from all its partners)
+  * ```get_total_imports```: writes csv file containing total-import (imports from world) data for all available reporters
 
 When you run these functions, you'll need to enter the criteria for your query. Both of these functions require two arguments, the first being the frequency ("A" for annual, "M" for monthly, or "B" for both) and the second being the year for which to gather data (e.g., 2021). Once the program's finished running, it'll output the names of the files that were just created.
 ### IMF
