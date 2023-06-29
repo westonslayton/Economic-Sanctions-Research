@@ -264,5 +264,3 @@ sd(new_index$growth_rate, na.rm = TRUE)
   
 
 ```
-
-

@@ -25,6 +25,7 @@ load_sanction <- function(sanctions) {
   sanction.list <- read_excel(path) #Import the sanction list
   sanction.list$Details <- NULL #Remove column "details", not used for calculations
   sanction.list$Date <- as.Date(sanction.list$Date)
+  sanction.list <- na.omit(sanction.list) # remove rows with missing values
   return(sanction.list)
 }
 ```
@@ -48,7 +49,7 @@ load_beta <- function(reporter, partner, provide_beta, betas, sanction.list) {
     )
     for (year in dates_only) {
       curr_year <- format(as.Date(Sys.Date(), format="%d/%m/%Y"),"%Y")
-      if (as.double(year) > as.double(curr_year) - 1) {
+      if (as.double(year) >= as.double(curr_year) - 1) {
           print(paste0("Cannot obtain data for ", year))
       } else {
           df <- everything(year)
@@ -253,6 +254,27 @@ U <- 2190
 #|: running khi function
 
 khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
+
+  sanction.list <- load_sanction(sanctions)
+    years <- pull(sanction.list, Date)
+    years <- format(as.Date(years, format="%d/%m/%Y"),"%Y")
+    years <- as.data.frame(years) |> distinct(years)
+    years <- pull(years, years)
+    view(years)
+  beta <- load_beta(reporter, partner, provide_beta, betas, sanction.list)
+  both <- update_sanction(sanction.list, beta, alphas)
+  sanction.list <- as.data.frame(both[1])
+  sanclist.ini <- as.data.frame(both[2])
+  dt_res <- create_time_series(beta, sanction.list, sanclist.ini, U)
+  plot(dt_res, image_name)
+  
+      for (year in years) {
+      curr_year <- format(as.Date(Sys.Date(), format="%d/%m/%Y"),"%Y")
+      if (as.double(year) >= as.double(curr_year) - 1) {
+          print(paste0("Cannot obtain data for ", year))
+      }
+      else
+    }
 
 # sanction.list <- load_sanction(sanctions)
 # beta <- load_beta(reporter, partner, provide_beta, betas)

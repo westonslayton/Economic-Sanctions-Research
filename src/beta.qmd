@@ -531,7 +531,7 @@ delete <- function(years) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing
 
-year <- "2021" # year for which you want to gather data
+year <- "2017" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -543,7 +543,7 @@ final <- everything(year)
 
 eu <- c("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden")
 partners <- c("Russia")
-reporters <- c("Germany")
+reporters <- c("Austria")
 
 filtered_final <- beta_filter(final, reporters, partners, year, paste0(reporters, year))
 ```
@@ -631,19 +631,19 @@ delete(years)
 #|: useful for querying beta data
 # will become obsolete once khi function works, as its functionality will encompass that of the code below
 
-years <- c("2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021")
-reporter <- "France"
-partner <- "Russia"
-
-df <- data.frame(
-  date = as.Date(character(), format = "%Y-%m-%d"),
-  beta = numeric(),
-  stringsAsFactors = FALSE
-)
-
-for (year in years) {
-  country <- everything(year)
-  country <- beta_filter(country, reporter, partner, year, NULL)
-  df <- rbind(df, country)
-}
+# years <- c("2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021")
+# reporter <- "France"
+# partner <- "Russia"
+# 
+# df <- data.frame(
+#   date = as.Date(character(), format = "%Y-%m-%d"),
+#   beta = numeric(),
+#   stringsAsFactors = FALSE
+# )
+# 
+# for (year in years) {
+#   country <- everything(year)
+#   country <- beta_filter(country, reporter, partner, year, NULL)
+#   df <- rbind(df, country)
+# }
 ```
