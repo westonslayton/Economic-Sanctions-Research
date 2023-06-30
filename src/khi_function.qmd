@@ -253,24 +253,13 @@ U <- 2190
 ```{r message = FALSE warning = FALSE}
 #|: running khi function
 
-# khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
+khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
 
-beta <- load_beta(reporter, partner, provide_beta, betas, sanction.list)
-both <- update_sanction(sanction.list, beta, alphas)
-sanction.list <- as.data.frame(both[1])
-sanclist.ini <- as.data.frame(both[2])
-dt_res <- create_time_series(beta, sanction.list, sanclist.ini, U)
-plot(dt_res, image_name)
-  
 # sanction.list <- load_sanction(sanctions)
-# years <- pull(sanction.list, Date)
-# years <- format(as.Date(years, format="%d/%m/%Y"),"%Y")
-# years <- as.data.frame(years) |> distinct(years)
-# years <- pull(years, years)
-# for (year in years) {
-#   curr_year <- format(as.Date(Sys.Date(), format="%d/%m/%Y"),"%Y")
-#   if (as.double(year) >= as.double(curr_year) - 1) {
-#     print(paste0("Cannot obtain data for ", year))
-#   }
-# }
+# beta <- load_beta(reporter, partner, provide_beta, betas, sanction.list)
+# both <- update_sanction(sanction.list, beta, alphas)
+# sanction.list <- as.data.frame(both[1])
+# sanclist.ini <- as.data.frame(both[2])
+# dt_res <- create_time_series(beta, sanction.list, sanclist.ini, U)
+# plot(dt_res, image_name)
 ```
