@@ -3,7 +3,7 @@
 Built upon a Python package ([export_ease](https://pypi.org/project/export-ease/)) that calls JSON RESTful API to gather macroeconomic data, this program offers a streamlined interface through which you can request and analyze vast amounts of macroeconomic data from sources including UN Comtrade, International Monetary Fund (IMF), and World Bank. Below is a step-by-step guide detailing effective use of this program.
 ## Setup
 * Clone the repository by clicking on ```Code``` and copying the SSH link.
-* Create a new project by clicking on the 3D box in the upper-left corner. Click ```Version Control``` and then ```Git```, and then paste the link that you copied.
+* Create a new project within RStudio by clicking on the 3D box in the upper-left corner. Click ```Version Control``` and then ```Git```, and then paste the link that you copied.
 * Navigate to the ```src``` folder and open ```Sanctions.qmd```; this is the only file that you'll need to have open in order to run the program (though you may also want to view a csv/xlsx file in the ```data``` folder--you can do this by clicking on said file).
   * Side note: If you want to view an Excel file, it's easiest to download it from this repository directly.
 * Run the first code chunk to install all the necessary packages. You can delete this chunk after installation. After saving your changes locally, you can commit and push your changes to GitHub by running the following commands in the terminal:
