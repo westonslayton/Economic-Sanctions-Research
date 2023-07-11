@@ -1,0 +1,56 @@
+---
+title: "CAC40"
+format: html
+editor: visual
+---
+
+```{r message = FALSE}
+
+library(tidyverse)
+library(readr)
+library(rvest)
+library(httr)
+library(xml2)
+```
+
+## Africa
+
+```{r}
+
+```
+
+## Asia
+
+```{r}
+
+```
+
+## Europe
+
+```{r}
+# france
+
+france <- read_html("https://finance.yahoo.com/quote/%5EFCHI/history?p=%5EFCHI")
+france <- france |> 
+  html_nodes("table") %>% 
+  .[[1]] %>% 
+  html_table(fill = TRUE)
+```
+
+## Oceania
+
+```{r}
+
+```
+
+## North America
+
+```{r}
+
+```
+
+## South America
+
+```{r}
+
+```
