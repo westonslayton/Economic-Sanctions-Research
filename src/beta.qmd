@@ -447,7 +447,7 @@ beta_filter <- function(df, reporters, partners, year, keyword) {
     missing <- as.Date(pull(missing, date))
     print(paste0("Missing data from ", min(missing), " to ", max(missing), " has been estimated using linear interpolation."))
     df <- df |>
-      mutate(beta = coalesce(beta, predict(lm(beta ~ date), across(date)))) |> 
+      dplyr::mutate(beta = coalesce(beta, predict(lm(beta ~ date), across(date)))) |> 
       mutate_if(is.numeric, round, digits = 9)
   }
   if (is.null(keyword)) return(df)
