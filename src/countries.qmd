@@ -30,11 +30,9 @@ library(xml2)
 ```{r}
 # france
 
-france <- read_html("https://finance.yahoo.com/quote/%5EFCHI/history?p=%5EFCHI")
-france <- france |> 
-  html_nodes("table") %>% 
-  .[[1]] %>% 
+france <- read_html("https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689033600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true") |> 
   html_table(fill = TRUE)
+view(france)
 ```
 
 ## Oceania
