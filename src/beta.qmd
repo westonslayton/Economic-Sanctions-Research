@@ -647,3 +647,11 @@ delete(years)
 #   df <- rbind(df, country)
 # }
 ```
+
+```{r}
+#|: beta-justification
+
+# “when pre sanction trade between sender and target is small (i.e. less than one percent of the target’s GDP) then the failure rate is 80% while at a substantial level of pre sanction trade (more than 10% of the target’s GDP) the chance that a sanction succeeds becomes slightly better than fifty-fifty.”
+
+# Source: Bergeijk, P.A.G. van (2010), Economic Diplomacy and the Geography of International Trade, Edward Elgar: Cheltenham.
+```
