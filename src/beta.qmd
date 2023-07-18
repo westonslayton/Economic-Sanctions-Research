@@ -48,8 +48,9 @@ Sys.setenv(RETICULATE_PYTHON = virtualenv_python("my_environment"))
 use_virtualenv("my_environment")
 virtualenv_install(
   "my_environment", 
-  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json")
+  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json", "selenium", "webdriver_manager")
 )
+source_python("scrape.py")
 ```
 
 ## Functions
@@ -493,6 +494,38 @@ everything <- function(year) {
 }
 ```
 
+### Scraping
+
+```{r}
+#|: function-to-scrape-tabular-financial-data-from-yahoo-finance
+# returns a df that is ready for analysis
+# if you leave the num_obs argument NULL, the scrape function will scrape as much data as it can from the given url
+# file is the name the resulting df will be saved as
+
+scrape_yahoo <- function(url, file, num_obs) {
+  scrape(url, file, num_obs)
+  df <- read_csv(
+    file.path(
+      dirname(getwd()),
+      "data",
+      file
+    )
+  )
+  df <- df[-c(1)]
+  df <- df |> 
+    dplyr::rename(
+      Date = 1, 
+      Open = 2, 
+      High = 3, 
+      Low = 4,
+      Close = 5, 
+      Adj_Close = 6, 
+      Volume = 7
+    )
+  return(df)
+}
+```
+
 ### Deleting
 
 ```{r}
@@ -531,7 +564,7 @@ delete <- function(years) {
 # can't view entire resulting df @ once or write Excel file b/c it's too large,
 # so must filter the df first before viewing/writing
 
-year <- "2017" # year for which you want to gather data
+year <- "2021" # year for which you want to gather data
 
 final <- everything(year)
 ```
@@ -615,6 +648,20 @@ wb_gdp <- read_csv(
 )
 
 # view(wb_gdp)
+```
+
+### Scraping Data
+
+```{r}
+#|: testing-module-that-scrapes-with-selenium
+# france example below
+
+url = 'https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689206400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true'
+file = "scrape.csv"
+num_obs = NULL
+
+df <- scrape_yahoo(url, file, num_obs)
+view(df)
 ```
 
 ### Deleting Data
