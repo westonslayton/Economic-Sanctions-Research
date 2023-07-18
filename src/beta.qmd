@@ -555,7 +555,7 @@ delete <- function(years) {
 }
 ```
 
-## Getting and Deleting Data
+## Everything Data
 
 ### Beta
 
@@ -672,27 +672,6 @@ view(df)
 
 years <- c("2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021")
 delete(years)
-```
-
-```{r}
-#|: useful for querying beta data
-# will become obsolete once khi function works, as its functionality will encompass that of the code below
-
-# years <- c("2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021")
-# reporter <- "France"
-# partner <- "Russia"
-# 
-# df <- data.frame(
-#   date = as.Date(character(), format = "%Y-%m-%d"),
-#   beta = numeric(),
-#   stringsAsFactors = FALSE
-# )
-# 
-# for (year in years) {
-#   country <- everything(year)
-#   country <- beta_filter(country, reporter, partner, year, NULL)
-#   df <- rbind(df, country)
-# }
 ```
 
 ```{r}
