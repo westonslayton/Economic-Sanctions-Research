@@ -653,7 +653,7 @@ wb_gdp <- read_csv(
 ### Scraping Data
 
 ```{r}
-#|: testing-module-that-scrapes-with-selenium
+#|: scraping-with-selenium
 # france example below
 
 url = 'https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689206400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true'
