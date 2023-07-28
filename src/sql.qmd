@@ -1,0 +1,30 @@
+---
+title: "Sanctions"
+format: html
+editor: visual
+---
+
+```{r}
+
+# install.packages("RSQLite")
+library(RSQLite)
+library(tidyverse)
+```
+
+```{r}
+
+# connecting to database
+conn <- dbConnect(SQLite(), "data.db")
+
+# writing data frame to database
+dbWriteTable(conn, "data", df)
+
+# list all tables available in the database
+dbListTables(conn)
+
+# getting data frame from database
+df <- dbGetQuery(conn, "SELECT * FROM df_name_here")
+
+# disconnecting from database
+dbDisconnect(conn)
+```
