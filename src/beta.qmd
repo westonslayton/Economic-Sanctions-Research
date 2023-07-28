@@ -43,13 +43,13 @@ library(Hmisc)
 ```{r message = FALSE}
 #|: creating-virtual-env-and-installing-python-pkgs
 
-virtualenv_create("my_environment")
+# virtualenv_create("my_environment")
 Sys.setenv(RETICULATE_PYTHON = virtualenv_python("my_environment"))
 use_virtualenv("my_environment")
-virtualenv_install(
-  "my_environment", 
-  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json", "selenium", "webdriver_manager")
-)
+# virtualenv_install(
+#   "my_environment", 
+#   c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json", "selenium", "webdriver_manager")
+# )
 source_python("scrape.py")
 ```
 
@@ -565,7 +565,6 @@ delete <- function(years) {
 # so must filter the df first before viewing/writing
 
 year <- "2021" # year for which you want to gather data
-
 final <- everything(year)
 ```
 
@@ -658,7 +657,7 @@ wb_gdp <- read_csv(
 
 url = 'https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689206400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true'
 file = "scrape.csv"
-num_obs = NULL
+num_obs = 100
 
 df <- scrape_yahoo(url, file, num_obs)
 view(df)

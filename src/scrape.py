@@ -1,6 +1,7 @@
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.common.exceptions import NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import pandas
@@ -32,7 +33,11 @@ def scrape(url, file, num_obs):
                     " window.pageYOffset : (document.documentElement ||"
                     " document.body.parentNode || document.body);"))
             
-    chrome_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+    # chrome_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+    service = Service(executable_path=parent)
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    chrome_driver = webdriver.Chrome(service=service, options=options)
 
     with chrome_driver as driver:
 
