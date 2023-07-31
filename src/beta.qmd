@@ -657,7 +657,7 @@ wb_gdp <- read_csv(
 
 url = 'https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689206400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true'
 file = "scrape.csv"
-num_obs = 100
+num_obs = null
 
 df <- scrape_yahoo(url, file, num_obs)
 view(df)
