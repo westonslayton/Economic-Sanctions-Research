@@ -1,5 +1,5 @@
 ---
-title: "beta"
+title: "Khi"
 format: html
 editor: visual
 ---
@@ -210,8 +210,7 @@ plot <- function(dt_res, image_name) {
     xlab("Date") + 
     scale_x_date(
       date_breaks = "2 month", 
-      date_labels = "%m-%Y", 
-      limits = as.Date(c("2014-01-01", "2019-01-01"))
+      date_labels = "%m-%Y"
     ) + 
     theme_bw() + theme(axis.text.x=element_text(angle=60, hjust=1))
   path <- file.path(dirname(getwd()), "data")
