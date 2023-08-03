@@ -35,14 +35,13 @@ def scrape(url, file, num_obs):
             
     # chrome_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     service = Service(executable_path=parent)
-    options = webdriver.ChromeOptions()
-    options.add_argument('--headless')
-    chrome_driver = webdriver.Chrome(service=service, options=options)
+    chrome_driver = webdriver.Chrome(service=service)
 
     with chrome_driver as driver:
 
         driver.maximize_window()
         driver.get(url)
+        time.sleep(3)
         scroll_to_bottom(driver)
         for i in range(1, 8):
             dict[i] = []
