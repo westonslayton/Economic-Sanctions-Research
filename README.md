@@ -1,4 +1,4 @@
-# Economic Sanctions
+# Measuring Economic Sanctions
 ###### Research @ Duke University - Nicholas School of the Environment | In collaboration with Morad Bali
 Built upon a Python package ([export_ease](https://pypi.org/project/export-ease/)) that calls JSON RESTful API to gather macroeconomic data, this program offers a streamlined interface through which you can request and analyze vast amounts of macroeconomic data from sources including UN Comtrade, International Monetary Fund (IMF), and World Bank. Below is a step-by-step guide detailing effective use of this program.
 ## Setup
