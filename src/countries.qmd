@@ -13,6 +13,38 @@ library(httr)
 library(xml2)
 ```
 
+## Scraping Function
+
+```{r}
+#|: function-to-scrape-tabular-financial-data-from-yahoo-finance
+# returns a df that is ready for analysis
+# if you leave the num_obs argument NULL, the scrape function will scrape as much data as it can from the given url
+# file is the name the resulting df will be saved as
+
+scrape_yahoo <- function(url, file, num_obs) {
+  scrape(url, file, num_obs)
+  df <- read_csv(
+    file.path(
+      dirname(getwd()),
+      "data",
+      file
+    )
+  )
+  df <- df[-c(1)]
+  df <- df |> 
+    dplyr::rename(
+      Date = 1, 
+      Open = 2, 
+      High = 3, 
+      Low = 4,
+      Close = 5, 
+      Adj_Close = 6, 
+      Volume = 7
+    )
+  return(df)
+}
+```
+
 ## Africa
 
 ```{r}
@@ -29,11 +61,18 @@ library(xml2)
 
 ```{r}
 #|: france
-# example of old way of webscraping below
 
+# old way of webscraping
 # france <- read_html("https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689033600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true") |> 
 #   html_table(fill = TRUE)
 # view(france)
+
+# new way of webscraping (using selenium)
+url = 'https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689206400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true'
+file = "scrape.csv"
+num_obs = 100
+france <- scrape_yahoo(url, file, num_obs)
+view(france)
 ```
 
 ## Oceania

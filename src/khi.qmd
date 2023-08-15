@@ -268,3 +268,43 @@ khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
 ```
 
 ## Imports by Commodity
+
+```{r}
+#|: function that gets imports from partner(s) to report for a specific commodity
+# to get total imports for one reporter from all partners (i.e., the world), set the partner argument to "0"
+# to get imports for one reporter from all partners individually, set the partner argument to "None"
+# for a complete list of Comtrade's country codes, see "comtrade_countries.pdf" (in the data folder)
+# for a complete list of HS-classified commodity codes, see https://unstats.un.org/unsd/classifications/Econ
+
+cmd_imports <- function(reporter, partner, freq, year, cmd_code) {
+  exp <- import("export_ease")
+  exp$comtrade$Comtrade$get_cmd_imports(reporter, partner, freq, year, cmd_code)
+  file_name <- paste0("cmdImports_", year, freq, "_", cmd_code, ".csv")
+  df <- read_csv(file.path(dirname(getwd()), "data", file_name)) |> select(freqCode, refPeriodId, refYear, refMonth, reporterCode, reporterISO, reporterDesc, flowDesc, partnerCode, partnerISO, partnerDesc, cmdCode, cmdDesc, primaryValue) |> drop_na(primaryValue)
+  df$date <- ymd(df$refPeriodId)
+  df$date <- as.Date(df$date)
+  df <- df |> 
+    mutate(
+      value = primaryValue, reporter = reporterDesc, partner = partnerDesc, 
+      code = cmdCode, desc = cmdDesc
+    ) |> 
+    select(date, reporter, partner, value, code, desc)
+  df$date <- as.Date(df$date)
+  write_csv(df, file_name)
+  return(df)
+}
+```
+
+```{r}
+#|: example usage of above function
+# getting all HS 6801 imports from all partner countries to USA in 2020
+
+reporter <- "842" # USA
+partner <- "None" # all
+freq <- "M" # can also be A (annual)
+year <- "2020"
+cmd_code <- "6801"
+
+df <- cmd_imports(reporter, partner, freq, year, cmd_code)
+view(df)
+```

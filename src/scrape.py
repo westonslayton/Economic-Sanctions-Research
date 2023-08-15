@@ -33,7 +33,6 @@ def scrape(url, file, num_obs):
                     " window.pageYOffset : (document.documentElement ||"
                     " document.body.parentNode || document.body);"))
             
-    # chrome_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     service = Service(executable_path=parent)
     chrome_driver = webdriver.Chrome(service=service)
 
