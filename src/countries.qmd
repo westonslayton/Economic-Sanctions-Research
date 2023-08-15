@@ -1,5 +1,5 @@
 ---
-title: "CAC40"
+title: "Financial"
 format: html
 editor: visual
 ---
@@ -28,11 +28,12 @@ library(xml2)
 ## Europe
 
 ```{r}
-# france
+#|: france
+# example of old way of webscraping below
 
-france <- read_html("https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689033600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true") |> 
-  html_table(fill = TRUE)
-view(france)
+# france <- read_html("https://finance.yahoo.com/quote/%5EFCHI/history?period1=636249600&period2=1689033600&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true") |> 
+#   html_table(fill = TRUE)
+# view(france)
 ```
 
 ## Oceania
