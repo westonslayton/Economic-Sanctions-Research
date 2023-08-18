@@ -15,6 +15,7 @@ date,value,reporter,partner
 2021-01-01,14765424.31,Belize,World
 2021-01-01,2962426604.416,Bulgaria,World
 2021-01-01,1762170208.317,Myanmar,World
+2021-01-01,8317519.702,Burundi,World
 2021-01-01,2434717800,Belarus,World
 2021-01-01,37160314953.789,Canada,World
 2021-01-01,7113957095.365,Chile,World
@@ -25,7 +26,7 @@ date,value,reporter,partner
 2021-01-01,17719510300,Czechia,World
 2021-01-01,76938344.075,Benin,World
 2021-01-01,9452571823.685,Denmark,World
-2021-01-01,740229273.467,Dominican Rep.,World
+2021-01-01,740220279.663,Dominican Rep.,World
 2021-01-01,1814891832.808,Ecuador,World
 2021-01-01,515558118.07,El Salvador,World
 2021-01-01,1484840231.916,Estonia,World
@@ -125,6 +126,7 @@ date,value,reporter,partner
 2021-02-01,21175363.915,Belize,World
 2021-02-01,3130539187.202,Bulgaria,World
 2021-02-01,1070589440.438,Myanmar,World
+2021-02-01,14780169.821,Burundi,World
 2021-02-01,2704166400,Belarus,World
 2021-02-01,35724311443.989,Canada,World
 2021-02-01,7271354322.737,Chile,World
@@ -135,7 +137,7 @@ date,value,reporter,partner
 2021-02-01,17746538430,Czechia,World
 2021-02-01,83701553.083,Benin,World
 2021-02-01,9589436977.041,Denmark,World
-2021-02-01,913659166.285,Dominican Rep.,World
+2021-02-01,913764145.025,Dominican Rep.,World
 2021-02-01,1953825093.096,Ecuador,World
 2021-02-01,504924024.11,El Salvador,World
 2021-02-01,1567959377.302,Estonia,World
@@ -233,6 +235,7 @@ date,value,reporter,partner
 2021-03-01,20859963.9,Belize,World
 2021-03-01,3538488336.659,Bulgaria,World
 2021-03-01,1321635122.965,Myanmar,World
+2021-03-01,10724930.75,Burundi,World
 2021-03-01,3075112100,Belarus,World
 2021-03-01,42663945137.11,Canada,World
 2021-03-01,7759866088.154,Chile,World
@@ -243,7 +246,7 @@ date,value,reporter,partner
 2021-03-01,20933223522,Czechia,World
 2021-03-01,99031303.954,Benin,World
 2021-03-01,11615033189.382,Denmark,World
-2021-03-01,1114148916.36,Dominican Rep.,World
+2021-03-01,1113931243.136,Dominican Rep.,World
 2021-03-01,2092602235.645,Ecuador,World
 2021-03-01,558253360.99,El Salvador,World
 2021-03-01,1812683970.683,Estonia,World
@@ -340,6 +343,7 @@ date,value,reporter,partner
 2021-04-01,29331422.855,Belize,World
 2021-04-01,3598748159.79,Bulgaria,World
 2021-04-01,1112673504.69,Myanmar,World
+2021-04-01,7944642.861,Burundi,World
 2021-04-01,3185359100,Belarus,World
 2021-04-01,38901441455.325,Canada,World
 2021-04-01,8364119462.065,Chile,World
@@ -350,7 +354,7 @@ date,value,reporter,partner
 2021-04-01,19751473008,Czechia,World
 2021-04-01,81518605.586,Benin,World
 2021-04-01,9961413026.991,Denmark,World
-2021-04-01,989677705.347,Dominican Rep.,World
+2021-04-01,906167870.245,Dominican Rep.,World
 2021-04-01,2231056845.048,Ecuador,World
 2021-04-01,512478614.96,El Salvador,World
 2021-04-01,1949575797.653,Estonia,World
@@ -446,6 +450,7 @@ date,value,reporter,partner
 2021-05-01,26793114.45,Belize,World
 2021-05-01,3200448993.655,Bulgaria,World
 2021-05-01,1120753833.397,Myanmar,World
+2021-05-01,8842304.813,Burundi,World
 2021-05-01,3085265800,Belarus,World
 2021-05-01,40852214830.944,Canada,World
 2021-05-01,7789851244.121,Chile,World
@@ -456,7 +461,7 @@ date,value,reporter,partner
 2021-05-01,19158932828,Czechia,World
 2021-05-01,106141433.536,Benin,World
 2021-05-01,10686441826.807,Denmark,World
-2021-05-01,1023031669.49,Dominican Rep.,World
+2021-05-01,1022746445.231,Dominican Rep.,World
 2021-05-01,2220923688.708,Ecuador,World
 2021-05-01,532519640,El Salvador,World
 2021-05-01,1809940920.22,Estonia,World
@@ -553,6 +558,7 @@ date,value,reporter,partner
 2021-06-01,18716952.37,Belize,World
 2021-06-01,3510582270.403,Bulgaria,World
 2021-06-01,1382126428.105,Myanmar,World
+2021-06-01,6748064.473,Burundi,World
 2021-06-01,3155096300,Belarus,World
 2021-06-01,44991254292.007,Canada,World
 2021-06-01,7634674012.758,Chile,World
@@ -563,7 +569,7 @@ date,value,reporter,partner
 2021-06-01,19917444262,Czechia,World
 2021-06-01,108858079.271,Benin,World
 2021-06-01,11475350679.06,Denmark,World
-2021-06-01,996432936.18,Dominican Rep.,World
+2021-06-01,996664282.236,Dominican Rep.,World
 2021-06-01,2272930098.744,Ecuador,World
 2021-06-01,539002019.12,El Salvador,World
 2021-06-01,1814779227.135,Estonia,World
@@ -660,6 +666,7 @@ date,value,reporter,partner
 2021-07-01,18474645.67,Belize,World
 2021-07-01,3513992871.05,Bulgaria,World
 2021-07-01,1048255920.031,Myanmar,World
+2021-07-01,6284839.423,Burundi,World
 2021-07-01,3270632500,Belarus,World
 2021-07-01,40800766838.849,Canada,World
 2021-07-01,7937277675.864,Chile,World
@@ -670,7 +677,7 @@ date,value,reporter,partner
 2021-07-01,17078544272,Czechia,World
 2021-07-01,102672139.33,Benin,World
 2021-07-01,10133616650.793,Denmark,World
-2021-07-01,973586640.482,Dominican Rep.,World
+2021-07-01,973401719.888,Dominican Rep.,World
 2021-07-01,2277117298.117,Ecuador,World
 2021-07-01,582268937.52,El Salvador,World
 2021-07-01,1809103311.393,Estonia,World
@@ -767,6 +774,7 @@ date,value,reporter,partner
 2021-08-01,34641820.64,Belize,World
 2021-08-01,3334384781.776,Bulgaria,World
 2021-08-01,1249664201.554,Myanmar,World
+2021-08-01,11333493.225,Burundi,World
 2021-08-01,3516962300,Belarus,World
 2021-08-01,42619634908.59,Canada,World
 2021-08-01,7905740170.846,Chile,World
@@ -777,7 +785,7 @@ date,value,reporter,partner
 2021-08-01,15976669907,Czechia,World
 2021-08-01,92972026.364,Benin,World
 2021-08-01,9437260707.666,Denmark,World
-2021-08-01,1020348802.693,Dominican Rep.,World
+2021-08-01,1020250767.365,Dominican Rep.,World
 2021-08-01,2245068003.29,Ecuador,World
 2021-08-01,498740776.34,El Salvador,World
 2021-08-01,1637478502.4,Estonia,World
@@ -873,6 +881,7 @@ date,value,reporter,partner
 2021-09-01,21462094.815,Belize,World
 2021-09-01,3602418375.82,Bulgaria,World
 2021-09-01,1257443164.511,Myanmar,World
+2021-09-01,6446808.346,Burundi,World
 2021-09-01,3605912800,Belarus,World
 2021-09-01,41277509602.49,Canada,World
 2021-09-01,7619634929.28,Chile,World
@@ -883,7 +892,7 @@ date,value,reporter,partner
 2021-09-01,18909449980,Czechia,World
 2021-09-01,66781292.866,Benin,World
 2021-09-01,10754527021.093,Denmark,World
-2021-09-01,995470627.142,Dominican Rep.,World
+2021-09-01,995605525.532,Dominican Rep.,World
 2021-09-01,2302402287.621,Ecuador,World
 2021-09-01,550437311.59,El Salvador,World
 2021-09-01,2463300408.421,Estonia,World
@@ -980,6 +989,7 @@ date,value,reporter,partner
 2021-10-01,17404454.71,Belize,World
 2021-10-01,3653730962.286,Bulgaria,World
 2021-10-01,1122106445.577,Myanmar,World
+2021-10-01,13194112.722,Burundi,World
 2021-10-01,3760854700,Belarus,World
 2021-10-01,44084355352.694,Canada,World
 2021-10-01,7770460024.336,Chile,World
@@ -990,7 +1000,7 @@ date,value,reporter,partner
 2021-10-01,18961258962,Czechia,World
 2021-10-01,69569244.818,Benin,World
 2021-10-01,10552520733.611,Denmark,World
-2021-10-01,968749182.26,Dominican Rep.,World
+2021-10-01,967833214.96,Dominican Rep.,World
 2021-10-01,2577654438.026,Ecuador,World
 2021-10-01,552225198.01,El Salvador,World
 2021-10-01,2322540315.645,Estonia,World
@@ -1086,6 +1096,7 @@ date,value,reporter,partner
 2021-11-01,19258728.335,Belize,World
 2021-11-01,3653232929.807,Bulgaria,World
 2021-11-01,1320104476.958,Myanmar,World
+2021-11-01,56690277.779,Burundi,World
 2021-11-01,4236399400,Belarus,World
 2021-11-01,46686361632.831,Canada,World
 2021-11-01,8525532883.606,Chile,World
@@ -1096,7 +1107,7 @@ date,value,reporter,partner
 2021-11-01,21282560688,Czechia,World
 2021-11-01,36218517.447,Benin,World
 2021-11-01,11348960137.851,Denmark,World
-2021-11-01,1074648920.017,Dominican Rep.,World
+2021-11-01,1077638336.301,Dominican Rep.,World
 2021-11-01,2608255229.425,Ecuador,World
 2021-11-01,538149031.77,El Salvador,World
 2021-11-01,2350801500.696,Estonia,World
@@ -1193,6 +1204,7 @@ date,value,reporter,partner
 2021-12-01,21121698.675,Belize,World
 2021-12-01,3493170298.979,Bulgaria,World
 2021-12-01,1377336382.916,Myanmar,World
+2021-12-01,11805529.53,Burundi,World
 2021-12-01,3731801000,Belarus,World
 2021-12-01,45514819091.28,Canada,World
 2021-12-01,8984341297.149,Chile,World
@@ -1203,7 +1215,7 @@ date,value,reporter,partner
 2021-12-01,18139288840,Czechia,World
 2021-12-01,101375877.2,Benin,World
 2021-12-01,10085239950.537,Denmark,World
-2021-12-01,915029880.257,Dominican Rep.,World
+2021-12-01,914996174.608,Dominican Rep.,World
 2021-12-01,2102472793.844,Ecuador,World
 2021-12-01,510331883.43,El Salvador,World
 2021-12-01,1993129993.72,Estonia,World

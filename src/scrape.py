@@ -9,8 +9,8 @@ import time
 import os
 
 cwd = os.getcwd()
-parent = os.path.dirname(cwd)
-directory = os.path.join(parent, "data")
+directory = os.path.dirname(cwd)
+parent = os.path.join(directory, "chromedriver")
 dict = {}
 
 def scrape(url, file, num_obs):
@@ -32,9 +32,10 @@ def scrape(url, file, num_obs):
                     ("return (window.pageYOffset !== undefined) ?"
                     " window.pageYOffset : (document.documentElement ||"
                     " document.body.parentNode || document.body);"))
-            
-    service = Service(executable_path=parent)
-    chrome_driver = webdriver.Chrome(service=service)
+
+    # service = Service(executable_path=parent)
+    # chrome_driver = webdriver.Chrome(service=service)
+    chrome_driver = webdriver.Chrome()
 
     with chrome_driver as driver:
 

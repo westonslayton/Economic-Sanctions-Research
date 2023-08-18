@@ -2803,73 +2803,77 @@ date,value,reporter,partner
 2021-01-01,80124.68,Myanmar,Samoa
 2021-01-01,273367,Myanmar,Yemen
 2021-01-01,11227412.3,Myanmar,"Areas, nes"
-2021-01-01,113150402.25,Burundi,World
-2021-01-01,9854.05,Burundi,Angola
-2021-01-01,117914.5,Burundi,Australia
-2021-01-01,13812885.71,Burundi,Belgium
-2021-01-01,138916.14,Burundi,Cameroon
-2021-01-01,970888.21,Burundi,Canada
-2021-01-01,5055.83,Burundi,Central African Rep.
-2021-01-01,56383.71,Burundi,Chad
-2021-01-01,1128341.12,Burundi,China
-2021-01-01,168640.54,Burundi,Congo
-2021-01-01,27074255.8,Burundi,Dem. Rep. of the Congo
-2021-01-01,32535.34,Burundi,Cyprus
-2021-01-01,12493.72,Burundi,Benin
-2021-01-01,2182.7,Burundi,Denmark
-2021-01-01,442314.68,Burundi,Ethiopia
-2021-01-01,529667.42,Burundi,France
-2021-01-01,3003.92,Burundi,Djibouti
-2021-01-01,5309034.42,Burundi,Germany
-2021-01-01,18012.22,Burundi,Guinea
-2021-01-01,5240.76,Burundi,"China, Hong Kong SAR"
-2021-01-01,1821.08,Burundi,Indonesia
-2021-01-01,3557.32,Burundi,Ireland
-2021-01-01,147435.89,Burundi,Italy
-2021-01-01,255107.98,Burundi,Japan
-2021-01-01,5876816.42,Burundi,Kenya
-2021-01-01,7800.58,Burundi,Rep. of Korea
-2021-01-01,57937.91,Burundi,Madagascar
-2021-01-01,2187408.02,Burundi,Malaysia
-2021-01-01,99.85,Burundi,Maldives
-2021-01-01,632417.18,Burundi,Mauritius
-2021-01-01,11507.13,Burundi,Morocco
-2021-01-01,96.35,Burundi,Mozambique
-2021-01-01,6023471.85,Burundi,Oman
-2021-01-01,185188.65,Burundi,Netherlands
-2021-01-01,252099.79,Burundi,New Zealand
-2021-01-01,59341.32,Burundi,Niger
-2021-01-01,50297.27,Burundi,Nigeria
-2021-01-01,9713995.97,Burundi,Pakistan
-2021-01-01,99668.23,Burundi,Portugal
-2021-01-01,4776.74,Burundi,Qatar
-2021-01-01,759.5,Burundi,Romania
-2021-01-01,209621.36,Burundi,Rwanda
-2021-01-01,5083.83,Burundi,Saudi Arabia
-2021-01-01,5362.05,Burundi,Senegal
-2021-01-01,707966.36,Burundi,Seychelles
-2021-01-01,10227.4,Burundi,India
-2021-01-01,782103.12,Burundi,Singapore
-2021-01-01,636018.29,Burundi,Viet Nam
-2021-01-01,112521.81,Burundi,Somalia
-2021-01-01,277737.52,Burundi,South Africa
-2021-01-01,1117.19,Burundi,Zimbabwe
-2021-01-01,5086282.9,Burundi,Sudan
-2021-01-01,38921.07,Burundi,Eswatini
-2021-01-01,1987.9,Burundi,Sweden
-2021-01-01,3189355.56,Burundi,Switzerland
-2021-01-01,1082819.72,Burundi,Thailand
-2021-01-01,4906067.97,Burundi,United Arab Emirates
-2021-01-01,2668996.97,Burundi,Uganda
-2021-01-01,245030.26,Burundi,Ukraine
-2021-01-01,4876283.56,Burundi,Egypt
-2021-01-01,3729459.82,Burundi,United Kingdom
-2021-01-01,6547811.7,Burundi,United Rep. of Tanzania
-2021-01-01,1125693.43,Burundi,USA
-2021-01-01,56717.64,Burundi,Burkina Faso
-2021-01-01,798.84,Burundi,Uzbekistan
-2021-01-01,1126169.08,Burundi,Zambia
-2021-01-01,311021.08,Burundi,"Areas, nes"
+2021-01-01,163656476.675,Burundi,World
+2021-01-01,11522.834,Burundi,Angola
+2021-01-01,117855.519,Burundi,Australia
+2021-01-01,13564335.17,Burundi,Belgium
+2021-01-01,137340.79,Burundi,Cameroon
+2021-01-01,1023306.151,Burundi,Canada
+2021-01-01,11007.847,Burundi,Central African Rep.
+2021-01-01,29003.717,Burundi,Chad
+2021-01-01,1178398.091,Burundi,China
+2021-01-01,102660.065,Burundi,Congo
+2021-01-01,33648642.807,Burundi,Dem. Rep. of the Congo
+2021-01-01,32519.068,Burundi,Cyprus
+2021-01-01,12487.478,Burundi,Benin
+2021-01-01,3240.329,Burundi,Denmark
+2021-01-01,711656.899,Burundi,Ethiopia
+2021-01-01,588019.536,Burundi,France
+2021-01-01,3002.426,Burundi,Djibouti
+2021-01-01,17927.985,Burundi,Gabon
+2021-01-01,5302684.478,Burundi,Germany
+2021-01-01,32984.192,Burundi,Guinea
+2021-01-01,5238.149,Burundi,"China, Hong Kong SAR"
+2021-01-01,1820.174,Burundi,Indonesia
+2021-01-01,3555.546,Burundi,Ireland
+2021-01-01,221329.357,Burundi,Italy
+2021-01-01,252597.344,Burundi,Japan
+2021-01-01,6415465.063,Burundi,Kenya
+2021-01-01,7796.838,Burundi,Rep. of Korea
+2021-01-01,7113.258,Burundi,Libya
+2021-01-01,172403.219,Burundi,Madagascar
+2021-01-01,2186313.603,Burundi,Malaysia
+2021-01-01,99.806,Burundi,Maldives
+2021-01-01,680934.415,Burundi,Mauritius
+2021-01-01,11501.377,Burundi,Morocco
+2021-01-01,96.308,Burundi,Mozambique
+2021-01-01,6028118.888,Burundi,Oman
+2021-01-01,185096.094,Burundi,Netherlands
+2021-01-01,470646.694,Burundi,New Zealand
+2021-01-01,60682.962,Burundi,Niger
+2021-01-01,85434.765,Burundi,Nigeria
+2021-01-01,11835.576,Burundi,Norway
+2021-01-01,10227782.713,Burundi,Pakistan
+2021-01-01,99618.419,Burundi,Portugal
+2021-01-01,4774.359,Burundi,Qatar
+2021-01-01,759.12,Burundi,Romania
+2021-01-01,225205.038,Burundi,Rwanda
+2021-01-01,38417.288,Burundi,Saudi Arabia
+2021-01-01,5359.506,Burundi,Senegal
+2021-01-01,707612.153,Burundi,Seychelles
+2021-01-01,10222.289,Burundi,India
+2021-01-01,794440.093,Burundi,Singapore
+2021-01-01,696487.931,Burundi,Viet Nam
+2021-01-01,234190.342,Burundi,Somalia
+2021-01-01,430270.879,Burundi,South Africa
+2021-01-01,3165.937,Burundi,Zimbabwe
+2021-01-01,5498782.54,Burundi,Sudan
+2021-01-01,40272.92,Burundi,Eswatini
+2021-01-01,1986.919,Burundi,Sweden
+2021-01-01,3486119.006,Burundi,Switzerland
+2021-01-01,1082277.958,Burundi,Thailand
+2021-01-01,45186403.44,Burundi,United Arab Emirates
+2021-01-01,8561.659,Burundi,Türkiye
+2021-01-01,3019337.592,Burundi,Uganda
+2021-01-01,244907.667,Burundi,Ukraine
+2021-01-01,5141525.123,Burundi,Egypt
+2021-01-01,3088295.928,Burundi,United Kingdom
+2021-01-01,7757611.937,Burundi,United Rep. of Tanzania
+2021-01-01,1029808.305,Burundi,USA
+2021-01-01,56689.504,Burundi,Burkina Faso
+2021-01-01,798.445,Burundi,Uzbekistan
+2021-01-01,1141268.962,Burundi,Zambia
+2021-01-01,56847.886,Burundi,"Areas, nes"
 2021-01-01,39889022800,Belarus,World
 2021-01-01,766300,Belarus,Afghanistan
 2021-01-01,372100,Belarus,Albania
@@ -5517,74 +5521,73 @@ date,value,reporter,partner
 2021-01-01,53367459.361,Denmark,Yemen
 2021-01-01,4036779.196,Denmark,Zambia
 2021-01-01,926618920.463,Denmark,"Areas, nes"
-2021-01-01,11725013719.98,Dominican Rep.,World
+2021-01-01,11643220004.19,Dominican Rep.,World
 2021-01-01,7395.77,Dominican Rep.,Albania
 2021-01-01,27625.496,Dominican Rep.,Algeria
 2021-01-01,63805.757,Dominican Rep.,Andorra
 2021-01-01,65753.178,Dominican Rep.,Angola
-2021-01-01,9047130.468,Dominican Rep.,Antigua and Barbuda
-2021-01-01,2201158.275,Dominican Rep.,Argentina
-2021-01-01,13081417.648,Dominican Rep.,Australia
+2021-01-01,9048025.667,Dominican Rep.,Antigua and Barbuda
+2021-01-01,2200943.375,Dominican Rep.,Argentina
+2021-01-01,13081529.56,Dominican Rep.,Australia
 2021-01-01,1046800.006,Dominican Rep.,Austria
-2021-01-01,9205792.362,Dominican Rep.,Bahamas
-2021-01-01,120,Dominican Rep.,Bahrain
-2021-01-01,2584192.536,Dominican Rep.,Bangladesh
+2021-01-01,9205792.369,Dominican Rep.,Bahamas
+2021-01-01,2584192.535,Dominican Rep.,Bangladesh
 2021-01-01,45837.58,Dominican Rep.,Armenia
 2021-01-01,18325873.521,Dominican Rep.,Barbados
-2021-01-01,102739151.545,Dominican Rep.,Belgium
-2021-01-01,307060.057,Dominican Rep.,Bermuda
-2021-01-01,4311079.915,Dominican Rep.,Bolivia (Plurinational State of)
-2021-01-01,20453054.59,Dominican Rep.,Brazil
+2021-01-01,102736032.72,Dominican Rep.,Belgium
+2021-01-01,307060.056,Dominican Rep.,Bermuda
+2021-01-01,4311079.917,Dominican Rep.,Bolivia (Plurinational State of)
+2021-01-01,20436677.59,Dominican Rep.,Brazil
 2021-01-01,1622793.383,Dominican Rep.,Belize
-2021-01-01,4074004.949,Dominican Rep.,Br. Virgin Isds
+2021-01-01,4074168.449,Dominican Rep.,Br. Virgin Isds
 2021-01-01,990035.979,Dominican Rep.,Bulgaria
 2021-01-01,39280.8,Dominican Rep.,Belarus
 2021-01-01,411318.226,Dominican Rep.,Cambodia
-2021-01-01,54392492.297,Dominican Rep.,Canada
+2021-01-01,54379907.033,Dominican Rep.,Canada
 2021-01-01,10082978.777,Dominican Rep.,Cayman Isds
 2021-01-01,41610,Dominican Rep.,Central African Rep.
 2021-01-01,107281.742,Dominican Rep.,Sri Lanka
-2021-01-01,21325280.024,Dominican Rep.,Chile
-2021-01-01,244371793.34,Dominican Rep.,China
-2021-01-01,57428830.047,Dominican Rep.,Colombia
+2021-01-01,21069672.416,Dominican Rep.,Chile
+2021-01-01,244162288.705,Dominican Rep.,China
+2021-01-01,57447122.202,Dominican Rep.,Colombia
 2021-01-01,1104.758,Dominican Rep.,Dem. Rep. of the Congo
-2021-01-01,47195819.663,Dominican Rep.,Costa Rica
+2021-01-01,47195427.832,Dominican Rep.,Costa Rica
 2021-01-01,438393.52,Dominican Rep.,Croatia
-2021-01-01,21688572.511,Dominican Rep.,Cuba
+2021-01-01,21690767.888,Dominican Rep.,Cuba
 2021-01-01,405397.317,Dominican Rep.,Cyprus
 2021-01-01,2572851.176,Dominican Rep.,Czechia
 2021-01-01,2511.2,Dominican Rep.,Benin
 2021-01-01,3306460.271,Dominican Rep.,Denmark
-2021-01-01,4087333.343,Dominican Rep.,Dominica
+2021-01-01,4087338.818,Dominican Rep.,Dominica
 2021-01-01,30030940.027,Dominican Rep.,Ecuador
 2021-01-01,21734013.32,Dominican Rep.,El Salvador
 2021-01-01,2353743.925,Dominican Rep.,Estonia
 2021-01-01,57960265.247,Dominican Rep.,Finland
-2021-01-01,57771031.352,Dominican Rep.,France
+2021-01-01,57666958.37,Dominican Rep.,France
 2021-01-01,4279.86,Dominican Rep.,Georgia
 2021-01-01,24985.294,Dominican Rep.,State of Palestine
-2021-01-01,116230649.154,Dominican Rep.,Germany
+2021-01-01,116175285.913,Dominican Rep.,Germany
 2021-01-01,104499.75,Dominican Rep.,Ghana
-2021-01-01,2346840.783,Dominican Rep.,Greece
+2021-01-01,2405180.783,Dominican Rep.,Greece
 2021-01-01,5352895.203,Dominican Rep.,Grenada
 2021-01-01,27855862.664,Dominican Rep.,Guatemala
 2021-01-01,25236716.02,Dominican Rep.,Guyana
-2021-01-01,954508918.767,Dominican Rep.,Haiti
-2021-01-01,55763329.469,Dominican Rep.,Honduras
-2021-01-01,42503436.779,Dominican Rep.,"China, Hong Kong SAR"
+2021-01-01,954690620.858,Dominican Rep.,Haiti
+2021-01-01,55763444.769,Dominican Rep.,Honduras
+2021-01-01,42503437.899,Dominican Rep.,"China, Hong Kong SAR"
 2021-01-01,149082.815,Dominican Rep.,Hungary
 2021-01-01,3733.237,Dominican Rep.,Iceland
-2021-01-01,21312408.405,Dominican Rep.,Indonesia
+2021-01-01,21312414.089,Dominican Rep.,Indonesia
 2021-01-01,32769.333,Dominican Rep.,Iraq
-2021-01-01,4671823.094,Dominican Rep.,Ireland
-2021-01-01,3043859.817,Dominican Rep.,Israel
-2021-01-01,99451752.584,Dominican Rep.,Italy
+2021-01-01,4669039.185,Dominican Rep.,Ireland
+2021-01-01,3041352.817,Dominican Rep.,Israel
+2021-01-01,99457857.1,Dominican Rep.,Italy
 2021-01-01,32814.28,Dominican Rep.,Côte d'Ivoire
-2021-01-01,85630410.59,Dominican Rep.,Jamaica
-2021-01-01,47575402.252,Dominican Rep.,Japan
+2021-01-01,85093519.215,Dominican Rep.,Jamaica
+2021-01-01,47507391.016,Dominican Rep.,Japan
 2021-01-01,206788.812,Dominican Rep.,Jordan
 2021-01-01,3687.561,Dominican Rep.,Kenya
-2021-01-01,23949997.401,Dominican Rep.,Rep. of Korea
+2021-01-01,23945258.025,Dominican Rep.,Rep. of Korea
 2021-01-01,157410,Dominican Rep.,Kuwait
 2021-01-01,3600,Dominican Rep.,Kyrgyzstan
 2021-01-01,94053.608,Dominican Rep.,Lebanon
@@ -5594,70 +5597,68 @@ date,value,reporter,partner
 2021-01-01,134971.82,Dominican Rep.,Lithuania
 2021-01-01,141186.412,Dominican Rep.,Luxembourg
 2021-01-01,2800,Dominican Rep.,"China, Macao SAR"
-2021-01-01,15456071.056,Dominican Rep.,Malaysia
+2021-01-01,15456056.517,Dominican Rep.,Malaysia
 2021-01-01,581859.76,Dominican Rep.,Malta
-2021-01-01,26189704.87,Dominican Rep.,Mexico
-2021-01-01,48440172.506,Dominican Rep.,"Other Asia, nes"
+2021-01-01,26247858.204,Dominican Rep.,Mexico
+2021-01-01,48480029.38,Dominican Rep.,"Other Asia, nes"
 2021-01-01,5934.233,Dominican Rep.,Mongolia
 2021-01-01,173397.224,Dominican Rep.,Montserrat
-2021-01-01,12,Dominican Rep.,Morocco
 2021-01-01,35029.859,Dominican Rep.,Mozambique
 2021-01-01,8000,Dominican Rep.,Oman
 2021-01-01,13442.8,Dominican Rep.,Nepal
-2021-01-01,415756703.34,Dominican Rep.,Netherlands
-2021-01-01,13134727.625,Dominican Rep.,Curaçao
-2021-01-01,6921658.226,Dominican Rep.,Aruba
-2021-01-01,5845125.325,Dominican Rep.,New Zealand
-2021-01-01,51514584.829,Dominican Rep.,Nicaragua
+2021-01-01,415584820.267,Dominican Rep.,Netherlands
+2021-01-01,13138294.947,Dominican Rep.,Curaçao
+2021-01-01,6921660.026,Dominican Rep.,Aruba
+2021-01-01,5845097.105,Dominican Rep.,New Zealand
+2021-01-01,51487763.254,Dominican Rep.,Nicaragua
 2021-01-01,93259.17,Dominican Rep.,Nigeria
 2021-01-01,1613098.884,Dominican Rep.,Norway
 2021-01-01,17730.425,Dominican Rep.,United States Minor Outlying Islands
 2021-01-01,11600,Dominican Rep.,Marshall Isds
 2021-01-01,1433290.456,Dominican Rep.,Pakistan
-2021-01-01,64883469.092,Dominican Rep.,Panama
+2021-01-01,64904693.78,Dominican Rep.,Panama
 2021-01-01,1728996.558,Dominican Rep.,Paraguay
-2021-01-01,12176737.817,Dominican Rep.,Peru
-2021-01-01,20293730.725,Dominican Rep.,Philippines
+2021-01-01,12161824.974,Dominican Rep.,Peru
+2021-01-01,20293685.725,Dominican Rep.,Philippines
 2021-01-01,19598189.833,Dominican Rep.,Poland
 2021-01-01,3025192.221,Dominican Rep.,Portugal
 2021-01-01,2406.274,Dominican Rep.,Qatar
 2021-01-01,512698.544,Dominican Rep.,Romania
-2021-01-01,15651288.224,Dominican Rep.,Russian Federation
+2021-01-01,15651286.277,Dominican Rep.,Russian Federation
 2021-01-01,113587.089,Dominican Rep.,Saint Barthélemy
-2021-01-01,1845483.986,Dominican Rep.,Saint Kitts and Nevis
-2021-01-01,1832255.189,Dominican Rep.,Anguilla
+2021-01-01,1845540.583,Dominican Rep.,Saint Kitts and Nevis
+2021-01-01,1832259.032,Dominican Rep.,Anguilla
 2021-01-01,7114482.743,Dominican Rep.,Saint Lucia
 2021-01-01,2787284.468,Dominican Rep.,Saint Vincent and the Grenadines
 2021-01-01,396688.351,Dominican Rep.,Sao Tome and Principe
-2021-01-01,979706.096,Dominican Rep.,Saudi Arabia
+2021-01-01,979705.512,Dominican Rep.,Saudi Arabia
 2021-01-01,219059.919,Dominican Rep.,Serbia
 2021-01-01,168.864,Dominican Rep.,Sierra Leone
-2021-01-01,750595733.305,Dominican Rep.,India
+2021-01-01,667114093.801,Dominican Rep.,India
 2021-01-01,28838346.583,Dominican Rep.,Singapore
 2021-01-01,375734.337,Dominican Rep.,Slovakia
-2021-01-01,14216694.136,Dominican Rep.,Viet Nam
-2021-01-01,881521.626,Dominican Rep.,South Africa
+2021-01-01,14217120.247,Dominican Rep.,Viet Nam
+2021-01-01,880741.626,Dominican Rep.,South Africa
 2021-01-01,1410.001,Dominican Rep.,Zimbabwe
-2021-01-01,81269624.988,Dominican Rep.,Spain
-2021-01-01,720,Dominican Rep.,Sudan
-2021-01-01,9940452.901,Dominican Rep.,Suriname
-2021-01-01,48447290.16,Dominican Rep.,Sweden
-2021-01-01,961459227.62,Dominican Rep.,Switzerland
+2021-01-01,81247411.221,Dominican Rep.,Spain
+2021-01-01,9940430.193,Dominican Rep.,Suriname
+2021-01-01,48447799.931,Dominican Rep.,Sweden
+2021-01-01,961447631.445,Dominican Rep.,Switzerland
 2021-01-01,13369955.948,Dominican Rep.,Thailand
 2021-01-01,33263.221,Dominican Rep.,Togo
-2021-01-01,38450714.663,Dominican Rep.,Trinidad and Tobago
+2021-01-01,38332705.58,Dominican Rep.,Trinidad and Tobago
 2021-01-01,31409594.933,Dominican Rep.,United Arab Emirates
 2021-01-01,195353.21,Dominican Rep.,Tunisia
-2021-01-01,7867797.886,Dominican Rep.,Türkiye
+2021-01-01,8214422.309,Dominican Rep.,Türkiye
 2021-01-01,12922887.549,Dominican Rep.,Turks and Caicos Isds
 2021-01-01,792,Dominican Rep.,Uganda
 2021-01-01,987651.473,Dominican Rep.,Ukraine
 2021-01-01,13171.29,Dominican Rep.,North Macedonia
 2021-01-01,1007463.288,Dominican Rep.,Egypt
-2021-01-01,86885427.361,Dominican Rep.,United Kingdom
-2021-01-01,6517343825.121,Dominican Rep.,USA
-2021-01-01,1848712.906,Dominican Rep.,Uruguay
-2021-01-01,24809776.163,Dominican Rep.,Venezuela
+2021-01-01,90038676.705,Dominican Rep.,United Kingdom
+2021-01-01,6517724679.816,Dominican Rep.,USA
+2021-01-01,1846641.681,Dominican Rep.,Uruguay
+2021-01-01,23866660.661,Dominican Rep.,Venezuela
 2021-01-01,5184649.986,Dominican Rep.,"Areas, nes"
 2021-01-01,26699199844.372,Ecuador,World
 2021-01-01,24829059.29,Ecuador,Albania
@@ -6885,135 +6886,135 @@ date,value,reporter,partner
 2021-01-01,23923563.456,French Polynesia,USA
 2021-01-01,113663.928,French Polynesia,Wallis and Futuna Isds
 2021-01-01,5709426.147,French Polynesia,"Areas, nes"
-2021-01-01,4242653017.17,Georgia,World
-2021-01-01,441230.56,Georgia,Afghanistan
-2021-01-01,756100.07,Georgia,Albania
+2021-01-01,4242512935.07,Georgia,World
+2021-01-01,441230.61,Georgia,Afghanistan
+2021-01-01,756100.14,Georgia,Albania
 2021-01-01,1024840,Georgia,Algeria
 2021-01-01,32.6,Georgia,Angola
-2021-01-01,531725076.31,Georgia,Azerbaijan
-2021-01-01,2120255.73,Georgia,Argentina
-2021-01-01,1642342.2,Georgia,Australia
-2021-01-01,1524051.4,Georgia,Austria
+2021-01-01,531725086.73,Georgia,Azerbaijan
+2021-01-01,2120255.74,Georgia,Argentina
+2021-01-01,1642342.32,Georgia,Australia
+2021-01-01,1524052.7,Georgia,Austria
 2021-01-01,66966.73,Georgia,Bahrain
 2021-01-01,309619,Georgia,Bangladesh
-2021-01-01,256115802.91,Georgia,Armenia
-2021-01-01,22249842.78,Georgia,Belgium
+2021-01-01,256101565.26,Georgia,Armenia
+2021-01-01,22249843.05,Georgia,Belgium
 2021-01-01,31100,Georgia,Bhutan
 2021-01-01,69796.92,Georgia,Bolivia (Plurinational State of)
-2021-01-01,7036948.96,Georgia,Brazil
-2021-01-01,253948449.09,Georgia,Bulgaria
-2021-01-01,59425892.4,Georgia,Belarus
+2021-01-01,7036948.97,Georgia,Brazil
+2021-01-01,253948452.62,Georgia,Bulgaria
+2021-01-01,59425893.43,Georgia,Belarus
 2021-01-01,27700,Georgia,Cambodia
-2021-01-01,15623736.56,Georgia,Canada
+2021-01-01,15623736.65,Georgia,Canada
 2021-01-01,891.52,Georgia,Sri Lanka
-2021-01-01,7497.99,Georgia,Chad
-2021-01-01,6631978.2,Georgia,Chile
-2021-01-01,615684441.43,Georgia,China
+2021-01-01,7498,Georgia,Chad
+2021-01-01,6631978.22,Georgia,Chile
+2021-01-01,615684443.39,Georgia,China
 2021-01-01,5073894.65,Georgia,Colombia
 2021-01-01,16977,Georgia,Costa Rica
-2021-01-01,545320.38,Georgia,Croatia
+2021-01-01,545321.01,Georgia,Croatia
 2021-01-01,24255,Georgia,Cuba
-2021-01-01,271609.39,Georgia,Cyprus
-2021-01-01,9670956.84,Georgia,Czechia
+2021-01-01,271609.51,Georgia,Cyprus
+2021-01-01,9670963.42,Georgia,Czechia
 2021-01-01,603.54,Georgia,Benin
-2021-01-01,2158799.93,Georgia,Denmark
+2021-01-01,2158400.25,Georgia,Denmark
 2021-01-01,769944.96,Georgia,Ecuador
 2021-01-01,20119.32,Georgia,Ethiopia
-2021-01-01,3540627.78,Georgia,Estonia
-2021-01-01,1025610.58,Georgia,Finland
-2021-01-01,34358246.3,Georgia,France
-2021-01-01,7605.24,Georgia,State of Palestine
-2021-01-01,67902349.66,Georgia,Germany
+2021-01-01,3540628.25,Georgia,Estonia
+2021-01-01,1025610.82,Georgia,Finland
+2021-01-01,34356480.64,Georgia,France
+2021-01-01,7605.25,Georgia,State of Palestine
+2021-01-01,67805355.81,Georgia,Germany
 2021-01-01,371184.17,Georgia,Ghana
-2021-01-01,8990404.19,Georgia,Greece
+2021-01-01,8990404.87,Georgia,Greece
 2021-01-01,86860,Georgia,Honduras
-2021-01-01,4737154.47,Georgia,"China, Hong Kong SAR"
-2021-01-01,1313449.59,Georgia,Hungary
-2021-01-01,1410.54,Georgia,Iceland
+2021-01-01,4737155.05,Georgia,"China, Hong Kong SAR"
+2021-01-01,1313449.68,Georgia,Hungary
+2021-01-01,1410.55,Georgia,Iceland
 2021-01-01,30003.9,Georgia,Indonesia
-2021-01-01,25647892.26,Georgia,Iran
-2021-01-01,16564182.86,Georgia,Iraq
-2021-01-01,1832656.85,Georgia,Ireland
-2021-01-01,20844070.03,Georgia,Israel
-2021-01-01,58342899.19,Georgia,Italy
+2021-01-01,25647893.58,Georgia,Iran
+2021-01-01,16564183.11,Georgia,Iraq
+2021-01-01,1832656.86,Georgia,Ireland
+2021-01-01,20844071.25,Georgia,Israel
+2021-01-01,58342901.22,Georgia,Italy
 2021-01-01,99900,Georgia,Côte d'Ivoire
-2021-01-01,18937990.26,Georgia,Japan
-2021-01-01,96181633.58,Georgia,Kazakhstan
+2021-01-01,18937990.38,Georgia,Japan
+2021-01-01,96181634.65,Georgia,Kazakhstan
 2021-01-01,1380443.85,Georgia,Jordan
 2021-01-01,1008274.28,Georgia,Kenya
-2021-01-01,8042964.24,Georgia,Rep. of Korea
-2021-01-01,2164941.57,Georgia,Kuwait
-2021-01-01,30720095.86,Georgia,Kyrgyzstan
-2021-01-01,1170159.51,Georgia,Lebanon
-2021-01-01,10959929.19,Georgia,Latvia
+2021-01-01,8042969.93,Georgia,Rep. of Korea
+2021-01-01,2162941.62,Georgia,Kuwait
+2021-01-01,30720096.35,Georgia,Kyrgyzstan
+2021-01-01,1170159.55,Georgia,Lebanon
+2021-01-01,10959930.18,Georgia,Latvia
 2021-01-01,76000,Georgia,Liberia
-2021-01-01,2994030.83,Georgia,Libya
-2021-01-01,48127862.81,Georgia,Lithuania
-2021-01-01,20781,Georgia,Luxembourg
+2021-01-01,2994030.87,Georgia,Libya
+2021-01-01,48127864.14,Georgia,Lithuania
+2021-01-01,20781.01,Georgia,Luxembourg
 2021-01-01,10926,Georgia,"China, Macao SAR"
-2021-01-01,614396.45,Georgia,Malaysia
+2021-01-01,614396.46,Georgia,Malaysia
 2021-01-01,596658.2,Georgia,Mali
-2021-01-01,125918.08,Georgia,Malta
+2021-01-01,125918.09,Georgia,Malta
 2021-01-01,16438.8,Georgia,Mauritania
 2021-01-01,1122200.34,Georgia,Mexico
-2021-01-01,3171747.62,Georgia,"Other Asia, nes"
+2021-01-01,3171747.65,Georgia,"Other Asia, nes"
 2021-01-01,2447843.66,Georgia,Mongolia
-2021-01-01,19845304.01,Georgia,Rep. of Moldova
+2021-01-01,19845304.76,Georgia,Rep. of Moldova
 2021-01-01,123975,Georgia,Montenegro
-2021-01-01,3451770.24,Georgia,Morocco
+2021-01-01,3451770.25,Georgia,Morocco
 2021-01-01,18502,Georgia,Mozambique
-2021-01-01,179899.45,Georgia,Oman
+2021-01-01,179899.48,Georgia,Oman
 2021-01-01,46350,Georgia,Nepal
-2021-01-01,29140318.25,Georgia,Netherlands
-2021-01-01,48066.64,Georgia,New Zealand
+2021-01-01,29140320.14,Georgia,Netherlands
+2021-01-01,48066.65,Georgia,New Zealand
 2021-01-01,8000,Georgia,Nicaragua
 2021-01-01,3677,Georgia,Niger
-2021-01-01,246125.53,Georgia,Nigeria
-2021-01-01,488170.33,Georgia,Norway
+2021-01-01,246125.67,Georgia,Nigeria
+2021-01-01,488170.44,Georgia,Norway
 2021-01-01,455000,Georgia,Marshall Isds
 2021-01-01,75034.43,Georgia,Pakistan
 2021-01-01,35896.38,Georgia,Panama
 2021-01-01,216042.5,Georgia,Paraguay
 2021-01-01,13709310.63,Georgia,Peru
-2021-01-01,1877523.33,Georgia,Philippines
-2021-01-01,35325040.69,Georgia,Poland
-2021-01-01,729909.55,Georgia,Portugal
-2021-01-01,1840964.52,Georgia,Qatar
-2021-01-01,33537270.49,Georgia,Romania
-2021-01-01,610060050.83,Georgia,Russian Federation
+2021-01-01,1877523.34,Georgia,Philippines
+2021-01-01,35317874.66,Georgia,Poland
+2021-01-01,729909.72,Georgia,Portugal
+2021-01-01,1840964.7,Georgia,Qatar
+2021-01-01,33537271.64,Georgia,Romania
+2021-01-01,610067468.07,Georgia,Russian Federation
 2021-01-01,180,Georgia,Rwanda
-2021-01-01,28737267.75,Georgia,Saudi Arabia
+2021-01-01,28737267.91,Georgia,Saudi Arabia
 2021-01-01,44639.8,Georgia,Senegal
-2021-01-01,472404.18,Georgia,Serbia
-2021-01-01,2993275.2,Georgia,India
-2021-01-01,14746976.65,Georgia,Singapore
-2021-01-01,471610.32,Georgia,Slovakia
-2021-01-01,926034.53,Georgia,Viet Nam
-2021-01-01,580143.73,Georgia,Slovenia
+2021-01-01,472404.21,Georgia,Serbia
+2021-01-01,2993275.31,Georgia,India
+2021-01-01,14746976.94,Georgia,Singapore
+2021-01-01,471610.39,Georgia,Slovakia
+2021-01-01,926034.54,Georgia,Viet Nam
+2021-01-01,580143.77,Georgia,Slovenia
 2021-01-01,60933.4,Georgia,Somalia
-2021-01-01,553168.88,Georgia,South Africa
+2021-01-01,553169,Georgia,South Africa
 2021-01-01,384713,Georgia,Zimbabwe
-2021-01-01,89328199.88,Georgia,Spain
-2021-01-01,354720.48,Georgia,Sudan
-2021-01-01,1174846.51,Georgia,Sweden
-2021-01-01,80528920.64,Georgia,Switzerland
+2021-01-01,89328201.27,Georgia,Spain
+2021-01-01,354720.53,Georgia,Sudan
+2021-01-01,1174846.67,Georgia,Sweden
+2021-01-01,80528921.53,Georgia,Switzerland
 2021-01-01,932252.59,Georgia,Syria
-2021-01-01,12476522.9,Georgia,Tajikistan
+2021-01-01,12476523.47,Georgia,Tajikistan
 2021-01-01,376687.09,Georgia,Thailand
-2021-01-01,20622743.01,Georgia,United Arab Emirates
-2021-01-01,7217093.62,Georgia,Tunisia
-2021-01-01,322761335.3,Georgia,Türkiye
-2021-01-01,11145093.58,Georgia,Turkmenistan
+2021-01-01,20597744.15,Georgia,United Arab Emirates
+2021-01-01,7217093.67,Georgia,Tunisia
+2021-01-01,322761339.59,Georgia,Türkiye
+2021-01-01,11145094.46,Georgia,Turkmenistan
 2021-01-01,227685,Georgia,Uganda
-2021-01-01,307435709.99,Georgia,Ukraine
-2021-01-01,90226.63,Georgia,North Macedonia
-2021-01-01,3784591.67,Georgia,Egypt
-2021-01-01,24034927.45,Georgia,United Kingdom
+2021-01-01,307435712.62,Georgia,Ukraine
+2021-01-01,90226.64,Georgia,North Macedonia
+2021-01-01,3784591.74,Georgia,Egypt
+2021-01-01,24034928.51,Georgia,United Kingdom
 2021-01-01,4077883.13,Georgia,United Rep. of Tanzania
-2021-01-01,194720952.05,Georgia,USA
-2021-01-01,1540437.11,Georgia,Burkina Faso
-2021-01-01,1601694.43,Georgia,Uruguay
-2021-01-01,85638748.76,Georgia,Uzbekistan
+2021-01-01,194720952.95,Georgia,USA
+2021-01-01,1540437.16,Georgia,Burkina Faso
+2021-01-01,1601694.44,Georgia,Uruguay
+2021-01-01,85638749.85,Georgia,Uzbekistan
 2021-01-01,540892,Georgia,Venezuela
 2021-01-01,2486,Georgia,Yemen
 2021-01-01,26401460.44,Gambia,World
@@ -10163,173 +10164,174 @@ date,value,reporter,partner
 2021-01-01,45471278.986,Kenya,Yemen
 2021-01-01,73099414.505,Kenya,Zambia
 2021-01-01,15115636.717,Kenya,"Areas, nes"
-2021-01-01,644411147014,Rep. of Korea,World
-2021-01-01,25389275,Rep. of Korea,Afghanistan
-2021-01-01,33998544,Rep. of Korea,Albania
-2021-01-01,197253410,Rep. of Korea,Algeria
+2021-01-01,644372936752,Rep. of Korea,World
+2021-01-01,25389274,Rep. of Korea,Afghanistan
+2021-01-01,33994544,Rep. of Korea,Albania
+2021-01-01,197257782,Rep. of Korea,Algeria
 2021-01-01,17443694,Rep. of Korea,American Samoa
 2021-01-01,1082348,Rep. of Korea,Andorra
-2021-01-01,101912575,Rep. of Korea,Angola
+2021-01-01,101631882,Rep. of Korea,Angola
 2021-01-01,2832083,Rep. of Korea,Antigua and Barbuda
-2021-01-01,108081874,Rep. of Korea,Azerbaijan
+2021-01-01,108117381,Rep. of Korea,Azerbaijan
 2021-01-01,390620182,Rep. of Korea,Argentina
-2021-01-01,9745255797,Rep. of Korea,Australia
-2021-01-01,1300722147,Rep. of Korea,Austria
-2021-01-01,874817338,Rep. of Korea,Bahamas
-2021-01-01,185233609,Rep. of Korea,Bahrain
-2021-01-01,1635851723,Rep. of Korea,Bangladesh
+2021-01-01,9750467042,Rep. of Korea,Australia
+2021-01-01,1300632425,Rep. of Korea,Austria
+2021-01-01,874998638,Rep. of Korea,Bahamas
+2021-01-01,185230629,Rep. of Korea,Bahrain
+2021-01-01,1635853637,Rep. of Korea,Bangladesh
 2021-01-01,22844572,Rep. of Korea,Armenia
 2021-01-01,6537107,Rep. of Korea,Barbados
-2021-01-01,4436744753,Rep. of Korea,Belgium
-2021-01-01,568711888,Rep. of Korea,Bermuda
+2021-01-01,4437676609,Rep. of Korea,Belgium
+2021-01-01,569042555,Rep. of Korea,Bermuda
 2021-01-01,11035219,Rep. of Korea,Bhutan
-2021-01-01,33292948,Rep. of Korea,Bolivia (Plurinational State of)
+2021-01-01,33384280,Rep. of Korea,Bolivia (Plurinational State of)
 2021-01-01,12384267,Rep. of Korea,Bosnia Herzegovina
 2021-01-01,10408755,Rep. of Korea,Botswana
 2021-01-01,75200,Rep. of Korea,Bouvet Island
-2021-01-01,4666743667,Rep. of Korea,Brazil
+2021-01-01,4666440271,Rep. of Korea,Brazil
 2021-01-01,4167932,Rep. of Korea,Belize
 2021-01-01,85192,Rep. of Korea,Br. Indian Ocean Terr.
 2021-01-01,7664582,Rep. of Korea,Solomon Isds
 2021-01-01,1414926,Rep. of Korea,Br. Virgin Isds
-2021-01-01,45641240,Rep. of Korea,Brunei Darussalam
-2021-01-01,166853318,Rep. of Korea,Bulgaria
-2021-01-01,367628491,Rep. of Korea,Myanmar
+2021-01-01,45642686,Rep. of Korea,Brunei Darussalam
+2021-01-01,166799108,Rep. of Korea,Bulgaria
+2021-01-01,367934065,Rep. of Korea,Myanmar
 2021-01-01,2330416,Rep. of Korea,Burundi
-2021-01-01,69496971,Rep. of Korea,Belarus
-2021-01-01,623628405,Rep. of Korea,Cambodia
-2021-01-01,98063221,Rep. of Korea,Cameroon
-2021-01-01,6714505794,Rep. of Korea,Canada
+2021-01-01,69611652,Rep. of Korea,Belarus
+2021-01-01,623848103,Rep. of Korea,Cambodia
+2021-01-01,97992841,Rep. of Korea,Cameroon
+2021-01-01,6714456144,Rep. of Korea,Canada
 2021-01-01,3764180,Rep. of Korea,Cabo Verde
 2021-01-01,41946086,Rep. of Korea,Cayman Isds
 2021-01-01,3811650,Rep. of Korea,Central African Rep.
-2021-01-01,287711554,Rep. of Korea,Sri Lanka
+2021-01-01,287727182,Rep. of Korea,Sri Lanka
 2021-01-01,874046,Rep. of Korea,Chad
-2021-01-01,1573060844,Rep. of Korea,Chile
-2021-01-01,162919704314,Rep. of Korea,China
+2021-01-01,1574181933,Rep. of Korea,Chile
+2021-01-01,162912971626,Rep. of Korea,China
 2021-01-01,4019,Rep. of Korea,Cocos Isds
-2021-01-01,898413452,Rep. of Korea,Colombia
+2021-01-01,898174309,Rep. of Korea,Colombia
 2021-01-01,862671,Rep. of Korea,Comoros
-2021-01-01,26313125,Rep. of Korea,Congo
+2021-01-01,26290345,Rep. of Korea,Congo
 2021-01-01,68657762,Rep. of Korea,Dem. Rep. of the Congo
 2021-01-01,2739,Rep. of Korea,Cook Isds
-2021-01-01,191269915,Rep. of Korea,Costa Rica
+2021-01-01,191258001,Rep. of Korea,Costa Rica
 2021-01-01,142073736,Rep. of Korea,Croatia
-2021-01-01,21194480,Rep. of Korea,Cuba
-2021-01-01,214642145,Rep. of Korea,Cyprus
-2021-01-01,2954035028,Rep. of Korea,Czechia
+2021-01-01,22395765,Rep. of Korea,Cuba
+2021-01-01,214624999,Rep. of Korea,Cyprus
+2021-01-01,2953826529,Rep. of Korea,Czechia
 2021-01-01,16043916,Rep. of Korea,Benin
-2021-01-01,744390967,Rep. of Korea,Denmark
+2021-01-01,744456780,Rep. of Korea,Denmark
 2021-01-01,3347537,Rep. of Korea,Dominica
-2021-01-01,311074087,Rep. of Korea,Dominican Rep.
-2021-01-01,761571662,Rep. of Korea,Ecuador
-2021-01-01,254462529,Rep. of Korea,El Salvador
+2021-01-01,311057018,Rep. of Korea,Dominican Rep.
+2021-01-01,761501911,Rep. of Korea,Ecuador
+2021-01-01,254530408,Rep. of Korea,El Salvador
 2021-01-01,14786356,Rep. of Korea,Equatorial Guinea
-2021-01-01,140350077,Rep. of Korea,Ethiopia
+2021-01-01,140336579,Rep. of Korea,Ethiopia
 2021-01-01,895813,Rep. of Korea,Eritrea
-2021-01-01,116063673,Rep. of Korea,Estonia
+2021-01-01,116063113,Rep. of Korea,Estonia
 2021-01-01,7781,Rep. of Korea,Faeroe Isds
 2021-01-01,6172,Rep. of Korea,Falkland Isds (Malvinas)
-2021-01-01,104644,Rep. of Korea,South Georgia and the South Sandwich Islands
-2021-01-01,176347886,Rep. of Korea,Fiji
-2021-01-01,530875613,Rep. of Korea,Finland
-2021-01-01,4661020405,Rep. of Korea,France
+2021-01-01,101944,Rep. of Korea,South Georgia and the South Sandwich Islands
+2021-01-01,176323237,Rep. of Korea,Fiji
+2021-01-01,530878518,Rep. of Korea,Finland
+2021-01-01,4660802744,Rep. of Korea,France
 2021-01-01,21990741,Rep. of Korea,French Polynesia
-2021-01-01,36234488,Rep. of Korea,Djibouti
-2021-01-01,7832972,Rep. of Korea,Gabon
-2021-01-01,103227622,Rep. of Korea,Georgia
+2021-01-01,36228368,Rep. of Korea,Djibouti
+2021-01-01,7831507,Rep. of Korea,Gabon
+2021-01-01,103113764,Rep. of Korea,Georgia
 2021-01-01,3783657,Rep. of Korea,Gambia
-2021-01-01,62652564,Rep. of Korea,State of Palestine
-2021-01-01,11102354458,Rep. of Korea,Germany
-2021-01-01,297900133,Rep. of Korea,Ghana
+2021-01-01,62577664,Rep. of Korea,State of Palestine
+2021-01-01,11105527384,Rep. of Korea,Germany
+2021-01-01,297972508,Rep. of Korea,Ghana
 2021-01-01,1023401,Rep. of Korea,Gibraltar
 2021-01-01,10272873,Rep. of Korea,Kiribati
-2021-01-01,2029856731,Rep. of Korea,Greece
+2021-01-01,2029901183,Rep. of Korea,Greece
 2021-01-01,3207,Rep. of Korea,Greenland
 2021-01-01,2277811,Rep. of Korea,Grenada
 2021-01-01,103550345,Rep. of Korea,Guam
-2021-01-01,383924433,Rep. of Korea,Guatemala
-2021-01-01,52618253,Rep. of Korea,Guinea
+2021-01-01,383922276,Rep. of Korea,Guatemala
+2021-01-01,52604141,Rep. of Korea,Guinea
 2021-01-01,25704313,Rep. of Korea,Guyana
 2021-01-01,85034948,Rep. of Korea,Haiti
-2021-01-01,135460743,Rep. of Korea,Honduras
-2021-01-01,37470039626,Rep. of Korea,"China, Hong Kong SAR"
-2021-01-01,4051341873,Rep. of Korea,Hungary
+2021-01-01,135446065,Rep. of Korea,Honduras
+2021-01-01,37465021175,Rep. of Korea,"China, Hong Kong SAR"
+2021-01-01,4051511539,Rep. of Korea,Hungary
 2021-01-01,52919653,Rep. of Korea,Iceland
-2021-01-01,8552309093,Rep. of Korea,Indonesia
-2021-01-01,177556370,Rep. of Korea,Iran
-2021-01-01,986404380,Rep. of Korea,Iraq
-2021-01-01,989729862,Rep. of Korea,Ireland
-2021-01-01,1822621203,Rep. of Korea,Israel
-2021-01-01,4596756088,Rep. of Korea,Italy
-2021-01-01,182794795,Rep. of Korea,Côte d'Ivoire
+2021-01-01,8550335256,Rep. of Korea,Indonesia
+2021-01-01,177469063,Rep. of Korea,Iran
+2021-01-01,986297380,Rep. of Korea,Iraq
+2021-01-01,989738485,Rep. of Korea,Ireland
+2021-01-01,1822163689,Rep. of Korea,Israel
+2021-01-01,4597166084,Rep. of Korea,Italy
+2021-01-01,182763701,Rep. of Korea,Côte d'Ivoire
 2021-01-01,29862894,Rep. of Korea,Jamaica
-2021-01-01,30063087832,Rep. of Korea,Japan
-2021-01-01,769198197,Rep. of Korea,Kazakhstan
-2021-01-01,669332335,Rep. of Korea,Jordan
-2021-01-01,258443899,Rep. of Korea,Kenya
-2021-01-01,349135652,Rep. of Korea,Kuwait
-2021-01-01,112558080,Rep. of Korea,Kyrgyzstan
+2021-01-01,30061769927,Rep. of Korea,Japan
+2021-01-01,769065053,Rep. of Korea,Kazakhstan
+2021-01-01,668911031,Rep. of Korea,Jordan
+2021-01-01,258419285,Rep. of Korea,Kenya
+2021-01-01,348910838,Rep. of Korea,Kuwait
+2021-01-01,112507122,Rep. of Korea,Kyrgyzstan
 2021-01-01,70521778,Rep. of Korea,Lao People's Dem. Rep.
-2021-01-01,94943738,Rep. of Korea,Lebanon
+2021-01-01,94951680,Rep. of Korea,Lebanon
 2021-01-01,1767928,Rep. of Korea,Lesotho
-2021-01-01,74906407,Rep. of Korea,Latvia
-2021-01-01,1992197212,Rep. of Korea,Liberia
-2021-01-01,428530032,Rep. of Korea,Libya
-2021-01-01,224618602,Rep. of Korea,Lithuania
-2021-01-01,37061532,Rep. of Korea,Luxembourg
+2021-01-01,74902061,Rep. of Korea,Latvia
+2021-01-01,1992411612,Rep. of Korea,Liberia
+2021-01-01,428883035,Rep. of Korea,Libya
+2021-01-01,224484162,Rep. of Korea,Lithuania
+2021-01-01,37373266,Rep. of Korea,Luxembourg
 2021-01-01,30318278,Rep. of Korea,"China, Macao SAR"
-2021-01-01,39705894,Rep. of Korea,Madagascar
-2021-01-01,11702951,Rep. of Korea,Malawi
-2021-01-01,10104931093,Rep. of Korea,Malaysia
+2021-01-01,39705161,Rep. of Korea,Madagascar
+2021-01-01,11705898,Rep. of Korea,Malawi
+2021-01-01,10107327944,Rep. of Korea,Malaysia
 2021-01-01,16568408,Rep. of Korea,Maldives
 2021-01-01,27333316,Rep. of Korea,Mali
-2021-01-01,3027586599,Rep. of Korea,Malta
-2021-01-01,8000210,Rep. of Korea,Mauritania
-2021-01-01,33315459,Rep. of Korea,Mauritius
-2021-01-01,11289114769,Rep. of Korea,Mexico
-2021-01-01,24292807756,Rep. of Korea,"Other Asia, nes"
-2021-01-01,384985735,Rep. of Korea,Mongolia
-2021-01-01,20561442,Rep. of Korea,Rep. of Moldova
+2021-01-01,3027597738,Rep. of Korea,Malta
+2021-01-01,8070730,Rep. of Korea,Mauritania
+2021-01-01,33313574,Rep. of Korea,Mauritius
+2021-01-01,11290247513,Rep. of Korea,Mexico
+2021-01-01,24285256296,Rep. of Korea,"Other Asia, nes"
+2021-01-01,384715180,Rep. of Korea,Mongolia
+2021-01-01,20529932,Rep. of Korea,Rep. of Moldova
 2021-01-01,2572707,Rep. of Korea,Montenegro
 2021-01-01,2869,Rep. of Korea,Montserrat
-2021-01-01,309622374,Rep. of Korea,Morocco
+2021-01-01,309608465,Rep. of Korea,Morocco
 2021-01-01,2593094308,Rep. of Korea,Mozambique
-2021-01-01,387787040,Rep. of Korea,Oman
+2021-01-01,387624745,Rep. of Korea,Oman
 2021-01-01,8803160,Rep. of Korea,Namibia
 2021-01-01,727989,Rep. of Korea,Nauru
-2021-01-01,85355162,Rep. of Korea,Nepal
-2021-01-01,5823129247,Rep. of Korea,Netherlands
+2021-01-01,85355836,Rep. of Korea,Nepal
+2021-01-01,5810766698,Rep. of Korea,Netherlands
 2021-01-01,5291537,Rep. of Korea,Curaçao
 2021-01-01,11611883,Rep. of Korea,Aruba
 2021-01-01,43542,Rep. of Korea,Sint Maarten
-2021-01-01,24343023,Rep. of Korea,New Caledonia
+2021-01-01,43120,Rep. of Korea,Bonaire
+2021-01-01,24343437,Rep. of Korea,New Caledonia
 2021-01-01,6504736,Rep. of Korea,Vanuatu
-2021-01-01,1920527080,Rep. of Korea,New Zealand
-2021-01-01,79153631,Rep. of Korea,Nicaragua
+2021-01-01,1924022187,Rep. of Korea,New Zealand
+2021-01-01,79156131,Rep. of Korea,Nicaragua
 2021-01-01,7300995,Rep. of Korea,Niger
-2021-01-01,963715480,Rep. of Korea,Nigeria
-2021-01-01,813846592,Rep. of Korea,Norway
-2021-01-01,15798715,Rep. of Korea,N. Mariana Isds
+2021-01-01,962965656,Rep. of Korea,Nigeria
+2021-01-01,813955192,Rep. of Korea,Norway
+2021-01-01,15800749,Rep. of Korea,N. Mariana Isds
 2021-01-01,137681,Rep. of Korea,United States Minor Outlying Islands
 2021-01-01,8138323,Rep. of Korea,FS Micronesia
-2021-01-01,3458098469,Rep. of Korea,Marshall Isds
-2021-01-01,13064589,Rep. of Korea,Palau
-2021-01-01,1545728272,Rep. of Korea,Pakistan
-2021-01-01,1570145996,Rep. of Korea,Panama
-2021-01-01,75876662,Rep. of Korea,Papua New Guinea
-2021-01-01,121096936,Rep. of Korea,Paraguay
-2021-01-01,794051126,Rep. of Korea,Peru
-2021-01-01,9655774335,Rep. of Korea,Philippines
+2021-01-01,3458075012,Rep. of Korea,Marshall Isds
+2021-01-01,13066038,Rep. of Korea,Palau
+2021-01-01,1545936380,Rep. of Korea,Pakistan
+2021-01-01,1570171178,Rep. of Korea,Panama
+2021-01-01,75125619,Rep. of Korea,Papua New Guinea
+2021-01-01,121082466,Rep. of Korea,Paraguay
+2021-01-01,793795517,Rep. of Korea,Peru
+2021-01-01,9659072260,Rep. of Korea,Philippines
 2021-01-01,342,Rep. of Korea,Pitcairn
-2021-01-01,6595606938,Rep. of Korea,Poland
-2021-01-01,744462604,Rep. of Korea,Portugal
+2021-01-01,6595797739,Rep. of Korea,Poland
+2021-01-01,744393405,Rep. of Korea,Portugal
 2021-01-01,574288,Rep. of Korea,Guinea-Bissau
-2021-01-01,1869272,Rep. of Korea,Timor-Leste
-2021-01-01,420141403,Rep. of Korea,Qatar
-2021-01-01,587961937,Rep. of Korea,Romania
-2021-01-01,9982574279,Rep. of Korea,Russian Federation
-2021-01-01,31094337,Rep. of Korea,Rwanda
+2021-01-01,1870669,Rep. of Korea,Timor-Leste
+2021-01-01,420151993,Rep. of Korea,Qatar
+2021-01-01,588049399,Rep. of Korea,Romania
+2021-01-01,9979538436,Rep. of Korea,Russian Federation
+2021-01-01,30912009,Rep. of Korea,Rwanda
 2021-01-01,753423,Rep. of Korea,Saint Barthélemy
 2021-01-01,8986,Rep. of Korea,Saint Helena
 2021-01-01,4122827,Rep. of Korea,Saint Kitts and Nevis
@@ -10338,53 +10340,53 @@ date,value,reporter,partner
 2021-01-01,2200493,Rep. of Korea,Saint Vincent and the Grenadines
 2021-01-01,224574,Rep. of Korea,San Marino
 2021-01-01,403484,Rep. of Korea,Sao Tome and Principe
-2021-01-01,3323890136,Rep. of Korea,Saudi Arabia
+2021-01-01,3324694425,Rep. of Korea,Saudi Arabia
 2021-01-01,98816737,Rep. of Korea,Senegal
 2021-01-01,267572880,Rep. of Korea,Serbia
-2021-01-01,13768494,Rep. of Korea,Seychelles
+2021-01-01,13768240,Rep. of Korea,Seychelles
 2021-01-01,8934731,Rep. of Korea,Sierra Leone
-2021-01-01,15604219971,Rep. of Korea,India
-2021-01-01,14175178144,Rep. of Korea,Singapore
-2021-01-01,2836023520,Rep. of Korea,Slovakia
-2021-01-01,56729065077,Rep. of Korea,Viet Nam
-2021-01-01,1360559054,Rep. of Korea,Slovenia
+2021-01-01,15603258123,Rep. of Korea,India
+2021-01-01,14148488122,Rep. of Korea,Singapore
+2021-01-01,2836045898,Rep. of Korea,Slovakia
+2021-01-01,56728532105,Rep. of Korea,Viet Nam
+2021-01-01,1360769648,Rep. of Korea,Slovenia
 2021-01-01,14350426,Rep. of Korea,Somalia
-2021-01-01,990052405,Rep. of Korea,South Africa
+2021-01-01,988619451,Rep. of Korea,South Africa
 2021-01-01,20404201,Rep. of Korea,Zimbabwe
-2021-01-01,2831958068,Rep. of Korea,Spain
+2021-01-01,2846418170,Rep. of Korea,Spain
 2021-01-01,2866700,Rep. of Korea,South Sudan
-2021-01-01,152307481,Rep. of Korea,Sudan
+2021-01-01,152797750,Rep. of Korea,Sudan
 2021-01-01,6411769,Rep. of Korea,Suriname
 2021-01-01,3123642,Rep. of Korea,Eswatini
-2021-01-01,1520462055,Rep. of Korea,Sweden
-2021-01-01,869893328,Rep. of Korea,Switzerland
-2021-01-01,28022181,Rep. of Korea,Syria
-2021-01-01,51490569,Rep. of Korea,Tajikistan
-2021-01-01,8525646720,Rep. of Korea,Thailand
+2021-01-01,1520456123,Rep. of Korea,Sweden
+2021-01-01,869877160,Rep. of Korea,Switzerland
+2021-01-01,28028001,Rep. of Korea,Syria
+2021-01-01,51493969,Rep. of Korea,Tajikistan
+2021-01-01,8524214642,Rep. of Korea,Thailand
 2021-01-01,473600505,Rep. of Korea,Togo
 2021-01-01,154488,Rep. of Korea,Tokelau
 2021-01-01,247667,Rep. of Korea,Tonga
-2021-01-01,49221618,Rep. of Korea,Trinidad and Tobago
-2021-01-01,3962083193,Rep. of Korea,United Arab Emirates
+2021-01-01,49213869,Rep. of Korea,Trinidad and Tobago
+2021-01-01,3963321281,Rep. of Korea,United Arab Emirates
 2021-01-01,219285265,Rep. of Korea,Tunisia
-2021-01-01,7025311331,Rep. of Korea,Türkiye
+2021-01-01,7025977903,Rep. of Korea,Türkiye
 2021-01-01,8833494,Rep. of Korea,Turkmenistan
 2021-01-01,307520,Rep. of Korea,Turks and Caicos Isds
 2021-01-01,11502163,Rep. of Korea,Tuvalu
 2021-01-01,33176054,Rep. of Korea,Uganda
-2021-01-01,581764738,Rep. of Korea,Ukraine
+2021-01-01,581488300,Rep. of Korea,Ukraine
 2021-01-01,7606908,Rep. of Korea,North Macedonia
-2021-01-01,1682001824,Rep. of Korea,Egypt
-2021-01-01,5961242884,Rep. of Korea,United Kingdom
-2021-01-01,200122148,Rep. of Korea,United Rep. of Tanzania
-2021-01-01,96306578093,Rep. of Korea,USA
+2021-01-01,1681639930,Rep. of Korea,Egypt
+2021-01-01,5962125184,Rep. of Korea,United Kingdom
+2021-01-01,200127901,Rep. of Korea,United Rep. of Tanzania
+2021-01-01,96299348465,Rep. of Korea,USA
 2021-01-01,43626797,Rep. of Korea,Burkina Faso
-2021-01-01,134003501,Rep. of Korea,Uruguay
-2021-01-01,1879122773,Rep. of Korea,Uzbekistan
-2021-01-01,31161605,Rep. of Korea,Venezuela
+2021-01-01,134029984,Rep. of Korea,Uruguay
+2021-01-01,1879454822,Rep. of Korea,Uzbekistan
+2021-01-01,31143005,Rep. of Korea,Venezuela
 2021-01-01,105706,Rep. of Korea,Wallis and Futuna Isds
 2021-01-01,32373632,Rep. of Korea,Samoa
-2021-01-01,118604114,Rep. of Korea,Yemen
+2021-01-01,118577197,Rep. of Korea,Yemen
 2021-01-01,28356387,Rep. of Korea,Zambia
 2021-01-01,126401837,Rep. of Korea,"Areas, nes"
 2021-01-01,63129693952,Kuwait,World

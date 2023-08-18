@@ -226,7 +226,7 @@ adjust_names <- function(df, check) {
         str_detect(reporter, "Bolivia") ~ "Bolivia",
         str_detect(reporter, "Bosnia") ~ "Bosnia and Herzegovina",
         str_detect(reporter, "USA") ~ "United States",
-        str_detect(reporter, "United States") ~ "United States",
+        str_detect(reporter, "US") ~ "United States",
         str_detect(reporter, "Tanzania") ~ "Tanzania",
         str_detect(reporter, "Czech") ~ "Czechia",
         str_detect(reporter, "Dominican Rep") ~ "Dominican Republic", 
@@ -446,7 +446,7 @@ beta_filter <- function(df, reporters, partners, year, keyword) {
     df <- left_join(date, df)
     missing <- df |> filter(is.na(beta))
     missing <- as.Date(pull(missing, date))
-    print(paste0("Missing data from ", min(missing), " to ", max(missing), " has been estimated using linear interpolation."))
+    print(paste0("Missing data from ", min(missing), " to ", max(missing), " have been estimated using linear interpolation."))
     df <- df |>
       dplyr::mutate(beta = coalesce(beta, predict(lm(beta ~ date), across(date)))) |> 
       mutate_if(is.numeric, round, digits = 9)

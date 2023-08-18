@@ -1950,27 +1950,27 @@ date,total_exports,reporter
 1977-01-01,186417215703.452,Early-demographic dividend
 1978-01-01,182497599885.233,Early-demographic dividend
 1979-01-01,255246002038.838,Early-demographic dividend
-1980-01-01,339097035033.409,Early-demographic dividend
+1980-01-01,339097035033.41,Early-demographic dividend
 1981-01-01,350852327173.349,Early-demographic dividend
 1982-01-01,303962358499.029,Early-demographic dividend
 1983-01-01,272416735699.147,Early-demographic dividend
 1984-01-01,267181083417.039,Early-demographic dividend
-1985-01-01,248410673918.886,Early-demographic dividend
+1985-01-01,248410673918.887,Early-demographic dividend
 1986-01-01,206643047869.985,Early-demographic dividend
 1987-01-01,244459998610.905,Early-demographic dividend
-1988-01-01,261377554638.104,Early-demographic dividend
+1988-01-01,261377554638.105,Early-demographic dividend
 1989-01-01,294750326578.176,Early-demographic dividend
 1990-01-01,361522824081.361,Early-demographic dividend
 1991-01-01,368254916309.937,Early-demographic dividend
 1992-01-01,394375166663.701,Early-demographic dividend
 1993-01-01,406263690487.453,Early-demographic dividend
-1994-01-01,446785801993.296,Early-demographic dividend
-1995-01-01,526829689575.241,Early-demographic dividend
-1996-01-01,594709716765.023,Early-demographic dividend
-1997-01-01,638460688297.171,Early-demographic dividend
+1994-01-01,446785801993.297,Early-demographic dividend
+1995-01-01,526829689575.242,Early-demographic dividend
+1996-01-01,594709716765.024,Early-demographic dividend
+1997-01-01,638460688297.172,Early-demographic dividend
 1998-01-01,632158568966.401,Early-demographic dividend
 1999-01-01,667616103514.84,Early-demographic dividend
-2000-01-01,818070006372.456,Early-demographic dividend
+2000-01-01,818070006372.457,Early-demographic dividend
 2001-01-01,769519220383.198,Early-demographic dividend
 2002-01-01,803106480221.082,Early-demographic dividend
 2003-01-01,913933837808.774,Early-demographic dividend
@@ -1987,7 +1987,7 @@ date,total_exports,reporter
 2014-01-01,2826176780362.82,Early-demographic dividend
 2015-01-01,2387445515234.6,Early-demographic dividend
 2016-01-01,2322651465439.26,Early-demographic dividend
-2017-01-01,2633166038335.82,Early-demographic dividend
+2017-01-01,2633166038335.81,Early-demographic dividend
 2018-01-01,2931108659484.55,Early-demographic dividend
 2019-01-01,2939299237033.11,Early-demographic dividend
 2020-01-01,2452323643504.45,Early-demographic dividend
@@ -2002,7 +2002,7 @@ date,total_exports,reporter
 1988-01-01,598645863524.86,East Asia & Pacific
 1989-01-01,663174649205.147,East Asia & Pacific
 1990-01-01,737153756237.957,East Asia & Pacific
-1991-01-01,831332681882.615,East Asia & Pacific
+1991-01-01,831332681882.616,East Asia & Pacific
 1992-01-01,927853282000.613,East Asia & Pacific
 1993-01-01,1029635449211.99,East Asia & Pacific
 1994-01-01,1234665291894.14,East Asia & Pacific
@@ -2014,7 +2014,7 @@ date,total_exports,reporter
 2000-01-01,1920077579934.51,East Asia & Pacific
 2001-01-01,1754710845084.39,East Asia & Pacific
 2002-01-01,1874463027998.38,East Asia & Pacific
-2003-01-01,2294320452206.25,East Asia & Pacific
+2003-01-01,2294320452206.26,East Asia & Pacific
 2004-01-01,2854182008420.91,East Asia & Pacific
 2005-01-01,3280481884403.6,East Asia & Pacific
 2006-01-01,3822275717186.66,East Asia & Pacific
@@ -2022,22 +2022,22 @@ date,total_exports,reporter
 2008-01-01,5110429050354.08,East Asia & Pacific
 2009-01-01,4239047273991.5,East Asia & Pacific
 2010-01-01,5456397841977.13,East Asia & Pacific
-2011-01-01,6427682884076.34,East Asia & Pacific
+2011-01-01,6427682884076.33,East Asia & Pacific
 2012-01-01,6754009858059.38,East Asia & Pacific
 2013-01-01,6953954751125.7,East Asia & Pacific
 2014-01-01,7136815661724.18,East Asia & Pacific
 2015-01-01,6611305916495.18,East Asia & Pacific
 2016-01-01,6399581763236.02,East Asia & Pacific
-2017-01-01,7097735036359.2,East Asia & Pacific
+2017-01-01,7097735036359.21,East Asia & Pacific
 2018-01-01,7702333003919.84,East Asia & Pacific
 2019-01-01,7556287812516.9,East Asia & Pacific
 2020-01-01,7226936676027.4,East Asia & Pacific
-2021-01-01,9080191663927.87,East Asia & Pacific
-2022-01-01,9610239057121.87,East Asia & Pacific
+2021-01-01,9080191663927.88,East Asia & Pacific
+2022-01-01,9610239057121.88,East Asia & Pacific
 1994-01-01,143195827567.823,Europe & Central Asia (excluding high income)
 1995-01-01,175538550025.11,Europe & Central Asia (excluding high income)
 1996-01-01,200463755211.823,Europe & Central Asia (excluding high income)
-1997-01-01,207730418033.87,Europe & Central Asia (excluding high income)
+1997-01-01,207730418033.869,Europe & Central Asia (excluding high income)
 1998-01-01,191105075188.473,Europe & Central Asia (excluding high income)
 1999-01-01,175428385253.857,Europe & Central Asia (excluding high income)
 2000-01-01,221353280295.554,Europe & Central Asia (excluding high income)
@@ -2060,11 +2060,11 @@ date,total_exports,reporter
 2017-01-01,928077875449.109,Europe & Central Asia (excluding high income)
 2018-01-01,1084990481428.88,Europe & Central Asia (excluding high income)
 2019-01-01,1079119801730.2,Europe & Central Asia (excluding high income)
-2020-01-01,879997108833.353,Europe & Central Asia (excluding high income)
+2020-01-01,879997108833.352,Europe & Central Asia (excluding high income)
 2021-01-01,1237037715379.34,Europe & Central Asia (excluding high income)
 2022-01-01,1434838509079.18,Europe & Central Asia (excluding high income)
 1976-01-01,581726555201.013,Europe & Central Asia
-1977-01-01,670935816957.04,Europe & Central Asia
+1977-01-01,670935816957.041,Europe & Central Asia
 1978-01-01,814972819995.673,Europe & Central Asia
 1979-01-01,1010460739026.11,Europe & Central Asia
 1980-01-01,1165533441283.25,Europe & Central Asia
@@ -2090,18 +2090,18 @@ date,total_exports,reporter
 2000-01-01,3447395990370.77,Europe & Central Asia
 2001-01-01,3492454913321.19,Europe & Central Asia
 2002-01-01,3721246552449.81,Europe & Central Asia
-2003-01-01,4437354326798.59,Europe & Central Asia
+2003-01-01,4437354326798.6,Europe & Central Asia
 2004-01-01,5416769529208.21,Europe & Central Asia
 2005-01-01,5967646798296.46,Europe & Central Asia
-2006-01-01,6807804578527.26,Europe & Central Asia
-2007-01-01,8018787548364.43,Europe & Central Asia
+2006-01-01,6807804578527.27,Europe & Central Asia
+2007-01-01,8018787548364.44,Europe & Central Asia
 2008-01-01,9083124464611.89,Europe & Central Asia
-2009-01-01,7162369548283.34,Europe & Central Asia
+2009-01-01,7162369548283.35,Europe & Central Asia
 2010-01-01,7970598023359.73,Europe & Central Asia
 2011-01-01,9417597857850.76,Europe & Central Asia
 2012-01-01,9210880831949.67,Europe & Central Asia
 2013-01-01,9627689789551.63,Europe & Central Asia
-2014-01-01,9813588550865.2,Europe & Central Asia
+2014-01-01,9813588550865.21,Europe & Central Asia
 2015-01-01,8634471219023.88,Europe & Central Asia
 2016-01-01,8616188839312.3,Europe & Central Asia
 2017-01-01,9490345492860.54,Europe & Central Asia
@@ -2208,7 +2208,7 @@ date,total_exports,reporter
 1978-01-01,545321636639.25,Euro area
 1979-01-01,676984152428.19,Euro area
 1980-01-01,762158120962.038,Euro area
-1981-01-01,718506570071.675,Euro area
+1981-01-01,718506570071.676,Euro area
 1982-01-01,693339072763.887,Euro area
 1983-01-01,670215304028.113,Euro area
 1984-01-01,684605419361.965,Euro area
@@ -2248,7 +2248,7 @@ date,total_exports,reporter
 2018-01-01,6603309150467.87,Euro area
 2019-01-01,6494619629423.71,Euro area
 2020-01-01,5967125418775.64,Euro area
-2021-01-01,7236998894786.27,Euro area
+2021-01-01,7236998894786.26,Euro area
 2022-01-01,7719759376334.3,Euro area
 1992-01-01,89021511.9464496,Eritrea
 1993-01-01,149468217.5891,Eritrea
@@ -2390,7 +2390,7 @@ date,total_exports,reporter
 1979-01-01,786614002036.624,European Union
 1980-01-01,885401841704.541,European Union
 1981-01-01,834470352873.615,European Union
-1982-01-01,804802468361.841,European Union
+1982-01-01,804802468361.84,European Union
 1983-01-01,783702543643.378,European Union
 1984-01-01,803017567473.683,European Union
 1985-01-01,836305530832.255,European Union
@@ -2408,7 +2408,7 @@ date,total_exports,reporter
 1997-01-01,2388346895255.68,European Union
 1998-01-01,2504663536900.14,European Union
 1999-01-01,2515880861524.79,European Union
-2000-01-01,2573974973373.86,European Union
+2000-01-01,2573974973373.85,European Union
 2001-01-01,2626316374715.85,European Union
 2002-01-01,2812768702899.93,European Union
 2003-01-01,3377693361164.89,European Union
@@ -2425,12 +2425,12 @@ date,total_exports,reporter
 2014-01-01,7172373140540.97,European Union
 2015-01-01,6407963867617.76,European Union
 2016-01-01,6505872764620.97,European Union
-2017-01-01,7167522552261.36,European Union
+2017-01-01,7167522552261.37,European Union
 2018-01-01,7871429758912,European Union
-2019-01-01,7770681211814.61,European Union
+2019-01-01,7770681211814.62,European Union
 2020-01-01,7177006479186.58,European Union
 2021-01-01,8719141899956.1,European Union
-2022-01-01,9349827529875.44,European Union
+2022-01-01,9349827529875.45,European Union
 2002-01-01,123040759863.199,Fragile and conflict affected situations
 2003-01-01,151308282496.621,Fragile and conflict affected situations
 2004-01-01,205758075463.401,Fragile and conflict affected situations
@@ -2440,8 +2440,8 @@ date,total_exports,reporter
 2008-01-01,506469914177.064,Fragile and conflict affected situations
 2009-01-01,342269415598.76,Fragile and conflict affected situations
 2010-01-01,435080625974.534,Fragile and conflict affected situations
-2011-01-01,517479652992.521,Fragile and conflict affected situations
-2012-01-01,567756696167.977,Fragile and conflict affected situations
+2011-01-01,517479652992.52,Fragile and conflict affected situations
+2012-01-01,567756696167.976,Fragile and conflict affected situations
 2013-01-01,541083180540.067,Fragile and conflict affected situations
 2014-01-01,467176728798.242,Fragile and conflict affected situations
 2015-01-01,311540015840.373,Fragile and conflict affected situations
@@ -3141,22 +3141,22 @@ date,total_exports,reporter
 2020-01-01,6268819095.25647,Honduras
 2021-01-01,7941294159.6979,Honduras
 2022-01-01,9242837922.92382,Honduras
-1978-01-01,16019511549.6084,Heavily indebted poor countries (HIPC)
+1978-01-01,16019511549.6085,Heavily indebted poor countries (HIPC)
 1979-01-01,19600095532.0665,Heavily indebted poor countries (HIPC)
 1980-01-01,22906248446.698,Heavily indebted poor countries (HIPC)
-1981-01-01,21664858932.6979,Heavily indebted poor countries (HIPC)
+1981-01-01,21664858932.698,Heavily indebted poor countries (HIPC)
 1982-01-01,19272503760.2826,Heavily indebted poor countries (HIPC)
 1983-01-01,18798713864.3427,Heavily indebted poor countries (HIPC)
 1984-01-01,20011463731.4204,Heavily indebted poor countries (HIPC)
 1985-01-01,19296810004.3945,Heavily indebted poor countries (HIPC)
-1986-01-01,19692865400.7541,Heavily indebted poor countries (HIPC)
+1986-01-01,19692865400.7542,Heavily indebted poor countries (HIPC)
 1987-01-01,20123428408.0319,Heavily indebted poor countries (HIPC)
 1988-01-01,20956775293.4952,Heavily indebted poor countries (HIPC)
-1989-01-01,22290403574.8567,Heavily indebted poor countries (HIPC)
+1989-01-01,22290403574.8568,Heavily indebted poor countries (HIPC)
 1990-01-01,23830587220.09,Heavily indebted poor countries (HIPC)
 1991-01-01,22478978142.9243,Heavily indebted poor countries (HIPC)
 1992-01-01,21708157278.8299,Heavily indebted poor countries (HIPC)
-1993-01-01,21641696959.8325,Heavily indebted poor countries (HIPC)
+1993-01-01,21641696959.8326,Heavily indebted poor countries (HIPC)
 1994-01-01,23544367285.8292,Heavily indebted poor countries (HIPC)
 1995-01-01,27754099097.3504,Heavily indebted poor countries (HIPC)
 1996-01-01,30529634638.3645,Heavily indebted poor countries (HIPC)
@@ -3166,10 +3166,10 @@ date,total_exports,reporter
 2000-01-01,35408886739.8306,Heavily indebted poor countries (HIPC)
 2001-01-01,36456454760.2297,Heavily indebted poor countries (HIPC)
 2002-01-01,39161984092.5607,Heavily indebted poor countries (HIPC)
-2003-01-01,44390412657.8204,Heavily indebted poor countries (HIPC)
+2003-01-01,44390412657.8205,Heavily indebted poor countries (HIPC)
 2004-01-01,54632562197.8557,Heavily indebted poor countries (HIPC)
 2005-01-01,65288652988.931,Heavily indebted poor countries (HIPC)
-2006-01-01,78810673047.03,Heavily indebted poor countries (HIPC)
+2006-01-01,78810673047.0301,Heavily indebted poor countries (HIPC)
 2007-01-01,95527454129.207,Heavily indebted poor countries (HIPC)
 2008-01-01,117759231655.369,Heavily indebted poor countries (HIPC)
 2009-01-01,102954889611.211,Heavily indebted poor countries (HIPC)
@@ -3178,12 +3178,12 @@ date,total_exports,reporter
 2012-01-01,159097576781.028,Heavily indebted poor countries (HIPC)
 2013-01-01,165008805860.638,Heavily indebted poor countries (HIPC)
 2014-01-01,169195900524.354,Heavily indebted poor countries (HIPC)
-2015-01-01,145407011807.458,Heavily indebted poor countries (HIPC)
+2015-01-01,145407011807.459,Heavily indebted poor countries (HIPC)
 2016-01-01,145126197248.675,Heavily indebted poor countries (HIPC)
 2017-01-01,163474016850.012,Heavily indebted poor countries (HIPC)
 2018-01-01,178199385446.966,Heavily indebted poor countries (HIPC)
 2019-01-01,182003892923.916,Heavily indebted poor countries (HIPC)
-2020-01-01,169194310356.541,Heavily indebted poor countries (HIPC)
+2020-01-01,169194310356.542,Heavily indebted poor countries (HIPC)
 2021-01-01,214076371052.476,Heavily indebted poor countries (HIPC)
 1993-01-01,6196066941.24164,Croatia
 1994-01-01,7259941708.2683,Croatia
@@ -3305,24 +3305,24 @@ date,total_exports,reporter
 2020-01-01,124110863302.017,Hungary
 2021-01-01,146239679167.76,Hungary
 2022-01-01,161608083399.641,Hungary
-1982-01-01,379035197005.661,IBRD only
+1982-01-01,379035197005.662,IBRD only
 1983-01-01,379618045828.982,IBRD only
-1984-01-01,401098063469.955,IBRD only
-1985-01-01,385021006226.152,IBRD only
+1984-01-01,401098063469.956,IBRD only
+1985-01-01,385021006226.153,IBRD only
 1986-01-01,346031537846.032,IBRD only
 1987-01-01,414982367204.172,IBRD only
-1988-01-01,466072305438.147,IBRD only
-1989-01-01,510606516526.708,IBRD only
+1988-01-01,466072305438.148,IBRD only
+1989-01-01,510606516526.709,IBRD only
 1990-01-01,583188658166.785,IBRD only
 1991-01-01,604668601066.333,IBRD only
 1992-01-01,668746579065.708,IBRD only
-1993-01-01,715849414792.108,IBRD only
-1994-01-01,844229500564.512,IBRD only
+1993-01-01,715849414792.109,IBRD only
+1994-01-01,844229500564.513,IBRD only
 1995-01-01,1022168942343.26,IBRD only
 1996-01-01,1133857165109.82,IBRD only
 1997-01-01,1157678680122.41,IBRD only
-1998-01-01,1140037255812.77,IBRD only
-1999-01-01,1172889295944.88,IBRD only
+1998-01-01,1140037255812.78,IBRD only
+1999-01-01,1172889295944.89,IBRD only
 2000-01-01,1417503822850.78,IBRD only
 2001-01-01,1401427863295.02,IBRD only
 2002-01-01,1509041179286.23,IBRD only
@@ -3343,22 +3343,22 @@ date,total_exports,reporter
 2017-01-01,6932902960075.63,IBRD only
 2018-01-01,7690642070607.12,IBRD only
 2019-01-01,7649959219790.8,IBRD only
-2020-01-01,7059082050356.5,IBRD only
+2020-01-01,7059082050356.51,IBRD only
 2021-01-01,9176158105371.41,IBRD only
 2022-01-01,10253036150876.2,IBRD only
 1982-01-01,423543383099.897,IDA & IBRD total
 1983-01-01,421796368709.569,IDA & IBRD total
-1984-01-01,446517981750.028,IDA & IBRD total
-1985-01-01,431766860286.489,IDA & IBRD total
-1986-01-01,383954315014.757,IDA & IBRD total
+1984-01-01,446517981750.029,IDA & IBRD total
+1985-01-01,431766860286.49,IDA & IBRD total
+1986-01-01,383954315014.758,IDA & IBRD total
 1987-01-01,458034436906.519,IDA & IBRD total
 1988-01-01,510829964323.934,IDA & IBRD total
 1989-01-01,560835683121.024,IDA & IBRD total
-1990-01-01,645382510114.621,IDA & IBRD total
+1990-01-01,645382510114.622,IDA & IBRD total
 1991-01-01,665521809842.605,IDA & IBRD total
 1992-01-01,731180955290.877,IDA & IBRD total
 1993-01-01,780678912067.287,IDA & IBRD total
-1994-01-01,912589587815.041,IDA & IBRD total
+1994-01-01,912589587815.042,IDA & IBRD total
 1995-01-01,1092512318035.74,IDA & IBRD total
 1996-01-01,1210036013789.83,IDA & IBRD total
 1997-01-01,1235313477696.94,IDA & IBRD total
@@ -3369,13 +3369,13 @@ date,total_exports,reporter
 2002-01-01,1615911162659.04,IDA & IBRD total
 2003-01-01,2050168085238.38,IDA & IBRD total
 2004-01-01,2625379887888.99,IDA & IBRD total
-2005-01-01,3230357282900.78,IDA & IBRD total
+2005-01-01,3230357282900.77,IDA & IBRD total
 2006-01-01,3924132681242.73,IDA & IBRD total
 2007-01-01,4726637269908.87,IDA & IBRD total
 2008-01-01,5746643269536.59,IDA & IBRD total
 2009-01-01,4572779699582.12,IDA & IBRD total
 2010-01-01,5778070456140.07,IDA & IBRD total
-2011-01-01,7047447185820.25,IDA & IBRD total
+2011-01-01,7047447185820.26,IDA & IBRD total
 2012-01-01,7358649565000.96,IDA & IBRD total
 2013-01-01,7616951134892.4,IDA & IBRD total
 2014-01-01,7663753138141.01,IDA & IBRD total
@@ -3383,33 +3383,33 @@ date,total_exports,reporter
 2016-01-01,6462869760048.31,IDA & IBRD total
 2017-01-01,7327550909804.21,IDA & IBRD total
 2018-01-01,8134569501312.89,IDA & IBRD total
-2019-01-01,8112489660554.22,IDA & IBRD total
+2019-01-01,8112489660554.21,IDA & IBRD total
 2020-01-01,7444239158052.07,IDA & IBRD total
 2021-01-01,9663781412405.89,IDA & IBRD total
 2022-01-01,10826641296968.2,IDA & IBRD total
-1977-01-01,35965272048.1601,IDA total
-1978-01-01,35289661350.1066,IDA total
-1979-01-01,48388666877.1332,IDA total
-1980-01-01,64551119880.3725,IDA total
-1981-01-01,54326995841.5818,IDA total
-1982-01-01,44516994270.9419,IDA total
+1977-01-01,35965272048.1602,IDA total
+1978-01-01,35289661350.1067,IDA total
+1979-01-01,48388666877.1333,IDA total
+1980-01-01,64551119880.3726,IDA total
+1981-01-01,54326995841.5819,IDA total
+1982-01-01,44516994270.942,IDA total
 1983-01-01,42276610133.9916,IDA total
-1984-01-01,45491871962.3041,IDA total
+1984-01-01,45491871962.3042,IDA total
 1985-01-01,46694618732.8615,IDA total
-1986-01-01,37995649627.6318,IDA total
+1986-01-01,37995649627.6319,IDA total
 1987-01-01,43244859406.9601,IDA total
-1988-01-01,45129150166.2492,IDA total
-1989-01-01,50584646452.7077,IDA total
-1990-01-01,62415952660.2111,IDA total
-1991-01-01,61213791106.5075,IDA total
-1992-01-01,63030062614.7095,IDA total
-1993-01-01,65575877701.8521,IDA total
-1994-01-01,69622663135.4491,IDA total
-1995-01-01,70503037701.0801,IDA total
+1988-01-01,45129150166.2493,IDA total
+1989-01-01,50584646452.7078,IDA total
+1990-01-01,62415952660.2112,IDA total
+1991-01-01,61213791106.5076,IDA total
+1992-01-01,63030062614.7096,IDA total
+1993-01-01,65575877701.8522,IDA total
+1994-01-01,69622663135.4492,IDA total
+1995-01-01,70503037701.0802,IDA total
 1996-01-01,76137196555.787,IDA total
 1997-01-01,77573742235.516,IDA total
-1998-01-01,73935502659.7086,IDA total
-1999-01-01,88270220341.1211,IDA total
+1998-01-01,73935502659.7087,IDA total
+1999-01-01,88270220341.1212,IDA total
 2000-01-01,103996707729.317,IDA total
 2001-01-01,104332875789.942,IDA total
 2002-01-01,107560425024.763,IDA total
@@ -3421,13 +3421,13 @@ date,total_exports,reporter
 2008-01-01,324020122277.031,IDA total
 2009-01-01,267140180620.117,IDA total
 2010-01-01,339585156100.359,IDA total
-2011-01-01,410041534908.586,IDA total
+2011-01-01,410041534908.585,IDA total
 2012-01-01,408741995094.45,IDA total
 2013-01-01,427384278194.814,IDA total
-2014-01-01,425818804871.435,IDA total
+2014-01-01,425818804871.436,IDA total
 2015-01-01,358937670883.7,IDA total
 2016-01-01,346865685939.834,IDA total
-2017-01-01,394770109212.096,IDA total
+2017-01-01,394770109212.097,IDA total
 2018-01-01,444141048356.007,IDA total
 2019-01-01,463273255620.153,IDA total
 2020-01-01,383832953547.148,IDA total
@@ -3446,15 +3446,15 @@ date,total_exports,reporter
 1988-01-01,22207761081.4918,IDA blend
 1989-01-01,24606918827.1905,IDA blend
 1990-01-01,32395913396.2074,IDA blend
-1991-01-01,31908435804.0455,IDA blend
+1991-01-01,31908435804.0454,IDA blend
 1992-01-01,32585785621.8102,IDA blend
-1993-01-01,32516642683.4826,IDA blend
+1993-01-01,32516642683.4827,IDA blend
 1994-01-01,32634181942.8046,IDA blend
 1995-01-01,27821644596.6745,IDA blend
 1996-01-01,30950802372.0274,IDA blend
 1997-01-01,30021589885.9924,IDA blend
 1998-01-01,26024028780.0624,IDA blend
-1999-01-01,37872410508.3454,IDA blend
+1999-01-01,37872410508.3453,IDA blend
 2000-01-01,46650035489.7737,IDA blend
 2001-01-01,45275499228.9919,IDA blend
 2002-01-01,45928438980.7406,IDA blend
@@ -3475,8 +3475,8 @@ date,total_exports,reporter
 2017-01-01,135180988736.832,IDA blend
 2018-01-01,157458908309.185,IDA blend
 2019-01-01,166254371775.913,IDA blend
-2020-01-01,118827938971.431,IDA blend
-2021-01-01,150730756380.959,IDA blend
+2020-01-01,118827938971.43,IDA blend
+2021-01-01,150730756380.958,IDA blend
 2022-01-01,191882253801.541,IDA blend
 1981-01-01,23797000000,Indonesia
 1982-01-01,20251000000,Indonesia
@@ -3524,7 +3524,7 @@ date,total_exports,reporter
 1979-01-01,20573804694.4318,IDA only
 1980-01-01,23699215569.6463,IDA only
 1981-01-01,23203986290.3819,IDA only
-1982-01-01,20551914398.8034,IDA only
+1982-01-01,20551914398.8035,IDA only
 1983-01-01,20145020710.485,IDA only
 1984-01-01,21486936906.3432,IDA only
 1985-01-01,21000165919.6008,IDA only
@@ -3534,20 +3534,20 @@ date,total_exports,reporter
 1989-01-01,26018702137.3303,IDA only
 1990-01-01,29524137124.4861,IDA only
 1991-01-01,28782271673.079,IDA only
-1992-01-01,29994908801.6729,IDA only
+1992-01-01,29994908801.673,IDA only
 1993-01-01,32980621946.6757,IDA only
-1994-01-01,37403159334.8828,IDA only
-1995-01-01,44095852107.9509,IDA only
-1996-01-01,46540042620.7325,IDA only
-1997-01-01,49221750364.0579,IDA only
-1998-01-01,49924948976.0713,IDA only
-1999-01-01,51614070399.2677,IDA only
-2000-01-01,58420571540.2738,IDA only
-2001-01-01,60408320762.8967,IDA only
-2002-01-01,63157103474.9273,IDA only
+1994-01-01,37403159334.8829,IDA only
+1995-01-01,44095852107.951,IDA only
+1996-01-01,46540042620.7326,IDA only
+1997-01-01,49221750364.058,IDA only
+1998-01-01,49924948976.0714,IDA only
+1999-01-01,51614070399.2678,IDA only
+2000-01-01,58420571540.2739,IDA only
+2001-01-01,60408320762.8968,IDA only
+2002-01-01,63157103474.9274,IDA only
 2003-01-01,68712723240.5182,IDA only
 2004-01-01,83488526633.4312,IDA only
-2005-01-01,95555324647.0294,IDA only
+2005-01-01,95555324647.0295,IDA only
 2006-01-01,113079454936.63,IDA only
 2007-01-01,134377152109.235,IDA only
 2008-01-01,161859277208.309,IDA only
@@ -3555,12 +3555,12 @@ date,total_exports,reporter
 2010-01-01,178792162607.557,IDA only
 2011-01-01,215060238666.677,IDA only
 2012-01-01,220401019571.736,IDA only
-2013-01-01,240160715904.374,IDA only
+2013-01-01,240160715904.375,IDA only
 2014-01-01,249603963094.634,IDA only
 2015-01-01,230401682703.66,IDA only
 2016-01-01,234507902503.43,IDA only
 2017-01-01,260570073133.083,IDA only
-2018-01-01,287821193317.503,IDA only
+2018-01-01,287821193317.504,IDA only
 2019-01-01,298179374076.143,IDA only
 2020-01-01,268547908833.935,IDA only
 2021-01-01,337475696227.572,IDA only
@@ -4252,7 +4252,7 @@ date,total_exports,reporter
 1982-01-01,78011052482.8423,Latin America & Caribbean (excluding high income)
 1983-01-01,79807525100.9205,Latin America & Caribbean (excluding high income)
 1984-01-01,90748406839.4011,Latin America & Caribbean (excluding high income)
-1985-01-01,86794760797.9143,Latin America & Caribbean (excluding high income)
+1985-01-01,86794760797.9142,Latin America & Caribbean (excluding high income)
 1986-01-01,77410856990.9871,Latin America & Caribbean (excluding high income)
 1987-01-01,87435445631.3531,Latin America & Caribbean (excluding high income)
 1988-01-01,101372782581.68,Latin America & Caribbean (excluding high income)
@@ -4274,11 +4274,11 @@ date,total_exports,reporter
 2004-01-01,440415168559.948,Latin America & Caribbean (excluding high income)
 2005-01-01,519432169028.771,Latin America & Caribbean (excluding high income)
 2006-01-01,607626212570.691,Latin America & Caribbean (excluding high income)
-2007-01-01,691254537801.516,Latin America & Caribbean (excluding high income)
+2007-01-01,691254537801.515,Latin America & Caribbean (excluding high income)
 2008-01-01,797426264408.393,Latin America & Caribbean (excluding high income)
-2009-01-01,645065303572.189,Latin America & Caribbean (excluding high income)
+2009-01-01,645065303572.188,Latin America & Caribbean (excluding high income)
 2010-01-01,817663271061.285,Latin America & Caribbean (excluding high income)
-2011-01-01,996264926166.67,Latin America & Caribbean (excluding high income)
+2011-01-01,996264926166.669,Latin America & Caribbean (excluding high income)
 2012-01-01,1017665938755.28,Latin America & Caribbean (excluding high income)
 2013-01-01,1025059245481.25,Latin America & Caribbean (excluding high income)
 2014-01-01,1022598285386.35,Latin America & Caribbean (excluding high income)
@@ -4287,9 +4287,9 @@ date,total_exports,reporter
 2017-01-01,1009576073574.99,Latin America & Caribbean (excluding high income)
 2018-01-01,1094620757892.76,Latin America & Caribbean (excluding high income)
 2019-01-01,1093937352118.16,Latin America & Caribbean (excluding high income)
-2020-01-01,950065367326.226,Latin America & Caribbean (excluding high income)
+2020-01-01,950065367326.225,Latin America & Caribbean (excluding high income)
 2021-01-01,1206550711505.9,Latin America & Caribbean (excluding high income)
-2022-01-01,1437072131189.27,Latin America & Caribbean (excluding high income)
+2022-01-01,1437072131189.26,Latin America & Caribbean (excluding high income)
 1984-01-01,58900000,Lao PDR
 1985-01-01,74900000,Lao PDR
 1986-01-01,79400000,Lao PDR
@@ -4469,7 +4469,7 @@ date,total_exports,reporter
 1982-01-01,119474380200.188,Latin America & Caribbean
 1983-01-01,118420866223.294,Latin America & Caribbean
 1984-01-01,131137548301.059,Latin America & Caribbean
-1985-01-01,126006074912.1,Latin America & Caribbean
+1985-01-01,126006074912.101,Latin America & Caribbean
 1986-01-01,110288784402.971,Latin America & Caribbean
 1987-01-01,124735323038.641,Latin America & Caribbean
 1988-01-01,141685757402.131,Latin America & Caribbean
@@ -4487,17 +4487,17 @@ date,total_exports,reporter
 2000-01-01,455143339697.128,Latin America & Caribbean
 2001-01-01,438325401331.281,Latin America & Caribbean
 2002-01-01,443301746637.261,Latin America & Caribbean
-2003-01-01,483198059358.104,Latin America & Caribbean
+2003-01-01,483198059358.105,Latin America & Caribbean
 2004-01-01,595448428909.494,Latin America & Caribbean
 2005-01-01,717544235674.169,Latin America & Caribbean
 2006-01-01,851242519326.392,Latin America & Caribbean
-2007-01-01,963107687517.12,Latin America & Caribbean
+2007-01-01,963107687517.121,Latin America & Caribbean
 2008-01-01,1117561889040.39,Latin America & Caribbean
 2009-01-01,883356142041.52,Latin America & Caribbean
 2010-01-01,1103253425743.69,Latin America & Caribbean
 2011-01-01,1361498024488.67,Latin America & Caribbean
 2012-01-01,1390105706909.94,Latin America & Caribbean
-2013-01-01,1386084345901.76,Latin America & Caribbean
+2013-01-01,1386084345901.77,Latin America & Caribbean
 2014-01-01,1361184697321.67,Latin America & Caribbean
 2015-01-01,1183764378724.13,Latin America & Caribbean
 2016-01-01,1157564040014.34,Latin America & Caribbean
@@ -4527,21 +4527,21 @@ date,total_exports,reporter
 2002-01-01,46101169882.9706,Least developed countries: UN classification
 2003-01-01,52446289029.5202,Least developed countries: UN classification
 2004-01-01,66294398541.2654,Least developed countries: UN classification
-2005-01-01,88757451220.3711,Least developed countries: UN classification
+2005-01-01,88757451220.3712,Least developed countries: UN classification
 2006-01-01,111482053312.774,Least developed countries: UN classification
 2007-01-01,139278896315.141,Least developed countries: UN classification
 2008-01-01,180009723420.345,Least developed countries: UN classification
 2009-01-01,142075501769.194,Least developed countries: UN classification
 2010-01-01,179521567035.793,Least developed countries: UN classification
 2011-01-01,218944099545.119,Least developed countries: UN classification
-2012-01-01,224585862034.939,Least developed countries: UN classification
+2012-01-01,224585862034.94,Least developed countries: UN classification
 2013-01-01,241111260434.938,Least developed countries: UN classification
-2014-01-01,239214451029.592,Least developed countries: UN classification
+2014-01-01,239214451029.593,Least developed countries: UN classification
 2015-01-01,194705498202.806,Least developed countries: UN classification
 2016-01-01,191088174917.381,Least developed countries: UN classification
 2017-01-01,216488384514.357,Least developed countries: UN classification
 2018-01-01,245517121675.49,Least developed countries: UN classification
-2019-01-01,245018164176.026,Least developed countries: UN classification
+2019-01-01,245018164176.027,Least developed countries: UN classification
 2020-01-01,215129101885.748,Least developed countries: UN classification
 2021-01-01,281890569796.016,Least developed countries: UN classification
 1975-01-01,631924458.3831,Sri Lanka
@@ -4593,7 +4593,7 @@ date,total_exports,reporter
 1982-01-01,360768360482.168,Low & middle income
 1983-01-01,362373850619.777,Low & middle income
 1984-01-01,384990433284.938,Low & middle income
-1985-01-01,375017611859.617,Low & middle income
+1985-01-01,375017611859.618,Low & middle income
 1986-01-01,332423327111.055,Low & middle income
 1987-01-01,401830940802.047,Low & middle income
 1988-01-01,449611039871.949,Low & middle income
@@ -4629,7 +4629,7 @@ date,total_exports,reporter
 2018-01-01,7521342599890.37,Low & middle income
 2019-01-01,7500716996653.26,Low & middle income
 2020-01-01,6860896989779.08,Low & middle income
-2021-01-01,8924386195836.33,Low & middle income
+2021-01-01,8924386195836.34,Low & middle income
 2022-01-01,10010343966897.8,Low & middle income
 1975-01-01,25557541.3031691,Lesotho
 1976-01-01,29899999.974,Lesotho
@@ -4681,31 +4681,31 @@ date,total_exports,reporter
 2022-01-01,1065999312.68568,Lesotho
 1982-01-01,212078069653.86,Late-demographic dividend
 1983-01-01,215349437313.637,Late-demographic dividend
-1984-01-01,241059868152.021,Late-demographic dividend
+1984-01-01,241059868152.02,Late-demographic dividend
 1985-01-01,232107670941.747,Late-demographic dividend
-1986-01-01,228355564868.713,Late-demographic dividend
+1986-01-01,228355564868.712,Late-demographic dividend
 1987-01-01,273124847772.286,Late-demographic dividend
 1988-01-01,320910233973.671,Late-demographic dividend
-1989-01-01,350181907792.158,Late-demographic dividend
+1989-01-01,350181907792.157,Late-demographic dividend
 1990-01-01,377358551159.814,Late-demographic dividend
 1991-01-01,396058628656.522,Late-demographic dividend
-1992-01-01,461649311917.771,Late-demographic dividend
-1993-01-01,507110636812.479,Late-demographic dividend
+1992-01-01,461649311917.77,Late-demographic dividend
+1993-01-01,507110636812.478,Late-demographic dividend
 1994-01-01,625026751092.211,Late-demographic dividend
 1995-01-01,767573730307.918,Late-demographic dividend
-1996-01-01,838083778248.45,Late-demographic dividend
+1996-01-01,838083778248.449,Late-demographic dividend
 1997-01-01,821786800793.943,Late-demographic dividend
-1998-01-01,780409196976.708,Late-demographic dividend
+1998-01-01,780409196976.707,Late-demographic dividend
 1999-01-01,805974502411.674,Late-demographic dividend
 2000-01-01,983616365059.323,Late-demographic dividend
-2001-01-01,996142458633.737,Late-demographic dividend
+2001-01-01,996142458633.736,Late-demographic dividend
 2002-01-01,1080875330270.95,Late-demographic dividend
-2003-01-01,1481256061462.42,Late-demographic dividend
+2003-01-01,1481256061462.41,Late-demographic dividend
 2004-01-01,1951770805278.02,Late-demographic dividend
 2005-01-01,2428527545862.21,Late-demographic dividend
 2006-01-01,2979292427086.27,Late-demographic dividend
 2007-01-01,3636355337757.65,Late-demographic dividend
-2008-01-01,4384680186212.77,Late-demographic dividend
+2008-01-01,4384680186212.76,Late-demographic dividend
 2009-01-01,3528174559549.48,Late-demographic dividend
 2010-01-01,4397518577953.67,Late-demographic dividend
 2011-01-01,5391366089099.58,Late-demographic dividend
@@ -4713,7 +4713,7 @@ date,total_exports,reporter
 2013-01-01,5928579060791.16,Late-demographic dividend
 2014-01-01,6040893312575.99,Late-demographic dividend
 2015-01-01,5448556218238.46,Late-demographic dividend
-2016-01-01,5191895540329.61,Late-demographic dividend
+2016-01-01,5191895540329.6,Late-demographic dividend
 2017-01-01,5863197553595.35,Late-demographic dividend
 2018-01-01,6571278356581.71,Late-demographic dividend
 2019-01-01,6515216979905.06,Late-demographic dividend
@@ -5068,19 +5068,19 @@ date,total_exports,reporter
 1990-01-01,562923705537.284,Middle income
 1991-01-01,587722425777.464,Middle income
 1992-01-01,651369106170.468,Middle income
-1993-01-01,700863416830.064,Middle income
-1994-01-01,816862377212.101,Middle income
-1995-01-01,971923102607.76,Middle income
+1993-01-01,700863416830.065,Middle income
+1994-01-01,816862377212.102,Middle income
+1995-01-01,971923102607.761,Middle income
 1996-01-01,1080312607821.27,Middle income
 1997-01-01,1100002466939.31,Middle income
 1998-01-01,1084377261363.03,Middle income
 1999-01-01,1132018724116.07,Middle income
 2000-01-01,1362566747047,Middle income
-2001-01-01,1345762244103.99,Middle income
+2001-01-01,1345762244104,Middle income
 2002-01-01,1447231755966.75,Middle income
 2003-01-01,1852725032769.11,Middle income
 2004-01-01,2367388433829.28,Middle income
-2005-01-01,2917675101849.83,Middle income
+2005-01-01,2917675101849.84,Middle income
 2006-01-01,3537617833238.13,Middle income
 2007-01-01,4258939413453.88,Middle income
 2008-01-01,5175711173113.24,Middle income
@@ -5088,16 +5088,16 @@ date,total_exports,reporter
 2010-01-01,5254778545711.23,Middle income
 2011-01-01,6409628005722.55,Middle income
 2012-01-01,6726839892457.56,Middle income
-2013-01-01,6959668107294.78,Middle income
+2013-01-01,6959668107294.79,Middle income
 2014-01-01,7004377657266.34,Middle income
 2015-01-01,6207243093655.4,Middle income
 2016-01-01,5917523044829.78,Middle income
 2017-01-01,6706509232873.76,Middle income
 2018-01-01,7440245249823.99,Middle income
 2019-01-01,7419896919199.78,Middle income
-2020-01-01,6786229192370.98,Middle income
+2020-01-01,6786229192370.97,Middle income
 2021-01-01,8824873695501.42,Middle income
-2022-01-01,9897290918887.02,Middle income
+2022-01-01,9897290918887.01,Middle income
 1996-01-01,1042850000,North Macedonia
 1997-01-01,956310000,North Macedonia
 1998-01-01,1008198263.90033,North Macedonia
@@ -5275,7 +5275,7 @@ date,total_exports,reporter
 2011-01-01,462555630537.928,Middle East & North Africa (excluding high income)
 2012-01-01,537801952995.802,Middle East & North Africa (excluding high income)
 2013-01-01,501249837551.246,Middle East & North Africa (excluding high income)
-2014-01-01,458825182149.112,Middle East & North Africa (excluding high income)
+2014-01-01,458825182149.111,Middle East & North Africa (excluding high income)
 2015-01-01,330500493710.507,Middle East & North Africa (excluding high income)
 2016-01-01,294603399985.991,Middle East & North Africa (excluding high income)
 2017-01-01,366322829598.214,Middle East & North Africa (excluding high income)
@@ -5951,7 +5951,7 @@ date,total_exports,reporter
 2020-01-01,50172608101.8636,New Zealand
 2021-01-01,54922719651.0293,New Zealand
 2022-01-01,57462290432.5003,New Zealand
-1976-01-01,850008832533.446,OECD members
+1976-01-01,850008832533.445,OECD members
 1977-01-01,962881993486.284,OECD members
 1978-01-01,1155627623433.11,OECD members
 1979-01-01,1432552126905.53,OECD members
@@ -5966,13 +5966,13 @@ date,total_exports,reporter
 1988-01-01,2633846912660.72,OECD members
 1989-01-01,2832368523156.06,OECD members
 1990-01-01,3312903361476.71,OECD members
-1991-01-01,3372650415992.45,OECD members
+1991-01-01,3372650415992.44,OECD members
 1992-01-01,3613024226837.41,OECD members
 1993-01-01,3494377893636.23,OECD members
 1994-01-01,3888074552578.8,OECD members
-1995-01-01,4659789662555.52,OECD members
+1995-01-01,4659789662555.51,OECD members
 1996-01-01,4907104928549.81,OECD members
-1997-01-01,5074327669319.29,OECD members
+1997-01-01,5074327669319.28,OECD members
 1998-01-01,5162019756375.99,OECD members
 1999-01-01,5349662063890.44,OECD members
 2000-01-01,5793794873380.06,OECD members
@@ -6055,7 +6055,7 @@ date,total_exports,reporter
 2017-01-01,240634503130.255,Other small states
 2018-01-01,274740448842.218,Other small states
 2019-01-01,264043964801.88,Other small states
-2020-01-01,216861120548.105,Other small states
+2020-01-01,216861120548.106,Other small states
 2021-01-01,300972687957.318,Other small states
 2022-01-01,399616386706.808,Other small states
 1976-01-01,1449756462.32426,Pakistan
@@ -6366,7 +6366,7 @@ date,total_exports,reporter
 2016-01-01,227220496964.302,Pre-demographic dividend
 2017-01-01,278927553000.483,Pre-demographic dividend
 2018-01-01,344287555930.025,Pre-demographic dividend
-2019-01-01,338918491609.28,Pre-demographic dividend
+2019-01-01,338918491609.279,Pre-demographic dividend
 2020-01-01,243307455211.688,Pre-demographic dividend
 2021-01-01,338474320709.96,Pre-demographic dividend
 1975-01-01,2882637468.69558,Portugal
@@ -7100,27 +7100,27 @@ date,total_exports,reporter
 2022-01-01,39899998631.8151,Serbia
 1977-01-01,44034727232.266,Sub-Saharan Africa (excluding high income)
 1978-01-01,45864529817.4897,Sub-Saharan Africa (excluding high income)
-1979-01-01,63202270360.0232,Sub-Saharan Africa (excluding high income)
+1979-01-01,63202270360.0233,Sub-Saharan Africa (excluding high income)
 1980-01-01,88484275596.2318,Sub-Saharan Africa (excluding high income)
 1981-01-01,71840141329.7978,Sub-Saharan Africa (excluding high income)
 1982-01-01,58475441367.3297,Sub-Saharan Africa (excluding high income)
 1983-01-01,56574824905.455,Sub-Saharan Africa (excluding high income)
-1984-01-01,57412432156.1036,Sub-Saharan Africa (excluding high income)
-1985-01-01,56957871916.0625,Sub-Saharan Africa (excluding high income)
+1984-01-01,57412432156.1037,Sub-Saharan Africa (excluding high income)
+1985-01-01,56957871916.0626,Sub-Saharan Africa (excluding high income)
 1986-01-01,49660763160.6631,Sub-Saharan Africa (excluding high income)
 1987-01-01,61848562769.2406,Sub-Saharan Africa (excluding high income)
-1988-01-01,63686313837.2161,Sub-Saharan Africa (excluding high income)
-1989-01-01,66502223972.9354,Sub-Saharan Africa (excluding high income)
+1988-01-01,63686313837.2162,Sub-Saharan Africa (excluding high income)
+1989-01-01,66502223972.9355,Sub-Saharan Africa (excluding high income)
 1990-01-01,78644093142.8098,Sub-Saharan Africa (excluding high income)
 1991-01-01,74805428496.7587,Sub-Saharan Africa (excluding high income)
 1992-01-01,76645508791.6848,Sub-Saharan Africa (excluding high income)
-1993-01-01,76603488409.215,Sub-Saharan Africa (excluding high income)
-1994-01-01,78567045262.8677,Sub-Saharan Africa (excluding high income)
+1993-01-01,76603488409.2151,Sub-Saharan Africa (excluding high income)
+1994-01-01,78567045262.8678,Sub-Saharan Africa (excluding high income)
 1995-01-01,80863554440.9771,Sub-Saharan Africa (excluding high income)
 1996-01-01,88472524488.1628,Sub-Saharan Africa (excluding high income)
 1997-01-01,89343174896.9317,Sub-Saharan Africa (excluding high income)
 1998-01-01,81389033583.012,Sub-Saharan Africa (excluding high income)
-1999-01-01,96012995542.5316,Sub-Saharan Africa (excluding high income)
+1999-01-01,96012995542.5317,Sub-Saharan Africa (excluding high income)
 2000-01-01,113095445738.226,Sub-Saharan Africa (excluding high income)
 2001-01-01,108940209364.608,Sub-Saharan Africa (excluding high income)
 2002-01-01,112768674928.171,Sub-Saharan Africa (excluding high income)
@@ -7142,7 +7142,7 @@ date,total_exports,reporter
 2018-01-01,426940309452.023,Sub-Saharan Africa (excluding high income)
 2019-01-01,420638637318.846,Sub-Saharan Africa (excluding high income)
 2020-01-01,343425750147.29,Sub-Saharan Africa (excluding high income)
-2021-01-01,454652927163.131,Sub-Saharan Africa (excluding high income)
+2021-01-01,454652927163.132,Sub-Saharan Africa (excluding high income)
 2014-01-01,3786902659.05178,South Sudan
 2015-01-01,2519330000,South Sudan
 2016-01-01,1646810000,South Sudan
@@ -7154,7 +7154,7 @@ date,total_exports,reporter
 1977-01-01,44080740624.4872,Sub-Saharan Africa
 1978-01-01,45931568441.8572,Sub-Saharan Africa
 1979-01-01,63286218874.5446,Sub-Saharan Africa
-1980-01-01,88568012261.0993,Sub-Saharan Africa
+1980-01-01,88568012261.0994,Sub-Saharan Africa
 1981-01-01,71925212831.9181,Sub-Saharan Africa
 1982-01-01,58551238271.5396,Sub-Saharan Africa
 1983-01-01,56651461625.0067,Sub-Saharan Africa
@@ -7162,14 +7162,14 @@ date,total_exports,reporter
 1985-01-01,57074890448.2926,Sub-Saharan Africa
 1986-01-01,49791528865.8075,Sub-Saharan Africa
 1987-01-01,62004779412.423,Sub-Saharan Africa
-1988-01-01,63873579813.8962,Sub-Saharan Africa
+1988-01-01,63873579813.8963,Sub-Saharan Africa
 1989-01-01,66685623144.429,Sub-Saharan Africa
 1990-01-01,78880324360.0205,Sub-Saharan Africa
 1991-01-01,75029130303.614,Sub-Saharan Africa
 1992-01-01,76896550855.7947,Sub-Saharan Africa
 1993-01-01,76930825098.9277,Sub-Saharan Africa
 1994-01-01,78884529290.5339,Sub-Saharan Africa
-1995-01-01,81212989515.721,Sub-Saharan Africa
+1995-01-01,81212989515.7211,Sub-Saharan Africa
 1996-01-01,88821106304.5521,Sub-Saharan Africa
 1997-01-01,89732048115.3241,Sub-Saharan Africa
 1998-01-01,81781245492.1012,Sub-Saharan Africa
@@ -7180,12 +7180,12 @@ date,total_exports,reporter
 2003-01-01,144401347491.811,Sub-Saharan Africa
 2004-01-01,184121153178.578,Sub-Saharan Africa
 2005-01-01,239290086185.257,Sub-Saharan Africa
-2006-01-01,276757412945.271,Sub-Saharan Africa
+2006-01-01,276757412945.272,Sub-Saharan Africa
 2007-01-01,332013933119.925,Sub-Saharan Africa
 2008-01-01,406547403166.132,Sub-Saharan Africa
 2009-01-01,311588109190.398,Sub-Saharan Africa
 2010-01-01,404015802205.932,Sub-Saharan Africa
-2011-01-01,490492472267.168,Sub-Saharan Africa
+2011-01-01,490492472267.167,Sub-Saharan Africa
 2012-01-01,481446660654.951,Sub-Saharan Africa
 2013-01-01,483132922038.05,Sub-Saharan Africa
 2014-01-01,457279647484.807,Sub-Saharan Africa
@@ -7541,28 +7541,28 @@ date,total_exports,reporter
 1992-01-01,209024230.607487,Chad
 1993-01-01,198892806.031937,Chad
 1994-01-01,190093853.358636,Chad
-1982-01-01,77363409061.6789,East Asia & Pacific (IDA & IBRD countries)
-1983-01-01,77488365664.2965,East Asia & Pacific (IDA & IBRD countries)
-1984-01-01,87692059443.2718,East Asia & Pacific (IDA & IBRD countries)
+1982-01-01,77363409061.6788,East Asia & Pacific (IDA & IBRD countries)
+1983-01-01,77488365664.2964,East Asia & Pacific (IDA & IBRD countries)
+1984-01-01,87692059443.2717,East Asia & Pacific (IDA & IBRD countries)
 1985-01-01,85415452963.5032,East Asia & Pacific (IDA & IBRD countries)
-1986-01-01,84305614437.5832,East Asia & Pacific (IDA & IBRD countries)
+1986-01-01,84305614437.5831,East Asia & Pacific (IDA & IBRD countries)
 1987-01-01,106092649740.978,East Asia & Pacific (IDA & IBRD countries)
-1988-01-01,126617462982.142,East Asia & Pacific (IDA & IBRD countries)
+1988-01-01,126617462982.141,East Asia & Pacific (IDA & IBRD countries)
 1989-01-01,143599814295.912,East Asia & Pacific (IDA & IBRD countries)
 1990-01-01,167196233310.631,East Asia & Pacific (IDA & IBRD countries)
 1991-01-01,192463159228.044,East Asia & Pacific (IDA & IBRD countries)
-1992-01-01,226522220813.832,East Asia & Pacific (IDA & IBRD countries)
+1992-01-01,226522220813.831,East Asia & Pacific (IDA & IBRD countries)
 1993-01-01,255047693639.651,East Asia & Pacific (IDA & IBRD countries)
-1994-01-01,320386663300.396,East Asia & Pacific (IDA & IBRD countries)
+1994-01-01,320386663300.395,East Asia & Pacific (IDA & IBRD countries)
 1995-01-01,396749816752.171,East Asia & Pacific (IDA & IBRD countries)
-1996-01-01,442711665225.861,East Asia & Pacific (IDA & IBRD countries)
+1996-01-01,442711665225.86,East Asia & Pacific (IDA & IBRD countries)
 1997-01-01,429226241671.081,East Asia & Pacific (IDA & IBRD countries)
 1998-01-01,401675486795.889,East Asia & Pacific (IDA & IBRD countries)
 1999-01-01,418578043663.78,East Asia & Pacific (IDA & IBRD countries)
 2000-01-01,508131101580.03,East Asia & Pacific (IDA & IBRD countries)
 2001-01-01,501267531640.709,East Asia & Pacific (IDA & IBRD countries)
-2002-01-01,558973361095.355,East Asia & Pacific (IDA & IBRD countries)
-2003-01-01,791229427666.961,East Asia & Pacific (IDA & IBRD countries)
+2002-01-01,558973361095.354,East Asia & Pacific (IDA & IBRD countries)
+2003-01-01,791229427666.96,East Asia & Pacific (IDA & IBRD countries)
 2004-01-01,1017332666437.06,East Asia & Pacific (IDA & IBRD countries)
 2005-01-01,1245077294901.97,East Asia & Pacific (IDA & IBRD countries)
 2006-01-01,1540514174943.01,East Asia & Pacific (IDA & IBRD countries)
@@ -7591,7 +7591,7 @@ date,total_exports,reporter
 2000-01-01,286970508537.164,Europe & Central Asia (IDA & IBRD countries)
 2001-01-01,295839161984.281,Europe & Central Asia (IDA & IBRD countries)
 2002-01-01,324038817190.398,Europe & Central Asia (IDA & IBRD countries)
-2003-01-01,411012301484.476,Europe & Central Asia (IDA & IBRD countries)
+2003-01-01,411012301484.475,Europe & Central Asia (IDA & IBRD countries)
 2004-01-01,546543136310.921,Europe & Central Asia (IDA & IBRD countries)
 2005-01-01,672941345796.489,Europe & Central Asia (IDA & IBRD countries)
 2006-01-01,821919053051.685,Europe & Central Asia (IDA & IBRD countries)
@@ -7605,7 +7605,7 @@ date,total_exports,reporter
 2014-01-01,1496894921320.48,Europe & Central Asia (IDA & IBRD countries)
 2015-01-01,1181319380840.95,Europe & Central Asia (IDA & IBRD countries)
 2016-01-01,1117702967722.66,Europe & Central Asia (IDA & IBRD countries)
-2017-01-01,1319524374742.62,Europe & Central Asia (IDA & IBRD countries)
+2017-01-01,1319524374742.61,Europe & Central Asia (IDA & IBRD countries)
 2018-01-01,1527532513512.82,Europe & Central Asia (IDA & IBRD countries)
 2019-01-01,1528899571717.31,Europe & Central Asia (IDA & IBRD countries)
 2020-01-01,1316957012053.72,Europe & Central Asia (IDA & IBRD countries)
@@ -7730,11 +7730,11 @@ date,total_exports,reporter
 1979-01-01,86066810291.3628,Latin America & the Caribbean (IDA & IBRD countries)
 1980-01-01,110768865723.502,Latin America & the Caribbean (IDA & IBRD countries)
 1981-01-01,119060482290.193,Latin America & the Caribbean (IDA & IBRD countries)
-1982-01-01,108267600897.781,Latin America & the Caribbean (IDA & IBRD countries)
+1982-01-01,108267600897.782,Latin America & the Caribbean (IDA & IBRD countries)
 1983-01-01,107124879723.185,Latin America & the Caribbean (IDA & IBRD countries)
 1984-01-01,118657603579.671,Latin America & the Caribbean (IDA & IBRD countries)
 1985-01-01,113733532089.122,Latin America & the Caribbean (IDA & IBRD countries)
-1986-01-01,99170011208.7104,Latin America & the Caribbean (IDA & IBRD countries)
+1986-01-01,99170011208.7105,Latin America & the Caribbean (IDA & IBRD countries)
 1987-01-01,112479860819.474,Latin America & the Caribbean (IDA & IBRD countries)
 1988-01-01,127910600458.431,Latin America & the Caribbean (IDA & IBRD countries)
 1989-01-01,142008300891.968,Latin America & the Caribbean (IDA & IBRD countries)
@@ -7765,7 +7765,7 @@ date,total_exports,reporter
 2014-01-01,1246909395164.11,Latin America & the Caribbean (IDA & IBRD countries)
 2015-01-01,1083074573609.38,Latin America & the Caribbean (IDA & IBRD countries)
 2016-01-01,1054922025322.43,Latin America & the Caribbean (IDA & IBRD countries)
-2017-01-01,1173047444721.45,Latin America & the Caribbean (IDA & IBRD countries)
+2017-01-01,1173047444721.44,Latin America & the Caribbean (IDA & IBRD countries)
 2018-01-01,1268858608720.35,Latin America & the Caribbean (IDA & IBRD countries)
 2019-01-01,1259521204946.57,Latin America & the Caribbean (IDA & IBRD countries)
 2020-01-01,1099260423803.54,Latin America & the Caribbean (IDA & IBRD countries)
@@ -7898,23 +7898,23 @@ date,total_exports,reporter
 2022-01-01,898272745477.139,South Asia (IDA & IBRD)
 1977-01-01,44080740624.4873,Sub-Saharan Africa (IDA & IBRD countries)
 1978-01-01,45931568441.8572,Sub-Saharan Africa (IDA & IBRD countries)
-1979-01-01,63286218874.5447,Sub-Saharan Africa (IDA & IBRD countries)
-1980-01-01,88568012261.0995,Sub-Saharan Africa (IDA & IBRD countries)
-1981-01-01,71925212831.9182,Sub-Saharan Africa (IDA & IBRD countries)
+1979-01-01,63286218874.5446,Sub-Saharan Africa (IDA & IBRD countries)
+1980-01-01,88568012261.0994,Sub-Saharan Africa (IDA & IBRD countries)
+1981-01-01,71925212831.9181,Sub-Saharan Africa (IDA & IBRD countries)
 1982-01-01,58551238271.5396,Sub-Saharan Africa (IDA & IBRD countries)
 1983-01-01,56651461625.0067,Sub-Saharan Africa (IDA & IBRD countries)
 1984-01-01,57510016621.2473,Sub-Saharan Africa (IDA & IBRD countries)
 1985-01-01,57074890448.2926,Sub-Saharan Africa (IDA & IBRD countries)
-1986-01-01,49791528865.8076,Sub-Saharan Africa (IDA & IBRD countries)
-1987-01-01,62004779412.4231,Sub-Saharan Africa (IDA & IBRD countries)
+1986-01-01,49791528865.8075,Sub-Saharan Africa (IDA & IBRD countries)
+1987-01-01,62004779412.423,Sub-Saharan Africa (IDA & IBRD countries)
 1988-01-01,63873579813.8963,Sub-Saharan Africa (IDA & IBRD countries)
-1989-01-01,66685623144.4291,Sub-Saharan Africa (IDA & IBRD countries)
+1989-01-01,66685623144.429,Sub-Saharan Africa (IDA & IBRD countries)
 1990-01-01,78880324360.0206,Sub-Saharan Africa (IDA & IBRD countries)
-1991-01-01,75029130303.6141,Sub-Saharan Africa (IDA & IBRD countries)
+1991-01-01,75029130303.614,Sub-Saharan Africa (IDA & IBRD countries)
 1992-01-01,76896550855.7947,Sub-Saharan Africa (IDA & IBRD countries)
 1993-01-01,76930825098.9277,Sub-Saharan Africa (IDA & IBRD countries)
 1994-01-01,78884529290.5339,Sub-Saharan Africa (IDA & IBRD countries)
-1995-01-01,81212989515.721,Sub-Saharan Africa (IDA & IBRD countries)
+1995-01-01,81212989515.7211,Sub-Saharan Africa (IDA & IBRD countries)
 1996-01-01,88821106304.5521,Sub-Saharan Africa (IDA & IBRD countries)
 1997-01-01,89732048115.3241,Sub-Saharan Africa (IDA & IBRD countries)
 1998-01-01,81781245492.1012,Sub-Saharan Africa (IDA & IBRD countries)
@@ -7928,7 +7928,7 @@ date,total_exports,reporter
 2006-01-01,276757412945.272,Sub-Saharan Africa (IDA & IBRD countries)
 2007-01-01,332013933119.925,Sub-Saharan Africa (IDA & IBRD countries)
 2008-01-01,406547403166.132,Sub-Saharan Africa (IDA & IBRD countries)
-2009-01-01,311588109190.399,Sub-Saharan Africa (IDA & IBRD countries)
+2009-01-01,311588109190.398,Sub-Saharan Africa (IDA & IBRD countries)
 2010-01-01,404015802205.932,Sub-Saharan Africa (IDA & IBRD countries)
 2011-01-01,490492472267.168,Sub-Saharan Africa (IDA & IBRD countries)
 2012-01-01,481446660654.951,Sub-Saharan Africa (IDA & IBRD countries)
@@ -7940,7 +7940,7 @@ date,total_exports,reporter
 2018-01-01,429150317779.5,Sub-Saharan Africa (IDA & IBRD countries)
 2019-01-01,422784576300.169,Sub-Saharan Africa (IDA & IBRD countries)
 2020-01-01,344686335009.208,Sub-Saharan Africa (IDA & IBRD countries)
-2021-01-01,456446409460.793,Sub-Saharan Africa (IDA & IBRD countries)
+2021-01-01,456446409460.792,Sub-Saharan Africa (IDA & IBRD countries)
 1975-01-01,1289889898.57463,Trinidad and Tobago
 1976-01-01,1390721270.10568,Trinidad and Tobago
 1977-01-01,1548458333.97852,Trinidad and Tobago
@@ -8488,7 +8488,7 @@ date,total_exports,reporter
 2020-01-01,141534193.192379,Vanuatu
 2021-01-01,88804596.6436927,Vanuatu
 1979-01-01,2023360761729.52,World
-1980-01-01,2433647007299.85,World
+1980-01-01,2433647007299.84,World
 1981-01-01,2422524480190.21,World
 1982-01-01,2257643147238.22,World
 1983-01-01,2189120223079.37,World
@@ -8505,8 +8505,8 @@ date,total_exports,reporter
 1994-01-01,5294774972325.93,World
 1995-01-01,6340313051475.89,World
 1996-01-01,6741669677329.84,World
-1997-01-01,6931780450085.88,World
-1998-01-01,6866094807535.96,World
+1997-01-01,6931780450085.89,World
+1998-01-01,6866094807535.97,World
 1999-01-01,7140883226473.42,World
 2000-01-01,7961077076779.46,World
 2001-01-01,7688246265657.06,World
@@ -8525,10 +8525,10 @@ date,total_exports,reporter
 2014-01-01,23988897606827.1,World
 2015-01-01,21341588867713.9,World
 2016-01-01,20923543859170.2,World
-2017-01-01,23110294021482.6,World
+2017-01-01,23110294021482.5,World
 2018-01-01,25345893680999.8,World
 2019-01-01,24998408354768.7,World
-2020-01-01,22617687474483.9,World
+2020-01-01,22617687474483.8,World
 2021-01-01,28238419408849.4,World
 2022-01-01,31328725251802.6,World
 1977-01-01,17148436.4037241,Samoa

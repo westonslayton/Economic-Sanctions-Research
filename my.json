@@ -1,0 +1,10524 @@
+[
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "F97",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1205499.907482"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "763517.32996"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "672035.466087"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "778679.010696"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "969678.675372688"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "833754.2404"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "605913.735931"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "924943.499924"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1293681.723537"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "IQ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "81893.889574"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "51479.193134"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "46434.732702"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "64373.312119"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "90746.177371"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "85632.334213"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "58948.732886"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "81240.932346"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "125911.297629"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "RO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "69724.78714"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "60594.856236"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "63533.984931"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "70761.23591"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "79660.014624"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "76871.192089"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "70718.266875"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "87388.114896"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "96437.28152"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "X88",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5207.511839"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4695.383147"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4419.406532"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "3327.099081"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1880.689972"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1531.255249"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1406.556938"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1411.835132"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1576.859155"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "FR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "581392.251783"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "506264.439294"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "501179.012758"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "535298.337851"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "582221.759559"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "570950.487549"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "488636.774411"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "585020.854259"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "615603.303288"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "164645.203469"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "140023.558072"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "139290.379824"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "152920.380665"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "165968.289786"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "160576.018356"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "155495.623803"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "189515.440204"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "196139.233235"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "11209.979913"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "9568.532034"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "9912.62927"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "10597.264045"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "11332.202138"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "11444.425554"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "11624.672444"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "14747.546463"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "15183.244716"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ZW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "3972.231413"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3505.157832"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3424.454196"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "3039.135983"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3540.242829"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3649.606782"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4394.8085"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6036.186861"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "6585.336822"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ME",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "438.136997"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "351.763674"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "360.533092"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "419.286381"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "467.806604"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "462.958302"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "413.623778"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "505.751779"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "742.313702"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2573.248744"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2321.527906"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2679.026946"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2475.836618"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3042.336419"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "4299.661582"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3927.960421"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5194.857138"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "5709.543957"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BJ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "968.626702"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2284.078365"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2404.23672"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2806.952392"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3237.599839"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2796.660524"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2574.220506"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3297.998944"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4333.391213"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "XS25",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "3594130.987312"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3411980.627983"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3256818.246001"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "3571324.115616"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3909640.733728"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3918638.581916"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3946598.334914"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5092924.882458"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "5590680.467179"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "1C_903",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1218398.351384"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "972252.403352"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "921903.027874"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1078539.934662"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1249850.845199"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1225210.819038"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1123269.373622"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1486469.304246"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1624340.121089"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "12801.806699"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "12634.655155"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "10846.518559"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "12499.881778"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "11802.942384"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "12727.716155"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "12528.145128"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "15497.002282"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "16713.536063"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1241.334362"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1279.245276"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1256.595598"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1405.869098"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1510.366059"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1487.177635"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "991.683361"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1251.956007"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1401.173854"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4670.061924"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3244.3927"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3334.627743"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4706.537991"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5197.197539"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "4728.112599"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3465.493903"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5121.362659"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7384.279113"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "58067.188086"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "33391.574733"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "27663.602291"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "33715.955262"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "40526.434903"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "34819.086582"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "21043.756237"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "35116.206394"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "51443.39283"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4380.639485"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3813.908155"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4184.291924"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4804.684629"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5696.331712"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5860.148855"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6332.713188"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "7898.257476"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "9517.406902"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "75060.493607"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "62031.77511"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "60715.111077"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "68819.712972"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "74704.245842"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "68760.801959"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "73484.581265"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "93878.024713"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "97489.095973"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MV",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "143.564036"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "143.595147"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "139.500317"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "199.484379"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "181.646782"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "158.047562"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "162.799166"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "151.28117"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "159.010757"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "21828.6089"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "12729.1384"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "13457.5921"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "15319.9771"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "19458.6325"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "19635.7486"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "13740.8175"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "22208.0043"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "38146.4342"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "IS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5052.575992"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4742.021058"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4455.163805"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4849.219504"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5306.997988"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5273.447995"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4522.502714"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6054.132505"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7402.719309"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "36046.4609"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "26618.9821"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "23537.3545"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "29239.9939"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "33906.9462"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "32955.1224"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "29179.441"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "39986.9711"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "33845.484407"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "6613.708104"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4719.958395"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3530.143115"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "3990.108999"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5322.901101"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5619.277021"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4016.667913"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5147.252484"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7378.244862"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2343130.290674"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2280422.891469"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2136523.806"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2280048.850109"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2501304.86935"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2498531.55599"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2598014.47769"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3368216.972663"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3604481.49075"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MD",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2299.769741"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1976.458404"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2049.426045"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2426.987103"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2710.622777"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2779.255973"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2484.791709"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3142.979849"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4335.076534"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NP",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "921.158933"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "678.70734"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "743.999026"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "757.272122"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "799.021073"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "981.371461"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "875.384347"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1703.88289"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1345.616175"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5998.426562"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "5855.877389"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "5483.584259"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "6150.741546"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "6475.632371"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "6649.613629"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5939.066876"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "7285.30777"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "9653.510254"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "97391.856196"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "56651.872669"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "39463.79394"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "47935.735543"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "65194.87199"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "61555.271038"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "40307.864672"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "55728.684346"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "64629.803222"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2550.674214"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2015.63132"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1961.477334"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2463.201513"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3099.404234"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2985.007867"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2716.277582"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3681.100753"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4310.142456"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5043.726095"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4619.171065"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4787.198802"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5602.412993"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "6881.139206"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7172.029586"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6633.236159"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "8188.220682"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "8729.356237"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2019.221942"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1831.289701"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1626.201446"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1996.680612"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2068.256148"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2284.510038"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2850.406018"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3294.834398"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3338.784284"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "R1",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5787.229412"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4981.101034"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "5327.745638"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "6400.958433"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "7182.125338"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "6578.260731"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6152.491089"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "8614.079101"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "9678.192326"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "106.895017"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "83.93147"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "35.461407"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "17.468605"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "14.794436"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "26.921384"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "29.018026"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "29.541263"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "43.77308"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "12899.069895"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "8737.099406"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "7126.324175"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "8223.138291"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "9014.703218"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "8804.872212"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6974.746128"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "10985.584943"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "13603.746248"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "153.413811"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "115.132071"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "116.903579"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "163.254993"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "167.39355"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "172.896417"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "153.533877"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "150.502705"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "182.824381"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GB",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "504518.301441"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "459586.135084"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "408910.330081"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "440984.287611"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "486595.306357"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "469922.601271"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "395388.758408"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "459609.361804"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "529129.755812"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "OM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "53218.787427"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "34678.114824"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "26775.726243"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "35273.928193"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "42869.8471696878"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "12326.473336"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "15298.590437"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "18460.488069"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "22312.435806"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "983.60017"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "787.617135"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "930.003488"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1992.08952"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1564.633779"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "665.986241"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "629.512369"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "722.989931"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "465.81396"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SC",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "556.185968"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "476.200616"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "486.325814"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "595.457212"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "764.664204"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "711.099748"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "834.518344"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1053.147019"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "905.538109"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1172.642919"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1166.022714"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1450.580547"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1645.15469"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1449.725585"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1475.622204"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2752.307136"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "4256.701951"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "8130.865731"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2461.590828"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "667.002594"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "554.487038"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "497.954146"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "956.558809"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "541.266924"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "303.634741"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "578.922986"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1956.949137"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "IT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "529796.623384"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "456989.385163"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "461736.648428"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "507418.333543"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "549526.294619"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "537717.409511"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "499792.263505"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "615635.199901"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "654552.215367"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "RW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "619.233831"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "428.643625"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "419.021671"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "660.643654"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "846.756299"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1162.325921"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1643.102991"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1196.848138"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1562.504485"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "HR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "13835.333991"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "12924.854257"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "13812.533235"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "16068.922247"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "17401.849116"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "17180.534148"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "17192.803647"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "21877.520351"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "25328.874248"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "UA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "53911.029551"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "38134.807634"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "36288.474698"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "42339.359346"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "47182.315541"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "49886.456336"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "49214.838257"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "65826.467477"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "44443.200593"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "1C_440",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1337444.346173"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "861379.508967"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "763032.599071"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "881867.764694"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1084519.11414569"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "951893.244096"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "706633.117333"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1056553.051996"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1460505.441868"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "35960.653436"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "28553.96922"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "28150.661555"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "32626.734001"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "39502.288462"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "37907.451484"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "35214.597416"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "47217.829177"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "57227.543992"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CSH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "VE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "68525.979384"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "34195.707205"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "24661.689075"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "30235.850097"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "32270.00399"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "14874.054633"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4678.395312"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "2742.826847"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4048.995815"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "178223.077893"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "152728.093726"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "152089.839826"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "168026.455192"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "184815.146"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "178669.69437"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "169417.168821"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "202805.953976"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "209657.726923"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "IR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "64024.015815"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "39403.368017"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "46817.777118"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "65410.516851"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "71559.487358"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "30065.962129"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "14254.791719"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "18131.050797"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "18653.173309"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "1C_092",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5584393.900645"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "5165953.438423"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4994629.099347"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5527573.176762"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "6059401.192179"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "6063889.594081"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5989799.53144"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "7684982.101369"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "8481248.960963"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "YE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2627.975292"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "244.768935"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "23.487539"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "88.157124"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "51.618143"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "36.57418"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "38.415255"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "126.624162"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "83.787052"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1162.488842"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2356.64799"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2376.528338"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2555.119313"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2811.64593"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3314.26504"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5441.709232"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "4777.073394"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "5562.901624"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "166504.861795"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "150982.113766"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "149246.999263"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "164494.619316"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "177168.756288"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "180832.721702"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "169637.75531"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "225214.458038"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "254170.939731"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "EE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "16042.414581"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "12836.109945"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "13170.831436"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "14558.461666"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "17016.890703"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "16100.944669"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "16339.698835"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "21520.017962"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "22334.797902"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "299.880572"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "108.201377"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "494.322189"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "120.635067"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "207.57771"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "210.570962"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "166.353089"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "406.133066"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "488.492496"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ZA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "91158.719175"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "81484.093606"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "74909.855037"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "89417.32341"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "94325.664851"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "89963.750729"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "85876.283795"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "122354.020969"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "123387.268718"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "409829.879025"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "351471.643164"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "329563.14147"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "366050.597933"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "412959.269844"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "390683.829311"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "287884.272227"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "456881.527331"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "516016.291965"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "61779.44639"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "58641.305331"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "56125.868131"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "63108.250752"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "67426.700534"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "70880.802262"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "63568.632621"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "74619.471942"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "80771.934215"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "10790.036876"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "10672.087843"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "10447.67706"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "10980.273157"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "10770.764234"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "11182.963054"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "11545.278154"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "13635.511756"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "15683.554938"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "79433.472808"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "45952.036065"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "36736.906559"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "48348.332338"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "60653.91031"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "57676.727677"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "46926.834907"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "59817.570568"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "83008.786144"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "HN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4066.506946"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3914.496583"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3857.258528"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4520.727575"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "4352.175801"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2520.914924"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4257.873431"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5201.138502"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "6109.499641"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SUH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "F6",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "397851.977765"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "300046.724275"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "262513.240493"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "298525.749441"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "349423.99138"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "326487.073875"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "287663.315961"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "388673.375168"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "452347.849662"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SD",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4350.209667"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3168.355"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2598.726"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4100.380502"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3484.681535"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "10364.668496"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "10265.67387"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6172.795828"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7336.362084"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "224231.817969"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "190601.362558"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "184419.093532"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "217726.153906"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "242358.656506"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "222199.851539"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "211260.755248"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "281645.257207"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "334463.079195"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "246.22883"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "303.820206"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "366.738042"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "357.261168"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "153.578604"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "242.356041"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "186.401899"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "203.590273"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "254.409727"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ML",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1911.509635"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1912.645575"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2846.208127"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1908.523908"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3640.906165"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3649.670437"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5060.644449"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5183.493644"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "5303.435595"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "29245.736428"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "25370.886209"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "26572.366706"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "31437.467409"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "33617.633367"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "33340.029662"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "31954.317786"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "41157.188671"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "50653.770284"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "QA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "126679.199393"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "77053.635977"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "57268.555566"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "67464.629283"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "84260.449548"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "72895.776094"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "51473.424477"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "87165.659554"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "130920.851816"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "EC",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "25720.785836"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "18364.733035"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "16797.318526"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "19092.060664"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "21627.79157"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "22329.222113"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "20225.814059"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "26345.747048"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "37653.768772"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "19099.020405"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "17139.141015"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "15796.000963"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "15760.866977"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "16411.897359"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "16451.333906"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "13838.929499"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "16800.336177"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "17405.315871"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "1C_080",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2144659.124998"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1358258.546031"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1150956.269644"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1365353.583329"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1705403.62481569"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1496712.246841"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1100824.362871"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1643102.876968"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "2206335.12273"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "141563.812803"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "103318.831879"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "86975.754458"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "100260.894238"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "122048.738906"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "102824.92672"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "84910.295426"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "160306.668845"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "270865.654988"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "VU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "67.792791"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "64.732591"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "51.862951"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "68.048199"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "51.682156"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "41.709415"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "80.12522"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "72.417896"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "73.193371"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "F1",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "565919.160592"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "420901.634352"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "372533.123304"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "425985.442532"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "499700.133629"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "480322.15637"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "403142.602667"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "567073.81773"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "680151.715612"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BB",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "366.839118"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "408.276901"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "448.881629"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "483.913571"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "346.773727"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "386.858429"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "262.472476"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "275.527643"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "320.067197"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "6881.699627"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "8577.82186"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "10099.225913"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "11314.089149"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "12738.67221"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "14868.02374"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "17774.994223"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "17606.343315"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "23278.176726"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "DE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1494214.251349"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1326205.733348"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1334355.340854"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1448190.685393"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1560539.277174"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1489411.69198"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1382532.867964"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1636741.953216"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1642471.374456"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "XR43",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "7729053.025643"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "6524211.984454"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "6145585.368991"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "6892926.760091"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "7764804.81699469"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7560601.840922"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "7090623.894311"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "9328084.978337"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "10687584.083693"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CD",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "9507.586934"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "8683.099415"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "11764.316"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "7885.818"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "16023.995187"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "13183.438955"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "13788.59706"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "27329.819741"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "41205.548118"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "672410.52717"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "570441.725554"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "570606.475623"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "652065.469673"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "726697.528972"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "708595.718597"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "674602.02206"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "840031.521514"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "964634.277274"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "FJ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1350.920697"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "974.692115"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "977.910039"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1094.68581"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1005.33042"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1026.415287"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "828.411017"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "892.35386"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1066.78732"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "670.60133"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "673.499958"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "612.498106"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "460.739127"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "527.694105"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "562.891678"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "503.978557"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "527.868641"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "631.825429"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "DO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "10009.648951"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "9584.895138"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "10071.885111"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "10379.762617"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "10876.113094"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "11473.74005"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "10471.433129"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "12445.621498"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "13590.994778"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "11406.669831"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "11431.810885"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "11835.188453"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "13878.328049"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "16704.215764"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "18111.937592"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "16306.372376"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "15160.079866"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "20443.354674"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "14723.344348"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "10964.681055"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "7746.564168"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "8692.762915"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "7468.309928"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7191.21427"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5518.87748"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "8377.110128"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "13286.252864"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BF",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2602.34032"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2215.497922"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2518.933657"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2909.361475"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3254.98407"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3239.480569"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4380.865823"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5040.406639"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4542.731249"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1519.286858"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1486.885931"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1779.360291"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2237.697186"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2412.432662"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2647.210932"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2536.993456"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3015.987201"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "5360.069395"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "30960.039161"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "19962.770078"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "12075.288186"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "12471.322544"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "14331.296553"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "12866.366164"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "11576.274182"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "17389.224066"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "24381.829529"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "DJ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "262.486442"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "332.881693"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "337.146876"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "360.138431"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "372.90253"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "322.386216"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "390.837642"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "375.100245"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "388.481857"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "10897.627951"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "9744.507173"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "10045.919377"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "11164.510212"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "11556.681218"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "11685.377015"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "9871.368037"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "13317.874724"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "17105.593712"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1920.222233"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "710.108674"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "982.083679"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1039.091766"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1790.339735"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1575.423783"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1882.743156"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1502.008762"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1816.788752"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KP",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "3235.621443"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3048.526522"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3044.345398"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1875.797077"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "649.7023"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "417.883652"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "195.288294"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "215.101534"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "249.113749"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "67418.856618"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "56672.272432"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "57905.192829"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "58600.38192"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "61642.554722"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "64467.376001"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "54635.30462"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "77629.061665"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "88057.188134"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ET",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "3067.252917"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3069.39224"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2733.22664"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2938.805154"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2846.610322"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3186.791712"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3299.031259"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3859.180295"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4636.232557"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "WS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "52.18076"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "59.338839"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "62.223081"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "39.014186"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "38.480252"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "36.068463"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "41.051597"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "26.787816"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "29.210965"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "472191.748529"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "396841.437857"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "398133.58818"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "429644.587283"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "468213.513995"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "446909.874755"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "421841.633152"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "548868.9457"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "628767.851953"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MX",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "396906.534"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "380547.555"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "373948.264"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "409410.812"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "450707.311"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "460598.221"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "417167.585"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "494945.383"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "577729.987"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "224694.885501"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "210684.843219"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "213761.91107"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "235925.097351"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "250607.211853"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "245369.649807"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "229256.11708"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "266291.81122"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "283504.156341"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "250037.142306"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "182197.87539"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "176982.514978"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "197657.202234"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "224855.500726"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "219965.259864"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "178338.041449"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "259736.267818"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "354916.615458"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "FI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "74332.943117"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "59817.526949"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "57908.373902"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "68073.495409"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "75869.032847"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "73468.053515"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "66219.582672"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "81995.695893"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "85637.963838"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "JM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1458.799526"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1273.269439"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1197.173464"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1378.274919"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1885.633983"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1555.120369"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1228.968008"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1476.358761"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1066.623112"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CV",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "64.864455"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "465.412092"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "217.409538"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "60.479346"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "78.284766"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "63.847945"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "55.632863"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "74.21302"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "58.884935"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "IE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "121057.406677"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "123361.514495"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "130864.165734"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "137359.403985"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "164794.264405"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "169625.052924"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "180104.434601"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "190658.115266"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "213556.052856"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "54508.408403"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "35650.76339"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "31390.361512"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "37240.881241"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "41819.392864"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "39485.080766"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "31053.209022"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "41389.989091"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "57105.700449"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "16012.739928"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "13441.821416"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "12893.27901"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "14203.980026"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "15534.640172"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "15510.970332"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "13932.075544"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "16815.047952"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "18426.076307"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "FO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1375.470401"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1402.831522"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1492.282196"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1608.738375"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1538.303821"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1643.308768"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1357.62577"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1652.89531"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "2250.972025"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "IN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "317674.457954"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "266123.746993"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "261823.494383"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "296170.73"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "323241.51"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "324830.13"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "275589.566278"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "394463.71039"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "453196.569073"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "8006.955414"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "7924.848342"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "6931.309759"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "7802.695204"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "11142.137911"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5581.50535"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4901.693356"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "2376.138227"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3771.02829"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "9650.485677"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "8354.002323"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "8490.038195"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "8387.920516"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "8672.251806"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7682.208224"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "8239.240831"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "10559.535045"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "9957.013974"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "24731.259179"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "22139.537352"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "20547.137387"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "21503.625423"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "23166.102512"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "23337.824729"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "22235.464366"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "28681.421751"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "30872.794287"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1583.494129"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1303.777195"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1175.711108"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1401.162048"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "476.536805"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "372.990177"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "435.112797"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "603.465512"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "727.967516"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "1C_473",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1971.890396"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1646.856625"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1375.061134"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1451.302004"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1230.987672"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1113.371597"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1211.268644"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1196.733598"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1327.745406"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "25.676662"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "15.469194"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "29.825136"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "38.41182"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "46.214066"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "48.963184"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "21.54111"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "36.816515"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "37.1473"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2154.57599"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2078.787663"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2186.79256"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2774.149967"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2972.100048"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2555.649713"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1948.720566"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "2707.433581"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3546.314854"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "11502.085202"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "9666.303254"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "7877.144742"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "8124.274571"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "9706.042603"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "10605.474446"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6491.750338"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "9386.553049"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "13230.426474"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "23599.356994"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "21140.045523"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "22825.542612"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "24585.299081"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "27642.729049"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "29579.707004"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "27838.975265"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "36530.850612"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "40279.145985"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "HU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "110622.136393"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "98524.257819"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "101919.27825"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "113805.964982"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "124704.406543"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "123796.641369"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "120654.055094"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "141830.131266"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "150557.814157"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "DE2",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "VC",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "78.809119"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "52.406217"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "52.101179"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "123.065511"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "130.597978"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "118.335175"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "93.97529"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "52.972128"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "72.124218"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "39.008933"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "316.611994"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "12.034156"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "143.525385"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "147.875314"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "83.610712"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "46.573905"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "49.764004"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "60.131688"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "475214.297176"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "408347.675074"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "389580.156642"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "418785.166755"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "447666.355515"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "446093.934059"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "390141.060531"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "501740.476073"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "596957.71223"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1807.056642"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1420.947425"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1421.273069"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1757.153907"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1712.413274"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1965.502152"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1964.466371"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1658.948479"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "2186.695033"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5185.997083"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4020.573672"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2157.597963"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "3265.366032"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3790.205213"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "4284.498162"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3439.807343"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "4388.330399"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "6152.325903"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5774.330888"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4669.280621"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4916.335395"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "6200.66002"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "7011.764054"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7632.442074"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "7575.504698"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "9241.377403"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "12525.983914"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "959.094902"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "793.105082"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "849.571745"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "867.0175"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1025.239232"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1011.476481"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "978.507292"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1079.79268"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "2763.291673"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "392.869681"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "328.893727"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "246.162634"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "277.584959"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "240.911165"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "244.908865"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "211.872698"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "264.005694"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "286.430398"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "41822.658708"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "34349.759788"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "33680.607901"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "38184.162023"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "40189.082397"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "40048.499899"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "38824.427655"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "39574.133382"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "46319.748469"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "UG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1981.669466"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1998.568123"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2296.895027"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2910.651581"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2950.207396"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3518.976279"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4136.211202"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3953.611158"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3535.008594"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "10614.324828"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "6353.323919"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4909.939693"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5585.274966"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "6569.775591"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7251.946026"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6607.140768"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "11052.152978"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "14017.755148"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "38365.262992"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "33175.475003"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "37019.780721"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "44756.434955"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "47883.3828"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "44797.272109"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "38757.278972"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "56236.420139"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "66388.392059"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ST",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "11.043676"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "10.408131"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1.773969"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "11.102845"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "12.996612"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1.96967"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "23.751612"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "20.814029"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "21.087993"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4971.674784"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4704.755874"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2226.357664"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2500.073975"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2535.449676"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2696.767002"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2851.994639"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3513.117968"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3878.440278"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "220052.039393"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "199123.632625"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "203816.532553"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "234363.742251"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "263569.657737"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "266595.42576"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "273834.733358"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "340633.516545"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "358784.549732"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "240642.905906"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "188467.396166"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "191285.941672"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "229290.137109"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "254691.16019"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "272573.787833"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "251922.680907"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "344138.637936"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "412540.265911"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "YUC",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "442854.623115"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "244612.233261"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "206681.876046"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "220358.740291"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "295387.171148"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "259426.780794"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "180515.93083"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "278924.567991"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "407429.581914"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "DK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "111492.886736"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "95457.341264"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "95326.363686"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "102505.934549"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "109695.489802"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "111075.985631"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "108453.690958"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "125944.806223"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "130243.842145"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "W00",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "18824892.632505"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "16418156.843407"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "15868159.679985"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "17544683.544501"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "19312557.3291367"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "18743361.349423"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "17370008.538508"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "22048484.302821"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "24581789.50228"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "VN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "145921.215008"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "160261.876734"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "175940.315358"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "213545.512958"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "239221.683219"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "259384.351525"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "277270.837492"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "330431.996952"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "364216.98764"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2928.961785"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2607.105387"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3185.886286"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2858.395121"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3192.226015"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3177.729633"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2837.081097"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3063.586783"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3061.580272"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ID",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "176288.408966"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "150389.688855"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "136841.868003"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "168661.782845"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "174047.813188"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "167491.796144"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "163306.485259"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "231522.458148"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "291007.284939"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GD",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "27.952625"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "25.033428"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "24.281087"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "22.090219"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "22.75589"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "19.588283"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "13.758234"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "16.625488"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "18.097705"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "IL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "68955.6"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "66040.1"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "60144.12"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "60016.7"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "60648.2"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "57902.3"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "48992.5"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "59075"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "72538.3"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "HT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1015.095672"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1034.038968"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "999.851564"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1034.032863"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1149.973804"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1256.185075"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "967.263586"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1276.936059"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1203.758777"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "109.330647"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "77.61712"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "93.315049"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "88.246991"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "68.95213"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "77.827988"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "65.664884"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "87.492818"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "103.841099"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "35955.699385"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "31929.516295"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "32916.831373"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "38442.925263"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "44200.205502"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "44942.814797"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "44832.35815"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "57351.903361"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "67788.215744"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "B0",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5653035.461599"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4929052.631106"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4969738.993736"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5466719.487953"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5992950.719864"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5825390.720342"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5475128.165904"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6647260.619758"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7112130.551247"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TD",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2975.232914"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2223.683871"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1571.257759"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1219.839887"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1654.299375"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1271.942476"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1482.911105"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "2486.524186"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4529.793824"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "DZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "59883.803996"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "34563.343368"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "28960.146207"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "35146.051552"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "41168.251685"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "35312.211881"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "21925.247904"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "38434.843397"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "65102.212578"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GQ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "12491.856713"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "6564.73202"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4377.592878"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4889.248055"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5997.02451"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "4702.655662"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2823.758645"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "4689.842014"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7612.829489"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "JP",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "690193.215593"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "624777.635355"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "644907.633643"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "698040.586762"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "737915.340282"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "705617.821224"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "638167.043688"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "756166.163384"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "746720.431187"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ZM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "9693.099463"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "7039.254441"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "6507.521475"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "8157.558016"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "9052.148021"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7047.068107"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "7816.242421"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "11141.094532"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "11646.598892"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SV",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5271.861804"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "5484.04939"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "5326.161243"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5662.357872"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5852.259055"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5943.178098"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5044.277945"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6621.385982"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7115.101783"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AF",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "414.759213"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "571.404996"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "596.45534"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "831.859244"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "875.181037"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "863.833322"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "776.722236"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "776.789248"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "448.03552"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "32318.535938"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "25392.55256"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "25009.444708"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "29900.846339"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "33336.996759"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "33151.420514"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "32851.845404"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "40827.476287"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "46102.311835"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5718.641029"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "5886.836138"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4770.068378"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "3853.447838"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3668.149092"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "4760.919946"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6066.070725"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6390.56497"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "6979.982223"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2574.262491"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2403.153139"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2193.204987"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2085.140799"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2001.186641"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1887.94849"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1671.085164"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1649.980406"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1646.526614"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "63832.602821"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "55046.598866"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "55372.446232"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "62129.639192"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "68361.133499"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "67062.909875"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "61496.028821"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "75229.280013"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "82253.950683"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LV",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "14714.666092"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "12286.341375"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "12293.819822"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "14126.150905"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "16165.936732"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "15704.62584"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "16336.529279"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "20833.171861"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "23780.19835"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2228.545854"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1752.516343"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2527.777532"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2422.736742"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "2417.850524"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2682.624545"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3992.887298"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5050.59946"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4994.350849"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NC",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1626.615967"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1263.728298"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1099.667642"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1159.475198"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1367.674699"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1155.897267"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1104.823769"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1300.454995"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1590.845983"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2860.90813"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2204.134421"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2117.053492"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "2745.743829"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3379.732456"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3798.394373"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3343.442938"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "4242.323767"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "5592.764969"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "RU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "497833.710457"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "343426.722931"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "285499.878698"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "355720.095268"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "449185.26724"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "419731.678988"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "337884.789154"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "492048.058908"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "574962.106461"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "R14",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "716254.100974"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "489647.295832"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "420640.962575"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "519389.261541"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "642404.162923"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "616615.913074"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "507618.238721"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "716888.663025"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "822107.561618"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "DM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "52.188839"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "45.007321"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "47.18405"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "39.682852"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "45.478111"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "39.172716"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "31.345222"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "29.8245"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "26.697185"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "14421.449787"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "13743.295844"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "10537.1964"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "14357.516746"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "17098.580534"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "16776.958567"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "18767.261336"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "17398.444975"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "19571.128573"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "XR29",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "11090632.095023"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "9889249.475806"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "9718154.904462"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "10648429.685329"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "11545871.82217"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "11181228.253252"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "10277978.087259"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "12718987.489352"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "13892628.559432"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "523.411321"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "406.985131"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "573.463868"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "596.733587"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "664.625532"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "898.460855"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "929.42981"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "957.83358"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "990.514795"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "3163.859555"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3295.278076"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "2964.524378"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "3287.46331"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5051.55648"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "3453.134422"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3063.177656"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3887.900895"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3697.434073"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SB",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "460.825469"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "412.325858"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "438.702716"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "496.521513"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "562.751097"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "442.180766"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "365.101925"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "356.255653"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "378.427375"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "234246.397842"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "199956.088913"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "189413.440013"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "217836.720111"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "247365.23198"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "238103.532887"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "233959.026511"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "299037.704561"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "352337.923095"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ES",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "324532.919406"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "282273.474608"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "289981.241077"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "319530.92823"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "346754.050213"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "334017.602967"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "308316.463435"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "379969.121033"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "416599.076726"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "572642.483822"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "526735.576122"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "495836.363718"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "562014.085"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "605703.560745"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "542600.939"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "512644.773"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "644399.39"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "683583.612"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "311155.007898"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "289839.202523"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "302240.695081"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "299069.969937"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "309861.337236"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "313769.87615"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "313969.861637"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "379401.552377"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "401751.970003"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "34576.282291"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "24584.006281"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "20145.44255"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "20169.541337"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "29989.124069"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "29285.759162"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "10944.464485"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "35552.437508"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "43902.17003"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "US",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1619089.971025"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1503337.029419"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1452427.666983"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1545605.007522"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1664237.796386"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1641117.823114"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1431584.385159"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1754300.367662"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "2064056.389455"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "86227.578757"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "75145.851493"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "77059.929045"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "83414.137417"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "93425.273565"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "89508.980429"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "86639.901549"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "103891.285857"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "107578.333801"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "1C_459",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "UY",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "9123.859305"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "7673.602155"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "7042.71277"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "8058.235968"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "7512.924829"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7947.219812"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6813.61392"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "9537.248058"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "11187.26135"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "RS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "14806.724933"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "13355.062515"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "14872.6291"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "16598.016578"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "18324.240448"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "18942.108657"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "19490.703948"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "25559.357547"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "29056.978951"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1343.28268"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1079.520206"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1023.792685"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "889.265581"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "886.688476"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "919.044712"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "787.475314"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1117.64153"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1233.733744"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "A10",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1055064.232684"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "899062.395114"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "868052.426918"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "973006.369754"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1061951.121377"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1027108.72262"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "937605.37388"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1187580.178778"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1395188.510272"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LC",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "134.027875"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "165.126341"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "104.797235"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "130.724373"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "114.741718"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "94.395595"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "65.016728"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "97.049983"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "79.856787"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "78013.351203"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "54129.418442"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "46160.318901"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "54985.117976"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "71759.033687"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "64357.821077"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "40014.145529"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "68303.554694"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "94190.114015"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "1C_198",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y"
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "UZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "6262.427469"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "5066.339379"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "8974.004175"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "10079.209986"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "10920.699937"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "14023.838907"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "13124.230369"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "14081.079835"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "15349.649063"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "E1",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1218398.351384"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "972252.403352"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "921903.027874"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1078539.934662"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1249850.845199"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1225210.819038"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1123269.373622"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1486469.304246"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1624340.121089"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LB",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4548.655408"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3980.993271"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "3929.848308"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4025.689165"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "3829.73441"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "4828.904397"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4082.604363"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "4575.93208"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4308.951"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KE",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "5907.703904"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "5943.563494"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "5694.754419"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5745.336992"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "6051.032054"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5834.110694"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "6022.475836"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6727.495249"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "7104.355139"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BD",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "28433.668595"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "29924.446181"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "30195.060277"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "31392.754034"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "33775.434148"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "35919.38811"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "29924.200945"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "37848.891219"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "46851.063751"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CF",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "28.292012"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "190.436112"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "122.402937"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "199.637104"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "55.72485"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "125.008906"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "41.413175"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "46.473621"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "50.477965"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "809.176358"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "693.660487"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "636.060873"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "660.015864"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "672.295198"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "713.38806"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1727.082481"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "3686.245679"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "3530.120182"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "175021.595986"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "157877.449398"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "162692.492371"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "182142.52319"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "202238.106029"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "199127.96159"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "191911.316056"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "226563.752471"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "241275.660722"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TJ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "949.284316"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "964.539888"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "902.494206"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1050.437007"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1175.147423"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "910.50229"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "725.842722"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1473.718492"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1646.868345"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "JO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "7267.279306"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "6757.001281"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "5415.970645"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "6343.976738"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "6584.092254"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7036.17788"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "7104.380141"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "8505.383388"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "11382.81238"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TO",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "18.09787"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "14.975644"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "19.147634"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "21.117139"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "12.917113"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "29.592576"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "22.304229"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "31.468187"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "26.536732"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KN",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "68.890625"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "54.475971"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "48.523389"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "38.126672"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "53.074867"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "40.793683"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "33.40355"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "43.486691"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "27.907896"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "HK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "474002.641004"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "517384.218372"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "462491.648312"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "550197.28813"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "569138.406401"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "535807.186042"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "552772.568615"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "671992.604167"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "611365.563695"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "EG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "26692.480237"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "21119.667137"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "20020.900004"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "26436.882423"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "29487.862956"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "30611.977688"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "26827.627421"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "40696.663981"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "48398.807396"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "8552.274082"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "6340.344174"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "7333.077314"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5911.82846"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "6374.895614"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "5051.675882"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "3733.633088"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "7114.200316"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "8204.749869"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "VA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "6.490397"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "16.687602"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4.08709"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4.139907"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "4.336588"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "6.093115"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "14.734131"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "18.865438"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "16.658544"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "KI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "9.133046"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "9.903007"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "10.117535"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "14.91761"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "14.007853"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "16.907986"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "9.26004"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "38.130671"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "77.252296"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NA",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "6177.645138"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4881.310938"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "5032.326398"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "5181.544057"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "4881.183613"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "6337.949065"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "5647.826181"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "6519.448098"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "6827.539575"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AG",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "231.628526"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "208.341894"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "268.76215"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "215.200656"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "135.635402"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1858.726191"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1633.858544"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1846.271252"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "2266.98508"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "NR",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "52.233791"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "41.590316"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "18.519365"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "36.578525"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "30.100168"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "52.394788"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "117.202496"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "221.324287"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "236.634821"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1716.273839"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "402.505685"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "294.294793"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "429.587154"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "220.021963"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "211.255081"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "398.262729"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "154.467671"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "414.101915"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "BT",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "484.013043"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "677.748463"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "499.247265"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "468.758383"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "546.567581"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "517.711914"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "447.855963"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "668.851784"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "655.510587"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "FM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "18.869799"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "16.333097"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "41.901635"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "110.389962"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "173.464067"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "217.296884"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "204.744364"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "231.000927"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "223.06868"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "GU",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "107.741233"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "114.286268"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "127.807722"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "222.431643"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "203.657429"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "194.63742"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "211.833351"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "194.704845"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "226.389617"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "CW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "515.747389"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "287.800032"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "861.274858"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "359.42153"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "263.229434"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "181.557559"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "132.423313"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "200.938079"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "192.539616"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AI",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "8.343296"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "33.323176"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "28.638547"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "20.934658"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "23.222695"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "55.203877"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "42.588195"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "35.018241"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "36.316596"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4085.040375"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2193.011297"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1375.827133"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1259.142795"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1612.925484"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1613.142868"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "783.173677"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "811.511567"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "489.549514"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PF",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "168.981022"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "129.69091"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "198.390709"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "168.025193"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "154.073034"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "162.709051"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "77.636018"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "266.636706"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "132.137553"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MH",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "373.359077"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "463.496053"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "212.061117"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "609.29769"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "639.315359"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "908.6691"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "663.391614"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1371.643559"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1174.648871"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "LS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "817.442463"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "536.47996"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "637.561651"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1030.101022"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1199.109047"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1092.602497"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "903.127045"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1066.980451"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1052.899125"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "943.698112"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "957.635942"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "926.498963"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1064.875105"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1155.63405"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1103.808382"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1054.603525"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1357.640076"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1326.394579"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "AS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "59.021423"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "28.936563"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "37.463542"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "40.993345"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "62.393655"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "26.343316"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "16.908599"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "71.564294"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "27.090582"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TV",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "8.072563"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "2.67109"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1.189605"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1.354825"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "10.06575"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "10.645004"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "7.949199"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "26.849126"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "22.534929"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SM",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "114.371626"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "98.56423"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "115.750712"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "129.190111"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "150.682247"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "149.592502"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "150.662205"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "215.320902"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "204.890887"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "ER",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "576.102817"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "414.219234"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "277.410788"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "255.058689"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "460.182589"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "331.605788"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1125.830736"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "489.47597"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "581.172546"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "XK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "439.583695"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "371.618813"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "342.571275"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "428.26775"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "432.183268"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "427.365767"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "544.164024"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "885.544653"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "967.840058"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "MS",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "3.781589"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "3.844714"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4.41713"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "17.064553"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "7.140535"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "6.883902"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "15.843789"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "8.515906"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4.165553"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "PW",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "10.04983"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4.967554"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "8.442679"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4.053002"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "8.719696"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "7.307803"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "2.989363"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1.819643"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "4.493746"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SX",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "29.548668"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "21.025227"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "52.310587"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "113.87117"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "104.569732"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1188.49818"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "177.332163"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "87.481752"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "100.964258"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "SZ",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "2016.159218"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "1821.924557"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "1716.861793"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "1800.523583"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1843.002726"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "2001.25731"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "1750.385813"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "2063.257911"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "2053.004106"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "TL",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "75.86586"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "27.491133"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "29.843172"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "23.710161"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "35.338352"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "81.980197"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "62.058595"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1303.043522"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "321.885685"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "FK",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "189.719589"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "185.67751"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "261.622749"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "196.854133"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "276.51696"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "297.510875"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "382.884372"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "313.686768"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "365.446543"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "U2",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "4772231.076054"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "4152080.649483"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "4176587.595415"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "4578782.238997"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "5013497.121976"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "4854007.465885"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "4522106.161974"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "5494227.669482"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "5888038.399452"
+   }
+  ]
+ },
+ {
+  "@FREQ": "A",
+  "@REF_AREA": "XS5",
+  "@INDICATOR": "TXG_FOB_USD",
+  "@COUNTERPART_AREA": "W00",
+  "@UNIT_MULT": "6",
+  "@TIME_FORMAT": "P1Y",
+  "Obs": [
+   {
+    "@TIME_PERIOD": "2014",
+    "@OBS_VALUE": "1463607.476498"
+   },
+   {
+    "@TIME_PERIOD": "2015",
+    "@OBS_VALUE": "940869.83373"
+   },
+   {
+    "@TIME_PERIOD": "2016",
+    "@OBS_VALUE": "836298.427705"
+   },
+   {
+    "@TIME_PERIOD": "2017",
+    "@OBS_VALUE": "971530.590618"
+   },
+   {
+    "@TIME_PERIOD": "2018",
+    "@OBS_VALUE": "1193938.12531069"
+   },
+   {
+    "@TIME_PERIOD": "2019",
+    "@OBS_VALUE": "1063156.643473"
+   },
+   {
+    "@TIME_PERIOD": "2020",
+    "@OBS_VALUE": "795487.495934"
+   },
+   {
+    "@TIME_PERIOD": "2021",
+    "@OBS_VALUE": "1172437.237687"
+   },
+   {
+    "@TIME_PERIOD": "2022",
+    "@OBS_VALUE": "1625027.135491"
+   }
+  ]
+ }
+]
