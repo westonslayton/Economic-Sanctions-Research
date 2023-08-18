@@ -27,6 +27,7 @@ library(tidyverse)
 load_sanction <- function(sanctions) {
   path <- file.path(dirname(getwd()), "data", sanctions)
   sanction.list <- read_excel(path) #Import the sanction list
+  sanction.list <- subset(sanction.list, select = -4)
   sanction.list$Details <- NULL #Remove column "details", not used for calculations
   sanction.list$Date <- as.Date(sanction.list$Date)
   sanction.list <- na.omit(sanction.list) # remove rows with missing values
@@ -245,7 +246,7 @@ khi <- function(provide_beta, betas, sanctions, alphas, image_name, reporter, pa
 
 provide_beta <- FALSE # put FALSE if you want the khi function to calculate needed betas for you
 betas <- "austria_input.xlsx" # only needed if above is TRUE; provided file must be in data folder
-sanctions <- "sanction_list.xlsx" # provided list of sanctions
+sanctions <- "new_sanction_list.xlsx" # provided list of sanctions
 alphas <- c(1, 10, 100, 1000, 3000)
 image_name <- "my_plot.png" # name of image to be saved
 reporter <- "Austria" # only needed if provide_beta == FALSE
@@ -272,7 +273,7 @@ khi(provide_beta, betas, sanctions, alphas, image_name, reporter, partner, U)
 ```{r}
 #|: function that gets imports from partner(s) to report for a specific commodity
 # to get total imports for one reporter from all partners (i.e., the world), set the partner argument to "0"
-# to get imports for one reporter from all partners individually, set the partner argument to "None"
+# to get imports for one reporter from all partners individually, set the partner argument to NULL
 # for a complete list of Comtrade's country codes, see "comtrade_countries.pdf" (in the data folder)
 # for a complete list of HS-classified commodity codes, see https://unstats.un.org/unsd/classifications/Econ
 
@@ -297,10 +298,10 @@ cmd_imports <- function(reporter, partner, freq, year, cmd_code) {
 
 ```{r}
 #|: example usage of above function
-# getting all HS 6801 imports from all partner countries to USA in 2020
+# getting all monthly HS 6801 imports from all partner countries to USA in 2020
 
 reporter <- "842" # USA
-partner <- "None" # all
+partner <- NULL # all
 freq <- "M" # can also be A (annual)
 year <- "2020"
 cmd_code <- "6801"

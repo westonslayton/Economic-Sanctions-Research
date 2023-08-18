@@ -43,7 +43,7 @@ library(Hmisc)
 ```{r message = FALSE}
 #|: creating-virtual-env-and-installing-python-pkgs
 
-# virtualenv_create("my_environment")
+virtualenv_create("my_environment")
 Sys.setenv(RETICULATE_PYTHON = virtualenv_python("my_environment"))
 use_virtualenv("my_environment")
 virtualenv_install(
