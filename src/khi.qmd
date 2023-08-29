@@ -4,21 +4,6 @@ format: html
 editor: visual
 ---
 
-## Setup
-
-```{r message = FALSE, warning = FALSE}
-
-library(readxl)
-library(writexl)
-library(data.table)
-library(plyr)
-library(lubridate)
-library(dplyr)
-library(ggplot2)
-library(hrbrthemes)
-library(tidyverse)
-```
-
 ## Khi Function
 
 ```{r}

@@ -1,0 +1,61 @@
+---
+title: "Setup"
+format: html
+editor: visual
+---
+
+## Virtual Environment
+
+```{r message = FALSE}
+#|: creating-virtual-env-and-installing-python-pkgs
+
+virtualenv_create("my_environment")
+Sys.setenv(RETICULATE_PYTHON = virtualenv_python("my_environment"))
+use_virtualenv("my_environment")
+virtualenv_install(
+  "my_environment",
+  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json", "selenium", "webdriver_manager")
+)
+source_python("scrape.py")
+```
+
+## Packages
+
+```{r}
+#|: installing-necessary-pkgs
+# only run code below once
+# uncomment with ctrl-shift-c/cmd-shift-c
+
+# install.packages("tidyverse")
+# install.packages("tidymodels")
+# install.packages("writexl")
+# install.packages("readxl")
+# install.packages("lubridate")
+# install.packages("wbstats") # for country GDP and total-export stats from World Bank
+# install.packages("reticulate") # for running python stuff
+# install.packages("tempdisagg") # for freq conv
+# install.packages("tsbox") # for time-series visualizations
+# install.packages("zoo") # also for freq conv
+# install.packages("Hmisc") # date manipulations 
+# install.packages("plyr")
+# install.packages("hrbrthemes")
+```
+
+```{r}
+#|: loading-pkgs
+
+library(tidyverse) 
+library(tidymodels)
+library(writexl)
+library(readxl)
+library(lubridate)
+library(wbstats)
+library(reticulate)
+library(tempdisagg) 
+library(tsbox) 
+library(zoo)
+library(Hmisc)
+library(data.table)
+library(plyr)
+library(hrbrthemes)
+```
