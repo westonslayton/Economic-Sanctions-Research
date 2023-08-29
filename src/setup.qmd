@@ -4,21 +4,6 @@ format: html
 editor: visual
 ---
 
-## Virtual Environment
-
-```{r message = FALSE}
-#|: creating-virtual-env-and-installing-python-pkgs
-
-virtualenv_create("my_environment")
-Sys.setenv(RETICULATE_PYTHON = virtualenv_python("my_environment"))
-use_virtualenv("my_environment")
-virtualenv_install(
-  "my_environment",
-  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json", "selenium", "webdriver_manager")
-)
-source_python("scrape.py")
-```
-
 ## Packages
 
 ```{r}
@@ -41,7 +26,7 @@ source_python("scrape.py")
 # install.packages("hrbrthemes")
 ```
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 #|: loading-pkgs
 
 library(tidyverse) 
@@ -58,4 +43,19 @@ library(Hmisc)
 library(data.table)
 library(plyr)
 library(hrbrthemes)
+```
+
+## Virtual Environment
+
+```{r message = FALSE}
+#|: creating-virtual-env-and-installing-python-pkgs
+
+virtualenv_create("my_environment")
+Sys.setenv(RETICULATE_PYTHON = virtualenv_python("my_environment"))
+use_virtualenv("my_environment")
+virtualenv_install(
+  "my_environment",
+  c("export_ease", "comtradeapicall", "pandas", "requests", "flatten_json", "selenium", "webdriver_manager")
+)
+source_python("scrape.py")
 ```
