@@ -331,7 +331,7 @@ merge <- function(pairs_monthly, pairs_annual, total_monthly, gdp) {
   pairs <- add_annual(pairs, pairs_annual)
   all_exports <- na.omit(left_join(pairs, total, by = c("reporter", "date")))
   gdp <- gdp |> mutate(gdp = gdp / 12) |> select(reporter, gdp)
-  all_exports <- na.omit(left_join(all_exports, gdp, by = "reporter")) |> 
+  all_exports <- na.omit(left_join(all_exports, gdp, by = "reporter")) |>
     relocate(date, reporter, total_exports, gdp, partner, partner_exports)
   return(all_exports)
 }

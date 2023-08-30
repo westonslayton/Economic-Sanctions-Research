@@ -12,8 +12,8 @@ editor: visual
 load_sanction <- function(sanctions) {
   path <- file.path(dirname(getwd()), "data", sanctions)
   sanction.list <- read_excel(path) # import the sanction list
-  sanction.list <- subset(sanction.list, select = -4) # for new sanction-list format
-  sanction.list$Details <- NULL #Remove column "details", not used for calculations
+  sanction.list$`TRA Good Type` <- NULL 
+  sanction.list$Details <- NULL # remove column "details", not used for calculations
   sanction.list$Date <- as.Date(sanction.list$Date)
   sanction.list <- na.omit(sanction.list) # remove rows with missing values
   return(sanction.list)
@@ -233,16 +233,15 @@ khi <- function(provide_beta, betas, sanctions, alphas, image_name, reporter, pa
 provide_beta <- TRUE # put FALSE if you want the khi function to calculate needed betas for you
 betas <- "austria_input.xlsx" # only needed if above is TRUE; provided file must be in data folder
 sanctions <- "sanction_list.xlsx" # provided list of sanctions
-
-# new example
-provide_beta <- FALSE
-sanctions <- "new_sanction_list.xlsx"
-
 alphas <- c(1, 10, 100, 1000, 3000)
 image_name <- "my_new_plot.png" # name of image to be saved
 reporter <- "United States" # only needed if provide_beta == FALSE
 partner <- "China" # only need if provide_beta == FALSE
 U <- 2190
+
+# new example
+provide_beta <- FALSE
+sanctions <- "new_sanction_list.xlsx"
 ```
 
 ```{r message = FALSE warning = FALSE}
