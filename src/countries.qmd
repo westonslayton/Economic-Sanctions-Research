@@ -60,6 +60,35 @@ scrape_yahoo <- function(url, file, num_obs) {
 ## Europe
 
 ```{r}
+
+#|: austria
+url = 'https://finance.yahoo.com/quote/%5EATX/history?p=%5EATX'
+file = "Austria.csv"
+num_obs =  NULL
+austria <- scrape_yahoo(url, file, num_obs)
+view(austria)
+
+#|: belgium
+url = 'https://finance.yahoo.com/quote/%5EBFX/history?p=%5EBFX'
+file = "Belgium.csv"
+num_obs =  NULL
+belgium <- scrape_yahoo(url, file, num_obs)
+view(belgium)
+
+#|: denmark
+url = 'https://finance.yahoo.com/quote/%5EOMXC25/history?p=%5EOMXC25'
+file = "Denmark.csv"
+num_obs =  NULL
+denmark <- scrape_yahoo(url, file, num_obs)
+view(denmark)
+
+#|: finland
+url = 'https://finance.yahoo.com/quote/%5EOMXH25/history?p=%5EOMXH25'
+file = "Finland.csv"
+num_obs =  NULL
+finland <- scrape_yahoo(url, file, num_obs)
+view(finland)
+
 #|: france
 
 # old way of webscraping
@@ -73,12 +102,18 @@ file = "scrape.csv"
 num_obs = 100
 france <- scrape_yahoo(url, file, num_obs)
 view(france)
+
+#|: germany
+url = 'https://finance.yahoo.com/quote/DAX/history?p=DAX'
+file = "Germany.csv"
+num_obs =  NULL
+germany <- scrape_yahoo(url, file, num_obs)
+view(germany)
 ```
 
 ## Oceania
 
 ```{r}
-
 ```
 
 ## North America

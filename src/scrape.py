@@ -77,6 +77,6 @@ def scrape(url, file, num_obs):
                 dict[key].pop(-1)
 
         df = pandas.DataFrame.from_dict(dict)
-        df.to_csv(os.path.join(directory, file))
+        df.to_csv(os.path.join(directory, 'data', file))
 
     driver.quit()
